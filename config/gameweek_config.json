@@ -1,6 +1,11 @@
-﻿{
+{
   "google_auth": {
     "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
+    "authorized_users": [
+      "avi.bomb@gmail.com",
+      "avi.bomb1@gmail.com",
+      "irishguybusiness@gmail.com"
+    ],
     "authorized_users_sha256": [
       "314ee50e4f08af46941d1a76ed0f43428671e8d1a66da07f29e9f8c84ff53293",
       "acaf4abc2ce7b0cca0e5c1fa12744d08a1a0c4f70c555cb84acf25703c0e3e10",
@@ -273,34 +278,34 @@
           "id": 3,
           "home": "Everton",
           "away": "Crystal Palace",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 2,
+          "away_act": 0,
           "kickoff": "2026-08-22T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 68
+          "minutes": 90
         },
         {
           "id": 5,
           "home": "Ipswich Town",
           "away": "Sunderland",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 2,
+          "away_act": 1,
           "kickoff": "2026-08-22T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 70
+          "minutes": 90
         },
         {
           "id": 6,
           "home": "Nottingham Forest",
           "away": "Leeds United",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 0,
+          "away_act": 1,
           "kickoff": "2026-08-22T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 71
+          "minutes": 90
         },
         {
           "id": 2,

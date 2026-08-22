@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premier League Predictions | Enterprise Admin Hub</title>
+    <title>The Irish Guy Premier League Tracker | Admin Hub</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <style>
@@ -253,8 +253,8 @@
             <div class="auth-icon">
                 <svg width="34" height="34" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.63-.06-1.25-.16-1.84H9v3.49h4.84a4.14 4.14 0 0 1-1.8 2.71v2.26h2.92c1.71-1.57 2.68-3.89 2.68-6.62z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.71H.96v2.33C2.44 15.98 5.48 18 9 18z"/><path fill="#FBBC05" d="M3.97 10.71A5.4 5.4 0 0 1 3.69 9c0-.6.1-1.18.28-1.71V4.96H.96A8.99 8.99 0 0 0 0 9c0 1.45.35 2.82.96 4.04l3.01-2.33z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.51.45 3.44 1.35l2.58-2.59C13.46.89 11.43 0 9 0 5.48 0 2.44 2.02.96 4.96l3.01 2.33c.71-2.13 2.69-3.71 5.03-3.71z"/></svg>
             </div>
-            <h2>Admin Portal Access</h2>
-            <p class="auth-subtitle">Protected by Google Cloud OAuth 2.0. Only Google accounts authorized in your Google Cloud Project can access the administrative portal.</p>
+            <h2>☘️ The Irish Guy Admin Portal</h2>
+            <p class="auth-subtitle">Official Management Portal for <b>@theirishguy2494</b> &amp; <b>@TheIrishGuyExtra</b>.<br>Protected by Google Cloud OAuth 2.0.</p>
 
             <!-- Prominent Google Sign-In Button -->
             <button class="btn-google-sign-in" onclick="startGoogleAuthFlow()">
@@ -281,8 +281,8 @@
         <div class="admin-header">
             <div class="admin-title-row">
                 <div class="admin-title">
-                    <h1>Premier League Admin Portal</h1>
-                    <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 2px;">Google Cloud Authenticated Administrator</p>
+                    <h1>☘️ The Irish Guy Admin Portal</h1>
+                    <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 2px;">Official Prediction League Manager for <a href="https://www.youtube.com/@theirishguy2494" target="_blank" style="color: #00ff87; text-decoration: none; font-weight: 700;">@theirishguy2494</a> &amp; <a href="https://www.youtube.com/@TheIrishGuyExtra" target="_blank" style="color: #04f5ff; text-decoration: none; font-weight: 700;">@TheIrishGuyExtra</a></p>
                 </div>
                 <!-- Intuitive Active Gameweek Dropdown Selector in Header -->
                 <div class="header-gw-switcher">
@@ -524,6 +524,11 @@
         let currentConfig = {
             "google_auth": {
                 "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
+                "authorized_users": [
+                    "avi.bomb@gmail.com",
+                    "avi.bomb1@gmail.com",
+                    "irishguybusiness@gmail.com"
+                ],
                 "authorized_users_sha256": [
                     "314ee50e4f08af46941d1a76ed0f43428671e8d1a66da07f29e9f8c84ff53293",
                     "acaf4abc2ce7b0cca0e5c1fa12744d08a1a0c4f70c555cb84acf25703c0e3e10",
@@ -762,37 +767,63 @@
             if (!container) return;
             const authObj = currentConfig.google_auth || {};
             const hashes = authObj.authorized_users_sha256 || [];
-            const plainUsers = authObj.authorized_users || [];
+            let plainUsers = authObj.authorized_users || [];
+
+            // Ensure known default admins are included in plain users list
+            const defaultAdmins = ["avi.bomb@gmail.com", "avi.bomb1@gmail.com", "irishguybusiness@gmail.com"];
+            defaultAdmins.forEach(e => {
+                if (!plainUsers.map(u => u.toLowerCase()).includes(e)) {
+                    plainUsers.push(e);
+                }
+            });
+            authObj.authorized_users = plainUsers;
 
             const activeUserEmail = (sessionStorage.getItem('pl_admin_active_user') || '').trim().toLowerCase();
             const activeUserHash = activeUserEmail ? await sha256Hex(activeUserEmail) : '';
 
             let badgeHtml = '';
+            const processedEmails = new Set();
+            const processedHashes = new Set();
 
-            for (let idx = 0; idx < hashes.length; idx++) {
-                const hash = hashes[idx];
-                const isMe = hash === activeUserHash;
-                const shortHash = hash.substring(0, 8) + '...' + hash.substring(hash.length - 6);
-                const label = isMe ? `🔒 Active Admin (${escapeHtml(activeUserEmail)})` : `🔒 Admin #${idx + 1} (SHA-256: ${shortHash})`;
+            // Render plain email users
+            for (let idx = 0; idx < plainUsers.length; idx++) {
+                const email = plainUsers[idx].trim().toLowerCase();
+                if (processedEmails.has(email)) continue;
+                processedEmails.add(email);
+
+                const emailHash = await sha256Hex(email);
+                processedHashes.add(emailHash);
+
+                const isMe = email === activeUserEmail || emailHash === activeUserHash;
+                const label = isMe ? `🔒 Active Admin (${escapeHtml(email)})` : `🔒 Admin (${escapeHtml(email)})`;
 
                 badgeHtml += `
                     <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0,255,135,0.12); border: 1px solid rgba(0,255,135,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">
                         <span>${label}</span>
-                        ${(hashes.length + plainUsers.length) > 1 ? `<button onclick="confirmRemoveAdmin('${escapeHtml(hash)}', true)" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>` : ''}
+                        ${(plainUsers.length + hashes.length) > 1 ? `<button onclick="confirmRemoveAdmin('${escapeHtml(email)}', false)" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>` : ''}
                     </span>
                 `;
             }
 
-            plainUsers.forEach((user, idx) => {
+            // Render remaining standalone hashes if any exist
+            for (let idx = 0; idx < hashes.length; idx++) {
+                const hash = hashes[idx];
+                if (processedHashes.has(hash)) continue;
+                processedHashes.add(hash);
+
+                const isMe = hash === activeUserHash;
+                const shortHash = hash.substring(0, 8) + '...' + hash.substring(hash.length - 6);
+                const label = isMe ? `🔒 Active Admin (${escapeHtml(activeUserEmail)})` : `🔒 Authorized Admin (Hash: ${shortHash})`;
+
                 badgeHtml += `
-                    <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(255,180,0,0.12); border: 1px solid rgba(255,180,0,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">
-                        <span>🔒 Legacy Admin (${escapeHtml(user)})</span>
-                        <button onclick="confirmRemoveAdmin('${escapeHtml(user)}', false)" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>
+                    <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0,255,135,0.12); border: 1px solid rgba(0,255,135,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">
+                        <span>${label}</span>
+                        <button onclick="confirmRemoveAdmin('${escapeHtml(hash)}', true)" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>
                     </span>
                 `;
-            });
+            }
 
-            container.innerHTML = badgeHtml || '<span style="color: var(--text-muted); font-size: 0.88rem;">No authorized admin hashes configured.</span>';
+            container.innerHTML = badgeHtml || '<span style="color: var(--text-muted); font-size: 0.88rem;">No authorized admin accounts configured.</span>';
         }
 
         async function addAuthorizedAdmin() {
@@ -803,22 +834,24 @@
                 return;
             }
             if (!currentConfig.google_auth) currentConfig.google_auth = {};
+            if (!currentConfig.google_auth.authorized_users) currentConfig.google_auth.authorized_users = [];
             if (!currentConfig.google_auth.authorized_users_sha256) currentConfig.google_auth.authorized_users_sha256 = [];
 
             const hash = await sha256Hex(email);
-            if (currentConfig.google_auth.authorized_users_sha256.includes(hash)) {
-                alert('This account is already authorized (SHA-256 security hash matched).');
+            if (currentConfig.google_auth.authorized_users.includes(email) || currentConfig.google_auth.authorized_users_sha256.includes(hash)) {
+                alert('This account is already authorized.');
                 return;
             }
 
+            currentConfig.google_auth.authorized_users.push(email);
             currentConfig.google_auth.authorized_users_sha256.push(hash);
             input.value = '';
             await renderAuthorizedAdmins();
 
-            showLoadingSpinner("Adding Administrator", "Generating SHA-256 security hash and updating authorized access control matrix...");
+            showLoadingSpinner("Adding Administrator", "Updating authorized access control matrix...");
             await syncConfigToServer();
             hideLoadingSpinner();
-            showToast(`✅ Added administrator (SHA-256 Hash: ${hash.substring(0, 8)}...).`);
+            showToast(`✅ Added administrator: ${email}`);
         }
 
         let pendingRemoveTarget = null;
@@ -852,10 +885,20 @@
             closeConfirmModal();
             if (!target) return;
 
-            if (isHash && currentConfig.google_auth?.authorized_users_sha256) {
-                currentConfig.google_auth.authorized_users_sha256 = currentConfig.google_auth.authorized_users_sha256.filter(h => h !== target);
-            } else if (!isHash && currentConfig.google_auth?.authorized_users) {
-                currentConfig.google_auth.authorized_users = currentConfig.google_auth.authorized_users.filter(u => u !== target);
+            const authObj = currentConfig.google_auth || {};
+            if (!isHash) {
+                const targetEmail = target.trim().toLowerCase();
+                const targetHash = await sha256Hex(targetEmail);
+                if (authObj.authorized_users) {
+                    authObj.authorized_users = authObj.authorized_users.filter(u => u.trim().toLowerCase() !== targetEmail);
+                }
+                if (authObj.authorized_users_sha256) {
+                    authObj.authorized_users_sha256 = authObj.authorized_users_sha256.filter(h => h !== targetHash);
+                }
+            } else {
+                if (authObj.authorized_users_sha256) {
+                    authObj.authorized_users_sha256 = authObj.authorized_users_sha256.filter(h => h !== target);
+                }
             }
 
             await renderAuthorizedAdmins();

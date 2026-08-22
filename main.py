@@ -38,7 +38,7 @@ def load_gameweek_configuration(target_gw: Optional[int] = None) -> Tuple[int, L
     """Reads active gameweek, fixtures, and target URLs from config/gameweek_config.json."""
     if os.path.exists(CONFIG_PATH):
         try:
-            with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+            with open(CONFIG_PATH, "r", encoding="utf-8-sig") as f:
                 cfg = json.load(f)
                 active_gw = target_gw if target_gw is not None else cfg.get("active_gameweek", 1)
                 
@@ -169,7 +169,7 @@ def process_gameweek_data(gw_num: int, use_live_api: bool, admin_approvals: Dict
     # Sync live fixtures back to config/gameweek_config.json
     if fixtures and os.path.exists(CONFIG_PATH):
         try:
-            with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+            with open(CONFIG_PATH, "r", encoding="utf-8-sig") as f:
                 cfg = json.load(f)
             if "gameweeks" not in cfg:
                 cfg["gameweeks"] = {}

@@ -28,7 +28,7 @@ def generate_live_dashboard(
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premier League 2026/27 | Live Predictions Hub</title>
+    <title>The Irish Guy Premier League Predictions | Live Hub</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {{
@@ -180,10 +180,10 @@ def generate_live_dashboard(
         <!-- Header -->
         <div class="pl-header">
             <div class="pl-logo-area">
-                <div class="pl-lion-icon">⚽</div>
+                <div class="pl-lion-icon" style="background: linear-gradient(135deg, #00f076, #00b0ff); box-shadow: 0 0 20px rgba(0, 240, 118, 0.4);">☘️</div>
                 <div>
-                    <h1>Premier League 2026/27 Predictions</h1>
-                    <p class="subtitle">Official Real-Time NLP Tracker & Multi-Week Standings (GMT Timezone Aligned)</p>
+                    <h1>The Irish Guy Premier League Predictions</h1>
+                    <p class="subtitle">Official Prediction League &amp; Live NLP Tracker for <a href="https://www.youtube.com/@theirishguy2494" target="_blank" style="color: var(--pl-green); text-decoration: none; font-weight: 700;">@theirishguy2494</a> &amp; <a href="https://www.youtube.com/@TheIrishGuyExtra" target="_blank" style="color: var(--pl-cyan); text-decoration: none; font-weight: 700;">@TheIrishGuyExtra</a></p>
                 </div>
             </div>
             <div class="header-actions">
@@ -191,6 +191,33 @@ def generate_live_dashboard(
                 </select>
                 <div class="pl-badge" id="header-scope-badge">Gameweek {active_gw} Live Hub</div>
                 <a href="admin.html" class="btn-admin-portal" title="Admin Score & Video Management">⚙️ Admin Portal</a>
+            </div>
+        </div>
+
+        <!-- The Irish Guy Channel Hub Banner -->
+        <div class="irish-guy-banner" style="background: linear-gradient(135deg, rgba(0, 50, 25, 0.85), rgba(27, 0, 34, 0.95)); border: 1px solid rgba(0, 255, 135, 0.4); border-radius: 18px; padding: 18px 24px; margin-bottom: 24px; backdrop-filter: blur(12px); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5), inset 0 0 20px rgba(0,255,135,0.08);">
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <div style="width: 52px; height: 52px; background: radial-gradient(circle, #00ff87 0%, #004d25 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; border: 2px solid #00ff87; box-shadow: 0 0 18px rgba(0, 255, 135, 0.4);">
+                    ☘️
+                </div>
+                <div>
+                    <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                        <span style="font-size: 1.25rem; font-weight: 900; color: #fff;">The Irish Guy Predictions League</span>
+                        <span style="background: linear-gradient(135deg, #00ff87, #04f5ff); color: #000; padding: 3px 10px; border-radius: 99px; font-weight: 800; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">Official YouTube Hub</span>
+                    </div>
+                    <p style="font-size: 0.88rem; color: #bda8c4; margin-top: 4px;">
+                        Built exclusively for <b>The Irish Guy</b> YouTube Community! Predict match scores in YouTube comments on his channels to compete on the live leaderboard.
+                    </p>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                <a href="https://www.youtube.com/@theirishguy2494" target="_blank" style="background: #ff0000; color: #fff; padding: 9px 16px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s ease; box-shadow: 0 4px 15px rgba(255,0,0,0.3);">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.016 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    The Irish Guy (@theirishguy2494)
+                </a>
+                <a href="https://www.youtube.com/@TheIrishGuyExtra" target="_blank" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 9px 16px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s ease;">
+                    ⚡ @TheIrishGuyExtra
+                </a>
             </div>
         </div>
 
@@ -287,6 +314,11 @@ def generate_live_dashboard(
                 <tbody id="audit-body"></tbody>
             </table>
         </div>
+
+        <!-- Footer -->
+        <footer style="margin-top: 40px; padding: 24px 0; border-top: 1px solid var(--pl-border); text-align: center; color: var(--text-muted); font-size: 0.88rem;">
+            <p>☘️ Built for <b>The Irish Guy</b> Premier League Prediction Community (<a href="https://www.youtube.com/@theirishguy2494" target="_blank" style="color: #00ff87; text-decoration: none; font-weight: 700;">@theirishguy2494</a> &amp; <a href="https://www.youtube.com/@TheIrishGuyExtra" target="_blank" style="color: #04f5ff; text-decoration: none; font-weight: 700;">@TheIrishGuyExtra</a>) &bull; Premier League 2026/27 Live Score Tracker</p>
+        </footer>
     </div>
 
     <!-- Inspector Modal -->
