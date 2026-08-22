@@ -1,6 +1,6 @@
 {
   "google_auth": {
-    "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+    "client_id": "325129670603-n373v492a54q8g2ov3c9j7v2k8l5vj5g.apps.googleusercontent.com",
     "authorized_users_sha256": [
       "314ee50e4f08af46941d1a76ed0f43428671e8d1a66da07f29e9f8c84ff53293",
       "acaf4abc2ce7b0cca0e5c1fa12744d08a1a0c4f70c555cb84acf25703c0e3e10",
@@ -278,7 +278,7 @@
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 45
+          "minutes": 53
         },
         {
           "id": 5,
@@ -289,7 +289,7 @@
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 45
+          "minutes": 56
         },
         {
           "id": 6,
@@ -300,7 +300,7 @@
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 44
+          "minutes": 55
         },
         {
           "id": 2,
