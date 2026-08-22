@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League Predictions | Enterprise Admin Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <style>
+        :root {
+            --pl-purple: #38003c;
+            --pl-dark: #14001a;
+            --pl-bg: #09000d;
+            --pl-card: rgba(43, 6, 49, 0.92);
+            --pl-card-inner: rgba(22, 1, 26, 0.82);
+            --pl-border: rgba(255, 255, 255, 0.12);
+            --pl-green: #00ff87;
+            --pl-green-glow: rgba(0, 255, 135, 0.25);
+            --pl-pink: #e90052;
+            --pl-pink-glow: rgba(233, 0, 82, 0.25);
+            --pl-gold: #ffb800;
+            --pl-cyan: #04f5ff;
+            --google-blue: #4285f4;
+            --text-main: #ffffff;
+            --text-muted: #b8a6be;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Outfit', sans-serif; }
+        body { background: radial-gradient(circle at top right, #35013c 0%, var(--pl-bg) 70%); color: var(--text-main); min-height: 100vh; padding: 32px 20px; }
+        .container { max-width: 1320px; margin: 0 auto; }
+
+        /* Security Gate */
+        #auth-gate { position: fixed; inset: 0; background: rgba(9, 0, 13, 0.98); z-index: 1000; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(20px); }
+        .auth-card { background: var(--pl-card); border: 1px solid var(--pl-border); border-radius: 24px; padding: 48px 40px; max-width: 490px; width: 92%; text-align: center; box-shadow: 0 24px 70px rgba(0,0,0,0.85); position: relative; }
+        .auth-icon { width: 64px; height: 64px; background: #ffffff; border-radius: 18px; display: flex; align-items: center; justify-content: center; margin: 0 auto 18px; box-shadow: 0 8px 25px rgba(255, 255, 255, 0.25); }
+        .auth-card h2 { font-size: 1.85rem; font-weight: 900; margin-bottom: 8px; }
+        .auth-subtitle { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 26px; line-height: 1.45; }
+
+        .btn-google-sign-in { display: flex; align-items: center; justify-content: center; gap: 14px; width: 100%; padding: 16px 20px; background: #ffffff; color: #1f1f1f; border-radius: 14px; font-weight: 800; font-size: 1.05rem; border: none; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 4px 20px rgba(255,255,255,0.2); }
+        .btn-google-sign-in:hover { background: #f8f9fa; transform: translateY(-2px); box-shadow: 0 8px 25px rgba(255,255,255,0.3); }
+        .btn-back-public { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; color: var(--text-muted); text-decoration: none; font-size: 0.88rem; font-weight: 700; transition: 0.2s; }
+        .btn-back-public:hover { color: var(--pl-green); }
+
+        .auth-loading { display: none; align-items: center; justify-content: center; gap: 10px; color: var(--pl-green); font-weight: 700; font-size: 0.9rem; margin-top: 18px; }
+        .spinner { width: 18px; height: 18px; border: 2px solid rgba(0,255,135,0.3); border-top-color: var(--pl-green); border-radius: 50%; animation: spin 0.8s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .auth-msg { margin-top: 18px; font-size: 0.88rem; font-weight: 700; display: none; line-height: 1.4; padding: 12px 16px; border-radius: 10px; text-align: left; }
+        .msg-err { background: rgba(233, 0, 82, 0.15); color: var(--pl-pink); border: 1px solid rgba(233, 0, 82, 0.3); }
+
+        /* Header Navigation */
+        .admin-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; padding-bottom: 18px; border-bottom: 1px solid var(--pl-border); flex-wrap: wrap; gap: 16px; }
+        .admin-title-row { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+        .admin-title h1 { font-size: 2.1rem; font-weight: 900; background: linear-gradient(135deg, #ffffff, var(--pl-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        /* Header Gameweek Switcher Dropdown */
+        .header-gw-switcher { display: inline-flex; align-items: center; gap: 10px; background: rgba(0, 0, 0, 0.45); border: 1px solid rgba(0, 255, 135, 0.35); padding: 6px 14px; border-radius: 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
+        .header-gw-label { font-size: 0.78rem; font-weight: 800; color: var(--pl-green); text-transform: uppercase; letter-spacing: 0.8px; display: flex; align-items: center; gap: 6px; }
+        .header-gw-select { background: var(--pl-card-inner); border: 1px solid var(--pl-border); color: #fff; font-size: 0.95rem; font-weight: 800; padding: 6px 12px; border-radius: 10px; outline: none; cursor: pointer; transition: all 0.2s ease; }
+        .header-gw-select:focus { border-color: var(--pl-green); box-shadow: 0 0 12px var(--pl-green-glow); }
+        .header-gw-select option { background: #1a0122; color: #fff; }
+
+        .session-info-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+        .user-pill { background: rgba(66, 133, 244, 0.2); border: 1px solid rgba(66, 133, 244, 0.4); color: #93c5fd; padding: 6px 14px; border-radius: 99px; font-size: 0.82rem; font-weight: 700; font-family: 'JetBrains Mono', monospace; display: inline-flex; align-items: center; gap: 8px; }
+        .user-avatar-img { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; border: 1px solid var(--pl-green); }
+        .inactivity-badge { background: rgba(255, 184, 0, 0.15); border: 1px solid rgba(255, 184, 0, 0.3); color: var(--pl-gold); padding: 6px 12px; border-radius: 99px; font-size: 0.78rem; font-weight: 700; font-family: 'JetBrains Mono', monospace; }
+        .btn-nav { background: rgba(255,255,255,0.08); border: 1px solid var(--pl-border); color: #fff; padding: 10px 18px; border-radius: 12px; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: 0.2s ease; }
+        .btn-nav:hover { background: rgba(255,255,255,0.18); border-color: var(--pl-green); }
+        .btn-leave { background: rgba(233, 0, 82, 0.15); border: 1px solid rgba(233, 0, 82, 0.3); color: #ff8ca3; }
+        .btn-leave:hover { background: var(--pl-pink); color: #fff; border-color: transparent; }
+
+        /* Top Admin Navigation Tabs */
+        .admin-nav-tabs { display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap; background: rgba(0,0,0,0.3); padding: 8px; border-radius: 16px; border: 1px solid var(--pl-border); }
+        .admin-tab-btn { background: transparent; border: 1px solid transparent; color: var(--text-muted); padding: 11px 20px; border-radius: 12px; font-size: 0.95rem; font-weight: 700; cursor: pointer; transition: 0.2s ease; display: flex; align-items: center; gap: 8px; }
+        .admin-tab-btn:hover { background: var(--pl-card); color: #fff; }
+        .admin-tab-btn.active { background: linear-gradient(135deg, var(--pl-green), var(--pl-cyan)); color: #000; font-weight: 800; border-color: transparent; box-shadow: 0 4px 16px var(--pl-green-glow); }
+
+        /* Panels */
+        .panel { background: var(--pl-card); border: 1px solid var(--pl-border); border-radius: 20px; padding: 26px; margin-bottom: 24px; backdrop-filter: blur(12px); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        .panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+        .panel-title { font-size: 1.25rem; font-weight: 800; color: var(--pl-green); display: flex; align-items: center; gap: 10px; }
+
+        .gw-scope-badge { background: linear-gradient(135deg, var(--pl-pink), var(--pl-purple)); color: #ffffff; padding: 4px 12px; border-radius: 99px; font-size: 0.8rem; font-weight: 900; letter-spacing: 0.5px; border: 1px solid rgba(255,255,255,0.25); }
+
+        /* Typo Review Queue Section */
+        .queue-toolbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; margin: 18px 0 14px; background: rgba(0,0,0,0.3); padding: 12px 16px; border-radius: 12px; border: 1px solid var(--pl-border); }
+        .queue-filters { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+        .btn-filter { background: rgba(255,255,255,0.06); border: 1px solid var(--pl-border); color: var(--text-muted); padding: 7px 14px; border-radius: 8px; font-weight: 700; font-size: 0.84rem; cursor: pointer; transition: 0.2s; }
+        .btn-filter.active { background: var(--pl-green); color: #000; border-color: var(--pl-green); }
+        .btn-filter-actioned { background: rgba(66, 133, 244, 0.15); border: 1px solid rgba(66, 133, 244, 0.3); color: #93c5fd; }
+        .btn-filter-actioned.active { background: #4285f4; color: #fff; border-color: #4285f4; }
+
+        .sort-select { background: var(--pl-card-inner); border: 1px solid var(--pl-border); color: #fff; padding: 6px 10px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; outline: none; }
+
+        /* Grouped User Review Card */
+        .user-review-card { background: var(--pl-card-inner); border: 1px solid var(--pl-border); border-radius: 16px; padding: 18px 20px; margin-bottom: 16px; transition: all 0.2s ease; }
+        .user-review-card:hover { border-color: rgba(0, 255, 135, 0.4); box-shadow: 0 6px 20px rgba(0,0,0,0.4); }
+        .user-card-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding-bottom: 14px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); margin-bottom: 14px; }
+        
+        .user-info-left { display: flex; align-items: center; gap: 12px; }
+        .user-avatar-tag { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--pl-green), var(--pl-cyan)); color: #000; font-weight: 900; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; }
+        .user-name-title { font-size: 1.1rem; font-weight: 800; color: #ffffff; }
+        .user-issue-count { background: rgba(255, 184, 0, 0.18); border: 1px solid rgba(255, 184, 0, 0.4); color: var(--pl-gold); padding: 3px 8px; border-radius: 6px; font-size: 0.76rem; font-weight: 800; }
+        .user-actioned-badge { background: rgba(0, 255, 135, 0.15); border: 1px solid rgba(0, 255, 135, 0.35); color: var(--pl-green); padding: 3px 8px; border-radius: 6px; font-size: 0.76rem; font-weight: 800; }
+
+        .user-actions-right { display: flex; align-items: center; gap: 8px; }
+        .btn-view-comment { background: rgba(255, 255, 255, 0.08); border: 1px solid var(--pl-border); color: #fff; padding: 6px 12px; border-radius: 8px; font-size: 0.8rem; font-weight: 700; cursor: pointer; transition: 0.15s; }
+        .btn-view-comment:hover { background: rgba(255, 255, 255, 0.2); border-color: var(--pl-cyan); color: var(--pl-cyan); }
+        .btn-batch-app { background: rgba(0, 255, 135, 0.2); border: 1px solid rgba(0, 255, 135, 0.4); color: var(--pl-green); padding: 6px 12px; border-radius: 8px; font-weight: 800; font-size: 0.8rem; cursor: pointer; transition: 0.15s; }
+        .btn-batch-app:hover { background: var(--pl-green); color: #000; }
+        .btn-batch-rej { background: rgba(233, 0, 82, 0.15); border: 1px solid rgba(233, 0, 82, 0.3); color: var(--pl-pink); padding: 6px 12px; border-radius: 8px; font-weight: 800; font-size: 0.8rem; cursor: pointer; transition: 0.15s; }
+        .btn-batch-rej:hover { background: var(--pl-pink); color: #fff; }
+
+        /* Items inside User Review Card */
+        .user-matches-list { display: flex; flex-direction: column; gap: 8px; }
+        .match-issue-item { display: grid; grid-template-columns: 2.2fr 2.4fr 100px 130px 180px; gap: 14px; align-items: center; padding: 12px 16px; background: rgba(0,0,0,0.35); border-radius: 12px; border: 1px solid rgba(255,255,255,0.06); }
+        @media (max-width: 1024px) { .match-issue-item { grid-template-columns: 1fr 1fr; gap: 10px; } }
+        @media (max-width: 640px) { .match-issue-item { grid-template-columns: 1fr; gap: 8px; } }
+
+        .conf-badge-high { background: rgba(0, 255, 135, 0.15); border: 1px solid rgba(0, 255, 135, 0.4); color: var(--pl-green); padding: 4px 8px; border-radius: 6px; font-size: 0.78rem; font-weight: 800; font-family: 'JetBrains Mono', monospace; display: inline-block; text-align: center; }
+        .conf-badge-med { background: rgba(255, 184, 0, 0.15); border: 1px solid rgba(255, 184, 0, 0.4); color: var(--pl-gold); padding: 4px 8px; border-radius: 6px; font-size: 0.78rem; font-weight: 800; font-family: 'JetBrains Mono', monospace; display: inline-block; text-align: center; }
+        
+        .status-pill { display: inline-flex; align-items: center; justify-content: center; padding: 5px 12px; border-radius: 99px; font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1; min-width: 110px; text-align: center; }
+        .status-pill-pending { background: rgba(255, 184, 0, 0.15); color: #ffd166; border: 1px solid rgba(255, 184, 0, 0.4); }
+        .status-pill-approved { background: rgba(0, 255, 135, 0.2); color: #00ff87; border: 1px solid rgba(0, 255, 135, 0.45); }
+        .status-pill-rejected { background: rgba(233, 0, 82, 0.18); color: #ff6b8b; border: 1px solid rgba(233, 0, 82, 0.4); }
+
+        .match-actions-btns { display: flex; align-items: center; justify-content: flex-end; gap: 8px; white-space: nowrap; }
+        .btn-action-app { display: inline-flex; align-items: center; justify-content: center; gap: 4px; background: rgba(0, 255, 135, 0.16); border: 1px solid rgba(0, 255, 135, 0.4); color: var(--pl-green); padding: 7px 14px; border-radius: 8px; font-weight: 800; font-size: 0.8rem; cursor: pointer; transition: all 0.15s ease; }
+        .btn-action-app:hover { background: var(--pl-green); color: #000; box-shadow: 0 2px 10px var(--pl-green-glow); }
+        .btn-action-rej { display: inline-flex; align-items: center; justify-content: center; gap: 4px; background: rgba(233, 0, 82, 0.14); border: 1px solid rgba(233, 0, 82, 0.35); color: #ff6b8b; padding: 7px 14px; border-radius: 8px; font-weight: 800; font-size: 0.8rem; cursor: pointer; transition: all 0.15s ease; }
+        .btn-action-rej:hover { background: var(--pl-pink); color: #fff; box-shadow: 0 2px 10px var(--pl-pink-glow); }
+
+        /* Tables & Aliases Matrix */
+        .aliases-table-card { background: var(--pl-card-inner); border: 1px solid var(--pl-border); border-radius: 16px; overflow: hidden; }
+        .aliases-table { width: 100%; border-collapse: collapse; text-align: left; }
+        .aliases-table th, .aliases-table td { padding: 16px 20px; border-bottom: 1px solid rgba(255,255,255,0.08); vertical-align: middle; }
+        .aliases-table th { background: rgba(0,0,0,0.45); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-weight: 800; }
+        .aliases-table tbody tr { transition: background 0.15s ease; }
+        .aliases-table tbody tr:hover { background: rgba(255,255,255,0.03); }
+
+        .alias-pill-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(0, 255, 135, 0.1); border: 1px solid rgba(0, 255, 135, 0.25); color: #fff; padding: 4px 10px; border-radius: 8px; font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; margin: 3px; transition: all 0.15s ease; }
+        .alias-pill-badge:hover { border-color: var(--pl-green); background: rgba(0, 255, 135, 0.18); }
+        .alias-remove-btn { background: none; border: none; color: #ff6b8b; cursor: pointer; font-weight: 900; font-size: 0.9rem; line-height: 1; padding: 0 2px; }
+        .alias-remove-btn:hover { color: #ff4d4f; transform: scale(1.2); }
+
+        .inline-add-group { display: flex; gap: 6px; align-items: center; max-width: 260px; }
+        .inline-add-input { padding: 8px 12px; background: rgba(0,0,0,0.4); border: 1px solid var(--pl-border); border-radius: 8px; color: #fff; font-size: 0.84rem; font-family: 'JetBrains Mono', monospace; outline: none; width: 100%; }
+        .inline-add-input:focus { border-color: var(--pl-green); }
+        .inline-add-btn { background: rgba(0,255,135,0.2); border: 1px solid rgba(0,255,135,0.4); color: var(--pl-green); padding: 8px 12px; border-radius: 8px; font-weight: 800; font-size: 0.8rem; cursor: pointer; white-space: nowrap; }
+        .inline-add-btn:hover { background: var(--pl-green); color: #000; }
+
+        /* Full Comment Modal */
+        .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(14px); z-index: 2000; display: none; align-items: center; justify-content: center; padding: 20px; }
+        .modal-content { background: var(--pl-card); border: 1px solid var(--pl-border); border-radius: 20px; max-width: 650px; width: 100%; padding: 30px; box-shadow: 0 20px 60px rgba(0,0,0,0.8); position: relative; max-height: 90vh; overflow-y: auto; }
+        .modal-close { position: absolute; top: 18px; right: 20px; font-size: 1.5rem; background: none; border: none; color: var(--text-muted); cursor: pointer; }
+        .modal-close:hover { color: #fff; }
+
+        /* Fullscreen Blur Loading Overlay */
+        .loading-overlay { position: fixed; inset: 0; background: rgba(9, 0, 13, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); z-index: 9999; display: none; align-items: center; justify-content: center; animation: fadeIn 0.2s ease; }
+        .loading-box { background: var(--pl-card); border: 1px solid var(--pl-border); border-radius: 24px; padding: 36px 44px; text-align: center; max-width: 440px; width: 90%; box-shadow: 0 20px 60px rgba(0,0,0,0.8), 0 0 30px var(--pl-green-glow); }
+        .pl-spinner-large { width: 56px; height: 56px; border: 4px solid rgba(0, 255, 135, 0.2); border-top-color: var(--pl-green); border-right-color: var(--pl-cyan); border-radius: 50%; margin: 0 auto 20px; animation: spin 0.8s linear infinite; }
+        .loading-title { font-size: 1.3rem; font-weight: 900; color: #ffffff; margin-bottom: 8px; }
+        .loading-subtitle { font-size: 0.88rem; color: var(--text-muted); line-height: 1.45; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* Toast notification */
+        .toast-notify { position: fixed; bottom: 24px; right: 24px; background: linear-gradient(135deg, var(--pl-green), var(--pl-cyan)); color: #000; padding: 14px 22px; border-radius: 12px; font-weight: 800; font-size: 0.92rem; box-shadow: 0 8px 30px rgba(0,0,0,0.6); display: none; z-index: 3000; animation: slideIn 0.3s ease; }
+        @keyframes slideIn { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+        /* Form Controls */
+        .controls-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; }
+        @media (max-width: 768px) { .controls-grid { grid-template-columns: 1fr; } }
+        .form-group { display: flex; flex-direction: column; gap: 8px; }
+        .form-label { font-size: 0.82rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px; }
+        .form-select, .form-input { width: 100%; padding: 12px 16px; background: var(--pl-card-inner); border: 1px solid var(--pl-border); border-radius: 12px; color: #fff; font-size: 0.95rem; font-weight: 600; outline: none; }
+        .form-select:focus, .form-input:focus { border-color: var(--pl-green); }
+        .form-select option { background: #1a0122; color: #fff; }
+
+        /* Fixture Alignment Table */
+        .fixture-header-row { display: grid; grid-template-columns: 4fr 90px 20px 90px 4fr 3fr 140px; gap: 12px; padding: 12px 18px; font-size: 0.76rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px; border-bottom: 1px solid var(--pl-border); margin-bottom: 10px; align-items: center; }
+        .fixture-edit-card { display: grid; grid-template-columns: 4fr 90px 20px 90px 4fr 3fr 140px; gap: 12px; padding: 14px 18px; background: var(--pl-card-inner); border: 1px solid var(--pl-border); border-radius: 14px; margin-bottom: 10px; align-items: center; transition: all 0.2s ease; }
+        .fixture-edit-card:hover { border-color: rgba(0, 255, 135, 0.4); background: rgba(35, 3, 42, 0.9); }
+
+        .team-name-home { text-align: right; font-weight: 700; font-size: 1rem; color: #ffffff; }
+        .team-name-away { text-align: left; font-weight: 700; font-size: 1rem; color: #ffffff; }
+        .score-divider { text-align: center; color: var(--text-muted); font-weight: 800; }
+        .score-box { width: 100%; padding: 10px; background: rgba(0,0,0,0.5); border: 1px solid var(--pl-border); border-radius: 10px; color: var(--pl-green); text-align: center; font-weight: 900; font-size: 1.25rem; font-family: 'JetBrains Mono', monospace; outline: none; }
+        .score-box:focus { border-color: var(--pl-green); box-shadow: 0 0 12px var(--pl-green-glow); }
+        .kickoff-badge { background: rgba(255, 255, 255, 0.06); border: 1px solid var(--pl-border); padding: 8px 12px; border-radius: 8px; font-size: 0.8rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; text-align: center; white-space: nowrap; }
+
+        .status-badge-ft { display: inline-flex; align-items: center; justify-content: center; background: rgba(0, 255, 135, 0.18); color: #00ff87; padding: 8px 14px; border-radius: 99px; font-size: 0.76rem; font-weight: 800; text-align: center; border: 1px solid rgba(0, 255, 135, 0.4); letter-spacing: 0.5px; }
+        .status-badge-up { display: inline-flex; align-items: center; justify-content: center; background: rgba(255, 184, 0, 0.15); color: #ffd166; padding: 8px 14px; border-radius: 99px; font-size: 0.76rem; font-weight: 800; text-align: center; border: 1px solid rgba(255, 184, 0, 0.35); letter-spacing: 0.5px; }
+
+        .actions-bar { display: flex; justify-content: flex-end; gap: 12px; margin-top: 20px; flex-wrap: wrap; }
+        .btn-action-save { padding: 12px 22px; background: rgba(255,255,255,0.08); border: 1px solid var(--pl-border); border-radius: 12px; color: #fff; font-weight: 800; font-size: 0.92rem; cursor: pointer; transition: 0.2s ease; }
+        .btn-action-save:hover { background: rgba(255,255,255,0.18); border-color: var(--pl-green); }
+        .btn-save-master { padding: 12px 26px; background: linear-gradient(135deg, var(--pl-green), var(--pl-cyan)); border: none; border-radius: 12px; color: #000; font-weight: 900; font-size: 0.95rem; cursor: pointer; box-shadow: 0 4px 20px var(--pl-green-glow); transition: 0.2s ease; }
+        .btn-save-master:hover { transform: translateY(-2px); box-shadow: 0 8px 25px var(--pl-green-glow); }
+    </style>
+</head>
+<body>
+
+    <div id="toast" class="toast-notify"></div>
+
+    <!-- Global Fullscreen Blurred Loading Overlay -->
+    <div id="global-loading-overlay" class="loading-overlay">
+        <div class="loading-box">
+            <div class="pl-spinner-large"></div>
+            <div class="loading-title" id="loading-title">Processing Operation</div>
+            <div class="loading-subtitle" id="loading-subtitle">Please wait while the server updates data and standings...</div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal for Removing Admin -->
+    <div id="confirm-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 480px; text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 12px;">⚠️</div>
+            <h3 id="confirm-title" style="font-size: 1.35rem; font-weight: 900; color: #fff; margin-bottom: 8px;">Confirm Removal</h3>
+            <p id="confirm-msg" style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.5; margin-bottom: 24px;">Are you sure you want to remove this administrator?</p>
+            <div style="display: flex; justify-content: center; gap: 14px;">
+                <button class="btn-action-save" onclick="closeConfirmModal()">Cancel</button>
+                <button class="btn-leave" style="padding: 10px 22px; border-radius: 12px; font-weight: 800; cursor: pointer;" id="confirm-action-btn">Confirm Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add New Club Modal -->
+    <div id="add-club-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 520px;">
+            <button class="modal-close" onclick="closeAddClubModal()">&times;</button>
+            <h3 style="font-size: 1.4rem; font-weight: 900; color: var(--pl-green); margin-bottom: 6px;">+ Add New Club & Aliases</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Add a new club name and recognized abbreviation aliases to the NLP recognition engine.</p>
+            
+            <div style="margin-bottom: 16px;">
+                <label class="form-label" style="margin-bottom: 6px; display: block;">Official Club Name</label>
+                <input type="text" id="new-club-name" class="form-input" placeholder="e.g. Luton Town">
+            </div>
+            <div style="margin-bottom: 22px;">
+                <label class="form-label" style="margin-bottom: 6px; display: block;">Initial Abbreviations (Comma Separated)</label>
+                <input type="text" id="new-club-aliases" class="form-input" placeholder="e.g. luton, hatters, lfc">
+            </div>
+
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button class="btn-action-save" onclick="closeAddClubModal()">Cancel</button>
+                <button class="btn-save-master" onclick="executeAddNewClub()">+ Add Club to Matrix</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Security Gate (100% Google Cloud OAuth Access Control) -->
+    <div id="auth-gate">
+        <div class="auth-card">
+            <div class="auth-icon">
+                <svg width="34" height="34" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.63-.06-1.25-.16-1.84H9v3.49h4.84a4.14 4.14 0 0 1-1.8 2.71v2.26h2.92c1.71-1.57 2.68-3.89 2.68-6.62z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.71H.96v2.33C2.44 15.98 5.48 18 9 18z"/><path fill="#FBBC05" d="M3.97 10.71A5.4 5.4 0 0 1 3.69 9c0-.6.1-1.18.28-1.71V4.96H.96A8.99 8.99 0 0 0 0 9c0 1.45.35 2.82.96 4.04l3.01-2.33z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.51.45 3.44 1.35l2.58-2.59C13.46.89 11.43 0 9 0 5.48 0 2.44 2.02.96 4.96l3.01 2.33c.71-2.13 2.69-3.71 5.03-3.71z"/></svg>
+            </div>
+            <h2>Admin Portal Access</h2>
+            <p class="auth-subtitle">Protected by Google Cloud OAuth 2.0. Only Google accounts authorized in your Google Cloud Project can access the administrative portal.</p>
+
+            <!-- Prominent Google Sign-In Button -->
+            <button class="btn-google-sign-in" onclick="startGoogleAuthFlow()">
+                <svg width="22" height="22" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.63-.06-1.25-.16-1.84H9v3.49h4.84a4.14 4.14 0 0 1-1.8 2.71v2.26h2.92c1.71-1.57 2.68-3.89 2.68-6.62z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.71H.96v2.33C2.44 15.98 5.48 18 9 18z"/><path fill="#FBBC05" d="M3.97 10.71A5.4 5.4 0 0 1 3.69 9c0-.6.1-1.18.28-1.71V4.96H.96A8.99 8.99 0 0 0 0 9c0 1.45.35 2.82.96 4.04l3.01-2.33z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.51.45 3.44 1.35l2.58-2.59C13.46.89 11.43 0 9 0 5.48 0 2.44 2.02.96 4.96l3.01 2.33c.71-2.13 2.69-3.71 5.03-3.71z"/></svg>
+                Sign in with Google
+            </button>
+
+            <a href="dashboard.html" class="btn-back-public">
+                &larr; Back to Public Dashboard
+            </a>
+
+            <div class="auth-loading" id="auth-loading">
+                <div class="spinner"></div>
+                <span>Validating Google authorization via OAuth 2.0 API...</span>
+            </div>
+
+            <div id="auth-err" class="auth-msg msg-err"></div>
+        </div>
+    </div>
+
+    <!-- Main Admin Container -->
+    <div class="container" id="admin-main" style="display: none;">
+        <!-- Header -->
+        <div class="admin-header">
+            <div class="admin-title-row">
+                <div class="admin-title">
+                    <h1>Premier League Admin Portal</h1>
+                    <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 2px;">Google Cloud Authenticated Administrator</p>
+                </div>
+                <!-- Intuitive Active Gameweek Dropdown Selector in Header -->
+                <div class="header-gw-switcher">
+                    <span class="header-gw-label">🏆 Active Gameweek:</span>
+                    <select id="header-gw-select" class="header-gw-select" onchange="syncGameweek(this.value)">
+                        <!-- Populated GW 1 to GW 38 -->
+                    </select>
+                </div>
+            </div>
+
+            <div class="session-info-bar">
+                <span class="inactivity-badge" id="session-timer-badge">⏱️ 15:00</span>
+                <span class="user-pill">
+                    <img id="active-user-avatar" class="user-avatar-img" src="" style="display:none;" alt="Avatar">
+                    <span id="active-user-display">Administrator</span>
+                </span>
+                <button class="btn-nav btn-leave" onclick="logoutAdmin('Returning to public dashboard.')" title="Sign out and return to Live Dashboard">📊 Public Dashboard &rarr;</button>
+                <button class="btn-nav" onclick="logoutAdmin('Signed out successfully.')">🔒 Sign Out</button>
+            </div>
+        </div>
+
+        <!-- Top Admin Navigation Tabs -->
+        <div class="admin-nav-tabs">
+            <button class="admin-tab-btn active" id="tab-btn-video" onclick="switchAdminTab('video')">
+                🎯 Active Gameweek & Video
+            </button>
+            <button class="admin-tab-btn" id="tab-btn-admins" onclick="switchAdminTab('admins')">
+                👥 Authorized Google Users
+            </button>
+            <button class="admin-tab-btn" id="tab-btn-typos" onclick="switchAdminTab('typos')">
+                🔍 Typo Review Hub
+            </button>
+            <button class="admin-tab-btn" id="tab-btn-scores" onclick="switchAdminTab('scores')">
+                ⚽ Match Scorelines
+            </button>
+            <button class="admin-tab-btn" id="tab-btn-aliases" onclick="switchAdminTab('aliases')">
+                🏷️ PL Club Aliases Matrix
+            </button>
+        </div>
+
+        <!-- TAB 1: Gameweek & Free-Text Video URL Section -->
+        <div class="panel" id="panel-video">
+            <div class="panel-header">
+                <div class="panel-title"><span>🎯</span> Active Gameweek Scope & Official YouTube Source</div>
+                <button class="btn-action-save" onclick="saveVideoAndSettingsOnly()">💾 Save Video & Gameweek</button>
+            </div>
+            <div class="controls-grid">
+                <div class="form-group">
+                    <label class="form-label">Active Gameweek Scope</label>
+                    <select id="gw-select" class="form-select" onchange="syncGameweek(this.value)">
+                        <!-- Dropdown: GW 1 to GW 38 -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Official YouTube Prediction Video URL (1 Video per Gameweek)</label>
+                    <input type="text" id="video-url-input" class="form-input" placeholder="https://www.youtube.com/watch?v=... (Paste YouTube link for this Gameweek)">
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: Dedicated Authorized Google Administrators Manager -->
+        <div class="panel" id="panel-admins" style="display: none;">
+            <div class="panel-header">
+                <div>
+                    <div class="panel-title"><span>👥</span> Authorized Google Administrators</div>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+                        Only verified Google accounts listed below are permitted to log into this Admin Portal. Changes take effect immediately without needing extra save steps.
+                    </p>
+                </div>
+            </div>
+            
+            <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--pl-border); border-radius: 16px; padding: 20px; margin-bottom: 20px;">
+                <label class="form-label" style="margin-bottom: 10px; display: block;">Current Authorized Google Accounts</label>
+                <div id="authorized-admins-badges" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--pl-border); border-radius: 16px; padding: 20px; max-width: 600px;">
+                <label class="form-label" style="margin-bottom: 8px; display: block;">Add New Authorized Google Account</label>
+                <div style="display: flex; gap: 10px;">
+                    <input type="email" id="new-admin-email-input" class="form-input" placeholder="Enter Google email (e.g. name@gmail.com)">
+                    <button class="btn-save-master" onclick="addAuthorizedAdmin()" style="white-space: nowrap;">+ Add Admin</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: Typo & Spelling Match Review Queue (Inbox -> Actioned Flow) -->
+        <div class="panel" id="panel-typos" style="display: none;">
+            <div class="panel-header">
+                <div>
+                    <div class="panel-title">
+                        <span>🔍</span> Typo & Spelling Match Review Hub
+                        <span class="gw-scope-badge" id="current-gw-badge">Gameweek 1</span>
+                        <span id="confidence-range-badge" style="font-size: 0.76rem; background: rgba(0,255,135,0.15); border: 1px solid rgba(0,255,135,0.3); color: var(--pl-green); padding: 2px 8px; border-radius: 6px; margin-left: 6px;">
+                            🎯 Confidence: 75% – 100%
+                        </span>
+                    </div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+                        Processed predictors automatically move out of <b>Needs Review</b> into <b>Already Actioned</b> so your inbox stays clean.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Queue Body -->
+            <div id="typo-panel-body">
+                <div class="queue-toolbar">
+                    <div class="queue-filters">
+                        <span style="font-size: 0.82rem; font-weight: 800; color: var(--text-muted);">VIEW:</span>
+                        <button class="btn-filter active" onclick="setQueueFilter('pending', this)">⏳ Needs Review (<span id="count-pending">0</span>)</button>
+                        <button class="btn-filter btn-filter-actioned" onclick="setQueueFilter('actioned', this)">📦 Already Actioned (<span id="count-actioned">0</span>)</button>
+                        <button class="btn-filter" onclick="setQueueFilter('approved', this)">✅ Approved (<span id="count-approved">0</span>)</button>
+                        <button class="btn-filter" onclick="setQueueFilter('rejected', this)">❌ Rejected (<span id="count-rejected">0</span>)</button>
+                        <button class="btn-filter" onclick="setQueueFilter('all', this)">All Items (<span id="count-all">0</span>)</button>
+                    </div>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <select id="queue-sort-select" class="sort-select" onchange="onSortChange()">
+                            <option value="conf_desc">Sort: Confidence (High &rarr; Low)</option>
+                            <option value="conf_asc">Sort: Confidence (Low &rarr; High)</option>
+                            <option value="name_asc">Sort: Predictor (A &rarr; Z)</option>
+                            <option value="issues_desc">Sort: Most Issues First</option>
+                        </select>
+                        <input type="text" id="queue-search" class="form-input" style="max-width: 220px; padding: 6px 12px; font-size: 0.84rem;" placeholder="Search predictor or text..." oninput="renderApprovalQueue()">
+                    </div>
+                </div>
+
+                <!-- Grouped Cards Container -->
+                <div id="grouped-user-queue-container" style="margin-top: 14px;">
+                    <!-- Populated dynamically -->
+                </div>
+
+                <div class="actions-bar" style="margin-top: 14px;">
+                    <button class="btn-action-save" onclick="saveTypoApprovalsOnly()">💾 Save Typo Approvals & Recalculate Scores</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 4: Fixture Results Editor -->
+        <div class="panel" id="panel-scores" style="display: none;">
+            <div class="panel-header">
+                <div>
+                    <div class="panel-title"><span>⚽</span> Official Match Scorelines (GMT Timezone)</div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+                        <span style="color: var(--pl-green);">●</span> Only score inputs are editable. Team names and GMT kickoff times are locked.
+                    </div>
+                </div>
+                <button class="btn-action-save" onclick="saveScoresOnly()">💾 Save Match Scores & Recalculate</button>
+            </div>
+
+            <!-- Alignment Header -->
+            <div class="fixture-header-row">
+                <span style="text-align: right;">HOME CLUB</span>
+                <span style="text-align: center;">GOALS</span>
+                <span></span>
+                <span style="text-align: center;">GOALS</span>
+                <span style="text-align: left;">AWAY CLUB</span>
+                <span style="text-align: center;">KICKOFF (GMT / UK)</span>
+                <span style="text-align: center;">MATCH STATUS</span>
+            </div>
+
+            <!-- Match Rows -->
+            <div id="fixtures-container"></div>
+
+            <!-- Master Action Bar -->
+            <div class="actions-bar" style="margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--pl-border);">
+                <button class="btn-save-master" onclick="saveAndExportAllConfig()">💾 Save All Changes & Recalculate Leaderboard</button>
+            </div>
+        </div>
+
+        <!-- TAB 5: Interactive Premier League Club Aliases & Abbreviations Tabular Matrix (20 Official Clubs) -->
+        <div class="panel" id="panel-aliases" style="display: none;">
+            <div class="panel-header">
+                <div>
+                    <div class="panel-title">
+                        <span>🏷️</span> Official Premier League Club Aliases Matrix
+                    </div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+                        When predictors use any of these recognized abbreviations or nicknames, scores are <b>automatically mapped & awarded instantly</b> with 100% exact recognition.
+                    </div>
+                </div>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn-action-save" onclick="openAddClubModal()">+ Add New Club</button>
+                    <button class="btn-save-master" onclick="saveAliasesToServer()">💾 Save Aliases & Update Mapping Matrix</button>
+                </div>
+            </div>
+
+            <!-- Aliases Toolbar -->
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+                <div style="display: flex; gap: 10px; align-items: center; flex: 1; max-width: 420px;">
+                    <input type="text" id="alias-search-input" class="form-input" placeholder="🔍 Filter club or abbreviation..." oninput="renderAliasesMatrix()">
+                </div>
+                <div id="aliases-summary-badge" style="background: rgba(0,255,135,0.12); border: 1px solid rgba(0,255,135,0.3); color: var(--pl-green); padding: 6px 14px; border-radius: 99px; font-weight: 800; font-size: 0.85rem;">
+                    20 Clubs &bull; 140+ Recognized Variants
+                </div>
+            </div>
+
+            <!-- Tabular Matrix Table -->
+            <div class="aliases-table-card">
+                <table class="aliases-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 240px;">Official Club Name</th>
+                            <th>Current Recognized Abbreviations & Aliases</th>
+                            <th style="width: 280px;">Add Abbreviation</th>
+                            <th style="width: 100px; text-align: center;">Reset</th>
+                        </tr>
+                    </thead>
+                    <tbody id="aliases-table-body">
+                        <!-- Populated dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Full Comment & Predictor Breakdown Modal -->
+    <div id="comment-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeCommentModal()">&times;</button>
+            <h3 id="modal-author-title" style="font-size: 1.4rem; font-weight: 900; color: var(--pl-green); margin-bottom: 6px;">@Predictor</h3>
+            <p id="modal-timestamp" style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 18px; font-family: 'JetBrains Mono', monospace;">Submitted at: -</p>
+
+            <div style="margin-bottom: 18px;">
+                <label style="display: block; font-size: 0.78rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">
+                    💬 Full Raw YouTube Comment Text:
+                </label>
+                <div id="modal-full-text" style="background: rgba(0,0,0,0.5); border: 1px solid var(--pl-border); border-radius: 12px; padding: 14px; font-size: 0.9rem; line-height: 1.5; white-space: pre-wrap; font-family: 'JetBrains Mono', monospace; color: #ffe082;"></div>
+            </div>
+
+            <div style="margin-bottom: 18px;">
+                <label style="display: block; font-size: 0.78rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">
+                    ✅ Other Exact Predictions Extracted from this Comment:
+                </label>
+                <div id="modal-other-preds" style="background: rgba(0,0,0,0.3); border: 1px solid var(--pl-border); border-radius: 12px; padding: 12px; font-size: 0.86rem; color: #fff;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // GLOBAL STATE & STORAGE
+        let currentConfig = {
+            "google_auth": {
+                "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
+                "authorized_users": ["avi.bomb@gmail.com"]
+            },
+            "active_gameweek": 1,
+            "registered_videos": {
+                "1": "https://www.youtube.com/watch?v=qtId_ahtv1E"
+            },
+            "team_aliases": {},
+            "gameweeks": {
+                "1": {
+                    "use_live_fpl_api": true,
+                    "video_url": "https://www.youtube.com/watch?v=qtId_ahtv1E",
+                    "fixtures": [
+                        {"id": 101, "home": "Arsenal", "away": "Coventry City", "home_act": 3, "away_act": 0, "kickoff": "2026-08-21T19:00:00Z", "finished": true},
+                        {"id": 102, "home": "Hull City", "away": "Manchester United", "home_act": null, "away_act": null, "kickoff": "2026-08-22T11:30:00Z", "finished": false},
+                        {"id": 103, "home": "Everton", "away": "Crystal Palace", "home_act": null, "away_act": null, "kickoff": "2026-08-22T14:00:00Z", "finished": false},
+                        {"id": 104, "home": "Ipswich Town", "away": "Sunderland", "home_act": null, "away_act": null, "kickoff": "2026-08-22T14:00:00Z", "finished": false},
+                        {"id": 105, "home": "Nottingham Forest", "away": "Leeds United", "home_act": null, "away_act": null, "kickoff": "2026-08-22T14:00:00Z", "finished": false},
+                        {"id": 106, "home": "Brentford", "away": "Tottenham Hotspur", "home_act": null, "away_act": null, "kickoff": "2026-08-22T14:00:00Z", "finished": false},
+                        {"id": 107, "home": "Brighton & Hove Albion", "away": "Aston Villa", "home_act": null, "away_act": null, "kickoff": "2026-08-22T16:30:00Z", "finished": false},
+                        {"id": 108, "home": "Manchester City", "away": "AFC Bournemouth", "home_act": null, "away_act": null, "kickoff": "2026-08-23T13:00:00Z", "finished": false},
+                        {"id": 109, "home": "Newcastle United", "away": "Liverpool", "home_act": null, "away_act": null, "kickoff": "2026-08-23T15:30:00Z", "finished": false},
+                        {"id": 110, "home": "Fulham", "away": "Chelsea", "home_act": null, "away_act": null, "kickoff": "2026-08-24T19:00:00Z", "finished": false}
+                    ]
+                }
+            }
+        };
+
+        let adminApprovals = JSON.parse(localStorage.getItem('pl_admin_approvals') || '{}');
+        let pendingCandidates = [];
+        let currentQueueFilter = 'pending'; // Default: "Needs Review"
+        let currentSortMode = 'conf_desc';
+        let pendingRemoveAdminEmail = null;
+
+        const INACTIVITY_TIMEOUT_MS = 15 * 60 * 1000; // 15 Minutes
+        let lastActivityTime = Date.now();
+        let timerInterval = null;
+
+        function showLoadingSpinner(title = "Processing Operation", subtitle = "Please wait while the server updates data and standings...") {
+            document.getElementById('loading-title').innerText = title;
+            document.getElementById('loading-subtitle').innerText = subtitle;
+            document.getElementById('global-loading-overlay').style.display = 'flex';
+        }
+
+        function hideLoadingSpinner() {
+            document.getElementById('global-loading-overlay').style.display = 'none';
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.innerText = msg;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3500);
+        }
+
+        function switchAdminTab(tabKey) {
+            document.querySelectorAll('.admin-tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(`tab-btn-${tabKey}`)?.classList.add('active');
+
+            const panelIds = ['video', 'admins', 'typos', 'scores', 'aliases'];
+            panelIds.forEach(p => {
+                const el = document.getElementById(`panel-${p}`);
+                if (el) el.style.display = (p === tabKey) ? 'block' : 'none';
+            });
+        }
+
+        async function loadApprovalCandidates() {
+            try {
+                const res = await fetch('data/pending_approvals.json');
+                if (res.ok) {
+                    pendingCandidates = await res.json();
+                }
+                const appRes = await fetch('data/admin_approvals.json');
+                if (appRes.ok) {
+                    const loadedApprovals = await appRes.json();
+                    adminApprovals = { ...loadedApprovals };
+                }
+            } catch(e) {
+                console.log("Note loading pending approvals:", e);
+            }
+            renderApprovalQueue();
+        }
+
+        async function loadServerConfig() {
+            try {
+                const res = await fetch(`config/gameweek_config.json?t=${Date.now()}`);
+                if (res.ok) {
+                    const loaded = await res.json();
+                    currentConfig = { ...currentConfig, ...loaded };
+                }
+            } catch(e) {
+                console.log("Using cached config:", e);
+            }
+        }
+
+        async function startGoogleAuthFlow() {
+            const loader = document.getElementById('auth-loading');
+            const err = document.getElementById('auth-err');
+            err.style.display = 'none';
+            loader.style.display = 'flex';
+
+            // Always load latest server configuration before initiating Google OAuth
+            await loadServerConfig();
+
+            const clientId = currentConfig.google_auth?.client_id || "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com";
+
+            if (window.google && google.accounts && google.accounts.oauth2) {
+                try {
+                    const client = google.accounts.oauth2.initTokenClient({
+                        client_id: clientId,
+                        scope: 'https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid',
+                        callback: async (tokenResponse) => {
+                            if (tokenResponse && tokenResponse.access_token) {
+                                try {
+                                    const userInfoRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+                                        headers: { 'Authorization': `Bearer ${tokenResponse.access_token}` }
+                                    });
+                                    if (userInfoRes.ok) {
+                                        const userInfo = await userInfoRes.json();
+                                        const email = (userInfo.email || '').toLowerCase().trim();
+                                        const name = userInfo.name || email;
+                                        const picture = userInfo.picture || '';
+                                        
+                                        // Refresh latest configuration from server to get freshly added admins
+                                        await loadServerConfig();
+
+                                        const allowedAdmins = (currentConfig.google_auth?.authorized_users || []).map(e => e.toLowerCase().trim());
+                                        if (allowedAdmins.length > 0 && !allowedAdmins.includes(email)) {
+                                            loader.style.display = 'none';
+                                            err.style.display = 'block';
+                                            err.innerHTML = `⛔ <b>Access Denied (403 Forbidden):</b><br>The Google account <code>${escapeHtml(email)}</code> is not registered as an authorized administrator. Please sign in with an authorized Google account.`;
+                                            return;
+                                        }
+
+                                        grantAccess(email, name, picture);
+                                    } else {
+                                        throw new Error("Could not retrieve Google profile.");
+                                    }
+                                } catch(e) {
+                                    loader.style.display = 'none';
+                                    err.style.display = 'block';
+                                    err.innerText = `Google Identity Verification Error: ${e.message}`;
+                                }
+                            } else if (tokenResponse && tokenResponse.error) {
+                                loader.style.display = 'none';
+                                err.style.display = 'block';
+                                err.innerHTML = `⛔ <b>Google Authorization Error (${escapeHtml(tokenResponse.error)}):</b><br>Account is not authorized under Google Cloud OAuth policy.`;
+                            } else {
+                                loader.style.display = 'none';
+                                err.style.display = 'block';
+                                err.innerText = "Google Sign-In was canceled.";
+                            }
+                        }
+                    });
+                    client.requestAccessToken({ prompt: 'select_account' });
+                    return;
+                } catch(e) {
+                    loader.style.display = 'none';
+                    err.style.display = 'block';
+                    err.innerText = `OAuth Client Initialization Error: ${e.message}`;
+                    return;
+                }
+            } else {
+                loader.style.display = 'none';
+                err.style.display = 'block';
+                err.innerText = "Google OAuth 2.0 SDK failed to load. Please check your internet connection or reload.";
+            }
+        }
+
+        async function grantAccess(email, displayName, pictureUrl) {
+            if (!email) {
+                logoutAdmin("Invalid Google session.");
+                return;
+            }
+
+            await loadServerConfig();
+
+            const allowedAdmins = (currentConfig.google_auth?.authorized_users || []).map(e => e.toLowerCase().trim());
+            const userEmail = email.toLowerCase().trim();
+            if (allowedAdmins.length > 0 && !allowedAdmins.includes(userEmail)) {
+                logoutAdmin("Unauthorized Google account.");
+                return;
+            }
+
+            sessionStorage.setItem('pl_admin_active_user', email);
+            sessionStorage.setItem('pl_admin_active_name', displayName || email);
+            sessionStorage.setItem('pl_admin_active_pic', pictureUrl || "");
+            sessionStorage.setItem('pl_admin_login_time', Date.now().toString());
+            
+            document.getElementById('auth-gate').style.display = 'none';
+            document.getElementById('admin-main').style.display = 'block';
+            document.getElementById('active-user-display').innerText = displayName ? `${displayName} (${email})` : email;
+            
+            if (pictureUrl) {
+                const avatarImg = document.getElementById('active-user-avatar');
+                avatarImg.src = pictureUrl;
+                avatarImg.style.display = 'inline-block';
+            }
+
+            initAdminView();
+            startInactivityMonitor();
+        }
+
+        function renderAuthorizedAdmins() {
+            const container = document.getElementById('authorized-admins-badges');
+            if (!container) return;
+            const admins = currentConfig.google_auth?.authorized_users || ["avi.bomb@gmail.com"];
+
+            container.innerHTML = admins.map(email => `
+                <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0,255,135,0.12); border: 1px solid rgba(0,255,135,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">
+                    <span>🔒 ${escapeHtml(email)}</span>
+                    ${admins.length > 1 ? `<button onclick="confirmRemoveAdmin('${escapeHtml(email)}')" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>` : ''}
+                </span>
+            `).join('');
+        }
+
+        async function addAuthorizedAdmin() {
+            const input = document.getElementById('new-admin-email-input');
+            const email = (input?.value || '').trim().toLowerCase();
+            if (!email || !email.includes('@')) {
+                alert('Please enter a valid Google email address.');
+                return;
+            }
+            if (!currentConfig.google_auth) currentConfig.google_auth = {};
+            if (!currentConfig.google_auth.authorized_users) currentConfig.google_auth.authorized_users = [];
+
+            if (currentConfig.google_auth.authorized_users.map(e => e.toLowerCase()).includes(email)) {
+                alert('This email is already in the authorized list.');
+                return;
+            }
+
+            currentConfig.google_auth.authorized_users.push(email);
+            input.value = '';
+            renderAuthorizedAdmins();
+
+            showLoadingSpinner("Adding Administrator", `Saving ${email} to authorized administrators list...`);
+            await syncConfigToServer();
+            hideLoadingSpinner();
+            showToast(`✅ Added ${email} to authorized administrators.`);
+        }
+
+        function confirmRemoveAdmin(email) {
+            if (!currentConfig.google_auth?.authorized_users) return;
+            if (currentConfig.google_auth.authorized_users.length <= 1) {
+                alert('You must keep at least one authorized administrator.');
+                return;
+            }
+            pendingRemoveAdminEmail = email;
+            document.getElementById('confirm-title').innerText = "Confirm Administrator Removal";
+            document.getElementById('confirm-msg').innerHTML = `Are you sure you want to remove <code>${escapeHtml(email)}</code> as an authorized administrator?<br>They will immediately lose access to the Admin Portal.`;
+            document.getElementById('confirm-action-btn').onclick = executeRemoveAdmin;
+            document.getElementById('confirm-modal').style.display = 'flex';
+        }
+
+        function closeConfirmModal() {
+            document.getElementById('confirm-modal').style.display = 'none';
+            pendingRemoveAdminEmail = null;
+        }
+
+        async function executeRemoveAdmin() {
+            const email = pendingRemoveAdminEmail;
+            closeConfirmModal();
+            if (!email) return;
+
+            currentConfig.google_auth.authorized_users = currentConfig.google_auth.authorized_users.filter(e => e.toLowerCase() !== email.toLowerCase());
+            renderAuthorizedAdmins();
+
+            showLoadingSpinner("Removing Administrator", `Updating authorized access control permissions...`);
+            await syncConfigToServer();
+            hideLoadingSpinner();
+            showToast(`✅ Removed ${email} from authorized administrators.`);
+        }
+
+        function startInactivityMonitor() {
+            lastActivityTime = Date.now();
+            const resetActivity = () => { lastActivityTime = Date.now(); };
+            ['mousemove', 'keydown', 'click', 'scroll', 'touchstart'].forEach(evt => {
+                window.addEventListener(evt, resetActivity, { passive: true });
+            });
+
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                const elapsed = Date.now() - lastActivityTime;
+                const remaining = Math.max(0, INACTIVITY_TIMEOUT_MS - elapsed);
+                const mins = Math.floor(remaining / 60000);
+                const secs = Math.floor((remaining % 60000) / 1000);
+                document.getElementById('session-timer-badge').innerText = `⏱️ ${mins}:${secs.toString().padStart(2, '0')}`;
+
+                if (elapsed >= INACTIVITY_TIMEOUT_MS) {
+                    logoutAdmin("Session expired due to 15 minutes of inactivity.");
+                }
+            }, 1000);
+        }
+
+        function logoutAdmin(reason = "Signed out successfully.") {
+            sessionStorage.removeItem('pl_admin_active_user');
+            sessionStorage.removeItem('pl_admin_active_name');
+            sessionStorage.removeItem('pl_admin_active_pic');
+            sessionStorage.removeItem('pl_admin_login_time');
+            if (timerInterval) clearInterval(timerInterval);
+
+            if (window.google && google.accounts && google.accounts.id) {
+                try { google.accounts.id.disableAutoSelect(); } catch(e) {}
+            }
+
+            window.location.href = "dashboard.html";
+        }
+
+        async function loadServerConfig() {
+            try {
+                const res = await fetch('config/gameweek_config.json');
+                if (res.ok) {
+                    const loaded = await res.json();
+                    currentConfig = { ...currentConfig, ...loaded };
+                }
+            } catch(e) {
+                console.log("Using cached config:", e);
+            }
+        }
+
+        async function initAdminView() {
+            await loadServerConfig();
+            loadApprovalCandidates();
+            renderAliasesMatrix();
+            renderAuthorizedAdmins();
+
+            // Populate both header dropdown and panel dropdown
+            const gwOptionsHtml = Array.from({length: 38}, (_, i) => i + 1).map(gw => `
+                <option value="${gw}">Gameweek ${gw} ${gw === currentConfig.active_gameweek ? '(Active)' : ''}</option>
+            `).join('');
+
+            const gwSelect = document.getElementById('gw-select');
+            if (gwSelect) gwSelect.innerHTML = gwOptionsHtml;
+
+            const headerGwSelect = document.getElementById('header-gw-select');
+            if (headerGwSelect) headerGwSelect.innerHTML = gwOptionsHtml;
+
+            syncGameweek(currentConfig.active_gameweek || 1);
+        }
+
+        function syncGameweek(gw) {
+            gw = parseInt(gw);
+            currentConfig.active_gameweek = gw;
+
+            const gwSelect = document.getElementById('gw-select');
+            if (gwSelect) gwSelect.value = gw;
+
+            const headerGwSelect = document.getElementById('header-gw-select');
+            if (headerGwSelect) headerGwSelect.value = gw;
+
+            document.getElementById('current-gw-badge').innerText = `Gameweek ${gw}`;
+            
+            const registeredUrl = (currentConfig.registered_videos && currentConfig.registered_videos[String(gw)]) || (currentConfig.gameweeks && currentConfig.gameweeks[String(gw)] && currentConfig.gameweeks[String(gw)].video_url) || "";
+            document.getElementById('video-url-input').value = registeredUrl;
+
+            const gwData = (currentConfig.gameweeks && currentConfig.gameweeks[String(gw)]) || { fixtures: [] };
+            renderFixtures(gwData.fixtures || []);
+            renderApprovalQueue();
+        }
+
+        function setQueueFilter(filterType, btn) {
+            currentQueueFilter = filterType;
+            document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderApprovalQueue();
+        }
+
+        function onSortChange() {
+            currentSortMode = document.getElementById('queue-sort-select').value;
+            renderApprovalQueue();
+        }
+
+        function renderApprovalQueue() {
+            const gw = parseInt(document.getElementById('gw-select').value || 1);
+            const gwKey = `GW_${gw}`;
+            const approvalsForGw = adminApprovals[gwKey] || {};
+
+            const searchVal = (document.getElementById('queue-search').value || '').toLowerCase().trim();
+            const container = document.getElementById('grouped-user-queue-container');
+
+            const userGroups = {};
+
+            pendingCandidates.filter(c => (c.gameweek === gw || (!c.gameweek && gw === 1)) && c.confidence >= 75).forEach(c => {
+                const userDecisions = approvalsForGw[c.author] || {};
+                const fixIdStr = String(c.fixture_id);
+                const currentStatus = userDecisions[fixIdStr]?.status || c.status || 'pending';
+                const candWithStatus = { ...c, status: currentStatus };
+
+                if (!userGroups[c.author]) {
+                    userGroups[c.author] = {
+                        author: c.author,
+                        published_at: c.published_at,
+                        full_comment: c.full_comment,
+                        other_predictions: c.other_predictions || {},
+                        candidates: [],
+                        max_confidence: 0
+                    };
+                }
+                userGroups[c.author].candidates.push(candWithStatus);
+                if (c.confidence > userGroups[c.author].max_confidence) {
+                    userGroups[c.author].max_confidence = c.confidence;
+                }
+            });
+
+            const userList = Object.values(userGroups);
+
+            let allUsersCount = userList.length;
+            let pendingUsersCount = 0;
+            let actionedUsersCount = 0;
+            let approvedUsersCount = 0;
+            let rejectedUsersCount = 0;
+
+            userList.forEach(u => {
+                const statuses = u.candidates.map(c => c.status);
+                const hasPending = statuses.includes('pending');
+                if (hasPending) {
+                    pendingUsersCount++;
+                } else {
+                    actionedUsersCount++;
+                }
+                if (statuses.every(s => s === 'approved')) approvedUsersCount++;
+                if (statuses.every(s => s === 'rejected')) rejectedUsersCount++;
+            });
+
+            document.getElementById('count-all').innerText = allUsersCount;
+            document.getElementById('count-pending').innerText = pendingUsersCount;
+            document.getElementById('count-actioned').innerText = actionedUsersCount;
+            document.getElementById('count-approved').innerText = approvedUsersCount;
+            document.getElementById('count-rejected').innerText = rejectedUsersCount;
+
+            let filteredUsers = userList.filter(u => {
+                if (searchVal) {
+                    const matchUser = u.author.toLowerCase().includes(searchVal);
+                    const matchText = u.full_comment.toLowerCase().includes(searchVal);
+                    const matchMatch = u.candidates.some(c => c.raw_line.toLowerCase().includes(searchVal) || c.detected_teams.toLowerCase().includes(searchVal));
+                    if (!matchUser && !matchText && !matchMatch) return false;
+                }
+
+                const statuses = u.candidates.map(c => c.status);
+                if (currentQueueFilter === 'pending') {
+                    return statuses.includes('pending');
+                } else if (currentQueueFilter === 'actioned') {
+                    return !statuses.includes('pending');
+                } else if (currentQueueFilter === 'approved') {
+                    return statuses.every(s => s === 'approved');
+                } else if (currentQueueFilter === 'rejected') {
+                    return statuses.every(s => s === 'rejected');
+                }
+                return true;
+            });
+
+            if (currentSortMode === 'conf_desc') {
+                filteredUsers.sort((a, b) => b.max_confidence - a.max_confidence);
+            } else if (currentSortMode === 'conf_asc') {
+                filteredUsers.sort((a, b) => a.max_confidence - b.max_confidence);
+            } else if (currentSortMode === 'name_asc') {
+                filteredUsers.sort((a, b) => a.author.localeCompare(b.author));
+            } else if (currentSortMode === 'issues_desc') {
+                filteredUsers.sort((a, b) => b.candidates.length - a.candidates.length);
+            }
+
+            if (filteredUsers.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px; color: var(--text-muted); background: var(--pl-card-inner); border-radius: 14px; border: 1px solid var(--pl-border);">
+                        <div style="font-size: 2.2rem; margin-bottom: 8px;">🎉</div>
+                        <div style="font-size: 1.1rem; font-weight: 800; color: var(--pl-green);">No Typo Review Items in this View</div>
+                        <div style="font-size: 0.85rem; margin-top: 4px;">All predictions for Gameweek ${gw} are in the Needs Review queue or actioned!</div>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = filteredUsers.map(user => {
+                const isUserFullyActioned = !user.candidates.some(c => c.status === 'pending');
+                const topConf = Math.round(user.max_confidence);
+
+                return `
+                    <div class="user-review-card">
+                        <div class="user-card-top">
+                            <div class="user-info-left">
+                                <div class="user-avatar-tag">${user.author.replace('@','').charAt(0).toUpperCase()}</div>
+                                <div>
+                                    <div class="user-name-title">${escapeHtml(user.author)}</div>
+                                    <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 2px;">
+                                        ${isUserFullyActioned ? '<span class="user-actioned-badge">✓ Actioned</span>' : `<span class="user-issue-count">${user.candidates.length} Item(s) to Review</span>`}
+                                        &bull; Top Conf: <b>${topConf}%</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-actions-right">
+                                <button class="btn-view-comment" onclick="openCommentModal('${escapeHtml(user.author)}')">
+                                    💬 View Full Comment & Context
+                                </button>
+                                <button class="btn-batch-app" onclick="batchDecisionUser('${escapeHtml(user.author)}', 'approved')">
+                                    ✓ Approve All For User
+                                </button>
+                                <button class="btn-batch-rej" onclick="batchDecisionUser('${escapeHtml(user.author)}', 'rejected')">
+                                    ✕ Reject All For User
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="user-matches-list">
+                            ${user.candidates.map(cand => {
+                                const conf = Math.round(cand.confidence);
+                                const confBadgeClass = conf >= 85 ? 'conf-badge-high' : 'conf-badge-med';
+                                const statusClass = `status-pill-${cand.status}`;
+                                const statusLabel = cand.status === 'approved' ? '✅ Approved' : (cand.status === 'rejected' ? '❌ Rejected' : '⏳ Pending');
+
+                                return `
+                                    <div class="match-issue-item">
+                                        <div>
+                                            <div style="font-size: 0.76rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">Typed Prediction Line</div>
+                                            <div style="font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; font-weight: 700; color: #ffe082; margin-top: 2px;">
+                                                "${escapeHtml(cand.raw_line)}"
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div style="font-size: 0.76rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">Matched Premier League Fixture</div>
+                                            <div style="font-size: 0.88rem; font-weight: 800; color: #fff; margin-top: 2px;">
+                                                ${escapeHtml(cand.home_team)} (${cand.pred_home}) vs ${escapeHtml(cand.away_team)} (${cand.pred_away})
+                                            </div>
+                                        </div>
+
+                                        <div style="text-align: center;">
+                                            <span class="${confBadgeClass}">${conf}% Conf</span>
+                                        </div>
+
+                                        <div style="text-align: center;">
+                                            <span class="status-pill ${statusClass}">${statusLabel}</span>
+                                        </div>
+
+                                        <div class="match-actions-btns">
+                                            <button class="btn-action-app" onclick="setDecision('${escapeHtml(user.author)}', ${cand.fixture_id}, 'approved')">✓ Approve</button>
+                                            <button class="btn-action-rej" onclick="setDecision('${escapeHtml(user.author)}', ${cand.fixture_id}, 'rejected')">✕ Reject</button>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function setDecision(author, fixtureId, status) {
+            const gw = parseInt(document.getElementById('gw-select').value || 1);
+            const gwKey = `GW_${gw}`;
+            if (!adminApprovals[gwKey]) adminApprovals[gwKey] = {};
+            if (!adminApprovals[gwKey][author]) adminApprovals[gwKey][author] = {};
+            adminApprovals[gwKey][author][String(fixtureId)] = {
+                status: status,
+                timestamp: new Date().toISOString()
+            };
+
+            renderApprovalQueue();
+            syncDecisionsToServer();
+        }
+
+        function batchDecisionUser(author, status) {
+            const gw = parseInt(document.getElementById('gw-select').value || 1);
+            const gwKey = `GW_${gw}`;
+            if (!adminApprovals[gwKey]) adminApprovals[gwKey] = {};
+            if (!adminApprovals[gwKey][author]) adminApprovals[gwKey][author] = {};
+
+            const userCands = pendingCandidates.filter(c => (c.gameweek === gw || (!c.gameweek && gw === 1)) && c.author === author);
+            userCands.forEach(c => {
+                adminApprovals[gwKey][author][String(c.fixture_id)] = {
+                    status: status,
+                    timestamp: new Date().toISOString()
+                };
+            });
+
+            renderApprovalQueue();
+            syncDecisionsToServer();
+        }
+
+        async function syncDecisionsToServer() {
+            localStorage.setItem('pl_admin_approvals', JSON.stringify(adminApprovals));
+
+            showLoadingSpinner("Saving Typo Decision", "Recalculating live standings and prediction points...");
+            let synced = false;
+            for (const ep of ['/api/save-approvals', 'http://127.0.0.1:3000/api/save-approvals']) {
+                try {
+                    const res = await fetch(ep, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(adminApprovals)
+                    });
+                    if (res.ok) {
+                        synced = true;
+                        break;
+                    }
+                } catch(e) {}
+            }
+            hideLoadingSpinner();
+            if (synced) {
+                showToast("✅ Typo decision saved & live standings updated!");
+            } else {
+                showToast("⚠️ Saved locally.");
+            }
+        }
+
+        function openCommentModal(author) {
+            const gw = parseInt(document.getElementById('gw-select').value || 1);
+            const userCands = pendingCandidates.filter(c => (c.gameweek === gw || (!c.gameweek && gw === 1)) && c.author === author);
+            if (userCands.length === 0) return;
+
+            const sample = userCands[0];
+            document.getElementById('modal-author-title').innerText = `${sample.author}`;
+            document.getElementById('modal-timestamp').innerText = `Submission Timestamp: ${sample.published_at || 'N/A'}`;
+            document.getElementById('modal-full-text').innerText = sample.full_comment || '(No full text)';
+
+            const otherPredsBox = document.getElementById('modal-other-preds');
+            const otherDict = sample.other_predictions || {};
+            const otherKeys = Object.keys(otherDict);
+
+            if (otherKeys.length === 0) {
+                otherPredsBox.innerHTML = '<span style="color: var(--text-muted);">No exact predictions detected besides typo candidates.</span>';
+            } else {
+                otherPredsBox.innerHTML = otherKeys.map(k => `
+                    <div style="display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-family: 'JetBrains Mono', monospace;">
+                        <span>⚽ ${escapeHtml(k)}</span>
+                        <b style="color: var(--pl-green);">${escapeHtml(otherDict[k])}</b>
+                    </div>
+                `).join('');
+            }
+
+            document.getElementById('comment-modal').style.display = 'flex';
+        }
+
+        function closeCommentModal() {
+            document.getElementById('comment-modal').style.display = 'none';
+        }
+
+        function renderFixtures(fixtures) {
+            const container = document.getElementById('fixtures-container');
+            if (fixtures.length === 0) {
+                container.innerHTML = '<div style="color: var(--text-muted); padding: 16px;">No fixtures available for this Gameweek.</div>';
+                return;
+            }
+
+            container.innerHTML = fixtures.map((f, i) => {
+                const hasScore = f.home_act !== null && f.away_act !== null && f.home_act !== undefined && f.away_act !== undefined;
+                const d = new Date(f.kickoff);
+                const timeStr = isNaN(d.getTime()) ? (f.kickoff || 'TBD') : d.toUTCString().replace(':00 GMT', ' GMT').replace(' 2026', '');
+
+                return `
+                    <div class="fixture-edit-card" id="fix-card-${f.id}">
+                        <div class="team-name-home">${escapeHtml(f.home)}</div>
+                        <div>
+                            <input type="number" min="0" max="20" class="score-box" id="home-score-${f.id}" value="${f.home_act !== null && f.home_act !== undefined ? f.home_act : ''}" placeholder="-">
+                        </div>
+                        <div class="score-divider">:</div>
+                        <div>
+                            <input type="number" min="0" max="20" class="score-box" id="away-score-${f.id}" value="${f.away_act !== null && f.away_act !== undefined ? f.away_act : ''}" placeholder="-">
+                        </div>
+                        <div class="team-name-away">${escapeHtml(f.away)}</div>
+                        <div class="kickoff-badge">${timeStr}</div>
+                        <div style="text-align: center;">
+                            <span class="${hasScore ? 'status-badge-ft' : 'status-badge-up'}" id="status-badge-${f.id}">${hasScore ? 'FT' : 'UPCOMING'}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // =========================================================================
+        // INTERACTIVE OFFICIAL CLUB ALIASES & ABBREVIATIONS TABULAR MATRIX (20 CLUBS)
+        // =========================================================================
+        function renderAliasesMatrix() {
+            const tbody = document.getElementById('aliases-table-body');
+            if (!tbody) return;
+            const search = (document.getElementById('alias-search-input')?.value || '').toLowerCase().trim();
+            const aliasesDict = currentConfig.team_aliases || {};
+
+            let clubKeys = Object.keys(aliasesDict);
+            let totalVariants = 0;
+            clubKeys.forEach(k => { totalVariants += (aliasesDict[k] || []).length; });
+            
+            const countBadge = document.getElementById('aliases-summary-badge');
+            if (countBadge) {
+                countBadge.innerHTML = `${clubKeys.length} Clubs &bull; ${totalVariants} Recognized Variants`;
+            }
+
+            if (search) {
+                clubKeys = clubKeys.filter(k => {
+                    if (k.toLowerCase().includes(search)) return true;
+                    return (aliasesDict[k] || []).some(a => a.toLowerCase().includes(search));
+                });
+            }
+
+            if (clubKeys.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="4" style="text-align: center; color: var(--text-muted); padding: 30px;">
+                            No matching Premier League clubs or abbreviations found for "<b>${escapeHtml(search)}</b>".
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tbody.innerHTML = clubKeys.map((club, idx) => {
+                const variants = aliasesDict[club] || [];
+                return `
+                    <tr>
+                        <td>
+                            <div style="font-weight: 800; font-size: 1.02rem; color: #ffffff; display: flex; align-items: center; gap: 8px;">
+                                <span>⚽</span>
+                                <span>${escapeHtml(club)}</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="display: flex; gap: 4px; flex-wrap: wrap;" id="club-badges-${idx}">
+                                ${variants.map(v => `
+                                    <span class="alias-pill-badge">
+                                        <span>${escapeHtml(v)}</span>
+                                        <button class="alias-remove-btn" onclick="removeAliasFromClub('${escapeHtml(club)}', '${escapeHtml(v)}')" title="Remove abbreviation">&times;</button>
+                                    </span>
+                                `).join('')}
+                            </div>
+                        </td>
+                        <td>
+                            <div class="inline-add-group">
+                                <input type="text" id="add-alias-input-${idx}" class="inline-add-input" placeholder="e.g. abbrev..." onkeydown="if(event.key==='Enter') addAliasToClub('${escapeHtml(club)}', ${idx})">
+                                <button class="inline-add-btn" onclick="addAliasToClub('${escapeHtml(club)}', ${idx})">+ Add</button>
+                            </div>
+                        </td>
+                        <td style="text-align: center;">
+                            <button class="btn-filter" style="padding: 6px 12px; font-size: 0.78rem;" onclick="resetClubAliases('${escapeHtml(club)}')">Reset</button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function addAliasToClub(club, inputIdx) {
+            const input = document.getElementById(`add-alias-input-${inputIdx}`);
+            const val = (input?.value || '').trim().toLowerCase();
+            if (!val) return;
+
+            if (!currentConfig.team_aliases) currentConfig.team_aliases = {};
+            if (!currentConfig.team_aliases[club]) currentConfig.team_aliases[club] = [];
+
+            if (currentConfig.team_aliases[club].map(a => a.toLowerCase()).includes(val)) {
+                showToast(`⚠️ "${val}" is already recognized for ${club}.`);
+                return;
+            }
+
+            currentConfig.team_aliases[club].push(val);
+            input.value = '';
+            renderAliasesMatrix();
+            showToast(`Added abbreviation "${val}" to ${club}. Click 'Save Aliases' to persist.`);
+        }
+
+        function removeAliasFromClub(club, alias) {
+            if (!currentConfig.team_aliases || !currentConfig.team_aliases[club]) return;
+            currentConfig.team_aliases[club] = currentConfig.team_aliases[club].filter(a => a.toLowerCase() !== alias.toLowerCase());
+            renderAliasesMatrix();
+            showToast(`Removed "${alias}" from ${club}. Click 'Save Aliases' to persist.`);
+        }
+
+        function resetClubAliases(club) {
+            const defaultAliases = {
+                "Arsenal": ["arsenal", "ars", "gunners", "gooners", "the gunners", "arsenal fc", "aresnal", "arc", "afc"],
+                "Aston Villa": ["aston villa", "villa", "avl", "aston v", "avfc", "villans", "the villans", "aston vill", "astnvilla"],
+                "AFC Bournemouth": ["afc bournemouth", "bournemouth", "bou", "cherries", "afcb", "the cherries", "bouremouth", "bournemonth", "bourmouth", "bmouth", "bmth", "bourn"],
+                "Brentford": ["brentford", "bre", "bees", "brentford fc", "the bees", "brent", "brenford"],
+                "Brighton & Hove Albion": ["brighton & hove albion", "brighton and hove albion", "brighton", "bha", "bhafc", "seagulls", "the seagulls", "albion", "bright", "brightn"],
+                "Chelsea": ["chelsea", "che", "blues", "the blues", "cfc", "chelsea fc", "chelsa", "chelski"],
+                "Coventry City": ["coventry city", "coventry", "cov", "ccfc", "sky blues", "the sky blues", "cov city", "covntry", "coventrycty"],
+                "Crystal Palace": ["crystal palace", "palace", "cry", "cpfc", "eagles", "the eagles", "crystal p", "cystal palace", "pallace", "crystal"],
+                "Everton": ["everton", "eve", "toffees", "the toffees", "efc", "everton fc", "evrton", "evertn"],
+                "Fulham": ["fulham", "ful", "cottagers", "the cottagers", "ffc", "fulham fc", "fullham", "fulhm"],
+                "Hull City": ["hull city", "hull", "hul", "tigers", "the tigers", "hcfc", "hull city tigers", "hullcity"],
+                "Ipswich Town": ["ipswich town", "ipswich", "ips", "tractor boys", "the tractor boys", "itfc", "ipswich t", "ipsw", "ipswich tn", "ipswitch", "ipswch"],
+                "Leeds United": ["leeds united", "leeds", "lee", "lufc", "whites", "the whites", "peacocks", "leed", "leeds utd"],
+                "Liverpool": ["liverpool", "liv", "reds", "the reds", "lfc", "liverpool fc", "pool", "livrpool", "liverpl"],
+                "Manchester City": ["manchester city", "man city", "mci", "mcfc", "citizens", "manchester c", "man c", "mancity", "m. city", "city", "mn city"],
+                "Manchester United": ["manchester united", "man united", "man utd", "mun", "mufc", "red devils", "manchester u", "manutd", "m. united", "man u", "united", "yanited", "mn utd"],
+                "Newcastle United": ["newcastle united", "newcastle", "new", "nufc", "magpies", "the toon", "toon", "new castle", "newcaslte", "newc utd"],
+                "Nottingham Forest": ["nottingham forest", "forest", "nfo", "nottm forest", "nffc", "nottingham", "tricky trees", "forrest", "nott forest", "n forest", "notts forest"],
+                "Sunderland": ["sunderland", "sun", "safc", "black cats", "the black cats", "sundrland", "sunderlnd"],
+                "Tottenham Hotspur": ["tottenham hotspur", "tottenham", "spurs", "tot", "thfc", "lilywhites", "the lilywhites", "spur", "hotspur", "totenham"]
+            };
+
+            if (defaultAliases[club]) {
+                if (!currentConfig.team_aliases) currentConfig.team_aliases = {};
+                currentConfig.team_aliases[club] = [...defaultAliases[club]];
+                renderAliasesMatrix();
+                showToast(`Reset ${club} aliases to defaults.`);
+            }
+        }
+
+        function openAddClubModal() {
+            document.getElementById('new-club-name').value = '';
+            document.getElementById('new-club-aliases').value = '';
+            document.getElementById('add-club-modal').style.display = 'flex';
+        }
+
+        function closeAddClubModal() {
+            document.getElementById('add-club-modal').style.display = 'none';
+        }
+
+        function executeAddNewClub() {
+            const name = (document.getElementById('new-club-name')?.value || '').trim();
+            const aliasesRaw = (document.getElementById('new-club-aliases')?.value || '').trim();
+            if (!name) {
+                alert('Please enter a club name.');
+                return;
+            }
+
+            if (!currentConfig.team_aliases) currentConfig.team_aliases = {};
+            const parsedAliases = aliasesRaw.split(',').map(a => a.trim().toLowerCase()).filter(a => a);
+            if (!parsedAliases.includes(name.toLowerCase())) {
+                parsedAliases.unshift(name.toLowerCase());
+            }
+
+            currentConfig.team_aliases[name] = parsedAliases;
+            closeAddClubModal();
+            renderAliasesMatrix();
+            showToast(`Added ${name} to Official Matrix. Click 'Save Aliases' to persist.`);
+        }
+
+        async function saveAliasesToServer() {
+            showLoadingSpinner("Saving Official Club Aliases Matrix", "Updating NLP token engine and recalculating community scores...");
+            await syncConfigToServer();
+            hideLoadingSpinner();
+            showToast("✅ Official club aliases saved & NLP engine updated!");
+        }
+
+        async function syncConfigToServer() {
+            for (const ep of ['/api/save-config', 'http://127.0.0.1:3000/api/save-config']) {
+                try {
+                    const res = await fetch(ep, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(currentConfig)
+                    });
+                    if (res.ok) {
+                        return true;
+                    }
+                } catch(e) {}
+            }
+            return false;
+        }
+
+        async function saveVideoAndSettingsOnly() {
+            const gw = parseInt(document.getElementById('gw-select').value || 1);
+            const videoUrl = document.getElementById('video-url-input').value.trim();
+
+            currentConfig.active_gameweek = gw;
+            if (!currentConfig.registered_videos) currentConfig.registered_videos = {};
+            currentConfig.registered_videos[String(gw)] = videoUrl;
+
+            if (!currentConfig.gameweeks) currentConfig.gameweeks = {};
+            if (!currentConfig.gameweeks[String(gw)]) currentConfig.gameweeks[String(gw)] = { fixtures: [] };
+            currentConfig.gameweeks[String(gw)].video_url = videoUrl;
+
+            showLoadingSpinner("Saving Video & Gameweek Scope", "Syncing configuration and fetching YouTube comments...");
+            await syncConfigToServer();
+            hideLoadingSpinner();
+            showToast(`✅ Saved Gameweek ${gw} video URL!`);
+        }
+
+        async function saveScoresOnly() {
+            const gw = parseInt(document.getElementById('gw-select').value || 1);
+            const gwData = currentConfig.gameweeks && currentConfig.gameweeks[String(gw)];
+            if (!gwData || !gwData.fixtures) return;
+
+            gwData.fixtures.forEach(f => {
+                const hInput = document.getElementById(`home-score-${f.id}`);
+                const aInput = document.getElementById(`away-score-${f.id}`);
+                if (hInput && aInput) {
+                    const hVal = hInput.value.trim();
+                    const aVal = aInput.value.trim();
+                    f.home_act = hVal !== "" ? parseInt(hVal) : null;
+                    f.away_act = aVal !== "" ? parseInt(aVal) : null;
+                    f.finished = (f.home_act !== null && f.away_act !== null);
+                }
+            });
+
+            showLoadingSpinner("Recalculating Scores", "Updating match scores and tallying community points...");
+            await syncConfigToServer();
+            hideLoadingSpinner();
+            renderFixtures(gwData.fixtures);
+            showToast(`✅ Match scores saved and leaderboard updated!`);
+        }
+
+        async function saveTypoApprovalsOnly() {
+            showLoadingSpinner("Applying Typo Approvals", "Re-auditing predictions and updating live standings...");
+            await syncDecisionsToServer();
+            hideLoadingSpinner();
+            showToast(`✅ Typo approvals saved and standings recalculated!`);
+        }
+
+        async function saveAndExportAllConfig() {
+            const gw = parseInt(document.getElementById('gw-select').value || 1);
+            const videoUrl = document.getElementById('video-url-input').value.trim();
+
+            currentConfig.active_gameweek = gw;
+            if (!currentConfig.registered_videos) currentConfig.registered_videos = {};
+            currentConfig.registered_videos[String(gw)] = videoUrl;
+
+            if (!currentConfig.gameweeks) currentConfig.gameweeks = {};
+            if (!currentConfig.gameweeks[String(gw)]) currentConfig.gameweeks[String(gw)] = { fixtures: [] };
+            currentConfig.gameweeks[String(gw)].video_url = videoUrl;
+
+            const gwData = currentConfig.gameweeks[String(gw)];
+            if (gwData && gwData.fixtures) {
+                gwData.fixtures.forEach(f => {
+                    const hInput = document.getElementById(`home-score-${f.id}`);
+                    const aInput = document.getElementById(`away-score-${f.id}`);
+                    if (hInput && aInput) {
+                        const hVal = hInput.value.trim();
+                        const aVal = aInput.value.trim();
+                        f.home_act = hVal !== "" ? parseInt(hVal) : null;
+                        f.away_act = aVal !== "" ? parseInt(aVal) : null;
+                        f.finished = (f.home_act !== null && f.away_act !== null);
+                    }
+                });
+            }
+
+            showLoadingSpinner("Saving All Changes", "Persisting settings, scores, and updating leaderboard...");
+            await syncConfigToServer();
+            await syncDecisionsToServer();
+            hideLoadingSpinner();
+            showToast(`✅ All configuration saved and standings fully recalculated!`);
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+        }
+
+        // Auto Login Check from active session
+        window.addEventListener('DOMContentLoaded', async () => {
+            await loadServerConfig();
+            const activeUser = sessionStorage.getItem('pl_admin_active_user');
+            const activeName = sessionStorage.getItem('pl_admin_active_name');
+            const activePic = sessionStorage.getItem('pl_admin_active_pic');
+            if (activeUser) {
+                grantAccess(activeUser, activeName, activePic);
+            }
+        });
+    </script>
+</body>
+</html>
