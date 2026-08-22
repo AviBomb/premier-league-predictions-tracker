@@ -7,7 +7,7 @@ import urllib.request
 import ssl
 import json
 from datetime import datetime, timezone
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 
 # Canonical Mapping for Premier League Teams from FPL API
 FPL_NAME_CANONICAL_MAP: Dict[str, str] = {
@@ -32,6 +32,50 @@ FPL_NAME_CANONICAL_MAP: Dict[str, str] = {
     "Spurs": "Tottenham Hotspur",
     "Sunderland": "Sunderland"
 }
+
+# Premier League Official Club Badge CDN Logos
+PL_TEAM_LOGOS: Dict[str, str] = {
+    "Arsenal": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
+    "Aston Villa": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+    "AFC Bournemouth": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+    "Bournemouth": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+    "Brentford": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
+    "Brighton & Hove Albion": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+    "Brighton": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+    "Chelsea": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
+    "Coventry City": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
+    "Crystal Palace": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
+    "Everton": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
+    "Fulham": "https://resources.premierleague.com/premierleague/badges/70/t54.png",
+    "Hull City": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
+    "Ipswich Town": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
+    "Leeds United": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+    "Leeds": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+    "Liverpool": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
+    "Manchester City": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+    "Man City": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+    "Manchester United": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+    "Man Utd": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+    "Newcastle United": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
+    "Newcastle": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
+    "Nottingham Forest": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+    "Nott'm Forest": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+    "Tottenham Hotspur": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+    "Spurs": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+    "Sunderland": "https://resources.premierleague.com/premierleague/badges/70/t56.png"
+}
+
+def get_team_logo(team_name: str) -> str:
+    """Returns official Premier League club badge CDN image URL for a given club name."""
+    if not team_name:
+        return "https://resources.premierleague.com/premierleague/badges/70/t3.png"
+    clean = team_name.strip()
+    if clean in PL_TEAM_LOGOS:
+        return PL_TEAM_LOGOS[clean]
+    for key, logo in PL_TEAM_LOGOS.items():
+        if key.lower() in clean.lower() or clean.lower() in key.lower():
+            return logo
+    return "https://resources.premierleague.com/premierleague/badges/70/t3.png"
 
 # 2026-2027 Verified FPL Team ID Fallback Map
 FPL_TEAM_ID_MAP: Dict[int, str] = {
@@ -86,47 +130,80 @@ SEASON_2026_2027_FIXTURES: Dict[int, List[Dict[str, Any]]] = {
 }
 
 
-def fetch_live_team_mapping() -> Dict[int, str]:
-    """Dynamically queries bootstrap-static to build live team ID to canonical name map."""
+def fetch_bootstrap_data() -> Tuple[Dict[int, str], Dict[int, str]]:
+    """Dynamically queries bootstrap-static to build live team ID and player ID mappings."""
     team_map = dict(FPL_TEAM_ID_MAP)
+    player_map: Dict[int, str] = {}
     try:
         ctx = ssl._create_unverified_context()
         req = urllib.request.Request(
             "https://fantasy.premierleague.com/api/bootstrap-static/",
-            headers={"User-Agent": "Mozilla/5.0"}
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
         )
-        with urllib.request.urlopen(req, timeout=6, context=ctx) as resp:
+        with urllib.request.urlopen(req, timeout=8, context=ctx) as resp:
             if resp.status == 200:
                 data = json.loads(resp.read().decode("utf-8"))
                 for t in data.get("teams", []):
                     raw_name = t.get("name", "")
                     canonical = FPL_NAME_CANONICAL_MAP.get(raw_name, raw_name)
                     team_map[t["id"]] = canonical
+                for e in data.get("elements", []):
+                    name = e.get("web_name") or f"{e.get('first_name', '')} {e.get('second_name', '')}".strip()
+                    player_map[e["id"]] = name
     except Exception as e:
-        print(f"[*] Using local team ID map fallback ({e})")
-    return team_map
+        print(f"[*] Using local fallback mappings ({e})")
+    return team_map, player_map
+
+
+def parse_goal_events(scorers_raw: List[Dict[str, Any]], assists_raw: List[Dict[str, Any]], player_map: Dict[int, str]) -> Tuple[List[Dict[str, Any]], str]:
+    """Parses goal scorers and assists into structured event dicts and a formatted summary string."""
+    scorers = []
+    for item in scorers_raw:
+        pid = item.get("element")
+        pname = player_map.get(pid, f"Player #{pid}")
+        for _ in range(item.get("value", 1)):
+            scorers.append(pname)
+
+    assists = []
+    for item in assists_raw:
+        pid = item.get("element")
+        aname = player_map.get(pid, f"Player #{pid}")
+        for _ in range(item.get("value", 1)):
+            assists.append(aname)
+
+    events = []
+    summary_parts = []
+    for i, scorer in enumerate(scorers):
+        assist = assists[i] if i < len(assists) else None
+        events.append({"scorer": scorer, "assist": assist})
+        if assist:
+            summary_parts.append(f"{scorer} ({assist})")
+        else:
+            summary_parts.append(scorer)
+
+    return events, ", ".join(summary_parts)
 
 
 def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[Dict[str, Any]]:
     """
-    Fetches official fixtures, actual match scores, and GMT kickoff times for the specified Gameweek.
+    Fetches official fixtures, actual match scores, GMT kickoff times, club logos, and goal details for the specified Gameweek.
     - Queries the Official Premier League API as primary default.
-    - Automatically maps live match scores, finished status, and upcoming deadlines.
+    - Automatically maps live match scores, goal scorers, assists, finished status, and logos.
     - Falls back safely to verified season schedule only if API is unreachable.
     """
     if use_live_api:
         url = f"https://fantasy.premierleague.com/api/fixtures/?event={gw_number}"
-        print(f"[*] Querying Official Premier League Live API for Gameweek {gw_number} match scores (GMT/UTC)...")
+        print(f"[*] Querying Official Premier League Live API for Gameweek {gw_number} match scores & goals (GMT/UTC)...")
 
         fixtures = []
         try:
-            team_map = fetch_live_team_mapping()
+            team_map, player_map = fetch_bootstrap_data()
             ctx = ssl._create_unverified_context()
             req = urllib.request.Request(
                 url,
-                headers={"User-Agent": "Mozilla/5.0"}
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
             )
-            with urllib.request.urlopen(req, timeout=8, context=ctx) as response:
+            with urllib.request.urlopen(req, timeout=10, context=ctx) as response:
                 if response.status == 200:
                     raw_data = json.loads(response.read().decode("utf-8"))
                     for fix in raw_data:
@@ -135,12 +212,27 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
                         home_team = team_map.get(team_h_id, f"Team_{team_h_id}")
                         away_team = team_map.get(team_a_id, f"Team_{team_a_id}")
 
+                        home_logo = get_team_logo(home_team)
+                        away_logo = get_team_logo(away_team)
+
                         raw_h_score = fix.get("team_h_score")
                         raw_a_score = fix.get("team_a_score")
 
                         # Full-Time (FT) validation
                         is_full_time = fix.get("finished", False) or fix.get("finished_provisional", False) or (fix.get("minutes", 0) >= 90)
                         started = fix.get("started", False) or (raw_h_score is not None)
+
+                        # Extract Goal Scorers and Assists from fixture stats
+                        fix_stats = {s.get("identifier"): s for s in fix.get("stats", [])}
+                        goals_stat = fix_stats.get("goals_scored", {})
+                        assists_stat = fix_stats.get("assists", {})
+
+                        home_goals, home_goals_summary = parse_goal_events(
+                            goals_stat.get("h", []), assists_stat.get("h", []), player_map
+                        )
+                        away_goals, away_goals_summary = parse_goal_events(
+                            goals_stat.get("a", []), assists_stat.get("a", []), player_map
+                        )
 
                         # Live & Full-Time match scores are captured as soon as available in official API
                         if raw_h_score is not None and raw_a_score is not None:
@@ -158,8 +250,14 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
                             "id": fix.get("id"),
                             "home": home_team,
                             "away": away_team,
+                            "home_logo": home_logo,
+                            "away_logo": away_logo,
                             "home_act": home_score,
                             "away_act": away_score,
+                            "home_goals": home_goals,
+                            "away_goals": away_goals,
+                            "home_goals_summary": home_goals_summary,
+                            "away_goals_summary": away_goals_summary,
                             "kickoff": kickoff,
                             "finished": finished,
                             "started": started,
@@ -169,7 +267,7 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
                     if fixtures:
                         # Sort fixtures by kickoff time
                         fixtures.sort(key=lambda x: x.get("kickoff", ""))
-                        print(f"[+] Loaded {len(fixtures)} live fixtures and match scorelines from Premier League API.")
+                        print(f"[+] Loaded {len(fixtures)} live fixtures, scorelines & goal stats from Premier League API.")
                         return fixtures
         except Exception as e:
             print(f"[!] Live API query notice ({e}). Using verified fallback schedule...")
@@ -177,6 +275,18 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
     # Load from verified season schedule fallback
     if gw_number in SEASON_2026_2027_FIXTURES:
         print(f"[*] Loaded Official 2026-2027 Season schedule for Gameweek {gw_number} ({len(SEASON_2026_2027_FIXTURES[gw_number])} fixtures in GMT/UTC).")
-        return SEASON_2026_2027_FIXTURES[gw_number]
+        fallback_list = []
+        for f in SEASON_2026_2027_FIXTURES[gw_number]:
+            item = dict(f)
+            item["home_logo"] = get_team_logo(item["home"])
+            item["away_logo"] = get_team_logo(item["away"])
+            item.setdefault("home_goals", [])
+            item.setdefault("away_goals", [])
+            item.setdefault("home_goals_summary", "")
+            item.setdefault("away_goals_summary", "")
+            fallback_list.append(item)
+        return fallback_list
+
+    return []
 
     return []

@@ -111,6 +111,14 @@ def generate_live_dashboard(
         tbody tr:hover {{ background: var(--pl-card-hover); }}
 
         /* Status & Badges */
+        .team-badge {{ width: 26px; height: 26px; object-fit: contain; vertical-align: middle; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); flex-shrink: 0; }}
+        .team-badge-sm {{ width: 20px; height: 20px; object-fit: contain; vertical-align: middle; flex-shrink: 0; }}
+        .team-badge-md {{ width: 28px; height: 28px; object-fit: contain; vertical-align: middle; flex-shrink: 0; }}
+        .fix-team-name {{ display: inline-flex; align-items: center; gap: 10px; font-size: 0.95rem; font-weight: 700; }}
+        .fix-scorers-box {{ margin-top: 10px; padding-top: 10px; border-top: 1px dashed rgba(255,255,255,0.12); font-size: 0.78rem; font-family: 'JetBrains Mono', monospace; line-height: 1.45; }}
+        .scorer-line {{ display: flex; align-items: flex-start; gap: 6px; margin-top: 4px; color: #ffe082; word-break: break-word; }}
+        .scorer-ball {{ font-size: 0.75rem; flex-shrink: 0; margin-top: 1px; }}
+
         .rank-badge {{ display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; font-weight: 800; font-family: 'JetBrains Mono', monospace; font-size: 0.95rem; }}
         .rank-1 {{ background: linear-gradient(135deg, #ffd700, #ffae00); color: #000; box-shadow: 0 0 12px rgba(255,215,0,0.4); }}
         .rank-2 {{ background: linear-gradient(135deg, #e2e8f0, #94a3b8); color: #000; }}
@@ -381,6 +389,49 @@ def generate_live_dashboard(
     </div>
 
     <script>
+        const PL_BADGES = {{
+            "Arsenal": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
+            "Aston Villa": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+            "AFC Bournemouth": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+            "Bournemouth": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+            "Brentford": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
+            "Brighton & Hove Albion": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+            "Brighton": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+            "Chelsea": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
+            "Coventry City": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
+            "Crystal Palace": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
+            "Everton": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
+            "Fulham": "https://resources.premierleague.com/premierleague/badges/70/t54.png",
+            "Hull City": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
+            "Ipswich Town": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
+            "Leeds United": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+            "Leeds": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+            "Liverpool": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
+            "Manchester City": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+            "Man City": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+            "Manchester United": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+            "Man Utd": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+            "Newcastle United": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
+            "Newcastle": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
+            "Nottingham Forest": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+            "Nott'm Forest": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+            "Tottenham Hotspur": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+            "Spurs": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+            "Sunderland": "https://resources.premierleague.com/premierleague/badges/70/t56.png"
+        }};
+
+        function getTeamLogoJS(name) {{
+            if (!name) return "https://resources.premierleague.com/premierleague/badges/70/t3.png";
+            const clean = name.trim();
+            if (PL_BADGES[clean]) return PL_BADGES[clean];
+            for (let k in PL_BADGES) {{
+                if (clean.toLowerCase().includes(k.toLowerCase()) || k.toLowerCase().includes(clean.toLowerCase())) {{
+                    return PL_BADGES[k];
+                }}
+            }}
+            return "https://resources.premierleague.com/premierleague/badges/70/t3.png";
+        }}
+
         const ALL_GAMEWEEKS = {all_gw_json};
         const rawLeaderboard = {leaderboard_json};
         let activeGameweekScope = {active_gw};
@@ -475,7 +526,7 @@ def generate_live_dashboard(
             const gwData = ALL_GAMEWEEKS[gwKey] || {{ fixtures: [] }};
             const fixtures = gwData.fixtures || [];
             
-            document.getElementById('fixture-center-title').innerText = `Gameweek ${{gwNum}} Fixture Center (GMT / UK Time)`;
+            document.getElementById('fixture-center-title').innerText = `Gameweek ${{gwNum}} Match Results & Live Center (GMT / UK Time)`;
 
             const grid = document.getElementById('fixture-grid');
             if (fixtures.length === 0) {{
@@ -487,6 +538,11 @@ def generate_live_dashboard(
                 const hasScore = f.home_act !== null && f.away_act !== null && f.home_act !== undefined && f.away_act !== undefined;
                 const d = new Date(f.kickoff);
                 const timeStr = isNaN(d.getTime()) ? (f.kickoff || 'TBD') : d.toUTCString().replace(':00 GMT', ' GMT').replace(' 2026', '');
+                
+                const homeLogo = f.home_logo || getTeamLogoJS(f.home);
+                const awayLogo = f.away_logo || getTeamLogoJS(f.away);
+                const hasScorers = f.home_goals_summary || f.away_goals_summary;
+
                 return `
                     <div class="fixture-card">
                         <div class="fix-header">
@@ -494,13 +550,35 @@ def generate_live_dashboard(
                             <span class="${{hasScore ? 'fix-status-ft' : 'fix-status-upcoming'}}">${{hasScore ? 'FT' : 'UPCOMING'}}</span>
                         </div>
                         <div class="fix-team-row">
-                            <span>${{f.home}}</span>
+                            <span class="fix-team-name">
+                                <img class="team-badge" src="${{homeLogo}}" alt="${{escapeHtml(f.home)}}" onerror="this.src='https://resources.premierleague.com/premierleague/badges/70/t3.png'">
+                                <span>${{escapeHtml(f.home)}}</span>
+                            </span>
                             <span class="${{hasScore ? 'fix-score' : 'fix-score-pending'}}">${{hasScore ? f.home_act : '-'}}</span>
                         </div>
                         <div class="fix-team-row">
-                            <span>${{f.away}}</span>
+                            <span class="fix-team-name">
+                                <img class="team-badge" src="${{awayLogo}}" alt="${{escapeHtml(f.away)}}" onerror="this.src='https://resources.premierleague.com/premierleague/badges/70/t3.png'">
+                                <span>${{escapeHtml(f.away)}}</span>
+                            </span>
                             <span class="${{hasScore ? 'fix-score' : 'fix-score-pending'}}">${{hasScore ? f.away_act : '-'}}</span>
                         </div>
+                        ${{hasScorers ? `
+                            <div class="fix-scorers-box">
+                                ${{f.home_goals_summary ? `
+                                    <div class="scorer-line">
+                                        <span class="scorer-ball">⚽</span>
+                                        <div><b>${{escapeHtml(f.home)}}:</b> ${{escapeHtml(f.home_goals_summary)}}</div>
+                                    </div>
+                                ` : ''}}
+                                ${{f.away_goals_summary ? `
+                                    <div class="scorer-line">
+                                        <span class="scorer-ball">⚽</span>
+                                        <div><b>${{escapeHtml(f.away)}}:</b> ${{escapeHtml(f.away_goals_summary)}}</div>
+                                    </div>
+                                ` : ''}}
+                            </div>
+                        ` : ''}}
                     </div>
                 `;
             }}).join('');
@@ -736,11 +814,23 @@ def generate_live_dashboard(
                         badge = '<span class="pill" style="background: rgba(255, 184, 0, 0.15); color: var(--pl-gold);">Pending Kickoff</span>';
                     }}
 
+                    const parts = k.split(' vs ');
+                    const hName = parts[0] ? parts[0].trim() : k;
+                    const aName = parts[1] ? parts[1].trim() : '';
+                    const hLogo = getTeamLogoJS(hName);
+                    const aLogo = getTeamLogoJS(aName);
+
                     return `
                         <div class="fix-audit-row ${{rowClass}}">
                             <div>
-                                <b>${{k}}</b>
-                                <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 2px;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <img src="${{hLogo}}" class="team-badge-sm" alt="${{escapeHtml(hName)}}" onerror="this.src='https://resources.premierleague.com/premierleague/badges/70/t3.png'">
+                                    <b>${{escapeHtml(hName)}}</b>
+                                    <span style="color: var(--text-muted); font-size: 0.8rem;">vs</span>
+                                    <b>${{escapeHtml(aName)}}</b>
+                                    ${{aName ? `<img src="${{aLogo}}" class="team-badge-sm" alt="${{escapeHtml(aName)}}" onerror="this.src='https://resources.premierleague.com/premierleague/badges/70/t3.png'">` : ''}}
+                                </div>
+                                <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">
                                     ${{item.result || 'No Match'}}
                                 </div>
                             </div>

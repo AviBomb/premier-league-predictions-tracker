@@ -181,8 +181,10 @@
         .fixture-edit-card { display: grid; grid-template-columns: 4fr 90px 20px 90px 4fr 3fr 140px; gap: 12px; padding: 14px 18px; background: var(--pl-card-inner); border: 1px solid var(--pl-border); border-radius: 14px; margin-bottom: 10px; align-items: center; transition: all 0.2s ease; }
         .fixture-edit-card:hover { border-color: rgba(0, 255, 135, 0.4); background: rgba(35, 3, 42, 0.9); }
 
-        .team-name-home { text-align: right; font-weight: 700; font-size: 1rem; color: #ffffff; }
-        .team-name-away { text-align: left; font-weight: 700; font-size: 1rem; color: #ffffff; }
+        .team-badge-md { width: 28px; height: 28px; object-fit: contain; vertical-align: middle; flex-shrink: 0; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+        .team-badge-sm { width: 20px; height: 20px; object-fit: contain; vertical-align: middle; flex-shrink: 0; }
+        .team-name-home { display: flex; align-items: center; justify-content: flex-end; gap: 10px; font-weight: 700; font-size: 1rem; color: #ffffff; }
+        .team-name-away { display: flex; align-items: center; justify-content: flex-start; gap: 10px; font-weight: 700; font-size: 1rem; color: #ffffff; }
         .score-divider { text-align: center; color: var(--text-muted); font-weight: 800; }
         .score-box { width: 100%; padding: 10px; background: rgba(0,0,0,0.5); border: 1px solid var(--pl-border); border-radius: 10px; color: var(--pl-green); text-align: center; font-weight: 900; font-size: 1.25rem; font-family: 'JetBrains Mono', monospace; outline: none; }
         .score-box:focus { border-color: var(--pl-green); box-shadow: 0 0 12px var(--pl-green-glow); }
@@ -520,6 +522,49 @@
     </div>
 
     <script>
+        const PL_BADGES = {
+            "Arsenal": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
+            "Aston Villa": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+            "AFC Bournemouth": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+            "Bournemouth": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+            "Brentford": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
+            "Brighton & Hove Albion": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+            "Brighton": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+            "Chelsea": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
+            "Coventry City": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
+            "Crystal Palace": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
+            "Everton": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
+            "Fulham": "https://resources.premierleague.com/premierleague/badges/70/t54.png",
+            "Hull City": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
+            "Ipswich Town": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
+            "Leeds United": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+            "Leeds": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+            "Liverpool": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
+            "Manchester City": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+            "Man City": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+            "Manchester United": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+            "Man Utd": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+            "Newcastle United": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
+            "Newcastle": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
+            "Nottingham Forest": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+            "Nott'm Forest": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+            "Tottenham Hotspur": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+            "Spurs": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+            "Sunderland": "https://resources.premierleague.com/premierleague/badges/70/t56.png"
+        };
+
+        function getTeamLogoJS(name) {
+            if (!name) return "https://resources.premierleague.com/premierleague/badges/70/t3.png";
+            const clean = name.trim();
+            if (PL_BADGES[clean]) return PL_BADGES[clean];
+            for (let k in PL_BADGES) {
+                if (clean.toLowerCase().includes(k.toLowerCase()) || k.toLowerCase().includes(clean.toLowerCase())) {
+                    return PL_BADGES[k];
+                }
+            }
+            return "https://resources.premierleague.com/premierleague/badges/70/t3.png";
+        }
+
         // GLOBAL STATE & STORAGE
         let currentConfig = {
             "google_auth": {
@@ -1284,9 +1329,16 @@
                 const d = new Date(f.kickoff);
                 const timeStr = isNaN(d.getTime()) ? (f.kickoff || 'TBD') : d.toUTCString().replace(':00 GMT', ' GMT').replace(' 2026', '');
 
+                const homeLogo = f.home_logo || getTeamLogoJS(f.home);
+                const awayLogo = f.away_logo || getTeamLogoJS(f.away);
+                const hasScorers = f.home_goals_summary || f.away_goals_summary;
+
                 return `
                     <div class="fixture-edit-card" id="fix-card-${f.id}">
-                        <div class="team-name-home">${escapeHtml(f.home)}</div>
+                        <div class="team-name-home">
+                            <span>${escapeHtml(f.home)}</span>
+                            <img src="${homeLogo}" class="team-badge-md" alt="${escapeHtml(f.home)}" onerror="this.src='https://resources.premierleague.com/premierleague/badges/70/t3.png'">
+                        </div>
                         <div>
                             <input type="number" min="0" max="20" class="score-box" id="home-score-${f.id}" value="${f.home_act !== null && f.home_act !== undefined ? f.home_act : ''}" placeholder="-">
                         </div>
@@ -1294,11 +1346,20 @@
                         <div>
                             <input type="number" min="0" max="20" class="score-box" id="away-score-${f.id}" value="${f.away_act !== null && f.away_act !== undefined ? f.away_act : ''}" placeholder="-">
                         </div>
-                        <div class="team-name-away">${escapeHtml(f.away)}</div>
+                        <div class="team-name-away">
+                            <img src="${awayLogo}" class="team-badge-md" alt="${escapeHtml(f.away)}" onerror="this.src='https://resources.premierleague.com/premierleague/badges/70/t3.png'">
+                            <span>${escapeHtml(f.away)}</span>
+                        </div>
                         <div class="kickoff-badge">${timeStr}</div>
                         <div style="text-align: center;">
                             <span class="${hasScore ? 'status-badge-ft' : 'status-badge-up'}" id="status-badge-${f.id}">${hasScore ? 'FT' : 'UPCOMING'}</span>
                         </div>
+                        ${hasScorers ? `
+                            <div style="grid-column: 1 / -1; margin-top: 10px; padding-top: 8px; border-top: 1px dashed rgba(255,255,255,0.12); font-size: 0.82rem; color: #ffe082; display: flex; gap: 20px; flex-wrap: wrap; font-family: 'JetBrains Mono', monospace;">
+                                ${f.home_goals_summary ? `<div><b>⚽ ${escapeHtml(f.home)}:</b> ${escapeHtml(f.home_goals_summary)}</div>` : ''}
+                                ${f.away_goals_summary ? `<div><b>⚽ ${escapeHtml(f.away)}:</b> ${escapeHtml(f.away_goals_summary)}</div>` : ''}
+                            </div>
+                        ` : ''}
                     </div>
                 `;
             }).join('');
@@ -1342,11 +1403,12 @@
 
             tbody.innerHTML = clubKeys.map((club, idx) => {
                 const variants = aliasesDict[club] || [];
+                const logoUrl = getTeamLogoJS(club);
                 return `
                     <tr>
                         <td>
-                            <div style="font-weight: 800; font-size: 1.02rem; color: #ffffff; display: flex; align-items: center; gap: 8px;">
-                                <span>⚽</span>
+                            <div style="font-weight: 800; font-size: 1.02rem; color: #ffffff; display: flex; align-items: center; gap: 10px;">
+                                <img src="${logoUrl}" class="team-badge-md" alt="${escapeHtml(club)}" onerror="this.src='https://resources.premierleague.com/premierleague/badges/70/t3.png'">
                                 <span>${escapeHtml(club)}</span>
                             </div>
                         </td>
