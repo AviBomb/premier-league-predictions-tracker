@@ -65,8 +65,8 @@
         "away_act": null,
         "kickoff": "2026-08-22T16:30:00Z",
         "finished": false,
-        "started": false,
-        "minutes": 0
+        "started": true,
+        "minutes": 45
       },
       {
         "id": 7,
