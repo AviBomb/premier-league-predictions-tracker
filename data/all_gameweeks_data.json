@@ -61,12 +61,12 @@
         "id": 2,
         "home": "Brentford",
         "away": "Tottenham Hotspur",
-        "home_act": null,
-        "away_act": null,
+        "home_act": 3,
+        "away_act": 0,
         "kickoff": "2026-08-22T16:30:00Z",
-        "finished": false,
-        "started": false,
-        "minutes": 0
+        "finished": true,
+        "started": true,
+        "minutes": 90
       },
       {
         "id": 7,
@@ -176,9 +176,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -273,9 +273,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -370,9 +370,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -467,9 +467,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -564,7 +564,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -661,7 +661,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -758,9 +758,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -860,9 +860,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -957,9 +957,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1014,8 +1014,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -1054,9 +1054,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1151,9 +1151,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1248,9 +1248,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1345,9 +1345,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1402,8 +1402,8 @@
         "valid_matches_count": 7,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -1442,9 +1442,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1539,9 +1539,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1636,9 +1636,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1733,9 +1733,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1830,9 +1830,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -1927,9 +1927,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2024,9 +2024,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2121,9 +2121,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2218,9 +2218,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2315,9 +2315,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2372,8 +2372,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -2412,9 +2412,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2509,9 +2509,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2606,9 +2606,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2663,8 +2663,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -2703,9 +2703,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2800,9 +2800,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2897,9 +2897,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -2994,9 +2994,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3051,8 +3051,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -3091,9 +3091,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3188,9 +3188,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3285,7 +3285,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -3342,8 +3342,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -3382,9 +3382,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3479,9 +3479,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3576,9 +3576,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3673,9 +3673,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3770,9 +3770,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3872,9 +3872,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -3929,8 +3929,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -3969,9 +3969,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4066,7 +4066,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -4163,9 +4163,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4260,9 +4260,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4357,9 +4357,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4454,9 +4454,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4551,9 +4551,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4648,9 +4648,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4745,9 +4745,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4842,9 +4842,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4939,9 +4939,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -4996,8 +4996,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -5036,9 +5036,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5093,8 +5093,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -5133,9 +5133,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5230,9 +5230,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5327,9 +5327,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5424,9 +5424,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5481,8 +5481,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "N/A",
@@ -5521,9 +5521,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5578,8 +5578,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -5618,9 +5618,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5715,9 +5715,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5812,9 +5812,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -5869,8 +5869,8 @@
         "valid_matches_count": 7,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -5909,9 +5909,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6006,9 +6006,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6103,9 +6103,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6200,7 +6200,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -6297,9 +6297,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6394,7 +6394,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -6451,8 +6451,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -6491,9 +6491,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6588,9 +6588,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6685,9 +6685,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6782,9 +6782,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6879,9 +6879,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -6976,9 +6976,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7073,9 +7073,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7170,9 +7170,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7267,9 +7267,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7364,9 +7364,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7421,8 +7421,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -7461,9 +7461,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7558,9 +7558,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7615,8 +7615,8 @@
         "valid_matches_count": 4,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-1",
@@ -7655,9 +7655,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7752,9 +7752,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7849,9 +7849,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -7906,8 +7906,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-1",
@@ -7946,9 +7946,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8003,8 +8003,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "5-1",
@@ -8043,9 +8043,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8140,9 +8140,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8237,9 +8237,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8334,9 +8334,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8431,9 +8431,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8528,9 +8528,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-4",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8625,9 +8625,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8722,9 +8722,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8779,8 +8779,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-1",
@@ -8819,9 +8819,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -8916,9 +8916,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9013,9 +9013,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9110,7 +9110,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -9207,9 +9207,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9264,8 +9264,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -9304,9 +9304,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9401,9 +9401,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9498,9 +9498,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9595,9 +9595,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9652,8 +9652,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -9692,9 +9692,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9789,9 +9789,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9886,9 +9886,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -9983,9 +9983,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10080,9 +10080,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10177,9 +10177,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10274,9 +10274,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10371,9 +10371,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10468,9 +10468,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10525,8 +10525,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-1",
@@ -10565,9 +10565,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10662,9 +10662,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10759,9 +10759,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10856,9 +10856,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -10953,9 +10953,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11050,9 +11050,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11147,9 +11147,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11244,9 +11244,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11341,9 +11341,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11438,9 +11438,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11495,8 +11495,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "5-2",
@@ -11535,9 +11535,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "5-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11632,9 +11632,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11729,9 +11729,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11786,8 +11786,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-1",
@@ -11826,9 +11826,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "4-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11923,9 +11923,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -11980,8 +11980,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -12020,9 +12020,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12117,9 +12117,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12214,9 +12214,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12271,8 +12271,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -12311,9 +12311,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12368,8 +12368,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -12408,9 +12408,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12465,8 +12465,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -12505,9 +12505,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12602,9 +12602,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12699,9 +12699,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12796,9 +12796,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12893,9 +12893,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -12990,9 +12990,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13087,9 +13087,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13184,9 +13184,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13281,9 +13281,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13338,8 +13338,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -13378,9 +13378,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13475,9 +13475,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13572,9 +13572,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13669,9 +13669,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13766,9 +13766,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13863,9 +13863,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -13960,9 +13960,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14057,9 +14057,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14154,9 +14154,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14251,9 +14251,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14348,9 +14348,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14404,9 +14404,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 1,
-        "total_points": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-1",
@@ -14445,9 +14445,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14542,9 +14542,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14639,9 +14639,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14736,9 +14736,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14793,8 +14793,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-1",
@@ -14833,9 +14833,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14930,9 +14930,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -14987,8 +14987,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -15027,9 +15027,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15124,9 +15124,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15221,9 +15221,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15278,8 +15278,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-1",
@@ -15318,9 +15318,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15375,8 +15375,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-1",
@@ -15415,9 +15415,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15512,9 +15512,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15609,9 +15609,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15706,9 +15706,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15803,9 +15803,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15900,9 +15900,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -15997,9 +15997,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16094,9 +16094,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-4",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16191,9 +16191,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16248,8 +16248,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "1-2",
@@ -16288,9 +16288,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16385,9 +16385,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16482,9 +16482,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16579,9 +16579,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16636,8 +16636,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "1-1",
@@ -16676,9 +16676,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16773,9 +16773,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16870,9 +16870,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -16967,9 +16967,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17064,9 +17064,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17161,9 +17161,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17218,8 +17218,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-1",
@@ -17258,9 +17258,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17315,8 +17315,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -17355,9 +17355,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17452,7 +17452,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -17549,9 +17549,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17646,9 +17646,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17743,9 +17743,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17840,9 +17840,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -17937,9 +17937,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18034,9 +18034,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18131,9 +18131,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18228,9 +18228,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18325,7 +18325,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -18382,8 +18382,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -18422,9 +18422,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18479,8 +18479,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -18519,9 +18519,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18616,9 +18616,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18713,9 +18713,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18810,9 +18810,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18907,9 +18907,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -18964,8 +18964,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -19004,9 +19004,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19101,9 +19101,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19198,9 +19198,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19295,9 +19295,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19392,9 +19392,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19489,9 +19489,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19586,9 +19586,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19683,9 +19683,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19780,9 +19780,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19877,9 +19877,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -19974,9 +19974,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20071,9 +20071,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20168,9 +20168,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20265,9 +20265,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20322,8 +20322,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "1-1",
@@ -20362,9 +20362,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20459,9 +20459,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20556,9 +20556,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20613,8 +20613,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-2",
@@ -20653,9 +20653,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20750,9 +20750,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20847,9 +20847,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -20944,9 +20944,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21041,9 +21041,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21138,9 +21138,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21235,9 +21235,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21332,9 +21332,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21429,9 +21429,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21486,8 +21486,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -21526,9 +21526,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21623,9 +21623,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21720,9 +21720,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21817,9 +21817,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -21914,9 +21914,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22011,9 +22011,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22068,8 +22068,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -22108,9 +22108,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22205,9 +22205,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22302,9 +22302,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22399,9 +22399,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22456,8 +22456,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -22496,9 +22496,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22593,9 +22593,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22690,9 +22690,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22787,9 +22787,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22884,9 +22884,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-5",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -22981,9 +22981,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23078,9 +23078,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23175,9 +23175,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23232,8 +23232,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-1",
@@ -23272,9 +23272,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23369,9 +23369,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23466,9 +23466,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23523,8 +23523,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "1-1",
@@ -23563,9 +23563,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23660,9 +23660,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23717,8 +23717,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "1-1",
@@ -23757,9 +23757,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -23854,7 +23854,7 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -23951,9 +23951,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24008,8 +24008,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -24048,9 +24048,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24145,9 +24145,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24242,9 +24242,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24339,9 +24339,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24436,9 +24436,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24533,9 +24533,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24630,9 +24630,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24727,9 +24727,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24784,8 +24784,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-1",
@@ -24824,9 +24824,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -24921,9 +24921,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25018,9 +25018,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25115,9 +25115,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25212,9 +25212,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25309,9 +25309,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25406,9 +25406,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25503,9 +25503,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25600,9 +25600,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25697,9 +25697,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25794,9 +25794,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25851,8 +25851,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -25891,9 +25891,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -25988,9 +25988,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26085,9 +26085,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26182,9 +26182,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26279,9 +26279,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26376,9 +26376,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26473,9 +26473,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26570,9 +26570,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26667,9 +26667,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26764,9 +26764,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26861,9 +26861,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -26958,9 +26958,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27055,9 +27055,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27152,9 +27152,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27249,9 +27249,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27346,9 +27346,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27443,9 +27443,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27540,9 +27540,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27637,9 +27637,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27734,9 +27734,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27831,9 +27831,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27928,9 +27928,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -27985,8 +27985,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -28025,9 +28025,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28122,9 +28122,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28219,9 +28219,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28316,9 +28316,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28373,8 +28373,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "1-0",
@@ -28413,9 +28413,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28510,9 +28510,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28607,9 +28607,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28704,9 +28704,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28801,9 +28801,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28898,9 +28898,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -28995,9 +28995,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29092,9 +29092,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29189,9 +29189,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29286,9 +29286,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29383,9 +29383,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29480,9 +29480,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29577,9 +29577,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29674,9 +29674,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29771,9 +29771,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29868,9 +29868,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -29965,9 +29965,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30022,8 +30022,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -30062,9 +30062,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30119,8 +30119,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -30159,9 +30159,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30256,9 +30256,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30353,9 +30353,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30450,9 +30450,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30547,9 +30547,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30604,8 +30604,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-2",
@@ -30644,9 +30644,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30741,9 +30741,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30838,9 +30838,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -30935,9 +30935,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31032,9 +31032,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31129,9 +31129,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31186,8 +31186,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-1",
@@ -31226,9 +31226,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31323,9 +31323,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31420,9 +31420,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31477,8 +31477,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-2",
@@ -31517,9 +31517,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31614,9 +31614,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31711,9 +31711,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31768,8 +31768,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -31808,9 +31808,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31865,8 +31865,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-1",
@@ -31905,9 +31905,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -31962,8 +31962,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -32002,9 +32002,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32099,9 +32099,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32196,9 +32196,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32293,9 +32293,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32390,9 +32390,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32487,9 +32487,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32584,9 +32584,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32681,9 +32681,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32778,9 +32778,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32875,9 +32875,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -32972,9 +32972,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33069,9 +33069,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33166,9 +33166,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33223,8 +33223,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -33263,9 +33263,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33360,9 +33360,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-4",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33457,9 +33457,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33554,9 +33554,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33651,9 +33651,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33748,9 +33748,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33845,9 +33845,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -33942,9 +33942,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34039,9 +34039,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34136,9 +34136,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34233,9 +34233,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34290,8 +34290,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-0",
@@ -34330,9 +34330,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34427,9 +34427,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34484,8 +34484,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "2-0",
@@ -34524,9 +34524,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34581,8 +34581,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "4-1",
@@ -34621,9 +34621,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34678,8 +34678,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -34718,9 +34718,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34775,8 +34775,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Coventry City": {
             "pred": "3-0",
@@ -34815,9 +34815,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -34912,9 +34912,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {
@@ -35009,9 +35009,9 @@
           },
           "Brentford vs Tottenham Hotspur": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Aston Villa": {

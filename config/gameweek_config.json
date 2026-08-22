@@ -311,12 +311,12 @@
           "id": 2,
           "home": "Brentford",
           "away": "Tottenham Hotspur",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 3,
+          "away_act": 0,
           "kickoff": "2026-08-22T16:30:00Z",
-          "finished": false,
-          "started": false,
-          "minutes": 0
+          "finished": true,
+          "started": true,
+          "minutes": 90
         },
         {
           "id": 7,
