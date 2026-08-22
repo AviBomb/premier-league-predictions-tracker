@@ -523,8 +523,8 @@
         // GLOBAL STATE & STORAGE
         let currentConfig = {
             "google_auth": {
-                "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
-                "authorized_users": ["avi.bomb@gmail.com"]
+                "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+                "authorized_users": ["admin@example.com"]
             },
             "active_gameweek": 1,
             "registered_videos": {
@@ -627,7 +627,7 @@
             // Always load latest server configuration before initiating Google OAuth
             await loadServerConfig();
 
-            const clientId = currentConfig.google_auth?.client_id || "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com";
+            const clientId = currentConfig.google_auth?.client_id || "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com";
 
             if (window.google && google.accounts && google.accounts.oauth2) {
                 try {
@@ -729,7 +729,7 @@
         function renderAuthorizedAdmins() {
             const container = document.getElementById('authorized-admins-badges');
             if (!container) return;
-            const admins = currentConfig.google_auth?.authorized_users || ["avi.bomb@gmail.com"];
+            const admins = currentConfig.google_auth?.authorized_users || [];
 
             container.innerHTML = admins.map(email => `
                 <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0,255,135,0.12); border: 1px solid rgba(0,255,135,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">

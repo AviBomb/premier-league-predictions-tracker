@@ -30,7 +30,7 @@ from src.dashboard_generator import generate_live_dashboard
 CONFIG_PATH = "config/gameweek_config.json"
 APPROVALS_PATH = "data/admin_approvals.json"
 PENDING_APPROVALS_PATH = "data/pending_approvals.json"
-API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyAaMLKo2ugMw_4XBZdtLXtojvy3wlApOHA")
+API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
 LOCAL_DATA_FALLBACK = "data/sample_comments.csv"
 
 
