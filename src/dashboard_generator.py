@@ -432,6 +432,19 @@ def generate_live_dashboard(
             return "https://resources.premierleague.com/premierleague/badges/70/t3.png";
         }}
 
+        function formatGoalsJS(goals, summaryFallback) {{
+            if (goals && Array.isArray(goals) && goals.length > 0) {{
+                return goals.map(g => {{
+                    const min = g.minute ? `<b>${{escapeHtml(g.minute)}}</b>` : '';
+                    const scorer = g.scorer ? escapeHtml(g.scorer) : 'Goal';
+                    const assist = g.assist ? ` <span style="color: var(--text-muted); font-size: 0.74rem;">(assist: ${{escapeHtml(g.assist)}})</span>` : '';
+                    const type = g.type === 'OG' ? ' <span style="color:#ff6b8b; font-size:0.72rem; font-weight:800;">(OG)</span>' : (g.type === 'P' || g.type === 'PEN' ? ' <span style="color:var(--pl-gold); font-size:0.72rem; font-weight:800;">(P)</span>' : '');
+                    return `${{scorer}} ${{min}}${{type}}${{assist}}`;
+                }}).join('<span style="color: var(--text-muted); margin: 0 4px;">&bull;</span> ');
+            }}
+            return escapeHtml(summaryFallback || '');
+        }}
+
         const ALL_GAMEWEEKS = {all_gw_json};
         const rawLeaderboard = {leaderboard_json};
         let activeGameweekScope = {active_gw};
@@ -541,7 +554,9 @@ def generate_live_dashboard(
                 
                 const homeLogo = f.home_logo || getTeamLogoJS(f.home);
                 const awayLogo = f.away_logo || getTeamLogoJS(f.away);
-                const hasScorers = f.home_goals_summary || f.away_goals_summary;
+                const homeGoalsStr = formatGoalsJS(f.home_goals, f.home_goals_summary);
+                const awayGoalsStr = formatGoalsJS(f.away_goals, f.away_goals_summary);
+                const hasScorers = homeGoalsStr || awayGoalsStr;
 
                 return `
                     <div class="fixture-card">
@@ -565,16 +580,16 @@ def generate_live_dashboard(
                         </div>
                         ${{hasScorers ? `
                             <div class="fix-scorers-box">
-                                ${{f.home_goals_summary ? `
+                                ${{homeGoalsStr ? `
                                     <div class="scorer-line">
                                         <span class="scorer-ball">⚽</span>
-                                        <div><b>${{escapeHtml(f.home)}}:</b> ${{escapeHtml(f.home_goals_summary)}}</div>
+                                        <div><b>${{escapeHtml(f.home)}}:</b> ${{homeGoalsStr}}</div>
                                     </div>
                                 ` : ''}}
-                                ${{f.away_goals_summary ? `
+                                ${{awayGoalsStr ? `
                                     <div class="scorer-line">
                                         <span class="scorer-ball">⚽</span>
-                                        <div><b>${{escapeHtml(f.away)}}:</b> ${{escapeHtml(f.away_goals_summary)}}</div>
+                                        <div><b>${{escapeHtml(f.away)}}:</b> ${{awayGoalsStr}}</div>
                                     </div>
                                 ` : ''}}
                             </div>

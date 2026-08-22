@@ -565,6 +565,19 @@
             return "https://resources.premierleague.com/premierleague/badges/70/t3.png";
         }
 
+        function formatGoalsJS(goals, summaryFallback) {
+            if (goals && Array.isArray(goals) && goals.length > 0) {
+                return goals.map(g => {
+                    const min = g.minute ? `<b>${escapeHtml(g.minute)}</b>` : '';
+                    const scorer = g.scorer ? escapeHtml(g.scorer) : 'Goal';
+                    const assist = g.assist ? ` <span style="color: var(--text-muted); font-size: 0.74rem;">(assist: ${escapeHtml(g.assist)})</span>` : '';
+                    const type = g.type === 'OG' ? ' <span style="color:#ff6b8b; font-size:0.72rem; font-weight:800;">(OG)</span>' : (g.type === 'P' || g.type === 'PEN' ? ' <span style="color:var(--pl-gold); font-size:0.72rem; font-weight:800;">(P)</span>' : '');
+                    return `${scorer} ${min}${type}${assist}`;
+                }).join('<span style="color: var(--text-muted); margin: 0 4px;">&bull;</span> ');
+            }
+            return escapeHtml(summaryFallback || '');
+        }
+
         // GLOBAL STATE & STORAGE
         let currentConfig = {
             "google_auth": {
@@ -1331,7 +1344,9 @@
 
                 const homeLogo = f.home_logo || getTeamLogoJS(f.home);
                 const awayLogo = f.away_logo || getTeamLogoJS(f.away);
-                const hasScorers = f.home_goals_summary || f.away_goals_summary;
+                const homeGoalsStr = formatGoalsJS(f.home_goals, f.home_goals_summary);
+                const awayGoalsStr = formatGoalsJS(f.away_goals, f.away_goals_summary);
+                const hasScorers = homeGoalsStr || awayGoalsStr;
 
                 return `
                     <div class="fixture-edit-card" id="fix-card-${f.id}">
@@ -1356,8 +1371,8 @@
                         </div>
                         ${hasScorers ? `
                             <div style="grid-column: 1 / -1; margin-top: 10px; padding-top: 8px; border-top: 1px dashed rgba(255,255,255,0.12); font-size: 0.82rem; color: #ffe082; display: flex; gap: 20px; flex-wrap: wrap; font-family: 'JetBrains Mono', monospace;">
-                                ${f.home_goals_summary ? `<div><b>⚽ ${escapeHtml(f.home)}:</b> ${escapeHtml(f.home_goals_summary)}</div>` : ''}
-                                ${f.away_goals_summary ? `<div><b>⚽ ${escapeHtml(f.away)}:</b> ${escapeHtml(f.away_goals_summary)}</div>` : ''}
+                                ${homeGoalsStr ? `<div><b>⚽ ${escapeHtml(f.home)}:</b> ${homeGoalsStr}</div>` : ''}
+                                ${awayGoalsStr ? `<div><b>⚽ ${escapeHtml(f.away)}:</b> ${awayGoalsStr}</div>` : ''}
                             </div>
                         ` : ''}
                     </div>

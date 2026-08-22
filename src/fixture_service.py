@@ -130,6 +130,117 @@ SEASON_2026_2027_FIXTURES: Dict[int, List[Dict[str, Any]]] = {
 }
 
 
+def normalize_team_key(name: str) -> str:
+    """Normalizes club name for robust cross-API matching."""
+    if not name:
+        return ""
+    clean = name.lower()
+    for drop in ["fc", "afc", "and", "&", "hove", "albion", "town", "city", "united", "hotspur", "wanderers", "county", "north", "south"]:
+        clean = clean.replace(drop, "")
+    return "".join(c for c in clean if c.isalnum())
+
+
+def fetch_pulse_match_goals_map(gw_number: int) -> Dict[Tuple[str, str], Dict[str, Any]]:
+    """
+    Queries Premier League Pulse API for exact minute-by-minute goal events, scorers, and assists.
+    Returns mapping keyed by (norm_home_team, norm_away_team).
+    """
+    pulse_map: Dict[Tuple[str, str], Dict[str, Any]] = {}
+    try:
+        ctx = ssl._create_unverified_context()
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+            "Origin": "https://www.premierleague.com"
+        }
+        
+        # 1. Get current compSeason ID for Premier League
+        comp_url = "https://footballapi.pulselive.com/football/competitions/1/compseasons?page=0&pageSize=1"
+        req = urllib.request.Request(comp_url, headers=headers)
+        with urllib.request.urlopen(req, timeout=6, context=ctx) as resp:
+            comp_data = json.loads(resp.read().decode("utf-8"))
+            season_id = int(comp_data.get("content", [{}])[0].get("id", 841))
+            
+        # 2. Fetch Pulse fixtures for season
+        fix_url = f"https://footballapi.pulselive.com/football/fixtures?page=0&pageSize=400&sort=asc&statuses=U,L,C&compSeasons={season_id}"
+        req2 = urllib.request.Request(fix_url, headers=headers)
+        with urllib.request.urlopen(req2, timeout=8, context=ctx) as resp2:
+            pulse_fixes = json.loads(resp2.read().decode("utf-8")).get("content", [])
+            gw_pulse = [f for f in pulse_fixes if int(f.get("gameweek", {}).get("gameweek", 0)) == gw_number]
+
+        # 3. For each match, query detailed fixture endpoint if match has goals / started
+        for pf in gw_pulse:
+            h_raw = pf.get("teams", [{}])[0].get("team", {}).get("name", "")
+            a_raw = pf.get("teams", [{}])[1].get("team", {}).get("name", "")
+            norm_key = (normalize_team_key(h_raw), normalize_team_key(a_raw))
+            
+            pid = int(pf.get("id", 0))
+            if not pid:
+                continue
+
+            detail_url = f"https://footballapi.pulselive.com/football/fixtures/{pid}"
+            req3 = urllib.request.Request(detail_url, headers=headers)
+            with urllib.request.urlopen(req3, timeout=6, context=ctx) as resp3:
+                data = json.loads(resp3.read().decode("utf-8"))
+                
+            players = {}
+            for tl in data.get("teamLists") or []:
+                if not tl:
+                    continue
+                lineup = (tl.get("lineup") or []) + (tl.get("substitutes") or [])
+                for p in lineup:
+                    if not p:
+                        continue
+                    p_info = p.get("name") or {}
+                    p_name = p_info.get("display") or f"{p_info.get('first', '')} {p_info.get('last', '')}".strip()
+                    players[p.get("id")] = p_name
+
+            h_id = data.get("teams", [{}])[0].get("team", {}).get("id")
+            
+            raw_events = [e for e in (data.get("events") or []) if e and e.get("type") in ("G", "OG", "P", "PEN")]
+            raw_events.sort(key=lambda x: x.get("clock", {}).get("secs", 0))
+            
+            home_goals_list = []
+            away_goals_list = []
+            home_summary_parts = []
+            away_summary_parts = []
+
+            for g in raw_events:
+                scorer_name = players.get(g.get("personId"), "Goal")
+                assist_name = players.get(g.get("assistId")) if g.get("assistId") else None
+                min_lbl = g.get("clock", {}).get("label", "")
+                if min_lbl.endswith("'00"):
+                    min_lbl = min_lbl[:-3] + "'"
+
+                g_type = g.get("type")
+                type_str = " (OG)" if g_type == "OG" else (" (P)" if g_type in ("P", "PEN") else "")
+
+                goal_obj = {
+                    "minute": min_lbl,
+                    "scorer": scorer_name,
+                    "assist": assist_name,
+                    "type": g_type
+                }
+
+                summary_str = f"{scorer_name} {min_lbl}{type_str}" + (f" (assist: {assist_name})" if assist_name else "")
+
+                if g.get("teamId") == h_id:
+                    home_goals_list.append(goal_obj)
+                    home_summary_parts.append(summary_str)
+                else:
+                    away_goals_list.append(goal_obj)
+                    away_summary_parts.append(summary_str)
+
+            pulse_map[norm_key] = {
+                "home_goals": home_goals_list,
+                "away_goals": away_goals_list,
+                "home_goals_summary": ", ".join(home_summary_parts),
+                "away_goals_summary": ", ".join(away_summary_parts)
+            }
+    except Exception as e:
+        print(f"[*] Pulse API enrichment note ({e})")
+    return pulse_map
+
+
 def fetch_bootstrap_data() -> Tuple[Dict[int, str], Dict[int, str]]:
     """Dynamically queries bootstrap-static to build live team ID and player ID mappings."""
     team_map = dict(FPL_TEAM_ID_MAP)
@@ -265,6 +376,19 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
                         })
 
                     if fixtures:
+                        # Enrich fixtures with Pulse API minute-by-minute goal events, scorers & assists
+                        pulse_map = fetch_pulse_match_goals_map(gw_number)
+                        for f in fixtures:
+                            key = (normalize_team_key(f["home"]), normalize_team_key(f["away"]))
+                            if key in pulse_map:
+                                pdata = pulse_map[key]
+                                if pdata.get("home_goals_summary"):
+                                    f["home_goals"] = pdata["home_goals"]
+                                    f["home_goals_summary"] = pdata["home_goals_summary"]
+                                if pdata.get("away_goals_summary"):
+                                    f["away_goals"] = pdata["away_goals"]
+                                    f["away_goals_summary"] = pdata["away_goals_summary"]
+
                         # Sort fixtures by kickoff time
                         fixtures.sort(key=lambda x: x.get("kickoff", ""))
                         print(f"[+] Loaded {len(fixtures)} live fixtures, scorelines & goal stats from Premier League API.")
