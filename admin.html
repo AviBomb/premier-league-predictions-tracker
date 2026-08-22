@@ -523,8 +523,12 @@
         // GLOBAL STATE & STORAGE
         let currentConfig = {
             "google_auth": {
-                "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
-                "authorized_users": ["avi.bomb@gmail.com"]
+                "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+                "authorized_users_sha256": [
+                    "314ee50e4f08af46941d1a76ed0f43428671e8d1a66da07f29e9f8c84ff53293",
+                    "acaf4abc2ce7b0cca0e5c1fa12744d08a1a0c4f70c555cb84acf25703c0e3e10",
+                    "06e641200a1d5a3e787acbb79740245ca8b9e04e586dd015606bb89714a062ce"
+                ]
             },
             "active_gameweek": 1,
             "registered_videos": {
@@ -618,6 +622,34 @@
             }
         }
 
+        async function sha256Hex(text) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode((text || '').trim().toLowerCase());
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        async function isEmailAuthorized(email) {
+            if (!email) return false;
+            const emailHash = await sha256Hex(email);
+            const authObj = currentConfig.google_auth || {};
+            const allowedHashes = authObj.authorized_users_sha256 || [];
+            const allowedPlain = authObj.authorized_users || [];
+
+            if (allowedHashes.length === 0 && allowedPlain.length === 0) return true;
+
+            if (allowedHashes.includes(emailHash)) return true;
+
+            for (const item of allowedPlain) {
+                const clean = item.trim().toLowerCase();
+                if (clean === email.trim().toLowerCase() || clean === emailHash) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         async function startGoogleAuthFlow() {
             const loader = document.getElementById('auth-loading');
             const err = document.getElementById('auth-err');
@@ -627,7 +659,7 @@
             // Always load latest server configuration before initiating Google OAuth
             await loadServerConfig();
 
-            const clientId = currentConfig.google_auth?.client_id || "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com";
+            const clientId = currentConfig.google_auth?.client_id || "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com";
 
             if (window.google && google.accounts && google.accounts.oauth2) {
                 try {
@@ -649,8 +681,8 @@
                                         // Refresh latest configuration from server to get freshly added admins
                                         await loadServerConfig();
 
-                                        const allowedAdmins = (currentConfig.google_auth?.authorized_users || []).map(e => e.toLowerCase().trim());
-                                        if (allowedAdmins.length > 0 && !allowedAdmins.includes(email)) {
+                                        const authorized = await isEmailAuthorized(email);
+                                        if (!authorized) {
                                             loader.style.display = 'none';
                                             err.style.display = 'block';
                                             err.innerHTML = `⛔ <b>Access Denied (403 Forbidden):</b><br>The Google account <code>${escapeHtml(email)}</code> is not registered as an authorized administrator. Please sign in with an authorized Google account.`;
@@ -700,9 +732,8 @@
 
             await loadServerConfig();
 
-            const allowedAdmins = (currentConfig.google_auth?.authorized_users || []).map(e => e.toLowerCase().trim());
-            const userEmail = email.toLowerCase().trim();
-            if (allowedAdmins.length > 0 && !allowedAdmins.includes(userEmail)) {
+            const authorized = await isEmailAuthorized(email);
+            if (!authorized) {
                 logoutAdmin("Unauthorized Google account.");
                 return;
             }
@@ -726,17 +757,42 @@
             startInactivityMonitor();
         }
 
-        function renderAuthorizedAdmins() {
+        async function renderAuthorizedAdmins() {
             const container = document.getElementById('authorized-admins-badges');
             if (!container) return;
-            const admins = currentConfig.google_auth?.authorized_users || ["avi.bomb@gmail.com"];
+            const authObj = currentConfig.google_auth || {};
+            const hashes = authObj.authorized_users_sha256 || [];
+            const plainUsers = authObj.authorized_users || [];
 
-            container.innerHTML = admins.map(email => `
-                <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0,255,135,0.12); border: 1px solid rgba(0,255,135,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">
-                    <span>🔒 ${escapeHtml(email)}</span>
-                    ${admins.length > 1 ? `<button onclick="confirmRemoveAdmin('${escapeHtml(email)}')" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>` : ''}
-                </span>
-            `).join('');
+            const activeUserEmail = (sessionStorage.getItem('pl_admin_active_user') || '').trim().toLowerCase();
+            const activeUserHash = activeUserEmail ? await sha256Hex(activeUserEmail) : '';
+
+            let badgeHtml = '';
+
+            for (let idx = 0; idx < hashes.length; idx++) {
+                const hash = hashes[idx];
+                const isMe = hash === activeUserHash;
+                const shortHash = hash.substring(0, 8) + '...' + hash.substring(hash.length - 6);
+                const label = isMe ? `🔒 Active Admin (${escapeHtml(activeUserEmail)})` : `🔒 Admin #${idx + 1} (SHA-256: ${shortHash})`;
+
+                badgeHtml += `
+                    <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0,255,135,0.12); border: 1px solid rgba(0,255,135,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">
+                        <span>${label}</span>
+                        ${(hashes.length + plainUsers.length) > 1 ? `<button onclick="confirmRemoveAdmin('${escapeHtml(hash)}', true)" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>` : ''}
+                    </span>
+                `;
+            }
+
+            plainUsers.forEach((user, idx) => {
+                badgeHtml += `
+                    <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(255,180,0,0.12); border: 1px solid rgba(255,180,0,0.3); color: #fff; padding: 6px 12px; border-radius: 10px; font-size: 0.88rem; font-family: 'JetBrains Mono', monospace;">
+                        <span>🔒 Legacy Admin (${escapeHtml(user)})</span>
+                        <button onclick="confirmRemoveAdmin('${escapeHtml(user)}', false)" style="background:rgba(233,0,82,0.2); border:1px solid rgba(233,0,82,0.4); color:#ff6b8b; border-radius:6px; cursor:pointer; font-weight:bold; font-size:0.85rem; padding:2px 6px;" title="Remove Admin">&times;</button>
+                    </span>
+                `;
+            });
+
+            container.innerHTML = badgeHtml || '<span style="color: var(--text-muted); font-size: 0.88rem;">No authorized admin hashes configured.</span>';
         }
 
         async function addAuthorizedAdmin() {
@@ -747,53 +803,67 @@
                 return;
             }
             if (!currentConfig.google_auth) currentConfig.google_auth = {};
-            if (!currentConfig.google_auth.authorized_users) currentConfig.google_auth.authorized_users = [];
+            if (!currentConfig.google_auth.authorized_users_sha256) currentConfig.google_auth.authorized_users_sha256 = [];
 
-            if (currentConfig.google_auth.authorized_users.map(e => e.toLowerCase()).includes(email)) {
-                alert('This email is already in the authorized list.');
+            const hash = await sha256Hex(email);
+            if (currentConfig.google_auth.authorized_users_sha256.includes(hash)) {
+                alert('This account is already authorized (SHA-256 security hash matched).');
                 return;
             }
 
-            currentConfig.google_auth.authorized_users.push(email);
+            currentConfig.google_auth.authorized_users_sha256.push(hash);
             input.value = '';
-            renderAuthorizedAdmins();
+            await renderAuthorizedAdmins();
 
-            showLoadingSpinner("Adding Administrator", `Saving ${email} to authorized administrators list...`);
+            showLoadingSpinner("Adding Administrator", "Generating SHA-256 security hash and updating authorized access control matrix...");
             await syncConfigToServer();
             hideLoadingSpinner();
-            showToast(`✅ Added ${email} to authorized administrators.`);
+            showToast(`✅ Added administrator (SHA-256 Hash: ${hash.substring(0, 8)}...).`);
         }
 
-        function confirmRemoveAdmin(email) {
-            if (!currentConfig.google_auth?.authorized_users) return;
-            if (currentConfig.google_auth.authorized_users.length <= 1) {
+        let pendingRemoveTarget = null;
+        let pendingRemoveIsHash = true;
+
+        function confirmRemoveAdmin(target, isHash = true) {
+            const authObj = currentConfig.google_auth || {};
+            const totalAdmins = (authObj.authorized_users_sha256?.length || 0) + (authObj.authorized_users?.length || 0);
+            if (totalAdmins <= 1) {
                 alert('You must keep at least one authorized administrator.');
                 return;
             }
-            pendingRemoveAdminEmail = email;
+            pendingRemoveTarget = target;
+            pendingRemoveIsHash = isHash;
+
+            const displayLabel = isHash ? `Administrator Hash (${target.substring(0, 8)}...)` : target;
             document.getElementById('confirm-title').innerText = "Confirm Administrator Removal";
-            document.getElementById('confirm-msg').innerHTML = `Are you sure you want to remove <code>${escapeHtml(email)}</code> as an authorized administrator?<br>They will immediately lose access to the Admin Portal.`;
+            document.getElementById('confirm-msg').innerHTML = `Are you sure you want to remove <code>${escapeHtml(displayLabel)}</code> as an authorized administrator?<br>They will immediately lose access to the Admin Portal.`;
             document.getElementById('confirm-action-btn').onclick = executeRemoveAdmin;
             document.getElementById('confirm-modal').style.display = 'flex';
         }
 
         function closeConfirmModal() {
             document.getElementById('confirm-modal').style.display = 'none';
-            pendingRemoveAdminEmail = null;
+            pendingRemoveTarget = null;
         }
 
         async function executeRemoveAdmin() {
-            const email = pendingRemoveAdminEmail;
+            const target = pendingRemoveTarget;
+            const isHash = pendingRemoveIsHash;
             closeConfirmModal();
-            if (!email) return;
+            if (!target) return;
 
-            currentConfig.google_auth.authorized_users = currentConfig.google_auth.authorized_users.filter(e => e.toLowerCase() !== email.toLowerCase());
-            renderAuthorizedAdmins();
+            if (isHash && currentConfig.google_auth?.authorized_users_sha256) {
+                currentConfig.google_auth.authorized_users_sha256 = currentConfig.google_auth.authorized_users_sha256.filter(h => h !== target);
+            } else if (!isHash && currentConfig.google_auth?.authorized_users) {
+                currentConfig.google_auth.authorized_users = currentConfig.google_auth.authorized_users.filter(u => u !== target);
+            }
 
-            showLoadingSpinner("Removing Administrator", `Updating authorized access control permissions...`);
+            await renderAuthorizedAdmins();
+
+            showLoadingSpinner("Removing Administrator", "Updating authorized access control permissions...");
             await syncConfigToServer();
             hideLoadingSpinner();
-            showToast(`✅ Removed ${email} from authorized administrators.`);
+            showToast("✅ Removed administrator permissions.");
         }
 
         function startInactivityMonitor() {

@@ -1,9 +1,10 @@
 {
   "google_auth": {
-    "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
-    "authorized_users": [
-      "avi.bomb@gmail.com",
-      "avi.bomb1@gmail.com"
+    "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+    "authorized_users_sha256": [
+      "314ee50e4f08af46941d1a76ed0f43428671e8d1a66da07f29e9f8c84ff53293",
+      "acaf4abc2ce7b0cca0e5c1fa12744d08a1a0c4f70c555cb84acf25703c0e3e10",
+      "06e641200a1d5a3e787acbb79740245ca8b9e04e586dd015606bb89714a062ce"
     ]
   },
   "active_gameweek": 1,
@@ -277,7 +278,7 @@
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 13
+          "minutes": 45
         },
         {
           "id": 5,
@@ -288,7 +289,7 @@
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 10
+          "minutes": 45
         },
         {
           "id": 6,
@@ -299,7 +300,7 @@
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 11
+          "minutes": 44
         },
         {
           "id": 2,
