@@ -1,0 +1,458 @@
+{
+  "google_auth": {
+    "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
+    "authorized_users": [
+      "avi.bomb@gmail.com",
+      "avi.bomb1@gmail.com"
+    ]
+  },
+  "active_gameweek": 1,
+  "registered_videos": {
+    "1": "https://www.youtube.com/watch?v=qtId_ahtv1E"
+  },
+  "team_aliases": {
+    "Arsenal": [
+      "arsenal",
+      "ars",
+      "gunners",
+      "gooners",
+      "the gunners",
+      "arsenal fc",
+      "aresnal",
+      "arc",
+      "afc"
+    ],
+    "Aston Villa": [
+      "aston villa",
+      "villa",
+      "avl",
+      "aston v",
+      "avfc",
+      "villans",
+      "the villans",
+      "aston vill",
+      "astnvilla"
+    ],
+    "AFC Bournemouth": [
+      "afc bournemouth",
+      "bournemouth",
+      "bou",
+      "cherries",
+      "afcb",
+      "the cherries",
+      "bouremouth",
+      "bournemonth",
+      "bourmouth",
+      "bmouth",
+      "bmth",
+      "bourn"
+    ],
+    "Brentford": [
+      "brentford",
+      "bre",
+      "bees",
+      "brentford fc",
+      "the bees",
+      "brent",
+      "brenford"
+    ],
+    "Brighton & Hove Albion": [
+      "brighton & hove albion",
+      "brighton and hove albion",
+      "brighton",
+      "bha",
+      "bhafc",
+      "seagulls",
+      "the seagulls",
+      "albion",
+      "bright",
+      "brightn"
+    ],
+    "Chelsea": [
+      "chelsea",
+      "che",
+      "blues",
+      "the blues",
+      "cfc",
+      "chelsea fc",
+      "chelsa",
+      "chelski"
+    ],
+    "Coventry City": [
+      "coventry city",
+      "coventry",
+      "cov",
+      "ccfc",
+      "sky blues",
+      "the sky blues",
+      "cov city",
+      "covntry",
+      "coventrycty"
+    ],
+    "Crystal Palace": [
+      "crystal palace",
+      "palace",
+      "cry",
+      "cpfc",
+      "eagles",
+      "the eagles",
+      "crystal p",
+      "cystal palace",
+      "pallace",
+      "crystal"
+    ],
+    "Everton": [
+      "everton",
+      "eve",
+      "toffees",
+      "the toffees",
+      "efc",
+      "everton fc",
+      "evrton",
+      "evertn"
+    ],
+    "Fulham": [
+      "fulham",
+      "ful",
+      "cottagers",
+      "the cottagers",
+      "ffc",
+      "fulham fc",
+      "fullham",
+      "fulhm"
+    ],
+    "Hull City": [
+      "hull city",
+      "hull",
+      "hul",
+      "tigers",
+      "the tigers",
+      "hcfc",
+      "hull city tigers",
+      "hullcity"
+    ],
+    "Ipswich Town": [
+      "ipswich town",
+      "ipswich",
+      "ips",
+      "tractor boys",
+      "the tractor boys",
+      "itfc",
+      "ipswich t",
+      "ipsw",
+      "ipswich tn",
+      "ipswitch",
+      "ipswch"
+    ],
+    "Leeds United": [
+      "leeds united",
+      "leeds",
+      "lee",
+      "lufc",
+      "whites",
+      "the whites",
+      "peacocks",
+      "leed",
+      "leeds utd"
+    ],
+    "Liverpool": [
+      "liverpool",
+      "liv",
+      "reds",
+      "the reds",
+      "lfc",
+      "liverpool fc",
+      "pool",
+      "livrpool",
+      "liverpl"
+    ],
+    "Manchester City": [
+      "manchester city",
+      "man city",
+      "mci",
+      "mcfc",
+      "citizens",
+      "manchester c",
+      "man c",
+      "mancity",
+      "m. city",
+      "city",
+      "mn city"
+    ],
+    "Manchester United": [
+      "manchester united",
+      "man united",
+      "man utd",
+      "mun",
+      "mufc",
+      "red devils",
+      "manchester u",
+      "manutd",
+      "m. united",
+      "man u",
+      "united",
+      "yanited",
+      "mn utd"
+    ],
+    "Newcastle United": [
+      "newcastle united",
+      "newcastle",
+      "new",
+      "nufc",
+      "magpies",
+      "the toon",
+      "toon",
+      "new castle",
+      "newcaslte",
+      "newc utd"
+    ],
+    "Nottingham Forest": [
+      "nottingham forest",
+      "forest",
+      "nfo",
+      "nottm forest",
+      "nffc",
+      "nottingham",
+      "tricky trees",
+      "forrest",
+      "nott forest",
+      "n forest",
+      "notts forest"
+    ],
+    "Sunderland": [
+      "sunderland",
+      "sun",
+      "safc",
+      "black cats",
+      "the black cats",
+      "sundrland",
+      "sunderlnd"
+    ],
+    "Tottenham Hotspur": [
+      "tottenham hotspur",
+      "tottenham",
+      "spurs",
+      "tot",
+      "thfc",
+      "lilywhites",
+      "the lilywhites",
+      "spur",
+      "hotspur",
+      "totenham"
+    ]
+  },
+  "gameweeks": {
+    "1": {
+      "use_live_fpl_api": true,
+      "video_url": "https://www.youtube.com/watch?v=qtId_ahtv1E",
+      "fixtures": [
+        {
+          "id": 1,
+          "home": "Arsenal",
+          "away": "Coventry City",
+          "home_act": 3,
+          "away_act": 0,
+          "kickoff": "2026-08-21T19:00:00Z",
+          "finished": true,
+          "started": true,
+          "minutes": 90
+        },
+        {
+          "id": 4,
+          "home": "Hull City",
+          "away": "Manchester United",
+          "home_act": 2,
+          "away_act": 0,
+          "kickoff": "2026-08-22T11:30:00Z",
+          "finished": true,
+          "started": true,
+          "minutes": 90
+        },
+        {
+          "id": 3,
+          "home": "Everton",
+          "away": "Crystal Palace",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-22T14:00:00Z",
+          "finished": false,
+          "started": true,
+          "minutes": 13
+        },
+        {
+          "id": 5,
+          "home": "Ipswich Town",
+          "away": "Sunderland",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-22T14:00:00Z",
+          "finished": false,
+          "started": true,
+          "minutes": 10
+        },
+        {
+          "id": 6,
+          "home": "Nottingham Forest",
+          "away": "Leeds United",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-22T14:00:00Z",
+          "finished": false,
+          "started": true,
+          "minutes": 11
+        },
+        {
+          "id": 2,
+          "home": "Brentford",
+          "away": "Tottenham Hotspur",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-22T16:30:00Z",
+          "finished": false,
+          "started": false,
+          "minutes": 0
+        },
+        {
+          "id": 7,
+          "home": "Brighton & Hove Albion",
+          "away": "Aston Villa",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-23T13:00:00Z",
+          "finished": false,
+          "started": false,
+          "minutes": 0
+        },
+        {
+          "id": 8,
+          "home": "Manchester City",
+          "away": "AFC Bournemouth",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-23T13:00:00Z",
+          "finished": false,
+          "started": false,
+          "minutes": 0
+        },
+        {
+          "id": 9,
+          "home": "Newcastle United",
+          "away": "Liverpool",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-23T15:30:00Z",
+          "finished": false,
+          "started": false,
+          "minutes": 0
+        },
+        {
+          "id": 10,
+          "home": "Fulham",
+          "away": "Chelsea",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-24T19:00:00Z",
+          "finished": false,
+          "started": false,
+          "minutes": 0
+        }
+      ]
+    },
+    "2": {
+      "use_live_fpl_api": true,
+      "video_url": "",
+      "fixtures": [
+        {
+          "id": 201,
+          "home": "Aston Villa",
+          "away": "Arsenal",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-29T11:30:00Z",
+          "finished": false
+        },
+        {
+          "id": 202,
+          "home": "AFC Bournemouth",
+          "away": "Newcastle United",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-29T14:00:00Z",
+          "finished": false
+        },
+        {
+          "id": 203,
+          "home": "Chelsea",
+          "away": "Everton",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-29T14:00:00Z",
+          "finished": false
+        },
+        {
+          "id": 204,
+          "home": "Crystal Palace",
+          "away": "Nottingham Forest",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-29T14:00:00Z",
+          "finished": false
+        },
+        {
+          "id": 205,
+          "home": "Leeds United",
+          "away": "Brentford",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-29T14:00:00Z",
+          "finished": false
+        },
+        {
+          "id": 206,
+          "home": "Manchester United",
+          "away": "Fulham",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-29T16:30:00Z",
+          "finished": false
+        },
+        {
+          "id": 207,
+          "home": "Tottenham Hotspur",
+          "away": "Manchester City",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-30T13:00:00Z",
+          "finished": false
+        },
+        {
+          "id": 208,
+          "home": "Liverpool",
+          "away": "Ipswich Town",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-30T15:30:00Z",
+          "finished": false
+        },
+        {
+          "id": 209,
+          "home": "Sunderland",
+          "away": "Brighton & Hove Albion",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-30T15:30:00Z",
+          "finished": false
+        },
+        {
+          "id": 210,
+          "home": "Coventry City",
+          "away": "Hull City",
+          "home_act": null,
+          "away_act": null,
+          "kickoff": "2026-08-31T19:00:00Z",
+          "finished": false
+        }
+      ]
+    }
+  }
+}
