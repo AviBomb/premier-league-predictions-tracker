@@ -145,4 +145,4 @@ To configure Google Sign-In for authorized administrators on `admin.html`:
 3. Add Authorized JavaScript Origins:
    * Local: `http://127.0.0.1:3000` and `http://localhost:3000`
    * Production: `https://<YOUR_USERNAME>.github.io`
-4. Add authorized admin emails directly in `admin.html` under the **👥 Authorized Google Users** tab or in `config/gameweek_config.json`.
+4. Add authorized admin email SHA-256 hashes directly in `admin.html` under the **👥 Authorized Google Users** tab or in `config/gameweek_config.json` (`authorized_users_sha256`). Plain-text emails are automatically hashed client-side so they are never exposed in public repositories.
