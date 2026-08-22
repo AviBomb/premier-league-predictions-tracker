@@ -135,15 +135,18 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
                         home_team = team_map.get(team_h_id, f"Team_{team_h_id}")
                         away_team = team_map.get(team_a_id, f"Team_{team_a_id}")
 
-                        # Full-Time (FT) validation: Only count and score match when finished or finished_provisional is True (or 90+ mins)
+                        raw_h_score = fix.get("team_h_score")
+                        raw_a_score = fix.get("team_a_score")
+
+                        # Full-Time (FT) validation
                         is_full_time = fix.get("finished", False) or fix.get("finished_provisional", False) or (fix.get("minutes", 0) >= 90)
-                        started = fix.get("started", False)
-                        
-                        # Match scores and points are strictly updated at Full Time
-                        if is_full_time:
-                            home_score = fix.get("team_h_score")
-                            away_score = fix.get("team_a_score")
-                            finished = True
+                        started = fix.get("started", False) or (raw_h_score is not None)
+
+                        # Live & Full-Time match scores are captured as soon as available in official API
+                        if raw_h_score is not None and raw_a_score is not None:
+                            home_score = int(raw_h_score)
+                            away_score = int(raw_a_score)
+                            finished = is_full_time
                         else:
                             home_score = None
                             away_score = None

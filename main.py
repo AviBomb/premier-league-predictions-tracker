@@ -92,46 +92,6 @@ def save_pending_approvals(candidates: List[Dict[str, Any]], current_gw: int):
         json.dump(all_cands, f, indent=2, ensure_ascii=False)
 
 
-def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
-    print("=" * 88)
-    print("  PREMIER LEAGUE PREDICTIONS TRACKER & LIVE SCORING ENGINE (2026-2027)")
-    print("=" * 88)
-
-    # 1. Load active Gameweek configuration
-    gw_number, video_urls, custom_fixtures, use_live_fpl = load_gameweek_configuration()
-    if target_gw is not None:
-        gw_number = target_gw
-    admin_approvals = load_admin_approvals()
-
-    print(f"[*] Active Gameweek: {gw_number}")
-    print(f"[*] Target YouTube URLs: {len(video_urls)} video(s)")
-    for u in video_urls:
-        print(f"    - {u}")
-
-    # 2. Load Fixtures (from config or Live API)
-    if custom_fixtures and target_gw is None:
-        fixtures = custom_fixtures
-        print(f"[+] Loaded {len(fixtures)} fixtures from config/gameweek_config.json.")
-    else:
-        fixtures = fetch_gameweek_fixtures(gw_number, use_live_api=use_live_fpl)
-
-    # 3. Scrape YouTube Comments (Live API by default, auto-updating local list)
-    comments = []
-    gw_fallback_file = f"data/sample_comments_gw{gw_number}.csv" if gw_number > 1 else LOCAL_DATA_FALLBACK
-
-    if use_live_api and API_KEY and not API_KEY.startswith("YOUR_") and video_urls and any(video_urls):
-        try:
-            valid_urls = [u for u in video_urls if u and "youtube.com" in u]
-            if valid_urls:
-                comments = scrape_youtube_comments(API_KEY, valid_urls)
-                if comments:
-                    os.makedirs("data", exist_ok=True)
-                    df_cache = pd.DataFrame(comments)
-                    df_cache.to_csv(gw_fallback_file, index=False, encoding="utf-8")
-                    print(f"[+] Auto-updated local cache list ({gw_fallback_file}) with {len(comments)} comments from API call.")
-        except Exception as e:
-            print(f"[!] Live API query note: {e}. Falling back to cached local dataset...")
-
 ALL_GW_DATA_PATH = "data/all_gameweeks_data.json"
 
 
@@ -237,14 +197,15 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
     # 2. Load all gameweeks data store
     all_gw_data = load_all_gameweeks_cache()
 
-    # 3. Process Target Gameweek
-    audited, valids, candidates, fixtures = process_gameweek_data(gw_number, use_live_api, admin_approvals)
-    if audited:
-        all_gw_data[str(gw_number)] = {
-            "gw": gw_number,
-            "fixtures": fixtures,
-            "audited_records": audited
-        }
+    # 3. Process all active gameweeks up to current gw_number
+    for gw in range(1, gw_number + 1):
+        audited, valids, candidates, fixtures = process_gameweek_data(gw, use_live_api, admin_approvals)
+        if audited or fixtures:
+            all_gw_data[str(gw)] = {
+                "gw": gw,
+                "fixtures": fixtures,
+                "audited_records": audited
+            }
 
     save_all_gameweeks_cache(all_gw_data)
 
