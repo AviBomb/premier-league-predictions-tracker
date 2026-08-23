@@ -164,6 +164,61 @@ def generate_live_dashboard(
         .fix-audit-row.voided {{ border-left-color: var(--pl-pink); background: rgba(233, 0, 82, 0.04); }}
         .fix-audit-row.miss {{ border-left-color: rgba(255,255,255,0.2); }}
 
+        /* View Switcher Controls */
+        .view-mode-toggle {{ display: inline-flex; background: rgba(0,0,0,0.4); border: 1px solid var(--pl-border); border-radius: 12px; padding: 3px; gap: 4px; }}
+        .view-toggle-btn {{ background: transparent; border: none; color: var(--text-muted); padding: 7px 14px; border-radius: 9px; font-weight: 800; font-size: 0.82rem; cursor: pointer; transition: all 0.2s ease; }}
+        .view-toggle-btn.active {{ background: linear-gradient(135deg, var(--pl-green), var(--pl-cyan)); color: #000; box-shadow: 0 2px 10px var(--pl-green-glow); }}
+
+        /* Mobile & Tablet Cards View Grid */
+        .cards-view-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 14px; margin-top: 14px; }}
+        .mobile-card {{ background: var(--pl-card); border: 1px solid var(--pl-border); border-radius: 16px; padding: 18px; backdrop-filter: blur(12px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); transition: all 0.2s ease; position: relative; overflow: hidden; }}
+        .mobile-card:hover {{ border-color: var(--pl-green); transform: translateY(-2px); }}
+        .mobile-card-top {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 10px; gap: 10px; }}
+        .mobile-card-user {{ font-size: 1.05rem; font-weight: 800; color: #fff; word-break: break-all; }}
+        .mobile-card-pts-big {{ font-size: 1.6rem; font-weight: 900; color: var(--pl-green); font-family: 'JetBrains Mono', monospace; line-height: 1; text-align: right; flex-shrink: 0; }}
+        .mobile-card-stats {{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px; font-size: 0.84rem; background: rgba(0,0,0,0.3); padding: 10px 12px; border-radius: 10px; }}
+        .mobile-card-stat-item {{ display: flex; flex-direction: column; gap: 2px; }}
+        .mobile-card-lbl {{ font-size: 0.72rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; }}
+        .mobile-card-val {{ font-weight: 800; font-family: 'JetBrains Mono', monospace; }}
+        .mobile-card-inspect-btn {{ width: 100%; margin-top: 12px; padding: 10px; background: rgba(0, 255, 135, 0.15); border: 1px solid rgba(0, 255, 135, 0.35); color: var(--pl-green); border-radius: 10px; font-weight: 800; font-size: 0.86rem; cursor: pointer; transition: 0.2s; text-align: center; }}
+        .mobile-card-inspect-btn:hover {{ background: var(--pl-green); color: #000; }}
+
+        /* Media Queries for Tablet & Mobile Responsiveness */
+        @media (max-width: 1024px) {{
+            .stats-grid {{ grid-template-columns: repeat(2, 1fr); }}
+            .controls-panel {{ flex-direction: column; align-items: stretch; gap: 14px; }}
+            .filters-group {{ width: 100%; max-width: 100%; justify-content: flex-start; flex-wrap: wrap; }}
+            .search-input {{ min-width: 100%; }}
+        }}
+
+        @media (max-width: 768px) {{
+            body {{ padding: 16px 10px; }}
+            .pl-header {{ flex-direction: column; align-items: flex-start; gap: 14px; }}
+            .pl-logo-area {{ width: 100%; }}
+            h1 {{ font-size: 1.55rem; }}
+            .subtitle {{ font-size: 0.82rem; }}
+            .header-actions {{ width: 100%; justify-content: space-between; flex-wrap: wrap; gap: 8px; }}
+            .gw-select-pill, .pl-badge, .btn-admin-portal {{ flex: 1 1 auto; text-align: center; justify-content: center; font-size: 0.82rem; padding: 9px 12px; }}
+            .irish-guy-banner {{ flex-direction: column; align-items: flex-start; padding: 14px 16px; gap: 12px; }}
+            .irish-guy-banner > div {{ width: 100%; }}
+            .irish-guy-banner a {{ width: 100%; justify-content: center; }}
+            .nav-tabs-bar {{ overflow-x: auto; flex-wrap: nowrap; padding: 6px; -webkit-overflow-scrolling: touch; }}
+            .nav-tab-btn {{ white-space: nowrap; flex-shrink: 0; padding: 8px 14px; font-size: 0.86rem; }}
+            .fixture-grid {{ grid-template-columns: 1fr; }}
+            .table-card {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+            th, td {{ padding: 10px 12px; font-size: 0.85rem; }}
+            .rank-badge {{ width: 28px; height: 28px; font-size: 0.82rem; }}
+            .cards-view-grid {{ grid-template-columns: 1fr; }}
+        }}
+
+        @media (max-width: 480px) {{
+            .stats-grid {{ grid-template-columns: 1fr; gap: 10px; }}
+            .stat-card {{ padding: 14px; }}
+            .stat-val {{ font-size: 1.7rem; }}
+            .modal-box {{ padding: 18px 14px; width: 96%; max-height: 94vh; border-radius: 16px; }}
+            .fix-audit-row {{ flex-direction: column; align-items: flex-start; gap: 8px; }}
+        }}
+
         /* Fullscreen Blur Loading Overlay */
         .loading-overlay {{ position: fixed; inset: 0; background: rgba(9, 0, 13, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); z-index: 9999; display: none; align-items: center; justify-content: center; animation: fadeIn 0.2s ease; }}
         .loading-box {{ background: var(--pl-card); border: 1px solid var(--pl-border); border-radius: 24px; padding: 36px 44px; text-align: center; max-width: 440px; width: 90%; box-shadow: 0 20px 60px rgba(0,0,0,0.8), 0 0 30px var(--pl-green-glow); }}
@@ -266,8 +321,14 @@ def generate_live_dashboard(
 
         <!-- Controls: Filters, Sort, Search -->
         <div class="controls-panel">
-            <div class="table-view-heading" id="table-view-heading">
-                🏆 Cumulative Season Standings
+            <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+                <div class="table-view-heading" id="table-view-heading">
+                    🏆 Cumulative Season Standings
+                </div>
+                <div class="view-mode-toggle">
+                    <button class="view-toggle-btn active" id="btn-view-cards" onclick="toggleViewMode('cards')">📱 Mobile Cards</button>
+                    <button class="view-toggle-btn" id="btn-view-table" onclick="toggleViewMode('table')">📊 Table View</button>
+                </div>
             </div>
             <div class="filters-group">
                 <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search predictor username..." onkeyup="filterAndSort()">
@@ -322,6 +383,9 @@ def generate_live_dashboard(
                 <tbody id="audit-body"></tbody>
             </table>
         </div>
+
+        <!-- Mobile & Tablet Cards View Container -->
+        <div class="cards-view-grid" id="cards-view-panel" style="display: none;"></div>
 
         <!-- Footer -->
         <footer style="margin-top: 40px; padding: 24px 0; border-top: 1px solid var(--pl-border); text-align: center; color: var(--text-muted); font-size: 0.88rem;">
@@ -449,6 +513,25 @@ def generate_live_dashboard(
         const rawLeaderboard = {leaderboard_json};
         let activeGameweekScope = {active_gw};
         let currentTab = 'leaderboard'; // 'leaderboard' or 'gw_1', etc.
+        let currentDisplayMode = window.innerWidth <= 768 ? 'cards' : 'table';
+        window.userManuallySetView = false;
+
+        function toggleViewMode(mode) {{
+            window.userManuallySetView = true;
+            currentDisplayMode = mode;
+            filterAndSort();
+        }}
+
+        window.addEventListener('resize', () => {{
+            if (!window.userManuallySetView) {{
+                const isSmall = window.innerWidth <= 768;
+                const newMode = isSmall ? 'cards' : 'table';
+                if (newMode !== currentDisplayMode) {{
+                    currentDisplayMode = newMode;
+                    filterAndSort();
+                }}
+            }}
+        }});
 
         function showLoadingOverlay(title = "Updating Live Standings", subtitle = "Please wait while the system processes results...") {{
             document.getElementById('loading-title').innerText = title;
@@ -649,6 +732,12 @@ def generate_live_dashboard(
             const statusF = document.getElementById('statusFilter').value;
             const sortF = document.getElementById('sortSelect').value;
 
+            // Sync View Mode Toggle Button Styles
+            const btnCards = document.getElementById('btn-view-cards');
+            const btnTable = document.getElementById('btn-view-table');
+            if (btnCards) btnCards.className = 'view-toggle-btn' + (currentDisplayMode === 'cards' ? ' active' : '');
+            if (btnTable) btnTable.className = 'view-toggle-btn' + (currentDisplayMode === 'table' ? ' active' : '');
+
             if (currentTab === 'leaderboard') {{
                 let data = [...rawLeaderboard].filter(r => (r.Author || '').toLowerCase().includes(q));
                 if (sortF === 'exacts_desc') data.sort((a,b) => (b['Total_Exact_Scores (3pts)']||0) - (a['Total_Exact_Scores (3pts)']||0));
@@ -656,21 +745,70 @@ def generate_live_dashboard(
                 else if (sortF === 'matches_desc') data.sort((a,b) => (b.Total_Matches_Predicted||0) - (a.Total_Matches_Predicted||0));
                 else data.sort((a,b) => (b.Total_Season_Points||0) - (a.Total_Season_Points||0));
 
-                const tbody = document.getElementById('leaderboard-body');
-                tbody.innerHTML = data.map((r, idx) => {{
-                    let badgeClass = idx === 0 ? 'rank-1' : (idx === 1 ? 'rank-2' : (idx === 2 ? 'rank-3' : 'rank-other'));
-                    return `
-                        <tr>
-                            <td><span class="rank-badge ${{badgeClass}}">#${{r.Rank}}</span></td>
-                            <td><b>${{r.Author}}</b></td>
-                            <td>${{r.Gameweeks_Played}}</td>
-                            <td>${{r.Total_Matches_Predicted}}</td>
-                            <td><span class="pill pill-exact">${{r['Total_Exact_Scores (3pts)']}}</span></td>
-                            <td>${{r['Total_Outcome_Scores (1pt)']}}</td>
-                            <td><b style="color: var(--pl-green); font-size: 1.15rem; font-family: 'JetBrains Mono', monospace;">${{r.Total_Season_Points}} pts</b></td>
-                        </tr>
-                    `;
-                }}).join('');
+                if (currentDisplayMode === 'cards') {{
+                    document.getElementById('leaderboard-panel').style.display = 'none';
+                    document.getElementById('audit-panel').style.display = 'none';
+                    const cardsPanel = document.getElementById('cards-view-panel');
+                    cardsPanel.style.display = 'grid';
+
+                    if (data.length === 0) {{
+                        cardsPanel.innerHTML = '<div style="color: var(--text-muted); padding: 18px;">No predictors found matching query.</div>';
+                        return;
+                    }}
+
+                    cardsPanel.innerHTML = data.map((r, idx) => {{
+                        let badgeClass = idx === 0 ? 'rank-1' : (idx === 1 ? 'rank-2' : (idx === 2 ? 'rank-3' : 'rank-other'));
+                        return `
+                            <div class="mobile-card">
+                                <div class="mobile-card-top">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <span class="rank-badge ${{badgeClass}}">#${{r.Rank}}</span>
+                                        <div class="mobile-card-user">${{escapeHtml(r.Author)}}</div>
+                                    </div>
+                                    <div class="mobile-card-pts-big">${{r.Total_Season_Points}} <span style="font-size: 0.82rem; color: var(--text-muted);">pts</span></div>
+                                </div>
+                                <div class="mobile-card-stats">
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">GWs Played</span>
+                                        <span class="mobile-card-val">${{r.Gameweeks_Played}}</span>
+                                    </div>
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">Matches</span>
+                                        <span class="mobile-card-val">${{r.Total_Matches_Predicted}}</span>
+                                    </div>
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">Exact (3pts)</span>
+                                        <span class="mobile-card-val" style="color: var(--pl-gold);">${{r['Total_Exact_Scores (3pts)']}}</span>
+                                    </div>
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">Outcome (1pt)</span>
+                                        <span class="mobile-card-val" style="color: var(--pl-green);">${{r['Total_Outcome_Scores (1pt)']}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }}).join('');
+                }} else {{
+                    document.getElementById('cards-view-panel').style.display = 'none';
+                    document.getElementById('leaderboard-panel').style.display = 'block';
+                    document.getElementById('audit-panel').style.display = 'none';
+
+                    const tbody = document.getElementById('leaderboard-body');
+                    tbody.innerHTML = data.map((r, idx) => {{
+                        let badgeClass = idx === 0 ? 'rank-1' : (idx === 1 ? 'rank-2' : (idx === 2 ? 'rank-3' : 'rank-other'));
+                        return `
+                            <tr>
+                                <td><span class="rank-badge ${{badgeClass}}">#${{r.Rank}}</span></td>
+                                <td><b>${{escapeHtml(r.Author)}}</b></td>
+                                <td>${{r.Gameweeks_Played}}</td>
+                                <td>${{r.Total_Matches_Predicted}}</td>
+                                <td><span class="pill pill-exact">${{r['Total_Exact_Scores (3pts)']}}</span></td>
+                                <td>${{r['Total_Outcome_Scores (1pt)']}}</td>
+                                <td><b style="color: var(--pl-green); font-size: 1.15rem; font-family: 'JetBrains Mono', monospace;">${{r.Total_Season_Points}} pts</b></td>
+                            </tr>
+                        `;
+                    }}).join('');
+                }}
             }} else {{
                 const gwNum = currentTab.replace('gw_', '');
                 const gwData = ALL_GAMEWEEKS[String(gwNum)] || {{ audited_records: [] }};
@@ -686,27 +824,85 @@ def generate_live_dashboard(
                 else if (sortF === 'matches_desc') data.sort((a,b) => (b.matches_found||0) - (a.matches_found||0));
                 else data.sort((a,b) => (b.total_points||0) - (a.total_points||0));
 
-                const tbody = document.getElementById('audit-body');
-                tbody.innerHTML = data.map((r) => {{
-                    let pillClass = 'pill-valid';
-                    const st = r.status || '';
-                    if (st.startsWith('Valid*')) pillClass = 'pill-partial';
-                    else if (st.includes('Edited') || st.includes('Disqualified')) pillClass = 'pill-disqualified';
-                    else if (st.includes('Late')) pillClass = 'pill-late';
+                if (currentDisplayMode === 'cards') {{
+                    document.getElementById('leaderboard-panel').style.display = 'none';
+                    document.getElementById('audit-panel').style.display = 'none';
+                    const cardsPanel = document.getElementById('cards-view-panel');
+                    cardsPanel.style.display = 'grid';
 
-                    return `
-                        <tr onclick="openModal('${{r.comment_id}}', ${{gwNum}})">
-                            <td><b>${{r.author}}</b></td>
-                            <td style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted);">${{r.submission_gmt || 'N/A'}}</td>
-                            <td><span class="pill ${{pillClass}}">${{r.status}}</span></td>
-                            <td>${{r.matches_found}}</td>
-                            <td><span class="pill pill-exact">${{r.exact_scores}}</span></td>
-                            <td>${{r.outcome_scores}}</td>
-                            <td><b style="color: var(--pl-green); font-size: 1.1rem; font-family: 'JetBrains Mono', monospace;">${{r.total_points}} pts</b></td>
-                            <td><button class="pill pill-valid" style="cursor:pointer;" onclick="event.stopPropagation(); openModal('${{r.comment_id}}', ${{gwNum}})">Inspect &rarr;</button></td>
-                        </tr>
-                    `;
-                }}).join('');
+                    if (data.length === 0) {{
+                        cardsPanel.innerHTML = '<div style="color: var(--text-muted); padding: 18px;">No submissions found matching filter.</div>';
+                        return;
+                    }}
+
+                    cardsPanel.innerHTML = data.map((r) => {{
+                        let pillClass = 'pill-valid';
+                        const st = r.status || '';
+                        if (st.startsWith('Valid*')) pillClass = 'pill-partial';
+                        else if (st.includes('Edited') || st.includes('Disqualified')) pillClass = 'pill-disqualified';
+                        else if (st.includes('Late')) pillClass = 'pill-late';
+
+                        return `
+                            <div class="mobile-card" onclick="openModal('${{r.comment_id}}', ${{gwNum}})">
+                                <div class="mobile-card-top">
+                                    <div>
+                                        <div class="mobile-card-user">${{escapeHtml(r.author)}}</div>
+                                        <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 3px; font-family: 'JetBrains Mono', monospace;">${{escapeHtml(r.submission_gmt || 'N/A')}}</div>
+                                    </div>
+                                    <div class="mobile-card-pts-big">${{r.total_points}} <span style="font-size: 0.82rem; color: var(--text-muted);">pts</span></div>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                    <span class="pill ${{pillClass}}">${{escapeHtml(r.status)}}</span>
+                                </div>
+                                <div class="mobile-card-stats">
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">Matches</span>
+                                        <span class="mobile-card-val">${{r.matches_found}}</span>
+                                    </div>
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">Exacts (3pts)</span>
+                                        <span class="mobile-card-val" style="color: var(--pl-gold);">${{r.exact_scores}}</span>
+                                    </div>
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">Outcomes (1pt)</span>
+                                        <span class="mobile-card-val" style="color: var(--pl-green);">${{r.outcome_scores}}</span>
+                                    </div>
+                                    <div class="mobile-card-stat-item">
+                                        <span class="mobile-card-lbl">GW Total</span>
+                                        <span class="mobile-card-val" style="color: var(--pl-green);">${{r.total_points}} pts</span>
+                                    </div>
+                                </div>
+                                <button class="mobile-card-inspect-btn" onclick="event.stopPropagation(); openModal('${{r.comment_id}}', ${{gwNum}})">🔍 Inspect Submission Details &rarr;</button>
+                            </div>
+                        `;
+                    }}).join('');
+                }} else {{
+                    document.getElementById('cards-view-panel').style.display = 'none';
+                    document.getElementById('leaderboard-panel').style.display = 'none';
+                    document.getElementById('audit-panel').style.display = 'block';
+
+                    const tbody = document.getElementById('audit-body');
+                    tbody.innerHTML = data.map((r) => {{
+                        let pillClass = 'pill-valid';
+                        const st = r.status || '';
+                        if (st.startsWith('Valid*')) pillClass = 'pill-partial';
+                        else if (st.includes('Edited') || st.includes('Disqualified')) pillClass = 'pill-disqualified';
+                        else if (st.includes('Late')) pillClass = 'pill-late';
+
+                        return `
+                            <tr onclick="openModal('${{r.comment_id}}', ${{gwNum}})">
+                                <td><b>${{escapeHtml(r.author)}}</b></td>
+                                <td style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted);">${{escapeHtml(r.submission_gmt || 'N/A')}}</td>
+                                <td><span class="pill ${{pillClass}}">${{escapeHtml(r.status)}}</span></td>
+                                <td>${{r.matches_found}}</td>
+                                <td><span class="pill pill-exact">${{r.exact_scores}}</span></td>
+                                <td>${{r.outcome_scores}}</td>
+                                <td><b style="color: var(--pl-green); font-size: 1.1rem; font-family: 'JetBrains Mono', monospace;">${{r.total_points}} pts</b></td>
+                                <td><button class="pill pill-valid" style="cursor:pointer;" onclick="event.stopPropagation(); openModal('${{r.comment_id}}', ${{gwNum}})">Inspect &rarr;</button></td>
+                            </tr>
+                        `;
+                    }}).join('');
+                }}
             }}
         }}
 
