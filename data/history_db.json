@@ -83,7 +83,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -180,7 +180,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -277,7 +277,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -313,8 +313,8 @@
       "valid_matches_count": 5,
       "late_matches_count": 3,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -374,9 +374,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -409,9 +409,9 @@
       "matches_found": 10,
       "valid_matches_count": 8,
       "late_matches_count": 2,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 1,
-      "total_points": 1,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "5-1",
@@ -471,9 +471,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -568,7 +568,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -665,7 +665,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -701,8 +701,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -762,9 +762,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -859,7 +859,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -894,9 +894,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 1,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -956,9 +956,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -1053,7 +1053,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1150,7 +1150,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1247,7 +1247,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1344,7 +1344,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1441,7 +1441,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1538,7 +1538,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1635,7 +1635,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1732,7 +1732,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1829,7 +1829,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -1926,7 +1926,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2023,7 +2023,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2120,7 +2120,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2217,7 +2217,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2314,7 +2314,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2411,7 +2411,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2446,9 +2446,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 7,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -2508,9 +2508,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -2605,7 +2605,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2702,7 +2702,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2799,7 +2799,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2896,7 +2896,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -2931,9 +2931,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 2,
-      "total_points": 5,
+      "total_points": 2,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -2993,9 +2993,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -3090,7 +3090,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -3187,7 +3187,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -3284,7 +3284,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -3381,7 +3381,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -3478,7 +3478,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -3575,7 +3575,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -3672,7 +3672,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -3707,9 +3707,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -3769,9 +3769,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -3866,7 +3866,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -3963,7 +3963,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4060,7 +4060,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4095,9 +4095,9 @@
       "matches_found": 10,
       "valid_matches_count": 9,
       "late_matches_count": 1,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 4,
-      "total_points": 4,
+      "total_points": 7,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -4157,9 +4157,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -4254,7 +4254,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4351,7 +4351,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4448,7 +4448,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4545,7 +4545,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4580,9 +4580,9 @@
       "matches_found": 8,
       "valid_matches_count": 8,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -4642,9 +4642,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -4739,7 +4739,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4836,7 +4836,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4933,7 +4933,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -4969,8 +4969,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -5030,9 +5030,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "3-1",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -5127,7 +5127,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -5162,9 +5162,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 4,
-      "total_points": 7,
+      "total_points": 10,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -5224,9 +5224,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -5260,8 +5260,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "4-0",
@@ -5321,9 +5321,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -5418,7 +5418,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -5515,7 +5515,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -5612,7 +5612,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -5709,7 +5709,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -5806,7 +5806,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -5903,7 +5903,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -6000,7 +6000,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -6097,7 +6097,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -6194,7 +6194,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -6291,7 +6291,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -6326,9 +6326,9 @@
       "matches_found": 9,
       "valid_matches_count": 8,
       "late_matches_count": 1,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 2,
-      "total_points": 5,
+      "total_points": 2,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -6388,9 +6388,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -6423,9 +6423,9 @@
       "matches_found": 10,
       "valid_matches_count": 9,
       "late_matches_count": 1,
-      "exact_scores": 2,
+      "exact_scores": 3,
       "outcome_scores": 0,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -6485,9 +6485,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -6521,8 +6521,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -6582,9 +6582,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-0",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -6679,7 +6679,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -6776,7 +6776,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -6873,7 +6873,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -6970,7 +6970,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7067,7 +7067,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7164,7 +7164,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7199,9 +7199,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 2,
-      "total_points": 5,
+      "total_points": 2,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "N/A",
@@ -7261,9 +7261,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -7297,8 +7297,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "1-1",
@@ -7358,9 +7358,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "4-3",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -7455,7 +7455,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7552,7 +7552,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7649,7 +7649,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7746,7 +7746,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7843,7 +7843,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -7940,7 +7940,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8037,7 +8037,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8134,7 +8134,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-5",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8231,7 +8231,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8328,7 +8328,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8425,7 +8425,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8522,7 +8522,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -8619,7 +8619,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8716,7 +8716,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8813,7 +8813,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -8910,7 +8910,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9007,7 +9007,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9104,7 +9104,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9201,7 +9201,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9298,7 +9298,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9395,7 +9395,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9492,7 +9492,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9589,7 +9589,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9686,7 +9686,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9783,7 +9783,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9880,7 +9880,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -9977,7 +9977,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10074,7 +10074,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10171,7 +10171,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10268,7 +10268,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10365,7 +10365,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10462,7 +10462,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10559,7 +10559,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10656,7 +10656,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "3-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10692,8 +10692,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 5,
-      "total_points": 8,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "5-2",
@@ -10753,9 +10753,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-0",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -10850,7 +10850,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10947,7 +10947,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -10983,8 +10983,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 5,
+      "total_points": 8,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "4-1",
@@ -11044,9 +11044,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -11141,7 +11141,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -11238,7 +11238,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -11335,7 +11335,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -11432,7 +11432,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -11529,7 +11529,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -11626,7 +11626,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -11662,8 +11662,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -11723,9 +11723,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -11759,8 +11759,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "4-1",
@@ -11820,9 +11820,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -11917,7 +11917,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12014,7 +12014,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12111,7 +12111,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12146,9 +12146,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 1,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -12208,9 +12208,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -12305,7 +12305,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12402,7 +12402,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12499,7 +12499,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12596,7 +12596,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12693,7 +12693,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12790,7 +12790,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12887,7 +12887,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -12984,7 +12984,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -13081,7 +13081,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -13178,7 +13178,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -13214,8 +13214,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -13275,9 +13275,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -13311,8 +13311,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -13372,9 +13372,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -13469,7 +13469,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-5",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -13566,7 +13566,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -13663,7 +13663,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -13760,7 +13760,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -13796,8 +13796,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-1",
@@ -13857,9 +13857,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-0",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -13954,7 +13954,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -14051,7 +14051,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -14148,7 +14148,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -14183,9 +14183,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 1,
       "outcome_scores": 3,
-      "total_points": 9,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-1",
@@ -14245,9 +14245,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -14280,9 +14280,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 1,
       "outcome_scores": 3,
-      "total_points": 9,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-1",
@@ -14342,9 +14342,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -14439,7 +14439,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -14536,7 +14536,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -14571,9 +14571,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 3,
       "outcome_scores": 2,
-      "total_points": 8,
+      "total_points": 11,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -14633,9 +14633,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -14730,7 +14730,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -14827,7 +14827,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -14924,7 +14924,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15021,7 +15021,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15118,7 +15118,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15215,7 +15215,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15312,7 +15312,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15409,7 +15409,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15506,7 +15506,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15603,7 +15603,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15639,8 +15639,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -15700,9 +15700,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -15797,7 +15797,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15894,7 +15894,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -15991,7 +15991,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16088,7 +16088,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16185,7 +16185,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16282,7 +16282,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16318,8 +16318,8 @@
       "valid_matches_count": 7,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -16379,9 +16379,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -16476,7 +16476,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16573,7 +16573,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16609,8 +16609,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -16670,9 +16670,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -16767,7 +16767,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16864,7 +16864,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -16961,7 +16961,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17058,7 +17058,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17155,7 +17155,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -17252,7 +17252,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17349,7 +17349,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17446,7 +17446,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17543,7 +17543,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17640,7 +17640,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17737,7 +17737,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17834,7 +17834,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -17931,7 +17931,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18028,7 +18028,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18064,8 +18064,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-1",
@@ -18125,9 +18125,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-0",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -18222,7 +18222,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18319,7 +18319,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18354,9 +18354,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 4,
-      "total_points": 4,
+      "total_points": 7,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "4-0",
@@ -18416,9 +18416,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -18513,7 +18513,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18610,7 +18610,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18707,7 +18707,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18804,7 +18804,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18901,7 +18901,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -18998,7 +18998,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -19095,7 +19095,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -19192,7 +19192,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -19228,8 +19228,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-2",
@@ -19289,9 +19289,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-0",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -19325,8 +19325,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -19386,9 +19386,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "3-1",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -19483,7 +19483,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -19580,7 +19580,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -19677,7 +19677,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -19774,7 +19774,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -19871,7 +19871,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -19907,8 +19907,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -19968,9 +19968,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "4-3",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -20065,7 +20065,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -20101,8 +20101,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -20162,9 +20162,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -20259,7 +20259,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -20294,9 +20294,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 3,
       "outcome_scores": 1,
-      "total_points": 7,
+      "total_points": 10,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -20356,9 +20356,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -20453,7 +20453,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -20550,7 +20550,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -20647,7 +20647,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -20744,7 +20744,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -20841,7 +20841,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -20938,7 +20938,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21035,7 +21035,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21132,7 +21132,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21229,7 +21229,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21326,7 +21326,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21423,7 +21423,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21459,8 +21459,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 3,
-      "outcome_scores": 2,
-      "total_points": 11,
+      "outcome_scores": 1,
+      "total_points": 10,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -21520,9 +21520,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-0",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -21617,7 +21617,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21714,7 +21714,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21811,7 +21811,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -21846,9 +21846,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 3,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-1",
@@ -21908,9 +21908,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -22005,7 +22005,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -22102,7 +22102,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -22138,8 +22138,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "1-1",
@@ -22199,9 +22199,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "3-2",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -22235,8 +22235,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -22296,9 +22296,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "3-3",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -22331,9 +22331,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 6,
-      "total_points": 9,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "1-1",
@@ -22393,9 +22393,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -22490,7 +22490,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-5",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -22587,7 +22587,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -22684,7 +22684,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -22781,7 +22781,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -22878,7 +22878,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -22975,7 +22975,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -23072,7 +23072,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -23108,8 +23108,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "0-5",
@@ -23169,9 +23169,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "6-3",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -23204,9 +23204,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 3,
+      "exact_scores": 2,
       "outcome_scores": 1,
-      "total_points": 10,
+      "total_points": 7,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -23266,9 +23266,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -23363,7 +23363,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -23460,7 +23460,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -23557,7 +23557,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -23593,8 +23593,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -23654,9 +23654,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-0",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -23751,7 +23751,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -23787,8 +23787,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -23848,9 +23848,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -23945,7 +23945,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24042,7 +24042,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24139,7 +24139,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24236,7 +24236,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24333,7 +24333,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24430,7 +24430,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24527,7 +24527,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24624,7 +24624,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24660,8 +24660,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 1,
-      "total_points": 7,
+      "outcome_scores": 2,
+      "total_points": 8,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -24721,9 +24721,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -24818,7 +24818,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -24854,8 +24854,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -24915,9 +24915,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "3-3",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -24951,8 +24951,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -25012,9 +25012,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "3-2",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -25109,7 +25109,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -25145,8 +25145,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-1",
@@ -25206,9 +25206,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -25241,9 +25241,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-1",
@@ -25303,9 +25303,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -25400,7 +25400,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -25497,7 +25497,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -25594,7 +25594,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -25691,7 +25691,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -25788,7 +25788,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -25885,7 +25885,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -25982,7 +25982,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26079,7 +26079,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26176,7 +26176,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26273,7 +26273,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26370,7 +26370,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26467,7 +26467,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26564,7 +26564,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26661,7 +26661,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26758,7 +26758,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26855,7 +26855,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -26952,7 +26952,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27049,7 +27049,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27146,7 +27146,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27243,7 +27243,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27340,7 +27340,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27437,7 +27437,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27534,7 +27534,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27631,7 +27631,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -27667,8 +27667,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -27728,9 +27728,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-0",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -27764,8 +27764,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -27825,9 +27825,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -27922,7 +27922,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28019,7 +28019,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28116,7 +28116,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28213,7 +28213,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28310,7 +28310,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28346,8 +28346,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "4-1",
@@ -28407,9 +28407,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-1",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -28504,7 +28504,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28601,7 +28601,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28698,7 +28698,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28795,7 +28795,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -28830,9 +28830,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 1,
       "outcome_scores": 1,
-      "total_points": 7,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -28892,9 +28892,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -28989,7 +28989,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29024,9 +29024,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 1,
       "outcome_scores": 3,
-      "total_points": 9,
+      "total_points": 6,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "4-2",
@@ -29086,9 +29086,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-1",
-          "actual": "2-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -29183,7 +29183,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29280,7 +29280,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29377,7 +29377,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-1",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29474,7 +29474,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29571,7 +29571,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -29668,7 +29668,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29765,7 +29765,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29862,7 +29862,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -29959,7 +29959,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30056,7 +30056,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30153,7 +30153,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "N/A",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -30188,9 +30188,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 2,
-      "total_points": 5,
+      "total_points": 8,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -30250,9 +30250,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -30347,7 +30347,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30444,7 +30444,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30541,7 +30541,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30638,7 +30638,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30735,7 +30735,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30832,7 +30832,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -30929,7 +30929,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-4",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31026,7 +31026,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31123,7 +31123,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31220,7 +31220,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31317,7 +31317,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31414,7 +31414,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31511,7 +31511,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31608,7 +31608,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31705,7 +31705,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31802,7 +31802,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31899,7 +31899,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -31935,8 +31935,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "2-0",
@@ -31996,9 +31996,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "4-2",
-          "actual": "2-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -32093,7 +32093,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32190,7 +32190,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32287,7 +32287,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32384,7 +32384,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32419,9 +32419,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 7,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -32481,9 +32481,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "2-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -32578,7 +32578,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32675,7 +32675,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-3",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32772,7 +32772,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32869,7 +32869,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -32905,8 +32905,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "4-1",
@@ -32966,9 +32966,9 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "0-0",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Fulham vs Chelsea": {
@@ -33063,7 +33063,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -33160,7 +33160,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -33257,7 +33257,7 @@
         },
         "Newcastle United vs Liverpool": {
           "pred": "1-2",
-          "actual": "2-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
