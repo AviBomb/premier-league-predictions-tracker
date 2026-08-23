@@ -501,8 +501,10 @@ def generate_live_dashboard(
                 return goals.map(g => {{
                     const min = g.minute ? `<b>${{escapeHtml(g.minute)}}</b>` : '';
                     const scorer = g.scorer ? escapeHtml(g.scorer) : 'Goal';
-                    const assist = g.assist ? ` <span style="color: var(--text-muted); font-size: 0.74rem;">(assist: ${{escapeHtml(g.assist)}})</span>` : '';
-                    const type = g.type === 'OG' ? ' <span style="color:#ff6b8b; font-size:0.72rem; font-weight:800;">(OG)</span>' : (g.type === 'P' || g.type === 'PEN' ? ' <span style="color:var(--pl-gold); font-size:0.72rem; font-weight:800;">(P)</span>' : '');
+                    const isOg = g.type === 'OG' || g.type === 'O';
+                    const isPen = g.type === 'P' || g.type === 'PEN';
+                    const assist = (!isOg && g.assist) ? ` <span style="color: var(--text-muted); font-size: 0.74rem;">(assist: ${{escapeHtml(g.assist)}})</span>` : '';
+                    const type = isOg ? ' <span style="color:#ff6b8b; font-size:0.72rem; font-weight:800; background:rgba(233,0,82,0.18); border:1px solid rgba(233,0,82,0.35); padding:1px 5px; border-radius:4px;">(OG)</span>' : (isPen ? ' <span style="color:var(--pl-gold); font-size:0.72rem; font-weight:800; background:rgba(255,184,0,0.18); border:1px solid rgba(255,184,0,0.35); padding:1px 5px; border-radius:4px;">(P)</span>' : '');
                     return `${{scorer}} ${{min}}${{type}}${{assist}}`;
                 }}).join('<span style="color: var(--text-muted); margin: 0 4px;">&bull;</span> ');
             }}

@@ -455,6 +455,12 @@
           "away_act": 0,
           "home_goals": [
             {
+              "minute": "08'",
+              "scorer": "Victor Lindelöf",
+              "assist": null,
+              "type": "OG"
+            },
+            {
               "minute": "18'",
               "scorer": "Maxim De Cuyper",
               "assist": "Georginio Rutter",
@@ -474,7 +480,7 @@
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Maxim De Cuyper 18' (assist: Georginio Rutter), Jack Hinshelwood 30' (assist: Diego Gómez), Jack Hinshelwood 31'",
+          "home_goals_summary": "Victor Lindelöf 08' (OG), Maxim De Cuyper 18' (assist: Georginio Rutter), Jack Hinshelwood 30' (assist: Diego Gómez), Jack Hinshelwood 31'",
           "away_goals_summary": "",
           "kickoff": "2026-08-23T13:00:00Z",
           "finished": true,
@@ -491,18 +497,24 @@
           "away_act": 1,
           "home_goals": [
             {
+              "minute": "",
               "scorer": "Guéhi",
-              "assist": "Cherki"
+              "assist": "Cherki",
+              "type": "G"
             },
             {
+              "minute": "",
               "scorer": "Gvardiol",
-              "assist": "Cherki"
+              "assist": "Cherki",
+              "type": "G"
             }
           ],
           "away_goals": [
             {
+              "minute": "",
               "scorer": "Tavernier",
-              "assist": "Evanilson"
+              "assist": "Evanilson",
+              "type": "G"
             }
           ],
           "home_goals_summary": "Guéhi (Cherki), Gvardiol (Cherki)",

@@ -196,7 +196,7 @@ def fetch_pulse_match_goals_map(gw_number: int) -> Dict[Tuple[str, str], Dict[st
 
             h_id = data.get("teams", [{}])[0].get("team", {}).get("id")
             
-            raw_events = [e for e in (data.get("events") or []) if e and e.get("type") in ("G", "OG", "P", "PEN")]
+            raw_events = [e for e in (data.get("events") or []) if e and e.get("type") in ("G", "OG", "O", "P", "PEN")]
             raw_events.sort(key=lambda x: x.get("clock", {}).get("secs", 0))
             
             home_goals_list = []
@@ -206,19 +206,25 @@ def fetch_pulse_match_goals_map(gw_number: int) -> Dict[Tuple[str, str], Dict[st
 
             for g in raw_events:
                 scorer_name = players.get(g.get("personId"), "Goal")
-                assist_name = players.get(g.get("assistId")) if g.get("assistId") else None
                 min_lbl = g.get("clock", {}).get("label", "")
                 if min_lbl.endswith("'00"):
                     min_lbl = min_lbl[:-3] + "'"
 
                 g_type = g.get("type")
-                type_str = " (OG)" if g_type == "OG" else (" (P)" if g_type in ("P", "PEN") else "")
+                is_og = g_type in ("OG", "O")
+                is_pen = g_type in ("P", "PEN")
+
+                normalized_type = "OG" if is_og else ("P" if is_pen else "G")
+                type_str = " (OG)" if is_og else (" (P)" if is_pen else "")
+
+                # Own Goals do not have assists from the benefiting team
+                assist_name = None if is_og else (players.get(g.get("assistId")) if g.get("assistId") else None)
 
                 goal_obj = {
                     "minute": min_lbl,
                     "scorer": scorer_name,
                     "assist": assist_name,
-                    "type": g_type
+                    "type": normalized_type
                 }
 
                 summary_str = f"{scorer_name} {min_lbl}{type_str}" + (f" (assist: {assist_name})" if assist_name else "")
@@ -266,14 +272,14 @@ def fetch_bootstrap_data() -> Tuple[Dict[int, str], Dict[int, str]]:
     return team_map, player_map
 
 
-def parse_goal_events(scorers_raw: List[Dict[str, Any]], assists_raw: List[Dict[str, Any]], player_map: Dict[int, str]) -> Tuple[List[Dict[str, Any]], str]:
-    """Parses goal scorers and assists into structured event dicts and a formatted summary string."""
+def parse_goal_events(scorers_raw: List[Dict[str, Any]], assists_raw: List[Dict[str, Any]], own_goals_raw: List[Dict[str, Any]], player_map: Dict[int, str]) -> Tuple[List[Dict[str, Any]], str]:
+    """Parses goal scorers, assists, and own goals into structured event dicts and a formatted summary string."""
     scorers = []
     for item in scorers_raw:
         pid = item.get("element")
         pname = player_map.get(pid, f"Player #{pid}")
         for _ in range(item.get("value", 1)):
-            scorers.append(pname)
+            scorers.append({"scorer": pname, "type": "G"})
 
     assists = []
     for item in assists_raw:
@@ -282,15 +288,24 @@ def parse_goal_events(scorers_raw: List[Dict[str, Any]], assists_raw: List[Dict[
         for _ in range(item.get("value", 1)):
             assists.append(aname)
 
+    for item in own_goals_raw:
+        pid = item.get("element")
+        pname = player_map.get(pid, f"Player #{pid}")
+        for _ in range(item.get("value", 1)):
+            scorers.append({"scorer": pname, "type": "OG"})
+
     events = []
     summary_parts = []
-    for i, scorer in enumerate(scorers):
-        assist = assists[i] if i < len(assists) else None
-        events.append({"scorer": scorer, "assist": assist})
-        if assist:
-            summary_parts.append(f"{scorer} ({assist})")
-        else:
-            summary_parts.append(scorer)
+    for i, sc in enumerate(scorers):
+        scorer = sc["scorer"]
+        g_type = sc["type"]
+        assist = assists[i] if (i < len(assists) and g_type == "G") else None
+        
+        type_tag = " (OG)" if g_type == "OG" else ""
+        assist_tag = f" ({assist})" if assist else ""
+        
+        events.append({"minute": "", "scorer": scorer, "assist": assist, "type": g_type})
+        summary_parts.append(f"{scorer}{type_tag}{assist_tag}")
 
     return events, ", ".join(summary_parts)
 
@@ -333,16 +348,17 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
                         is_full_time = fix.get("finished", False) or fix.get("finished_provisional", False) or (fix.get("minutes", 0) >= 90)
                         started = fix.get("started", False) or (raw_h_score is not None)
 
-                        # Extract Goal Scorers and Assists from fixture stats
+                        # Extract Goal Scorers, Assists, and Own Goals from fixture stats
                         fix_stats = {s.get("identifier"): s for s in fix.get("stats", [])}
                         goals_stat = fix_stats.get("goals_scored", {})
                         assists_stat = fix_stats.get("assists", {})
+                        og_stat = fix_stats.get("own_goals", {})
 
                         home_goals, home_goals_summary = parse_goal_events(
-                            goals_stat.get("h", []), assists_stat.get("h", []), player_map
+                            goals_stat.get("h", []), assists_stat.get("h", []), og_stat.get("a", []), player_map
                         )
                         away_goals, away_goals_summary = parse_goal_events(
-                            goals_stat.get("a", []), assists_stat.get("a", []), player_map
+                            goals_stat.get("a", []), assists_stat.get("a", []), og_stat.get("h", []), player_map
                         )
 
                         # Live & Full-Time match scores are captured as soon as available in official API
