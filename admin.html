@@ -199,8 +199,52 @@
         .btn-save-master { padding: 12px 26px; background: linear-gradient(135deg, var(--pl-green), var(--pl-cyan)); border: none; border-radius: 12px; color: #000; font-weight: 900; font-size: 0.95rem; cursor: pointer; box-shadow: 0 4px 20px var(--pl-green-glow); transition: 0.2s ease; }
         .btn-save-master:hover { transform: translateY(-2px); box-shadow: 0 8px 25px var(--pl-green-glow); }
 
+        /* Mobile Bottom Quick Navigation Bar for Admin */
+        .mobile-bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(14, 0, 20, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid var(--pl-border);
+            z-index: 990;
+            padding: 8px 12px;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.6);
+        }
+
+        .mobile-nav-item {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 4px 10px;
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .mobile-nav-item.active {
+            color: var(--pl-green);
+            background: rgba(0, 255, 135, 0.12);
+        }
+
+        .mob-nav-icon { font-size: 1.25rem; }
+
         /* Mobile and Tablet Media Queries for Admin Portal */
         @media (max-width: 1024px) {
+            .mobile-bottom-nav { display: flex; }
+            body { padding-bottom: 85px !important; }
             .admin-header { flex-direction: column; align-items: flex-start; gap: 14px; }
             .admin-title-row { width: 100%; flex-direction: column; align-items: flex-start; gap: 10px; }
             .header-gw-switcher { width: 100%; justify-content: space-between; }
@@ -546,6 +590,30 @@
         </div>
     </div>
 
+    <!-- Mobile Bottom Navigation Dock for Admin Portal -->
+    <div class="mobile-bottom-nav">
+        <button class="mobile-nav-item active" id="mob-admin-video" onclick="switchAdminTab('video')">
+            <span class="mob-nav-icon">🎯</span>
+            <span class="mob-nav-label">Gameweek</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-admin-admins" onclick="switchAdminTab('admins')">
+            <span class="mob-nav-icon">👥</span>
+            <span class="mob-nav-label">Admins</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-admin-typos" onclick="switchAdminTab('typos')">
+            <span class="mob-nav-icon">🔍</span>
+            <span class="mob-nav-label">Typos</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-admin-scores" onclick="switchAdminTab('scores')">
+            <span class="mob-nav-icon">⚽</span>
+            <span class="mob-nav-label">Scores</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-admin-aliases" onclick="switchAdminTab('aliases')">
+            <span class="mob-nav-icon">🏷️</span>
+            <span class="mob-nav-label">Aliases</span>
+        </button>
+    </div>
+
     <!-- Full Comment & Predictor Breakdown Modal -->
     <div id="comment-modal" class="modal-overlay">
         <div class="modal-content">
@@ -698,6 +766,9 @@
         function switchAdminTab(tabKey) {
             document.querySelectorAll('.admin-tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(`tab-btn-${tabKey}`)?.classList.add('active');
+
+            document.querySelectorAll('.mobile-nav-item').forEach(b => b.classList.remove('active'));
+            document.getElementById(`mob-admin-${tabKey}`)?.classList.add('active');
 
             const panelIds = ['video', 'admins', 'typos', 'scores', 'aliases'];
             panelIds.forEach(p => {

@@ -158,6 +158,53 @@
         .mobile-card-inspect-btn { width: 100%; margin-top: 12px; padding: 10px; background: rgba(0, 255, 135, 0.15); border: 1px solid rgba(0, 255, 135, 0.35); color: var(--pl-green); border-radius: 10px; font-weight: 800; font-size: 0.86rem; cursor: pointer; transition: 0.2s; text-align: center; }
         .mobile-card-inspect-btn:hover { background: var(--pl-green); color: #000; }
 
+        /* Mobile Bottom Quick Navigation Bar */
+        .mobile-bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(14, 0, 20, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid var(--pl-border);
+            z-index: 990;
+            padding: 8px 12px;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.6);
+        }
+
+        @media (max-width: 900px) {
+            .mobile-bottom-nav { display: flex; }
+            body { padding-bottom: 85px !important; }
+        }
+
+        .mobile-nav-item {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 4px 10px;
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .mobile-nav-item.active {
+            color: var(--pl-green);
+            background: rgba(0, 255, 135, 0.12);
+        }
+
+        .mob-nav-icon { font-size: 1.25rem; }
+
         /* Media Queries for Tablet & Mobile Responsiveness */
         @media (max-width: 1024px) {
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
@@ -368,6 +415,26 @@
         </footer>
     </div>
 
+    <!-- Mobile & Tablet Bottom Quick Navigation Dock -->
+    <div class="mobile-bottom-nav">
+        <button class="mobile-nav-item active" id="mob-nav-leaderboard" onclick="switchMainTab('leaderboard')">
+            <span class="mob-nav-icon">🏆</span>
+            <span class="mob-nav-label">Leaderboard</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-nav-fixtures" onclick="scrollToSection('fixture-ticker-section')">
+            <span class="mob-nav-icon">⚽</span>
+            <span class="mob-nav-label">Matches</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-nav-gw" onclick="switchMainTab('gw_' + activeGameweekScope)">
+            <span class="mob-nav-icon">📋</span>
+            <span class="mob-nav-label">GW Submissions</span>
+        </button>
+        <a href="admin.html" class="mobile-nav-item">
+            <span class="mob-nav-icon">⚙️</span>
+            <span class="mob-nav-label">Admin</span>
+        </a>
+    </div>
+
     <!-- Inspector Modal -->
     <div class="modal" id="modal">
         <div class="modal-box">
@@ -549,6 +616,20 @@
             dropdown.innerHTML = dropdownHtml;
         }
 
+        function scrollToSection(id) {
+            const el = document.getElementById(id) || document.getElementsByClassName(id)[0];
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function updateBottomNavActive(tabKey) {
+            document.querySelectorAll('.mobile-nav-item').forEach(el => el.classList.remove('active'));
+            if (tabKey === 'leaderboard') {
+                document.getElementById('mob-nav-leaderboard')?.classList.add('active');
+            } else if (tabKey && tabKey.startsWith('gw_')) {
+                document.getElementById('mob-nav-gw')?.classList.add('active');
+            }
+        }
+
         function onGwDropdownChange(val) {
             switchMainTab(val);
         }
@@ -557,6 +638,7 @@
             showLoadingOverlay("Switching View", "Loading predictions and match center...");
             setTimeout(() => {
                 currentTab = tabKey;
+                updateBottomNavActive(tabKey);
                 
                 // Update Tab Button Styles
                 document.querySelectorAll('.nav-tab-btn').forEach(btn => btn.classList.remove('active'));
