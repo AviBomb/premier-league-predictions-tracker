@@ -262,26 +262,20 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "15'",
-              "scorer": "Kai Havertz",
-              "assist": "Riccardo Calafiori",
-              "type": "G"
+              "scorer": "Saka",
+              "assist": "Calafiori"
             },
             {
-              "minute": "23'",
-              "scorer": "Bukayo Saka",
-              "assist": null,
-              "type": "G"
+              "scorer": "Ødegaard",
+              "assist": "White"
             },
             {
-              "minute": "49'",
-              "scorer": "Martin Ødegaard",
-              "assist": "Ben White",
-              "type": "G"
+              "scorer": "Havertz",
+              "assist": "Tzolis"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Kai Havertz 15' (assist: Riccardo Calafiori), Bukayo Saka 23', Martin Ødegaard 49' (assist: Ben White)",
+          "home_goals_summary": "Saka (Calafiori), Ødegaard (White), Havertz (Tzolis)",
           "away_goals_summary": "",
           "kickoff": "2026-08-21T19:00:00Z",
           "finished": true,
@@ -298,20 +292,16 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "17'",
-              "scorer": "Semi Ajayi",
-              "assist": null,
-              "type": "G"
+              "scorer": "Ajayi",
+              "assist": "Slater"
             },
             {
-              "minute": "38'",
-              "scorer": "Nobel Mendy",
-              "assist": "Regan Slater",
-              "type": "G"
+              "scorer": "Mendy",
+              "assist": "McBurnie"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Semi Ajayi 17', Nobel Mendy 38' (assist: Regan Slater)",
+          "home_goals_summary": "Ajayi (Slater), Mendy (McBurnie)",
           "away_goals_summary": "",
           "kickoff": "2026-08-22T11:30:00Z",
           "finished": true,
@@ -328,20 +318,16 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "42'",
-              "scorer": "Kiernan Dewsbury-Hall",
-              "assist": "Harrison Armstrong",
-              "type": "G"
+              "scorer": "Dewsbury-Hall",
+              "assist": "Ndiaye"
             },
             {
-              "minute": "53'",
-              "scorer": "Thierno Barry",
-              "assist": "Iliman Ndiaye",
-              "type": "G"
+              "scorer": "Barry",
+              "assist": "Armstrong"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Kiernan Dewsbury-Hall 42' (assist: Harrison Armstrong), Thierno Barry 53' (assist: Iliman Ndiaye)",
+          "home_goals_summary": "Dewsbury-Hall (Ndiaye), Barry (Armstrong)",
           "away_goals_summary": "",
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": true,
@@ -358,28 +344,22 @@
           "away_act": 1,
           "home_goals": [
             {
-              "minute": "24'",
-              "scorer": "Emersonn",
-              "assist": "Julio Enciso",
-              "type": "G"
+              "scorer": "Clarke",
+              "assist": "Lukić"
             },
             {
-              "minute": "90'",
-              "scorer": "Jack Clarke",
-              "assist": "Sasa Lukic",
-              "type": "G"
+              "scorer": "Emersonn",
+              "assist": "Enciso"
             }
           ],
           "away_goals": [
             {
-              "minute": "39'",
-              "scorer": "Nilson Angulo",
-              "assist": null,
-              "type": "G"
+              "scorer": "Angulo",
+              "assist": "Xhaka"
             }
           ],
-          "home_goals_summary": "Emersonn 24' (assist: Julio Enciso), Jack Clarke 90' (assist: Sasa Lukic)",
-          "away_goals_summary": "Nilson Angulo 39'",
+          "home_goals_summary": "Clarke (Lukić), Emersonn (Enciso)",
+          "away_goals_summary": "Angulo (Xhaka)",
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": true,
           "started": true,
@@ -396,14 +376,12 @@
           "home_goals": [],
           "away_goals": [
             {
-              "minute": "88'",
-              "scorer": "Anton Stach",
-              "assist": null,
-              "type": "G"
+              "scorer": "Stach",
+              "assist": null
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Anton Stach 88'",
+          "away_goals_summary": "Stach",
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": true,
           "started": true,
@@ -419,26 +397,20 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "12'",
-              "scorer": "Keane Lewis-Potter",
-              "assist": "Mamadou Sangaré",
-              "type": "G"
+              "scorer": "Lewis-Potter",
+              "assist": "M.Sangaré"
             },
             {
-              "minute": "33'",
-              "scorer": "Vitaly Janelt",
-              "assist": null,
-              "type": "G"
+              "scorer": "Kayode",
+              "assist": "M.Sangaré"
             },
             {
-              "minute": "49'",
-              "scorer": "Michael Kayode",
-              "assist": null,
-              "type": "G"
+              "scorer": "Janelt",
+              "assist": "Jensen"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Keane Lewis-Potter 12' (assist: Mamadou Sangaré), Vitaly Janelt 33', Michael Kayode 49'",
+          "home_goals_summary": "Lewis-Potter (M.Sangaré), Kayode (M.Sangaré), Janelt (Jensen)",
           "away_goals_summary": "",
           "kickoff": "2026-08-22T16:30:00Z",
           "finished": true,
