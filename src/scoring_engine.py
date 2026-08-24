@@ -237,22 +237,28 @@ def audit_and_score_gameweek(
             )
 
             user_approvals = gw_approvals.get(author, {})
+            if not user_approvals:
+                clean_auth = author.lower().strip().lstrip('@')
+                for k, v in gw_approvals.items():
+                    if k.lower().strip().lstrip('@') == clean_auth:
+                        user_approvals = v
+                        break
 
             for cand in fuzzy_cands:
                 fix_id = cand["fixture_id"]
                 fix_id_str = str(fix_id)
                 f_kickoff = fixture_kickoffs.get(fix_id)
 
-                # If comment was posted before this specific match kickoff, allow approval
-                if pub_dt and f_kickoff and pub_dt <= f_kickoff:
-                    if fix_id_str in user_approvals:
-                        cand_status = user_approvals[fix_id_str].get("status", "pending")
-                        cand["status"] = cand_status
+                is_before_kickoff = (pub_dt is None or f_kickoff is None or pub_dt <= f_kickoff)
+                if fix_id_str in user_approvals:
+                    cand_status = user_approvals[fix_id_str].get("status", "pending")
+                    cand["status"] = cand_status
 
-                        if cand_status == "approved":
-                            h, a = cand["home_team"], cand["away_team"]
-                            user_fixture_preds[(h, a)] = (cand["pred_home"], cand["pred_away"])
-                    
+                    if cand_status == "approved" and is_before_kickoff:
+                        h, a = cand["home_team"], cand["away_team"]
+                        user_fixture_preds[(h, a)] = (cand["pred_home"], cand["pred_away"])
+
+                if is_before_kickoff:
                     all_fuzzy_candidates.append(cand)
 
         # Strict Exclusion: If a comment/reply has 0 matches predicted, do not pick or display it

@@ -453,12 +453,28 @@
                 <div id="authorized-admins-badges" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
             </div>
 
-            <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--pl-border); border-radius: 16px; padding: 20px; max-width: 600px;">
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--pl-border); border-radius: 16px; padding: 20px; max-width: 600px; margin-bottom: 24px;">
                 <label class="form-label" style="margin-bottom: 8px; display: block;">Add New Authorized Google Account</label>
                 <div style="display: flex; gap: 10px;">
                     <input type="email" id="new-admin-email-input" class="form-input" placeholder="Enter Google email (e.g. name@gmail.com)">
                     <button class="btn-save-master" onclick="addAuthorizedAdmin()" style="white-space: nowrap;">+ Add Admin</button>
                 </div>
+            </div>
+
+            <!-- GitHub Direct Cloud Sync & Multi-Admin Persistence -->
+            <div style="background: rgba(0,255,135,0.05); border: 1px solid rgba(0,255,135,0.25); border-radius: 16px; padding: 20px;">
+                <div style="font-size: 1.05rem; font-weight: 800; color: var(--pl-green); display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                    <span>☁️</span> GitHub Direct Cloud Sync &amp; Multi-Admin Persistence
+                </div>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px; line-height: 1.45;">
+                    Configuring a GitHub Personal Access Token (PAT) enables <b>instant multi-admin cloud sync</b> when hosted on GitHub Pages or phone/tablet. When you approve typos or update match scores, changes are committed directly to GitHub, triggering automatic score recalculations and updating the leaderboard for all users worldwide.
+                </p>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; max-width: 650px;">
+                    <input type="password" id="github-pat-input" class="form-input" placeholder="Paste GitHub Token (github_pat_... or ghp_...)" style="flex: 1; min-width: 250px;">
+                    <button class="btn-save-master" onclick="saveGitHubToken()" style="white-space: nowrap;">💾 Save Token &amp; Test Sync</button>
+                    <button class="btn-filter" onclick="clearGitHubToken()" style="padding: 10px 14px;">Clear</button>
+                </div>
+                <div id="github-sync-status" style="margin-top: 10px; font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; font-weight: 700;"></div>
             </div>
         </div>
 
@@ -779,19 +795,47 @@
 
         async function loadApprovalCandidates() {
             try {
-                const res = await fetch('data/pending_approvals.json');
+                const res = await fetch(`data/pending_approvals.json?t=${Date.now()}`);
                 if (res.ok) {
                     pendingCandidates = await res.json();
                 }
-                const appRes = await fetch('data/admin_approvals.json');
+                const appRes = await fetch(`data/admin_approvals.json?t=${Date.now()}`);
+                let loadedApprovals = {};
                 if (appRes.ok) {
-                    const loadedApprovals = await appRes.json();
-                    adminApprovals = { ...loadedApprovals };
+                    loadedApprovals = await appRes.json();
                 }
+                const localApprovals = JSON.parse(localStorage.getItem('pl_admin_approvals') || '{}');
+                adminApprovals = deepMergeApprovals(loadedApprovals, localApprovals);
             } catch(e) {
                 console.log("Note loading pending approvals:", e);
             }
             renderApprovalQueue();
+        }
+
+        function deepMergeApprovals(server, local) {
+            const merged = JSON.parse(JSON.stringify(server || {}));
+            if (!local || typeof local !== 'object') return merged;
+
+            for (const gwKey in local) {
+                if (!merged[gwKey]) merged[gwKey] = {};
+                for (const author in local[gwKey]) {
+                    if (!merged[gwKey][author]) merged[gwKey][author] = {};
+                    for (const fixId in local[gwKey][author]) {
+                        const localItem = local[gwKey][author][fixId];
+                        const serverItem = merged[gwKey][author][fixId];
+                        if (!serverItem) {
+                            merged[gwKey][author][fixId] = localItem;
+                        } else {
+                            const tLocal = new Date(localItem.timestamp || 0).getTime();
+                            const tServer = new Date(serverItem.timestamp || 0).getTime();
+                            if (tLocal >= tServer) {
+                                merged[gwKey][author][fixId] = localItem;
+                            }
+                        }
+                    }
+                }
+            }
+            return merged;
         }
 
         async function loadServerConfig() {
@@ -1140,6 +1184,7 @@
             loadApprovalCandidates();
             renderAliasesMatrix();
             renderAuthorizedAdmins();
+            updateGitHubSyncStatus();
 
             // Populate both header dropdown and panel dropdown
             const gwOptionsHtml = Array.from({length: 38}, (_, i) => i + 1).map(gw => `
@@ -1396,9 +1441,10 @@
         async function syncDecisionsToServer() {
             localStorage.setItem('pl_admin_approvals', JSON.stringify(adminApprovals));
 
-            showLoadingSpinner("Saving Typo Decision", "Recalculating live standings and prediction points...");
+            showLoadingSpinner("Saving Typo Decision", "Persisting decisions and triggering automated leaderboard recalculations...");
             let synced = false;
-            for (const ep of ['/api/save-approvals', 'http://127.0.0.1:3000/api/save-approvals']) {
+
+            for (const ep of ['/api/save-approvals', 'http://127.0.0.1:3000/api/save-approvals', 'http://127.0.0.1:5000/api/save-approvals']) {
                 try {
                     const res = await fetch(ep, {
                         method: 'POST',
@@ -1411,12 +1457,18 @@
                     }
                 } catch(e) {}
             }
+
+            if (!synced) {
+                synced = await commitFileToGitHub('data/admin_approvals.json', JSON.stringify(adminApprovals, null, 2), 'admin: update typo approvals via Admin Portal');
+            }
+
             hideLoadingSpinner();
             if (synced) {
-                showToast("✅ Typo decision saved & live standings updated!");
+                showToast("✅ Typo decision saved & synced to cloud! Standings will auto-update across all devices.");
             } else {
-                showToast("⚠️ Saved locally.");
+                showToast("⚠️ Saved locally in this browser. Configure GitHub Access Token in Tab 2 for instant cloud sync across admins.");
             }
+            return synced;
         }
 
         function openCommentModal(author) {
@@ -1667,8 +1719,110 @@
             showToast("✅ Official club aliases saved & NLP engine updated!");
         }
 
+        function getGitHubPAT() {
+            return (localStorage.getItem('pl_github_pat') || '').trim();
+        }
+
+        function utf8ToBase64(str) {
+            return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, (match, p1) => String.fromCharCode('0x' + p1)));
+        }
+
+        async function commitFileToGitHub(filePath, fileContent, commitMsg) {
+            const token = getGitHubPAT();
+            if (!token) return false;
+
+            const repoOwner = "AviBomb";
+            const repoName = "premier-league-predictions-tracker";
+            const branch = "main";
+            const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
+
+            try {
+                let currentSha = null;
+                const getRes = await fetch(`${apiUrl}?t=${Date.now()}`, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Accept': 'application/vnd.github+json'
+                    }
+                });
+                if (getRes.ok) {
+                    const getData = await getRes.json();
+                    currentSha = getData.sha;
+                }
+
+                const payload = {
+                    message: commitMsg,
+                    content: utf8ToBase64(fileContent),
+                    branch: branch
+                };
+                if (currentSha) {
+                    payload.sha = currentSha;
+                }
+
+                const putRes = await fetch(apiUrl, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/vnd.github+json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                if (putRes.ok) {
+                    console.log(`[+] GitHub Direct Sync Success: ${filePath}`);
+                    return true;
+                } else {
+                    const errData = await putRes.json();
+                    console.warn(`[!] GitHub Sync Error:`, errData);
+                    if (putRes.status === 401 || putRes.status === 403) {
+                        alert(`GitHub Sync Failed: ${errData.message || 'Invalid GitHub Token'}. Check token in Tab 2.`);
+                    }
+                }
+            } catch (e) {
+                console.warn(`[!] GitHub API Error for ${filePath}:`, e);
+            }
+            return false;
+        }
+
+        function saveGitHubToken() {
+            const input = document.getElementById('github-pat-input');
+            const token = (input?.value || '').trim();
+            if (!token) {
+                alert('Please paste a valid GitHub Personal Access Token.');
+                return;
+            }
+            localStorage.setItem('pl_github_pat', token);
+            updateGitHubSyncStatus();
+            showToast("✅ GitHub Access Token saved! Direct cloud sync enabled.");
+        }
+
+        function clearGitHubToken() {
+            localStorage.removeItem('pl_github_pat');
+            const input = document.getElementById('github-pat-input');
+            if (input) input.value = '';
+            updateGitHubSyncStatus();
+            showToast("Cleared GitHub Access Token.");
+        }
+
+        async function updateGitHubSyncStatus() {
+            const token = getGitHubPAT();
+            const statusEl = document.getElementById('github-sync-status');
+            const inputEl = document.getElementById('github-pat-input');
+            if (!statusEl) return;
+
+            if (!token) {
+                statusEl.innerHTML = '<span style="color: var(--pl-gold);">● Sync Mode: Local Browser Storage (Paste GitHub Token above for instant multi-admin cloud sync)</span>';
+                if (inputEl) inputEl.value = '';
+            } else {
+                if (inputEl) inputEl.value = token;
+                statusEl.innerHTML = '<span style="color: var(--pl-green);">● Sync Mode: Direct GitHub Cloud Sync Enabled (Repository: AviBomb/premier-league-predictions-tracker:main)</span>';
+            }
+        }
+
         async function syncConfigToServer() {
-            for (const ep of ['/api/save-config', 'http://127.0.0.1:3000/api/save-config']) {
+            let synced = false;
+
+            for (const ep of ['/api/save-config', 'http://127.0.0.1:3000/api/save-config', 'http://127.0.0.1:5000/api/save-config']) {
                 try {
                     const res = await fetch(ep, {
                         method: 'POST',
@@ -1676,11 +1830,17 @@
                         body: JSON.stringify(currentConfig)
                     });
                     if (res.ok) {
-                        return true;
+                        synced = true;
+                        break;
                     }
                 } catch(e) {}
             }
-            return false;
+
+            if (!synced) {
+                synced = await commitFileToGitHub('config/gameweek_config.json', JSON.stringify(currentConfig, null, 2), 'admin: update configuration via Admin Portal');
+            }
+
+            return synced;
         }
 
         async function saveVideoAndSettingsOnly() {

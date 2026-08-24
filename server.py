@@ -17,6 +17,14 @@ CANDIDATE_PORTS = [3000, 5000, 5500, 8888, 9000, 9090, 10000, 0]
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 
+def git_auto_push(commit_msg: str):
+    try:
+        cmd = 'git add data/ config/ exports/ dashboard.html index.html admin.html && git commit -m "' + commit_msg + '" && git push origin main'
+        os.system(cmd)
+    except Exception as e:
+        print(f"[!] Warning during git auto-push: {e}")
+
+
 class CustomHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
@@ -46,6 +54,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 # Trigger pipeline recalculation
                 from main import run_pipeline
                 run_pipeline(use_live_api=True)
+                git_auto_push("admin: save approvals and recalculate standings [skip ci]")
 
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")
@@ -71,6 +80,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
                 from main import run_pipeline
                 run_pipeline(use_live_api=True)
+                git_auto_push("admin: save configuration and update dashboard [skip ci]")
 
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")
