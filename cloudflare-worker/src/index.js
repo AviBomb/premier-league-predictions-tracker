@@ -29,9 +29,14 @@ const ROUTES = {
   "/api/save-config": { path: "config/gameweek_config.json", label: "gameweek configuration" },
 };
 
-function corsHeaders(env) {
+function corsHeaders(env, request) {
+  const origin = request ? request.headers.get("Origin") : null;
+  let allowOrigin = env.ALLOWED_ORIGIN || "*";
+  if (origin && (origin.includes("github.io") || origin.includes("localhost") || origin.includes("127.0.0.1"))) {
+    allowOrigin = origin;
+  }
   return {
-    "Access-Control-Allow-Origin": env.ALLOWED_ORIGIN || "*",
+    "Access-Control-Allow-Origin": allowOrigin,
     "Access-Control-Allow-Methods": "POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type, Authorization",
     "Access-Control-Max-Age": "86400",
@@ -151,7 +156,7 @@ async function commitJsonFile(env, path, contentObj, commitMessage) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    const headers = corsHeaders(env);
+    const headers = corsHeaders(env, request);
 
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers });

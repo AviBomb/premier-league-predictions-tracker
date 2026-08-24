@@ -918,6 +918,7 @@
                             if (tokenResponse && tokenResponse.access_token) {
                                 try {
                                     googleAccessToken = tokenResponse.access_token;
+                                    sessionStorage.setItem('pl_google_access_token', googleAccessToken);
                                     const userInfoRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
                                         headers: { 'Authorization': `Bearer ${tokenResponse.access_token}` }
                                     });
@@ -1179,6 +1180,7 @@
             sessionStorage.removeItem('pl_admin_active_name');
             sessionStorage.removeItem('pl_admin_active_pic');
             sessionStorage.removeItem('pl_admin_login_time');
+            sessionStorage.removeItem('pl_google_access_token');
             googleAccessToken = '';
             if (timerInterval) clearInterval(timerInterval);
 
@@ -1936,14 +1938,25 @@
         // ever touches the browser.
         async function syncViaWorker(endpointPath, payload) {
             const baseUrl = getWorkerBaseUrl();
-            if (!baseUrl || !googleAccessToken) return false;
+            const token = googleAccessToken || sessionStorage.getItem('pl_google_access_token') || '';
+
+            if (!baseUrl) {
+                console.warn('[!] Cloud Sync Worker URL is not configured.');
+                return false;
+            }
+
+            if (!token) {
+                console.warn('[!] Cloud Sync Worker skipped: Google Access Token is missing from session.');
+                alert('Your Google OAuth session token is missing or expired. Please sign in with Google again to enable cloud sync.');
+                return false;
+            }
 
             try {
                 const res = await fetch(`${baseUrl}${endpointPath}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${googleAccessToken}`
+                        'Authorization': `Bearer ${token}`
                     },
                     body: JSON.stringify(payload)
                 });
