@@ -435,6 +435,14 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@smyttan9714": {
+      "8": {
+        "status": "approved",
+        "timestamp": "2026-08-24T16:11:15.202Z",
+        "pred_home": 3,
+        "pred_away": 0
+      }
     }
   }
 }
