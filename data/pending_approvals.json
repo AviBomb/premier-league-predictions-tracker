@@ -540,7 +540,8 @@
     "pred_away": 1,
     "confidence": 92,
     "detected_teams": "Nottingham Forest vs Leeds United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_Pando1773_8",
@@ -567,7 +568,8 @@
     "pred_away": 1,
     "confidence": 98,
     "detected_teams": "Manchester City vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_Mvpo444_6",
@@ -869,7 +871,8 @@
     "pred_away": 2,
     "confidence": 98,
     "detected_teams": "Brighton & Hove Albion vs Aston Villa",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_paimxd_8",
@@ -1521,7 +1524,8 @@
     "pred_away": 1,
     "confidence": 98,
     "detected_teams": "Manchester City vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_missleafeatheleafeon2593_5",
