@@ -574,13 +574,19 @@
           "away": "Chelsea",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t54.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
-          "home_act": 1,
-          "away_act": 2,
+          "home_act": 2,
+          "away_act": 3,
           "home_goals": [
             {
               "minute": "23'",
               "scorer": "Josh King",
               "assist": "Timothy Castagne",
+              "type": "G"
+            },
+            {
+              "minute": "54'",
+              "scorer": "Gonzalo García",
+              "assist": null,
               "type": "G"
             }
           ],
@@ -596,14 +602,20 @@
               "scorer": "Morgan Rogers",
               "assist": "Maxence Lacroix",
               "type": "G"
+            },
+            {
+              "minute": "49'",
+              "scorer": "Cole Palmer",
+              "assist": "João Pedro",
+              "type": "G"
             }
           ],
-          "home_goals_summary": "Josh King 23' (assist: Timothy Castagne)",
-          "away_goals_summary": "João Pedro 01' (assist: Cole Palmer), Morgan Rogers 41' (assist: Maxence Lacroix)",
+          "home_goals_summary": "Josh King 23' (assist: Timothy Castagne), Gonzalo García 54'",
+          "away_goals_summary": "João Pedro 01' (assist: Cole Palmer), Morgan Rogers 41' (assist: Maxence Lacroix), Cole Palmer 49' (assist: João Pedro)",
           "kickoff": "2026-08-24T19:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 45
+          "minutes": 60
         }
       ]
     },
