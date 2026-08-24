@@ -337,6 +337,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "UgwzMVDCrMuQzgZrKIR4AaABAg",
+        "author": "@NicoAngelo-p9q",
+        "channel_url": "http://www.youtube.com/@NicoAngelo-p9q",
+        "published_at": "2026-08-24T10:13:01Z",
+        "updated_at": "2026-08-24T10:13:01Z",
+        "submission_gmt": "2026-08-24 10:13:01 GMT",
+        "updated_gmt": "2026-08-24 10:13:01 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late for 9 match(es)",
+        "timing_analysis": "Submitted 2026-08-24 10:13:01 GMT. 9 match(es) voided due to kickoff deadline, remaining matches active.",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid* (Late for 9 matches)",
+        "raw_text": "Arsenal 3 - 0 Coventry\nManchester United 0 - 2 Hull City\nEverton 2 - 0 Crystal Palace\nIpswich Town 2 - 1 Sunderland\nNottingham Forest 0 - 1 Leeds United\nBrentford 3 - 0 Tottenham Hotspur\nBrighton & Hove Albion 4 - 0 Aston Villa\nManchester City 2 - 1 AFC Bournemouth\nNewcastle United 2 - 2 Liverpool\nFulham 1 - 3 Chelsea",
+        "original_comment_text": "Arsenal 3 - 0 Coventry\nManchester United 0 - 2 Hull City\nEverton 2 - 0 Crystal Palace\nIpswich Town 2 - 1 Sunderland\nNottingham Forest 0 - 1 Leeds United\nBrentford 3 - 0 Tottenham Hotspur\nBrighton & Hove Albion 4 - 0 Aston Villa\nManchester City 2 - 1 AFC Bournemouth\nNewcastle United 2 - 2 Liverpool\nFulham 1 - 3 Chelsea",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 10,
+        "valid_matches_count": 1,
+        "late_matches_count": 9,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Arsenal vs Coventry City": {
+            "pred": "3-0",
+            "actual": "3-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Hull City vs Manchester United": {
+            "pred": "2-0",
+            "actual": "2-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Everton vs Crystal Palace": {
+            "pred": "2-0",
+            "actual": "2-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Ipswich Town vs Sunderland": {
+            "pred": "2-1",
+            "actual": "2-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Nottingham Forest vs Leeds United": {
+            "pred": "0-1",
+            "actual": "0-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Brentford vs Tottenham Hotspur": {
+            "pred": "3-0",
+            "actual": "3-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Brighton & Hove Albion vs Aston Villa": {
+            "pred": "4-0",
+            "actual": "4-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Manchester City vs AFC Bournemouth": {
+            "pred": "2-1",
+            "actual": "2-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Newcastle United vs Liverpool": {
+            "pred": "2-2",
+            "actual": "2-2",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Fulham vs Chelsea": {
+            "pred": "1-3",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          }
+        }
+      },
+      {
         "comment_id": "UgyP0_01PzXp87hbWKR4AaABAg",
         "author": "@marksims68",
         "channel_url": "http://www.youtube.com/@marksims68",
