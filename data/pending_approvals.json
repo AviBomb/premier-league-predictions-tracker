@@ -1104,7 +1104,8 @@
     "pred_away": 3,
     "confidence": 95,
     "detected_teams": "Hull City vs Manchester United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_CountGraf2_6",
@@ -1131,7 +1132,8 @@
     "pred_away": 1,
     "confidence": 91,
     "detected_teams": "Nottingham Forest vs Leeds United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_johndoheny4807_6",
@@ -1215,7 +1217,8 @@
     "pred_away": 3,
     "confidence": 95,
     "detected_teams": "Hull City vs Manchester United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_LavinA1459_7",
@@ -1241,7 +1244,8 @@
     "pred_away": 1,
     "confidence": 92,
     "detected_teams": "Brighton & Hove Albion vs Aston Villa",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_ZelZal98_4",
@@ -1488,7 +1492,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Manchester City vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_chisomonwusika5942_8",
