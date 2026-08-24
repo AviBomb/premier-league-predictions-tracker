@@ -421,6 +421,20 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@CountGraf2": {
+      "4": {
+        "status": "approved",
+        "timestamp": "2026-08-24T16:11:00.305Z",
+        "pred_home": 1,
+        "pred_away": 3
+      },
+      "6": {
+        "status": "approved",
+        "timestamp": "2026-08-24T16:11:00.305Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
     }
   }
 }
