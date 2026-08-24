@@ -50,7 +50,8 @@
     "pred_away": 2,
     "confidence": 98,
     "detected_teams": "Ipswich Town vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_AwesomeYears_4",
@@ -1080,7 +1081,8 @@
     "pred_away": 2,
     "confidence": 95,
     "detected_teams": "Brighton & Hove Albion vs Aston Villa",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_CountGraf2_4",
@@ -1610,7 +1612,8 @@
     "pred_away": 1,
     "confidence": 98,
     "detected_teams": "Everton vs Crystal Palace",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_Lamppost447_1",
@@ -1719,6 +1722,7 @@
     "pred_away": 2,
     "confidence": 96,
     "detected_teams": "Ipswich Town vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   }
 ]
