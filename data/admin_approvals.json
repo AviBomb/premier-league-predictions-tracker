@@ -489,6 +489,14 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@brynjar843": {
+      "3": {
+        "status": "approved",
+        "timestamp": "2026-08-24T16:12:31.235Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
