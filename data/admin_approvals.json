@@ -473,6 +473,14 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@cainward2616": {
+      "7": {
+        "status": "approved",
+        "timestamp": "2026-08-24T16:12:11.784Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
