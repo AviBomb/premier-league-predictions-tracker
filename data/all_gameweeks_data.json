@@ -362,9 +362,9 @@
         "home_goals_summary": "Josh King 23' (assist: Timothy Castagne), Gonzalo García 54'",
         "away_goals_summary": "João Pedro 01' (assist: Cole Palmer), Morgan Rogers 41' (assist: Maxence Lacroix), Cole Palmer 49' (assist: João Pedro)",
         "kickoff": "2026-08-24T19:00:00Z",
-        "finished": false,
+        "finished": true,
         "started": true,
-        "minutes": 60
+        "minutes": 90
       }
     ],
     "audited_records": [
