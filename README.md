@@ -146,3 +146,36 @@ To configure Google Sign-In for authorized administrators on `admin.html`:
    * Local: `http://127.0.0.1:3000` and `http://localhost:3000`
    * Production: `https://<YOUR_USERNAME>.github.io`
 4. Add authorized admin email SHA-256 hashes directly in `admin.html` under the **👥 Authorized Google Users** tab or in `config/gameweek_config.json` (`authorized_users_sha256`). Plain-text emails are automatically hashed client-side so they are never exposed in public repositories.
+
+---
+
+## ☁️ Cloud Sync Worker (Multi-Admin Persistence Without Sharing Tokens)
+
+`admin.html` is a static page hosted on GitHub Pages, so it has no server of
+its own to persist typo approvals, score corrections, or config edits. The
+recommended way to make those changes stick — for every admin, on every
+device — is a small free [Cloudflare Worker](cloudflare-worker/README.md)
+that:
+
+* Holds the one GitHub credential privately as a Worker secret (never seen by admins).
+* Re-verifies each request's Google sign-in against the live authorized admin list.
+* Commits approved changes straight to GitHub, which triggers the existing GitHub Actions pipeline to recalculate scores and redeploy the leaderboard.
+
+**Setup is one-time and done by the site owner only** — see
+[`cloudflare-worker/README.md`](cloudflare-worker/README.md) for full
+step-by-step instructions. Once deployed, paste the Worker URL into **Tab 2 →
+☁️ Cloud Sync** in the Admin Portal, and every signed-in admin automatically
+syncs through it — no token to copy, share, or re-enter.
+
+A legacy "paste your own GitHub token" fallback still exists under **Tab 2 →
+Advanced** for emergencies, but it is no longer required once the Worker is
+configured.
+
+### Correcting AI-misread typo predictions
+
+In **Tab 3 → Typo & Spelling Match Review Hub**, each detected prediction now
+shows its matched score as editable number inputs. If the fuzzy-matching NLP
+misreads a comment (e.g. parses "2-1" as "21-0"), an admin can simply type the
+correct score into those boxes before clicking **Approve**. The corrected
+score — not the AI's original guess — is what gets saved and used to score
+that user's prediction.

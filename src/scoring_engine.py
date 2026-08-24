@@ -251,8 +251,18 @@ def audit_and_score_gameweek(
 
                 is_before_kickoff = (pub_dt is None or f_kickoff is None or pub_dt <= f_kickoff)
                 if fix_id_str in user_approvals:
-                    cand_status = user_approvals[fix_id_str].get("status", "pending")
+                    approval_entry = user_approvals[fix_id_str]
+                    cand_status = approval_entry.get("status", "pending")
                     cand["status"] = cand_status
+
+                    # Admins can override the AI-detected score in the Typo Review Hub
+                    # if it misread the prediction (e.g. "2-1" parsed as "21").
+                    override_h = approval_entry.get("pred_home")
+                    override_a = approval_entry.get("pred_away")
+                    if override_h is not None and override_a is not None:
+                        cand["pred_home"] = override_h
+                        cand["pred_away"] = override_a
+                        cand["admin_corrected"] = True
 
                     if cand_status == "approved" and is_before_kickoff:
                         h, a = cand["home_team"], cand["away_team"]

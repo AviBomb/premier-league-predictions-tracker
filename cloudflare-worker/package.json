@@ -1,0 +1,14 @@
+{
+  "name": "pl-tracker-sync-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure Cloudflare Worker proxy that lets the Admin Portal sync directly to GitHub without sharing a Personal Access Token with every admin.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "secret:set-token": "wrangler secret put GITHUB_TOKEN"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}

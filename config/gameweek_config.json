@@ -1,4 +1,5 @@
 {
+  "cloud_sync_worker_url": "https://pl-tracker-sync.theirishguy-pl.workers.dev",
   "google_auth": {
     "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
     "authorized_users": [

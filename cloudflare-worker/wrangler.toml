@@ -1,0 +1,18 @@
+name = "pl-tracker-sync"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# Public, non-secret configuration. Safe to commit.
+[vars]
+GITHUB_OWNER = "AviBomb"
+GITHUB_REPO = "premier-league-predictions-tracker"
+GITHUB_BRANCH = "main"
+# Restrict which site is allowed to call this Worker (CORS).
+ALLOWED_ORIGIN = "https://avibomb.github.io"
+
+# GITHUB_TOKEN is NOT set here — it must be added as a secret so it is never
+# committed to git or visible in the dashboard's plaintext config:
+#
+#   wrangler secret put GITHUB_TOKEN
+#
+# See README.md for full setup instructions.

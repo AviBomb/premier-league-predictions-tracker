@@ -461,13 +461,28 @@
                 </div>
             </div>
 
-            <!-- GitHub Direct Cloud Sync & Multi-Admin Persistence -->
-            <div style="background: rgba(0,255,135,0.05); border: 1px solid rgba(0,255,135,0.25); border-radius: 16px; padding: 20px;">
+            <!-- Cloud Sync Worker: Secure Multi-Admin Persistence (No Token Sharing Required) -->
+            <div style="background: rgba(0,255,135,0.05); border: 1px solid rgba(0,255,135,0.25); border-radius: 16px; padding: 20px; margin-bottom: 20px;">
                 <div style="font-size: 1.05rem; font-weight: 800; color: var(--pl-green); display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
-                    <span>☁️</span> GitHub Direct Cloud Sync &amp; Multi-Admin Persistence
+                    <span>☁️</span> Cloud Sync (Secure — No Token Sharing Required)
                 </div>
                 <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px; line-height: 1.45;">
-                    Configuring a GitHub Personal Access Token (PAT) enables <b>instant multi-admin cloud sync</b> when hosted on GitHub Pages or phone/tablet. When you approve typos or update match scores, changes are committed directly to GitHub, triggering automatic score recalculations and updating the leaderboard for all users worldwide.
+                    This site talks to a small secure proxy (a Cloudflare Worker) that holds the one-time GitHub credential privately on the server side. Every admin just signs in with their <b>authorized Google account</b> — nobody needs to see or paste a token.
+                    When you approve typos or update scores, your request is verified against the live admin list, then committed to GitHub automatically, which recalculates scores and redeploys the leaderboard for everyone.
+                    See <code>cloudflare-worker/README.md</code> for the one-time setup (done once, by the site owner only).
+                </p>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; max-width: 650px;">
+                    <input type="text" id="worker-url-input" class="form-input" placeholder="https://pl-tracker-sync.YOUR-SUBDOMAIN.workers.dev" style="flex: 1; min-width: 300px;">
+                    <button class="btn-save-master" onclick="saveWorkerUrl()" style="white-space: nowrap;">💾 Save &amp; Test</button>
+                </div>
+                <div id="worker-sync-status" style="margin-top: 10px; font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; font-weight: 700;"></div>
+            </div>
+
+            <!-- Legacy fallback: manual GitHub PAT (only needed if Cloud Sync Worker above is not configured) -->
+            <details style="background: rgba(255,255,255,0.03); border: 1px solid var(--pl-border); border-radius: 16px; padding: 16px 20px;">
+                <summary style="cursor: pointer; font-size: 0.92rem; font-weight: 800; color: var(--text-muted);">⚙️ Advanced: Legacy Personal Access Token Fallback</summary>
+                <p style="font-size: 0.82rem; color: var(--text-muted); margin: 10px 0 14px; line-height: 1.45;">
+                    Only use this if the Cloud Sync Worker above is unavailable. Pasting a token here stores it in <i>your</i> browser only and lets this device commit directly to GitHub — but it must be re-entered on every device/admin, which is exactly what the Worker above avoids.
                 </p>
                 <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; max-width: 650px;">
                     <input type="password" id="github-pat-input" class="form-input" placeholder="Paste GitHub Token (github_pat_... or ghp_...)" style="flex: 1; min-width: 250px;">
@@ -475,7 +490,7 @@
                     <button class="btn-filter" onclick="clearGitHubToken()" style="padding: 10px 14px;">Clear</button>
                 </div>
                 <div id="github-sync-status" style="margin-top: 10px; font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; font-weight: 700;"></div>
-            </div>
+            </details>
         </div>
 
         <!-- TAB 3: Typo & Spelling Match Review Queue (Inbox -> Actioned Flow) -->
@@ -757,6 +772,11 @@
         let currentQueueFilter = 'pending'; // Default: "Needs Review"
         let currentSortMode = 'conf_desc';
         let pendingRemoveAdminEmail = null;
+        // Short-lived Google access token used to authenticate with the Cloud Sync Worker.
+        // Kept in memory only (never persisted) — the Worker itself validates it against
+        // Google's userinfo endpoint on every request, so no long-lived secret is ever
+        // stored in the browser.
+        let googleAccessToken = '';
 
         const INACTIVITY_TIMEOUT_MS = 15 * 60 * 1000; // 15 Minutes
         let lastActivityTime = Date.now();
@@ -897,6 +917,7 @@
                         callback: async (tokenResponse) => {
                             if (tokenResponse && tokenResponse.access_token) {
                                 try {
+                                    googleAccessToken = tokenResponse.access_token;
                                     const userInfoRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
                                         headers: { 'Authorization': `Bearer ${tokenResponse.access_token}` }
                                     });
@@ -1158,6 +1179,7 @@
             sessionStorage.removeItem('pl_admin_active_name');
             sessionStorage.removeItem('pl_admin_active_pic');
             sessionStorage.removeItem('pl_admin_login_time');
+            googleAccessToken = '';
             if (timerInterval) clearInterval(timerInterval);
 
             if (window.google && google.accounts && google.accounts.id) {
@@ -1185,6 +1207,7 @@
             renderAliasesMatrix();
             renderAuthorizedAdmins();
             updateGitHubSyncStatus();
+            updateWorkerSyncStatus();
 
             // Populate both header dropdown and panel dropdown
             const gwOptionsHtml = Array.from({length: 38}, (_, i) => i + 1).map(gw => `
@@ -1245,8 +1268,15 @@
             pendingCandidates.filter(c => (c.gameweek === gw || (!c.gameweek && gw === 1)) && c.confidence >= 75).forEach(c => {
                 const userDecisions = approvalsForGw[c.author] || {};
                 const fixIdStr = String(c.fixture_id);
-                const currentStatus = userDecisions[fixIdStr]?.status || c.status || 'pending';
-                const candWithStatus = { ...c, status: currentStatus };
+                const decision = userDecisions[fixIdStr] || {};
+                const currentStatus = decision.status || c.status || 'pending';
+                const candWithStatus = {
+                    ...c,
+                    status: currentStatus,
+                    pred_home: decision.pred_home ?? c.pred_home,
+                    pred_away: decision.pred_away ?? c.pred_away,
+                    is_corrected: decision.pred_home !== undefined && decision.pred_away !== undefined
+                };
 
                 if (!userGroups[c.author]) {
                     userGroups[c.author] = {
@@ -1368,6 +1398,9 @@
                                 const confBadgeClass = conf >= 85 ? 'conf-badge-high' : 'conf-badge-med';
                                 const statusClass = `status-pill-${cand.status}`;
                                 const statusLabel = cand.status === 'approved' ? '✅ Approved' : (cand.status === 'rejected' ? '❌ Rejected' : '⏳ Pending');
+                                const safeAuthorId = safeIdStr(user.author);
+                                const homeInputId = `override-h-${safeAuthorId}-${cand.fixture_id}`;
+                                const awayInputId = `override-a-${safeAuthorId}-${cand.fixture_id}`;
 
                                 return `
                                     <div class="match-issue-item">
@@ -1379,9 +1412,17 @@
                                         </div>
 
                                         <div>
-                                            <div style="font-size: 0.76rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">Matched Premier League Fixture</div>
-                                            <div style="font-size: 0.88rem; font-weight: 800; color: #fff; margin-top: 2px;">
-                                                ${escapeHtml(cand.home_team)} (${cand.pred_home}) vs ${escapeHtml(cand.away_team)} (${cand.pred_away})
+                                            <div style="font-size: 0.76rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">
+                                                Matched Fixture ${cand.is_corrected ? '<span style="color: var(--pl-yellow, #ffb020);">(Score Corrected by Admin)</span>' : '(Editable if AI got it wrong)'}
+                                            </div>
+                                            <div style="display: flex; align-items: center; gap: 6px; margin-top: 4px; flex-wrap: wrap;">
+                                                <span style="font-size: 0.85rem; font-weight: 800; color: #fff;">${escapeHtml(cand.home_team)}</span>
+                                                <input type="number" min="0" max="20" id="${homeInputId}" value="${cand.pred_home}"
+                                                    style="width: 46px; padding: 4px 2px; text-align: center; font-weight: 800; border-radius: 6px; border: 1px solid var(--pl-border); background: var(--pl-card-inner); color: #fff;" />
+                                                <span style="color: var(--text-muted); font-weight: 700;">-</span>
+                                                <input type="number" min="0" max="20" id="${awayInputId}" value="${cand.pred_away}"
+                                                    style="width: 46px; padding: 4px 2px; text-align: center; font-weight: 800; border-radius: 6px; border: 1px solid var(--pl-border); background: var(--pl-card-inner); color: #fff;" />
+                                                <span style="font-size: 0.85rem; font-weight: 800; color: #fff;">${escapeHtml(cand.away_team)}</span>
                                             </div>
                                         </div>
 
@@ -1406,15 +1447,34 @@
             }).join('');
         }
 
+        function safeIdStr(str) {
+            return String(str || '').replace(/[^a-zA-Z0-9]/g, '_');
+        }
+
         function setDecision(author, fixtureId, status) {
             const gw = parseInt(document.getElementById('gw-select').value || 1);
             const gwKey = `GW_${gw}`;
             if (!adminApprovals[gwKey]) adminApprovals[gwKey] = {};
             if (!adminApprovals[gwKey][author]) adminApprovals[gwKey][author] = {};
-            adminApprovals[gwKey][author][String(fixtureId)] = {
+
+            const homeInput = document.getElementById(`override-h-${safeIdStr(author)}-${fixtureId}`);
+            const awayInput = document.getElementById(`override-a-${safeIdStr(author)}-${fixtureId}`);
+
+            const decision = {
                 status: status,
                 timestamp: new Date().toISOString()
             };
+
+            if (homeInput && awayInput && homeInput.value !== '' && awayInput.value !== '') {
+                const correctedHome = parseInt(homeInput.value, 10);
+                const correctedAway = parseInt(awayInput.value, 10);
+                if (!isNaN(correctedHome) && !isNaN(correctedAway)) {
+                    decision.pred_home = correctedHome;
+                    decision.pred_away = correctedAway;
+                }
+            }
+
+            adminApprovals[gwKey][author][String(fixtureId)] = decision;
 
             renderApprovalQueue();
             syncDecisionsToServer();
@@ -1428,10 +1488,21 @@
 
             const userCands = pendingCandidates.filter(c => (c.gameweek === gw || (!c.gameweek && gw === 1)) && c.author === author);
             userCands.forEach(c => {
-                adminApprovals[gwKey][author][String(c.fixture_id)] = {
+                const homeInput = document.getElementById(`override-h-${safeIdStr(author)}-${c.fixture_id}`);
+                const awayInput = document.getElementById(`override-a-${safeIdStr(author)}-${c.fixture_id}`);
+                const decision = {
                     status: status,
                     timestamp: new Date().toISOString()
                 };
+                if (homeInput && awayInput && homeInput.value !== '' && awayInput.value !== '') {
+                    const correctedHome = parseInt(homeInput.value, 10);
+                    const correctedAway = parseInt(awayInput.value, 10);
+                    if (!isNaN(correctedHome) && !isNaN(correctedAway)) {
+                        decision.pred_home = correctedHome;
+                        decision.pred_away = correctedAway;
+                    }
+                }
+                adminApprovals[gwKey][author][String(c.fixture_id)] = decision;
             });
 
             renderApprovalQueue();
@@ -1459,6 +1530,10 @@
             }
 
             if (!synced) {
+                synced = await syncViaWorker('/api/save-approvals', adminApprovals);
+            }
+
+            if (!synced) {
                 synced = await commitFileToGitHub('data/admin_approvals.json', JSON.stringify(adminApprovals, null, 2), 'admin: update typo approvals via Admin Portal');
             }
 
@@ -1466,7 +1541,7 @@
             if (synced) {
                 showToast("✅ Typo decision saved & synced to cloud! Standings will auto-update across all devices.");
             } else {
-                showToast("⚠️ Saved locally in this browser. Configure GitHub Access Token in Tab 2 for instant cloud sync across admins.");
+                showToast("⚠️ Saved locally in this browser only. Configure the Cloud Sync Worker in Tab 2 for instant sync across admins.");
             }
             return synced;
         }
@@ -1811,12 +1886,78 @@
             if (!statusEl) return;
 
             if (!token) {
-                statusEl.innerHTML = '<span style="color: var(--pl-gold);">● Sync Mode: Local Browser Storage (Paste GitHub Token above for instant multi-admin cloud sync)</span>';
+                statusEl.innerHTML = '<span style="color: var(--pl-gold);">● Legacy PAT Sync: Not configured (not needed if Cloud Sync Worker above is set up)</span>';
                 if (inputEl) inputEl.value = '';
             } else {
                 if (inputEl) inputEl.value = token;
-                statusEl.innerHTML = '<span style="color: var(--pl-green);">● Sync Mode: Direct GitHub Cloud Sync Enabled (Repository: AviBomb/premier-league-predictions-tracker:main)</span>';
+                statusEl.innerHTML = '<span style="color: var(--pl-green);">● Legacy PAT Sync Enabled (Repository: AviBomb/premier-league-predictions-tracker:main)</span>';
             }
+        }
+
+        function getWorkerBaseUrl() {
+            const configured = currentConfig?.cloud_sync_worker_url || '';
+            const local = (localStorage.getItem('pl_worker_url') || '').trim();
+            const raw = local || configured || 'https://pl-tracker-sync.theirishguy-pl.workers.dev';
+            return raw.replace(/\/+$/, '');
+        }
+
+        function saveWorkerUrl() {
+            const input = document.getElementById('worker-url-input');
+            const url = (input?.value || '').trim().replace(/\/+$/, '');
+            if (!url || !/^https:\/\//.test(url)) {
+                alert('Please paste a valid Cloud Sync Worker URL, e.g. https://pl-tracker-sync.your-subdomain.workers.dev');
+                return;
+            }
+            localStorage.setItem('pl_worker_url', url);
+            currentConfig.cloud_sync_worker_url = url;
+            updateWorkerSyncStatus();
+            syncConfigToServer();
+            showToast("✅ Cloud Sync Worker URL saved & synced! Approvals & score edits will now sync instantly for every admin.");
+        }
+
+        function updateWorkerSyncStatus() {
+            const url = getWorkerBaseUrl();
+            const statusEl = document.getElementById('worker-sync-status');
+            const inputEl = document.getElementById('worker-url-input');
+            if (!statusEl) return;
+
+            if (inputEl && !inputEl.value) inputEl.value = url;
+
+            if (!url) {
+                statusEl.innerHTML = '<span style="color: var(--pl-gold);">● Cloud Sync Worker: Not configured yet — falling back to local storage / legacy PAT.</span>';
+            } else {
+                statusEl.innerHTML = `<span style="color: var(--pl-green);">● Cloud Sync Worker Active: ${escapeHtml(url)}</span>`;
+            }
+        }
+
+        // Sends the signed-in admin's Google access token + payload to the secure
+        // Cloud Sync Worker, which independently re-verifies the admin against the
+        // live authorized_users list before committing to GitHub. No GitHub secret
+        // ever touches the browser.
+        async function syncViaWorker(endpointPath, payload) {
+            const baseUrl = getWorkerBaseUrl();
+            if (!baseUrl || !googleAccessToken) return false;
+
+            try {
+                const res = await fetch(`${baseUrl}${endpointPath}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${googleAccessToken}`
+                    },
+                    body: JSON.stringify(payload)
+                });
+                if (res.ok) return true;
+
+                const errData = await res.json().catch(() => ({}));
+                console.warn('[!] Cloud Sync Worker Error:', errData);
+                if (res.status === 403) {
+                    alert(`Cloud Sync rejected: ${errData.error || 'Your Google session is not authorized for this action. Please sign in again.'}`);
+                }
+            } catch (e) {
+                console.warn('[!] Cloud Sync Worker unreachable:', e);
+            }
+            return false;
         }
 
         async function syncConfigToServer() {
@@ -1834,6 +1975,10 @@
                         break;
                     }
                 } catch(e) {}
+            }
+
+            if (!synced) {
+                synced = await syncViaWorker('/api/save-config', currentConfig);
             }
 
             if (!synced) {

@@ -12,3 +12,8 @@ __pycache__/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Cloudflare Worker (Cloud Sync) local dev artifacts
+cloudflare-worker/node_modules/
+cloudflare-worker/.wrangler/
+cloudflare-worker/.dev.vars
