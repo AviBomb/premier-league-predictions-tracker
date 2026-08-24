@@ -457,6 +457,14 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@ryanrupakheti6866": {
+      "7": {
+        "status": "approved",
+        "timestamp": "2026-08-24T16:11:45.151Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
