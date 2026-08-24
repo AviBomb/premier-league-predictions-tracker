@@ -7464,16 +7464,16 @@
         "author": "@octavdumitru",
         "channel_url": "http://www.youtube.com/@octavdumitru",
         "published_at": "2026-08-21T20:46:50Z",
-        "updated_at": "2026-08-24T19:52:18Z",
+        "updated_at": "2026-08-24T22:08:38Z",
         "submission_gmt": "2026-08-21 20:46:50 GMT",
-        "updated_gmt": "2026-08-24 19:52:18 GMT",
-        "edit_delta_str": "Edited 71h 5m after original post",
+        "updated_gmt": "2026-08-24 22:08:38 GMT",
+        "edit_delta_str": "Edited 73h 21m after original post",
         "lateness_str": "",
-        "timing_analysis": "Comment was edited on YouTube. Initially posted: 2026-08-21 20:46:50 GMT | Last edited: 2026-08-24 19:52:18 GMT (Edited 71h 5m after original post)",
+        "timing_analysis": "Comment was edited on YouTube. Initially posted: 2026-08-21 20:46:50 GMT | Last edited: 2026-08-24 22:08:38 GMT (Edited 73h 21m after original post)",
         "is_edited": true,
         "has_recorded_diff": true,
         "status": "Disqualified (Comment was Edited)",
-        "raw_text": "GW 1:\nArsenal - Coventry 3:0✅ \nHull - Man U 2:0✅ \nIpswich - Sunderland 1:3❌ \nEverton - Palace 0:0❌ \nForrest - Leeds 2:2❌ \nBrentford - Tottenham 1:2❌ \nMan City - Bournemouth 2:0🤏 \nBrighton - Villa 2:3❌ \nNewcastle - Liverpool 1:3❌ \nFulham - Chelsea 0:3",
+        "raw_text": "GW 1:\nArsenal - Coventry 3:0✅ \nHull - Man U 2:0✅ \nIpswich - Sunderland 1:3❌ \nEverton - Palace 0:0❌ \nForrest - Leeds 2:2❌ \nBrentford - Tottenham 1:2❌ \nMan City - Bournemouth 2:0🤏 \nBrighton - Villa 2:3❌ \nNewcastle - Liverpool 1:3❌ \nFulham - Chelsea 0:3🤏",
         "original_comment_text": "GW 1:\nArsenal - Coventry 3:0 (ongoing at the time of writing) \nHull - Man U 2:0\nIpswich - Sunderland 1:3\nEverton - Palace 0:0\nForrest - Leeds 2:2\nBrentford - Tottenham 1:2\nMan City - Bournemouth 2:0\nBrighton - Villa 2:3\nNewcastle - Liverpool 1:3\nFulham - Chelsea 0:3",
         "revisions": [
           {
@@ -7483,9 +7483,13 @@
           {
             "timestamp": "2026-08-23T15:22:48Z",
             "text": "GW 1:\nArsenal - Coventry 3:0✅ \nHull - Man U 2:0✅ \nIpswich - Sunderland 1:3❌ \nEverton - Palace 0:0❌ \nForrest - Leeds 2:2❌ \nBrentford - Tottenham 1:2❌ \nMan City - Bournemouth 2:0🤏 \nBrighton - Villa 2:3❌ \nNewcastle - Liverpool 1:3\nFulham - Chelsea 0:3"
+          },
+          {
+            "timestamp": "2026-08-24T19:52:18Z",
+            "text": "GW 1:\nArsenal - Coventry 3:0✅ \nHull - Man U 2:0✅ \nIpswich - Sunderland 1:3❌ \nEverton - Palace 0:0❌ \nForrest - Leeds 2:2❌ \nBrentford - Tottenham 1:2❌ \nMan City - Bournemouth 2:0🤏 \nBrighton - Villa 2:3❌ \nNewcastle - Liverpool 1:3❌ \nFulham - Chelsea 0:3"
           }
         ],
-        "diff_html": "<div class='diff-line' style='color:#ccc;'>GW 1:</div><div class='diff-line diff-del'>- Arsenal - Coventry 3:0 (ongoing at the time of writing) </div><div class='diff-line diff-del'>- Hull - Man U 2:0</div><div class='diff-line diff-del'>- Ipswich - Sunderland 1:3</div><div class='diff-line diff-del'>- Everton - Palace 0:0</div><div class='diff-line diff-del'>- Forrest - Leeds 2:2</div><div class='diff-line diff-del'>- Brentford - Tottenham 1:2</div><div class='diff-line diff-del'>- Man City - Bournemouth 2:0</div><div class='diff-line diff-del'>- Brighton - Villa 2:3</div><div class='diff-line diff-del'>- Newcastle - Liverpool 1:3</div><div class='diff-line diff-add'>+ Arsenal - Coventry 3:0✅ </div><div class='diff-line diff-add'>+ Hull - Man U 2:0✅ </div><div class='diff-line diff-add'>+ Ipswich - Sunderland 1:3❌ </div><div class='diff-line diff-add'>+ Everton - Palace 0:0❌ </div><div class='diff-line diff-add'>+ Forrest - Leeds 2:2❌ </div><div class='diff-line diff-add'>+ Brentford - Tottenham 1:2❌ </div><div class='diff-line diff-add'>+ Man City - Bournemouth 2:0🤏 </div><div class='diff-line diff-add'>+ Brighton - Villa 2:3❌ </div><div class='diff-line diff-add'>+ Newcastle - Liverpool 1:3❌ </div><div class='diff-line' style='color:#ccc;'>Fulham - Chelsea 0:3</div>",
+        "diff_html": "<div class='diff-line' style='color:#ccc;'>GW 1:</div><div class='diff-line diff-del'>- Arsenal - Coventry 3:0 (ongoing at the time of writing) </div><div class='diff-line diff-del'>- Hull - Man U 2:0</div><div class='diff-line diff-del'>- Ipswich - Sunderland 1:3</div><div class='diff-line diff-del'>- Everton - Palace 0:0</div><div class='diff-line diff-del'>- Forrest - Leeds 2:2</div><div class='diff-line diff-del'>- Brentford - Tottenham 1:2</div><div class='diff-line diff-del'>- Man City - Bournemouth 2:0</div><div class='diff-line diff-del'>- Brighton - Villa 2:3</div><div class='diff-line diff-del'>- Newcastle - Liverpool 1:3</div><div class='diff-line diff-del'>- Fulham - Chelsea 0:3</div><div class='diff-line diff-add'>+ Arsenal - Coventry 3:0✅ </div><div class='diff-line diff-add'>+ Hull - Man U 2:0✅ </div><div class='diff-line diff-add'>+ Ipswich - Sunderland 1:3❌ </div><div class='diff-line diff-add'>+ Everton - Palace 0:0❌ </div><div class='diff-line diff-add'>+ Forrest - Leeds 2:2❌ </div><div class='diff-line diff-add'>+ Brentford - Tottenham 1:2❌ </div><div class='diff-line diff-add'>+ Man City - Bournemouth 2:0🤏 </div><div class='diff-line diff-add'>+ Brighton - Villa 2:3❌ </div><div class='diff-line diff-add'>+ Newcastle - Liverpool 1:3❌ </div><div class='diff-line diff-add'>+ Fulham - Chelsea 0:3🤏</div>",
         "matches_found": 10,
         "valid_matches_count": 0,
         "late_matches_count": 0,
