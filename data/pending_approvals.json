@@ -816,7 +816,8 @@
     "pred_away": 1,
     "confidence": 96,
     "detected_teams": "Ipswich Town vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_Nissemannen4_6",

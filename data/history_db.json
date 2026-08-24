@@ -9039,12 +9039,12 @@
       "original_comment_text": "Arsenal vs Coventry City 3-0 \nHull City vs Manchester United 2-2\n Everton vs Crystal Palace 1-1\nlpswich Town vs Sunderland 2-1\n Nottingham Forest vs Leeds United 2-2\n Brentford vs Tottenham Hotspur 1-2\n Brighton & Hove Albion vs Aston Villa 2-1 \nManchester City vs Bournemouth 3-2 Newcastle United vs Liverpool 1-3 Fulham vs Chelsea 1-2",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 6,
-      "valid_matches_count": 5,
+      "matches_found": 7,
+      "valid_matches_count": 6,
       "late_matches_count": 1,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 1,
-      "total_points": 1,
+      "total_points": 4,
       "fixtures": {
         "Arsenal vs Coventry City": {
           "pred": "3-0",
@@ -9068,10 +9068,10 @@
           "is_late": false
         },
         "Ipswich Town vs Sunderland": {
-          "pred": "N/A",
+          "pred": "2-1",
           "actual": "2-1",
-          "points": 0,
-          "result": "No Prediction",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Nottingham Forest vs Leeds United": {
