@@ -34049,6 +34049,1364 @@
     }
   },
   "GW_2": {
+    "@TuckerTalked": {
+      "comment_id": "Ugz5Tl93qsOgcDWwKNJ4AaABAg",
+      "author": "@TuckerTalked",
+      "channel_url": "http://www.youtube.com/@TuckerTalked",
+      "published_at": "2026-08-28T19:38:12Z",
+      "updated_at": "2026-08-28T19:38:12Z",
+      "submission_gmt": "2026-08-28 19:38:12 GMT",
+      "updated_gmt": "2026-08-28 19:38:12 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:38:12 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "My week 2 predictions:\nCrystal Palace 1-3 Man City\nLiverpool 1-0 Forest\nBournemouth 2-2 Everton\nCoventry 3-2 Hull (shock game of the week prediction)\nSpurs 3-1 Newcastle\nChelsea 1-1 Brighton\nSunderland 2-0 Fulham\nMan United 1-0 Ipswich\nAston Villa 0-0 Arsenal\nLeeds 0-1 Brentford",
+      "original_comment_text": "My week 2 predictions:\nCrystal Palace 1-3 Man City\nLiverpool 1-0 Forest\nBournemouth 2-2 Everton\nCoventry 3-2 Hull (shock game of the week prediction)\nSpurs 3-1 Newcastle\nChelsea 1-1 Brighton\nSunderland 2-0 Fulham\nMan United 1-0 Ipswich\nAston Villa 0-0 Arsenal\nLeeds 0-1 Brentford",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-3",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@francisconobre19": {
+      "comment_id": "UgytDgpANsO3StjQl_V4AaABAg",
+      "author": "@francisconobre19",
+      "channel_url": "http://www.youtube.com/@francisconobre19",
+      "published_at": "2026-08-28T19:37:28Z",
+      "updated_at": "2026-08-28T19:37:28Z",
+      "submission_gmt": "2026-08-28 19:37:28 GMT",
+      "updated_gmt": "2026-08-28 19:37:28 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:37:28 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal Palace 0 Man City 2\nLiverpool 2 Nottingham 1\nBournemouth 0 Everton 1\nCoventry 2 Hull 2\nTottenham 2 Newcastle 3\nChelsea 1 Brighton 2\nSunderland 0 Fulham 0\nLeeds 1 Brentford 1\nMan United 2 Ipswich 1\nVilla 0 Arsenal 1",
+      "original_comment_text": "Crystal Palace 0 Man City 2\nLiverpool 2 Nottingham 1\nBournemouth 0 Everton 1\nCoventry 2 Hull 2\nTottenham 2 Newcastle 3\nChelsea 1 Brighton 2\nSunderland 0 Fulham 0\nLeeds 1 Brentford 1\nMan United 2 Ipswich 1\nVilla 0 Arsenal 1",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@_chabrlja": {
+      "comment_id": "UgxZR11Hu1K1eMmulUB4AaABAg",
+      "author": "@_chabrlja",
+      "channel_url": "http://www.youtube.com/@_chabrlja",
+      "published_at": "2026-08-28T19:35:21Z",
+      "updated_at": "2026-08-28T19:35:21Z",
+      "submission_gmt": "2026-08-28 19:35:21 GMT",
+      "updated_gmt": "2026-08-28 19:35:21 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:35:21 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal Palace 0 Man City 2\r\nLiverpool 3 Forest 1\r\nBournemouth 2 Everton 1\r\nCoventry 1 Hull 1\r\nSpurs 3 Newcastle 2 \r\nChelsea  2 Brighton 1\r\nSunderland 2 Fulham 1\r\nLeeds 2 Brentford 2\r\nMan U 2 Ipswich 0\r\nVilla 0 Arsenal 3",
+      "original_comment_text": "Crystal Palace 0 Man City 2\r\nLiverpool 3 Forest 1\r\nBournemouth 2 Everton 1\r\nCoventry 1 Hull 1\r\nSpurs 3 Newcastle 2 \r\nChelsea  2 Brighton 1\r\nSunderland 2 Fulham 1\r\nLeeds 2 Brentford 2\r\nMan U 2 Ipswich 0\r\nVilla 0 Arsenal 3",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@EddieMajola-j9g": {
+      "comment_id": "UgxAi2S28NwNawwYVr14AaABAg",
+      "author": "@EddieMajola-j9g",
+      "channel_url": "http://www.youtube.com/@EddieMajola-j9g",
+      "published_at": "2026-08-28T19:34:57Z",
+      "updated_at": "2026-08-28T19:34:57Z",
+      "submission_gmt": "2026-08-28 19:34:57 GMT",
+      "updated_gmt": "2026-08-28 19:34:57 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:34:57 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Palace 2 ManCity 1\nLiverpool 2: Forest 2\nBournemouth 1: Everton 2\nCoventry 0 Hull 1\nSpurs 3 Newcastle 0\nChelsea 3 Brighton 2\nLeeds 0 Brentford 2\nSunderland  0 - Fulham 2\nMan Utd 2- Ipswich 0\nVilla 4 Arsenal 1",
+      "original_comment_text": "Palace 2 ManCity 1\nLiverpool 2: Forest 2\nBournemouth 1: Everton 2\nCoventry 0 Hull 1\nSpurs 3 Newcastle 0\nChelsea 3 Brighton 2\nLeeds 0 Brentford 2\nSunderland  0 - Fulham 2\nMan Utd 2- Ipswich 0\nVilla 4 Arsenal 1",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "2-1",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "4-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@Theundertaker525": {
+      "comment_id": "UgzrcTr4ahXm7BHH70p4AaABAg",
+      "author": "@Theundertaker525",
+      "channel_url": "http://www.youtube.com/@Theundertaker525",
+      "published_at": "2026-08-28T19:33:29Z",
+      "updated_at": "2026-08-28T19:33:29Z",
+      "submission_gmt": "2026-08-28 19:33:29 GMT",
+      "updated_gmt": "2026-08-28 19:33:29 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:33:29 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal palace 0-3 man city \nLiverpool 2-1 forest \nBournemouth 1-1 Everton \nCoventry 1-3 hull\nTottenham 1-2 Newcastle \nChelsea 1-3 Brighton \nLeeds 1-1 Brentford \nSunderland 2-2 Fulham \nMan united 2-3 Ipswich \nAston villa 0-3 aresnal",
+      "original_comment_text": "Crystal palace 0-3 man city \nLiverpool 2-1 forest \nBournemouth 1-1 Everton \nCoventry 1-3 hull\nTottenham 1-2 Newcastle \nChelsea 1-3 Brighton \nLeeds 1-1 Brentford \nSunderland 2-2 Fulham \nMan united 2-3 Ipswich \nAston villa 0-3 aresnal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-3",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@younesabd5839": {
+      "comment_id": "UgyiFBlfYQnqjlA7MHV4AaABAg",
+      "author": "@younesabd5839",
+      "channel_url": "http://www.youtube.com/@younesabd5839",
+      "published_at": "2026-08-28T19:31:13Z",
+      "updated_at": "2026-08-28T19:31:13Z",
+      "submission_gmt": "2026-08-28 19:31:13 GMT",
+      "updated_gmt": "2026-08-28 19:31:13 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:31:13 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Man city 2-1 crystal palace\nLiverpool 1-1 forest \nBournmouth 0-0 everton\nCoventry 2-0 hull \nSpurs 3-2 newcastle\nChelsea 2-1 brighton\nLeeds 2-2 brentford\nSunderland 2-0 fulham\nMan united 3-1 ipswich\nAston villa 1-1 arsenal",
+      "original_comment_text": "Man city 2-1 crystal palace\nLiverpool 1-1 forest \nBournmouth 0-0 everton\nCoventry 2-0 hull \nSpurs 3-2 newcastle\nChelsea 2-1 brighton\nLeeds 2-2 brentford\nSunderland 2-0 fulham\nMan united 3-1 ipswich\nAston villa 1-1 arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 8,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@julienserbanescu1484": {
+      "comment_id": "UgxsMx_whU91w87SuKR4AaABAg",
+      "author": "@julienserbanescu1484",
+      "channel_url": "http://www.youtube.com/@julienserbanescu1484",
+      "published_at": "2026-08-28T19:30:31Z",
+      "updated_at": "2026-08-28T19:30:31Z",
+      "submission_gmt": "2026-08-28 19:30:31 GMT",
+      "updated_gmt": "2026-08-28 19:30:31 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:30:31 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Palace 0 City 2\r\nLiverpool 3 Forest 2\r\nBournemouth 2 Everton 1\r\nCoventry 1 Hull 1\r\nSpurs 2 Newcastle 2\r\nChelsea 3 Brighton 1\r\nMan Utd 1 Ipswich 2\r\nVilla 0 Arsenal 2",
+      "original_comment_text": "Palace 0 City 2\r\nLiverpool 3 Forest 2\r\nBournemouth 2 Everton 1\r\nCoventry 1 Hull 1\r\nSpurs 2 Newcastle 2\r\nChelsea 3 Brighton 1\r\nMan Utd 1 Ipswich 2\r\nVilla 0 Arsenal 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 8,
+      "valid_matches_count": 7,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@SilverCapybara94": {
+      "comment_id": "UgzV3Iq3xBAgBgw0cQJ4AaABAg",
+      "author": "@SilverCapybara94",
+      "channel_url": "http://www.youtube.com/@SilverCapybara94",
+      "published_at": "2026-08-28T19:28:53Z",
+      "updated_at": "2026-08-28T19:28:53Z",
+      "submission_gmt": "2026-08-28 19:28:53 GMT",
+      "updated_gmt": "2026-08-28 19:28:53 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:28:53 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Palace 1 - 1 Man City\nLiverpool 2 - 2 Nottingham Forest\nBournemouth 1 - 2 Everton\nCoventry 0 - 1 Hull\nSpurs 2 - 1 Newcastle\nChelsea 2 - 3 Brighton\nMan United 3 - 0 Ipswich\nAston Villa 1 - 2 Arsenal",
+      "original_comment_text": "Palace 1 - 1 Man City\nLiverpool 2 - 2 Nottingham Forest\nBournemouth 1 - 2 Everton\nCoventry 0 - 1 Hull\nSpurs 2 - 1 Newcastle\nChelsea 2 - 3 Brighton\nMan United 3 - 0 Ipswich\nAston Villa 1 - 2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 8,
+      "valid_matches_count": 7,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-1",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@hma4975": {
+      "comment_id": "UgzIC8_DKpl3tKqLs2p4AaABAg",
+      "author": "@hma4975",
+      "channel_url": "http://www.youtube.com/@hma4975",
+      "published_at": "2026-08-28T19:28:18Z",
+      "updated_at": "2026-08-28T19:28:18Z",
+      "submission_gmt": "2026-08-28 19:28:18 GMT",
+      "updated_gmt": "2026-08-28 19:28:18 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:28:18 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal Palace0-2Manchester City \nLiverpool 2-1 Nottingham forest \nAFC Bournemouth 1-1 Everton \nCoventry 0-1 hull city \nSpurs 1-3 Newcastle United \nChelsea 2 -0 Brighton \nLeeds 0-0 Brentford \nSunderland 1-1 Fulham \nManchester United 2-0 Ipswich Town \nAston Villa 1-3 Arsenal",
+      "original_comment_text": "Crystal Palace0-2Manchester City \nLiverpool 2-1 Nottingham forest \nAFC Bournemouth 1-1 Everton \nCoventry 0-1 hull city \nSpurs 1-3 Newcastle United \nChelsea 2 -0 Brighton \nLeeds 0-0 Brentford \nSunderland 1-1 Fulham \nManchester United 2-0 Ipswich Town \nAston Villa 1-3 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@mikhailurmich": {
+      "comment_id": "UgwqnjVWR2Rf3aHieP54AaABAg",
+      "author": "@mikhailurmich",
+      "channel_url": "http://www.youtube.com/@mikhailurmich",
+      "published_at": "2026-08-28T19:27:15Z",
+      "updated_at": "2026-08-28T19:27:15Z",
+      "submission_gmt": "2026-08-28 19:27:15 GMT",
+      "updated_gmt": "2026-08-28 19:27:15 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:27:15 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal Palace 0 Man City 4\nLiverpool 2 Forest 0\nBournemouth 1 Everton 1\nCoventry 1 Hull 0\nTottenham 1 Newcastle 2\nChelsea 2 Brighton 1\nLeeds 1 Brentford 0\nSunderland 1 Fulham 0\nMan United 0 Ipswich 1\nAston Villa 0 Arsenal 1",
+      "original_comment_text": "Crystal Palace 0 Man City 4\nLiverpool 2 Forest 0\nBournemouth 1 Everton 1\nCoventry 1 Hull 0\nTottenham 1 Newcastle 2\nChelsea 2 Brighton 1\nLeeds 1 Brentford 0\nSunderland 1 Fulham 0\nMan United 0 Ipswich 1\nAston Villa 0 Arsenal 1",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-4",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@briantran6145": {
+      "comment_id": "UgwW19NN8OfWT8p_F2V4AaABAg",
+      "author": "@briantran6145",
+      "channel_url": "http://www.youtube.com/@briantran6145",
+      "published_at": "2026-08-28T19:26:36Z",
+      "updated_at": "2026-08-28T19:26:36Z",
+      "submission_gmt": "2026-08-28 19:26:36 GMT",
+      "updated_gmt": "2026-08-28 19:26:36 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:26:36 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Palace 0-1 City\nLiverpool 2-1 Forest\nBournemouth 1-2 Everton\nCoventry 0-2 Hull\nSpurs 1-2 Newcastle\nChelsea 2-1 Brighton\nSunderland 1-1 Fulham\nLeeds 2-1 Brentford\nUnited 2-0 Ipswich\nVilla 0-2 Arsenal",
+      "original_comment_text": "Palace 0-1 City\nLiverpool 2-1 Forest\nBournemouth 1-2 Everton\nCoventry 0-2 Hull\nSpurs 1-2 Newcastle\nChelsea 2-1 Brighton\nSunderland 1-1 Fulham\nLeeds 2-1 Brentford\nUnited 2-0 Ipswich\nVilla 0-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-1",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@demetris8842": {
+      "comment_id": "Ugw1jcU6qzxn5wIemy14AaABAg",
+      "author": "@demetris8842",
+      "channel_url": "http://www.youtube.com/@demetris8842",
+      "published_at": "2026-08-28T19:23:29Z",
+      "updated_at": "2026-08-28T19:23:29Z",
+      "submission_gmt": "2026-08-28 19:23:29 GMT",
+      "updated_gmt": "2026-08-28 19:23:29 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:23:29 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Prem Predictions GW2\n\nCrystal Palace 0-2 Man City\r\nLiverpool 2-1 Forest\r\nCoventry 0-0 Hull\r\nBournemouth 1-0 Everton\r\nSpurs 2-2 Newcastle\r\nChelsea 1-1 Brighton\r\nLeeds 2-3 Brentford\r\nSunderland 1-0 Fulham\r\nMan United 2-1 Ipswich\r\nAston Villa 1-3 Arsenal",
+      "original_comment_text": "Prem Predictions GW2\n\nCrystal Palace 0-2 Man City\r\nLiverpool 2-1 Forest\r\nCoventry 0-0 Hull\r\nBournemouth 1-0 Everton\r\nSpurs 2-2 Newcastle\r\nChelsea 1-1 Brighton\r\nLeeds 2-3 Brentford\r\nSunderland 1-0 Fulham\r\nMan United 2-1 Ipswich\r\nAston Villa 1-3 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@leomccarron9133": {
+      "comment_id": "UgxmYaENQmAuvAJ59oR4AaABAg",
+      "author": "@leomccarron9133",
+      "channel_url": "http://www.youtube.com/@leomccarron9133",
+      "published_at": "2026-08-28T19:17:10Z",
+      "updated_at": "2026-08-28T19:17:10Z",
+      "submission_gmt": "2026-08-28 19:17:10 GMT",
+      "updated_gmt": "2026-08-28 19:17:10 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:17:10 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "ATM Man City and Palace are 0-0 11mins into the game so hopefully you\u2019ll forgive me. \n\nMan City 2 Crystal Palace 1\nLiverpool 2 Forest 2\nBournemouth 1 Everton 1\nCoventry 2 Hull 3\nTottenham 2 Newcastle 4\nChelsea 3 Brighton 2\nLeeds 2 Brentford 2\nSunderland 1 Fulham 2\nIpswich 2 Man United 2\nVilla 1 Arsenal 2",
+      "original_comment_text": "ATM Man City and Palace are 0-0 11mins into the game so hopefully you\u2019ll forgive me. \n\nMan City 2 Crystal Palace 1\nLiverpool 2 Forest 2\nBournemouth 1 Everton 1\nCoventry 2 Hull 3\nTottenham 2 Newcastle 4\nChelsea 3 Brighton 2\nLeeds 2 Brentford 2\nSunderland 1 Fulham 2\nIpswich 2 Man United 2\nVilla 1 Arsenal 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-4",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@xyytffhhhggddfgbv": {
+      "comment_id": "UgxDCvOWT2yJaHL7zr54AaABAg",
+      "author": "@xyytffhhhggddfgbv",
+      "channel_url": "http://www.youtube.com/@xyytffhhhggddfgbv",
+      "published_at": "2026-08-28T19:13:35Z",
+      "updated_at": "2026-08-28T19:13:35Z",
+      "submission_gmt": "2026-08-28 19:13:35 GMT",
+      "updated_gmt": "2026-08-28 19:13:35 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-28 19:13:35 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal 1 Man City 2\nLiverpool 2 Nottingham 1\nBournemouth 0 Everton 0\nCoventry 1 Hull 1\nSpurs 1 Newcastle 2\nChelsea 2 Brighton 1\nLeeds 0 Brentford 2\nSunderland 1 Fulham 1\nMan United 3 Ipswich 2\nAston Villa 0 Arsenal 2",
+      "original_comment_text": "Crystal 1 Man City 2\nLiverpool 2 Nottingham 1\nBournemouth 0 Everton 0\nCoventry 1 Hull 1\nSpurs 1 Newcastle 2\nChelsea 2 Brighton 1\nLeeds 0 Brentford 2\nSunderland 1 Fulham 1\nMan United 3 Ipswich 2\nAston Villa 0 Arsenal 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
     "@Nicknwjj": {
       "comment_id": "UgynbwomktyW7VJRyi14AaABAg",
       "author": "@Nicknwjj",
@@ -34076,7 +35434,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34173,7 +35531,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34270,7 +35628,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34367,7 +35725,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "7-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34464,7 +35822,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34561,7 +35919,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34658,7 +36016,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34755,7 +36113,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34852,7 +36210,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -34949,7 +36307,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -35046,7 +36404,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -35143,7 +36501,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -35240,7 +36598,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -35337,7 +36695,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -35429,14 +36787,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -35526,14 +36884,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -35628,7 +36986,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "3-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -35720,14 +37078,14 @@
       "valid_matches_count": 1,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -35822,7 +37180,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -35914,14 +37272,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36016,7 +37374,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -36108,14 +37466,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36205,14 +37563,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36301,15 +37659,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36404,7 +37762,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -36496,14 +37854,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36598,7 +37956,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -36690,14 +38048,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36787,14 +38145,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36884,14 +38242,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -36981,14 +38339,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37078,14 +38436,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37175,14 +38533,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37272,14 +38630,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37369,14 +38727,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37466,14 +38824,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37563,14 +38921,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37660,14 +39018,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37757,14 +39115,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37854,14 +39212,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -37951,14 +39309,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38053,7 +39411,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -38145,14 +39503,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38242,14 +39600,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38339,14 +39697,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38436,14 +39794,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38538,7 +39896,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -38630,14 +39988,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38727,14 +40085,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38824,14 +40182,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -38921,14 +40279,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39017,15 +40375,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39115,14 +40473,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39217,7 +40575,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -39309,14 +40667,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39406,14 +40764,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39503,14 +40861,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39600,14 +40958,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39697,14 +41055,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39794,14 +41152,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39891,14 +41249,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -39988,14 +41346,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -40085,14 +41443,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -40182,14 +41540,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -40279,14 +41637,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -40376,14 +41734,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -40473,14 +41831,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -40575,7 +41933,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -40672,7 +42030,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -40764,14 +42122,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -40866,7 +42224,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -40963,7 +42321,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -41055,14 +42413,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -41152,14 +42510,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -41249,14 +42607,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -41346,14 +42704,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -41443,14 +42801,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -41545,7 +42903,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -41637,14 +42995,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "3-3",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -41739,7 +43097,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -41830,15 +43188,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -41928,14 +43286,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42025,14 +43383,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42122,14 +43480,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42219,14 +43577,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42316,14 +43674,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42413,14 +43771,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42510,14 +43868,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42607,14 +43965,14 @@
       "valid_matches_count": 1,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42704,14 +44062,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42801,14 +44159,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42898,14 +44256,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -42995,14 +44353,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43092,14 +44450,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43189,14 +44547,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43286,14 +44644,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43383,14 +44741,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43480,14 +44838,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43582,7 +44940,7 @@
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -43674,14 +45032,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43771,14 +45129,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43868,14 +45226,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -43965,14 +45323,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44062,14 +45420,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44159,14 +45517,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44255,15 +45613,15 @@
       "matches_found": 8,
       "valid_matches_count": 8,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44353,14 +45711,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44450,14 +45808,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44547,14 +45905,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44644,14 +46002,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44741,14 +46099,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44838,14 +46196,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -44934,15 +46292,15 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45032,14 +46390,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45128,15 +46486,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45226,14 +46584,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45323,14 +46681,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45420,14 +46778,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45517,14 +46875,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45614,14 +46972,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45711,14 +47069,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45807,15 +47165,15 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -45905,14 +47263,14 @@
       "valid_matches_count": 1,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46002,14 +47360,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46099,14 +47457,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46196,14 +47554,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46293,14 +47651,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46390,14 +47748,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46487,14 +47845,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46583,15 +47941,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46681,14 +48039,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46778,14 +48136,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46875,14 +48233,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -46972,14 +48330,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47069,14 +48427,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47166,14 +48524,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47263,14 +48621,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47360,14 +48718,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47457,14 +48815,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47554,14 +48912,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47651,14 +49009,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47748,14 +49106,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47844,15 +49202,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 0,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -47942,14 +49300,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -48039,14 +49397,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
@@ -48136,14 +49494,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Nottingham Forest": {
