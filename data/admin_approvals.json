@@ -571,6 +571,14 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@thehamyton4700": {
+      "17": {
+        "status": "approved",
+        "timestamp": "2026-08-28T19:39:12.821Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   }
 }
