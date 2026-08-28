@@ -450,7 +450,7 @@ def generate_live_dashboard(
             <span class="mob-nav-icon">⚽</span>
             <span class="mob-nav-label">Matches</span>
         </button>
-        <button class="mobile-nav-item" id="mob-nav-gw" onclick="switchMainTab('gw_' + activeGameweekScope)">
+        <button class="mobile-nav-item" id="mob-nav-gw" onclick="switchMainTab('gw_' + LIVE_ACTIVE_GAMEWEEK)">
             <span class="mob-nav-icon">📋</span>
             <span class="mob-nav-label">GW Submissions</span>
         </button>
@@ -580,7 +580,8 @@ def generate_live_dashboard(
 
         const ALL_GAMEWEEKS = {all_gw_json};
         const rawLeaderboard = {leaderboard_json};
-        let activeGameweekScope = {active_gw};
+        const LIVE_ACTIVE_GAMEWEEK = {active_gw};
+        let currentViewingGw = {active_gw};
         let currentTab = 'leaderboard'; // 'leaderboard' or 'gw_1', etc.
         let currentDisplayMode = window.innerWidth <= 768 ? 'cards' : 'table';
         window.userManuallySetView = false;
@@ -622,11 +623,11 @@ def generate_live_dashboard(
             const gwKeys = Object.keys(ALL_GAMEWEEKS).sort((a, b) => parseInt(a) - parseInt(b));
             
             gwKeys.forEach(gwKey => {{
-                const gwNum = parseInt(gwKey);
+                const gwNum = parseInt(gwKey, 10);
                 const gwData = ALL_GAMEWEEKS[gwKey];
                 const predCount = (gwData.audited_records || []).length;
-                const isActive = (gwNum === activeGameweekScope);
-                const isPast = (gwNum < activeGameweekScope);
+                const isActive = (gwNum === LIVE_ACTIVE_GAMEWEEK);
+                const isPast = (gwNum < LIVE_ACTIVE_GAMEWEEK);
                 
                 const badgeHtml = isActive 
                     ? '<span style="background: rgba(0,255,135,0.2); color: #00ff87; border: 1px solid rgba(0,255,135,0.4); padding: 1px 6px; border-radius: 6px; font-size: 0.7rem; margin-left: 4px; font-weight: 800;">LIVE</span>'
@@ -678,10 +679,10 @@ def generate_live_dashboard(
                     document.getElementById('tab-btn-leaderboard')?.classList.add('active');
                     document.getElementById('gw-quick-select').value = 'leaderboard';
                 }} else {{
-                    const gwNum = tabKey.replace('gw_', '');
+                    const gwNum = parseInt(tabKey.replace('gw_', ''), 10);
                     document.getElementById(`tab-btn-gw-${{gwNum}}`)?.classList.add('active');
                     document.getElementById('gw-quick-select').value = tabKey;
-                    activeGameweekScope = parseInt(gwNum);
+                    currentViewingGw = gwNum;
                 }}
 
                 // Toggle table panels & filter inputs
@@ -691,14 +692,15 @@ def generate_live_dashboard(
                 document.getElementById('statusFilter').style.display = isLeaderboard ? 'none' : 'inline-block';
                 
                 if (isLeaderboard) {{
-                    document.getElementById('header-scope-badge').innerText = `Season Standings (GW 1–${{activeGameweekScope}})`;
+                    document.getElementById('header-scope-badge').innerText = `Season Standings (GW 1–${{LIVE_ACTIVE_GAMEWEEK}})`;
                     document.getElementById('table-view-heading').innerHTML = '🏆 Cumulative Season Standings';
-                    renderFixtures(activeGameweekScope);
+                    // ALWAYS show the live active gameweek's fixtures when on Cumulative Season Leaderboard
+                    renderFixtures(LIVE_ACTIVE_GAMEWEEK);
                     renderSeasonMetrics();
                 }} else {{
                     const gwNum = parseInt(currentTab.replace('gw_', ''), 10);
-                    const isGwActive = (gwNum === activeGameweekScope);
-                    const isGwPast = (gwNum < activeGameweekScope);
+                    const isGwActive = (gwNum === LIVE_ACTIVE_GAMEWEEK);
+                    const isGwPast = (gwNum < LIVE_ACTIVE_GAMEWEEK);
                     const scopeLabel = isGwActive ? `Gameweek ${{gwNum}} Live Hub (🔴 Active)` : (isGwPast ? `Gameweek ${{gwNum}} (🔒 Frozen & Completed)` : `Gameweek ${{gwNum}}`);
                     document.getElementById('header-scope-badge').innerText = scopeLabel;
                     document.getElementById('table-view-heading').innerHTML = `📋 Gameweek ${{gwNum}} Audited Submissions`;
@@ -1001,7 +1003,7 @@ def generate_live_dashboard(
         }}
 
         function openModal(commentId, gwNum) {{
-            const gwKey = String(gwNum || activeGameweekScope);
+            const gwKey = String(gwNum || currentViewingGw || LIVE_ACTIVE_GAMEWEEK);
             const gwData = ALL_GAMEWEEKS[gwKey] || {{ audited_records: [] }};
             const r = (gwData.audited_records || []).find(x => x.comment_id === commentId);
             if (!r) return;
