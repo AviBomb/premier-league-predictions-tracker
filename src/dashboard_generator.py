@@ -84,7 +84,14 @@ def generate_live_dashboard(
         .fix-score {{ font-family: 'JetBrains Mono', monospace; font-size: 1.15rem; color: var(--pl-green); font-weight: 900; }}
         .fix-score-pending {{ font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; color: var(--pl-gold); font-weight: 700; }}
         .fix-status-ft {{ background: rgba(0, 255, 135, 0.15); color: var(--pl-green); padding: 2px 8px; border-radius: 6px; font-size: 0.72rem; font-weight: 800; }}
+        .fix-status-live {{ background: rgba(255, 0, 90, 0.2); color: #ff3366; padding: 2px 8px; border-radius: 6px; font-size: 0.72rem; font-weight: 800; border: 1px solid rgba(255, 0, 90, 0.4); display: inline-flex; align-items: center; gap: 5px; }}
         .fix-status-upcoming {{ background: rgba(255, 184, 0, 0.15); color: var(--pl-gold); padding: 2px 8px; border-radius: 6px; font-size: 0.72rem; font-weight: 800; border: 1px solid rgba(255, 184, 0, 0.3); }}
+        .live-dot {{ width: 6px; height: 6px; border-radius: 50%; background: #ff3366; display: inline-block; animation: pulseLive 1.5s infinite; }}
+        @keyframes pulseLive {{
+            0% {{ opacity: 1; transform: scale(1); }}
+            50% {{ opacity: 0.3; transform: scale(1.3); }}
+            100% {{ opacity: 1; transform: scale(1); }}
+        }}
 
         /* Top Metric Cards */
         .stats-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 26px; }}
@@ -737,11 +744,24 @@ def generate_live_dashboard(
                 const awayGoalsStr = formatGoalsJS(f.away_goals, f.away_goals_summary);
                 const hasScorers = homeGoalsStr || awayGoalsStr;
 
+                const isFinished = f.finished || f.status === 'FT';
+                const isOngoing = !isFinished && (f.status === 'ONGOING' || f.started || hasScore);
+
+                let statusBadgeHtml = '';
+                if (isFinished) {{
+                    statusBadgeHtml = '<span class="fix-status-ft">FT</span>';
+                }} else if (isOngoing) {{
+                    const clockTxt = f.clock ? `ONGOING ${{f.clock}}` : 'ONGOING';
+                    statusBadgeHtml = `<span class="fix-status-live"><span class="live-dot"></span>${{clockTxt}}</span>`;
+                }} else {{
+                    statusBadgeHtml = '<span class="fix-status-upcoming">UPCOMING</span>';
+                }}
+
                 return `
                     <div class="fixture-card">
                         <div class="fix-header">
                             <span>${{timeStr}}</span>
-                            <span class="${{hasScore ? 'fix-status-ft' : 'fix-status-upcoming'}}">${{hasScore ? 'FT' : 'UPCOMING'}}</span>
+                            ${{statusBadgeHtml}}
                         </div>
                         <div class="fix-team-row">
                             <span class="fix-team-name">

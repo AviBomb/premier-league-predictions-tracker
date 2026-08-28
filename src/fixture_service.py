@@ -182,6 +182,21 @@ def fetch_pulse_match_goals_map(gw_number: int) -> Dict[Tuple[str, str], Dict[st
             with urllib.request.urlopen(req3, timeout=6, context=ctx) as resp3:
                 data = json.loads(resp3.read().decode("utf-8"))
                 
+            h_score_raw = None
+            a_score_raw = None
+            if data.get("teams") and len(data.get("teams")) >= 2:
+                h_score_raw = data.get("teams")[0].get("score")
+                a_score_raw = data.get("teams")[1].get("score")
+            if h_score_raw is None and pf.get("teams") and len(pf.get("teams")) >= 2:
+                h_score_raw = pf.get("teams")[0].get("score")
+                a_score_raw = pf.get("teams")[1].get("score")
+
+            status_code = data.get("status") or pf.get("status")  # 'C', 'L', 'U'
+            clock_obj = data.get("clock") or pf.get("clock") or {}
+            clock_label = clock_obj.get("label", "")
+            if clock_label.endswith("'00"):
+                clock_label = clock_label[:-3] + "'"
+
             players = {}
             for tl in data.get("teamLists") or []:
                 if not tl:
@@ -236,7 +251,17 @@ def fetch_pulse_match_goals_map(gw_number: int) -> Dict[Tuple[str, str], Dict[st
                     away_goals_list.append(goal_obj)
                     away_summary_parts.append(summary_str)
 
+            # If score was not explicitly given, derive from total mapped goals
+            if h_score_raw is None and len(home_goals_list) > 0:
+                h_score_raw = len(home_goals_list)
+            if a_score_raw is None and len(away_goals_list) > 0:
+                a_score_raw = len(away_goals_list)
+
             pulse_map[norm_key] = {
+                "home_score": int(h_score_raw) if h_score_raw is not None else None,
+                "away_score": int(a_score_raw) if a_score_raw is not None else None,
+                "status_code": status_code,
+                "clock": clock_label,
                 "home_goals": home_goals_list,
                 "away_goals": away_goals_list,
                 "home_goals_summary": ", ".join(home_summary_parts),
@@ -398,12 +423,47 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
                             key = (normalize_team_key(f["home"]), normalize_team_key(f["away"]))
                             if key in pulse_map:
                                 pdata = pulse_map[key]
-                                if pdata.get("home_goals_summary"):
+                                if pdata.get("home_goals_summary") or pdata.get("home_goals"):
                                     f["home_goals"] = pdata["home_goals"]
                                     f["home_goals_summary"] = pdata["home_goals_summary"]
-                                if pdata.get("away_goals_summary"):
+                                if pdata.get("away_goals_summary") or pdata.get("away_goals"):
                                     f["away_goals"] = pdata["away_goals"]
                                     f["away_goals_summary"] = pdata["away_goals_summary"]
+
+                                # Synchronize real-time scores directly from Pulse API
+                                p_h_score = pdata.get("home_score")
+                                p_a_score = pdata.get("away_score")
+                                if p_h_score is not None and p_a_score is not None:
+                                    f["home_act"] = p_h_score
+                                    f["away_act"] = p_a_score
+                                elif len(f.get("home_goals", [])) > 0 or len(f.get("away_goals", [])) > 0:
+                                    if f["home_act"] is None or len(f.get("home_goals", [])) > f["home_act"]:
+                                        f["home_act"] = len(f.get("home_goals", []))
+                                    if f["away_act"] is None or len(f.get("away_goals", [])) > f["away_act"]:
+                                        f["away_act"] = len(f.get("away_goals", []))
+
+                                p_status = pdata.get("status_code")
+                                if p_status == "C":
+                                    f["finished"] = True
+                                    f["started"] = True
+                                    f["status"] = "FT"
+                                elif p_status == "L":
+                                    f["finished"] = False
+                                    f["started"] = True
+                                    f["status"] = "ONGOING"
+                                    f["clock"] = pdata.get("clock") or "LIVE"
+                                elif p_status == "U":
+                                    f["finished"] = False
+                                    f["started"] = False
+                                    f["status"] = "UPCOMING"
+
+                            if not f.get("status"):
+                                if f.get("finished"):
+                                    f["status"] = "FT"
+                                elif f.get("started") or (f.get("home_act") is not None and f.get("away_act") is not None):
+                                    f["status"] = "ONGOING"
+                                else:
+                                    f["status"] = "UPCOMING"
 
                         # Sort fixtures by kickoff time
                         fixtures.sort(key=lambda x: x.get("kickoff", ""))
@@ -416,6 +476,7 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
     if gw_number in SEASON_2026_2027_FIXTURES:
         print(f"[*] Loaded Official 2026-2027 Season schedule for Gameweek {gw_number} ({len(SEASON_2026_2027_FIXTURES[gw_number])} fixtures in GMT/UTC).")
         fallback_list = []
+        pulse_map = fetch_pulse_match_goals_map(gw_number)
         for f in SEASON_2026_2027_FIXTURES[gw_number]:
             item = dict(f)
             item["home_logo"] = get_team_logo(item["home"])
@@ -424,6 +485,51 @@ def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[D
             item.setdefault("away_goals", [])
             item.setdefault("home_goals_summary", "")
             item.setdefault("away_goals_summary", "")
+
+            key = (normalize_team_key(item["home"]), normalize_team_key(item["away"]))
+            if key in pulse_map:
+                pdata = pulse_map[key]
+                if pdata.get("home_goals_summary") or pdata.get("home_goals"):
+                    item["home_goals"] = pdata["home_goals"]
+                    item["home_goals_summary"] = pdata["home_goals_summary"]
+                if pdata.get("away_goals_summary") or pdata.get("away_goals"):
+                    item["away_goals"] = pdata["away_goals"]
+                    item["away_goals_summary"] = pdata["away_goals_summary"]
+
+                p_h_score = pdata.get("home_score")
+                p_a_score = pdata.get("away_score")
+                if p_h_score is not None and p_a_score is not None:
+                    item["home_act"] = p_h_score
+                    item["away_act"] = p_a_score
+                elif len(item.get("home_goals", [])) > 0 or len(item.get("away_goals", [])) > 0:
+                    if item.get("home_act") is None or len(item.get("home_goals", [])) > item.get("home_act", 0):
+                        item["home_act"] = len(item.get("home_goals", []))
+                    if item.get("away_act") is None or len(item.get("away_goals", [])) > item.get("away_act", 0):
+                        item["away_act"] = len(item.get("away_goals", []))
+
+                p_status = pdata.get("status_code")
+                if p_status == "C":
+                    item["finished"] = True
+                    item["started"] = True
+                    item["status"] = "FT"
+                elif p_status == "L":
+                    item["finished"] = False
+                    item["started"] = True
+                    item["status"] = "ONGOING"
+                    item["clock"] = pdata.get("clock") or "LIVE"
+                elif p_status == "U":
+                    item["finished"] = False
+                    item["started"] = False
+                    item["status"] = "UPCOMING"
+
+            if not item.get("status"):
+                if item.get("finished"):
+                    item["status"] = "FT"
+                elif item.get("started") or (item.get("home_act") is not None and item.get("away_act") is not None):
+                    item["status"] = "ONGOING"
+                else:
+                    item["status"] = "UPCOMING"
+
             fallback_list.append(item)
         return fallback_list
 
