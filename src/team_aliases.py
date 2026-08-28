@@ -15,16 +15,16 @@ BASE_TEAM_ALIASES: Dict[str, List[str]] = {
         "arsenal", "ars", "gunners", "gooners", "the gunners", "arsenal fc", "aresnal", "arc", "afc"
     ],
     "Aston Villa": [
-        "aston villa", "villa", "avl", "aston v", "avfc", "villans", "the villans", "aston vill", "astnvilla"
+        "aston villa", "villa", "avl", "aston v", "aston v.", "avfc", "villans", "the villans", "aston vill", "astnvilla", "a. villa", "a villa"
     ],
     "AFC Bournemouth": [
-        "afc bournemouth", "bournemouth", "bou", "cherries", "afcb", "the cherries", "bouremouth", "bournemonth", "bourmouth", "bmouth", "bmth", "bourn"
+        "b'mouth", "b’mouth", "afc bournemouth", "bournemouth", "bou", "cherries", "afcb", "the cherries", "bouremouth", "bournemonth", "bourmouth", "bmouth", "bmth", "bourn", "a.f.c. bournemouth", "afc bmouth"
     ],
     "Brentford": [
         "brentford", "bre", "bees", "brentford fc", "the bees", "brent", "brenford"
     ],
     "Brighton & Hove Albion": [
-        "brighton & hove albion", "brighton and hove albion", "brighton", "bha", "bhafc", "seagulls", "the seagulls", "albion", "bright", "brightn"
+        "brighton & hove albion", "brighton and hove albion", "brighton & hove", "brighton and hove", "brighton hove", "brighton", "bha", "bhafc", "seagulls", "the seagulls", "albion", "bright", "brightn"
     ],
     "Chelsea": [
         "chelsea", "che", "blues", "the blues", "cfc", "chelsea fc", "chelsa", "chelski"
@@ -33,7 +33,7 @@ BASE_TEAM_ALIASES: Dict[str, List[str]] = {
         "coventry city", "coventry", "cov", "ccfc", "sky blues", "the sky blues", "cov city", "covntry", "coventrycty"
     ],
     "Crystal Palace": [
-        "crystal palace", "palace", "cry", "cpfc", "eagles", "the eagles", "crystal p", "cystal palace", "pallace", "crystal"
+        "crystal palace", "palace", "cry", "cpfc", "eagles", "the eagles", "crystal p", "crystal p.", "c palace", "c. palace", "cystal palace", "pallace", "crystal"
     ],
     "Everton": [
         "everton", "eve", "toffees", "the toffees", "efc", "everton fc", "evrton", "evertn"
@@ -45,31 +45,31 @@ BASE_TEAM_ALIASES: Dict[str, List[str]] = {
         "hull city", "hull", "hul", "tigers", "the tigers", "hcfc", "hull city tigers", "hullcity"
     ],
     "Ipswich Town": [
-        "ipswich town", "ipswich", "ips", "tractor boys", "the tractor boys", "itfc", "ipswich t", "ipsw", "ipswich tn", "ipswitch", "ipswch"
+        "ipswich town", "ipswich", "ips", "tractor boys", "the tractor boys", "itfc", "ipswich t", "ipswich t.", "ipsw", "ipswich tn", "ipswitch", "ipswch"
     ],
     "Leeds United": [
-        "leeds united", "leeds", "lee", "lufc", "whites", "the whites", "peacocks", "leed", "leeds utd"
+        "leeds united", "leeds", "lee", "lufc", "whites", "the whites", "peacocks", "leed", "leeds utd", "leeds utd."
     ],
     "Liverpool": [
         "liverpool", "liv", "reds", "the reds", "lfc", "liverpool fc", "pool", "livrpool", "liverpl"
     ],
     "Manchester City": [
-        "manchester city", "man city", "mci", "mcfc", "citizens", "manchester c", "man c", "mancity", "m. city", "city", "mn city"
+        "manchester city", "man city", "man city.", "man c", "man c.", "mci", "mcfc", "citizens", "manchester c", "manchester c.", "mancity", "m. city", "m.city", "city", "mn city", "manc"
     ],
     "Manchester United": [
-        "manchester united", "man united", "man utd", "mun", "mufc", "red devils", "manchester u", "manutd", "m. united", "man u", "united", "yanited", "mn utd"
+        "manchester united", "man united", "man utd", "man utd.", "man u", "man u.", "mun", "mufc", "red devils", "manchester u", "manchester u.", "manutd", "m. united", "m.utd", "m. utd", "m.united", "united", "yanited", "mn utd", "manu"
     ],
     "Newcastle United": [
-        "newcastle united", "newcastle", "new", "nufc", "magpies", "the toon", "toon", "new castle", "newcaslte", "newc utd"
+        "newcastle united", "newcastle", "new", "nufc", "magpies", "the toon", "toon", "new castle", "newcaslte", "newc utd", "newc utd."
     ],
     "Nottingham Forest": [
-        "nottingham forest", "forest", "nfo", "nottm forest", "nffc", "nottingham", "tricky trees", "forrest", "nott forest", "n forest", "notts forest"
+        "nottingham forest", "nott'm forest", "nott’m forest", "nott'm", "nott’m", "nottm forest", "nottm", "forest", "nfo", "nffc", "nottingham", "tricky trees", "forrest", "nott forest", "n forest", "notts forest"
     ],
     "Sunderland": [
         "sunderland", "sun", "safc", "black cats", "the black cats", "sundrland", "sunderlnd"
     ],
     "Tottenham Hotspur": [
-        "tottenham hotspur", "tottenham", "spurs", "tot", "thfc", "lilywhites", "the lilywhites", "spur", "hotspur", "totenham"
+        "tottenham hotspur", "tottenham", "tottenham h", "tottenham h.", "spurs", "spurs fc", "tot", "thfc", "lilywhites", "the lilywhites", "spur", "hotspur", "totenham"
     ]
 }
 
@@ -106,11 +106,15 @@ ALIAS_LOOKUP, SORTED_ALIASES = build_alias_lookup()
 
 def parse_team(raw_text: str) -> Optional[str]:
     """Matches raw substring against canonical team names."""
+    if not isinstance(raw_text, str) or not raw_text.strip():
+        return None
     clean = raw_text.strip().lower()
+    clean = clean.replace("’", "'").replace("‘", "'")
     if clean in ALIAS_LOOKUP:
         return ALIAS_LOOKUP[clean]
     for alias in SORTED_ALIASES:
-        pattern = r'\b' + re.escape(alias) + r'\b'
+        # Handle word boundaries safely even with punctuation like apostrophe or dot
+        pattern = r'(?:^|\b|\s)' + re.escape(alias) + r'(?:\b|\s|$)'
         if re.search(pattern, clean):
             return ALIAS_LOOKUP[alias]
     return None

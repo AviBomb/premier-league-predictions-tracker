@@ -116,12 +116,14 @@ def process_gameweek_data(
     gw_num: int,
     use_live_api: bool,
     admin_approvals: Dict[str, Any],
-    is_active_gw: bool = True
+    is_active_gw: bool = True,
+    force_reprocess: bool = False
 ) -> Tuple[List[Dict[str, Any]], Dict[str, Any], List[Dict[str, Any]], List[Dict[str, Any]]]:
     """
     Processes scraping, fixtures, and prediction scoring for a given gameweek number.
-    - If is_active_gw is False (past completed gameweek) and cached results exist,
+    - If is_active_gw is False (past completed gameweek), cached results exist, and not force_reprocess,
       freezes and locks the gameweek (skips YouTube scraping and live re-scoring).
+    - If force_reprocess is True, re-audits the saved comment file with the latest parser logic (0 YouTube API used).
     - If is_active_gw is True (current live gameweek), actively scrapes YouTube comments,
       queries live Premier League API fixtures, audits predictions, and generates active queue.
     """
@@ -139,7 +141,7 @@ def process_gameweek_data(
     gw_history_entry = history_db.get(f"GW_{gw_num}")
 
     # 1. Historical Gameweek Freezing Check (gw < active_gw)
-    if not is_active_gw and gw_cache_entry and gw_history_entry:
+    if not is_active_gw and not force_reprocess and gw_cache_entry and gw_history_entry:
         cached_records = gw_cache_entry.get("audited_records", [])
         cached_fixtures = gw_cache_entry.get("fixtures", [])
         if cached_records and cached_fixtures:
@@ -175,7 +177,7 @@ def process_gameweek_data(
         except Exception:
             pass
 
-    # 3. Comments Scraping
+    # 3. Comments Loading / Scraping
     comments = []
     gw_fallback_file = f"data/sample_comments_gw{gw_num}.csv" if gw_num > 1 else LOCAL_DATA_FALLBACK
 
@@ -205,7 +207,7 @@ def process_gameweek_data(
     if not comments:
         return [], {}, [], fixtures
 
-    # 4. Prediction Auditing & Scoring
+    # 4. Prediction Auditing & Scoring with Enhanced Parser
     audited_records, valid_entries, fuzzy_candidates = audit_and_score_gameweek(
         comments, fixtures, gw_num, admin_approvals=admin_approvals
     )
@@ -217,7 +219,7 @@ def process_gameweek_data(
     return audited_records, valid_entries, fuzzy_candidates, fixtures
 
 
-def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
+def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None, force_reprocess_all: bool = True):
     print("=" * 88)
     print("  PREMIER LEAGUE PREDICTIONS TRACKER & LIVE SCORING ENGINE (2026-2027)")
     print("=" * 88)
@@ -243,7 +245,8 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
             gw_num=gw,
             use_live_api=use_live_api if is_active else False,
             admin_approvals=admin_approvals,
-            is_active_gw=is_active
+            is_active_gw=is_active,
+            force_reprocess=force_reprocess_all
         )
         if audited or fixtures:
             all_gw_data[str(gw)] = {
@@ -288,6 +291,8 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
         avail_cols = [c for c in preview_cols if c in df_leaderboard.columns]
         print(df_leaderboard[avail_cols].head(10).to_string(index=False))
     print("=" * 88)
+    print(f"\n[+] Public Dashboard Ready : file:///{os.path.abspath(dashboard_path).replace(os.sep, '/')}")
+    print(f"[+] Admin Control Portal   : file:///{os.path.abspath('admin.html').replace(os.sep, '/')}")
     print(f"\n[+] Public Dashboard Ready : file:///{os.path.abspath(dashboard_path).replace(os.sep, '/')}")
     print(f"[+] Admin Control Portal   : file:///{os.path.abspath('admin.html').replace(os.sep, '/')}")
     print(f"\n[+] Public Dashboard Ready : file:///{os.path.abspath(dashboard_path).replace(os.sep, '/')}")

@@ -16,26 +16,26 @@ ALL_CLUBS = [
 ]
 
 CLUB_VARIANTS = {
-    "Arsenal": ["arsenal", "arsnl", "arsnal", "gunners", "afc", "ars"],
-    "Aston Villa": ["aston villa", "villa", "aston", "avfc", "vilians", "astnvilla"],
-    "AFC Bournemouth": ["bournemouth", "bmouth", "bournmouth", "cherries", "afcb", "bmth", "bourn"],
+    "Arsenal": ["arsenal", "arsnl", "arsnal", "gunners", "afc", "ars", "aresnal", "arc"],
+    "Aston Villa": ["aston villa", "villa", "aston", "avfc", "vilians", "astnvilla", "aston v", "a villa"],
+    "AFC Bournemouth": ["bournemouth", "bmouth", "bournmouth", "b'mouth", "b’mouth", "cherries", "afcb", "bmth", "bourn", "bouremouth", "afc bmouth"],
     "Brentford": ["brentford", "brentfrd", "bees", "brent", "brenford"],
-    "Brighton & Hove Albion": ["brighton", "brightn", "seagulls", "bha", "brighton & hove", "bright"],
+    "Brighton & Hove Albion": ["brighton", "brightn", "seagulls", "bha", "brighton & hove", "brighton and hove", "bright", "bhafc"],
     "Chelsea": ["chelsea", "chelsa", "chelski", "blues", "cfc", "chels"],
-    "Coventry City": ["coventry", "coventry city", "cov", "covntry", "sky blues", "coventrycty"],
-    "Crystal Palace": ["crystal palace", "palace", "cpfc", "eagles", "crystal", "crystl palace"],
+    "Coventry City": ["coventry", "coventry city", "cov", "covntry", "sky blues", "coventrycty", "ccfc"],
+    "Crystal Palace": ["crystal palace", "palace", "cpfc", "eagles", "crystal", "crystl palace", "c palace", "crystal p"],
     "Everton": ["everton", "evrton", "toffees", "efc", "evertn", "evrtn"],
-    "Fulham": ["fulham", "fulhm", "cottagers", "ffc", "fulm"],
-    "Hull City": ["hull", "hull city", "tigers", "hullcity", "hullcty"],
-    "Ipswich Town": ["ipswich", "ipswich town", "tractor boys", "itfc", "ipswch", "ipsw", "ipswich tn"],
+    "Fulham": ["fulham", "fulhm", "cottagers", "ffc", "fulm", "fullham"],
+    "Hull City": ["hull", "hull city", "tigers", "hullcity", "hullcty", "hcfc"],
+    "Ipswich Town": ["ipswich", "ipswich town", "tractor boys", "itfc", "ipswch", "ipsw", "ipswich tn", "ipswitch"],
     "Leeds United": ["leeds", "leeds united", "lufc", "peacocks", "leed", "leeds utd"],
     "Liverpool": ["liverpool", "lfc", "reds", "liv", "liverpl", "pool", "livrpool"],
-    "Manchester City": ["man city", "manchester city", "city", "mcfc", "citizens", "mancity", "mn city"],
-    "Manchester United": ["man utd", "manchester united", "united", "mufc", "red devils", "manutd", "man u", "mn utd"],
+    "Manchester City": ["man city", "manchester city", "city", "mcfc", "citizens", "mancity", "mn city", "man c", "manc"],
+    "Manchester United": ["man utd", "manchester united", "united", "mufc", "red devils", "manutd", "man u", "mn utd", "manu"],
     "Newcastle United": ["newcastle", "newcastle united", "nufc", "magpies", "newcstle", "toon", "newc utd"],
-    "Nottingham Forest": ["nottingham forest", "forest", "nffc", "notts forest", "nottm forest", "forrest", "nott forest"],
+    "Nottingham Forest": ["nottingham forest", "forest", "nffc", "notts forest", "nottm forest", "forrest", "nott forest", "nott'm forest", "nottm", "nott'm"],
     "Sunderland": ["sunderland", "safc", "black cats", "sundrland", "sunderlnd", "sundland"],
-    "Tottenham Hotspur": ["tottenham", "spurs", "tottenham hotspur", "thfc", "totenham", "hotspur", "totnham"]
+    "Tottenham Hotspur": ["tottenham", "spurs", "tottenham hotspur", "thfc", "totenham", "hotspur", "totnham", "spurs fc"]
 }
 
 # Blacklist of conversational non-prediction phrases
@@ -105,17 +105,21 @@ def detect_fuzzy_prediction_candidates(
 ) -> List[Dict[str, Any]]:
     """
     Scans lines that failed exact regex parsing and identifies strictly legitimate >= 75% candidates.
-    Rejects conversational noise lines (e.g. 'Missed these').
+    Rejects conversational noise lines (e.g. 'Missed these'). Supports multiple fuzzy predictions per line.
     """
     if not isinstance(comment_text, str) or not comment_text.strip():
         return []
 
-    lines = re.split(r'[\r\n;]+', comment_text)
+    # Normalize punctuation
+    normalized_text = comment_text.replace("’", "'").replace("‘", "'").replace("`", "'")
+    normalized_text = normalized_text.replace("–", "-").replace("—", "-").replace("−", "-")
+
+    lines = re.split(r'[\r\n;]+', normalized_text)
     candidates = []
     seen_fixture_keys = set(existing_exact_pairs)
 
     # Tight score pattern: must have explicit separator e.g. 2-1, 2:1, 2 - 1, 2 to 1, 2v1
-    score_regex = re.compile(r'(\b\d{1,2}\b)\s*(?:[\-\:\–\—\/]|to|v|\-)\s*(\b\d{1,2}\b)', re.IGNORECASE)
+    score_regex = re.compile(r'(\b\d{1,2}\b)\s*(?:[\-\:\/]|to|v|\-)\s*(\b\d{1,2}\b)', re.IGNORECASE)
 
     for line in lines:
         line_clean = line.strip()
@@ -131,79 +135,83 @@ def detect_fuzzy_prediction_candidates(
         if is_noise:
             continue
 
-        score_match = score_regex.search(line_clean)
-        if not score_match:
+        score_matches = list(score_regex.finditer(line_clean))
+        if not score_matches:
             continue
 
-        s1 = int(score_match.group(1))
-        s2 = int(score_match.group(2))
-        
-        # Valid football score range: 0 to 15
-        if s1 > 15 or s2 > 15:
-            continue
+        for i, score_match in enumerate(score_matches):
+            s1 = int(score_match.group(1))
+            s2 = int(score_match.group(2))
 
-        start_idx, end_idx = score_match.span()
-        left_text = line_clean[:start_idx].strip()
-        right_text = line_clean[end_idx:].strip()
-
-        # Clean noise prefixes from left text e.g. "Missed these - Arsenal"
-        for np in NOISE_PATTERNS:
-            left_text = re.sub(np, "", left_text, flags=re.IGNORECASE).strip(" :-–—")
-
-        team1, conf1 = match_team_fuzzy(left_text)
-        team2, conf2 = match_team_fuzzy(right_text)
-
-        # If right text was empty or didn't match, check if left text had both teams e.g. "Arsnl vs Cov 3-0"
-        if not team2 or conf2 < 0.75:
-            tokens = re.split(r'\s+(?:vs\.?|v\.?|-|against)\s+', left_text, flags=re.IGNORECASE)
-            if len(tokens) == 2:
-                team1, conf1 = match_team_fuzzy(tokens[0])
-                team2, conf2 = match_team_fuzzy(tokens[1])
-
-        # Strict Requirement: Both teams must match canonical clubs with >= 0.75 individual confidence
-        if not team1 or not team2 or team1 == team2 or conf1 < 0.75 or conf2 < 0.75:
-            continue
-
-        avg_conf = (conf1 + conf2) / 2.0
-        conf_pct = int(round(avg_conf * 100))
-
-        for f in fixtures:
-            h, a = f["home"], f["away"]
-            fix_id = f["id"]
-            pair_key = (h, a)
-
-            if pair_key in seen_fixture_keys:
+            # Valid football score range: 0 to 15
+            if s1 > 15 or s2 > 15:
                 continue
 
-            if (team1 == h and team2 == a) or (team1 == a and team2 == h):
-                if team1 == h and team2 == a:
-                    pred_h, pred_a = s1, s2
-                else:
-                    pred_h, pred_a = s2, s1
+            start_idx, end_idx = score_match.span()
+            # Context boundaries bounded by adjacent score matches or line ends
+            prev_bound = score_matches[i - 1].end() if i > 0 else 0
+            next_bound = score_matches[i + 1].start() if i + 1 < len(score_matches) else len(line_clean)
 
-                if conf_pct >= 75:
-                    cand_id = f"cand_gw{gw_number}_{re.sub(r'[^a-zA-Z0-9]', '', author)}_{fix_id}"
-                    candidate_obj = {
-                        "id": cand_id,
-                        "gameweek": gw_number,
-                        "author": author,
-                        "comment_id": comment_id,
-                        "published_at": published_at,
-                        "raw_line": line_clean,
-                        "full_comment": comment_text.strip(),
-                        "other_predictions": existing_exact_preds,
-                        "fixture_id": fix_id,
-                        "home_team": h,
-                        "away_team": a,
-                        "pred_home": pred_h,
-                        "pred_away": pred_a,
-                        "confidence": conf_pct,
-                        "detected_teams": f"{team1} vs {team2}",
-                        "gameweek": gw_number,
-                        "status": "pending"
-                    }
-                    candidates.append(candidate_obj)
-                    seen_fixture_keys.add(pair_key)
-                break
+            left_text = line_clean[prev_bound:start_idx].strip(" ,;|.")
+            right_text = line_clean[end_idx:next_bound].strip(" ,;|.")
+
+            # Clean noise prefixes from left text e.g. "Missed these - Arsenal"
+            for np in NOISE_PATTERNS:
+                left_text = re.sub(np, "", left_text, flags=re.IGNORECASE).strip(" :-–—.")
+
+            team1, conf1 = match_team_fuzzy(left_text)
+            team2, conf2 = match_team_fuzzy(right_text)
+
+            # If right text was empty or didn't match, check if left text had both teams e.g. "Arsnl vs Cov 3-0"
+            if not team2 or conf2 < 0.75:
+                tokens = re.split(r'\s+(?:vs\.?|v\.?|-|against)\s+', left_text, flags=re.IGNORECASE)
+                if len(tokens) == 2:
+                    team1, conf1 = match_team_fuzzy(tokens[0])
+                    team2, conf2 = match_team_fuzzy(tokens[1])
+
+            # Strict Requirement: Both teams must match canonical clubs with >= 0.75 individual confidence
+            if not team1 or not team2 or team1 == team2 or conf1 < 0.75 or conf2 < 0.75:
+                continue
+
+            avg_conf = (conf1 + conf2) / 2.0
+            conf_pct = int(round(avg_conf * 100))
+
+            for f in fixtures:
+                h, a = f["home"], f["away"]
+                fix_id = f["id"]
+                pair_key = (h, a)
+
+                if pair_key in seen_fixture_keys:
+                    continue
+
+                if (team1 == h and team2 == a) or (team1 == a and team2 == h):
+                    if team1 == h and team2 == a:
+                        pred_h, pred_a = s1, s2
+                    else:
+                        pred_h, pred_a = s2, s1
+
+                    if conf_pct >= 75:
+                        cand_id = f"cand_gw{gw_number}_{re.sub(r'[^a-zA-Z0-9]', '', author)}_{fix_id}"
+                        candidate_obj = {
+                            "id": cand_id,
+                            "gameweek": gw_number,
+                            "author": author,
+                            "comment_id": comment_id,
+                            "published_at": published_at,
+                            "raw_line": f"{left_text} {s1}-{s2} {right_text}".strip(),
+                            "full_comment": comment_text.strip(),
+                            "other_predictions": existing_exact_preds,
+                            "fixture_id": fix_id,
+                            "home_team": h,
+                            "away_team": a,
+                            "pred_home": pred_h,
+                            "pred_away": pred_a,
+                            "confidence": conf_pct,
+                            "detected_teams": f"{team1} vs {team2}",
+                            "status": "pending"
+                        }
+                        candidates.append(candidate_obj)
+                        seen_fixture_keys.add(pair_key)
+                    break
 
     return candidates

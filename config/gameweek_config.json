@@ -34,13 +34,18 @@
       "villa",
       "avl",
       "aston v",
+      "aston v.",
       "avfc",
       "villans",
       "the villans",
       "aston vill",
-      "astnvilla"
+      "astnvilla",
+      "a. villa",
+      "a villa"
     ],
     "AFC Bournemouth": [
+      "b'mouth",
+      "b’mouth",
       "afc bournemouth",
       "bournemouth",
       "bou",
@@ -52,7 +57,9 @@
       "bourmouth",
       "bmouth",
       "bmth",
-      "bourn"
+      "bourn",
+      "a.f.c. bournemouth",
+      "afc bmouth"
     ],
     "Brentford": [
       "brentford",
@@ -66,6 +73,9 @@
     "Brighton & Hove Albion": [
       "brighton & hove albion",
       "brighton and hove albion",
+      "brighton & hove",
+      "brighton and hove",
+      "brighton hove",
       "brighton",
       "bha",
       "bhafc",
@@ -104,6 +114,9 @@
       "eagles",
       "the eagles",
       "crystal p",
+      "crystal p.",
+      "c palace",
+      "c. palace",
       "cystal palace",
       "pallace",
       "crystal"
@@ -146,6 +159,7 @@
       "the tractor boys",
       "itfc",
       "ipswich t",
+      "ipswich t.",
       "ipsw",
       "ipswich tn",
       "ipswitch",
@@ -160,7 +174,8 @@
       "the whites",
       "peacocks",
       "leed",
-      "leeds utd"
+      "leeds utd",
+      "leeds utd."
     ],
     "Liverpool": [
       "liverpool",
@@ -176,30 +191,42 @@
     "Manchester City": [
       "manchester city",
       "man city",
+      "man city.",
+      "man c",
+      "man c.",
       "mci",
       "mcfc",
       "citizens",
       "manchester c",
-      "man c",
+      "manchester c.",
       "mancity",
       "m. city",
+      "m.city",
       "city",
-      "mn city"
+      "mn city",
+      "manc"
     ],
     "Manchester United": [
       "manchester united",
       "man united",
       "man utd",
+      "man utd.",
+      "man u",
+      "man u.",
       "mun",
       "mufc",
       "red devils",
       "manchester u",
+      "manchester u.",
       "manutd",
       "m. united",
-      "man u",
+      "m.utd",
+      "m. utd",
+      "m.united",
       "united",
       "yanited",
-      "mn utd"
+      "mn utd",
+      "manu"
     ],
     "Newcastle United": [
       "newcastle united",
@@ -211,13 +238,19 @@
       "toon",
       "new castle",
       "newcaslte",
-      "newc utd"
+      "newc utd",
+      "newc utd."
     ],
     "Nottingham Forest": [
       "nottingham forest",
+      "nott'm forest",
+      "nott’m forest",
+      "nott'm",
+      "nott’m",
+      "nottm forest",
+      "nottm",
       "forest",
       "nfo",
-      "nottm forest",
       "nffc",
       "nottingham",
       "tricky trees",
@@ -238,7 +271,10 @@
     "Tottenham Hotspur": [
       "tottenham hotspur",
       "tottenham",
+      "tottenham h",
+      "tottenham h.",
       "spurs",
+      "spurs fc",
       "tot",
       "thfc",
       "lilywhites",
@@ -645,7 +681,7 @@
           "kickoff": "2026-08-28T19:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 33
+          "minutes": 40
         },
         {
           "id": 14,
