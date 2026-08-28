@@ -531,6 +531,14 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@BenjaminLass": {
+      "18": {
+        "status": "approved",
+        "timestamp": "2026-08-28T19:38:15.554Z",
+        "pred_home": 2,
+        "pred_away": 0
+      }
     }
   }
 }
