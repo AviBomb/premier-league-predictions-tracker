@@ -674,14 +674,20 @@
               "scorer": "Erling Haaland",
               "assist": "Antoine Semenyo",
               "type": "G"
+            },
+            {
+              "minute": "54'",
+              "scorer": "Rayan Cherki",
+              "assist": "Phil Foden",
+              "type": "G"
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Erling Haaland 17' (assist: Antoine Semenyo)",
+          "away_goals_summary": "Erling Haaland 17' (assist: Antoine Semenyo), Rayan Cherki 54' (assist: Phil Foden)",
           "kickoff": "2026-08-28T19:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 47
+          "minutes": 52
         },
         {
           "id": 14,
