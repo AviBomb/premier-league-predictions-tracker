@@ -1780,7 +1780,8 @@
     "pred_away": 1,
     "confidence": 88,
     "detected_teams": "Leeds United vs Brentford",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_romeroperez3682_11",
@@ -1808,7 +1809,8 @@
     "pred_away": 2,
     "confidence": 90,
     "detected_teams": "Crystal Palace vs Manchester City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_Edi67q5r_12",
@@ -1865,7 +1867,8 @@
     "pred_away": 3,
     "confidence": 90,
     "detected_teams": "Crystal Palace vs Manchester City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_ghostdavid4838_20",
@@ -1998,7 +2001,8 @@
     "pred_away": 0,
     "confidence": 87,
     "detected_teams": "Manchester United vs Ipswich Town",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_BenjaminLass_18",
