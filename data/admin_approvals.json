@@ -547,6 +547,14 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@ghostdavid4838": {
+      "20": {
+        "status": "approved",
+        "timestamp": "2026-08-28T19:38:34.383Z",
+        "pred_home": 2,
+        "pred_away": 3
+      }
     }
   }
 }
