@@ -1,5 +1,4 @@
 {
-  "cloud_sync_worker_url": "https://pl-tracker-sync.theirishguy-pl.workers.dev",
   "google_auth": {
     "client_id": "12341586912-5g7l5mh9ii6v5rnhpcrb12ja7gclf813.apps.googleusercontent.com",
     "authorized_users": [
@@ -13,9 +12,10 @@
       "06e641200a1d5a3e787acbb79740245ca8b9e04e586dd015606bb89714a062ce"
     ]
   },
-  "active_gameweek": 1,
+  "active_gameweek": 2,
   "registered_videos": {
-    "1": "https://www.youtube.com/watch?v=qtId_ahtv1E"
+    "1": "https://www.youtube.com/watch?v=qtId_ahtv1E",
+    "2": "https://www.youtube.com/watch?v=ZyUd-47fRT8"
   },
   "team_aliases": {
     "Arsenal": [
@@ -621,7 +621,7 @@
     },
     "2": {
       "use_live_fpl_api": true,
-      "video_url": "",
+      "video_url": "https://www.youtube.com/watch?v=ZyUd-47fRT8",
       "fixtures": [
         {
           "id": 201,
@@ -715,5 +715,6 @@
         }
       ]
     }
-  }
+  },
+  "cloud_sync_worker_url": "https://pl-tracker-sync.theirishguy-pl.workers.dev"
 }
