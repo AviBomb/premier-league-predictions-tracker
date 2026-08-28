@@ -1836,7 +1836,8 @@
     "pred_away": 0,
     "confidence": 98,
     "detected_teams": "AFC Bournemouth vs Everton",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_kamaujohn6303_11",
@@ -1892,7 +1893,8 @@
     "pred_away": 3,
     "confidence": 92,
     "detected_teams": "Aston Villa vs Arsenal",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_Cooperthepug_11",
@@ -1948,7 +1950,8 @@
     "pred_away": 1,
     "confidence": 98,
     "detected_teams": "Sunderland vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_rc2520_20",
@@ -2023,6 +2026,7 @@
     "pred_away": 0,
     "confidence": 93,
     "detected_teams": "Manchester United vs Ipswich Town",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   }
 ]

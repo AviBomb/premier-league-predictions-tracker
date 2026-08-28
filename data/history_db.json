@@ -38626,8 +38626,8 @@
       "original_comment_text": "City4-2 Palace\nLiverpool 3-1forrest \nBornemouth 2-0 everton\nCoventry 2-0 hull\nChelsea 1-1 Brighton \nMan utd 4-1 Ipswich \nLeeds 1-1 Brentford \nSunderland 1-1 fulham\nVilla 1-2 arsenal\nSpurs 1-1 Newcastle",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
       "outcome_scores": 1,
@@ -38648,10 +38648,10 @@
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
-          "pred": "N/A",
+          "pred": "2-0",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Coventry City vs Hull City": {
@@ -40857,8 +40857,8 @@
       "original_comment_text": "Crystal Palace 1 - 3 Man City\r\nLiverpool 1 - 0 Forest\r\nBournemouth 2 - 0 Everton\r\nCoventry 2 - 1 Hull City\r\nTottenham 2 - 0 Newcastle\r\nChelsea 3 - 0 Brighton\r\nLeeds 1 - 2 Brentford\r\nSunderland 1 - 1 Fulham\r\nMan United 2 - 2 Ipswich\r\nAston Villa 2 - 3 Arsen",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
       "outcome_scores": 1,
@@ -40928,10 +40928,10 @@
           "is_late": false
         },
         "Aston Villa vs Arsenal": {
-          "pred": "N/A",
+          "pred": "2-3",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         }
       }
@@ -44155,8 +44155,8 @@
       "original_comment_text": "Palace 1-3 city \nLiverpool 1-1 Forest \nCoventry 1-3 hull\nBourmouth 2-1 Everton \nSpurs 2-1 Newcastle \nChelsea 3-1 Brighton \nLeeds 2-3 Brentford \nSounderland 0-1 Fulham \nMan United 0-3 Ipswich \nVilla 1-4 arsenal",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
       "outcome_scores": 1,
@@ -44212,10 +44212,10 @@
           "is_late": false
         },
         "Sunderland vs Fulham": {
-          "pred": "N/A",
+          "pred": "0-1",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Manchester United vs Ipswich Town": {
@@ -48035,8 +48035,8 @@
       "original_comment_text": "My Predictions:\n\nPalace 1-3 City\nLiverpool 3-2 Forest\nBournemouth 3-0 Everton\nCoventry 0-1 Hull\nSpurs 2-1 Newcastle \nChelsea 2-2 Brighton\nLeeds 1-1 Brentford\nSunderland 1-1 Fulham\nMan U 2-0 Ispwich \nAston Villa 0-3 Arsenal",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
       "outcome_scores": 1,
@@ -48099,10 +48099,10 @@
           "is_late": false
         },
         "Manchester United vs Ipswich Town": {
-          "pred": "N/A",
+          "pred": "2-0",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Aston Villa vs Arsenal": {
