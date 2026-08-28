@@ -676,7 +676,7 @@
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
           "home_act": 1,
-          "away_act": 3,
+          "away_act": 4,
           "home_goals": [
             {
               "minute": "56'",
@@ -703,16 +703,21 @@
               "scorer": "Rayan Cherki",
               "assist": "Josko Gvardiol",
               "type": "G"
+            },
+            {
+              "minute": "84'",
+              "scorer": "Erling Haaland",
+              "assist": "Phil Foden",
+              "type": "G"
             }
           ],
           "home_goals_summary": "Gianluigi Donnarumma 56' (OG)",
-          "away_goals_summary": "Erling Haaland 17' (assist: Antoine Semenyo), Rayan Cherki 54' (assist: Phil Foden), Rayan Cherki 59' (assist: Josko Gvardiol)",
+          "away_goals_summary": "Erling Haaland 17' (assist: Antoine Semenyo), Rayan Cherki 54' (assist: Phil Foden), Rayan Cherki 59' (assist: Josko Gvardiol), Erling Haaland 84' (assist: Phil Foden)",
           "kickoff": "2026-08-28T19:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 77,
-          "status": "ONGOING",
-          "clock": "77'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 14,
