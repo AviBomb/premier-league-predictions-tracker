@@ -514,5 +514,15 @@
         "pred_away": 1
       }
     }
+  },
+  "GW_2": {
+    "@rc_2520": {
+      "20": {
+        "status": "rejected",
+        "timestamp": "2026-08-28T19:37:34.821Z",
+        "pred_home": 4,
+        "pred_away": 1
+      }
+    }
   }
 }
