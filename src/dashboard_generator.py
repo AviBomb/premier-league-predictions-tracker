@@ -625,17 +625,24 @@ def generate_live_dashboard(
                 const gwNum = parseInt(gwKey);
                 const gwData = ALL_GAMEWEEKS[gwKey];
                 const predCount = (gwData.audited_records || []).length;
+                const isActive = (gwNum === activeGameweekScope);
+                const isPast = (gwNum < activeGameweekScope);
                 
+                const badgeHtml = isActive 
+                    ? '<span style="background: rgba(0,255,135,0.2); color: #00ff87; border: 1px solid rgba(0,255,135,0.4); padding: 1px 6px; border-radius: 6px; font-size: 0.7rem; margin-left: 4px; font-weight: 800;">LIVE</span>'
+                    : (isPast ? '<span style="background: rgba(255,255,255,0.1); color: var(--text-muted); padding: 1px 6px; border-radius: 6px; font-size: 0.7rem; margin-left: 4px;">FINAL</span>' : '');
+
                 // Add nav button
                 const btn = document.createElement('button');
                 btn.className = 'nav-tab-btn';
                 btn.id = `tab-btn-gw-${{gwNum}}`;
-                btn.innerHTML = `⚽ Gameweek ${{gwNum}} <span class="tab-counter">${{predCount}}</span>`;
+                btn.innerHTML = `⚽ Gameweek ${{gwNum}} ${{badgeHtml}} <span class="tab-counter">${{predCount}}</span>`;
                 btn.onclick = () => switchMainTab(`gw_${{gwNum}}`);
                 navContainer.appendChild(btn);
 
                 // Add dropdown option
-                dropdownHtml += `<option value="gw_${{gwNum}}">Gameweek ${{gwNum}} (${{predCount}} Predictions)</option>`;
+                const dropTag = isActive ? ' (Live)' : (isPast ? ' (Final)' : '');
+                dropdownHtml += `<option value="gw_${{gwNum}}">Gameweek ${{gwNum}}${{dropTag}} (${{predCount}} Predictions)</option>`;
             }});
 
             dropdown.innerHTML = dropdownHtml;
@@ -684,16 +691,19 @@ def generate_live_dashboard(
                 document.getElementById('statusFilter').style.display = isLeaderboard ? 'none' : 'inline-block';
                 
                 if (isLeaderboard) {{
-                    document.getElementById('header-scope-badge').innerText = 'Season Standings';
+                    document.getElementById('header-scope-badge').innerText = `Season Standings (GW 1–${{activeGameweekScope}})`;
                     document.getElementById('table-view-heading').innerHTML = '🏆 Cumulative Season Standings';
                     renderFixtures(activeGameweekScope);
                     renderSeasonMetrics();
                 }} else {{
-                    const gwNum = currentTab.replace('gw_', '');
-                    document.getElementById('header-scope-badge').innerText = `Gameweek ${{gwNum}} Live Hub`;
+                    const gwNum = parseInt(currentTab.replace('gw_', ''), 10);
+                    const isGwActive = (gwNum === activeGameweekScope);
+                    const isGwPast = (gwNum < activeGameweekScope);
+                    const scopeLabel = isGwActive ? `Gameweek ${{gwNum}} Live Hub (🔴 Active)` : (isGwPast ? `Gameweek ${{gwNum}} (🔒 Frozen & Completed)` : `Gameweek ${{gwNum}}`);
+                    document.getElementById('header-scope-badge').innerText = scopeLabel;
                     document.getElementById('table-view-heading').innerHTML = `📋 Gameweek ${{gwNum}} Audited Submissions`;
-                    renderFixtures(parseInt(gwNum));
-                    renderGameweekMetrics(parseInt(gwNum));
+                    renderFixtures(gwNum);
+                    renderGameweekMetrics(gwNum);
                 }}
 
                 filterAndSort();

@@ -24,12 +24,13 @@ if sys.platform == "win32":
 from src.fixture_service import fetch_gameweek_fixtures
 from src.scraper import scrape_youtube_comments
 from src.scoring_engine import audit_and_score_gameweek
-from src.leaderboard_manager import save_gameweek_csv, update_cumulative_leaderboard
+from src.leaderboard_manager import save_gameweek_csv, update_cumulative_leaderboard, rebuild_cumulative_leaderboard
 from src.dashboard_generator import generate_live_dashboard
 
 CONFIG_PATH = "config/gameweek_config.json"
 APPROVALS_PATH = "data/admin_approvals.json"
 PENDING_APPROVALS_PATH = "data/pending_approvals.json"
+HISTORY_DB_PATH = "data/history_db.json"
 API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
 LOCAL_DATA_FALLBACK = "data/sample_comments.csv"
 
@@ -111,11 +112,43 @@ def save_all_gameweeks_cache(data: Dict[str, Any]):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def process_gameweek_data(gw_num: int, use_live_api: bool, admin_approvals: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], Dict[str, Any], List[Dict[str, Any]], List[Dict[str, Any]]]:
-    """Processes scraping, fixtures, and prediction scoring for a given gameweek number."""
+def process_gameweek_data(
+    gw_num: int,
+    use_live_api: bool,
+    admin_approvals: Dict[str, Any],
+    is_active_gw: bool = True
+) -> Tuple[List[Dict[str, Any]], Dict[str, Any], List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """
+    Processes scraping, fixtures, and prediction scoring for a given gameweek number.
+    - If is_active_gw is False (past completed gameweek) and cached results exist,
+      freezes and locks the gameweek (skips YouTube scraping and live re-scoring).
+    - If is_active_gw is True (current live gameweek), actively scrapes YouTube comments,
+      queries live Premier League API fixtures, audits predictions, and generates active queue.
+    """
+    all_gw_cache = load_all_gameweeks_cache()
+    gw_cache_entry = all_gw_cache.get(str(gw_num))
+
+    history_db = {}
+    if os.path.exists(HISTORY_DB_PATH):
+        try:
+            with open(HISTORY_DB_PATH, "r", encoding="utf-8") as f:
+                history_db = json.load(f)
+        except Exception:
+            history_db = {}
+
+    gw_history_entry = history_db.get(f"GW_{gw_num}")
+
+    # 1. Historical Gameweek Freezing Check (gw < active_gw)
+    if not is_active_gw and gw_cache_entry and gw_history_entry:
+        cached_records = gw_cache_entry.get("audited_records", [])
+        cached_fixtures = gw_cache_entry.get("fixtures", [])
+        if cached_records and cached_fixtures:
+            print(f"[*] Gameweek {gw_num}: Frozen historical matchday ({len(cached_records)} audited predictions locked, 0 YouTube API quota used)")
+            return cached_records, gw_history_entry, [], cached_fixtures
+
     active_gw_conf, video_urls, custom_fixtures, use_live_fpl = load_gameweek_configuration(target_gw=gw_num)
 
-    # By default, always pull live fixtures and match scores from Official Premier League API
+    # 2. Fixtures Loading
     fixtures = []
     if use_live_fpl:
         fixtures = fetch_gameweek_fixtures(gw_num, use_live_api=True)
@@ -142,13 +175,15 @@ def process_gameweek_data(gw_num: int, use_live_api: bool, admin_approvals: Dict
         except Exception:
             pass
 
+    # 3. Comments Scraping
     comments = []
     gw_fallback_file = f"data/sample_comments_gw{gw_num}.csv" if gw_num > 1 else LOCAL_DATA_FALLBACK
 
-    if use_live_api and API_KEY and not API_KEY.startswith("YOUR_") and video_urls and any(video_urls):
+    if is_active_gw and use_live_api and API_KEY and not API_KEY.startswith("YOUR_") and video_urls and any(video_urls):
         try:
             valid_urls = [u for u in video_urls if u and "youtube.com" in u]
             if valid_urls:
+                print(f"[*] Scraping YouTube comments for Gameweek {gw_num} from registered video: {valid_urls[0]}")
                 comments = scrape_youtube_comments(API_KEY, valid_urls)
                 if comments:
                     os.makedirs("data", exist_ok=True)
@@ -170,6 +205,7 @@ def process_gameweek_data(gw_num: int, use_live_api: bool, admin_approvals: Dict
     if not comments:
         return [], {}, [], fixtures
 
+    # 4. Prediction Auditing & Scoring
     audited_records, valid_entries, fuzzy_candidates = audit_and_score_gameweek(
         comments, fixtures, gw_num, admin_approvals=admin_approvals
     )
@@ -192,32 +228,41 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
         gw_number = target_gw
     admin_approvals = load_admin_approvals()
 
-    print(f"[*] Active Gameweek Scope: {gw_number}")
+    print(f"[*] Active Gameweek Scope: Gameweek {gw_number}")
 
     # 2. Load all gameweeks data store
     all_gw_data = load_all_gameweeks_cache()
 
     # 3. Process all active gameweeks up to current gw_number
+    active_candidates = []
+    active_audited_count = 0
+
     for gw in range(1, gw_number + 1):
-        audited, valids, candidates, fixtures = process_gameweek_data(gw, use_live_api, admin_approvals)
+        is_active = (gw == gw_number)
+        audited, valids, candidates, fixtures = process_gameweek_data(
+            gw_num=gw,
+            use_live_api=use_live_api if is_active else False,
+            admin_approvals=admin_approvals,
+            is_active_gw=is_active
+        )
         if audited or fixtures:
             all_gw_data[str(gw)] = {
                 "gw": gw,
                 "fixtures": fixtures,
-                "audited_records": audited
+                "audited_records": audited,
+                "is_active": is_active,
+                "is_frozen": not is_active
             }
+        if is_active:
+            active_candidates = candidates
+            active_audited_count = len(audited)
 
     save_all_gameweeks_cache(all_gw_data)
 
-    # 5. Build Cumulative Leaderboard across all available gameweeks
-    # Load cumulative leaderboard
-    lead_path = "exports/Cumulative_Leaderboard.csv"
-    if os.path.exists(lead_path):
-        df_leaderboard = pd.read_csv(lead_path)
-    else:
-        df_leaderboard = pd.DataFrame()
+    # 4. Build Cumulative Leaderboard across all available gameweeks
+    df_leaderboard = rebuild_cumulative_leaderboard()
 
-    # 6. Generate Premier League Themed Live Web Dashboard (dashboard.html & index.html)
+    # 5. Generate Premier League Themed Live Web Dashboard (dashboard.html & index.html)
     dashboard_path = generate_live_dashboard(
         active_gw=gw_number,
         all_gameweeks_data=all_gw_data,
@@ -230,11 +275,11 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
     print("  EXTRACTED GAMEWEEK RESULTS & PREDICTION AUDIT SUMMARY")
     print("-" * 88)
     print(f"Processed Active Gameweek : GW {gw_number}")
-    print(f"Valid Predictions (GW {gw_number}) : {len(audited)}")
+    print(f"Valid Predictions (GW {gw_number}) : {active_audited_count}")
     print(f"Total Completed Gameweeks : {len(all_gw_data)} ({', '.join(['GW ' + k for k in all_gw_data.keys()])})")
-    print(f"Typo/Spelling Candidates : {len(candidates)} detected in active queue")
+    print(f"Typo/Spelling Candidates : {len(active_candidates)} detected in active queue")
 
-    # 7. Display Console Standings
+    # 6. Display Console Standings
     print("\n" + "=" * 88)
     print(f"TOP 10 CUMULATIVE LEADERBOARD (AFTER 2026/27 GAMEWEEK {gw_number})")
     print("=" * 88)
@@ -243,6 +288,8 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None):
         avail_cols = [c for c in preview_cols if c in df_leaderboard.columns]
         print(df_leaderboard[avail_cols].head(10).to_string(index=False))
     print("=" * 88)
+    print(f"\n[+] Public Dashboard Ready : file:///{os.path.abspath(dashboard_path).replace(os.sep, '/')}")
+    print(f"[+] Admin Control Portal   : file:///{os.path.abspath('admin.html').replace(os.sep, '/')}")
     print(f"\n[+] Public Dashboard Ready : file:///{os.path.abspath(dashboard_path).replace(os.sep, '/')}")
     print(f"[+] Admin Control Portal   : file:///{os.path.abspath('admin.html').replace(os.sep, '/')}")
 

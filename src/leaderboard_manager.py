@@ -41,6 +41,62 @@ def save_gameweek_csv(audited_records: List[Dict[str, Any]], fixtures: List[Dict
     return filename
 
 
+def rebuild_cumulative_leaderboard(
+    db_path: str = "data/history_db.json",
+    output_dir: str = "exports"
+) -> pd.DataFrame:
+    """Aggregates Season Stats across all Gameweeks in history_db.json and exports Cumulative_Leaderboard.csv."""
+    os.makedirs(output_dir, exist_ok=True)
+    history = {}
+    if os.path.exists(db_path):
+        try:
+            with open(db_path, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        except Exception:
+            history = {}
+
+    season_totals = {}
+    # Sort gameweek keys in chronological order (GW_1, GW_2, ...)
+    sorted_gw_keys = sorted(
+        history.keys(),
+        key=lambda k: int(k.replace("GW_", "")) if k.replace("GW_", "").isdigit() else 0
+    )
+
+    for gw_key in sorted_gw_keys:
+        users = history[gw_key]
+        for author, data in users.items():
+            if author not in season_totals:
+                season_totals[author] = {
+                    "Author": author,
+                    "Channel_URL": data.get("channel_url", ""),
+                    "Gameweeks_Played": 0,
+                    "Total_Matches_Predicted": 0,
+                    "Total_Exact_Scores (3pts)": 0,
+                    "Total_Outcome_Scores (1pt)": 0,
+                    "Total_Season_Points": 0
+                }
+            season_totals[author]["Gameweeks_Played"] += 1
+            season_totals[author]["Total_Matches_Predicted"] += data.get("matches_found", 0)
+            season_totals[author]["Total_Exact_Scores (3pts)"] += data.get("exact_scores", 0)
+            season_totals[author]["Total_Outcome_Scores (1pt)"] += data.get("outcome_scores", 0)
+            season_totals[author]["Total_Season_Points"] += data.get("total_points", 0)
+
+    df_lead = pd.DataFrame(list(season_totals.values()))
+    if not df_lead.empty:
+        df_lead = df_lead.sort_values(
+            by=["Total_Season_Points", "Total_Exact_Scores (3pts)", "Total_Outcome_Scores (1pt)"],
+            ascending=[False, False, False]
+        ).reset_index(drop=True)
+        df_lead.insert(0, "Rank", df_lead.index + 1)
+
+        lead_filename = os.path.join(output_dir, "Cumulative_Leaderboard.csv")
+        df_lead.to_csv(lead_filename, index=False, encoding="utf-8-sig")
+        print(f"[+] Exported Cumulative Season Leaderboard: {lead_filename} ({len(df_lead)} ranked users)")
+        return df_lead
+
+    return pd.DataFrame()
+
+
 def update_cumulative_leaderboard(
     gw: int,
     valid_entries: Dict[str, Any],
@@ -66,37 +122,5 @@ def update_cumulative_leaderboard(
     with open(db_path, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
 
-    # Aggregate Season Stats across all Gameweeks in DB
-    season_totals = {}
-    for gw_key, users in history.items():
-        for author, data in users.items():
-            if author not in season_totals:
-                season_totals[author] = {
-                    "Author": author,
-                    "Channel_URL": data["channel_url"],
-                    "Gameweeks_Played": 0,
-                    "Total_Matches_Predicted": 0,
-                    "Total_Exact_Scores (3pts)": 0,
-                    "Total_Outcome_Scores (1pt)": 0,
-                    "Total_Season_Points": 0
-                }
-            season_totals[author]["Gameweeks_Played"] += 1
-            season_totals[author]["Total_Matches_Predicted"] += data["matches_found"]
-            season_totals[author]["Total_Exact_Scores (3pts)"] += data["exact_scores"]
-            season_totals[author]["Total_Outcome_Scores (1pt)"] += data["outcome_scores"]
-            season_totals[author]["Total_Season_Points"] += data["total_points"]
+    return rebuild_cumulative_leaderboard(db_path=db_path, output_dir=output_dir)
 
-    df_lead = pd.DataFrame(list(season_totals.values()))
-    if not df_lead.empty:
-        df_lead = df_lead.sort_values(
-            by=["Total_Season_Points", "Total_Exact_Scores (3pts)", "Total_Outcome_Scores (1pt)"],
-            ascending=[False, False, False]
-        ).reset_index(drop=True)
-        df_lead.insert(0, "Rank", df_lead.index + 1)
-
-        lead_filename = os.path.join(output_dir, "Cumulative_Leaderboard.csv")
-        df_lead.to_csv(lead_filename, index=False, encoding="utf-8-sig")
-        print(f"[+] Exported Cumulative Season Leaderboard: {lead_filename} ({len(df_lead)} ranked users)")
-        return df_lead
-
-    return pd.DataFrame()

@@ -420,12 +420,28 @@
         <!-- TAB 1: Gameweek & Free-Text Video URL Section -->
         <div class="panel" id="panel-video">
             <div class="panel-header">
-                <div class="panel-title"><span>🎯</span> Active Gameweek Scope & Official YouTube Source</div>
-                <button class="btn-action-save" onclick="saveVideoAndSettingsOnly()">💾 Save Video & Gameweek</button>
+                <div>
+                    <div class="panel-title"><span>🎯</span> Gameweek Scope &amp; Official YouTube Source</div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">
+                        Manage the active season gameweek, assign video prediction URLs, and freeze completed matchdays.
+                    </div>
+                </div>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button class="btn-action-save" onclick="saveVideoOnly()" title="Save video URL for this gameweek without changing active scope">💾 Save Video URL</button>
+                    <button class="btn-save-master" onclick="activateGameweekScope()" title="Set this gameweek as the live active matchday and freeze previous weeks">🌟 Set as Live Active Gameweek &amp; Save</button>
+                </div>
+            </div>
+            <div style="background: rgba(0,255,135,0.06); border: 1px solid rgba(0,255,135,0.3); border-radius: 12px; padding: 12px 16px; margin-bottom: 18px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                <div style="font-size: 0.9rem; font-weight: 700; color: #fff;">
+                    🏆 Current Live Season Scope: <span id="active-live-scope-badge" style="color: var(--pl-green); font-weight: 800; font-size: 1rem;">Gameweek 1</span>
+                </div>
+                <div id="gw-viewing-status-pill" style="font-size: 0.8rem; font-weight: 700; background: rgba(255,255,255,0.08); padding: 4px 10px; border-radius: 20px; color: var(--text-muted);">
+                    Viewing Gameweek 1
+                </div>
             </div>
             <div class="controls-grid">
                 <div class="form-group">
-                    <label class="form-label">Active Gameweek Scope</label>
+                    <label class="form-label">Select Gameweek to View / Edit</label>
                     <select id="gw-select" class="form-select" onchange="syncGameweek(this.value)">
                         <!-- Dropdown: GW 1 to GW 38 -->
                     </select>
@@ -1191,9 +1207,11 @@
             window.location.href = "dashboard.html";
         }
 
+        let currentViewingGw = 1;
+
         async function loadServerConfig() {
             try {
-                const res = await fetch('config/gameweek_config.json');
+                const res = await fetch(`config/gameweek_config.json?t=${Date.now()}`);
                 if (res.ok) {
                     const loaded = await res.json();
                     currentConfig = { ...currentConfig, ...loaded };
@@ -1201,6 +1219,25 @@
             } catch(e) {
                 console.log("Using cached config:", e);
             }
+        }
+
+        function populateGameweekDropdowns() {
+            const activeGw = parseInt(currentConfig.active_gameweek || 1, 10);
+            const gwOptionsHtml = Array.from({length: 38}, (_, i) => i + 1).map(gw => {
+                const isActive = (gw === activeGw);
+                const isPast = (gw < activeGw);
+                const label = isActive ? `Gameweek ${gw} (🔴 Live Active)` : (isPast ? `Gameweek ${gw} (🔒 Completed)` : `Gameweek ${gw}`);
+                return `<option value="${gw}">${label}</option>`;
+            }).join('');
+
+            const gwSelect = document.getElementById('gw-select');
+            if (gwSelect) gwSelect.innerHTML = gwOptionsHtml;
+
+            const headerGwSelect = document.getElementById('header-gw-select');
+            if (headerGwSelect) headerGwSelect.innerHTML = gwOptionsHtml;
+
+            const activeBadge = document.getElementById('active-live-scope-badge');
+            if (activeBadge) activeBadge.innerText = `Gameweek ${activeGw}`;
         }
 
         async function initAdminView() {
@@ -1211,31 +1248,33 @@
             updateGitHubSyncStatus();
             updateWorkerSyncStatus();
 
-            // Populate both header dropdown and panel dropdown
-            const gwOptionsHtml = Array.from({length: 38}, (_, i) => i + 1).map(gw => `
-                <option value="${gw}">Gameweek ${gw} ${gw === currentConfig.active_gameweek ? '(Active)' : ''}</option>
-            `).join('');
-
-            const gwSelect = document.getElementById('gw-select');
-            if (gwSelect) gwSelect.innerHTML = gwOptionsHtml;
-
-            const headerGwSelect = document.getElementById('header-gw-select');
-            if (headerGwSelect) headerGwSelect.innerHTML = gwOptionsHtml;
-
+            populateGameweekDropdowns();
             syncGameweek(currentConfig.active_gameweek || 1);
         }
 
         function syncGameweek(gw) {
-            gw = parseInt(gw);
-            currentConfig.active_gameweek = gw;
+            gw = parseInt(gw, 10) || 1;
+            currentViewingGw = gw;
 
             const gwSelect = document.getElementById('gw-select');
-            if (gwSelect) gwSelect.value = gw;
+            if (gwSelect && parseInt(gwSelect.value, 10) !== gw) gwSelect.value = gw;
 
             const headerGwSelect = document.getElementById('header-gw-select');
-            if (headerGwSelect) headerGwSelect.value = gw;
+            if (headerGwSelect && parseInt(headerGwSelect.value, 10) !== gw) headerGwSelect.value = gw;
 
+            const activeGw = parseInt(currentConfig.active_gameweek || 1, 10);
             document.getElementById('current-gw-badge').innerText = `Gameweek ${gw}`;
+
+            const statusPill = document.getElementById('gw-viewing-status-pill');
+            if (statusPill) {
+                if (gw === activeGw) {
+                    statusPill.innerHTML = `<span style="color: var(--pl-green);">🔴 Viewing Live Active Gameweek ${gw}</span>`;
+                } else if (gw < activeGw) {
+                    statusPill.innerHTML = `<span style="color: var(--pl-gold);">🔒 Viewing Historical Gameweek ${gw} (Frozen)</span>`;
+                } else {
+                    statusPill.innerHTML = `<span style="color: var(--text-muted);">⏳ Viewing Upcoming Gameweek ${gw}</span>`;
+                }
+            }
             
             const registeredUrl = (currentConfig.registered_videos && currentConfig.registered_videos[String(gw)]) || (currentConfig.gameweeks && currentConfig.gameweeks[String(gw)] && currentConfig.gameweeks[String(gw)].video_url) || "";
             document.getElementById('video-url-input').value = registeredUrl;
@@ -2001,8 +2040,27 @@
             return synced;
         }
 
-        async function saveVideoAndSettingsOnly() {
-            const gw = parseInt(document.getElementById('gw-select').value || 1);
+        async function saveVideoOnly() {
+            const gw = currentViewingGw || parseInt(document.getElementById('gw-select').value || 1, 10);
+            const videoUrl = document.getElementById('video-url-input').value.trim();
+
+            if (!currentConfig.registered_videos) currentConfig.registered_videos = {};
+            currentConfig.registered_videos[String(gw)] = videoUrl;
+
+            if (!currentConfig.gameweeks) currentConfig.gameweeks = {};
+            if (!currentConfig.gameweeks[String(gw)]) currentConfig.gameweeks[String(gw)] = { fixtures: [] };
+            currentConfig.gameweeks[String(gw)].video_url = videoUrl;
+
+            showLoadingSpinner(`Saving Video URL for GW ${gw}`, "Persisting video link and updating configurations...");
+            await syncConfigToServer();
+            hideLoadingSpinner();
+            populateGameweekDropdowns();
+            syncGameweek(gw);
+            showToast(`✅ Saved Gameweek ${gw} video URL!`);
+        }
+
+        async function activateGameweekScope() {
+            const gw = currentViewingGw || parseInt(document.getElementById('gw-select').value || 1, 10);
             const videoUrl = document.getElementById('video-url-input').value.trim();
 
             currentConfig.active_gameweek = gw;
@@ -2013,10 +2071,16 @@
             if (!currentConfig.gameweeks[String(gw)]) currentConfig.gameweeks[String(gw)] = { fixtures: [] };
             currentConfig.gameweeks[String(gw)].video_url = videoUrl;
 
-            showLoadingSpinner("Saving Video & Gameweek Scope", "Syncing configuration and fetching YouTube comments...");
+            showLoadingSpinner(`Activating Gameweek ${gw}`, `Freezing previous gameweeks and switching live tracking to Gameweek ${gw}...`);
             await syncConfigToServer();
             hideLoadingSpinner();
-            showToast(`✅ Saved Gameweek ${gw} video URL!`);
+            populateGameweekDropdowns();
+            syncGameweek(gw);
+            showToast(`🌟 Gameweek ${gw} is now active! Previous weeks are frozen.`);
+        }
+
+        async function saveVideoAndSettingsOnly() {
+            await activateGameweekScope();
         }
 
         async function saveScoresOnly() {
