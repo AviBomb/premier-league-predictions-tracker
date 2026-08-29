@@ -647,6 +647,14 @@
         "pred_home": 0,
         "pred_away": 5
       }
+    },
+    "@SportsCardsCenter": {
+      "15": {
+        "status": "approved",
+        "timestamp": "2026-08-29T11:02:56.720Z",
+        "pred_home": 0,
+        "pred_away": 0
+      }
     }
   }
 }
