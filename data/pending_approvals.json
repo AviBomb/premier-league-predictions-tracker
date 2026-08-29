@@ -1728,7 +1728,8 @@
     "pred_away": 1,
     "confidence": 99,
     "detected_teams": "Liverpool vs Nottingham Forest",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_anmaroud9813_14",
@@ -1755,7 +1756,8 @@
     "pred_away": 1,
     "confidence": 97,
     "detected_teams": "Liverpool vs Nottingham Forest",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_renecasstro_12",
@@ -1778,7 +1780,8 @@
     "pred_away": 1,
     "confidence": 95,
     "detected_teams": "AFC Bournemouth vs Everton",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_renecasstro_15",
@@ -1801,7 +1804,8 @@
     "pred_away": 2,
     "confidence": 90,
     "detected_teams": "Tottenham Hotspur vs Newcastle United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_renecasstro_16",
@@ -1824,7 +1828,8 @@
     "pred_away": 0,
     "confidence": 91,
     "detected_teams": "Chelsea vs Brighton & Hove Albion",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_renecasstro_20",
@@ -1847,7 +1852,8 @@
     "pred_away": 2,
     "confidence": 92,
     "detected_teams": "Aston Villa vs Arsenal",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_HamzaSahiv7z2n_19",

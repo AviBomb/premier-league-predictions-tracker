@@ -36337,7 +36337,7 @@
         "started": true,
         "minutes": 63,
         "status": "ONGOING",
-        "clock": "63'"
+        "clock": "65'"
       },
       {
         "id": 15,
@@ -37146,8 +37146,8 @@
         "original_comment_text": "Crystal Palace - Man City N/A\nLiverpool - Nottingham Forrest 2-1\nBournemouth- Everton 0-0\nCoventry - Hull 1-0\nTottenham - Newcastle 2-2\nChelsea - Brighton 1-0\nLeeds - Brentford 0-1\nSunderland- Fulham 0-0\nMan United - Ipswich 3-0\nAston Villa - Arsenal 0-2",
         "revisions": [],
         "diff_html": "",
-        "matches_found": 8,
-        "valid_matches_count": 8,
+        "matches_found": 9,
+        "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
         "outcome_scores": 1,
@@ -37161,10 +37161,10 @@
             "is_late": true
           },
           "Liverpool vs Nottingham Forest": {
-            "pred": "N/A",
+            "pred": "2-1",
             "actual": "2-2",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Miss",
             "is_late": false
           },
           "AFC Bournemouth vs Everton": {
@@ -37243,8 +37243,8 @@
         "original_comment_text": "GW 2 predictions (this is uploaded after the palace vs city match)\nLivepool 2 - 1 Forest \nBournemouth 3 - 1 Everton\nCoventry 2 - 2 Hull\nTottenham 0 - 1 Newcastle\nChelsea 3 - 2 Brighton\nLeeds 1 -  1 Brentford\nSunderland 2 - 0 Fullham\nMan u 1 - 0 Ipswich\nAston Villa 0 - 2 Arsenal",
         "revisions": [],
         "diff_html": "",
-        "matches_found": 8,
-        "valid_matches_count": 8,
+        "matches_found": 9,
+        "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
         "outcome_scores": 2,
@@ -37258,10 +37258,10 @@
             "is_late": true
           },
           "Liverpool vs Nottingham Forest": {
-            "pred": "N/A",
+            "pred": "2-1",
             "actual": "2-2",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Miss",
             "is_late": false
           },
           "AFC Bournemouth vs Everton": {
@@ -38698,8 +38698,8 @@
         "original_comment_text": "urnemouth 0-1 Everton\nCoventry 1-2 Hull\nSpurs 1-2 Castle\nChelshit 2-0 Brighton\nleeds 0-2 brentford\nsunderland0-2 fulham\nyanited 3-1 ipswich\nasston 0-2 arseanal",
         "revisions": [],
         "diff_html": "",
-        "matches_found": 4,
-        "valid_matches_count": 4,
+        "matches_found": 8,
+        "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
         "outcome_scores": 0,
@@ -38720,10 +38720,10 @@
             "is_late": false
           },
           "AFC Bournemouth vs Everton": {
-            "pred": "N/A",
+            "pred": "0-1",
             "actual": "1-0",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Miss",
             "is_late": false
           },
           "Coventry City vs Hull City": {
@@ -38734,17 +38734,17 @@
             "is_late": false
           },
           "Tottenham Hotspur vs Newcastle United": {
-            "pred": "N/A",
+            "pred": "1-2",
             "actual": "0-0",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
-            "pred": "N/A",
+            "pred": "2-0",
             "actual": "TBD",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Pending",
             "is_late": false
           },
           "Leeds United vs Brentford": {
@@ -38769,10 +38769,10 @@
             "is_late": false
           },
           "Aston Villa vs Arsenal": {
-            "pred": "N/A",
+            "pred": "0-2",
             "actual": "TBD",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Pending",
             "is_late": false
           }
         }
