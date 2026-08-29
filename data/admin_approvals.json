@@ -671,6 +671,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@aleksandarivanov6540": {
+      "14": {
+        "status": "approved",
+        "timestamp": "2026-08-29T15:22:58.702Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   }
 }
