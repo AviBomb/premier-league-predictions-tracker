@@ -34146,6 +34146,2140 @@
     }
   },
   "GW_2": {
+    "@aleksandarivanov6540": {
+      "comment_id": "UgyKFyeu8TaXv5mLfCN4AaABAg",
+      "author": "@aleksandarivanov6540",
+      "channel_url": "http://www.youtube.com/@aleksandarivanov6540",
+      "published_at": "2026-08-29T10:55:15Z",
+      "updated_at": "2026-08-29T10:55:15Z",
+      "submission_gmt": "2026-08-29 10:55:15 GMT",
+      "updated_gmt": "2026-08-29 10:55:15 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 15h 55m before earliest kickoff (2026-08-29 10:55:15 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Crystal Palace - Man City N/A\nLiverpool - Nottingham Forrest 2-1\nBournemouth- Everton 0-0\nCoventry - Hull 1-0\nTottenham - Newcastle 2-2\nChelsea - Brighton 1-0\nLeeds - Brentford 0-1\nSunderland- Fulham 0-0\nMan United - Ipswich 3-0\nAston Villa - Arsenal 0-2",
+      "original_comment_text": "Crystal Palace - Man City N/A\nLiverpool - Nottingham Forrest 2-1\nBournemouth- Everton 0-0\nCoventry - Hull 1-0\nTottenham - Newcastle 2-2\nChelsea - Brighton 1-0\nLeeds - Brentford 0-1\nSunderland- Fulham 0-0\nMan United - Ipswich 3-0\nAston Villa - Arsenal 0-2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 8,
+      "valid_matches_count": 8,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "0-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@anmaroud9813": {
+      "comment_id": "Ugw7Oeh8ZURAW_woFkF4AaABAg",
+      "author": "@anmaroud9813",
+      "channel_url": "http://www.youtube.com/@anmaroud9813",
+      "published_at": "2026-08-29T10:54:11Z",
+      "updated_at": "2026-08-29T10:54:11Z",
+      "submission_gmt": "2026-08-29 10:54:11 GMT",
+      "updated_gmt": "2026-08-29 10:54:11 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 15h 54m before earliest kickoff (2026-08-29 10:54:11 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "GW 2 predictions (this is uploaded after the palace vs city match)\nLivepool 2 - 1 Forest \nBournemouth 3 - 1 Everton\nCoventry 2 - 2 Hull\nTottenham 0 - 1 Newcastle\nChelsea 3 - 2 Brighton\nLeeds 1 -  1 Brentford\nSunderland 2 - 0 Fullham\nMan u 1 - 0 Ipswich\nAston Villa 0 - 2 Arsenal",
+      "original_comment_text": "GW 2 predictions (this is uploaded after the palace vs city match)\nLivepool 2 - 1 Forest \nBournemouth 3 - 1 Everton\nCoventry 2 - 2 Hull\nTottenham 0 - 1 Newcastle\nChelsea 3 - 2 Brighton\nLeeds 1 -  1 Brentford\nSunderland 2 - 0 Fullham\nMan u 1 - 0 Ipswich\nAston Villa 0 - 2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 8,
+      "valid_matches_count": 8,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "0-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@itschris2628": {
+      "comment_id": "UgzJCnjUycGeJwuCpf14AaABAg",
+      "author": "@itschris2628",
+      "channel_url": "http://www.youtube.com/@itschris2628",
+      "published_at": "2026-08-29T10:29:08Z",
+      "updated_at": "2026-08-29T10:29:08Z",
+      "submission_gmt": "2026-08-29 10:29:08 GMT",
+      "updated_gmt": "2026-08-29 10:29:08 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 10:29:08 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal Palace 0-2 City \nLiverpool 2-1 Nottingham \nBournemouth 1-0 Everton\nCoventry 1-1 Hull\nTottenham 1-2 Newcastle \nChelsea 3-2 Brighton\nLeeds 1-1 Brentford\nSunderland 0-1 Fulham\nMan Utd 3-1 Ipswich \nAston Villa 0-2 Arsenal",
+      "original_comment_text": "Crystal Palace 0-2 City \nLiverpool 2-1 Nottingham \nBournemouth 1-0 Everton\nCoventry 1-1 Hull\nTottenham 1-2 Newcastle \nChelsea 3-2 Brighton\nLeeds 1-1 Brentford\nSunderland 0-1 Fulham\nMan Utd 3-1 Ipswich \nAston Villa 0-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-2",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@lukecummins4403": {
+      "comment_id": "UgwwlRS70e4b0egYFhR4AaABAg",
+      "author": "@lukecummins4403",
+      "channel_url": "http://www.youtube.com/@lukecummins4403",
+      "published_at": "2026-08-29T10:03:48Z",
+      "updated_at": "2026-08-29T10:03:48Z",
+      "submission_gmt": "2026-08-29 10:03:48 GMT",
+      "updated_gmt": "2026-08-29 10:03:48 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 15h 3m before earliest kickoff (2026-08-29 10:03:48 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Didn\u2019t see the video before the palace game so the other predictions are:\nLiverpool 2-1 Forest\nBournemouth 3-2 Everton\nCoventry 2-2 Hull\nSpurs 0-2 Newcastle \nChelsea 3-3 Brighton\nLeeds 2- 1 Brentford\nSunderland 1-1 Fulham\nMan Utd 1-1 Ipswich \nAston Villa 0-2 Arsenal",
+      "original_comment_text": "Didn\u2019t see the video before the palace game so the other predictions are:\nLiverpool 2-1 Forest\nBournemouth 3-2 Everton\nCoventry 2-2 Hull\nSpurs 0-2 Newcastle \nChelsea 3-3 Brighton\nLeeds 2- 1 Brentford\nSunderland 1-1 Fulham\nMan Utd 1-1 Ipswich \nAston Villa 0-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@antonio5219": {
+      "comment_id": "UgyEvItJQGTv5lhipaZ4AaABAg",
+      "author": "@antonio5219",
+      "channel_url": "http://www.youtube.com/@antonio5219",
+      "published_at": "2026-08-29T09:29:36Z",
+      "updated_at": "2026-08-29T09:29:36Z",
+      "submission_gmt": "2026-08-29 09:29:36 GMT",
+      "updated_gmt": "2026-08-29 09:29:36 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 09:29:36 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Here with the predictions after Palace-City 1-4 and right before Liverpool-Forest one:\nLiverpool-Nottingham Forest 2-0\nCoventry-Hull 1-1\nBournemouth-Everton 0-3\nSpurs-Newcastle 2-1\nChelsea-Brighton 3-3\nLeeds-Brentford 0-1\nSunderland-Fulham 0-1\nMan United-Ipswich Town 2-1\nAston Villa-Arsenal 0-2",
+      "original_comment_text": "Here with the predictions after Palace-City 1-4 and right before Liverpool-Forest one:\nLiverpool-Nottingham Forest 2-0\nCoventry-Hull 1-1\nBournemouth-Everton 0-3\nSpurs-Newcastle 2-1\nChelsea-Brighton 3-3\nLeeds-Brentford 0-1\nSunderland-Fulham 0-1\nMan United-Ipswich Town 2-1\nAston Villa-Arsenal 0-2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-4",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "0-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@dandoyle834": {
+      "comment_id": "Ugwr70p1X5uLr1sK-mB4AaABAg",
+      "author": "@dandoyle834",
+      "channel_url": "http://www.youtube.com/@dandoyle834",
+      "published_at": "2026-08-29T09:27:38Z",
+      "updated_at": "2026-08-29T09:27:38Z",
+      "submission_gmt": "2026-08-29 09:27:38 GMT",
+      "updated_gmt": "2026-08-29 09:27:38 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 14h 27m before earliest kickoff (2026-08-29 09:27:38 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "My predictions on Saturday morning ( I thought man city would win 2-0 against palace ) \n\nLiverpool 3 Forest 1\nBournemouth 2 Everton 1 \nCoventry 1 Hull 1 \nTottenham 1 Newcastle 2 \nChelsea 2 Brighton 2 \nLeeds 1 Brentford 2 \nSunderland 2 Fulham 0\nMan united 3 Ipswich 0\nVilla 1 Arsenal 3",
+      "original_comment_text": "My predictions on Saturday morning ( I thought man city would win 2-0 against palace ) \n\nLiverpool 3 Forest 1\nBournemouth 2 Everton 1 \nCoventry 1 Hull 1 \nTottenham 1 Newcastle 2 \nChelsea 2 Brighton 2 \nLeeds 1 Brentford 2 \nSunderland 2 Fulham 0\nMan united 3 Ipswich 0\nVilla 1 Arsenal 3",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "3-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@haziqnickel6259": {
+      "comment_id": "Ugyjg50mUKU6xWZBM3F4AaABAg",
+      "author": "@haziqnickel6259",
+      "channel_url": "http://www.youtube.com/@haziqnickel6259",
+      "published_at": "2026-08-29T09:14:48Z",
+      "updated_at": "2026-08-29T09:14:48Z",
+      "submission_gmt": "2026-08-29 09:14:48 GMT",
+      "updated_gmt": "2026-08-29 09:14:48 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 14h 14m before earliest kickoff (2026-08-29 09:14:48 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "I don't know your format to predict so I put 2 version\n\nVersion 1\nLiverpool 2-1 Forest\nBournemouth 1-1 Everton\nCoventry 3-1 Hull\nTottenham 2-2 Newcastle\nChelsea 2-1 Brighton \nLeeds 2-2 Brentford\nSunderland 2-1 Fulham\nMan Utd 3-1 Ipswich \nAston Villa 0-2 Arsenal\n\nVersion 2\nLiverpool 2 Forest 1\nBournemouth 1 Everton 1\nCoventry 3 Hull 1\nTottenham 2 Newcastle 2\nChelsea 2 Brighton 1\nLeeds 2 Brentford 2\nSunderland 2 Fulham 1\nMan Utd 3 Ipswich 1\nAston Villa 0 Arsenal 2",
+      "original_comment_text": "I don't know your format to predict so I put 2 version\n\nVersion 1\nLiverpool 2-1 Forest\nBournemouth 1-1 Everton\nCoventry 3-1 Hull\nTottenham 2-2 Newcastle\nChelsea 2-1 Brighton \nLeeds 2-2 Brentford\nSunderland 2-1 Fulham\nMan Utd 3-1 Ipswich \nAston Villa 0-2 Arsenal\n\nVersion 2\nLiverpool 2 Forest 1\nBournemouth 1 Everton 1\nCoventry 3 Hull 1\nTottenham 2 Newcastle 2\nChelsea 2 Brighton 1\nLeeds 2 Brentford 2\nSunderland 2 Fulham 1\nMan Utd 3 Ipswich 1\nAston Villa 0 Arsenal 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@rishabh2310": {
+      "comment_id": "UgyFchIs7nXfHqXZ7Ot4AaABAg",
+      "author": "@rishabh2310",
+      "channel_url": "http://www.youtube.com/@rishabh2310",
+      "published_at": "2026-08-29T09:09:29Z",
+      "updated_at": "2026-08-29T09:09:29Z",
+      "submission_gmt": "2026-08-29 09:09:29 GMT",
+      "updated_gmt": "2026-08-29 09:09:29 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 09:09:29 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal Palace 1-4 Man City\nLiverpool 2-0 Forest \nBournemouth 2-1 Everton\nCoventry 1-0 Hull\nTottenham 2-0 Newcastle \nChelsea 3-1 Brighton\nLeeds 2-2 Brentford\nSunderland 0-0 Fulham\nMan United 3-0 Ipswich\nAston Villa 0-3 Arsenal",
+      "original_comment_text": "Crystal Palace 1-4 Man City\nLiverpool 2-0 Forest \nBournemouth 2-1 Everton\nCoventry 1-0 Hull\nTottenham 2-0 Newcastle \nChelsea 3-1 Brighton\nLeeds 2-2 Brentford\nSunderland 0-0 Fulham\nMan United 3-0 Ipswich\nAston Villa 0-3 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-4",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@Number-wq3fq": {
+      "comment_id": "UgzWcNYwuQaOFJQ4PEh4AaABAg",
+      "author": "@Number-wq3fq",
+      "channel_url": "http://www.youtube.com/@Number-wq3fq",
+      "published_at": "2026-08-29T09:05:22Z",
+      "updated_at": "2026-08-29T09:05:22Z",
+      "submission_gmt": "2026-08-29 09:05:22 GMT",
+      "updated_gmt": "2026-08-29 09:05:22 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 09:05:22 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Doing this after the Palace - City game so feel free to ignore that (putting 0-0 just to keep the list complete)\n\nCrystal Palace 0-0 Man City\r\nLiverpool 2-0 Forest \r\nBournemouth 2-2 Everton\r\nCoventry 2-1 Hull\r\nTottenham 0-1 Newcastle \r\nChelsea 2-1 Brighton\r\nLeeds 1-1 Brentford\r\nSunderland 0-0 Fulham\r\nMan United 2-1 Ipswich\r\nAston Villa 0-2 Arsenal",
+      "original_comment_text": "Doing this after the Palace - City game so feel free to ignore that (putting 0-0 just to keep the list complete)\n\nCrystal Palace 0-0 Man City\r\nLiverpool 2-0 Forest \r\nBournemouth 2-2 Everton\r\nCoventry 2-1 Hull\r\nTottenham 0-1 Newcastle \r\nChelsea 2-1 Brighton\r\nLeeds 1-1 Brentford\r\nSunderland 0-0 Fulham\r\nMan United 2-1 Ipswich\r\nAston Villa 0-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-0",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@TheFrankfurtTorpedo": {
+      "comment_id": "Ugysjq6YMHBfULwkMNF4AaABAg",
+      "author": "@TheFrankfurtTorpedo",
+      "channel_url": "http://www.youtube.com/@TheFrankfurtTorpedo",
+      "published_at": "2026-08-29T08:29:32Z",
+      "updated_at": "2026-08-29T08:29:32Z",
+      "submission_gmt": "2026-08-29 08:29:32 GMT",
+      "updated_gmt": "2026-08-29 08:29:32 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 08:29:32 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "A little late prediction but I had the Man City one chalked before this video was uploaded\nCrystal Palace 0 - 3 Man City\nLiverpool 3 - 1 Forest\nBournemouth 2 - 2 Everton\nCoventry 0 - 1 Hull\nSpurs 0 - 1 Newcastle\nChelsea 2 - 2 Brighton \nSunderland 2 - 2 Fulham\nMan United 2 - 0 Ipswich\nAston Villa 0 - 2 Arsenal",
+      "original_comment_text": "A little late prediction but I had the Man City one chalked before this video was uploaded\nCrystal Palace 0 - 3 Man City\nLiverpool 3 - 1 Forest\nBournemouth 2 - 2 Everton\nCoventry 0 - 1 Hull\nSpurs 0 - 1 Newcastle\nChelsea 2 - 2 Brighton \nSunderland 2 - 2 Fulham\nMan United 2 - 0 Ipswich\nAston Villa 0 - 2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 8,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-3",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "3-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@amanbelani3518": {
+      "comment_id": "UgwxlUCXZAnyB95pqlZ4AaABAg",
+      "author": "@amanbelani3518",
+      "channel_url": "http://www.youtube.com/@amanbelani3518",
+      "published_at": "2026-08-29T08:23:25Z",
+      "updated_at": "2026-08-29T08:23:25Z",
+      "submission_gmt": "2026-08-29 08:23:25 GMT",
+      "updated_gmt": "2026-08-29 08:23:25 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 08:23:25 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Crystal Palace 1-4 Man City\nLiverpool 3- 0 Forest\nBournemouth 1-2 Everton\nCoventry 2-2 Hull City\nSpurs 1-1 Newcastle \nChelsea 2-0 Brighton \nLeeds 2-1 Brentford \nSunderland 1-1 Fulham\nMan United 2-1 Ipswich\nAston Villa 1-2 Arsenal",
+      "original_comment_text": "Crystal Palace 1-4 Man City\nLiverpool 3- 0 Forest\nBournemouth 1-2 Everton\nCoventry 2-2 Hull City\nSpurs 1-1 Newcastle \nChelsea 2-0 Brighton \nLeeds 2-1 Brentford \nSunderland 1-1 Fulham\nMan United 2-1 Ipswich\nAston Villa 1-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-4",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "3-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@danenull254": {
+      "comment_id": "Ugw6JDDJuhZR_AUUu8d4AaABAg",
+      "author": "@danenull254",
+      "channel_url": "http://www.youtube.com/@danenull254",
+      "published_at": "2026-08-29T08:09:42Z",
+      "updated_at": "2026-08-29T08:09:42Z",
+      "submission_gmt": "2026-08-29 08:09:42 GMT",
+      "updated_gmt": "2026-08-29 08:09:42 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 13h 9m before earliest kickoff (2026-08-29 08:09:42 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Couldn't you have released this vid a day earlier? Like barely any time before the friday game, people at work or asleep don't get a chance to predict the first game. Skipped the palace vs city game.\n\nLiverpool 2-1 Forest\nBournemouth 1-0 Everton\nCoventry 1-1 Hull\nTottenham 2-1 Newcastle\nChelsea 2-2 Brighton\nLeeds 1-2 Brentford\nSunderland 2-2 Fulham\nMan United 2-1 Ipswich\nAston Villa 0-2 Arsenal",
+      "original_comment_text": "Couldn't you have released this vid a day earlier? Like barely any time before the friday game, people at work or asleep don't get a chance to predict the first game. Skipped the palace vs city game.\n\nLiverpool 2-1 Forest\nBournemouth 1-0 Everton\nCoventry 1-1 Hull\nTottenham 2-1 Newcastle\nChelsea 2-2 Brighton\nLeeds 1-2 Brentford\nSunderland 2-2 Fulham\nMan United 2-1 Ipswich\nAston Villa 0-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@mohsinkhanwrites2985": {
+      "comment_id": "UgxBopxt8J7-CJs4PW94AaABAg",
+      "author": "@mohsinkhanwrites2985",
+      "channel_url": "http://www.youtube.com/@mohsinkhanwrites2985",
+      "published_at": "2026-08-29T07:57:31Z",
+      "updated_at": "2026-08-29T07:57:31Z",
+      "submission_gmt": "2026-08-29 07:57:31 GMT",
+      "updated_gmt": "2026-08-29 07:57:31 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 12h 57m before earliest kickoff (2026-08-29 07:57:31 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "My predictions \nLiverpool 1-0 Nottingham \nBournemouth 3-1 Everton \nCoventry 0-2 Hull\nTottenham 2-1 Newcastle \nChelsea 2-1 Brighton\nLeeds 1-3 Brentford\nSunderland 1-0 Fulham\nMan utd 5-0 Ipswich (hatrick)\nAston Villa 1-3 Arsenal\n\nCame here after Crystal Palace vs Man City so still a loyal predictor going to predict the remaining 9",
+      "original_comment_text": "My predictions \nLiverpool 1-0 Nottingham \nBournemouth 3-1 Everton \nCoventry 0-2 Hull\nTottenham 2-1 Newcastle \nChelsea 2-1 Brighton\nLeeds 1-3 Brentford\nSunderland 1-0 Fulham\nMan utd 5-0 Ipswich (hatrick)\nAston Villa 1-3 Arsenal\n\nCame here after Crystal Palace vs Man City so still a loyal predictor going to predict the remaining 9",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "1-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "5-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@LordEdmund1973": {
+      "comment_id": "UgzvPmYZ20YlFXhfFMx4AaABAg",
+      "author": "@LordEdmund1973",
+      "channel_url": "http://www.youtube.com/@LordEdmund1973",
+      "published_at": "2026-08-29T07:00:55Z",
+      "updated_at": "2026-08-29T07:00:55Z",
+      "submission_gmt": "2026-08-29 07:00:55 GMT",
+      "updated_gmt": "2026-08-29 07:00:55 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 12h 0m before earliest kickoff (2026-08-29 07:00:55 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Palace vs Man City: Already happened\n\nLiverpool vs Notts Forest: 2-0\n\nCoventry vs Hull: 0-1\n\nBournemouth vs Everton: 1-3\n\nSpurs vs Newcastle: 1-2\n\nChelsea vs Brighton: 2-3 (Brighton are often a weird bogie team for Chelsea)\n\nLeeds vs Brentford: 2-3, Leeds are good, but Brentford seem even better. Brentford might make a top 5 push.\n\nSunderland vs Fulham: 0-3\n\nMan Utd vs Ipswich: 3-0\n\nVilla vs Arsenal: 0-2",
+      "original_comment_text": "Palace vs Man City: Already happened\n\nLiverpool vs Notts Forest: 2-0\n\nCoventry vs Hull: 0-1\n\nBournemouth vs Everton: 1-3\n\nSpurs vs Newcastle: 1-2\n\nChelsea vs Brighton: 2-3 (Brighton are often a weird bogie team for Chelsea)\n\nLeeds vs Brentford: 2-3, Leeds are good, but Brentford seem even better. Brentford might make a top 5 push.\n\nSunderland vs Fulham: 0-3\n\nMan Utd vs Ipswich: 3-0\n\nVilla vs Arsenal: 0-2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@Pokevlogster": {
+      "comment_id": "UgzNbspwy60dIBbZ9l14AaABAg",
+      "author": "@Pokevlogster",
+      "channel_url": "http://www.youtube.com/@Pokevlogster",
+      "published_at": "2026-08-29T06:56:18Z",
+      "updated_at": "2026-08-29T06:56:18Z",
+      "submission_gmt": "2026-08-29 06:56:18 GMT",
+      "updated_gmt": "2026-08-29 06:56:18 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 11h 56m before earliest kickoff (2026-08-29 06:56:18 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Liverpool 2-1 Forest\nBournemouth 1-1 Everton\nCoventry 1-0 Hull\nTottenham 2-2 Newcastle\nChelsea 1-1 Brighton\nLeeds 1-1 Brentford\nSunderland 0-0 Fulham\nMan United 2-0 Ipswich\nAston Villa 0-2 Arsenal",
+      "original_comment_text": "Liverpool 2-1 Forest\nBournemouth 1-1 Everton\nCoventry 1-0 Hull\nTottenham 2-2 Newcastle\nChelsea 1-1 Brighton\nLeeds 1-1 Brentford\nSunderland 0-0 Fulham\nMan United 2-0 Ipswich\nAston Villa 0-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@renecasstro": {
+      "comment_id": "UgwqvYQdQ-RQnexJSy14AaABAg",
+      "author": "@renecasstro",
+      "channel_url": "http://www.youtube.com/@renecasstro",
+      "published_at": "2026-08-29T06:51:00Z",
+      "updated_at": "2026-08-29T06:51:00Z",
+      "submission_gmt": "2026-08-29 06:51:00 GMT",
+      "updated_gmt": "2026-08-29 06:51:00 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 11h 51m before earliest kickoff (2026-08-29 06:51:00 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "urnemouth 0-1 Everton\nCoventry 1-2 Hull\nSpurs 1-2 Castle\nChelshit 2-0 Brighton\nleeds 0-2 brentford\nsunderland0-2 fulham\nyanited 3-1 ipswich\nasston 0-2 arseanal",
+      "original_comment_text": "urnemouth 0-1 Everton\nCoventry 1-2 Hull\nSpurs 1-2 Castle\nChelshit 2-0 Brighton\nleeds 0-2 brentford\nsunderland0-2 fulham\nyanited 3-1 ipswich\nasston 0-2 arseanal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 4,
+      "valid_matches_count": 4,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "0-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        }
+      }
+    },
+    "@HamzaSahi-v7z2n": {
+      "comment_id": "UgyQo7Yet-jU3hdeoQF4AaABAg",
+      "author": "@HamzaSahi-v7z2n",
+      "channel_url": "http://www.youtube.com/@HamzaSahi-v7z2n",
+      "published_at": "2026-08-29T06:45:46Z",
+      "updated_at": "2026-08-29T06:45:46Z",
+      "submission_gmt": "2026-08-29 06:45:46 GMT",
+      "updated_gmt": "2026-08-29 06:45:46 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 11h 45m before earliest kickoff (2026-08-29 06:45:46 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "MY PREDICTIONS FOR GAMEWEEK 2:\n\nLiverpool 2-1 Forest\nBouremouth 1-1 Everton\nCoventry 1-0 Hull\nSpurs 2-2 Newcastle\nChelsea 3-2 Brighton\nLeeds 1-1 Brentford\nSunderlan 1-2 Fulham\nMan utd 2-1 Ipswitch\nVilla 0-2 Arsenal",
+      "original_comment_text": "MY PREDICTIONS FOR GAMEWEEK 2:\n\nLiverpool 2-1 Forest\nBouremouth 1-1 Everton\nCoventry 1-0 Hull\nSpurs 2-2 Newcastle\nChelsea 3-2 Brighton\nLeeds 1-1 Brentford\nSunderlan 1-2 Fulham\nMan utd 2-1 Ipswitch\nVilla 0-2 Arsenal",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 8,
+      "valid_matches_count": 8,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@WashierPrism477": {
+      "comment_id": "Ugx_8CqYrd_mMA6gnLN4AaABAg",
+      "author": "@WashierPrism477",
+      "channel_url": "http://www.youtube.com/@WashierPrism477",
+      "published_at": "2026-08-29T06:36:25Z",
+      "updated_at": "2026-08-29T06:36:25Z",
+      "submission_gmt": "2026-08-29 06:36:25 GMT",
+      "updated_gmt": "2026-08-29 06:36:25 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 06:36:25 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Late but going to put these in anyway:\n(Would\u2019ve had) Crystal Palace 0 Man City 2\nLiverpool 1 Nottingham Forest 2\nBournemouth 1 Everton 1\nCoventry 2 Hull 0\nTottenham 2 Newcastle 1\nChelsea 2 Brighton 3\nLeeds 2 Brentford 1\nSunderland 1 Fulham 2\nMan Utd 3 Ipswich 1\nAston Villa 0 Arsenal 2",
+      "original_comment_text": "Late but going to put these in anyway:\n(Would\u2019ve had) Crystal Palace 0 Man City 2\nLiverpool 1 Nottingham Forest 2\nBournemouth 1 Everton 1\nCoventry 2 Hull 0\nTottenham 2 Newcastle 1\nChelsea 2 Brighton 3\nLeeds 2 Brentford 1\nSunderland 1 Fulham 2\nMan Utd 3 Ipswich 1\nAston Villa 0 Arsenal 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "0-2",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "1-2",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@georgeglen7204": {
+      "comment_id": "UgxUyVbl8pwvlzDY4ah4AaABAg",
+      "author": "@georgeglen7204",
+      "channel_url": "http://www.youtube.com/@georgeglen7204",
+      "published_at": "2026-08-29T06:09:50Z",
+      "updated_at": "2026-08-29T06:09:50Z",
+      "submission_gmt": "2026-08-29 06:09:50 GMT",
+      "updated_gmt": "2026-08-29 06:09:50 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 11h 9m before earliest kickoff (2026-08-29 06:09:50 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Liverpool 3 Forest 0\nBournemouth 0 Everton 1\nCoventry 2 Hull 0 \nSpurs 4 Newcastle 1 \nChelsea 3 Brighton 2\nLeeds 0 Brentford 0\nSunderland 0 Fulham 1\nMan U 3 Ipswich 2\nVilla 0 Arsenal 2",
+      "original_comment_text": "Liverpool 3 Forest 0\nBournemouth 0 Everton 1\nCoventry 2 Hull 0 \nSpurs 4 Newcastle 1 \nChelsea 3 Brighton 2\nLeeds 0 Brentford 0\nSunderland 0 Fulham 1\nMan U 3 Ipswich 2\nVilla 0 Arsenal 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "3-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "4-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@anmolagarwal08": {
+      "comment_id": "UgxBcUlde1G5DlKYHu54AaABAg",
+      "author": "@anmolagarwal08",
+      "channel_url": "http://www.youtube.com/@anmolagarwal08",
+      "published_at": "2026-08-29T06:00:52Z",
+      "updated_at": "2026-08-29T06:00:52Z",
+      "submission_gmt": "2026-08-29 06:00:52 GMT",
+      "updated_gmt": "2026-08-29 06:00:52 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-08-29 06:00:52 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Palace 1 City 4 (already happened)\nLiverpool 2 Forest 1\nCoventry 1 Hull 0\nBournemouth 3 Everton 1\nSpurs 1 Newcastle 2\nChelsea 2 Brighton 2\nLeeds 2 Brentford 1\nSunderland 0 Fulham 0\nMan united 1 Ipswich 1\nAston Villa 1 Arsenal 2",
+      "original_comment_text": "Palace 1 City 4 (already happened)\nLiverpool 2 Forest 1\nCoventry 1 Hull 0\nBournemouth 3 Everton 1\nSpurs 1 Newcastle 2\nChelsea 2 Brighton 2\nLeeds 2 Brentford 1\nSunderland 0 Fulham 0\nMan united 1 Ipswich 1\nAston Villa 1 Arsenal 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "1-4",
+          "actual": "1-4",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@kaushiksubramanian605": {
+      "comment_id": "UgwNo0mxJxlrNbzGNb54AaABAg",
+      "author": "@kaushiksubramanian605",
+      "channel_url": "http://www.youtube.com/@kaushiksubramanian605",
+      "published_at": "2026-08-29T05:58:19Z",
+      "updated_at": "2026-08-29T05:58:19Z",
+      "submission_gmt": "2026-08-29 05:58:19 GMT",
+      "updated_gmt": "2026-08-29 05:58:19 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 10h 58m before earliest kickoff (2026-08-29 05:58:19 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Liverpool vs Forrest 1-1\nBournemouth vs Everton 0-1\nCoventry vs Hull 2-0\nSpurs v Newcastle 1-3\nChelsea vs Brighton 2-2\nLeeds vs Brentford 1-0\nSunderland vs Fulham 1-2\nMan united vs Ipswich 2-0\nAston Villa vs Arsenal 0-1",
+      "original_comment_text": "Liverpool vs Forrest 1-1\nBournemouth vs Everton 0-1\nCoventry vs Hull 2-0\nSpurs v Newcastle 1-3\nChelsea vs Brighton 2-2\nLeeds vs Brentford 1-0\nSunderland vs Fulham 1-2\nMan united vs Ipswich 2-0\nAston Villa vs Arsenal 0-1",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "1-1",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@PepechuxD": {
+      "comment_id": "UgwgQ2VBssVXf5oxY3h4AaABAg",
+      "author": "@PepechuxD",
+      "channel_url": "http://www.youtube.com/@PepechuxD",
+      "published_at": "2026-08-29T05:30:09Z",
+      "updated_at": "2026-08-29T05:30:09Z",
+      "submission_gmt": "2026-08-29 05:30:09 GMT",
+      "updated_gmt": "2026-08-29 05:30:09 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 10h 30m before earliest kickoff (2026-08-29 05:30:09 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Couldn't make it in time for the first match so I'll predict the other ones:\n\nLiverpool 4 Nottingham Forest 2\nBournemouth 2 Everton 1\nCoventry 2 Hull City 1\nSpurs 1 Newcastle 3\nChelsea 2 Brighton 0\nLeeds 3 Brentford 1\nSunderland 3 Fulham 1\nMan. United 4 Ipswich 0\nAston Villa 1 Arsenal 3",
+      "original_comment_text": "Couldn't make it in time for the first match so I'll predict the other ones:\n\nLiverpool 4 Nottingham Forest 2\nBournemouth 2 Everton 1\nCoventry 2 Hull City 1\nSpurs 1 Newcastle 3\nChelsea 2 Brighton 0\nLeeds 3 Brentford 1\nSunderland 3 Fulham 1\nMan. United 4 Ipswich 0\nAston Villa 1 Arsenal 3",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Crystal Palace vs Manchester City": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Nottingham Forest": {
+          "pred": "4-2",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Everton": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Hull City": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Newcastle United": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Brighton & Hove Albion": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Brentford": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Fulham": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs Ipswich Town": {
+          "pred": "4-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Aston Villa vs Arsenal": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
     "@rathangjoshi956": {
       "comment_id": "Ugzm_HxdFdx7Gnp1CpB4AaABAg",
       "author": "@rathangjoshi956",
@@ -34180,9 +36314,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34277,9 +36411,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34374,9 +36508,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34471,9 +36605,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34568,9 +36702,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34665,9 +36799,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34762,9 +36896,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34859,9 +36993,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -34956,9 +37090,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35053,9 +37187,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35150,9 +37284,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "4-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35247,9 +37381,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35344,9 +37478,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35441,9 +37575,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35538,9 +37672,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35635,7 +37769,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -35720,8 +37854,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
@@ -35732,9 +37866,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35829,9 +37963,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -35926,9 +38060,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36023,9 +38157,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36120,9 +38254,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36217,9 +38351,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36314,9 +38448,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36399,8 +38533,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
@@ -36411,9 +38545,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36508,9 +38642,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36605,9 +38739,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36702,9 +38836,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36799,9 +38933,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36884,8 +39018,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
@@ -36896,9 +39030,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -36993,9 +39127,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37090,9 +39224,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37175,8 +39309,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
@@ -37187,9 +39321,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37284,9 +39418,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37381,9 +39515,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37462,8 +39596,8 @@
       "original_comment_text": "I lost power today and couldn't comment in time before the match, hope my others can count...\n\nMan City 2-0 Crystal Palace\nLiverpool 1-0 Nottingham Forest\r\nBournemouth 1-3 Everton\r\nCoventry 1-1 Hull City\r\nSpuds 0-0 Newcastle\r\nChelsea 2-1 Brighton\r\nLeeds 2-1 Brentford\r\nSunderland 1-1 Fulham\r\nMan United 2-1 Ipswich\r\nAston Villa 0-3 Arsenal",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 8,
+      "matches_found": 10,
+      "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
       "outcome_scores": 0,
@@ -37478,9 +39612,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37498,10 +39632,10 @@
           "is_late": false
         },
         "Tottenham Hotspur vs Newcastle United": {
-          "pred": "N/A",
+          "pred": "0-0",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Chelsea vs Brighton & Hove Albion": {
@@ -37575,9 +39709,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37672,9 +39806,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37769,9 +39903,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37866,9 +40000,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -37963,9 +40097,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38060,9 +40194,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38145,8 +40279,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-4",
@@ -38157,9 +40291,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38254,9 +40388,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38351,9 +40485,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38448,9 +40582,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38545,9 +40679,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38642,9 +40776,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38739,9 +40873,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38836,9 +40970,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -38933,9 +41067,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39030,9 +41164,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39127,9 +41261,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "4-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39224,9 +41358,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39321,9 +41455,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39418,7 +41552,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -39515,9 +41649,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39612,9 +41746,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "4-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39709,9 +41843,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39806,9 +41940,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -39903,9 +42037,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40000,9 +42134,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40097,7 +42231,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -40194,9 +42328,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40291,9 +42425,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40388,9 +42522,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40473,8 +42607,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
@@ -40485,9 +42619,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40582,9 +42716,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40679,9 +42813,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40776,9 +42910,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40873,9 +43007,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -40970,9 +43104,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41055,8 +43189,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-4",
@@ -41067,9 +43201,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41164,9 +43298,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41261,9 +43395,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41358,9 +43492,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41455,9 +43589,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41552,9 +43686,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41649,9 +43783,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41746,9 +43880,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -41843,7 +43977,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -41940,9 +44074,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42037,9 +44171,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42134,9 +44268,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42219,8 +44353,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
@@ -42231,9 +44365,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42316,8 +44450,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-3",
@@ -42328,9 +44462,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42425,9 +44559,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42522,9 +44656,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42619,9 +44753,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42716,9 +44850,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42813,9 +44947,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42910,9 +45044,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "4-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -42995,8 +45129,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
@@ -43007,9 +45141,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43104,9 +45238,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43201,9 +45335,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43298,9 +45432,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43395,9 +45529,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43492,9 +45626,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43589,7 +45723,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -43686,9 +45820,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43783,9 +45917,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43880,9 +46014,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -43977,9 +46111,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44074,9 +46208,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44171,9 +46305,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44268,9 +46402,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44365,9 +46499,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44462,9 +46596,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44559,9 +46693,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44656,9 +46790,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44753,9 +46887,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44850,9 +46984,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -44947,9 +47081,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45044,9 +47178,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45129,8 +47263,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-1",
@@ -45141,9 +47275,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45238,9 +47372,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45323,8 +47457,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -45335,9 +47469,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45432,9 +47566,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45517,8 +47651,8 @@
       "valid_matches_count": 7,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-1",
@@ -45529,9 +47663,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45626,9 +47760,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45723,9 +47857,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45820,9 +47954,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -45917,9 +48051,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46002,8 +48136,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -46014,9 +48148,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46111,9 +48245,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46208,9 +48342,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46305,9 +48439,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "4-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46402,9 +48536,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46487,8 +48621,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "7-2",
@@ -46499,9 +48633,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "5-5",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46596,9 +48730,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46693,9 +48827,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46790,9 +48924,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46887,9 +49021,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -46984,9 +49118,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47081,9 +49215,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47178,9 +49312,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47275,9 +49409,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47372,9 +49506,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47457,8 +49591,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
@@ -47469,9 +49603,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47566,9 +49700,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47663,9 +49797,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47760,9 +49894,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47857,9 +49991,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -47954,9 +50088,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48051,9 +50185,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48136,8 +50270,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "N/A",
@@ -48148,9 +50282,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48245,9 +50379,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48342,9 +50476,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48439,9 +50573,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48536,9 +50670,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48621,8 +50755,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
@@ -48633,9 +50767,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48730,9 +50864,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48827,9 +50961,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -48924,9 +51058,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49021,9 +51155,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49106,8 +51240,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -49118,9 +51252,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49215,9 +51349,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49312,9 +51446,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49409,9 +51543,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49494,8 +51628,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
@@ -49506,9 +51640,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49603,9 +51737,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49688,8 +51822,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
@@ -49700,9 +51834,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49797,9 +51931,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49894,9 +52028,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -49991,9 +52125,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50088,9 +52222,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50185,9 +52319,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50282,7 +52416,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -50379,9 +52513,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50476,9 +52610,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50573,9 +52707,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50670,9 +52804,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50767,9 +52901,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50864,9 +52998,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -50961,9 +53095,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51058,9 +53192,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51155,9 +53289,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51252,9 +53386,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51349,9 +53483,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51446,9 +53580,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51531,8 +53665,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -51543,9 +53677,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51640,9 +53774,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51737,9 +53871,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51834,9 +53968,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -51919,8 +54053,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -51931,9 +54065,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52016,8 +54150,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
@@ -52028,9 +54162,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52125,9 +54259,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52222,9 +54356,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52319,9 +54453,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52416,9 +54550,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52513,9 +54647,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52610,7 +54744,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -52707,9 +54841,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52792,8 +54926,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "2-0",
@@ -52804,9 +54938,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52901,9 +55035,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -52998,9 +55132,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53095,9 +55229,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53192,9 +55326,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53289,9 +55423,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53386,9 +55520,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53483,9 +55617,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53580,9 +55714,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53677,9 +55811,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53774,7 +55908,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -53871,9 +56005,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -53968,9 +56102,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54065,9 +56199,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54162,9 +56296,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54259,9 +56393,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54356,9 +56490,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54441,8 +56575,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-3",
@@ -54453,9 +56587,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54538,8 +56672,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
@@ -54550,9 +56684,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54647,9 +56781,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54744,9 +56878,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -54841,7 +56975,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -54938,9 +57072,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55023,8 +57157,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
@@ -55035,9 +57169,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55132,9 +57266,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55229,9 +57363,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55314,8 +57448,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
@@ -55326,9 +57460,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55423,9 +57557,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55520,9 +57654,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55617,9 +57751,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55714,9 +57848,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55811,9 +57945,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -55908,9 +58042,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56005,9 +58139,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56090,8 +58224,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-3",
@@ -56102,9 +58236,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56199,9 +58333,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56296,9 +58430,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56393,9 +58527,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56490,9 +58624,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56575,8 +58709,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -56587,9 +58721,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56684,9 +58818,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56781,9 +58915,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56878,9 +59012,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -56975,9 +59109,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57060,8 +59194,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
@@ -57072,9 +59206,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57169,9 +59303,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57266,9 +59400,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "4-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57363,9 +59497,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57448,8 +59582,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-2",
@@ -57460,9 +59594,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57557,9 +59691,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57642,8 +59776,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -57654,9 +59788,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57751,9 +59885,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57848,9 +59982,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -57945,9 +60079,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58042,9 +60176,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58139,9 +60273,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58236,9 +60370,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58321,8 +60455,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "0-4",
@@ -58333,9 +60467,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58430,9 +60564,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58527,9 +60661,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58624,9 +60758,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58721,9 +60855,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58818,9 +60952,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -58915,9 +61049,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59012,9 +61146,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59109,9 +61243,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59206,9 +61340,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59303,9 +61437,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59400,9 +61534,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59485,8 +61619,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Crystal Palace vs Manchester City": {
           "pred": "1-2",
@@ -59497,9 +61631,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59594,9 +61728,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59691,7 +61825,7 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -59788,9 +61922,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59885,9 +62019,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -59982,9 +62116,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -60079,9 +62213,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -60176,9 +62310,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -60273,9 +62407,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
@@ -60370,9 +62504,9 @@
         },
         "Liverpool vs Nottingham Forest": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Everton": {
