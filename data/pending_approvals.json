@@ -1931,7 +1931,8 @@
     "pred_away": 1,
     "confidence": 88,
     "detected_teams": "Liverpool vs Nottingham Forest",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_RiskRRR123_12",
