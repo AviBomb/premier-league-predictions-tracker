@@ -655,6 +655,14 @@
         "pred_home": 0,
         "pred_away": 0
       }
+    },
+    "@NkonghoepeyJoypraise": {
+      "14": {
+        "status": "approved",
+        "timestamp": "2026-08-29T11:03:18.223Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
     }
   }
 }
