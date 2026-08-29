@@ -1874,7 +1874,8 @@
     "pred_away": 2,
     "confidence": 97,
     "detected_teams": "Sunderland vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw2_SportsCardsCenter_15",
