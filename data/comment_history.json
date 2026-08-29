@@ -9514,10 +9514,14 @@
       {
         "timestamp": "2026-08-28T20:03:38Z",
         "text": "GW 2:\nPalace - City 1:2\nLiverpool - Forrest 3:0\nBournemouth - Everton 1:1\nCoventry - Hull 0:1\nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2"
+      },
+      {
+        "timestamp": "2026-08-29T16:11:41Z",
+        "text": "GW 2:\nPalace - City 1:2 \ud83e\udd0f \nLiverpool - Forrest 3:0\u274c \nBournemouth - Everton 1:1\u2705 \nCoventry - Hull 0:1\u2705 \nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2"
       }
     ],
-    "latest_text": "GW 2:\nPalace - City 1:2 \ud83e\udd0f \nLiverpool - Forrest 3:0\u274c \nBournemouth - Everton 1:1\u2705 \nCoventry - Hull 0:1\u2705 \nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2",
-    "latest_upd": "2026-08-29T16:11:41Z"
+    "latest_text": "GW 2:\nPalace - City 1:2 \ud83e\udd0f \nLiverpool - Forrest 3:0\u274c \nBournemouth - Everton 1:1\u2705 \nCoventry - Hull 0:1\u2705 \nSpurs - Newcastle 1:4\ud83e\udd0f \nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2",
+    "latest_upd": "2026-08-29T20:08:50Z"
   },
   "UgwUZPrufEjJdX6Ford4AaABAg": {
     "initial_text": "Has Susan gone to Azerbaijan yet?",
@@ -10865,5 +10869,12 @@
     "revisions": [],
     "latest_text": "City losing huh",
     "latest_upd": "2026-08-29T16:42:20Z"
+  },
+  "UgztRVI57WSd4c3P-TV4AaABAg": {
+    "initial_text": "Clearly this guy doesn't watch football at all. The 'rebuild' that is being sold by city is because they didn't work. reijnders was terrible, savinho had no output, marmoush didn't fit the system. Nico maybe should've stayed but very reasonable business. Why wait 2-3 seasons for their value to drop then sell them at a loss. Ruthless business and new manager knows what he wants.",
+    "initial_pub": "2026-08-29T19:52:33Z",
+    "revisions": [],
+    "latest_text": "Clearly this guy doesn't watch football at all. The 'rebuild' that is being sold by city is because they didn't work. reijnders was terrible, savinho had no output, marmoush didn't fit the system. Nico maybe should've stayed but very reasonable business. Why wait 2-3 seasons for their value to drop then sell them at a loss. Ruthless business and new manager knows what he wants.",
+    "latest_upd": "2026-08-29T19:52:33Z"
   }
 }
