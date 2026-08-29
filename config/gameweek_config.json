@@ -770,7 +770,7 @@
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
           "home_act": 1,
-          "away_act": 0,
+          "away_act": 1,
           "home_goals": [
             {
               "minute": "",
@@ -779,14 +779,21 @@
               "type": "G"
             }
           ],
-          "away_goals": [],
+          "away_goals": [
+            {
+              "minute": "",
+              "scorer": "Tarkowski",
+              "assist": null,
+              "type": "G"
+            }
+          ],
           "home_goals_summary": "Scott (Evanilson)",
-          "away_goals_summary": "",
+          "away_goals_summary": "Tarkowski",
           "kickoff": "2026-08-29T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 63,
-          "status": "ONGOING"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 13,
@@ -795,17 +802,23 @@
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
           "home_act": 0,
-          "away_act": 0,
+          "away_act": 1,
           "home_goals": [],
-          "away_goals": [],
+          "away_goals": [
+            {
+              "minute": "82'",
+              "scorer": "Liam Millar",
+              "assist": "Mohamed Belloumi",
+              "type": "G"
+            }
+          ],
           "home_goals_summary": "",
-          "away_goals_summary": "",
+          "away_goals_summary": "Liam Millar 82' (assist: Mohamed Belloumi)",
           "kickoff": "2026-08-29T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 63,
-          "status": "ONGOING",
-          "clock": "65'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 15,
