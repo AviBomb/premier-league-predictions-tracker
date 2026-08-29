@@ -36359,16 +36359,29 @@
         "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
         "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
         "home_act": 0,
-        "away_act": 0,
+        "away_act": 2,
         "home_goals": [],
-        "away_goals": [],
+        "away_goals": [
+          {
+            "minute": "62'",
+            "scorer": "Anthony Elanga",
+            "assist": "Amar Dedic",
+            "type": "G"
+          },
+          {
+            "minute": "72'",
+            "scorer": "Yoane Wissa",
+            "assist": "Nick Woltemade",
+            "type": "G"
+          }
+        ],
         "home_goals_summary": "",
-        "away_goals_summary": "",
+        "away_goals_summary": "Anthony Elanga 62' (assist: Amar Dedic), Yoane Wissa 72' (assist: Nick Woltemade)",
         "kickoff": "2026-08-29T16:30:00Z",
-        "finished": false,
-        "started": false,
-        "minutes": 0,
-        "status": "UPCOMING"
+        "finished": true,
+        "started": true,
+        "minutes": 90,
+        "status": "FT"
       },
       {
         "id": 16,
@@ -36463,6 +36476,200 @@
     ],
     "audited_records": [
       {
+        "comment_id": "UgzSzgY3z8GtUqzye9t4AaABAg",
+        "author": "@noraniesoh",
+        "channel_url": "http://www.youtube.com/@noraniesoh",
+        "published_at": "2026-08-29T17:36:24Z",
+        "updated_at": "2026-08-29T17:36:24Z",
+        "submission_gmt": "2026-08-29 17:36:24 GMT",
+        "updated_gmt": "2026-08-29 17:36:24 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late for 1 match(es)",
+        "timing_analysis": "Submitted 2026-08-29 17:36:24 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid* (Late for 1 match)",
+        "raw_text": "Gw 2 predictions (uploaded at halftime during the spurs Newcastle match)\nSpurs vs Newcastle 0-1\nChelsea vs Brighton 3-3\nLeeds vs Brentford 1-2\nSunderland vs Fulham 0-0\nMan Utd vs Ipswich 1-0\nAston Villa vs Arsenal 1-2",
+        "original_comment_text": "Gw 2 predictions (uploaded at halftime during the spurs Newcastle match)\nSpurs vs Newcastle 0-1\nChelsea vs Brighton 3-3\nLeeds vs Brentford 1-2\nSunderland vs Fulham 0-0\nMan Utd vs Ipswich 1-0\nAston Villa vs Arsenal 1-2",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 6,
+        "valid_matches_count": 5,
+        "late_matches_count": 1,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Crystal Palace vs Manchester City": {
+            "pred": "N/A",
+            "actual": "1-4",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Liverpool vs Nottingham Forest": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Everton": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Coventry City vs Hull City": {
+            "pred": "N/A",
+            "actual": "0-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Newcastle United": {
+            "pred": "0-1",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Chelsea vs Brighton & Hove Albion": {
+            "pred": "3-3",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Leeds United vs Brentford": {
+            "pred": "1-2",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Sunderland vs Fulham": {
+            "pred": "0-0",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Manchester United vs Ipswich Town": {
+            "pred": "1-0",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Aston Villa vs Arsenal": {
+            "pred": "1-2",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          }
+        }
+      },
+      {
+        "comment_id": "UgyINh5YfuGZu3Y4L4Z4AaABAg",
+        "author": "@ДушанРаковић",
+        "channel_url": "http://www.youtube.com/@%D0%94%D1%83%D1%88%D0%B0%D0%BD%D0%A0%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B",
+        "published_at": "2026-08-29T16:45:54Z",
+        "updated_at": "2026-08-29T16:45:54Z",
+        "submission_gmt": "2026-08-29 16:45:54 GMT",
+        "updated_gmt": "2026-08-29 16:45:54 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "",
+        "timing_analysis": "Submitted 21h 45m before earliest kickoff (2026-08-29 16:45:54 GMT)",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid",
+        "raw_text": "Ive missed the first 5 games😔😔\nSo here are my Sunday and Monday presictions\nChelsea-Brighton 3-1\nLeeds-Brentford 1-0\nSunderland-Fulham 1-1\nMan Utd-Ipswich 2-0\nVilla-Arsenal 0-3",
+        "original_comment_text": "Ive missed the first 5 games😔😔\nSo here are my Sunday and Monday presictions\nChelsea-Brighton 3-1\nLeeds-Brentford 1-0\nSunderland-Fulham 1-1\nMan Utd-Ipswich 2-0\nVilla-Arsenal 0-3",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 5,
+        "valid_matches_count": 5,
+        "late_matches_count": 0,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Crystal Palace vs Manchester City": {
+            "pred": "N/A",
+            "actual": "1-4",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Liverpool vs Nottingham Forest": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Everton": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Coventry City vs Hull City": {
+            "pred": "N/A",
+            "actual": "0-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Newcastle United": {
+            "pred": "N/A",
+            "actual": "0-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Chelsea vs Brighton & Hove Albion": {
+            "pred": "3-1",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Leeds United vs Brentford": {
+            "pred": "1-0",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Sunderland vs Fulham": {
+            "pred": "1-1",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Manchester United vs Ipswich Town": {
+            "pred": "2-0",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Aston Villa vs Arsenal": {
+            "pred": "0-3",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          }
+        }
+      },
+      {
         "comment_id": "UgwQRk0of3AIt6-3UcN4AaABAg",
         "author": "@Lord_of_the_Pudding",
         "channel_url": "http://www.youtube.com/@Lord_of_the_Pudding",
@@ -36484,8 +36691,8 @@
         "valid_matches_count": 6,
         "late_matches_count": 2,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -36517,9 +36724,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -36581,8 +36788,8 @@
         "valid_matches_count": 7,
         "late_matches_count": 2,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -36614,9 +36821,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -36678,8 +36885,8 @@
         "valid_matches_count": 6,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -36711,9 +36918,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -36775,8 +36982,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 2,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -36808,9 +37015,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -36905,7 +37112,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -36969,8 +37176,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -37002,9 +37209,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -37099,7 +37306,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -37163,8 +37370,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -37196,9 +37403,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -37260,8 +37467,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -37293,9 +37500,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -37357,8 +37564,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -37390,9 +37597,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -37453,9 +37660,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 0,
-        "total_points": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -37487,9 +37694,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -37584,7 +37791,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
@@ -37681,7 +37888,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -37745,8 +37952,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -37778,9 +37985,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -37842,8 +38049,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -37875,9 +38082,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -37972,7 +38179,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -38036,8 +38243,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-0",
@@ -38069,9 +38276,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -38133,8 +38340,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -38166,9 +38373,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -38230,8 +38437,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -38263,9 +38470,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -38360,7 +38567,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -38457,7 +38664,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -38521,8 +38728,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -38554,9 +38761,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -38618,8 +38825,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -38651,9 +38858,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -38715,8 +38922,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -38748,9 +38955,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -38812,8 +39019,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -38845,9 +39052,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -38942,7 +39149,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -39039,7 +39246,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "4-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -39103,8 +39310,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -39136,9 +39343,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -39200,8 +39407,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -39233,9 +39440,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -39297,8 +39504,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -39330,9 +39537,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -39427,7 +39634,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -39491,8 +39698,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -39524,9 +39731,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -39588,8 +39795,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -39621,9 +39828,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -39685,8 +39892,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -39718,9 +39925,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -39782,8 +39989,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -39815,9 +40022,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -39912,7 +40119,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -39976,8 +40183,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -40009,9 +40216,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40073,8 +40280,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -40106,9 +40313,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40170,8 +40377,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 2,
-        "outcome_scores": 1,
-        "total_points": 7,
+        "outcome_scores": 0,
+        "total_points": 6,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -40203,9 +40410,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40267,8 +40474,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -40300,9 +40507,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40397,9 +40604,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Miss (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40494,7 +40701,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -40558,8 +40765,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -40591,9 +40798,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40693,7 +40900,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "N/A",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -40790,9 +40997,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Outcome (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40854,8 +41061,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -40887,9 +41094,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -40984,7 +41191,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -41048,8 +41255,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -41081,9 +41288,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -41145,8 +41352,8 @@
         "valid_matches_count": 1,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -41178,9 +41385,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -41242,8 +41449,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 0,
-        "total_points": 6,
+        "outcome_scores": 1,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -41275,9 +41482,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -41339,8 +41546,8 @@
         "valid_matches_count": 7,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -41372,9 +41579,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -41436,8 +41643,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -41469,9 +41676,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -41566,7 +41773,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -41663,7 +41870,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -41727,8 +41934,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -41760,9 +41967,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-3",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -41857,7 +42064,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -41921,8 +42128,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -41954,9 +42161,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42018,8 +42225,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -42051,9 +42258,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42115,8 +42322,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -42148,9 +42355,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42245,9 +42452,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Outcome (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42342,7 +42549,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -42406,8 +42613,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -42439,9 +42646,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42536,7 +42743,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -42600,8 +42807,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -42633,9 +42840,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42697,8 +42904,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -42730,9 +42937,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-6",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42794,8 +43001,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -42827,9 +43034,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -42891,8 +43098,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -42924,9 +43131,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43021,7 +43228,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -43084,9 +43291,9 @@
         "matches_found": 10,
         "valid_matches_count": 9,
         "late_matches_count": 1,
-        "exact_scores": 1,
+        "exact_scores": 0,
         "outcome_scores": 0,
-        "total_points": 3,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -43118,9 +43325,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-0",
-            "actual": "0-0",
-            "points": 3,
-            "result": "Exact",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43215,7 +43422,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -43279,8 +43486,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-4",
@@ -43312,9 +43519,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43376,8 +43583,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -43409,9 +43616,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-4",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43472,9 +43679,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 0,
-        "total_points": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -43506,9 +43713,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43570,8 +43777,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-1",
@@ -43603,9 +43810,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43700,7 +43907,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -43764,8 +43971,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -43797,9 +44004,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43861,8 +44068,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -43894,9 +44101,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -43958,8 +44165,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -43991,9 +44198,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44055,8 +44262,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -44088,9 +44295,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44152,8 +44359,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -44185,9 +44392,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44249,8 +44456,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -44282,9 +44489,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44346,8 +44553,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 2,
-        "outcome_scores": 0,
-        "total_points": 6,
+        "outcome_scores": 1,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -44379,9 +44586,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44476,7 +44683,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -44573,7 +44780,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -44637,8 +44844,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -44670,9 +44877,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44734,8 +44941,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -44767,9 +44974,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44831,8 +45038,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -44864,9 +45071,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -44961,7 +45168,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -45058,7 +45265,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -45155,7 +45362,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -45219,8 +45426,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -45252,9 +45459,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -45316,8 +45523,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -45349,9 +45556,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -45413,8 +45620,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -45446,9 +45653,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -45510,8 +45717,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -45543,9 +45750,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -45640,7 +45847,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -45737,7 +45944,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -45834,7 +46041,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -45931,7 +46138,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -45995,8 +46202,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -46028,9 +46235,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -46125,7 +46332,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -46189,8 +46396,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -46222,9 +46429,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -46319,7 +46526,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -46383,8 +46590,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -46416,9 +46623,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -46480,8 +46687,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -46513,9 +46720,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -46610,7 +46817,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -46674,8 +46881,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -46707,9 +46914,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -46804,7 +47011,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -46868,8 +47075,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -46901,9 +47108,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -46965,8 +47172,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -46998,9 +47205,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -47095,9 +47302,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Outcome (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -47159,8 +47366,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -47192,9 +47399,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -47289,7 +47496,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -47353,8 +47560,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -47386,9 +47593,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -47450,8 +47657,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -47483,9 +47690,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -47580,7 +47787,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "N/A",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -47644,8 +47851,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -47677,9 +47884,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -47774,7 +47981,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -47876,9 +48083,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Miss (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -47940,8 +48147,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -47973,9 +48180,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48037,8 +48244,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -48070,9 +48277,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48167,7 +48374,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -48231,8 +48438,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -48264,9 +48471,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48328,8 +48535,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -48361,9 +48568,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48424,9 +48631,9 @@
         "matches_found": 10,
         "valid_matches_count": 9,
         "late_matches_count": 1,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 1,
-        "total_points": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -48458,9 +48665,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48522,8 +48729,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-4",
@@ -48555,9 +48762,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48619,8 +48826,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -48652,9 +48859,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48749,7 +48956,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -48813,8 +49020,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -48846,9 +49053,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -48910,8 +49117,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -48943,9 +49150,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49007,8 +49214,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -49040,9 +49247,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49104,8 +49311,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -49137,9 +49344,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49200,9 +49407,9 @@
         "matches_found": 10,
         "valid_matches_count": 9,
         "late_matches_count": 1,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 0,
-        "total_points": 3,
+        "total_points": 6,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -49234,9 +49441,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49281,94 +49488,99 @@
         "author": "@octavdumitru",
         "channel_url": "http://www.youtube.com/@octavdumitru",
         "published_at": "2026-08-28T20:03:38Z",
-        "updated_at": "2026-08-28T20:03:38Z",
+        "updated_at": "2026-08-29T16:11:41Z",
         "submission_gmt": "2026-08-28 20:03:38 GMT",
-        "updated_gmt": "2026-08-28 20:03:38 GMT",
-        "edit_delta_str": "",
-        "lateness_str": "Late for 1 match(es)",
-        "timing_analysis": "Submitted 2026-08-28 20:03:38 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
-        "is_edited": false,
-        "has_recorded_diff": false,
-        "status": "Valid* (Late for 1 match)",
-        "raw_text": "GW 2:\nPalace - City 1:2\nLiverpool - Forrest 3:0\nBournemouth - Everton 1:1\nCoventry - Hull 0:1\nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2",
+        "updated_gmt": "2026-08-29 16:11:41 GMT",
+        "edit_delta_str": "Edited 20h 8m after original post",
+        "lateness_str": "",
+        "timing_analysis": "Comment was edited on YouTube. Initially posted: 2026-08-28 20:03:38 GMT | Last edited: 2026-08-29 16:11:41 GMT (Edited 20h 8m after original post)",
+        "is_edited": true,
+        "has_recorded_diff": true,
+        "status": "Disqualified (Comment was Edited)",
+        "raw_text": "GW 2:\nPalace - City 1:2 🤏 \nLiverpool - Forrest 3:0❌ \nBournemouth - Everton 1:1✅ \nCoventry - Hull 0:1✅ \nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2",
         "original_comment_text": "GW 2:\nPalace - City 1:2\nLiverpool - Forrest 3:0\nBournemouth - Everton 1:1\nCoventry - Hull 0:1\nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2",
-        "revisions": [],
-        "diff_html": "",
+        "revisions": [
+          {
+            "timestamp": "2026-08-28T20:03:38Z",
+            "text": "GW 2:\nPalace - City 1:2\nLiverpool - Forrest 3:0\nBournemouth - Everton 1:1\nCoventry - Hull 0:1\nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2"
+          }
+        ],
+        "diff_html": "<div class='diff-line' style='color:#ccc;'>GW 2:</div><div class='diff-line diff-del'>- Palace - City 1:2</div><div class='diff-line diff-del'>- Liverpool - Forrest 3:0</div><div class='diff-line diff-del'>- Bournemouth - Everton 1:1</div><div class='diff-line diff-del'>- Coventry - Hull 0:1</div><div class='diff-line diff-add'>+ Palace - City 1:2 🤏 </div><div class='diff-line diff-add'>+ Liverpool - Forrest 3:0❌ </div><div class='diff-line diff-add'>+ Bournemouth - Everton 1:1✅ </div><div class='diff-line diff-add'>+ Coventry - Hull 0:1✅ </div><div class='diff-line' style='color:#ccc;'>Spurs - Newcastle 1:4</div><div class='diff-line' style='color:#ccc;'>Chelsea - Brighton 4:0</div><div class='diff-line' style='color:#ccc;'>Sunderland - Fulham 0:0</div><div class='diff-line' style='color:#ccc;'>Leeds - Brentford 3:2</div><div class='diff-line' style='color:#ccc;'>Man United - Ipswich 3:1</div><div class='diff-line' style='color:#ccc;'>Aston Villa - Arsenal 0:2</div>",
         "matches_found": 10,
-        "valid_matches_count": 9,
-        "late_matches_count": 1,
-        "exact_scores": 2,
+        "valid_matches_count": 0,
+        "late_matches_count": 0,
+        "exact_scores": 0,
         "outcome_scores": 0,
-        "total_points": 6,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
             "actual": "1-4",
             "points": 0,
-            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": true
           },
           "Liverpool vs Nottingham Forest": {
             "pred": "3-0",
             "actual": "2-2",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "AFC Bournemouth vs Everton": {
             "pred": "1-1",
             "actual": "1-1",
-            "points": 3,
-            "result": "Exact",
+            "points": 0,
+            "result": "Exact (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Coventry City vs Hull City": {
             "pred": "0-1",
             "actual": "0-1",
-            "points": 3,
-            "result": "Exact",
+            "points": 0,
+            "result": "Exact (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-4",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Miss",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
             "pred": "4-0",
             "actual": "TBD",
             "points": 0,
-            "result": "Pending",
+            "result": "Pending (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Leeds United vs Brentford": {
             "pred": "3-2",
             "actual": "TBD",
             "points": 0,
-            "result": "Pending",
+            "result": "Pending (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Sunderland vs Fulham": {
             "pred": "0-0",
             "actual": "TBD",
             "points": 0,
-            "result": "Pending",
+            "result": "Pending (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Manchester United vs Ipswich Town": {
             "pred": "3-1",
             "actual": "TBD",
             "points": 0,
-            "result": "Pending",
+            "result": "Pending (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Aston Villa vs Arsenal": {
             "pred": "0-2",
             "actual": "TBD",
             "points": 0,
-            "result": "Pending",
+            "result": "Pending (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -49395,8 +49607,8 @@
         "valid_matches_count": 7,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -49428,9 +49640,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49492,8 +49704,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -49525,9 +49737,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49589,8 +49801,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -49622,9 +49834,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49686,8 +49898,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -49719,9 +49931,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49783,8 +49995,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -49816,9 +50028,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -49913,7 +50125,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "N/A",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -49977,8 +50189,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -50010,9 +50222,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -50074,8 +50286,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "3-4",
@@ -50107,9 +50319,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -50171,8 +50383,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "4-1",
@@ -50204,9 +50416,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -50301,7 +50513,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -50364,9 +50576,9 @@
         "matches_found": 10,
         "valid_matches_count": 9,
         "late_matches_count": 1,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -50398,9 +50610,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -50462,8 +50674,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -50495,9 +50707,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -50592,7 +50804,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -50656,8 +50868,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -50689,9 +50901,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -50786,7 +50998,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -50850,8 +51062,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -50883,9 +51095,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -50980,7 +51192,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -51077,7 +51289,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -51141,8 +51353,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -51174,9 +51386,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -51271,7 +51483,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -51335,8 +51547,8 @@
         "valid_matches_count": 7,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -51368,9 +51580,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -51465,7 +51677,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -51529,8 +51741,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 2,
-        "outcome_scores": 0,
-        "total_points": 6,
+        "outcome_scores": 1,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -51562,9 +51774,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -51626,8 +51838,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-4",
@@ -51659,9 +51871,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -51723,8 +51935,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -51756,9 +51968,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -51820,8 +52032,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -51853,9 +52065,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -51917,8 +52129,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 2,
-        "outcome_scores": 1,
-        "total_points": 7,
+        "outcome_scores": 2,
+        "total_points": 8,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -51950,9 +52162,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-4",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52014,8 +52226,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -52047,9 +52259,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52111,8 +52323,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -52144,9 +52356,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52208,8 +52420,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -52241,9 +52453,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-4",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52338,7 +52550,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -52402,8 +52614,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "7-2",
@@ -52435,9 +52647,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "7-7",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52532,7 +52744,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -52596,8 +52808,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -52629,9 +52841,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52693,8 +52905,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -52726,9 +52938,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52790,8 +53002,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -52823,9 +53035,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52887,8 +53099,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 2,
-        "outcome_scores": 0,
-        "total_points": 6,
+        "outcome_scores": 1,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -52920,9 +53132,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -52984,8 +53196,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -53017,9 +53229,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53081,8 +53293,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -53114,9 +53326,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53211,9 +53423,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Miss (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53275,8 +53487,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -53308,9 +53520,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53372,8 +53584,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -53405,9 +53617,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53468,9 +53680,9 @@
         "matches_found": 10,
         "valid_matches_count": 9,
         "late_matches_count": 1,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 1,
-        "total_points": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -53502,9 +53714,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53599,9 +53811,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Miss (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53696,7 +53908,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -53793,9 +54005,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Outcome (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53857,8 +54069,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -53890,9 +54102,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -53987,7 +54199,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -54051,8 +54263,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -54084,9 +54296,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54147,9 +54359,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 1,
         "outcome_scores": 0,
-        "total_points": 6,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-1",
@@ -54181,9 +54393,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-0",
-            "actual": "0-0",
-            "points": 3,
-            "result": "Exact",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54245,8 +54457,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -54278,9 +54490,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54342,8 +54554,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -54375,9 +54587,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54472,7 +54684,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -54536,8 +54748,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -54569,9 +54781,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54633,8 +54845,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -54666,9 +54878,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54729,9 +54941,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -54763,9 +54975,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54827,8 +55039,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -54860,9 +55072,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -54924,8 +55136,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "3-1",
@@ -54957,9 +55169,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55021,8 +55233,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -55054,9 +55266,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55118,8 +55330,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -55151,9 +55363,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55215,8 +55427,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -55248,9 +55460,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55312,8 +55524,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -55345,9 +55557,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55442,7 +55654,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -55506,8 +55718,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -55539,9 +55751,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55603,8 +55815,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-4",
@@ -55636,9 +55848,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55700,8 +55912,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -55733,9 +55945,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55797,8 +56009,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -55830,9 +56042,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -55894,8 +56106,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -55927,9 +56139,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56024,7 +56236,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -56088,8 +56300,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -56121,9 +56333,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56185,8 +56397,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -56218,9 +56430,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56282,8 +56494,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -56315,9 +56527,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56379,8 +56591,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -56412,9 +56624,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56476,8 +56688,8 @@
         "valid_matches_count": 1,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -56509,9 +56721,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56606,7 +56818,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
@@ -56670,8 +56882,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -56703,9 +56915,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56767,8 +56979,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -56800,9 +57012,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56864,8 +57076,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -56897,9 +57109,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -56994,7 +57206,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -57058,8 +57270,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-0",
@@ -57091,9 +57303,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -57155,8 +57367,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -57188,9 +57400,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -57285,7 +57497,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -57348,9 +57560,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -57382,9 +57594,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -57445,9 +57657,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 1,
         "outcome_scores": 2,
-        "total_points": 8,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -57479,9 +57691,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-0",
-            "actual": "0-0",
-            "points": 3,
-            "result": "Exact",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -57576,7 +57788,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -57673,7 +57885,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -57737,8 +57949,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -57770,9 +57982,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -57834,8 +58046,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 1,
-        "total_points": 7,
+        "outcome_scores": 2,
+        "total_points": 8,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -57867,9 +58079,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -57931,8 +58143,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -57964,9 +58176,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -58061,7 +58273,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -58125,8 +58337,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -58158,9 +58370,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -58221,9 +58433,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 1,
         "outcome_scores": 1,
-        "total_points": 7,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -58255,9 +58467,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-0",
-            "actual": "0-0",
-            "points": 3,
-            "result": "Exact",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -58319,8 +58531,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -58352,9 +58564,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -58415,9 +58627,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -58449,9 +58661,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -58546,7 +58758,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "N/A",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -58610,8 +58822,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -58643,9 +58855,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -58740,7 +58952,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -58804,8 +59016,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -58837,9 +59049,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -58934,7 +59146,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -58998,8 +59210,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -59031,9 +59243,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -59128,7 +59340,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -59192,8 +59404,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-1",
@@ -59225,9 +59437,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -59288,9 +59500,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -59322,9 +59534,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -59385,9 +59597,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-1",
@@ -59419,9 +59631,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -59516,7 +59728,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -59579,9 +59791,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 0,
         "outcome_scores": 2,
-        "total_points": 5,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -59613,9 +59825,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-0",
-            "actual": "0-0",
-            "points": 3,
-            "result": "Exact",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -59710,7 +59922,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -59774,8 +59986,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -59807,9 +60019,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -59871,8 +60083,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -59904,9 +60116,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -59968,8 +60180,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -60001,9 +60213,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -60065,8 +60277,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "N/A",
@@ -60098,9 +60310,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -60162,8 +60374,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "3-3",
@@ -60195,9 +60407,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -60292,7 +60504,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -60356,8 +60568,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -60389,9 +60601,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -60486,7 +60698,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -60550,8 +60762,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -60583,9 +60795,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -60647,8 +60859,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -60680,9 +60892,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-3",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -60777,7 +60989,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -60874,7 +61086,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -60971,7 +61183,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -61035,8 +61247,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -61068,9 +61280,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -61165,7 +61377,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "N/A",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -61229,8 +61441,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -61262,9 +61474,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -61359,7 +61571,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -61423,8 +61635,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -61456,9 +61668,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -61553,7 +61765,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -61617,8 +61829,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -61650,9 +61862,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -61714,8 +61926,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -61747,9 +61959,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -61811,8 +62023,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-1",
@@ -61844,9 +62056,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -61908,8 +62120,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -61941,9 +62153,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -62005,8 +62217,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -62038,9 +62250,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -62135,7 +62347,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -62199,8 +62411,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -62232,9 +62444,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -62296,8 +62508,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -62329,9 +62541,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -62426,7 +62638,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -62490,8 +62702,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -62523,9 +62735,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -62620,7 +62832,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -62684,8 +62896,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -62717,9 +62929,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -62781,8 +62993,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -62814,9 +63026,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -62878,8 +63090,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -62911,9 +63123,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63008,7 +63220,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -63105,7 +63317,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -63169,8 +63381,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -63202,9 +63414,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63299,7 +63511,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "4-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -63363,8 +63575,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -63396,9 +63608,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63459,9 +63671,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -63493,9 +63705,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63557,8 +63769,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -63590,9 +63802,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63654,8 +63866,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -63687,9 +63899,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63751,8 +63963,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -63784,9 +63996,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63848,8 +64060,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 1,
-        "total_points": 7,
+        "outcome_scores": 2,
+        "total_points": 8,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -63881,9 +64093,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -63945,8 +64157,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -63978,9 +64190,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -64042,8 +64254,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 1,
+        "total_points": 7,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -64075,9 +64287,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -64172,7 +64384,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "N/A",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -64269,7 +64481,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -64333,8 +64545,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -64366,9 +64578,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -64430,8 +64642,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-3",
@@ -64463,9 +64675,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-1",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -64526,9 +64738,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 2,
-        "total_points": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -64560,9 +64772,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -64657,7 +64869,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -64721,8 +64933,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -64754,9 +64966,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-1",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -64851,9 +65063,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
-            "result": "Miss (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -64948,7 +65160,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -65012,8 +65224,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 1,
-        "total_points": 7,
+        "outcome_scores": 2,
+        "total_points": 8,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-3",
@@ -65045,9 +65257,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-5",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -65109,8 +65321,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-4",
@@ -65142,9 +65354,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -65206,8 +65418,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-1",
@@ -65239,9 +65451,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -65336,7 +65548,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -65399,9 +65611,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 0,
-        "total_points": 0,
+        "total_points": 3,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -65433,9 +65645,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -65530,7 +65742,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -65594,8 +65806,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -65627,9 +65839,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -65690,9 +65902,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 2,
-        "total_points": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -65724,9 +65936,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "0-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -65788,8 +66000,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -65821,9 +66033,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -65885,8 +66097,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -65918,9 +66130,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -66015,7 +66227,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-1",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -66079,8 +66291,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -66112,9 +66324,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-2",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -66209,7 +66421,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -66273,8 +66485,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "2-2",
@@ -66306,9 +66518,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-3",
-            "actual": "0-0",
-            "points": 0,
-            "result": "Miss",
+            "actual": "0-2",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -66370,8 +66582,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -66403,9 +66615,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "3-3",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -66500,7 +66712,7 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "1-0",
-            "actual": "0-0",
+            "actual": "0-2",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -66564,8 +66776,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -66597,9 +66809,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -66661,8 +66873,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "0-2",
@@ -66694,9 +66906,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
@@ -66758,8 +66970,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Crystal Palace vs Manchester City": {
             "pred": "1-2",
@@ -66791,9 +67003,9 @@
           },
           "Tottenham Hotspur vs Newcastle United": {
             "pred": "2-2",
-            "actual": "0-0",
-            "points": 1,
-            "result": "Outcome",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss",
             "is_late": false
           },
           "Chelsea vs Brighton & Hove Albion": {
