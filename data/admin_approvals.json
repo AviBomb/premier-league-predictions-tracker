@@ -679,6 +679,14 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@anmaroud9813": {
+      "14": {
+        "status": "approved",
+        "timestamp": "2026-08-29T15:23:05.739Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   }
 }
