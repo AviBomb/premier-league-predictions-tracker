@@ -36476,6 +36476,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "Ugwvw6IrhjxOwskaNf14AaABAg",
+        "author": "@ГеоргиДимитров-н6л",
+        "channel_url": "http://www.youtube.com/@%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%94%D0%B8%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2-%D0%BD6%D0%BB",
+        "published_at": "2026-08-30T07:03:06Z",
+        "updated_at": "2026-08-30T07:08:44Z",
+        "submission_gmt": "2026-08-30 07:03:06 GMT",
+        "updated_gmt": "2026-08-30 07:08:44 GMT",
+        "edit_delta_str": "Edited 5m after original post",
+        "lateness_str": "",
+        "timing_analysis": "Comment was edited on YouTube. Initially posted: 2026-08-30 07:03:06 GMT | Last edited: 2026-08-30 07:08:44 GMT (Edited 5m after original post)",
+        "is_edited": true,
+        "has_recorded_diff": false,
+        "status": "Disqualified (Comment was Edited)",
+        "raw_text": "My predictions in the start (I am really late but still...)\nCrystal Palace 1:2 Man City\nLiverpool 2:0 Forest\nBournemouth 1:1 Everton\nCoventry 2:1 Hull City\nTottenham 2:2 Newcastle\nChelsea 3:1 Brighton\nLeeds 1:1 Brentford\nSunderland 1:1 Fulham\nMan United 1:0 Ipswich\nAston Villa 1:2 Arsenal",
+        "original_comment_text": "My predictions in the start (I am really late but still...)\nCrystal Palace 1:2 Man City\nLiverpool 2:0 Forest\nBournemouth 1:1 Everton\nCoventry 2:1 Hull City\nTottenham 2:2 Newcastle\nChelsea 3:1 Brighton\nLeeds 1:1 Brentford\nSunderland 1:1 Fulham\nMan United 1:0 Ipswich\nAston Villa 1:2 Arsenal",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 10,
+        "valid_matches_count": 0,
+        "late_matches_count": 0,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Crystal Palace vs Manchester City": {
+            "pred": "1-2",
+            "actual": "1-4",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
+            "is_late": true
+          },
+          "Liverpool vs Nottingham Forest": {
+            "pred": "2-0",
+            "actual": "2-2",
+            "points": 0,
+            "result": "Miss (Disqualified - Edited Comment)",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Everton": {
+            "pred": "1-1",
+            "actual": "1-1",
+            "points": 0,
+            "result": "Exact (Disqualified - Edited Comment)",
+            "is_late": true
+          },
+          "Coventry City vs Hull City": {
+            "pred": "2-1",
+            "actual": "0-1",
+            "points": 0,
+            "result": "Miss (Disqualified - Edited Comment)",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Newcastle United": {
+            "pred": "2-2",
+            "actual": "0-2",
+            "points": 0,
+            "result": "Miss (Disqualified - Edited Comment)",
+            "is_late": true
+          },
+          "Chelsea vs Brighton & Hove Albion": {
+            "pred": "3-1",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending (Disqualified - Edited Comment)",
+            "is_late": false
+          },
+          "Leeds United vs Brentford": {
+            "pred": "1-1",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending (Disqualified - Edited Comment)",
+            "is_late": false
+          },
+          "Sunderland vs Fulham": {
+            "pred": "1-1",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending (Disqualified - Edited Comment)",
+            "is_late": false
+          },
+          "Manchester United vs Ipswich Town": {
+            "pred": "1-0",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending (Disqualified - Edited Comment)",
+            "is_late": false
+          },
+          "Aston Villa vs Arsenal": {
+            "pred": "1-2",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending (Disqualified - Edited Comment)",
+            "is_late": false
+          }
+        }
+      },
+      {
         "comment_id": "UgzSzgY3z8GtUqzye9t4AaABAg",
         "author": "@noraniesoh",
         "channel_url": "http://www.youtube.com/@noraniesoh",
