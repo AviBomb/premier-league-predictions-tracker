@@ -2220,35 +2220,6 @@
     "admin_corrected": true
   },
   {
-    "id": "cand_gw2_ghostdavid4838_20",
-    "gameweek": 2,
-    "author": "@ghostdavid4838",
-    "comment_id": "UgxeoytX2Ii30d8oB5x4AaABAg",
-    "published_at": "2026-08-28T18:46:19Z",
-    "raw_line": "Aston Villa 2-3 Arsen",
-    "full_comment": "Crystal Palace 1 - 3 Man City\r\nLiverpool 1 - 0 Forest\r\nBournemouth 2 - 0 Everton\r\nCoventry 2 - 1 Hull City\r\nTottenham 2 - 0 Newcastle\r\nChelsea 3 - 0 Brighton\r\nLeeds 1 - 2 Brentford\r\nSunderland 1 - 1 Fulham\r\nMan United 2 - 2 Ipswich\r\nAston Villa 2 - 3 Arsen",
-    "other_predictions": {
-      "Crystal Palace vs Manchester City": "1 - 3",
-      "Liverpool vs Nottingham Forest": "1 - 0",
-      "AFC Bournemouth vs Everton": "2 - 0",
-      "Coventry City vs Hull City": "2 - 1",
-      "Tottenham Hotspur vs Newcastle United": "2 - 0",
-      "Chelsea vs Brighton & Hove Albion": "3 - 0",
-      "Leeds United vs Brentford": "1 - 2",
-      "Sunderland vs Fulham": "1 - 1",
-      "Manchester United vs Ipswich Town": "2 - 2"
-    },
-    "fixture_id": 20,
-    "home_team": "Aston Villa",
-    "away_team": "Arsenal",
-    "pred_home": 2,
-    "pred_away": 3,
-    "confidence": 92,
-    "detected_teams": "Aston Villa vs Arsenal",
-    "status": "approved",
-    "admin_corrected": true
-  },
-  {
     "id": "cand_gw2_Cooperthepug_11",
     "gameweek": 2,
     "author": "@Cooper_the_pug",
