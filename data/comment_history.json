@@ -9523,10 +9523,14 @@
       {
         "timestamp": "2026-08-29T16:11:41Z",
         "text": "GW 2:\nPalace - City 1:2 \ud83e\udd0f \nLiverpool - Forrest 3:0\u274c \nBournemouth - Everton 1:1\u2705 \nCoventry - Hull 0:1\u2705 \nSpurs - Newcastle 1:4\nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2"
+      },
+      {
+        "timestamp": "2026-08-29T20:08:50Z",
+        "text": "GW 2:\nPalace - City 1:2 \ud83e\udd0f \nLiverpool - Forrest 3:0\u274c \nBournemouth - Everton 1:1\u2705 \nCoventry - Hull 0:1\u2705 \nSpurs - Newcastle 1:4\ud83e\udd0f \nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2"
       }
     ],
-    "latest_text": "GW 2:\nPalace - City 1:2 \ud83e\udd0f \nLiverpool - Forrest 3:0\u274c \nBournemouth - Everton 1:1\u2705 \nCoventry - Hull 0:1\u2705 \nSpurs - Newcastle 1:4\ud83e\udd0f \nChelsea - Brighton 4:0\nSunderland - Fulham 0:0\nLeeds - Brentford 3:2\nMan United - Ipswich 3:1\nAston Villa - Arsenal 0:2",
-    "latest_upd": "2026-08-29T20:08:50Z"
+    "latest_text": "GW 2:\nPalace - City 1:2 \ud83e\udd0f \nLiverpool - Forrest 3:0\u274c \nBournemouth - Everton 1:1\u2705 \nCoventry - Hull 0:1\u2705 \nSpurs - Newcastle 1:4\ud83e\udd0f \nChelsea - Brighton 4:0\ud83e\udd0f \nSunderland - Fulham 0:0\u274c \nLeeds - Brentford 3:2\u274c \nMan United - Ipswich 3:1\ud83e\udd0f \nAston Villa - Arsenal 0:2",
+    "latest_upd": "2026-08-30T17:39:54Z"
   },
   "UgwUZPrufEjJdX6Ford4AaABAg": {
     "initial_text": "Has Susan gone to Azerbaijan yet?",
@@ -10895,5 +10899,12 @@
     "revisions": [],
     "latest_text": "the city prediciton is so fucking bad",
     "latest_upd": "2026-08-30T03:45:46Z"
+  },
+  "UgySWu0pH-ulKTgM9rJ4AaABAg": {
+    "initial_text": "I'm impressed, you went about the Bournemouth Vs Everton wrong but got the score prediction dead on \ud83d\ude02",
+    "initial_pub": "2026-08-30T17:09:44Z",
+    "revisions": [],
+    "latest_text": "I'm impressed, you went about the Bournemouth Vs Everton wrong but got the score prediction dead on \ud83d\ude02",
+    "latest_upd": "2026-08-30T17:09:44Z"
   }
 }
