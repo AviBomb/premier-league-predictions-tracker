@@ -823,6 +823,14 @@
         "pred_home": 4,
         "pred_away": 1
       }
+    },
+    "@anthonyvaladez2941": {
+      "27": {
+        "status": "approved",
+        "timestamp": "2026-09-04T19:07:16.775Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   }
 }
