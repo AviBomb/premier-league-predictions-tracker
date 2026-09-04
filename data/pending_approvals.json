@@ -2490,7 +2490,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Manchester City vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_dougie776rt_29",
@@ -2517,7 +2518,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Arsenal vs Chelsea",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_teetow2153_26",
