@@ -737,6 +737,14 @@
         "pred_home": 2,
         "pred_away": 2
       }
+    },
+    "@NathanielCarpenter-g2y": {
+      "27": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:40:40.773Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
