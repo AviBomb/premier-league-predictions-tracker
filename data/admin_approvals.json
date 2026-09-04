@@ -767,6 +767,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@BenjaminLass": {
+      "21": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:42:08.809Z",
+        "pred_home": 1,
+        "pred_away": 3
+      }
     }
   }
 }
