@@ -27,6 +27,12 @@ from src.scoring_engine import audit_and_score_gameweek
 from src.leaderboard_manager import save_gameweek_csv, update_cumulative_leaderboard, rebuild_cumulative_leaderboard
 from src.dashboard_generator import generate_live_dashboard
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 CONFIG_PATH = "config/gameweek_config.json"
 APPROVALS_PATH = "data/admin_approvals.json"
 PENDING_APPROVALS_PATH = "data/pending_approvals.json"
