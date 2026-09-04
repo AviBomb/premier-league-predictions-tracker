@@ -2408,7 +2408,8 @@
     "pred_away": 1,
     "confidence": 98,
     "detected_teams": "Newcastle United vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_KillKvara_30",
@@ -2509,7 +2510,8 @@
     "pred_away": 0,
     "confidence": 98,
     "detected_teams": "Brentford vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_Lamppost447_26",
@@ -2535,7 +2537,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Manchester City vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_aidan105_22",
@@ -2591,7 +2594,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Hull City vs Aston Villa",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_Kaltyre_21",
@@ -2619,7 +2623,8 @@
     "pred_away": 2,
     "confidence": 97,
     "detected_teams": "Ipswich Town vs Liverpool",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_Pronce5237_30",
