@@ -807,6 +807,14 @@
         "pred_home": 2,
         "pred_away": 2
       }
+    },
+    "@nyendwakabayi3323": {
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:44:50.213Z",
+        "pred_home": 4,
+        "pred_away": 0
+      }
     }
   }
 }
