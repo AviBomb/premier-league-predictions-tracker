@@ -2583,6 +2583,58 @@
     "status": "pending"
   },
   {
+    "id": "cand_gw3_cian1706_27",
+    "gameweek": 3,
+    "author": "@cian1706",
+    "comment_id": "UgykJDhFR4YZ-Hj4LP54AaABAg",
+    "published_at": "2026-09-04T19:53:12Z",
+    "raw_line": "Newcastle 3-1 bournmouth",
+    "full_comment": "Missed liverpool ipswitch\nNewcastle 3-1 bournmouth\nBrentford 2-1 sunderland\nBrighton 2-0 leeds\nFulham 0-0 crystal palace\nMan city 5-0 coventry\nForest 0-1 spurs\nHull 1-2 villa\nEverton 0-2 man united\nAresnal 2-2 chealsea",
+    "other_predictions": {
+      "Brentford vs Sunderland": "2 - 1",
+      "Brighton & Hove Albion vs Leeds United": "2 - 0",
+      "Fulham vs Crystal Palace": "0 - 0",
+      "Manchester City vs Coventry City": "5 - 0",
+      "Nottingham Forest vs Tottenham Hotspur": "0 - 1",
+      "Hull City vs Aston Villa": "1 - 2",
+      "Everton vs Manchester United": "0 - 2"
+    },
+    "fixture_id": 27,
+    "home_team": "Newcastle United",
+    "away_team": "AFC Bournemouth",
+    "pred_home": 3,
+    "pred_away": 1,
+    "confidence": 100,
+    "detected_teams": "Newcastle United vs AFC Bournemouth",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw3_cian1706_29",
+    "gameweek": 3,
+    "author": "@cian1706",
+    "comment_id": "UgykJDhFR4YZ-Hj4LP54AaABAg",
+    "published_at": "2026-09-04T19:53:12Z",
+    "raw_line": "Aresnal 2-2 chealsea",
+    "full_comment": "Missed liverpool ipswitch\nNewcastle 3-1 bournmouth\nBrentford 2-1 sunderland\nBrighton 2-0 leeds\nFulham 0-0 crystal palace\nMan city 5-0 coventry\nForest 0-1 spurs\nHull 1-2 villa\nEverton 0-2 man united\nAresnal 2-2 chealsea",
+    "other_predictions": {
+      "Brentford vs Sunderland": "2 - 1",
+      "Brighton & Hove Albion vs Leeds United": "2 - 0",
+      "Fulham vs Crystal Palace": "0 - 0",
+      "Manchester City vs Coventry City": "5 - 0",
+      "Nottingham Forest vs Tottenham Hotspur": "0 - 1",
+      "Hull City vs Aston Villa": "1 - 2",
+      "Everton vs Manchester United": "0 - 2"
+    },
+    "fixture_id": 29,
+    "home_team": "Arsenal",
+    "away_team": "Chelsea",
+    "pred_home": 2,
+    "pred_away": 2,
+    "confidence": 97,
+    "detected_teams": "Arsenal vs Chelsea",
+    "status": "pending"
+  },
+  {
     "id": "cand_gw3_chrisstocks7137_22",
     "gameweek": 3,
     "author": "@chrisstocks7137",
