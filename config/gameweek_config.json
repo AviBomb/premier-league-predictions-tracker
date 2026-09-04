@@ -1076,9 +1076,10 @@
           "away_goals_summary": "",
           "kickoff": "2026-09-04T19:00:00Z",
           "finished": false,
-          "started": false,
+          "started": true,
           "minutes": 0,
-          "status": "UPCOMING"
+          "status": "ONGOING",
+          "clock": "01'"
         },
         {
           "id": 27,
