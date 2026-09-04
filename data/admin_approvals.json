@@ -5,6 +5,12 @@
         "status": "approved",
         "timestamp": "2026-08-24T14:54:25.120Z"
       },
+      "6": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:48:55.563Z",
+        "pred_home": 2,
+        "pred_away": 1
+      },
       "8": {
         "status": "approved",
         "timestamp": "2026-09-04T21:48:47.852Z",
