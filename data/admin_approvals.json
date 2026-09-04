@@ -745,6 +745,28 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@Lamppost447": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:41:11.694Z",
+        "pred_home": 2,
+        "pred_away": 0
+      },
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:41:11.694Z",
+        "pred_home": 6,
+        "pred_away": 0
+      }
+    },
+    "@Kaltyre": {
+      "21": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:41:48.023Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   }
 }
