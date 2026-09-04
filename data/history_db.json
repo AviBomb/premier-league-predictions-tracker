@@ -63345,6 +63345,588 @@
     }
   },
   "GW_3": {
+    "@raymondwameyo5548": {
+      "comment_id": "UgzvF19xbL3y3FCpQOV4AaABAg",
+      "author": "@raymondwameyo5548",
+      "channel_url": "http://www.youtube.com/@raymondwameyo5548",
+      "published_at": "2026-09-04T19:07:50Z",
+      "updated_at": "2026-09-04T19:07:50Z",
+      "submission_gmt": "2026-09-04 19:07:50 GMT",
+      "updated_gmt": "2026-09-04 19:07:50 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-09-04 19:07:50 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich 1 - 3 Liverpool\nNewcastle 2 - 1 Bournemouth\nBrentford 1 - 1 Sunderland\nBrighton 2 - 1 Leeds\nFulham 1 - 2 Crystal Palace\nMan City 4 - 0 Coventry\nNottingham Forest 3 - 0 Spurs\nHull City 0 - 2 Aston Villa\nEverton 1 - 2 Man United\nArsenal 2 - 0 Chelsea",
+      "original_comment_text": "Ipswich 1 - 3 Liverpool\nNewcastle 2 - 1 Bournemouth\nBrentford 1 - 1 Sunderland\nBrighton 2 - 1 Leeds\nFulham 1 - 2 Crystal Palace\nMan City 4 - 0 Coventry\nNottingham Forest 3 - 0 Spurs\nHull City 0 - 2 Aston Villa\nEverton 1 - 2 Man United\nArsenal 2 - 0 Chelsea",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Liverpool": {
+          "pred": "1-3",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Newcastle United vs AFC Bournemouth": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Sunderland": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Leeds United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Crystal Palace": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Coventry City": {
+          "pred": "4-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Tottenham Hotspur": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Aston Villa": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Manchester United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Arsenal vs Chelsea": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@dolphin088": {
+      "comment_id": "UgzkAht87I0urQgRuLt4AaABAg",
+      "author": "@dolphin088",
+      "channel_url": "http://www.youtube.com/@dolphin088",
+      "published_at": "2026-09-04T19:07:37Z",
+      "updated_at": "2026-09-04T19:07:37Z",
+      "submission_gmt": "2026-09-04 19:07:37 GMT",
+      "updated_gmt": "2026-09-04 19:07:37 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-09-04 19:07:37 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich 1- 1 liverpool \nNewcastle 1- 2 Bournemouth \nBrentford 1 - 1 Sunderland \nBrighton 2 - 2 Leeds \nFulham 0 - 2 palace \nManchester City 4 - 0 Coventry \nNottingham forest 0 - 2 spurs \nHull 0 - 0 villa \nEverton 1 - 0 United \nArsenal 0 - 2 Chelsea",
+      "original_comment_text": "Ipswich 1- 1 liverpool \nNewcastle 1- 2 Bournemouth \nBrentford 1 - 1 Sunderland \nBrighton 2 - 2 Leeds \nFulham 0 - 2 palace \nManchester City 4 - 0 Coventry \nNottingham forest 0 - 2 spurs \nHull 0 - 0 villa \nEverton 1 - 0 United \nArsenal 0 - 2 Chelsea",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Liverpool": {
+          "pred": "1-1",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Newcastle United vs AFC Bournemouth": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Sunderland": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Leeds United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Crystal Palace": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Coventry City": {
+          "pred": "4-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Tottenham Hotspur": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Aston Villa": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Manchester United": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Arsenal vs Chelsea": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@CharlesColeman-k2f": {
+      "comment_id": "UgzUuL8RItwpLMtfNAx4AaABAg",
+      "author": "@CharlesColeman-k2f",
+      "channel_url": "http://www.youtube.com/@CharlesColeman-k2f",
+      "published_at": "2026-09-04T19:07:22Z",
+      "updated_at": "2026-09-04T19:07:22Z",
+      "submission_gmt": "2026-09-04 19:07:22 GMT",
+      "updated_gmt": "2026-09-04 19:07:22 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-09-04 19:07:22 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich v Liverpool 2-3\nNewcastle v Bournemouth 1-1\nBrentford v Sunderland 2-0\nBrighton v Leeds 2-2\nFulham v Crystal Palace 1-0\nManchester City v Coventry 4-0\nNottingham Forest v Spurs 1-1\nHull v Aston Villa 1-2\nEverton v Manchester United 0-1\nArsenal v Chelsea 2-2",
+      "original_comment_text": "Ipswich v Liverpool 2-3\nNewcastle v Bournemouth 1-1\nBrentford v Sunderland 2-0\nBrighton v Leeds 2-2\nFulham v Crystal Palace 1-0\nManchester City v Coventry 4-0\nNottingham Forest v Spurs 1-1\nHull v Aston Villa 1-2\nEverton v Manchester United 0-1\nArsenal v Chelsea 2-2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Liverpool": {
+          "pred": "2-3",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Newcastle United vs AFC Bournemouth": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Sunderland": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Leeds United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Crystal Palace": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Coventry City": {
+          "pred": "4-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Tottenham Hotspur": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Aston Villa": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Manchester United": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Arsenal vs Chelsea": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@coveisyes": {
+      "comment_id": "UgwGbOev_E_4wIP1sLl4AaABAg",
+      "author": "@coveisyes",
+      "channel_url": "http://www.youtube.com/@coveisyes",
+      "published_at": "2026-09-04T19:03:39Z",
+      "updated_at": "2026-09-04T19:03:39Z",
+      "submission_gmt": "2026-09-04 19:03:39 GMT",
+      "updated_gmt": "2026-09-04 19:03:39 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-09-04 19:03:39 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "bit late but will we climb positions [yes[\nIpswich 0-2 Liverpool\nNewcastle 2-1 Bournemouth\nBrentford 1-1 Sunderland\nBrighton 0-0 Leeds\nFulham 0-2 Palace\nMan City 3-0 Coventry \nForest 2-0 Spurs\nHull 2-0 Aston Villa\nEverton 0-1 Man Utd\nArsenal 3-2 Chelsea",
+      "original_comment_text": "bit late but will we climb positions [yes[\nIpswich 0-2 Liverpool\nNewcastle 2-1 Bournemouth\nBrentford 1-1 Sunderland\nBrighton 0-0 Leeds\nFulham 0-2 Palace\nMan City 3-0 Coventry \nForest 2-0 Spurs\nHull 2-0 Aston Villa\nEverton 0-1 Man Utd\nArsenal 3-2 Chelsea",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Liverpool": {
+          "pred": "0-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Newcastle United vs AFC Bournemouth": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Sunderland": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Leeds United": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Crystal Palace": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Coventry City": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Tottenham Hotspur": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Aston Villa": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Manchester United": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Arsenal vs Chelsea": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@u_s_man9610": {
+      "comment_id": "UgyQ3piyw7JgvAuq-J94AaABAg",
+      "author": "@u_s_man9610",
+      "channel_url": "http://www.youtube.com/@u_s_man9610",
+      "published_at": "2026-09-04T19:03:22Z",
+      "updated_at": "2026-09-04T19:03:22Z",
+      "submission_gmt": "2026-09-04 19:03:22 GMT",
+      "updated_gmt": "2026-09-04 19:03:22 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-09-04 19:03:22 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich 2-2 Liverpool\nNewcastle 2-1 Bournemouth\nBrentford 3-1 Sunderland\nBrighton 2-2Leeds\nFulham 1-0 Crystal Palace\nMan City 6-0 Coventry\nNottingham Forest 2-0 Spurs\nHull 1-1 Aston Villa\nEverton 1-4 Man United\nArsenal 1-2 Chelsea",
+      "original_comment_text": "Ipswich 2-2 Liverpool\nNewcastle 2-1 Bournemouth\nBrentford 3-1 Sunderland\nBrighton 2-2Leeds\nFulham 1-0 Crystal Palace\nMan City 6-0 Coventry\nNottingham Forest 2-0 Spurs\nHull 1-1 Aston Villa\nEverton 1-4 Man United\nArsenal 1-2 Chelsea",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Liverpool": {
+          "pred": "2-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Newcastle United vs AFC Bournemouth": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Sunderland": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Leeds United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Crystal Palace": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Coventry City": {
+          "pred": "6-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Tottenham Hotspur": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Aston Villa": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Manchester United": {
+          "pred": "1-4",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Arsenal vs Chelsea": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@ChrisS-051": {
+      "comment_id": "UgzInBp-q3X5HD8Lzex4AaABAg",
+      "author": "@ChrisS-051",
+      "channel_url": "http://www.youtube.com/@ChrisS-051",
+      "published_at": "2026-09-04T19:02:32Z",
+      "updated_at": "2026-09-04T19:02:32Z",
+      "submission_gmt": "2026-09-04 19:02:32 GMT",
+      "updated_gmt": "2026-09-04 19:02:32 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-09-04 19:02:32 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "FeckingFriday ko again!\n\nPosting at1:30 in Liverpool's game- accept that result or don't, up to you\n\nIpswich 1-2 Liverpool\r\nNewcastle 2-2 Bournemouth\r\nBrentford 3-0 Sunderland\r\nBrighton 1-1 Leeds\r\nFulham 2-2 Crystal Palace\r\nMan City 6-0 Coventry\r\nN Forest 2-1 Spurs\r\nHull 1-1 A Villa\r\nEverton 1-2 Man Utd\r\nArsenal 3-1 Chelsea",
+      "original_comment_text": "FeckingFriday ko again!\n\nPosting at1:30 in Liverpool's game- accept that result or don't, up to you\n\nIpswich 1-2 Liverpool\r\nNewcastle 2-2 Bournemouth\r\nBrentford 3-0 Sunderland\r\nBrighton 1-1 Leeds\r\nFulham 2-2 Crystal Palace\r\nMan City 6-0 Coventry\r\nN Forest 2-1 Spurs\r\nHull 1-1 A Villa\r\nEverton 1-2 Man Utd\r\nArsenal 3-1 Chelsea",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Liverpool": {
+          "pred": "1-2",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Newcastle United vs AFC Bournemouth": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Sunderland": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Leeds United": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Crystal Palace": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Coventry City": {
+          "pred": "6-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Tottenham Hotspur": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Aston Villa": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Manchester United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Arsenal vs Chelsea": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
     "@TuckerTalked": {
       "comment_id": "UgxwKUo3fCmfuOomGyt4AaABAg",
       "author": "@TuckerTalked",
@@ -63372,7 +63954,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -63442,10 +64024,10 @@
         }
       }
     },
-    "@JasonBisong-h1p": {
+    "@Jayisred23": {
       "comment_id": "UgwrXXEtU2sM3qNWSnt4AaABAg",
-      "author": "@JasonBisong-h1p",
-      "channel_url": "http://www.youtube.com/@JasonBisong-h1p",
+      "author": "@Jayisred23",
+      "channel_url": "http://www.youtube.com/@Jayisred23",
       "published_at": "2026-09-04T19:01:05Z",
       "updated_at": "2026-09-04T19:01:05Z",
       "submission_gmt": "2026-09-04 19:01:05 GMT",
@@ -63469,7 +64051,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -63566,7 +64148,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Void* (Submitted after match kickoff - Not Counted)",
           "is_late": true
@@ -63658,14 +64240,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -63760,7 +64342,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -63852,14 +64434,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -63949,14 +64531,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64046,14 +64628,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64143,14 +64725,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64240,14 +64822,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64337,14 +64919,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64434,14 +65016,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64531,14 +65113,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64624,25 +65206,25 @@
       "original_comment_text": "Love the channel, excited to be entering my predictions for the first time and that website is class. Hello from Long Beach, California \nIpswich 2-2 Liverpool \nNewcastle 1-2 Bournmouth \nBrentford 2-0 Sunderland \nBrighton 1-1 Leeds\nFullham 3-2 Crystal Palace\nMan City 2-1 Coventry\nForest 4-1 Spurs\nHull 2-0 Villa\nEverton 2-2 Man Utd\nArsenal 3-1 Chelsea",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
-          "pred": "N/A",
+          "pred": "1-2",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Brentford vs Sunderland": {
@@ -64725,14 +65307,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64822,14 +65404,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -64919,14 +65501,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-6",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65016,14 +65598,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65113,14 +65695,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65210,14 +65792,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65307,14 +65889,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65404,14 +65986,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65501,14 +66083,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65598,14 +66180,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65695,14 +66277,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65792,14 +66374,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65889,14 +66471,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -65986,14 +66568,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66083,14 +66665,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66180,14 +66762,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66277,14 +66859,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66374,14 +66956,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66471,14 +67053,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66568,14 +67150,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66664,15 +67246,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66762,14 +67344,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66859,14 +67441,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -66956,14 +67538,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67052,15 +67634,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67150,14 +67732,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67247,14 +67829,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67344,14 +67926,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67441,14 +68023,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67538,14 +68120,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67635,14 +68217,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67732,14 +68314,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67829,14 +68411,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -67926,14 +68508,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68023,14 +68605,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68120,14 +68702,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68217,14 +68799,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68314,14 +68896,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68411,14 +68993,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68508,14 +69090,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68605,14 +69187,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68702,14 +69284,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68799,14 +69381,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68896,14 +69478,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -68993,14 +69575,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69090,14 +69672,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69187,14 +69769,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69284,14 +69866,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69381,14 +69963,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69478,14 +70060,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69580,7 +70162,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -69672,14 +70254,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69769,14 +70351,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69866,14 +70448,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -69963,14 +70545,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70060,14 +70642,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70157,14 +70739,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70254,14 +70836,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70351,14 +70933,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70448,14 +71030,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70545,14 +71127,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70642,14 +71224,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70739,14 +71321,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70836,14 +71418,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -70933,14 +71515,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71030,14 +71612,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71127,14 +71709,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71224,14 +71806,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71321,14 +71903,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71418,14 +72000,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71515,14 +72097,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71612,14 +72194,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71709,14 +72291,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71806,14 +72388,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -71903,14 +72485,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72000,14 +72582,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72097,14 +72679,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72194,14 +72776,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72291,14 +72873,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72388,14 +72970,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72485,14 +73067,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72582,14 +73164,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72684,7 +73266,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -72776,14 +73358,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72873,14 +73455,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -72970,14 +73552,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73067,14 +73649,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73164,14 +73746,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73261,14 +73843,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73358,14 +73940,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73455,14 +74037,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73552,14 +74134,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73649,14 +74231,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73746,14 +74328,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73843,14 +74425,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -73940,14 +74522,14 @@
       "valid_matches_count": 7,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74037,14 +74619,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74139,7 +74721,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -74231,14 +74813,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74328,14 +74910,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74425,14 +75007,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74522,14 +75104,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74619,14 +75201,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74716,14 +75298,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74813,14 +75395,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -74910,14 +75492,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75012,7 +75594,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -75104,14 +75686,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75201,14 +75783,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75298,14 +75880,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75395,14 +75977,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75492,14 +76074,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75589,14 +76171,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75686,14 +76268,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75783,14 +76365,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75880,14 +76462,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -75977,14 +76559,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76074,14 +76656,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76171,14 +76753,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76268,14 +76850,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76365,14 +76947,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76462,14 +77044,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76559,14 +77141,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76656,14 +77238,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76753,14 +77335,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76850,14 +77432,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -76947,14 +77529,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77049,7 +77631,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -77141,14 +77723,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77238,14 +77820,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77335,14 +77917,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77432,14 +78014,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77529,14 +78111,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77626,14 +78208,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77723,14 +78305,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77820,14 +78402,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -77917,14 +78499,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78014,14 +78596,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78111,14 +78693,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78208,14 +78790,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78305,14 +78887,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78402,14 +78984,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78499,14 +79081,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78596,14 +79178,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78693,14 +79275,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78790,14 +79372,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78887,14 +79469,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -78984,14 +79566,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79081,14 +79663,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79178,14 +79760,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79275,14 +79857,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79372,14 +79954,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79469,14 +80051,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79566,14 +80148,14 @@
       "valid_matches_count": 7,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79663,14 +80245,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79760,14 +80342,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79857,14 +80439,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -79954,14 +80536,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80051,14 +80633,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80148,14 +80730,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80245,14 +80827,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80342,14 +80924,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80439,14 +81021,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80536,14 +81118,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80633,14 +81215,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80730,14 +81312,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80827,14 +81409,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -80924,14 +81506,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81021,14 +81603,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81118,14 +81700,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81215,14 +81797,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-6",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81312,14 +81894,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81409,14 +81991,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81506,14 +82088,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81603,14 +82185,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81700,14 +82282,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81797,14 +82379,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81894,14 +82476,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -81991,14 +82573,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82088,14 +82670,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82185,14 +82767,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82282,14 +82864,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82379,14 +82961,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82476,14 +83058,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82573,14 +83155,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82670,14 +83252,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82767,14 +83349,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82864,14 +83446,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -82961,14 +83543,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83058,14 +83640,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83155,14 +83737,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83252,14 +83834,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83349,14 +83931,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83446,14 +84028,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83543,14 +84125,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83640,14 +84222,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83737,14 +84319,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83834,14 +84416,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -83931,14 +84513,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84028,14 +84610,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84125,14 +84707,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-5",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84222,14 +84804,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84319,14 +84901,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84416,14 +84998,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84513,14 +85095,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84610,14 +85192,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84707,14 +85289,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84804,14 +85386,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -84906,7 +85488,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -85003,7 +85585,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -85095,14 +85677,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85192,14 +85774,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85289,14 +85871,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85386,14 +85968,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85483,14 +86065,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85580,14 +86162,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85677,14 +86259,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85774,14 +86356,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85871,14 +86453,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -85968,14 +86550,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86065,14 +86647,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86162,14 +86744,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86259,14 +86841,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86356,14 +86938,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86453,14 +87035,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86550,14 +87132,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86647,14 +87229,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86744,14 +87326,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -86846,7 +87428,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -86938,14 +87520,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87035,14 +87617,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87132,14 +87714,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87229,14 +87811,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87326,14 +87908,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87422,15 +88004,15 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87520,14 +88102,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87617,14 +88199,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87714,14 +88296,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87811,14 +88393,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -87908,14 +88490,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88005,14 +88587,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88102,14 +88684,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88199,14 +88781,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88296,14 +88878,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88393,14 +88975,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88490,14 +89072,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88587,14 +89169,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88684,14 +89266,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88780,15 +89362,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -88883,7 +89465,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "9-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -88975,14 +89557,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89072,14 +89654,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89169,14 +89751,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89266,14 +89848,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89363,14 +89945,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89459,15 +90041,15 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89557,14 +90139,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89654,14 +90236,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89751,14 +90333,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89848,14 +90430,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -89945,14 +90527,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90047,7 +90629,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -90139,14 +90721,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90236,14 +90818,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90333,14 +90915,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90430,14 +91012,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-4",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90527,14 +91109,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90624,14 +91206,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90721,14 +91303,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90818,14 +91400,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -90915,14 +91497,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91012,14 +91594,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91114,7 +91696,7 @@
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "3-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -91206,14 +91788,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91303,14 +91885,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91400,14 +91982,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91497,14 +92079,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91594,14 +92176,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91691,14 +92273,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91788,14 +92370,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91885,14 +92467,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -91982,14 +92564,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92079,14 +92661,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92176,14 +92758,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92273,14 +92855,14 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92370,14 +92952,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92467,14 +93049,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92564,14 +93146,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92661,14 +93243,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92758,14 +93340,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92855,14 +93437,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -92952,14 +93534,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -93049,14 +93631,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -93146,14 +93728,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -93243,14 +93825,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -93340,14 +93922,14 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -93437,14 +94019,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
@@ -93534,14 +94116,14 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Ipswich Town vs Liverpool": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {

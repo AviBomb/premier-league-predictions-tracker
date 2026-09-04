@@ -2434,7 +2434,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Newcastle United vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_jairot4462_27",
