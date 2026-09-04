@@ -64624,8 +64624,8 @@
       "original_comment_text": "Ipswich V Liverpool 0:2\nNewcastle V Bournemouth 1:1\nBrentford V Suderland 3:0\nBrighton V Leeds 0:1\nFulham V Palace 2:1\nMan City V Conventry 4:0\nForest V Tottenham 1:0\nHull V Aston Villa 0:0\nEverton V Man U 1:3\nArsenal V Chelsea 3:1",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 8,
-      "valid_matches_count": 8,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
       "outcome_scores": 0,
@@ -64646,10 +64646,10 @@
           "is_late": false
         },
         "Brentford vs Sunderland": {
-          "pred": "N/A",
+          "pred": "3-0",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Brighton & Hove Albion vs Leeds United": {
@@ -64667,10 +64667,10 @@
           "is_late": false
         },
         "Manchester City vs Coventry City": {
-          "pred": "N/A",
+          "pred": "4-0",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Nottingham Forest vs Tottenham Hotspur": {
@@ -65691,8 +65691,8 @@
       "original_comment_text": "Isakkkkkkk\nIpswich vs Liverpool 1-3\nBournmouth vs newcastle 1-2\nBrentford vs sunderland 2-0\nBrighton vs Leeds 3-2\nFulham vs crystal palace 1-1\nManchester city vs coventry 4-0\nNottingham Forest vs spurs 2-0\nHull vs Aston villa 1-0\nEverton vs Manchester United 0-0\nArsenal vs Chelsea 3-2",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
       "outcome_scores": 1,
@@ -65706,10 +65706,10 @@
           "is_late": false
         },
         "Newcastle United vs AFC Bournemouth": {
-          "pred": "N/A",
+          "pred": "2-1",
           "actual": "TBD",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Pending",
           "is_late": false
         },
         "Brentford vs Sunderland": {

@@ -2379,7 +2379,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Brentford vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_aposapocalypse7117_26",
@@ -2406,7 +2407,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Manchester City vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_anthonyvaladez2941_27",
@@ -2463,7 +2465,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "AFC Bournemouth vs Newcastle United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_dougie776rt_26",

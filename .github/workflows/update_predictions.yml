@@ -7,7 +7,16 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'data/**'
+      - 'exports/**'
+      - 'dashboard.html'
+      - 'index.html'
   workflow_dispatch:
+
+concurrency:
+  group: prediction-tracker-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -49,11 +58,21 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Fetch latest remote commits in case remote moved during the pipeline run
+          git fetch origin main
+          git merge origin/main -X ours --no-edit || true
+
           git add data/ exports/ config/ dashboard.html index.html admin.html
-          if ! git diff --quiet || ! git diff --staged --quiet; then
+          if ! git diff --staged --quiet; then
             git commit -m "auto: update prediction scores, standings, and dashboard [skip ci]"
-            git pull origin main --rebase || true
-            git push origin main
+            for i in 1 2 3 4 5; do
+              git push origin main && break
+              echo "Push failed, retrying in 3 seconds ($i/5)..."
+              git fetch origin main
+              git merge origin/main -X ours --no-edit || true
+              sleep 3
+            done
           fi
 
       - name: Setup Pages

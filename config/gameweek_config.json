@@ -1081,18 +1081,18 @@
             {
               "minute": "09'",
               "scorer": "Alexander Isak",
-              "assist": null,
+              "assist": "Cody Gakpo",
               "type": "G"
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Alexander Isak 06' (assist: Cody Gakpo), Alexander Isak 09'",
+          "away_goals_summary": "Alexander Isak 06' (assist: Cody Gakpo), Alexander Isak 09' (assist: Cody Gakpo)",
           "kickoff": "2026-09-04T19:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 6,
+          "minutes": 0,
           "status": "ONGOING",
-          "clock": "09'"
+          "clock": "28'"
         },
         {
           "id": 27,
