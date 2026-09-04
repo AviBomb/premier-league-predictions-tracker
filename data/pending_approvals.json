@@ -2355,6 +2355,34 @@
     "admin_corrected": true
   },
   {
+    "id": "cand_gw3_nyendwakabayi3323_26",
+    "gameweek": 3,
+    "author": "@nyendwakabayi3323",
+    "comment_id": "Ugz_ssgrXXli2p5hgVF4AaABAg",
+    "published_at": "2026-09-04T18:38:40Z",
+    "raw_line": "Man city 4-0 Conventry",
+    "full_comment": "Ipswitch 0-3 Liverpool\nNewcastle 2-1 Bournemouth\nBrentford 2-0 Sunderland\nBrighton 1-0 Leeds\nFulham 2-1 Crystal Palace\nMan city 4-0 Conventry\nNottingham Forrest 0-1 Tottenham \nHull city 0-1 Aston villa\nEverton 1-3 Manchester United\nArsenal 2-3 Chelsea\n\ni didn't make one for gameweek 2 because you said you might not be continuing it, anyway will catch up I'm not finishing 184 lol",
+    "other_predictions": {
+      "Ipswich Town vs Liverpool": "0 - 3",
+      "Newcastle United vs AFC Bournemouth": "2 - 1",
+      "Brentford vs Sunderland": "2 - 0",
+      "Brighton & Hove Albion vs Leeds United": "1 - 0",
+      "Fulham vs Crystal Palace": "2 - 1",
+      "Nottingham Forest vs Tottenham Hotspur": "0 - 1",
+      "Hull City vs Aston Villa": "0 - 1",
+      "Everton vs Manchester United": "1 - 3",
+      "Arsenal vs Chelsea": "2 - 3"
+    },
+    "fixture_id": 26,
+    "home_team": "Manchester City",
+    "away_team": "Coventry City",
+    "pred_home": 4,
+    "pred_away": 0,
+    "confidence": 97,
+    "detected_teams": "Manchester City vs Coventry City",
+    "status": "pending"
+  },
+  {
     "id": "cand_gw3_NathanielCarpenterg2y_27",
     "gameweek": 3,
     "author": "@NathanielCarpenter-g2y",
@@ -2429,7 +2457,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Nottingham Forest vs Tottenham Hotspur",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_Mvpo444_22",
@@ -2453,7 +2482,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Brentford vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_Lamppost447_22",
