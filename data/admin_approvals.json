@@ -801,9 +801,27 @@
       }
     },
     "@KillKvara": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:39:33.269Z",
+        "pred_home": 1,
+        "pred_away": 1
+      },
+      "23": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:39:33.269Z",
+        "pred_home": 1,
+        "pred_away": 2
+      },
+      "24": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:39:33.269Z",
+        "pred_home": 2,
+        "pred_away": 1
+      },
       "30": {
         "status": "approved",
-        "timestamp": "2026-09-04T18:44:27.297Z",
+        "timestamp": "2026-09-04T21:39:33.269Z",
         "pred_home": 2,
         "pred_away": 2
       }
