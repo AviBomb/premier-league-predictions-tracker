@@ -162,12 +162,28 @@ def detect_fuzzy_prediction_candidates(
             team1, conf1 = match_team_fuzzy(left_text)
             team2, conf2 = match_team_fuzzy(right_text)
 
-            # If right text was empty or didn't match, check if left text had both teams e.g. "Arsnl vs Cov 3-0"
+            # If right text was empty or didn't match, check if left text had both teams e.g. "Arsnl vs Cov 3-0" or "Everton Palace 1-1"
             if not team2 or conf2 < 0.75:
                 tokens = re.split(r'\s+(?:vs\.?|v\.?|-|against)\s+', left_text, flags=re.IGNORECASE)
                 if len(tokens) == 2:
                     team1, conf1 = match_team_fuzzy(tokens[0])
                     team2, conf2 = match_team_fuzzy(tokens[1])
+                else:
+                    # Try splitting left_text by space at different word boundaries
+                    words = left_text.split()
+                    if len(words) >= 2:
+                        best_pair_score = 0.0
+                        for split_pos in range(1, len(words)):
+                            t1_cand_text = " ".join(words[:split_pos])
+                            t2_cand_text = " ".join(words[split_pos:])
+                            cand_t1, cand_c1 = match_team_fuzzy(t1_cand_text)
+                            cand_t2, cand_c2 = match_team_fuzzy(t2_cand_text)
+                            if cand_t1 and cand_t2 and cand_t1 != cand_t2 and cand_c1 >= 0.75 and cand_c2 >= 0.75:
+                                avg = (cand_c1 + cand_c2) / 2.0
+                                if avg > best_pair_score:
+                                    best_pair_score = avg
+                                    team1, conf1 = cand_t1, cand_c1
+                                    team2, conf2 = cand_t2, cand_c2
 
             # Strict Requirement: Both teams must match canonical clubs with >= 0.75 individual confidence
             if not team1 or not team2 or team1 == team2 or conf1 < 0.75 or conf2 < 0.75:

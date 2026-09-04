@@ -1090,9 +1090,9 @@
           "kickoff": "2026-09-04T19:00:00Z",
           "finished": false,
           "started": true,
-          "minutes": 0,
+          "minutes": 26,
           "status": "ONGOING",
-          "clock": "28'"
+          "clock": "42'"
         },
         {
           "id": 27,

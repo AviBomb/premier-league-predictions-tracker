@@ -1,15 +1,6 @@
 """
 NLP Parser and Multi-Pattern Prediction Extraction Engine
 Isolates fixture predictions from banter, alternative delimiters, and reversed ordering.
-"""
-import re
-from typing import List, Dict, Any, Tuple
-from src.team_aliases import parse_team, SORTED_ALIASES
-
-
-"""
-NLP Parser and Multi-Pattern Prediction Extraction Engine
-Isolates fixture predictions from banter, alternative delimiters, and reversed ordering.
 Supports multi-match single-line comments, numbered predictions, and custom delimiters.
 """
 import re
@@ -61,10 +52,10 @@ def extract_predictions_from_comment(text: str) -> List[Dict[str, Any]]:
             rf'(?:^|\b)(\d{{1,2}})\s+({alias_pattern})\s*[:\-\/v\.]*\s*({alias_pattern})\s+(\d{{1,2}})(?:\b|$)',
             re.IGNORECASE
         )),
-        # Pattern 4: [Team A] vs [Team B] -> [Score A] - [Score B]
-        # e.g., "Arsenal vs Burnley -> 2-0", "Chelsea v Spurs: 1-1", "Palace - City: 2 - 1"
+        # Pattern 4: [Team A] [Delim or Space] [Team B] [Delim or Space] [Score A] [Delim] [Score B]
+        # e.g., "Everton Palace 1-1", "Arsenal vs Burnley -> 2-0", "Chelsea v Spurs: 1-1", "Palace - City: 2 - 1", "City Bournemouth 3-0"
         (4, re.compile(
-            rf'({alias_pattern})\s*(?:vs\.?|v\.?|\-)\s*({alias_pattern})\s*(?:[\-\:\>\s]+)\s*(\d{{1,2}})\s*[\-\:\s]\s*(\d{{1,2}})(?:\b|$)',
+            rf'(?:^|\b|\d+\.?\s*)({alias_pattern})\s*(?:vs\.?|v\.?|\-|against|\s)\s*({alias_pattern})\s*(?:[\-\:\>\s]+|\s+)\s*(\d{{1,2}})\s*(?:[\-\:\–\—\/]|to|\s+)\s*(\d{{1,2}})(?:\b|$)',
             re.IGNORECASE
         ))
     ]
