@@ -714,5 +714,21 @@
         "pred_away": 2
       }
     }
+  },
+  "GW_3": {
+    "@Mvpo444": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:40:00.032Z",
+        "pred_home": 3,
+        "pred_away": 0
+      },
+      "28": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:40:00.032Z",
+        "pred_home": 2,
+        "pred_away": 0
+      }
+    }
   }
 }
