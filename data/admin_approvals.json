@@ -799,6 +799,14 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@KillKvara": {
+      "30": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:44:27.297Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
