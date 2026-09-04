@@ -2652,7 +2652,8 @@
     "pred_away": 2,
     "confidence": 83,
     "detected_teams": "Everton vs Manchester United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_mehulpatel577_24",
@@ -2708,6 +2709,7 @@
     "pred_away": 3,
     "confidence": 93,
     "detected_teams": "Ipswich Town vs Liverpool",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   }
 ]
