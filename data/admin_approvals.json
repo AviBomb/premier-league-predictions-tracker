@@ -525,6 +525,14 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@IanMatson-k2t4o": {
+      "2": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:50:27.310Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   },
   "GW_2": {
