@@ -845,6 +845,20 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@aposapocalypse7117": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-09-04T19:08:59.498Z",
+        "pred_home": 3,
+        "pred_away": 0
+      },
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-09-04T19:08:59.498Z",
+        "pred_home": 4,
+        "pred_away": 0
+      }
     }
   }
 }
