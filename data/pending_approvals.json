@@ -2355,6 +2355,58 @@
     "admin_corrected": true
   },
   {
+    "id": "cand_gw3_chrisstocks7137_22",
+    "gameweek": 3,
+    "author": "@chrisstocks7137",
+    "comment_id": "Ugwvt_wQV4Utafy0nlV4AaABAg",
+    "published_at": "2026-09-04T19:34:09Z",
+    "raw_line": "Brentford V Suderland 3-1",
+    "full_comment": "Doing these at 8:34 so no Ipswich vs Liverpool \nNewcastle V Bournemouth 2:1\nBrentford V Suderland 3:1\nBrighton V Leeds 3:1\nFulham V Palace 1:1\nMan City V Conventry 4:0\nForest V Tottenham 1:1\nHull V Aston Villa 0:1\nEverton V Man U 1:2\nArsenal V Chelsea 2:2",
+    "other_predictions": {
+      "Newcastle United vs AFC Bournemouth": "2 - 1",
+      "Brighton & Hove Albion vs Leeds United": "3 - 1",
+      "Fulham vs Crystal Palace": "1 - 1",
+      "Nottingham Forest vs Tottenham Hotspur": "1 - 1",
+      "Hull City vs Aston Villa": "0 - 1",
+      "Everton vs Manchester United": "1 - 2",
+      "Arsenal vs Chelsea": "2 - 2"
+    },
+    "fixture_id": 22,
+    "home_team": "Brentford",
+    "away_team": "Sunderland",
+    "pred_home": 3,
+    "pred_away": 1,
+    "confidence": 97,
+    "detected_teams": "Brentford vs Sunderland",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw3_chrisstocks7137_26",
+    "gameweek": 3,
+    "author": "@chrisstocks7137",
+    "comment_id": "Ugwvt_wQV4Utafy0nlV4AaABAg",
+    "published_at": "2026-09-04T19:34:09Z",
+    "raw_line": "Man City V Conventry 4-0",
+    "full_comment": "Doing these at 8:34 so no Ipswich vs Liverpool \nNewcastle V Bournemouth 2:1\nBrentford V Suderland 3:1\nBrighton V Leeds 3:1\nFulham V Palace 1:1\nMan City V Conventry 4:0\nForest V Tottenham 1:1\nHull V Aston Villa 0:1\nEverton V Man U 1:2\nArsenal V Chelsea 2:2",
+    "other_predictions": {
+      "Newcastle United vs AFC Bournemouth": "2 - 1",
+      "Brighton & Hove Albion vs Leeds United": "3 - 1",
+      "Fulham vs Crystal Palace": "1 - 1",
+      "Nottingham Forest vs Tottenham Hotspur": "1 - 1",
+      "Hull City vs Aston Villa": "0 - 1",
+      "Everton vs Manchester United": "1 - 2",
+      "Arsenal vs Chelsea": "2 - 2"
+    },
+    "fixture_id": 26,
+    "home_team": "Manchester City",
+    "away_team": "Coventry City",
+    "pred_home": 4,
+    "pred_away": 0,
+    "confidence": 97,
+    "detected_teams": "Manchester City vs Coventry City",
+    "status": "pending"
+  },
+  {
     "id": "cand_gw3_aposapocalypse7117_22",
     "gameweek": 3,
     "author": "@aposapocalypse7117",
