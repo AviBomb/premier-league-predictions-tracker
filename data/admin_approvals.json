@@ -729,6 +729,14 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@subscribetoartguyfootball12353": {
+      "25": {
+        "status": "approved",
+        "timestamp": "2026-09-04T18:40:18.428Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
