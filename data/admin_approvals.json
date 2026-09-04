@@ -533,6 +533,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@oscarsanchez4521": {
+      "10": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:51:48.637Z",
+        "pred_home": 1,
+        "pred_away": 3
+      }
     }
   },
   "GW_2": {
