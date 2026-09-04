@@ -541,6 +541,14 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@adamholder4959": {
+      "6": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:52:09.356Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   },
   "GW_2": {
