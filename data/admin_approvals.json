@@ -867,6 +867,20 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@cian1706": {
+      "27": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:38:58.637Z",
+        "pred_home": 3,
+        "pred_away": 1
+      },
+      "29": {
+        "status": "approved",
+        "timestamp": "2026-09-04T21:38:58.637Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
