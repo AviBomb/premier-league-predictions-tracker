@@ -815,6 +815,14 @@
         "pred_home": 4,
         "pred_away": 0
       }
+    },
+    "@teetow2153": {
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-09-04T19:01:10.788Z",
+        "pred_home": 4,
+        "pred_away": 1
+      }
     }
   }
 }
