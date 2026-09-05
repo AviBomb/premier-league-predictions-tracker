@@ -1099,13 +1099,19 @@
           "away": "AFC Bournemouth",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
-          "home_act": 1,
+          "home_act": 2,
           "away_act": 2,
           "home_goals": [
             {
               "minute": "",
               "scorer": "Barnes",
               "assist": "Hall",
+              "type": "G"
+            },
+            {
+              "minute": "",
+              "scorer": "J.Ramsey",
+              "assist": "Barnes",
               "type": "G"
             }
           ],
@@ -1123,13 +1129,13 @@
               "type": "OG"
             }
           ],
-          "home_goals_summary": "Barnes (Hall)",
+          "home_goals_summary": "Barnes (Hall), J.Ramsey (Barnes)",
           "away_goals_summary": "Tavernier (Scott), Thiaw (OG)",
           "kickoff": "2026-09-05T11:30:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 45,
-          "status": "ONGOING"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 22,
@@ -1137,17 +1143,25 @@
           "away": "Sunderland",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t56.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
+          "home_act": 1,
+          "away_act": 0,
+          "home_goals": [
+            {
+              "minute": "57'",
+              "scorer": "Vitaly Janelt",
+              "assist": null,
+              "type": "G"
+            }
+          ],
           "away_goals": [],
-          "home_goals_summary": "",
+          "home_goals_summary": "Vitaly Janelt 57'",
           "away_goals_summary": "",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 52,
+          "status": "ONGOING",
+          "clock": "59'"
         },
         {
           "id": 23,
@@ -1155,17 +1169,25 @@
           "away": "Leeds United",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 0,
+          "away_act": 1,
           "home_goals": [],
-          "away_goals": [],
+          "away_goals": [
+            {
+              "minute": "15'",
+              "scorer": "Jayden Bogle",
+              "assist": "Ao Tanaka",
+              "type": "G"
+            }
+          ],
           "home_goals_summary": "",
-          "away_goals_summary": "",
+          "away_goals_summary": "Jayden Bogle 15' (assist: Ao Tanaka)",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 63,
+          "status": "ONGOING",
+          "clock": "65'"
         },
         {
           "id": 24,
@@ -1173,17 +1195,44 @@
           "away": "Crystal Palace",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t54.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
-          "away_goals": [],
-          "home_goals_summary": "",
-          "away_goals_summary": "",
+          "home_act": 2,
+          "away_act": 2,
+          "home_goals": [
+            {
+              "minute": "11'",
+              "scorer": "Josh King",
+              "assist": null,
+              "type": "G"
+            },
+            {
+              "minute": "42'",
+              "scorer": "César Palacios",
+              "assist": null,
+              "type": "G"
+            }
+          ],
+          "away_goals": [
+            {
+              "minute": "35'",
+              "scorer": "Tyrick Mitchell",
+              "assist": "Eddie Nketiah",
+              "type": "G"
+            },
+            {
+              "minute": "54'",
+              "scorer": "Tyrick Mitchell",
+              "assist": null,
+              "type": "G"
+            }
+          ],
+          "home_goals_summary": "Josh King 11', César Palacios 42'",
+          "away_goals_summary": "Tyrick Mitchell 35' (assist: Eddie Nketiah), Tyrick Mitchell 54'",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 60,
+          "status": "ONGOING",
+          "clock": "64'"
         },
         {
           "id": 26,
@@ -1191,17 +1240,25 @@
           "away": "Coventry City",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
+          "home_act": 1,
+          "away_act": 0,
+          "home_goals": [
+            {
+              "minute": "26'",
+              "scorer": "Erling Haaland",
+              "assist": "Antoine Semenyo",
+              "type": "G"
+            }
+          ],
           "away_goals": [],
-          "home_goals_summary": "",
+          "home_goals_summary": "Erling Haaland 26' (assist: Antoine Semenyo)",
           "away_goals_summary": "",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 65,
+          "status": "ONGOING",
+          "clock": "66'"
         },
         {
           "id": 28,
@@ -1209,17 +1266,25 @@
           "away": "Tottenham Hotspur",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
+          "home_act": 1,
+          "away_act": 0,
+          "home_goals": [
+            {
+              "minute": "66'",
+              "scorer": "Neco Williams",
+              "assist": null,
+              "type": "G"
+            }
+          ],
           "away_goals": [],
-          "home_goals_summary": "",
+          "home_goals_summary": "Neco Williams 66'",
           "away_goals_summary": "",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 64,
+          "status": "ONGOING",
+          "clock": "66'"
         },
         {
           "id": 25,
@@ -1227,8 +1292,8 @@
           "away": "Aston Villa",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 0,
+          "away_act": 0,
           "home_goals": [],
           "away_goals": [],
           "home_goals_summary": "",
