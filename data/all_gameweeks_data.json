@@ -67814,11 +67814,10 @@
         "home_goals_summary": "",
         "away_goals_summary": "",
         "kickoff": "2026-09-05T16:30:00Z",
-        "finished": false,
+        "finished": true,
         "started": true,
-        "minutes": 45,
-        "status": "ONGOING",
-        "clock": "45+2'"
+        "minutes": 90,
+        "status": "FT"
       },
       {
         "id": 30,
