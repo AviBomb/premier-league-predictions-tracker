@@ -1389,11 +1389,10 @@
           "home_goals_summary": "Kai Havertz 25' (assist: Declan Rice), Martin Ødegaard 50' (assist: Christos Tzolis)",
           "away_goals_summary": "Morgan Rogers 02' (assist: Jorrel Hato)",
           "kickoff": "2026-09-06T15:30:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 79,
-          "status": "ONGOING",
-          "clock": "80'"
+          "minutes": 90,
+          "status": "FT"
         }
       ],
       "video_url": "https://www.youtube.com/watch?v=6Ezl5T_rH_c",
