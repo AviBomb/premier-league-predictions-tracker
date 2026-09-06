@@ -67858,6 +67858,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "Ugz0Jj--UaAcNc6F2VZ4AaABAg",
+        "author": "@edi0157",
+        "channel_url": "http://www.youtube.com/@edi0157",
+        "published_at": "2026-09-06T04:28:18Z",
+        "updated_at": "2026-09-06T04:28:18Z",
+        "submission_gmt": "2026-09-06 04:28:18 GMT",
+        "updated_gmt": "2026-09-06 04:28:18 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "",
+        "timing_analysis": "Submitted 33h 28m before earliest kickoff (2026-09-06 04:28:18 GMT)",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid",
+        "raw_text": "After I actually had a decent run (7p) and the Irish Guy finally uploads earlier I forgot to check out the video so I can do mine, damn. Hilarious to watch this back knowing the results, Hull City just did the craziest thing lol. Average Irish Guy moment!\n\nJust in case I can still get in 2 games at least, Everton 1 Manchester United 2 \nArsenal 1 Chelsea 0",
+        "original_comment_text": "After I actually had a decent run (7p) and the Irish Guy finally uploads earlier I forgot to check out the video so I can do mine, damn. Hilarious to watch this back knowing the results, Hull City just did the craziest thing lol. Average Irish Guy moment!\n\nJust in case I can still get in 2 games at least, Everton 1 Manchester United 2 \nArsenal 1 Chelsea 0",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 2,
+        "valid_matches_count": 2,
+        "late_matches_count": 0,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Ipswich Town vs Liverpool": {
+            "pred": "N/A",
+            "actual": "0-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Newcastle United vs AFC Bournemouth": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Brentford vs Sunderland": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Brighton & Hove Albion vs Leeds United": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Fulham vs Crystal Palace": {
+            "pred": "N/A",
+            "actual": "2-3",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Manchester City vs Coventry City": {
+            "pred": "N/A",
+            "actual": "1-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Nottingham Forest vs Tottenham Hotspur": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Hull City vs Aston Villa": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Everton vs Manchester United": {
+            "pred": "1-2",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Arsenal vs Chelsea": {
+            "pred": "1-0",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          }
+        }
+      },
+      {
         "comment_id": "UgxVpK9wIcze2L-3a4N4AaABAg",
         "author": "@SmokeAsh0604",
         "channel_url": "http://www.youtube.com/@SmokeAsh0604",
