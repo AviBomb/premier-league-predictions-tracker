@@ -300,26 +300,26 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Saka",
-              "assist": "Calafiori",
+              "minute": "15'",
+              "scorer": "Kai Havertz",
+              "assist": "Riccardo Calafiori",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Ødegaard",
-              "assist": "White",
+              "minute": "23'",
+              "scorer": "Bukayo Saka",
+              "assist": null,
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Havertz",
-              "assist": "Tzolis",
+              "minute": "49'",
+              "scorer": "Martin Ødegaard",
+              "assist": "Ben White",
               "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Saka (Calafiori), Ødegaard (White), Havertz (Tzolis)",
+          "home_goals_summary": "Kai Havertz 15' (assist: Riccardo Calafiori), Bukayo Saka 23', Martin Ødegaard 49' (assist: Ben White)",
           "away_goals_summary": "",
           "kickoff": "2026-08-21T19:00:00Z",
           "finished": true,
@@ -337,20 +337,20 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Ajayi",
-              "assist": "Slater",
+              "minute": "17'",
+              "scorer": "Semi Ajayi",
+              "assist": null,
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Mendy",
-              "assist": "McBurnie",
+              "minute": "38'",
+              "scorer": "Nobel Mendy",
+              "assist": "Regan Slater",
               "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Ajayi (Slater), Mendy (McBurnie)",
+          "home_goals_summary": "Semi Ajayi 17', Nobel Mendy 38' (assist: Regan Slater)",
           "away_goals_summary": "",
           "kickoff": "2026-08-22T11:30:00Z",
           "finished": true,
@@ -368,20 +368,20 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Dewsbury-Hall",
-              "assist": "Ndiaye",
+              "minute": "42'",
+              "scorer": "Kiernan Dewsbury-Hall",
+              "assist": "Harrison Armstrong",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Barry",
-              "assist": "Armstrong",
+              "minute": "53'",
+              "scorer": "Thierno Barry",
+              "assist": "Iliman Ndiaye",
               "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Dewsbury-Hall (Ndiaye), Barry (Armstrong)",
+          "home_goals_summary": "Kiernan Dewsbury-Hall 42' (assist: Harrison Armstrong), Thierno Barry 53' (assist: Iliman Ndiaye)",
           "away_goals_summary": "",
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": true,
@@ -399,28 +399,28 @@
           "away_act": 1,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Clarke",
-              "assist": "Lukić",
+              "minute": "24'",
+              "scorer": "Emersonn",
+              "assist": "Julio Enciso",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Emersonn",
-              "assist": "Enciso",
+              "minute": "90'",
+              "scorer": "Jack Clarke",
+              "assist": "Sasa Lukic",
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "N.Angulo",
-              "assist": "Xhaka",
+              "minute": "39'",
+              "scorer": "Nilson Angulo",
+              "assist": null,
               "type": "G"
             }
           ],
-          "home_goals_summary": "Clarke (Lukić), Emersonn (Enciso)",
-          "away_goals_summary": "N.Angulo (Xhaka)",
+          "home_goals_summary": "Emersonn 24' (assist: Julio Enciso), Jack Clarke 90' (assist: Sasa Lukic)",
+          "away_goals_summary": "Nilson Angulo 39'",
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": true,
           "started": true,
@@ -438,14 +438,14 @@
           "home_goals": [],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Stach",
+              "minute": "88'",
+              "scorer": "Anton Stach",
               "assist": null,
               "type": "G"
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Stach",
+          "away_goals_summary": "Anton Stach 88'",
           "kickoff": "2026-08-22T14:00:00Z",
           "finished": true,
           "started": true,
@@ -462,26 +462,26 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Lewis-Potter",
-              "assist": "M.Sangaré",
+              "minute": "12'",
+              "scorer": "Keane Lewis-Potter",
+              "assist": "Mamadou Sangaré",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Kayode",
-              "assist": "M.Sangaré",
+              "minute": "33'",
+              "scorer": "Vitaly Janelt",
+              "assist": null,
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Janelt",
-              "assist": "Jensen",
+              "minute": "49'",
+              "scorer": "Michael Kayode",
+              "assist": null,
               "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Lewis-Potter (M.Sangaré), Kayode (M.Sangaré), Janelt (Jensen)",
+          "home_goals_summary": "Keane Lewis-Potter 12' (assist: Mamadou Sangaré), Vitaly Janelt 33', Michael Kayode 49'",
           "away_goals_summary": "",
           "kickoff": "2026-08-22T16:30:00Z",
           "finished": true,
@@ -499,32 +499,32 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Hinshelwood",
-              "assist": "De Cuyper",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "Hinshelwood",
-              "assist": "Georginio",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "De Cuyper",
-              "assist": "Gomez",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "Lindelöf",
+              "minute": "08'",
+              "scorer": "Victor Lindelöf",
               "assist": null,
               "type": "OG"
+            },
+            {
+              "minute": "18'",
+              "scorer": "Maxim De Cuyper",
+              "assist": "Georginio Rutter",
+              "type": "G"
+            },
+            {
+              "minute": "30'",
+              "scorer": "Jack Hinshelwood",
+              "assist": "Diego Gómez",
+              "type": "G"
+            },
+            {
+              "minute": "31'",
+              "scorer": "Jack Hinshelwood",
+              "assist": null,
+              "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Hinshelwood (De Cuyper), Hinshelwood (Georginio), De Cuyper (Gomez), Lindelöf (OG)",
+          "home_goals_summary": "Victor Lindelöf 08' (OG), Maxim De Cuyper 18' (assist: Georginio Rutter), Jack Hinshelwood 30' (assist: Diego Gómez), Jack Hinshelwood 31'",
           "away_goals_summary": "",
           "kickoff": "2026-08-23T13:00:00Z",
           "finished": true,
@@ -580,34 +580,34 @@
           "away_act": 2,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Elanga",
-              "assist": "Wissa",
+              "minute": "05'",
+              "scorer": "Anthony Elanga",
+              "assist": "William Osula",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Willock",
-              "assist": "Osula",
+              "minute": "57'",
+              "scorer": "Joe Willock",
+              "assist": "Yoane Wissa",
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Gakpo",
-              "assist": "Gravenberch",
+              "minute": "55'",
+              "scorer": "Cody Gakpo",
+              "assist": "Ryan Gravenberch",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Szoboszlai",
-              "assist": "Munoz",
-              "type": "G"
+              "minute": "90+9'",
+              "scorer": "Dominik Szoboszlai",
+              "assist": null,
+              "type": "P"
             }
           ],
-          "home_goals_summary": "Elanga (Wissa), Willock (Osula)",
-          "away_goals_summary": "Gakpo (Gravenberch), Szoboszlai (Munoz)",
+          "home_goals_summary": "Anthony Elanga 05' (assist: William Osula), Joe Willock 57' (assist: Yoane Wissa)",
+          "away_goals_summary": "Cody Gakpo 55' (assist: Ryan Gravenberch), Dominik Szoboszlai 90+9' (P)",
           "kickoff": "2026-08-23T15:30:00Z",
           "finished": true,
           "started": true,
@@ -624,40 +624,40 @@
           "away_act": 3,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "King",
-              "assist": "Castagne",
+              "minute": "23'",
+              "scorer": "Josh King",
+              "assist": "Timothy Castagne",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Gonzalo",
-              "assist": "Castagne",
+              "minute": "54'",
+              "scorer": "Gonzalo García",
+              "assist": null,
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Rogers",
-              "assist": "Palmer",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "Palmer",
-              "assist": "João Pedro",
-              "type": "G"
-            },
-            {
-              "minute": "",
+              "minute": "01'",
               "scorer": "João Pedro",
-              "assist": "Lacroix",
+              "assist": "Cole Palmer",
+              "type": "G"
+            },
+            {
+              "minute": "41'",
+              "scorer": "Morgan Rogers",
+              "assist": "Maxence Lacroix",
+              "type": "G"
+            },
+            {
+              "minute": "49'",
+              "scorer": "Cole Palmer",
+              "assist": "João Pedro",
               "type": "G"
             }
           ],
-          "home_goals_summary": "King (Castagne), Gonzalo (Castagne)",
-          "away_goals_summary": "Rogers (Palmer), Palmer (João Pedro), João Pedro (Lacroix)",
+          "home_goals_summary": "Josh King 23' (assist: Timothy Castagne), Gonzalo García 54'",
+          "away_goals_summary": "João Pedro 01' (assist: Cole Palmer), Morgan Rogers 41' (assist: Maxence Lacroix), Cole Palmer 49' (assist: João Pedro)",
           "kickoff": "2026-08-24T19:00:00Z",
           "finished": true,
           "started": true,
@@ -680,40 +680,40 @@
           "away_act": 4,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Donnarumma",
+              "minute": "56'",
+              "scorer": "Gianluigi Donnarumma",
               "assist": null,
               "type": "OG"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Cherki",
-              "assist": "Foden",
+              "minute": "17'",
+              "scorer": "Erling Haaland",
+              "assist": "Antoine Semenyo",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Cherki",
-              "assist": "Foden",
+              "minute": "54'",
+              "scorer": "Rayan Cherki",
+              "assist": "Phil Foden",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Haaland",
-              "assist": "Gvardiol",
+              "minute": "59'",
+              "scorer": "Rayan Cherki",
+              "assist": "Josko Gvardiol",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Haaland",
-              "assist": "Semenyo",
+              "minute": "84'",
+              "scorer": "Erling Haaland",
+              "assist": "Phil Foden",
               "type": "G"
             }
           ],
-          "home_goals_summary": "Donnarumma (OG)",
-          "away_goals_summary": "Cherki (Foden), Cherki (Foden), Haaland (Gvardiol), Haaland (Semenyo)",
+          "home_goals_summary": "Gianluigi Donnarumma 56' (OG)",
+          "away_goals_summary": "Erling Haaland 17' (assist: Antoine Semenyo), Rayan Cherki 54' (assist: Phil Foden), Rayan Cherki 59' (assist: Josko Gvardiol), Erling Haaland 84' (assist: Phil Foden)",
           "kickoff": "2026-08-28T19:00:00Z",
           "finished": true,
           "started": true,
@@ -730,34 +730,34 @@
           "away_act": 2,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Munoz",
-              "assist": "Wirtz",
+              "minute": "60'",
+              "scorer": "Alexander Isak",
+              "assist": "Cody Gakpo",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Isak",
-              "assist": "Gakpo",
+              "minute": "82'",
+              "scorer": "Víctor Muñoz",
+              "assist": "Florian Wirtz",
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Gibbs-White",
-              "assist": "N.Williams",
+              "minute": "24'",
+              "scorer": "Dan Ndoye",
+              "assist": "Morgan Gibbs-White",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Ndoye",
-              "assist": "Gibbs-White",
-              "type": "G"
+              "minute": "70'",
+              "scorer": "Morgan Gibbs-White",
+              "assist": null,
+              "type": "P"
             }
           ],
-          "home_goals_summary": "Munoz (Wirtz), Isak (Gakpo)",
-          "away_goals_summary": "Gibbs-White (N.Williams), Ndoye (Gibbs-White)",
+          "home_goals_summary": "Alexander Isak 60' (assist: Cody Gakpo), Víctor Muñoz 82' (assist: Florian Wirtz)",
+          "away_goals_summary": "Dan Ndoye 24' (assist: Morgan Gibbs-White), Morgan Gibbs-White 70' (P)",
           "kickoff": "2026-08-29T11:30:00Z",
           "finished": true,
           "started": true,
@@ -807,14 +807,14 @@
           "home_goals": [],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Millar",
-              "assist": "Belloumi",
+              "minute": "82'",
+              "scorer": "Liam Millar",
+              "assist": "Mohamed Belloumi",
               "type": "G"
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Millar (Belloumi)",
+          "away_goals_summary": "Liam Millar 82' (assist: Mohamed Belloumi)",
           "kickoff": "2026-08-29T14:00:00Z",
           "finished": true,
           "started": true,
@@ -832,20 +832,20 @@
           "home_goals": [],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Elanga",
-              "assist": "Woltemade",
+              "minute": "62'",
+              "scorer": "Anthony Elanga",
+              "assist": "Amar Dedic",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Wissa",
-              "assist": "Dedić",
+              "minute": "72'",
+              "scorer": "Yoane Wissa",
+              "assist": "Nick Woltemade",
               "type": "G"
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Elanga (Woltemade), Wissa (Dedić)",
+          "away_goals_summary": "Anthony Elanga 62' (assist: Amar Dedic), Yoane Wissa 72' (assist: Nick Woltemade)",
           "kickoff": "2026-08-29T16:30:00Z",
           "finished": true,
           "started": true,
@@ -862,52 +862,52 @@
           "away_act": 3,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Palmer",
-              "assist": "Rogers",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "Neto",
-              "assist": "Hato",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "Lavia",
-              "assist": "João Pedro",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "João Pedro",
+              "minute": "04'",
+              "scorer": "Roméo Lavia",
               "assist": null,
+              "type": "G"
+            },
+            {
+              "minute": "14'",
+              "scorer": "Pedro Neto",
+              "assist": "Morgan Rogers",
+              "type": "G"
+            },
+            {
+              "minute": "32'",
+              "scorer": "João Pedro",
+              "assist": "Jorrel Hato",
+              "type": "G"
+            },
+            {
+              "minute": "74'",
+              "scorer": "Cole Palmer",
+              "assist": "João Pedro",
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Groß",
-              "assist": "Groß",
+              "minute": "35'",
+              "scorer": "Malick Yalcouyé",
+              "assist": null,
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Yalcouyé",
-              "assist": "Gomez",
-              "type": "G"
-            },
-            {
-              "minute": "",
+              "minute": "63'",
               "scorer": "João Pedro",
               "assist": null,
               "type": "OG"
+            },
+            {
+              "minute": "90+6'",
+              "scorer": "Pascal Groß",
+              "assist": null,
+              "type": "G"
             }
           ],
-          "home_goals_summary": "Palmer (Rogers), Neto (Hato), Lavia (João Pedro), João Pedro",
-          "away_goals_summary": "Groß (Groß), Yalcouyé (Gomez), João Pedro (OG)",
+          "home_goals_summary": "Roméo Lavia 04', Pedro Neto 14' (assist: Morgan Rogers), João Pedro 32' (assist: Jorrel Hato), Cole Palmer 74' (assist: João Pedro)",
+          "away_goals_summary": "Malick Yalcouyé 35', João Pedro 63' (OG), Pascal Groß 90+6'",
           "kickoff": "2026-08-30T13:00:00Z",
           "finished": true,
           "started": true,
@@ -924,22 +924,22 @@
           "away_act": 1,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Calvert-Lewin",
-              "assist": "Nmecha",
+              "minute": "79'",
+              "scorer": "Dominic Calvert-Lewin",
+              "assist": "Lukas Nmecha",
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Schade",
-              "assist": "Lewis-Potter",
+              "minute": "41'",
+              "scorer": "Kevin Schade",
+              "assist": "Keane Lewis-Potter",
               "type": "G"
             }
           ],
-          "home_goals_summary": "Calvert-Lewin (Nmecha)",
-          "away_goals_summary": "Schade (Lewis-Potter)",
+          "home_goals_summary": "Dominic Calvert-Lewin 79' (assist: Lukas Nmecha)",
+          "away_goals_summary": "Kevin Schade 41' (assist: Keane Lewis-Potter)",
           "kickoff": "2026-08-30T13:00:00Z",
           "finished": true,
           "started": true,
@@ -956,14 +956,14 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Isidor",
-              "assist": "Diarra",
+              "minute": "75'",
+              "scorer": "Wilson Isidor",
+              "assist": "Habib Diarra",
               "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Isidor (Diarra)",
+          "home_goals_summary": "Wilson Isidor 75' (assist: Habib Diarra)",
           "away_goals_summary": "",
           "kickoff": "2026-08-30T13:00:00Z",
           "finished": true,
@@ -981,52 +981,52 @@
           "away_act": 2,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "B.Fernandes",
-              "assist": "Cunha",
+              "minute": "40'",
+              "scorer": "Bruno Fernandes",
+              "assist": "Matheus Cunha",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "B.Fernandes",
-              "assist": "Cunha",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "B.Fernandes",
-              "assist": "Maguire",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "Mbeumo",
-              "assist": "B.Fernandes",
-              "type": "G"
-            },
-            {
-              "minute": "",
-              "scorer": "Greaves",
+              "minute": "56'",
+              "scorer": "Jacob Greaves",
               "assist": null,
               "type": "OG"
+            },
+            {
+              "minute": "61'",
+              "scorer": "Bruno Fernandes",
+              "assist": null,
+              "type": "P"
+            },
+            {
+              "minute": "68'",
+              "scorer": "Bruno Fernandes",
+              "assist": null,
+              "type": "G"
+            },
+            {
+              "minute": "82'",
+              "scorer": "Bryan Mbeumo",
+              "assist": "Bruno Fernandes",
+              "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Davis",
-              "assist": "Fatawu",
+              "minute": "29'",
+              "scorer": "Leif Davis",
+              "assist": "Abdul Fatawu",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Akpom",
-              "assist": "Enciso",
+              "minute": "90+1'",
+              "scorer": "Chuba Akpom",
+              "assist": "Julio Enciso",
               "type": "G"
             }
           ],
-          "home_goals_summary": "B.Fernandes (Cunha), B.Fernandes (Cunha), B.Fernandes (Maguire), Mbeumo (B.Fernandes), Greaves (OG)",
-          "away_goals_summary": "Davis (Fatawu), Akpom (Enciso)",
+          "home_goals_summary": "Bruno Fernandes 40' (assist: Matheus Cunha), Jacob Greaves 56' (OG), Bruno Fernandes 61' (P), Bruno Fernandes 68', Bryan Mbeumo 82' (assist: Bruno Fernandes)",
+          "away_goals_summary": "Leif Davis 29' (assist: Abdul Fatawu), Chuba Akpom 90+1' (assist: Julio Enciso)",
           "kickoff": "2026-08-30T15:30:00Z",
           "finished": true,
           "started": true,
@@ -1044,14 +1044,14 @@
           "home_goals": [],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Saka",
-              "assist": "Calafiori",
+              "minute": "59'",
+              "scorer": "Bukayo Saka",
+              "assist": "Riccardo Calafiori",
               "type": "G"
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Saka (Calafiori)",
+          "away_goals_summary": "Bukayo Saka 59' (assist: Riccardo Calafiori)",
           "kickoff": "2026-08-31T19:00:00Z",
           "finished": true,
           "started": true,
@@ -1073,20 +1073,20 @@
           "home_goals": [],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Isak",
-              "assist": "Gakpo",
+              "minute": "06'",
+              "scorer": "Alexander Isak",
+              "assist": "Cody Gakpo",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Isak",
-              "assist": "Gakpo",
+              "minute": "09'",
+              "scorer": "Alexander Isak",
+              "assist": "Cody Gakpo",
               "type": "G"
             }
           ],
           "home_goals_summary": "",
-          "away_goals_summary": "Isak (Gakpo), Isak (Gakpo)",
+          "away_goals_summary": "Alexander Isak 06' (assist: Cody Gakpo), Alexander Isak 09' (assist: Cody Gakpo)",
           "kickoff": "2026-09-04T19:00:00Z",
           "finished": true,
           "started": true,
@@ -1147,22 +1147,22 @@
           "away_act": 1,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Janelt",
-              "assist": "Damsgaard",
+              "minute": "57'",
+              "scorer": "Vitaly Janelt",
+              "assist": null,
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "E.Le Fée",
-              "assist": "Isidor",
-              "type": "G"
+              "minute": "82'",
+              "scorer": "Enzo Le Fée",
+              "assist": null,
+              "type": "P"
             }
           ],
-          "home_goals_summary": "Janelt (Damsgaard)",
-          "away_goals_summary": "E.Le Fée (Isidor)",
+          "home_goals_summary": "Vitaly Janelt 57'",
+          "away_goals_summary": "Enzo Le Fée 82' (P)",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": true,
           "started": true,
@@ -1179,22 +1179,22 @@
           "away_act": 1,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Vuskovic",
-              "assist": "De Cuyper",
+              "minute": "71'",
+              "scorer": "Luka Vuskovic",
+              "assist": "Maxim De Cuyper",
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Bogle",
-              "assist": "Tanaka",
+              "minute": "15'",
+              "scorer": "Jayden Bogle",
+              "assist": "Ao Tanaka",
               "type": "G"
             }
           ],
-          "home_goals_summary": "Vuskovic (De Cuyper)",
-          "away_goals_summary": "Bogle (Tanaka)",
+          "home_goals_summary": "Luka Vuskovic 71' (assist: Maxim De Cuyper)",
+          "away_goals_summary": "Jayden Bogle 15' (assist: Ao Tanaka)",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": true,
           "started": true,
@@ -1211,40 +1211,40 @@
           "away_act": 3,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "King",
+              "minute": "11'",
+              "scorer": "Josh King",
               "assist": null,
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Palacios",
+              "minute": "42'",
+              "scorer": "César Palacios",
               "assist": null,
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Mitchell",
-              "assist": "Yeremy",
+              "minute": "35'",
+              "scorer": "Tyrick Mitchell",
+              "assist": "Eddie Nketiah",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Mitchell",
-              "assist": "Kamada",
+              "minute": "54'",
+              "scorer": "Tyrick Mitchell",
+              "assist": null,
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Chilwell",
-              "assist": "Nketiah",
+              "minute": "77'",
+              "scorer": "Ben Chilwell",
+              "assist": "Daichi Kamada",
               "type": "G"
             }
           ],
-          "home_goals_summary": "King, Palacios",
-          "away_goals_summary": "Mitchell (Yeremy), Mitchell (Kamada), Chilwell (Nketiah)",
+          "home_goals_summary": "Josh King 11', César Palacios 42'",
+          "away_goals_summary": "Tyrick Mitchell 35' (assist: Eddie Nketiah), Tyrick Mitchell 54', Ben Chilwell 77' (assist: Daichi Kamada)",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": true,
           "started": true,
@@ -1261,14 +1261,14 @@
           "away_act": 0,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Haaland",
-              "assist": "Semenyo",
+              "minute": "26'",
+              "scorer": "Erling Haaland",
+              "assist": "Antoine Semenyo",
               "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Haaland (Semenyo)",
+          "home_goals_summary": "Erling Haaland 26' (assist: Antoine Semenyo)",
           "away_goals_summary": "",
           "kickoff": "2026-09-05T14:00:00Z",
           "finished": true,
@@ -1322,34 +1322,34 @@
           "away_act": 2,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "George",
-              "assist": "Hackney",
+              "minute": "83'",
+              "scorer": "Tyrique George",
+              "assist": "Hayden Hackney",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Maitland-Niles",
+              "minute": "90+6'",
+              "scorer": "Ainsley Maitland-Niles",
               "assist": null,
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Mbeumo",
-              "assist": "Shaw",
+              "minute": "46'",
+              "scorer": "Bryan Mbeumo",
+              "assist": "Kobbie Mainoo",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Šeško",
-              "assist": "Mainoo",
+              "minute": "88'",
+              "scorer": "Benjamin Sesko",
+              "assist": "Luke Shaw",
               "type": "G"
             }
           ],
-          "home_goals_summary": "George (Hackney), Maitland-Niles",
-          "away_goals_summary": "Mbeumo (Shaw), Šeško (Mainoo)",
+          "home_goals_summary": "Tyrique George 83' (assist: Hayden Hackney), Ainsley Maitland-Niles 90+6'",
+          "away_goals_summary": "Bryan Mbeumo 46' (assist: Kobbie Mainoo), Benjamin Sesko 88' (assist: Luke Shaw)",
           "kickoff": "2026-09-06T13:00:00Z",
           "finished": true,
           "started": true,
@@ -1366,28 +1366,28 @@
           "away_act": 1,
           "home_goals": [
             {
-              "minute": "",
-              "scorer": "Ødegaard",
-              "assist": "Rice",
+              "minute": "25'",
+              "scorer": "Kai Havertz",
+              "assist": "Declan Rice",
               "type": "G"
             },
             {
-              "minute": "",
-              "scorer": "Havertz",
-              "assist": "Tzolis",
+              "minute": "50'",
+              "scorer": "Martin Ødegaard",
+              "assist": "Christos Tzolis",
               "type": "G"
             }
           ],
           "away_goals": [
             {
-              "minute": "",
-              "scorer": "Rogers",
-              "assist": "Hato",
+              "minute": "02'",
+              "scorer": "Morgan Rogers",
+              "assist": "Jorrel Hato",
               "type": "G"
             }
           ],
-          "home_goals_summary": "Ødegaard (Rice), Havertz (Tzolis)",
-          "away_goals_summary": "Rogers (Hato)",
+          "home_goals_summary": "Kai Havertz 25' (assist: Declan Rice), Martin Ødegaard 50' (assist: Christos Tzolis)",
+          "away_goals_summary": "Morgan Rogers 02' (assist: Jorrel Hato)",
           "kickoff": "2026-09-06T15:30:00Z",
           "finished": true,
           "started": true,
