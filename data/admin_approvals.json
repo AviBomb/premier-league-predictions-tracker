@@ -1071,6 +1071,14 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@Ferrufino5l": {
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-09-11T09:56:25.856Z",
+        "pred_home": 5,
+        "pred_away": 0
+      }
     }
   }
 }
