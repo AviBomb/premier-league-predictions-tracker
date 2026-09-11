@@ -1087,6 +1087,20 @@
         "pred_home": 4,
         "pred_away": 0
       }
+    },
+    "@vwanimations4986": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-09-11T09:56:57.248Z",
+        "pred_home": 2,
+        "pred_away": 1
+      },
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-09-11T09:56:57.249Z",
+        "pred_home": 4,
+        "pred_away": 0
+      }
     }
   }
 }
