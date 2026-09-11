@@ -2612,7 +2612,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Newcastle United vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_22",
@@ -2630,7 +2631,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Brentford vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_23",
@@ -2648,7 +2650,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Brighton & Hove Albion vs Leeds United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_24",
@@ -2666,7 +2669,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Fulham vs Crystal Palace",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_26",
@@ -2684,7 +2688,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Manchester City vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_28",
@@ -2702,7 +2707,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Nottingham Forest vs Tottenham Hotspur",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_25",
@@ -2720,7 +2726,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Hull City vs Aston Villa",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_30",
@@ -2738,7 +2745,8 @@
     "pred_away": 3,
     "confidence": 100,
     "detected_teams": "Everton vs Manchester United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_AwesomeYears_29",
@@ -2756,7 +2764,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Arsenal vs Chelsea",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_Ferrufino5l_26",
@@ -2783,7 +2792,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Manchester City vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_pineapplejuice7173_26",
@@ -2810,7 +2820,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Manchester City vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_DireSway_23",
@@ -2838,7 +2849,8 @@
     "pred_away": 1,
     "confidence": 90,
     "detected_teams": "Brighton & Hove Albion vs Leeds United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_vwanimations4986_22",
@@ -2865,7 +2877,8 @@
     "pred_away": 1,
     "confidence": 97,
     "detected_teams": "Brentford vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_vwanimations4986_26",
@@ -2892,7 +2905,8 @@
     "pred_away": 0,
     "confidence": 97,
     "detected_teams": "Manchester City vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw3_cian1706_27",
@@ -3640,6 +3654,89 @@
     "detected_teams": "Ipswich Town vs Liverpool",
     "status": "approved",
     "admin_corrected": true
+  },
+  {
+    "id": "cand_gw4_giardy8053_38",
+    "gameweek": 4,
+    "author": "@giardy8053",
+    "comment_id": "UgywVlgmPxKbamOKee94AaABAg",
+    "published_at": "2026-09-11T13:24:31Z",
+    "raw_line": "Conventry City vs Brighton 1-1",
+    "full_comment": "Gameweek 4 predictions:\n\nBournemouth vs Brentford 1-1\nAston Villa vs Nottingham Forest 2-1\nChelsea vs Hull City 3-1\nCrystal Palace vs Ipswich Town 1-0\nLiverpool vs Fulham 3-0\nTottenham vs Everton 0-1\nSunderland vs Arsenal 0-2\nConventry City vs Brighton 1-1\nManchester United vs Manchester City 2-2\nLeeds vs Newcastle 0-1",
+    "other_predictions": {
+      "AFC Bournemouth vs Brentford": "1 - 1",
+      "Aston Villa vs Nottingham Forest": "2 - 1",
+      "Chelsea vs Hull City": "3 - 1",
+      "Crystal Palace vs Ipswich Town": "1 - 0",
+      "Liverpool vs Fulham": "3 - 0",
+      "Tottenham Hotspur vs Everton": "0 - 1",
+      "Sunderland vs Arsenal": "0 - 2",
+      "Manchester United vs Manchester City": "2 - 2",
+      "Leeds United vs Newcastle United": "0 - 1"
+    },
+    "fixture_id": 38,
+    "home_team": "Coventry City",
+    "away_team": "Brighton & Hove Albion",
+    "pred_home": 1,
+    "pred_away": 1,
+    "confidence": 98,
+    "detected_teams": "Coventry City vs Brighton & Hove Albion",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw4_thedesert546_39",
+    "gameweek": 4,
+    "author": "@thedesert546",
+    "comment_id": "UgzD0BV8NXCRnck0kFN4AaABAg",
+    "published_at": "2026-09-11T13:23:51Z",
+    "raw_line": "Manchester Utd 1-3 Manchester City",
+    "full_comment": "Premier League Gameweek 4 Predictions:\nAston villa 2-2 Nottingham Forest\nBournemouth 0-1 Brentford\nChelsea 3-2 Hull\nPalace 0-0 Ipswich\nLiverpool 2-1 Fulham\nTottenham 1-1 Everton\nSunderland 0-2 Arsenal\nCoventry 0-3 Brighton\nManchester Utd 1-3 Manchester City\nLeeds Utd 2-2 Newcastle",
+    "other_predictions": {
+      "Aston Villa vs Nottingham Forest": "2 - 2",
+      "AFC Bournemouth vs Brentford": "0 - 1",
+      "Chelsea vs Hull City": "3 - 2",
+      "Crystal Palace vs Ipswich Town": "0 - 0",
+      "Liverpool vs Fulham": "2 - 1",
+      "Tottenham Hotspur vs Everton": "1 - 1",
+      "Sunderland vs Arsenal": "0 - 2",
+      "Coventry City vs Brighton & Hove Albion": "0 - 3",
+      "Leeds United vs Newcastle United": "2 - 2"
+    },
+    "fixture_id": 39,
+    "home_team": "Manchester United",
+    "away_team": "Manchester City",
+    "pred_home": 1,
+    "pred_away": 3,
+    "confidence": 95,
+    "detected_teams": "Manchester United vs Manchester City",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw4_nep2222_34",
+    "gameweek": 4,
+    "author": "@nep2222",
+    "comment_id": "UgyAtQxDEN77jtG0w4d4AaABAg",
+    "published_at": "2026-09-11T12:50:04Z",
+    "raw_line": "Palace 3-1 Ispwich",
+    "full_comment": "Game week 4 predictions\n\nVilla 1-1 Forrest\nBournemouth 1-2 Brentford\nChelsea 4-2 Hull\nPalace 3-1 Ispwich\nLiverpool 2-1 Fulham\nSpurs 1-2 Everton\nCoventry 1- 2 Brighton\nMan U 2-3 Man City\nLeeds 2-2 Newcastle",
+    "other_predictions": {
+      "Aston Villa vs Nottingham Forest": "1 - 1",
+      "AFC Bournemouth vs Brentford": "1 - 2",
+      "Chelsea vs Hull City": "4 - 2",
+      "Liverpool vs Fulham": "2 - 1",
+      "Tottenham Hotspur vs Everton": "1 - 2",
+      "Coventry City vs Brighton & Hove Albion": "1 - 2",
+      "Manchester United vs Manchester City": "2 - 3",
+      "Leeds United vs Newcastle United": "2 - 2"
+    },
+    "fixture_id": 34,
+    "home_team": "Crystal Palace",
+    "away_team": "Ipswich Town",
+    "pred_home": 3,
+    "pred_away": 1,
+    "confidence": 93,
+    "detected_teams": "Crystal Palace vs Ipswich Town",
+    "status": "pending"
   },
   {
     "id": "cand_gw4_IceBear9_34",
