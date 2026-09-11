@@ -1007,6 +1007,14 @@
         "pred_home": 2,
         "pred_away": 2
       }
+    },
+    "@DireSway": {
+      "23": {
+        "status": "approved",
+        "timestamp": "2026-09-11T09:55:13.148Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   }
 }
