@@ -16665,9 +16665,14 @@
   "UgxfGMlUfux6vJU8LGF4AaABAg": {
     "initial_text": "My predictions for Gameweek 4\n\nAston villa 2 - 2 Nottingham Forrest \nBournemouth 1 - 2 Brentford \nChelsea 3 - 1 Hull City \nCrystal Palace 1 - 1 Ipswich \nLiverpool 3 - 0 Fulham \nTottenham 2 - 2 Everton\nSunderland 1 - 0 Arsenal \nCoventry 1 - 2 Brighton \nManchester United 1 - 3 Manchester City \nLeeds 1 - 1 Newcastle",
     "initial_pub": "2026-09-10T19:18:12Z",
-    "revisions": [],
-    "latest_text": "My predictions for Gameweek 4\n\nAston villa 2 - 2 Nottingham Forrest \nBournemouth 1 - 2 Brentford \nChelsea 3 - 1 Hull City \nCrystal Palace 1 - 1 Ipswich \nLiverpool 3 - 0 Fulham \nTottenham 2 - 2 Everton\nSunderland 1 - 0 Arsenal \nCoventry 1 - 2 Brighton \nManchester United 1 - 3 Manchester City \nLeeds 1 - 1 Newcastle",
-    "latest_upd": "2026-09-10T19:18:12Z"
+    "revisions": [
+      {
+        "timestamp": "2026-09-10T19:18:12Z",
+        "text": "My predictions for Gameweek 4\n\nAston villa 2 - 2 Nottingham Forrest \nBournemouth 1 - 2 Brentford \nChelsea 3 - 1 Hull City \nCrystal Palace 1 - 1 Ipswich \nLiverpool 3 - 0 Fulham \nTottenham 2 - 2 Everton\nSunderland 1 - 0 Arsenal \nCoventry 1 - 2 Brighton \nManchester United 1 - 3 Manchester City \nLeeds 1 - 1 Newcastle"
+      }
+    ],
+    "latest_text": "My predictions for Gameweek 4\n\nAston villa 1 - 2 Nottingham Forrest \nBournemouth 2 - 2 Brentford \nChelsea 3 - 2 Hull City \nCrystal Palace 1 - 1 Ipswich \nLiverpool 3 - 0 Fulham \nTottenham 2 - 2 Everton\nSunderland 1 - 0 Arsenal \nCoventry 1 - 2 Brighton \nManchester United 1 - 3 Manchester City \nLeeds 1 - 1 Newcastle",
+    "latest_upd": "2026-09-12T15:53:16Z"
   },
   "UgzvzovQt55PuQ4iS9R4AaABAg": {
     "initial_text": "Liverpool 2-1 Fulham\nBournemouth 1-1 Brentford \nChelsea 3-0 Hull\nAston Villa 0-0 Nottingham Forest \nCrystal Palace 1-0 Ipswich \nTottenham 2-0 Everton\nSunderland 1-2 Arsenal\nCoventry 1-3 Brighton \nMan United 0-2 Man City \nLeeds 2-2 Newcastle",
@@ -17314,9 +17319,14 @@
   "Ugx-nA8Tv3e7caI2D3R4AaABAg": {
     "initial_text": "Villa vs forest 0-1\nBournemouth 1-1 Brentford \nChelsea 3-1 hull  \nPalace 0-2 Ipswich \nTottenham 0-2 Everton \nSunderland 0-2 Arsenal \nCoventry 0-3 Brighton\n United 1-2 city \nLeeds 1-0 newcastle",
     "initial_pub": "2026-09-10T18:14:40Z",
-    "revisions": [],
-    "latest_text": "Villa vs forest 0-1\nBournemouth 1-1 Brentford \nChelsea 3-1 hull  \nPalace 0-2 Ipswich \nTottenham 0-2 Everton \nSunderland 0-2 Arsenal \nCoventry 0-3 Brighton\n United 1-2 city \nLeeds 1-0 newcastle",
-    "latest_upd": "2026-09-10T18:14:40Z"
+    "revisions": [
+      {
+        "timestamp": "2026-09-10T18:14:40Z",
+        "text": "Villa vs forest 0-1\nBournemouth 1-1 Brentford \nChelsea 3-1 hull  \nPalace 0-2 Ipswich \nTottenham 0-2 Everton \nSunderland 0-2 Arsenal \nCoventry 0-3 Brighton\n United 1-2 city \nLeeds 1-0 newcastle"
+      }
+    ],
+    "latest_text": "Villa vs forest 0-1\nBournemouth 1-1 Brentford \nChelsea 3-1 hull  \nPalace 0-2 Ipswich \nTottenham 0-2 Everton \nSunderland 0-2 Arsenal \nCoventry 0-3 Brighton\n United 1-2 city \nLeeds 1-0 newcastle I forgot Liverpool and Fulham but Liverpool 0-Fulham 1",
+    "latest_upd": "2026-09-12T15:11:55Z"
   },
   "UgwrKsq_-MQEBEoocNd4AaABAg": {
     "initial_text": "Aston Villa 1 Nottingham Forest 1\nBournemouth 1 Brentford 2\nChelsea 4 Hull 0\nCrystal Palace 3 Ipswich 1\nLiverpool 3 Fulham 1\nTottenham 1 Everton 1\nSunderland 0 Arsenal 1\nCoventry 2 Brighton 2\nMan United 2 Man City 2\nLeeds 1 Newcastle 0",
@@ -18967,5 +18977,194 @@
     "revisions": [],
     "latest_text": "where to give prdiction (yeah im stupid)",
     "latest_upd": "2026-09-12T09:00:07Z"
+  },
+  "Ugy4Eh89yloTwpRkCGB4AaABAg": {
+    "initial_text": "My Predictions\n\nChelsea 2 Hull 2\nCrystal Palace 3 vs Ipswich 2\nLiverpool 1 vs Fulham 1\nBournemouth 2 vs Brentford 1\nAston Villa 0 vs Nottingham Forest 1\nTottenham 1 vs Everton 0\nSunderland 0 vs Arsenal 2\nCoventry 0 vs Brighton 2\nManchester United 1 vs Manchester City 1\nLeeds 3 vs Newcastle 2",
+    "initial_pub": "2026-09-12T14:59:30Z",
+    "revisions": [],
+    "latest_text": "My Predictions\n\nChelsea 2 Hull 2\nCrystal Palace 3 vs Ipswich 2\nLiverpool 1 vs Fulham 1\nBournemouth 2 vs Brentford 1\nAston Villa 0 vs Nottingham Forest 1\nTottenham 1 vs Everton 0\nSunderland 0 vs Arsenal 2\nCoventry 0 vs Brighton 2\nManchester United 1 vs Manchester City 1\nLeeds 3 vs Newcastle 2",
+    "latest_upd": "2026-09-12T14:59:30Z"
+  },
+  "Ugyz8eXuFcPc-8Wh6eN4AaABAg": {
+    "initial_text": "Tottenham 1 Everton 1 Sunderland 0 Arsenal 3 Coventry 1 Brighton 3 Man Utd 2 Man City 1 Leeds 0 Newcastle 1",
+    "initial_pub": "2026-09-12T14:51:57Z",
+    "revisions": [],
+    "latest_text": "Tottenham 1 Everton 1 Sunderland 0 Arsenal 3 Coventry 1 Brighton 3 Man Utd 2 Man City 1 Leeds 0 Newcastle 1",
+    "latest_upd": "2026-09-12T14:51:57Z"
+  },
+  "UgwUy282kx5v0zYfS_Z4AaABAg": {
+    "initial_text": "My predictions for Gameweek 4\nAston Villa 1 Nottingham Forest 2\nBournemouth 1 Brentford 1\nChelsea 2 Hull 0\nCrystal Palace 4 Ipswich 1\nLiverpool 5 Fulham 1\nTottenham 1 Everton 2\nSunderland 0 Arsenal 2\nMan Utd 2 Man City 2\nCoventry 1 Brighton 4\nLeeds 1 Newcastle 2",
+    "initial_pub": "2026-09-12T14:32:30Z",
+    "revisions": [],
+    "latest_text": "My predictions for Gameweek 4\nAston Villa 1 Nottingham Forest 2\nBournemouth 1 Brentford 1\nChelsea 2 Hull 0\nCrystal Palace 4 Ipswich 1\nLiverpool 5 Fulham 1\nTottenham 1 Everton 2\nSunderland 0 Arsenal 2\nMan Utd 2 Man City 2\nCoventry 1 Brighton 4\nLeeds 1 Newcastle 2",
+    "latest_upd": "2026-09-12T14:32:30Z"
+  },
+  "UgzgiWDjEToBI0ITWah4AaABAg": {
+    "initial_text": "Aston Villa v Forest 1-2\nBournemouth v Brentford 2-2\nChelsea v Hull 3-0\nCrystal Palace v Ipswich 1-2\nLiverpool v Fulham 3-1\nTottenham v Everton 1-1\nSunderland v Arsenal 0-3\nCoventry v Brighton 1-2\nMan U v Man City 1-3\nLeeds v Newcastle 2-1\n\nPLEASEE ACCEPT MY ENTRIES. At least the ones not yet started. I fell asleep and the first matches already started :(((",
+    "initial_pub": "2026-09-12T14:22:29Z",
+    "revisions": [],
+    "latest_text": "Aston Villa v Forest 1-2\nBournemouth v Brentford 2-2\nChelsea v Hull 3-0\nCrystal Palace v Ipswich 1-2\nLiverpool v Fulham 3-1\nTottenham v Everton 1-1\nSunderland v Arsenal 0-3\nCoventry v Brighton 1-2\nMan U v Man City 1-3\nLeeds v Newcastle 2-1\n\nPLEASEE ACCEPT MY ENTRIES. At least the ones not yet started. I fell asleep and the first matches already started :(((",
+    "latest_upd": "2026-09-12T14:22:29Z"
+  },
+  "UgyWNTbkSXW4SCp7TyR4AaABAg": {
+    "initial_text": "Avl 2-1 Nfo\nBournemouth 2-0 Brentford\nChelsea 2-0 Hull\nCrystal Palace 1-2 Ipswich\nLiverpool 2-2 Fulham\nTottenham 0-0 Everton\nCoventry 1-3 Brighton\nSunderland 0-2 Arsenal\nMan U 1-4 Mancity\nLeeds 1-1 Newcastle",
+    "initial_pub": "2026-09-12T14:18:22Z",
+    "revisions": [],
+    "latest_text": "Avl 2-1 Nfo\nBournemouth 2-0 Brentford\nChelsea 2-0 Hull\nCrystal Palace 1-2 Ipswich\nLiverpool 2-2 Fulham\nTottenham 0-0 Everton\nCoventry 1-3 Brighton\nSunderland 0-2 Arsenal\nMan U 1-4 Mancity\nLeeds 1-1 Newcastle",
+    "latest_upd": "2026-09-12T14:18:22Z"
+  },
+  "Ugycb0sY-nGCKwgFYWp4AaABAg": {
+    "initial_text": "Aston villa 3-1 nottingham forest\nBournemouth 2-2 brentford\nChelsea 4-1 hull\nCrystal palace 2-1 ispwich town\nLiverpool 3-1 fulham\nTottenham 2-1 Everton \nSunderland 0-3 Arsenal\nMan utd 2-4 manchester city\nCoventry 1-4 brighton\nLeeds 3-2 newcastle",
+    "initial_pub": "2026-09-12T13:57:47Z",
+    "revisions": [],
+    "latest_text": "Aston villa 3-1 nottingham forest\nBournemouth 2-2 brentford\nChelsea 4-1 hull\nCrystal palace 2-1 ispwich town\nLiverpool 3-1 fulham\nTottenham 2-1 Everton \nSunderland 0-3 Arsenal\nMan utd 2-4 manchester city\nCoventry 1-4 brighton\nLeeds 3-2 newcastle",
+    "latest_upd": "2026-09-12T13:57:47Z"
+  },
+  "UgzCL8b-g8naDK0HFsx4AaABAg": {
+    "initial_text": "Liverpool 3-0 Fulham\nPalace 2-1 Ipswich\nBournemouth 1-2 Brentford\nChelsea 3-0 Hull\nVilla 2-1 Forest \nSpurs 1-1 Everton \nSunderland 0-2 Arsenal \nCoventry 1-3 Brighton \nMan United 3-2 Man City\nLeeds 1-0 Newcastle",
+    "initial_pub": "2026-09-12T13:54:31Z",
+    "revisions": [],
+    "latest_text": "Liverpool 3-0 Fulham\nPalace 2-1 Ipswich\nBournemouth 1-2 Brentford\nChelsea 3-0 Hull\nVilla 2-1 Forest \nSpurs 1-1 Everton \nSunderland 0-2 Arsenal \nCoventry 1-3 Brighton \nMan United 3-2 Man City\nLeeds 1-0 Newcastle",
+    "latest_upd": "2026-09-12T13:54:31Z"
+  },
+  "UgyK_R5-5zoz695QkLx4AaABAg": {
+    "initial_text": "Bournemouth v Brenford (1-1)\nAston Villa v Nottingham Forest (2-0)\nChelsea v Hull (3-1)\nCrystal Palace v Ipswich (2-2)\nLiverpool v Fulham (3-0)\nTottenham v Everton (0-1)\nSunderland v Arsenal (0-2)\nCoventry v Brighton (1-2)\nMan United v Man City (3-2)\nLeeds v Newcastle (2-2)",
+    "initial_pub": "2026-09-12T13:53:11Z",
+    "revisions": [],
+    "latest_text": "Bournemouth v Brenford (1-1)\nAston Villa v Nottingham Forest (2-0)\nChelsea v Hull (3-1)\nCrystal Palace v Ipswich (2-2)\nLiverpool v Fulham (3-0)\nTottenham v Everton (0-1)\nSunderland v Arsenal (0-2)\nCoventry v Brighton (1-2)\nMan United v Man City (3-2)\nLeeds v Newcastle (2-2)",
+    "latest_upd": "2026-09-12T13:53:11Z"
+  },
+  "UgzKkI7CGZprdYK3f-d4AaABAg": {
+    "initial_text": "Liverpool 3 Fulham 1\nAston Villa 2 Nottingham Forrest 0\nBournemouth 0 Brentford 1\nChelsea 3 Hull City 0\nCrystal Palace 0 Ipswich Town 2\nEverton 1 Tottenham 2\nArsenal 2 Sunderland 1\nBrighton 2 Coventry City 2\nMan City 4 Man United 1\nLeeds 2 Newcastle 2",
+    "initial_pub": "2026-09-12T13:52:55Z",
+    "revisions": [],
+    "latest_text": "Liverpool 3 Fulham 1\nAston Villa 2 Nottingham Forrest 0\nBournemouth 0 Brentford 1\nChelsea 3 Hull City 0\nCrystal Palace 0 Ipswich Town 2\nEverton 1 Tottenham 2\nArsenal 2 Sunderland 1\nBrighton 2 Coventry City 2\nMan City 4 Man United 1\nLeeds 2 Newcastle 2",
+    "latest_upd": "2026-09-12T13:52:55Z"
+  },
+  "UgyAN0QOBEPeGG_gxMx4AaABAg": {
+    "initial_text": "Aston Villa 2 Nottingham Forest 0\nCrystal Palace 1 Ipswich Town 1\nBournemouth 1 Brentford 1\nChelsea 2 Hull 0\nLiverpool 3 Fulham 0\nEverton 1 Tottenham 0\nSunderland 1 Arsenal 3\nCoventry 0 Brighton 2\nMan Utd 2 Man City 1\nLeeds 1 Newcastle 1",
+    "initial_pub": "2026-09-12T13:50:31Z",
+    "revisions": [],
+    "latest_text": "Aston Villa 2 Nottingham Forest 0\nCrystal Palace 1 Ipswich Town 1\nBournemouth 1 Brentford 1\nChelsea 2 Hull 0\nLiverpool 3 Fulham 0\nEverton 1 Tottenham 0\nSunderland 1 Arsenal 3\nCoventry 0 Brighton 2\nMan Utd 2 Man City 1\nLeeds 1 Newcastle 1",
+    "latest_upd": "2026-09-12T13:50:31Z"
+  },
+  "UgyeJ6_LbjH-83_SDch4AaABAg": {
+    "initial_text": "Villa 2:1 Forest\nBournemouth 1:2 Brentford \nChelsea 3:1 Hull\nPalace 1:1 Ipswich\nLiverpool 2:0 Fulham\nTottenham 1:1 Everton\nSunderland 1:2 Arsenal\nCoventry 0:3 Brighton \nUnited 2:2 City\nLeeds 1:1 Newcastle",
+    "initial_pub": "2026-09-12T13:47:25Z",
+    "revisions": [],
+    "latest_text": "Villa 2:1 Forest\nBournemouth 1:2 Brentford \nChelsea 3:1 Hull\nPalace 1:1 Ipswich\nLiverpool 2:0 Fulham\nTottenham 1:1 Everton\nSunderland 1:2 Arsenal\nCoventry 0:3 Brighton \nUnited 2:2 City\nLeeds 1:1 Newcastle",
+    "latest_upd": "2026-09-12T13:47:25Z"
+  },
+  "Ugw0C9A2Z16gDjPcm7t4AaABAg": {
+    "initial_text": "Liverpool 3-0 Fulham\nCrystal Palace 2-0 Ipswich\nAston Villa 2-1 Forest\nChelsea 1-1 Hull City\nSpurs 1-0 Evertpn\nSunderland 1-1 Arsenal\nManchester United 1-3 Man City\nLeeds 1-0 Newcastle",
+    "initial_pub": "2026-09-12T13:46:00Z",
+    "revisions": [],
+    "latest_text": "Liverpool 3-0 Fulham\nCrystal Palace 2-0 Ipswich\nAston Villa 2-1 Forest\nChelsea 1-1 Hull City\nSpurs 1-0 Evertpn\nSunderland 1-1 Arsenal\nManchester United 1-3 Man City\nLeeds 1-0 Newcastle",
+    "latest_upd": "2026-09-12T13:46:00Z"
+  },
+  "Ugz3C28bvZN54ACF8Mp4AaABAg": {
+    "initial_text": "Hopefully, I am on time with this. I really need to step up my game!\nAston Villa 1 vs Forest 1\nBournemouth 0 vs Brentford 0\nChelsea 2 vs Hull City 0\nCrystal Palace 1 vs Ipswich Town 2\nLiverpool 2 vs Fulham 0\nTottenham 0 vs Everton 1\nSunderland 1 vs Arsenal 3\nCoventry City 1 vs Brighton 2\nMan Utd 1 vs Man City 1\nLeeds 2 vs Newcastle 3",
+    "initial_pub": "2026-09-12T13:44:58Z",
+    "revisions": [],
+    "latest_text": "Hopefully, I am on time with this. I really need to step up my game!\nAston Villa 1 vs Forest 1\nBournemouth 0 vs Brentford 0\nChelsea 2 vs Hull City 0\nCrystal Palace 1 vs Ipswich Town 2\nLiverpool 2 vs Fulham 0\nTottenham 0 vs Everton 1\nSunderland 1 vs Arsenal 3\nCoventry City 1 vs Brighton 2\nMan Utd 1 vs Man City 1\nLeeds 2 vs Newcastle 3",
+    "latest_upd": "2026-09-12T13:44:58Z"
+  },
+  "UgzJzg7I9aj8PryS52B4AaABAg": {
+    "initial_text": "Liverpool 2-0 Fulham\nCrystal Palace 1-0 Ipswich Town\nBournemouth 1-1 Brentford\nAston Villa 2-1 Nottingham Forest\nChelsea 2-0 Hull City\nTottenham 1-1 Everton\nSunderland 0-2 Arsenal\nCoventry City 1-2 Brighton\nManchester United 1-2 Manchester City\nLeeds United 1-2 Newcastle United",
+    "initial_pub": "2026-09-12T13:43:40Z",
+    "revisions": [],
+    "latest_text": "Liverpool 2-0 Fulham\nCrystal Palace 1-0 Ipswich Town\nBournemouth 1-1 Brentford\nAston Villa 2-1 Nottingham Forest\nChelsea 2-0 Hull City\nTottenham 1-1 Everton\nSunderland 0-2 Arsenal\nCoventry City 1-2 Brighton\nManchester United 1-2 Manchester City\nLeeds United 1-2 Newcastle United",
+    "latest_upd": "2026-09-12T13:43:40Z"
+  },
+  "Ugzj_gynaL3iZSgQiTZ4AaABAg": {
+    "initial_text": "Aston Villa 1-1 Nottingham \nBournemouth 1-2 Brentford\nChelsea 3-0 Hull City\nCrystal Palace 2-1 Ipswich\nLiverpool 3-0 Fulham\nEverton 2 - 2 Tottenham \nSunderland 1 - 2 Arsenal \nCoventry City 0 - Brighton 2\nMan U 2 - 1 Man City \nLeeds vs Newcastle 2-2",
+    "initial_pub": "2026-09-12T13:40:01Z",
+    "revisions": [],
+    "latest_text": "Aston Villa 1-1 Nottingham \nBournemouth 1-2 Brentford\nChelsea 3-0 Hull City\nCrystal Palace 2-1 Ipswich\nLiverpool 3-0 Fulham\nEverton 2 - 2 Tottenham \nSunderland 1 - 2 Arsenal \nCoventry City 0 - Brighton 2\nMan U 2 - 1 Man City \nLeeds vs Newcastle 2-2",
+    "latest_upd": "2026-09-12T13:40:01Z"
+  },
+  "UgwzZVaf7hUI9FeLpUN4AaABAg": {
+    "initial_text": "Liverpool 2-0 Fulham\nCrystal Palace 1-1 Ipswich Town\nBournemouth 1-0 Brentford\nAston Villa 2-1 Nottingham Forest\nChelsea 2-0 Hull City\nTottenham 2-2 Everton\nSunderland 0-2 Arsenal\nCoventry City 1-2 Brighton\nManchester United 1-3 Manchester City\nLeeds United 1-2 Newcastle United",
+    "initial_pub": "2026-09-12T13:39:49Z",
+    "revisions": [],
+    "latest_text": "Liverpool 2-0 Fulham\nCrystal Palace 1-1 Ipswich Town\nBournemouth 1-0 Brentford\nAston Villa 2-1 Nottingham Forest\nChelsea 2-0 Hull City\nTottenham 2-2 Everton\nSunderland 0-2 Arsenal\nCoventry City 1-2 Brighton\nManchester United 1-3 Manchester City\nLeeds United 1-2 Newcastle United",
+    "latest_upd": "2026-09-12T13:39:49Z"
+  },
+  "UgyugWb1z8MpUXDrO3h4AaABAg": {
+    "initial_text": "So he\u2019s the predictions on September 12th at 2.38pm, also don\u2019t think last weeks entry was accepted for whatever reason.\n\nAston Villa 2-1 Nottingham Forrest\nBournemouth 2 - 2 Brentford\nChelsea 2- 0 Hull\nCrystal Palace 1-1 Ipswich Town\nLiverpool 4-1 Fulham\nTottenham 1-1 Everton\nSunderland 1-3 AFC\nCoventry 1-2 Brighton\nMan utd 2 - 3 Man City\nLeeds 1-2 Newcastle",
+    "initial_pub": "2026-09-12T13:38:15Z",
+    "revisions": [],
+    "latest_text": "So he\u2019s the predictions on September 12th at 2.38pm, also don\u2019t think last weeks entry was accepted for whatever reason.\n\nAston Villa 2-1 Nottingham Forrest\nBournemouth 2 - 2 Brentford\nChelsea 2- 0 Hull\nCrystal Palace 1-1 Ipswich Town\nLiverpool 4-1 Fulham\nTottenham 1-1 Everton\nSunderland 1-3 AFC\nCoventry 1-2 Brighton\nMan utd 2 - 3 Man City\nLeeds 1-2 Newcastle",
+    "latest_upd": "2026-09-12T13:38:15Z"
+  },
+  "Ugz23nnFAt0oOosxw-t4AaABAg": {
+    "initial_text": "Villa 2-1 forest\nBournemouth 1-1 Brentford \nChelsea 4-0 hull\nPalace 1-2 ipswich\nLiverpool 3-0 fulham\nTottenham 1-1 everton\nSunderland 0-2 arsenal\nCoventry 1-1 Brighton \nMan u 1-4 city\nLeeds 1-0 Newcastle",
+    "initial_pub": "2026-09-12T13:35:40Z",
+    "revisions": [],
+    "latest_text": "Villa 2-1 forest\nBournemouth 1-1 Brentford \nChelsea 4-0 hull\nPalace 1-2 ipswich\nLiverpool 3-0 fulham\nTottenham 1-1 everton\nSunderland 0-2 arsenal\nCoventry 1-1 Brighton \nMan u 1-4 city\nLeeds 1-0 Newcastle",
+    "latest_upd": "2026-09-12T13:35:40Z"
+  },
+  "Ugxl9sPKqqUQxrVJUyJ4AaABAg": {
+    "initial_text": "Aston villa 2 - Nottingham forest 1\nBournemouth 3 - brentford 2\nChelsea 2 - Hull 1\nCrystal palace 0 - Ipswich 0\nLiverpool 3 - Fulham 1\nTottenham 2 - Everton 0\nSunderland 1 - Arsenal 1\nCoventry 0 - Brighton 2\nMan Utd 0 - Man city 4\nLeeds 1 - Newcastle 1",
+    "initial_pub": "2026-09-12T13:33:31Z",
+    "revisions": [],
+    "latest_text": "Aston villa 2 - Nottingham forest 1\nBournemouth 3 - brentford 2\nChelsea 2 - Hull 1\nCrystal palace 0 - Ipswich 0\nLiverpool 3 - Fulham 1\nTottenham 2 - Everton 0\nSunderland 1 - Arsenal 1\nCoventry 0 - Brighton 2\nMan Utd 0 - Man city 4\nLeeds 1 - Newcastle 1",
+    "latest_upd": "2026-09-12T13:33:31Z"
+  },
+  "UgxEFwS54AYGAFoLW1Z4AaABAg": {
+    "initial_text": "Nearly forgot about these since the video was uploaded so much earlier this time lol\n\nLiverpool 4-0 Fulham\nCrystal Palace 1-1 Ipswich\nBournemouth 2-1 Brentford\nAston Villa 2-0 Nottingham Forest\nChelsea 3-0 Hull\nTottenham 1-1 Everton\nSunderland 1-1 Arsenal\nCoventry 1-3 Brighton\nMan United 2-1 Man City\nLeeds 1-0 Newcastle",
+    "initial_pub": "2026-09-12T13:33:06Z",
+    "revisions": [],
+    "latest_text": "Nearly forgot about these since the video was uploaded so much earlier this time lol\n\nLiverpool 4-0 Fulham\nCrystal Palace 1-1 Ipswich\nBournemouth 2-1 Brentford\nAston Villa 2-0 Nottingham Forest\nChelsea 3-0 Hull\nTottenham 1-1 Everton\nSunderland 1-1 Arsenal\nCoventry 1-3 Brighton\nMan United 2-1 Man City\nLeeds 1-0 Newcastle",
+    "latest_upd": "2026-09-12T13:33:06Z"
+  },
+  "UgxAEkHmh-EJdgGCIqV4AaABAg": {
+    "initial_text": "Liverpool 4-1 Fulham \nAston Villa 2-1 Forrest\nBournemouth 0-0 Brentford\nChelsea 1-0 Hull\nPalace 1-1 Ipswich\nEverton 1-1 Tottenham \nArsenal 2-0 Sunderland\nBrighton 1-0 Coventry\nMan City 3-2 Man united \nLeeds 1-0 Newcastle",
+    "initial_pub": "2026-09-12T13:28:52Z",
+    "revisions": [],
+    "latest_text": "Liverpool 4-1 Fulham \nAston Villa 2-1 Forrest\nBournemouth 0-0 Brentford\nChelsea 1-0 Hull\nPalace 1-1 Ipswich\nEverton 1-1 Tottenham \nArsenal 2-0 Sunderland\nBrighton 1-0 Coventry\nMan City 3-2 Man united \nLeeds 1-0 Newcastle",
+    "latest_upd": "2026-09-12T13:28:52Z"
+  },
+  "Ugz1W-ckUeSU40FbhMB4AaABAg": {
+    "initial_text": "Aston Villa 1- Nott Forest 0\nBournemouth 2 - Brentford  2\nChelsea 2 - Hull 0\nCrystal Palace 2 - Ipswich 1 \nLiverpool 3  - Fulham 1\nTottenham 2 - Everton 1\nSunderland 0 - Arsenal 1\nCoventry 1 Brighton 2\nMan United 3 - Man City 2\nLeeds 2 - Newcastle 2",
+    "initial_pub": "2026-09-12T13:27:04Z",
+    "revisions": [],
+    "latest_text": "Aston Villa 1- Nott Forest 0\nBournemouth 2 - Brentford  2\nChelsea 2 - Hull 0\nCrystal Palace 2 - Ipswich 1 \nLiverpool 3  - Fulham 1\nTottenham 2 - Everton 1\nSunderland 0 - Arsenal 1\nCoventry 1 Brighton 2\nMan United 3 - Man City 2\nLeeds 2 - Newcastle 2",
+    "latest_upd": "2026-09-12T13:27:04Z"
+  },
+  "UgzNFOaQJsuEhAjk5r54AaABAg": {
+    "initial_text": "Aston Villa 2 Forest 1\r\nBournemouth 1 Brentford 3\r\nChelsea 2 Hull 0\r\nPalace 2 Ipswich 1\r\nLiverpool 3 Fulham 2\r\nTottenham 1 Everton 1\r\nSunderland 0 Arsenal 1\r\nCoventry 1 Brighton 2\r\nMan United 2 Man City 4\r\nLeeds 2 Newcastle 2",
+    "initial_pub": "2026-09-12T13:19:58Z",
+    "revisions": [],
+    "latest_text": "Aston Villa 2 Forest 1\r\nBournemouth 1 Brentford 3\r\nChelsea 2 Hull 0\r\nPalace 2 Ipswich 1\r\nLiverpool 3 Fulham 2\r\nTottenham 1 Everton 1\r\nSunderland 0 Arsenal 1\r\nCoventry 1 Brighton 2\r\nMan United 2 Man City 4\r\nLeeds 2 Newcastle 2",
+    "latest_upd": "2026-09-12T13:19:58Z"
+  },
+  "UgxWQ5Ek43gnLTR2rbF4AaABAg": {
+    "initial_text": "Liverpool 3 - 1 Fulham \nCrystal Palace 2 - 1 Ipswich Town\nBournemouth 1 - 1 Brentford\nAston Villa 2 - 1 Nottingham Forrest\nChelsea 2 - 0 Hull City\nTottenham 1 - 1 Everton \nSunderland 0 - 2 Arsenal\nCoventry 1 - 0 Brighton\nMan United 2 - 2 Man City\nLeeds 0 - 1 Newcastle",
+    "initial_pub": "2026-09-12T13:15:18Z",
+    "revisions": [],
+    "latest_text": "Liverpool 3 - 1 Fulham \nCrystal Palace 2 - 1 Ipswich Town\nBournemouth 1 - 1 Brentford\nAston Villa 2 - 1 Nottingham Forrest\nChelsea 2 - 0 Hull City\nTottenham 1 - 1 Everton \nSunderland 0 - 2 Arsenal\nCoventry 1 - 0 Brighton\nMan United 2 - 2 Man City\nLeeds 0 - 1 Newcastle",
+    "latest_upd": "2026-09-12T13:15:18Z"
+  },
+  "UgyYBU0bcoOcy8VmV7V4AaABAg": {
+    "initial_text": "Aston villa 2-2 nottingham forest\nBournemiuth 2-1 brentford\nChelsea 5-2 hull\nCrystal palace 1-1 ipswich\nLiverpool 2-1 fulham\nTottenham 0-1 everton\nSunderland 0-3 arsenal\nCoventry 1-3 brighton\nMan utd 2-2 man city\nLeeds 3-2 newcastle",
+    "initial_pub": "2026-09-12T13:00:47Z",
+    "revisions": [],
+    "latest_text": "Aston villa 2-2 nottingham forest\nBournemiuth 2-1 brentford\nChelsea 5-2 hull\nCrystal palace 1-1 ipswich\nLiverpool 2-1 fulham\nTottenham 0-1 everton\nSunderland 0-3 arsenal\nCoventry 1-3 brighton\nMan utd 2-2 man city\nLeeds 3-2 newcastle",
+    "latest_upd": "2026-09-12T13:00:47Z"
+  },
+  "Ugws5qp8v1wRMj2S7YV4AaABAg": {
+    "initial_text": "Aston Villa 2-1 Forest \nBournemouth 1-1 Brentford \nChelsea 4-2 Hull \nCrystal Palace 2-0 lpswich \nLiverpool 3-1 Fulham\nTottenham 1-0 Everton\nSunderland 1 - 2 Arsenal \nCoventry 2-3 Brighton \nMan utd 1-1 Man City \nLeeds 2- 1 Newcastle",
+    "initial_pub": "2026-09-12T12:58:18Z",
+    "revisions": [],
+    "latest_text": "Aston Villa 2-1 Forest \nBournemouth 1-1 Brentford \nChelsea 4-2 Hull \nCrystal Palace 2-0 lpswich \nLiverpool 3-1 Fulham\nTottenham 1-0 Everton\nSunderland 1 - 2 Arsenal \nCoventry 2-3 Brighton \nMan utd 1-1 Man City \nLeeds 2- 1 Newcastle",
+    "latest_upd": "2026-09-12T12:58:18Z"
+  },
+  "Ugxek9b4OIvF6tnt3XJ4AaABAg": {
+    "initial_text": "Aston Villa 3 Nottingham Forest 1\nBournemouth 1 Brentford 2\nChelsea 3 Hull 0\nCrystal Palace 2 Ipswich 0\nLiverpool 4 Fulham 1\nSpurs 1 Everton 1\nSunderland 0 Arsenal 3\nCoventry 1 Brighton 3\nManchester United 1 Manchester City 3\nLeeds 2 Newcastle 2",
+    "initial_pub": "2026-09-12T12:56:26Z",
+    "revisions": [],
+    "latest_text": "Aston Villa 3 Nottingham Forest 1\nBournemouth 1 Brentford 2\nChelsea 3 Hull 0\nCrystal Palace 2 Ipswich 0\nLiverpool 4 Fulham 1\nSpurs 1 Everton 1\nSunderland 0 Arsenal 3\nCoventry 1 Brighton 3\nManchester United 1 Manchester City 3\nLeeds 2 Newcastle 2",
+    "latest_upd": "2026-09-12T12:56:26Z"
   }
 }
