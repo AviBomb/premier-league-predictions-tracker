@@ -1165,6 +1165,14 @@
         "pred_home": 2,
         "pred_away": 2
       }
+    },
+    "@sudarshannsatyanarayanan": {
+      "32": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:32:34.772Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
