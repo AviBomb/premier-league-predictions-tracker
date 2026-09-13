@@ -1235,6 +1235,68 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@Omega45": {
+      "31": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 2,
+        "pred_away": 2
+      },
+      "32": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 1,
+        "pred_away": 2
+      },
+      "33": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 3,
+        "pred_away": 0
+      },
+      "34": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 2,
+        "pred_away": 0
+      },
+      "35": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 4,
+        "pred_away": 1
+      },
+      "36": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 1,
+        "pred_away": 1
+      },
+      "37": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 0,
+        "pred_away": 1
+      },
+      "38": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 1,
+        "pred_away": 4
+      },
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 3,
+        "pred_away": 2
+      },
+      "40": {
+        "status": "approved",
+        "timestamp": "2026-09-13T06:35:17.655Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
