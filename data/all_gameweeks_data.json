@@ -113395,6 +113395,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "UgzLbEuNmW_V8gAfM8l4AaABAg",
+        "author": "@TaylorFedorowicz",
+        "channel_url": "http://www.youtube.com/@TaylorFedorowicz",
+        "published_at": "2026-09-14T21:05:54Z",
+        "updated_at": "2026-09-14T21:05:54Z",
+        "submission_gmt": "2026-09-14 21:05:54 GMT",
+        "updated_gmt": "2026-09-14 21:05:54 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late by 2h 5m after entire gameweek",
+        "timing_analysis": "Submitted 2h 5m after final kickoff (2026-09-14 21:05:54 GMT)",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Late Submission (All matches concluded)",
+        "raw_text": "Leeds 4 Newcastle 1 lol",
+        "original_comment_text": "Leeds 4 Newcastle 1 lol",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 1,
+        "valid_matches_count": 0,
+        "late_matches_count": 1,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Aston Villa vs Nottingham Forest": {
+            "pred": "N/A",
+            "actual": "1-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Brentford": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Chelsea vs Hull City": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Crystal Palace vs Ipswich Town": {
+            "pred": "N/A",
+            "actual": "2-3",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Liverpool vs Fulham": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Everton": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Sunderland vs Arsenal": {
+            "pred": "N/A",
+            "actual": "0-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Coventry City vs Brighton & Hove Albion": {
+            "pred": "N/A",
+            "actual": "0-5",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Manchester United vs Manchester City": {
+            "pred": "N/A",
+            "actual": "0-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Leeds United vs Newcastle United": {
+            "pred": "4-1",
+            "actual": "4-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          }
+        }
+      },
+      {
         "comment_id": "UgxujvDiu93RPoCOrQt4AaABAg",
         "author": "@oliverlittle7704",
         "channel_url": "http://www.youtube.com/@oliverlittle7704",
