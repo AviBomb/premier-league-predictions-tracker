@@ -1724,17 +1724,49 @@
           "away": "Newcastle United",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
-          "away_goals": [],
-          "home_goals_summary": "",
-          "away_goals_summary": "",
+          "home_act": 4,
+          "away_act": 1,
+          "home_goals": [
+            {
+              "minute": "32'",
+              "scorer": "Lewis Miley",
+              "assist": null,
+              "type": "OG"
+            },
+            {
+              "minute": "34'",
+              "scorer": "Jayden Bogle",
+              "assist": "Dominic Calvert-Lewin",
+              "type": "G"
+            },
+            {
+              "minute": "45+1'",
+              "scorer": "Dominic Calvert-Lewin",
+              "assist": "Tarik Muharemovic",
+              "type": "G"
+            },
+            {
+              "minute": "59'",
+              "scorer": "Noah Okafor",
+              "assist": null,
+              "type": "G"
+            }
+          ],
+          "away_goals": [
+            {
+              "minute": "90'",
+              "scorer": "Bazoumana Touré",
+              "assist": null,
+              "type": "G"
+            }
+          ],
+          "home_goals_summary": "Lewis Miley 32' (OG), Jayden Bogle 34' (assist: Dominic Calvert-Lewin), Dominic Calvert-Lewin 45+1' (assist: Tarik Muharemovic), Noah Okafor 59'",
+          "away_goals_summary": "Bazoumana Touré 90'",
           "kickoff": "2026-09-14T19:00:00Z",
-          "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "finished": true,
+          "started": true,
+          "minutes": 90,
+          "status": "FT"
         }
       ],
       "video_url": "https://www.youtube.com/watch?v=iRVVXaU6zGY",
