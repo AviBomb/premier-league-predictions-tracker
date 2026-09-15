@@ -113395,6 +113395,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "UgyA6cRdqzL7-GCg-U14AaABAg",
+        "author": "@seymourskinner571",
+        "channel_url": "http://www.youtube.com/@seymourskinner571",
+        "published_at": "2026-09-15T09:15:58Z",
+        "updated_at": "2026-09-15T09:16:46Z",
+        "submission_gmt": "2026-09-15 09:15:58 GMT",
+        "updated_gmt": "2026-09-15 09:16:46 GMT",
+        "edit_delta_str": "Edited 0m after original post",
+        "lateness_str": "",
+        "timing_analysis": "Comment was edited on YouTube. Initially posted: 2026-09-15 09:15:58 GMT | Last edited: 2026-09-15 09:16:46 GMT (Edited 0m after original post)",
+        "is_edited": true,
+        "has_recorded_diff": false,
+        "status": "Disqualified (Comment was Edited)",
+        "raw_text": "Watching this after Leeds 4-1 Newcastle, I love the bit where he said “we’re good on the road, we’re compact  and solid on the road”…my guy, that’s a jinx if ever I’ve seen one 😂😂😂",
+        "original_comment_text": "Watching this after Leeds 4-1 Newcastle, I love the bit where he said “we’re good on the road, we’re compact  and solid on the road”…my guy, that’s a jinx if ever I’ve seen one 😂😂😂",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 1,
+        "valid_matches_count": 0,
+        "late_matches_count": 0,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Aston Villa vs Nottingham Forest": {
+            "pred": "N/A",
+            "actual": "1-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Brentford": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Chelsea vs Hull City": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Crystal Palace vs Ipswich Town": {
+            "pred": "N/A",
+            "actual": "2-3",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Liverpool vs Fulham": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Everton": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Sunderland vs Arsenal": {
+            "pred": "N/A",
+            "actual": "0-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Coventry City vs Brighton & Hove Albion": {
+            "pred": "N/A",
+            "actual": "0-5",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Manchester United vs Manchester City": {
+            "pred": "N/A",
+            "actual": "0-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Leeds United vs Newcastle United": {
+            "pred": "4-1",
+            "actual": "4-1",
+            "points": 0,
+            "result": "Exact (Disqualified - Edited Comment)",
+            "is_late": true
+          }
+        }
+      },
+      {
         "comment_id": "UgzLbEuNmW_V8gAfM8l4AaABAg",
         "author": "@TaylorFedorowicz",
         "channel_url": "http://www.youtube.com/@TaylorFedorowicz",
