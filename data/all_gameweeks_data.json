@@ -113359,8 +113359,8 @@
           },
           {
             "minute": "34'",
-            "scorer": "Jayden Bogle",
-            "assist": "Dominic Calvert-Lewin",
+            "scorer": "Dominic Calvert-Lewin",
+            "assist": "James Justin",
             "type": "G"
           },
           {
@@ -113384,7 +113384,7 @@
             "type": "G"
           }
         ],
-        "home_goals_summary": "Lewis Miley 32' (OG), Jayden Bogle 34' (assist: Dominic Calvert-Lewin), Dominic Calvert-Lewin 45+1' (assist: Tarik Muharemovic), Noah Okafor 59'",
+        "home_goals_summary": "Lewis Miley 32' (OG), Dominic Calvert-Lewin 34' (assist: James Justin), Dominic Calvert-Lewin 45+1' (assist: Tarik Muharemovic), Noah Okafor 59'",
         "away_goals_summary": "Bazoumana Touré 90'",
         "kickoff": "2026-09-14T19:00:00Z",
         "finished": true,
