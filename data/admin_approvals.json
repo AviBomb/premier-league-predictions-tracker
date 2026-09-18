@@ -1615,6 +1615,14 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@Aussie_Benfica": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:24:55.438Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
     }
   },
   "GW_5": {
