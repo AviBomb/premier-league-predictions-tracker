@@ -1631,6 +1631,20 @@
         "pred_home": 2,
         "pred_away": 2
       }
+    },
+    "@eliashaugenberg5879": {
+      "32": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:25:38.239Z",
+        "pred_home": 0,
+        "pred_away": 1
+      },
+      "40": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:25:38.239Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   },
   "GW_5": {
