@@ -1825,6 +1825,14 @@
         "pred_home": 2,
         "pred_away": 3
       }
+    },
+    "@jacobrichards5620": {
+      "41": {
+        "status": "approved",
+        "timestamp": "2026-09-18T12:58:54.565Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
