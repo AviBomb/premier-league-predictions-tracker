@@ -5551,6 +5551,34 @@
     "status": "pending"
   },
   {
+    "id": "cand_gw5_Alpha13FC_44",
+    "gameweek": 5,
+    "author": "@Alpha13_FC",
+    "comment_id": "Ugz-6i5cWmt4jJzWkg54AaABAg",
+    "published_at": "2026-09-18T10:29:17Z",
+    "raw_line": "Leeds 2-0 Crsytal Palace",
+    "full_comment": "Brentford 2-4 Chelsea\nSpurs 1-1 Aston Villa\nBrighton 3-1 Arsenal\nEverton 2-1 Ipswich\nNewcastle 2-3 Hull\nForest 4-1 Coventry\nBournemouth 2-1 Liverpool\nLeeds 2-0 Crsytal Palace\nMan City 0-0 Sunderland\nFulham 2-5 Man United",
+    "other_predictions": {
+      "Brentford vs Chelsea": "2 - 4",
+      "Tottenham Hotspur vs Aston Villa": "1 - 1",
+      "Brighton & Hove Albion vs Arsenal": "3 - 1",
+      "Everton vs Ipswich Town": "2 - 1",
+      "Newcastle United vs Hull City": "2 - 3",
+      "Nottingham Forest vs Coventry City": "4 - 1",
+      "AFC Bournemouth vs Liverpool": "2 - 1",
+      "Manchester City vs Sunderland": "0 - 0",
+      "Fulham vs Manchester United": "2 - 5"
+    },
+    "fixture_id": 44,
+    "home_team": "Leeds United",
+    "away_team": "Crystal Palace",
+    "pred_home": 2,
+    "pred_away": 0,
+    "confidence": 96,
+    "detected_teams": "Leeds United vs Crystal Palace",
+    "status": "pending"
+  },
+  {
     "id": "cand_gw5_lorenzomosca5655_48",
     "gameweek": 5,
     "author": "@lorenzomosca5655",
