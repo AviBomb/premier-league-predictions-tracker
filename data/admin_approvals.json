@@ -1599,6 +1599,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@jake_lol180": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:24:27.700Z",
+        "pred_home": 1,
+        "pred_away": 3
+      }
     }
   },
   "GW_5": {
