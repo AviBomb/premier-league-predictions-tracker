@@ -1809,6 +1809,14 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@lorenzomosca5655": {
+      "48": {
+        "status": "approved",
+        "timestamp": "2026-09-18T12:58:18.743Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
     }
   }
 }
