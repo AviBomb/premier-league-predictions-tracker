@@ -1945,6 +1945,14 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@missleafeatheleafeon2593": {
+      "46": {
+        "status": "rejected",
+        "timestamp": "2026-09-18T13:09:04.090Z",
+        "pred_home": 5,
+        "pred_away": 6
+      }
     }
   }
 }
