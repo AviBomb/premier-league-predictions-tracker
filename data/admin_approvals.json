@@ -1525,6 +1525,14 @@
         "pred_home": 3,
         "pred_away": 0
       }
+    },
+    "@pranavitapu9912": {
+      "47": {
+        "status": "approved",
+        "timestamp": "2026-09-18T12:52:33.987Z",
+        "pred_home": 3,
+        "pred_away": 0
+      }
     }
   }
 }
