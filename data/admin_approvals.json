@@ -1897,6 +1897,14 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@kaushaltank3305": {
+      "42": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:07:37.271Z",
+        "pred_home": 1,
+        "pred_away": 3
+      }
     }
   }
 }
