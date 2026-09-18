@@ -1913,6 +1913,14 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@aposapocalypse7117": {
+      "42": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:07:56.024Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
     }
   }
 }
