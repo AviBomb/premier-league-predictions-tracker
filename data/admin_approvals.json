@@ -1719,6 +1719,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@charlesthuo2615": {
+      "49": {
+        "status": "approved",
+        "timestamp": "2026-09-18T12:55:11.952Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
