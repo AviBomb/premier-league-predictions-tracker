@@ -1421,6 +1421,14 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@giardy8053": {
+      "38": {
+        "status": "approved",
+        "timestamp": "2026-09-18T05:15:07.617Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
