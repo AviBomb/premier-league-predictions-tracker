@@ -1873,6 +1873,14 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@Prinshu1996": {
+      "42": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:05:05.881Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
     }
   }
 }
