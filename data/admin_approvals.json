@@ -1517,6 +1517,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@jhiyu": {
+      "47": {
+        "status": "approved",
+        "timestamp": "2026-09-18T12:52:08.251Z",
+        "pred_home": 3,
+        "pred_away": 0
+      }
     }
   }
 }
