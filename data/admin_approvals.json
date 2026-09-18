@@ -1477,6 +1477,26 @@
         "pred_home": 4,
         "pred_away": 1
       }
+    },
+    "@Lamppost447": {
+      "31": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:12:50.606Z",
+        "pred_home": 1,
+        "pred_away": 1
+      },
+      "36": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:12:50.606Z",
+        "pred_home": 0,
+        "pred_away": 3
+      },
+      "38": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:12:50.606Z",
+        "pred_home": 1,
+        "pred_away": 4
+      }
     }
   },
   "GW_5": {
