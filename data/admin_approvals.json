@@ -1841,6 +1841,14 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@SnappedFootball": {
+      "42": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:00:08.180Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   }
 }
