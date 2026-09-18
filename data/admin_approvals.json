@@ -1623,6 +1623,14 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@A_k_a_r_i_i": {
+      "32": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:25:25.694Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   },
   "GW_5": {
