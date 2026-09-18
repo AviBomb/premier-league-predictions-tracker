@@ -1653,6 +1653,14 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@Kaltyre": {
+      "35": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:26:09.091Z",
+        "pred_home": 2,
+        "pred_away": 0
+      }
     }
   },
   "GW_5": {
