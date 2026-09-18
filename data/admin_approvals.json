@@ -1817,6 +1817,14 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@privateRo": {
+      "41": {
+        "status": "approved",
+        "timestamp": "2026-09-18T12:58:39.567Z",
+        "pred_home": 2,
+        "pred_away": 3
+      }
     }
   }
 }
