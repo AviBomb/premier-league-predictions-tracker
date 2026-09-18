@@ -1645,6 +1645,14 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@MattCheshire49": {
+      "39": {
+        "status": "rejected",
+        "timestamp": "2026-09-18T13:25:59.023Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
     }
   },
   "GW_5": {
