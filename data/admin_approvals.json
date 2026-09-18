@@ -1509,6 +1509,14 @@
         "pred_home": 2,
         "pred_away": 2
       }
+    },
+    "@nguyencole6334": {
+      "41": {
+        "status": "approved",
+        "timestamp": "2026-09-18T12:51:47.937Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   }
 }
