@@ -1921,6 +1921,14 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@jonathanbnice6816": {
+      "42": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:08:25.020Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   }
 }
