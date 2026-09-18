@@ -1521,6 +1521,14 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@Cooper_the_pug": {
+      "34": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:16:38.854Z",
+        "pred_home": 2,
+        "pred_away": 0
+      }
     }
   },
   "GW_5": {
