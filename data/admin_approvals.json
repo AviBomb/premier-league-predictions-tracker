@@ -1585,6 +1585,20 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@ianbazuin2714": {
+      "31": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:22:44.716Z",
+        "pred_home": 2,
+        "pred_away": 2
+      },
+      "32": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:22:44.716Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   },
   "GW_5": {
