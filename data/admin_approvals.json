@@ -1445,6 +1445,14 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@FearProfe": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:11:13.365Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   },
   "GW_5": {
