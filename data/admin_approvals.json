@@ -1677,6 +1677,14 @@
         "pred_home": 0,
         "pred_away": 0
       }
+    },
+    "@JuniorG107": {
+      "38": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:26:53.640Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   },
   "GW_5": {
