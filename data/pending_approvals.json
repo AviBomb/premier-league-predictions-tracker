@@ -4131,7 +4131,8 @@
     "pred_away": 0,
     "confidence": 98,
     "detected_teams": "Aston Villa vs Nottingham Forest",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw4_MattCheshire49_39",
@@ -4215,7 +4216,8 @@
     "pred_away": 1,
     "confidence": 98,
     "detected_teams": "Coventry City vs Brighton & Hove Albion",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw4_thedesert546_39",
@@ -4400,7 +4402,8 @@
     "pred_away": 1,
     "confidence": 99,
     "detected_teams": "Aston Villa vs Nottingham Forest",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw4_Lamppost447_31",
@@ -5545,6 +5548,34 @@
     "pred_away": 2,
     "confidence": 84,
     "detected_teams": "Manchester United vs Manchester City",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw5_lorenzomosca5655_48",
+    "gameweek": 5,
+    "author": "@lorenzomosca5655",
+    "comment_id": "UgxFswzQpUd8Xuo0rFd4AaABAg",
+    "published_at": "2026-09-18T05:29:15Z",
+    "raw_line": "Totthenham 0-1 Aston Villa",
+    "full_comment": "Brentford 1-2 Chelsea \nTotthenham 0-1 Aston Villa \nBrighton 0-1 Arsenal\nEverton 1-0 Ipswich \nNewcastle 1-2 Hull\nNottingham forest 2-0 Coventry \nBournemouth 2-2 Liverpool \nLeeds 4-0 Crystal Palace \nMan City 3-0 Sunderland \nFulham 0-2 Man United",
+    "other_predictions": {
+      "Brentford vs Chelsea": "1 - 2",
+      "Brighton & Hove Albion vs Arsenal": "0 - 1",
+      "Everton vs Ipswich Town": "1 - 0",
+      "Newcastle United vs Hull City": "1 - 2",
+      "Nottingham Forest vs Coventry City": "2 - 0",
+      "AFC Bournemouth vs Liverpool": "2 - 2",
+      "Leeds United vs Crystal Palace": "4 - 0",
+      "Manchester City vs Sunderland": "3 - 0",
+      "Fulham vs Manchester United": "0 - 2"
+    },
+    "fixture_id": 48,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Aston Villa",
+    "pred_home": 0,
+    "pred_away": 1,
+    "confidence": 97,
+    "detected_teams": "Tottenham Hotspur vs Aston Villa",
     "status": "pending"
   },
   {

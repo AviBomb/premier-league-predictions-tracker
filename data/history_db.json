@@ -120886,18 +120886,18 @@
       "original_comment_text": "Aston Vlla 1-0 Nottingham Forest\nBournemouth 2-3 Brentford\nChelsea 1-0 Hull\nCrystal Palace 2-0 Ipswich\nLiverpool 2-1 Fulham\nTottenham 3-1 Everton\nSunderland 1-3 Arsenal\nCoventry 2-1 Brighton\nMan United 2-2 Man city\nLeeds 1-1 Newcastle",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
       "outcome_scores": 1,
       "total_points": 1,
       "fixtures": {
         "Aston Villa vs Nottingham Forest": {
-          "pred": "N/A",
+          "pred": "1-0",
           "actual": "1-2",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Brentford": {
@@ -123796,8 +123796,8 @@
       "original_comment_text": "Gameweek 4 predictions:\n\nBournemouth vs Brentford 1-1\nAston Villa vs Nottingham Forest 2-1\nChelsea vs Hull City 3-1\nCrystal Palace vs Ipswich Town 1-0\nLiverpool vs Fulham 3-0\nTottenham vs Everton 0-1\nSunderland vs Arsenal 0-2\nConventry City vs Brighton 1-1\nManchester United vs Manchester City 2-2\nLeeds vs Newcastle 0-1",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
       "outcome_scores": 1,
@@ -123853,10 +123853,10 @@
           "is_late": false
         },
         "Coventry City vs Brighton & Hove Albion": {
-          "pred": "N/A",
+          "pred": "1-1",
           "actual": "0-5",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Miss",
           "is_late": false
         },
         "Manchester United vs Manchester City": {
@@ -130198,18 +130198,18 @@
       "original_comment_text": "Gameweek 4 predictions \nAston Villa vs Nottingham Forrest 2-1\nBournemouth vs Brentford 1-0\nChelsea vs Hull 1-3\nCrystal Palace vs Ipswich 1-0\nLiverpool vs Fulham 3-0\nSpurs vs Everton 1-1\nSunderland vs Arsenal 2-2\nCoventry vs Brighton 1-0\nMan Utd vs Man city 1-3\nLeeds vs Newcastle 1-2",
       "revisions": [],
       "diff_html": "",
-      "matches_found": 9,
-      "valid_matches_count": 9,
+      "matches_found": 10,
+      "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
       "outcome_scores": 2,
       "total_points": 2,
       "fixtures": {
         "Aston Villa vs Nottingham Forest": {
-          "pred": "N/A",
+          "pred": "2-1",
           "actual": "1-2",
           "points": 0,
-          "result": "No Prediction",
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Brentford": {
@@ -160349,6 +160349,297 @@
     }
   },
   "GW_5": {
+    "@landon_emc13": {
+      "comment_id": "UgxpIqmTaDwFHdzjqC14AaABAg",
+      "author": "@landon_emc13",
+      "channel_url": "http://www.youtube.com/@landon_emc13",
+      "published_at": "2026-09-18T06:13:38Z",
+      "updated_at": "2026-09-18T06:13:38Z",
+      "submission_gmt": "2026-09-18 06:13:38 GMT",
+      "updated_gmt": "2026-09-18 06:13:38 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 12h 46m before earliest kickoff (2026-09-18 06:13:38 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Brentford 2-3 Chelsea\nSpurs 0-0 Aston Villa\nBrighton 1-1 Arsenal\nEverton 1-1 Ipswich\nNewcastle 2-1 Hull\nNottingham 2-0 Coventry\nBournemouth 1-2 Liverpool\nLeeds 3-0 Crystal Palace\nManchester City 3-1 Sunderland\nFulham 0-2 Manchester United",
+      "original_comment_text": "Brentford 2-3 Chelsea\nSpurs 0-0 Aston Villa\nBrighton 1-1 Arsenal\nEverton 1-1 Ipswich\nNewcastle 2-1 Hull\nNottingham 2-0 Coventry\nBournemouth 1-2 Liverpool\nLeeds 3-0 Crystal Palace\nManchester City 3-1 Sunderland\nFulham 0-2 Manchester United",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 10,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Brentford vs Chelsea": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Aston Villa": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Arsenal": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Ipswich Town": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Newcastle United vs Hull City": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Coventry City": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Liverpool": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Crystal Palace": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Sunderland": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Manchester United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@luzangokowa1111": {
+      "comment_id": "UgxczxnJFE0t0Gq6o9l4AaABAg",
+      "author": "@luzangokowa1111",
+      "channel_url": "http://www.youtube.com/@luzangokowa1111",
+      "published_at": "2026-09-18T05:51:36Z",
+      "updated_at": "2026-09-18T05:51:36Z",
+      "submission_gmt": "2026-09-18 05:51:36 GMT",
+      "updated_gmt": "2026-09-18 05:51:36 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 13h 8m before earliest kickoff (2026-09-18 05:51:36 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Premier League Game week 5 predictions\n\nBrentford 2 - 3 Chelsea \nSpurs 0 - 0 Aston Villa \nEverton 2 - 0 Ipswich Town \nBrighton 1 - 2 Arsenal \nNewcastle 0 - 1 Hull City \nNottingham Forest 3 - 0 Coventry City \nBournemouth 1 - 3 Liverpool \nManchester City 4 - 1 Sunderland \nLeeds United 2 - 2 Crystal Palace \nFulham 0 - 2 Manchester United",
+      "original_comment_text": "Premier League Game week 5 predictions\n\nBrentford 2 - 3 Chelsea \nSpurs 0 - 0 Aston Villa \nEverton 2 - 0 Ipswich Town \nBrighton 1 - 2 Arsenal \nNewcastle 0 - 1 Hull City \nNottingham Forest 3 - 0 Coventry City \nBournemouth 1 - 3 Liverpool \nManchester City 4 - 1 Sunderland \nLeeds United 2 - 2 Crystal Palace \nFulham 0 - 2 Manchester United",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 10,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Brentford vs Chelsea": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Aston Villa": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Arsenal": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Ipswich Town": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Newcastle United vs Hull City": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Coventry City": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Liverpool": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Crystal Palace": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Sunderland": {
+          "pred": "4-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Manchester United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@lorenzomosca5655": {
+      "comment_id": "UgxFswzQpUd8Xuo0rFd4AaABAg",
+      "author": "@lorenzomosca5655",
+      "channel_url": "http://www.youtube.com/@lorenzomosca5655",
+      "published_at": "2026-09-18T05:29:15Z",
+      "updated_at": "2026-09-18T05:29:15Z",
+      "submission_gmt": "2026-09-18 05:29:15 GMT",
+      "updated_gmt": "2026-09-18 05:29:15 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 13h 30m before earliest kickoff (2026-09-18 05:29:15 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Brentford 1-2 Chelsea \nTotthenham 0-1 Aston Villa \nBrighton 0-1 Arsenal\nEverton 1-0 Ipswich \nNewcastle 1-2 Hull\nNottingham forest 2-0 Coventry \nBournemouth 2-2 Liverpool \nLeeds 4-0 Crystal Palace \nMan City 3-0 Sunderland \nFulham 0-2 Man United",
+      "original_comment_text": "Brentford 1-2 Chelsea \nTotthenham 0-1 Aston Villa \nBrighton 0-1 Arsenal\nEverton 1-0 Ipswich \nNewcastle 1-2 Hull\nNottingham forest 2-0 Coventry \nBournemouth 2-2 Liverpool \nLeeds 4-0 Crystal Palace \nMan City 3-0 Sunderland \nFulham 0-2 Man United",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Brentford vs Chelsea": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Tottenham Hotspur vs Aston Villa": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Brighton & Hove Albion vs Arsenal": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Everton vs Ipswich Town": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Newcastle United vs Hull City": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Nottingham Forest vs Coventry City": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "AFC Bournemouth vs Liverpool": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Leeds United vs Crystal Palace": {
+          "pred": "4-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester City vs Sunderland": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Fulham vs Manchester United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
     "@valuminous": {
       "comment_id": "UgyXAuswvK5fSS7GMKp4AaABAg",
       "author": "@valuminous",
