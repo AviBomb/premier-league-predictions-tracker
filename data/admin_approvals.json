@@ -1849,6 +1849,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@jeremyfraser138": {
+      "47": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:01:17.169Z",
+        "pred_home": 2,
+        "pred_away": 0
+      }
     }
   }
 }
