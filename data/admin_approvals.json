@@ -1537,6 +1537,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@lorenzomosca5655": {
+      "37": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:17:53.112Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   },
   "GW_5": {
