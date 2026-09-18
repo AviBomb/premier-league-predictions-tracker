@@ -1569,6 +1569,14 @@
         "pred_home": 1,
         "pred_away": 0
       }
+    },
+    "@snusmuncher1": {
+      "32": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:22:00.685Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   },
   "GW_5": {
