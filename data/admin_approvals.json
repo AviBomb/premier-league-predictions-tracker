@@ -1865,6 +1865,14 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@agustinriestra9594": {
+      "42": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:03:12.869Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   }
 }
