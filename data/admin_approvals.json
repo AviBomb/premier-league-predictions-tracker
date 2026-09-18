@@ -1889,6 +1889,14 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@ianbazuin2714": {
+      "44": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:07:15.495Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
