@@ -1529,6 +1529,14 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@Fantasybig": {
+      "40": {
+        "status": "approved",
+        "timestamp": "2026-09-18T13:17:42.407Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
     }
   },
   "GW_5": {
