@@ -1429,6 +1429,14 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@onikavelka": {
+      "31": {
+        "status": "approved",
+        "timestamp": "2026-09-18T05:15:29.405Z",
+        "pred_home": 1,
+        "pred_away": 0
+      }
     }
   }
 }
