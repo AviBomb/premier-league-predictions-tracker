@@ -160411,7 +160411,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -160508,7 +160508,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -160605,7 +160605,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -160661,9 +160661,9 @@
       "matches_found": 7,
       "valid_matches_count": 7,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "N/A",
@@ -160702,9 +160702,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -160799,7 +160799,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -160896,7 +160896,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -160993,7 +160993,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161090,7 +161090,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161187,7 +161187,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161284,7 +161284,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161381,7 +161381,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161478,7 +161478,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161575,7 +161575,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161672,7 +161672,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161769,7 +161769,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161866,7 +161866,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -161963,7 +161963,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162060,7 +162060,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162157,7 +162157,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162254,7 +162254,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162351,7 +162351,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162448,7 +162448,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162545,7 +162545,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162642,7 +162642,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162739,7 +162739,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162836,7 +162836,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -162933,7 +162933,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163030,7 +163030,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163127,7 +163127,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163224,7 +163224,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163321,7 +163321,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163418,7 +163418,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163515,7 +163515,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163612,7 +163612,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163709,7 +163709,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163806,7 +163806,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -163903,7 +163903,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164000,7 +164000,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164097,7 +164097,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164194,7 +164194,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164291,7 +164291,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164388,7 +164388,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164485,7 +164485,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -164582,7 +164582,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164679,7 +164679,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164776,7 +164776,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164873,7 +164873,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -164970,7 +164970,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165026,9 +165026,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "4-3",
@@ -165067,9 +165067,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -165164,7 +165164,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165261,7 +165261,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165358,7 +165358,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165455,7 +165455,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165552,7 +165552,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165649,7 +165649,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165746,7 +165746,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165843,7 +165843,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -165940,7 +165940,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166037,7 +166037,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166134,7 +166134,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166231,7 +166231,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166328,7 +166328,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166425,7 +166425,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166522,7 +166522,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166578,9 +166578,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 1,
-      "total_points": 1,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-3",
@@ -166619,9 +166619,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -166716,7 +166716,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166813,7 +166813,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -166910,7 +166910,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167007,7 +167007,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167104,7 +167104,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167201,7 +167201,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167298,7 +167298,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167395,7 +167395,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167492,7 +167492,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167589,7 +167589,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167686,7 +167686,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167783,7 +167783,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167880,7 +167880,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -167937,8 +167937,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-1",
@@ -167977,9 +167977,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -168074,7 +168074,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168171,7 +168171,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168268,7 +168268,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168365,7 +168365,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168462,7 +168462,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168559,7 +168559,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168656,7 +168656,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168712,9 +168712,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 0,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-2",
@@ -168753,9 +168753,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -168850,7 +168850,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -168947,7 +168947,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169044,7 +169044,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169141,7 +169141,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169238,7 +169238,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169294,9 +169294,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "0-3",
@@ -169335,9 +169335,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -169432,7 +169432,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169529,7 +169529,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169626,7 +169626,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169723,7 +169723,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169820,7 +169820,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -169917,7 +169917,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170014,7 +170014,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170071,8 +170071,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-4",
@@ -170111,9 +170111,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -170208,7 +170208,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170305,7 +170305,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170402,7 +170402,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170499,7 +170499,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170596,7 +170596,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170693,7 +170693,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170790,7 +170790,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170887,7 +170887,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -170984,7 +170984,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -171041,8 +171041,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-4",
@@ -171081,9 +171081,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -171178,7 +171178,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -171234,9 +171234,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 2,
-      "total_points": 5,
+      "total_points": 8,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-3",
@@ -171275,9 +171275,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -171372,7 +171372,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -171469,7 +171469,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -171566,7 +171566,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -171663,7 +171663,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -171760,7 +171760,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -171816,9 +171816,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 0,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-1",
@@ -171857,9 +171857,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -171954,7 +171954,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172051,7 +172051,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172148,7 +172148,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172245,7 +172245,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172342,7 +172342,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172439,7 +172439,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172495,9 +172495,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-1",
@@ -172536,9 +172536,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -172593,8 +172593,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 1,
+      "total_points": 7,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-2",
@@ -172633,9 +172633,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -172730,7 +172730,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172827,7 +172827,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -172924,7 +172924,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173021,7 +173021,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173118,7 +173118,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -173215,7 +173215,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -173312,7 +173312,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173409,7 +173409,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173506,7 +173506,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173603,7 +173603,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173700,7 +173700,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173797,7 +173797,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173894,7 +173894,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -173991,7 +173991,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174088,7 +174088,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174185,7 +174185,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174282,7 +174282,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174379,7 +174379,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174476,7 +174476,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174573,7 +174573,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174670,7 +174670,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174767,7 +174767,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174864,7 +174864,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -174961,7 +174961,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175058,7 +175058,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175155,7 +175155,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175212,8 +175212,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-3",
@@ -175252,9 +175252,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -175349,7 +175349,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175446,7 +175446,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175543,7 +175543,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175640,7 +175640,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175737,7 +175737,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175834,7 +175834,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -175931,7 +175931,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176028,7 +176028,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176125,7 +176125,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -176222,7 +176222,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176319,7 +176319,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176416,7 +176416,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176473,8 +176473,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "N/A",
@@ -176513,9 +176513,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-2",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -176610,7 +176610,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176707,7 +176707,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -176804,7 +176804,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176901,7 +176901,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -176998,7 +176998,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177095,7 +177095,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177192,7 +177192,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177289,7 +177289,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177386,7 +177386,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177483,7 +177483,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177580,7 +177580,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177677,7 +177677,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177774,7 +177774,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177871,7 +177871,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -177968,7 +177968,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178065,7 +178065,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178162,7 +178162,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178259,7 +178259,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178356,7 +178356,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178453,7 +178453,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178550,7 +178550,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178647,7 +178647,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -178704,8 +178704,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-3",
@@ -178744,9 +178744,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -178841,7 +178841,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -178869,103 +178869,6 @@
         },
         "Fulham vs Manchester United": {
           "pred": "0-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
-          "is_late": false
-        }
-      }
-    },
-    "@coopergreenwald8919": {
-      "comment_id": "UgyGlZw8L1dhm344wet4AaABAg",
-      "author": "@coopergreenwald8919",
-      "channel_url": "http://www.youtube.com/@coopergreenwald8919",
-      "published_at": "2026-09-18T03:39:03Z",
-      "updated_at": "2026-09-18T03:39:03Z",
-      "submission_gmt": "2026-09-18 03:39:03 GMT",
-      "updated_gmt": "2026-09-18 03:39:03 GMT",
-      "edit_delta_str": "",
-      "lateness_str": "",
-      "timing_analysis": "Submitted 15h 20m before earliest kickoff (2026-09-18 03:39:03 GMT)",
-      "is_edited": false,
-      "has_recorded_diff": false,
-      "status": "Valid",
-      "raw_text": "Brentford 2 Chelsea 2\nSpurs 0 Villa 0\nBrighton 1 Arsenal 2\nEverton 1 Ipswich 0\nNewcastle 1 Hull 2\nForest 2 Coventry 0\nBournemouth 2 Liverpool 3\nLeeds 3 Palace 1\nCity 2 Sunderland 0\nFulham 1 United 1",
-      "original_comment_text": "Brentford 2 Chelsea 2\nSpurs 0 Villa 0\nBrighton 1 Arsenal 2\nEverton 1 Ipswich 0\nNewcastle 1 Hull 2\nForest 2 Coventry 0\nBournemouth 2 Liverpool 3\nLeeds 3 Palace 1\nCity 2 Sunderland 0\nFulham 1 United 1",
-      "revisions": [],
-      "diff_html": "",
-      "matches_found": 10,
-      "valid_matches_count": 10,
-      "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
-      "fixtures": {
-        "Brentford vs Chelsea": {
-          "pred": "2-2",
-          "actual": "3-0",
-          "points": 0,
-          "result": "Miss",
-          "is_late": false
-        },
-        "Tottenham Hotspur vs Aston Villa": {
-          "pred": "0-0",
-          "actual": "2-3",
-          "points": 0,
-          "result": "Miss",
-          "is_late": false
-        },
-        "Brighton & Hove Albion vs Arsenal": {
-          "pred": "1-2",
-          "actual": "3-0",
-          "points": 0,
-          "result": "Miss",
-          "is_late": false
-        },
-        "Everton vs Ipswich Town": {
-          "pred": "1-0",
-          "actual": "1-0",
-          "points": 3,
-          "result": "Exact",
-          "is_late": false
-        },
-        "Newcastle United vs Hull City": {
-          "pred": "1-2",
-          "actual": "2-1",
-          "points": 0,
-          "result": "Miss",
-          "is_late": false
-        },
-        "Nottingham Forest vs Coventry City": {
-          "pred": "2-0",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
-          "is_late": false
-        },
-        "AFC Bournemouth vs Liverpool": {
-          "pred": "2-3",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
-          "is_late": false
-        },
-        "Leeds United vs Crystal Palace": {
-          "pred": "3-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
-          "is_late": false
-        },
-        "Manchester City vs Sunderland": {
-          "pred": "2-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
-          "is_late": false
-        },
-        "Fulham vs Manchester United": {
-          "pred": "1-1",
           "actual": "TBD",
           "points": 0,
           "result": "Pending",
@@ -179035,7 +178938,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179132,7 +179035,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179229,7 +179132,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179326,7 +179229,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179423,7 +179326,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179520,7 +179423,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179617,7 +179520,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179714,7 +179617,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179811,7 +179714,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -179908,7 +179811,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180005,7 +179908,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180102,7 +180005,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180199,7 +180102,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180296,7 +180199,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180353,8 +180256,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "4-2",
@@ -180393,9 +180296,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -180490,7 +180393,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180587,7 +180490,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180684,7 +180587,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -180741,8 +180644,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "0-3",
@@ -180781,9 +180684,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -180838,8 +180741,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-2",
@@ -180878,9 +180781,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -180975,7 +180878,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181072,7 +180975,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181169,7 +181072,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181266,7 +181169,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181363,7 +181266,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181460,7 +181363,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181557,7 +181460,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181654,7 +181557,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181710,9 +181613,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 1,
       "outcome_scores": 1,
-      "total_points": 7,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-2",
@@ -181751,9 +181654,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -181848,7 +181751,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -181945,7 +181848,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182042,7 +181945,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182139,7 +182042,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182236,7 +182139,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182333,7 +182236,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182430,7 +182333,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182527,7 +182430,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182624,7 +182527,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182721,7 +182624,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182818,7 +182721,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -182915,7 +182818,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183012,7 +182915,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183109,7 +183012,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183206,7 +183109,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183303,7 +183206,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183400,7 +183303,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183497,7 +183400,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183594,7 +183497,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183691,7 +183594,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183788,7 +183691,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183885,7 +183788,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -183982,7 +183885,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -184079,7 +183982,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184176,7 +184079,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184233,8 +184136,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 0,
+      "total_points": 0,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-3",
@@ -184273,9 +184176,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -184370,7 +184273,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184467,7 +184370,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184564,7 +184467,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184661,7 +184564,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184758,7 +184661,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184855,7 +184758,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -184952,7 +184855,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185049,7 +184952,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185146,7 +185049,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185243,7 +185146,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185340,7 +185243,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185437,7 +185340,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185534,7 +185437,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185631,7 +185534,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185728,7 +185631,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185825,7 +185728,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -185922,7 +185825,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186019,7 +185922,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186116,7 +186019,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186173,8 +186076,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-3",
@@ -186213,9 +186116,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-3",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -186310,7 +186213,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186407,7 +186310,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186504,7 +186407,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186601,7 +186504,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186698,7 +186601,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186795,7 +186698,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186892,7 +186795,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -186989,7 +186892,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187086,7 +186989,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187183,7 +187086,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187280,7 +187183,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187377,7 +187280,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187474,7 +187377,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187571,7 +187474,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187668,7 +187571,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187765,7 +187668,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187862,7 +187765,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -187959,7 +187862,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188056,7 +187959,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188112,9 +188015,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-1",
@@ -188153,9 +188056,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -188250,7 +188153,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188347,7 +188250,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188444,7 +188347,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188541,7 +188444,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188638,7 +188541,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188735,7 +188638,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188832,7 +188735,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -188929,7 +188832,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189026,7 +188929,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189123,7 +189026,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189220,7 +189123,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189317,7 +189220,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189414,7 +189317,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189511,7 +189414,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189608,7 +189511,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189705,7 +189608,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189802,7 +189705,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189899,7 +189802,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -189996,7 +189899,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190093,7 +189996,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190190,7 +190093,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190287,7 +190190,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190384,7 +190287,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190481,7 +190384,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190578,7 +190481,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190675,7 +190578,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190772,7 +190675,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190869,7 +190772,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -190966,7 +190869,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191063,7 +190966,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191160,7 +191063,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191257,7 +191160,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191354,7 +191257,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191451,7 +191354,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191548,7 +191451,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191645,7 +191548,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191742,7 +191645,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191839,7 +191742,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -191936,7 +191839,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192033,7 +191936,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192130,7 +192033,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192227,7 +192130,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192324,7 +192227,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192421,7 +192324,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192518,7 +192421,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192615,7 +192518,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192712,7 +192615,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192809,7 +192712,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -192906,7 +192809,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193003,7 +192906,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193100,7 +193003,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193197,7 +193100,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193294,7 +193197,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193391,7 +193294,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193488,7 +193391,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193585,7 +193488,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193682,7 +193585,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193779,7 +193682,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193876,7 +193779,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -193973,7 +193876,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194029,9 +193932,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 0,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-2",
@@ -194070,9 +193973,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -194167,7 +194070,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194264,7 +194167,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194361,7 +194264,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194458,7 +194361,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194555,7 +194458,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194652,7 +194555,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194749,7 +194652,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -194846,7 +194749,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -194943,7 +194846,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195040,7 +194943,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195137,7 +195040,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195234,7 +195137,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195331,7 +195234,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195428,7 +195331,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195525,7 +195428,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195622,7 +195525,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195719,7 +195622,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195816,7 +195719,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -195913,7 +195816,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196010,7 +195913,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196107,7 +196010,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196204,7 +196107,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196301,7 +196204,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196398,7 +196301,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196495,7 +196398,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196592,7 +196495,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196689,7 +196592,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196786,7 +196689,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "N/A",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -196883,7 +196786,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -196980,7 +196883,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197077,7 +196980,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197174,7 +197077,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197271,7 +197174,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197368,7 +197271,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197465,7 +197368,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197562,7 +197465,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197659,7 +197562,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197756,7 +197659,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197853,7 +197756,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -197910,8 +197813,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-3",
@@ -197950,9 +197853,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -198047,7 +197950,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198144,7 +198047,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198241,7 +198144,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198338,7 +198241,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198435,7 +198338,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198532,7 +198435,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198629,7 +198532,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198726,7 +198629,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198823,7 +198726,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -198920,7 +198823,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199017,7 +198920,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199114,7 +199017,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199211,7 +199114,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199308,7 +199211,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199405,7 +199308,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199502,7 +199405,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199599,7 +199502,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199696,7 +199599,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199793,7 +199696,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199890,7 +199793,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -199987,7 +199890,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200084,7 +199987,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200181,7 +200084,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200237,9 +200140,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 1,
-      "total_points": 1,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-2",
@@ -200278,9 +200181,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -200375,7 +200278,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200472,7 +200375,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200569,7 +200472,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200666,7 +200569,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200723,8 +200626,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-2",
@@ -200763,9 +200666,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-2",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -200860,7 +200763,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -200957,7 +200860,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201054,7 +200957,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201151,7 +201054,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201248,7 +201151,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201304,9 +201207,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 0,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-3",
@@ -201345,9 +201248,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-0",
-          "actual": "0-0",
-          "points": 3,
-          "result": "Exact",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -201402,8 +201305,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "3-2",
@@ -201442,9 +201345,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -201539,7 +201442,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201636,7 +201539,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201733,7 +201636,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201830,7 +201733,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -201927,7 +201830,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202024,7 +201927,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202121,7 +202024,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202218,7 +202121,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202315,7 +202218,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202372,8 +202275,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-4",
@@ -202412,9 +202315,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -202509,7 +202412,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202606,7 +202509,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-2",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202703,7 +202606,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202800,7 +202703,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202897,7 +202800,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -202994,7 +202897,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203091,7 +202994,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203188,7 +203091,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203244,9 +203147,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-2",
@@ -203285,9 +203188,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -203382,7 +203285,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203439,8 +203342,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-3",
@@ -203479,9 +203382,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -203576,7 +203479,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203673,7 +203576,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203770,7 +203673,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203867,7 +203770,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -203964,7 +203867,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204061,7 +203964,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204158,7 +204061,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204255,7 +204158,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204352,7 +204255,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204409,8 +204312,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-2",
@@ -204449,9 +204352,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -204546,7 +204449,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204643,7 +204546,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204740,7 +204643,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204837,7 +204740,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -204934,7 +204837,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205031,7 +204934,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205128,7 +205031,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205225,7 +205128,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205322,7 +205225,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205419,7 +205322,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205516,7 +205419,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205613,7 +205516,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205710,7 +205613,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205807,7 +205710,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205904,7 +205807,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -205961,8 +205864,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "1-2",
@@ -206001,9 +205904,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -206098,7 +206001,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "5-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206195,7 +206098,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206292,7 +206195,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206389,7 +206292,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206486,7 +206389,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206583,7 +206486,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206680,7 +206583,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206737,8 +206640,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 0,
+      "total_points": 3,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "2-3",
@@ -206777,9 +206680,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -206874,7 +206777,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -206971,7 +206874,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207068,7 +206971,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207165,7 +207068,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207262,7 +207165,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207319,8 +207222,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "3-3",
@@ -207359,9 +207262,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -207456,7 +207359,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207553,7 +207456,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207650,7 +207553,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207747,7 +207650,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207844,7 +207747,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207941,7 +207844,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "6-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -207997,9 +207900,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "3-2",
@@ -208038,9 +207941,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "0-1",
-          "actual": "0-0",
-          "points": 0,
-          "result": "Miss",
+          "actual": "0-1",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -208135,7 +208038,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -208232,7 +208135,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -208289,8 +208192,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "3-2",
@@ -208329,9 +208232,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -208426,7 +208329,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -208523,7 +208426,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -208620,7 +208523,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -208717,7 +208620,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -208814,7 +208717,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -208911,7 +208814,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -209008,7 +208911,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -209105,7 +209008,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "4-1",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -209162,8 +209065,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Brentford vs Chelsea": {
           "pred": "3-1",
@@ -209202,9 +209105,9 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-1",
-          "actual": "0-0",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "0-1",
+          "points": 0,
+          "result": "Miss",
           "is_late": false
         },
         "AFC Bournemouth vs Liverpool": {
@@ -209299,7 +209202,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -209396,7 +209299,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "1-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -209493,7 +209396,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "2-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -209590,7 +209493,7 @@
         },
         "Nottingham Forest vs Coventry City": {
           "pred": "3-0",
-          "actual": "0-0",
+          "actual": "0-1",
           "points": 0,
           "result": "Miss",
           "is_late": false
