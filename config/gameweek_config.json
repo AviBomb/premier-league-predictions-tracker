@@ -1868,7 +1868,7 @@
           "away": "Arsenal",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-          "home_act": 1,
+          "home_act": 3,
           "away_act": 0,
           "home_goals": [
             {
@@ -1876,17 +1876,28 @@
               "scorer": "Pascal Groß",
               "assist": "Charalampos Kostoulas",
               "type": "G"
+            },
+            {
+              "minute": "45'",
+              "scorer": "Charalampos Kostoulas",
+              "assist": "Diego Gómez",
+              "type": "G"
+            },
+            {
+              "minute": "57'",
+              "scorer": "Chema Andrés",
+              "assist": "Pascal Groß",
+              "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Pascal Groß 31' (assist: Charalampos Kostoulas)",
+          "home_goals_summary": "Pascal Groß 31' (assist: Charalampos Kostoulas), Charalampos Kostoulas 45' (assist: Diego Gómez), Chema Andrés 57' (assist: Pascal Groß)",
           "away_goals_summary": "",
           "kickoff": "2026-09-19T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 35,
-          "status": "ONGOING",
-          "clock": "36'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 43,
@@ -1908,11 +1919,10 @@
           "home_goals_summary": "Thierno Barry 11' (assist: James Tarkowski)",
           "away_goals_summary": "",
           "kickoff": "2026-09-19T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 35,
-          "status": "ONGOING",
-          "clock": "36'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 46,
@@ -1921,7 +1931,7 @@
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
           "home_act": 2,
-          "away_act": 0,
+          "away_act": 1,
           "home_goals": [
             {
               "minute": "03'",
@@ -1936,15 +1946,21 @@
               "type": "G"
             }
           ],
-          "away_goals": [],
+          "away_goals": [
+            {
+              "minute": "67'",
+              "scorer": "Mohamed-Ali Cho",
+              "assist": "Mohamed Belloumi",
+              "type": "G"
+            }
+          ],
           "home_goals_summary": "Joe Willock 03' (assist: Harvey Barnes), Lewis Hall 07' (assist: Harvey Barnes)",
-          "away_goals_summary": "",
+          "away_goals_summary": "Mohamed-Ali Cho 67' (assist: Mohamed Belloumi)",
           "kickoff": "2026-09-19T14:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 34,
-          "status": "ONGOING",
-          "clock": "37'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 47,
@@ -1952,17 +1968,18 @@
           "away": "Coventry City",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 0,
+          "away_act": 0,
           "home_goals": [],
           "away_goals": [],
           "home_goals_summary": "",
           "away_goals_summary": "",
           "kickoff": "2026-09-19T16:30:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 53,
+          "status": "ONGOING",
+          "clock": "55'"
         },
         {
           "id": 49,
