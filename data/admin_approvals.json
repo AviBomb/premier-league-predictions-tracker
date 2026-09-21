@@ -2193,6 +2193,14 @@
         "pred_home": 5,
         "pred_away": 6
       }
+    },
+    "@stanyeslaw": {
+      "41": {
+        "status": "approved",
+        "timestamp": "2026-09-21T07:41:48.571Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
