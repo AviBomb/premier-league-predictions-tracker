@@ -2239,6 +2239,14 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@Kuz-": {
+      "48": {
+        "status": "approved",
+        "timestamp": "2026-09-21T07:42:49.724Z",
+        "pred_home": 0,
+        "pred_away": 0
+      }
     }
   }
 }
