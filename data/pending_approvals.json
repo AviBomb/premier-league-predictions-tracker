@@ -5607,7 +5607,8 @@
     "pred_away": 1,
     "confidence": 97,
     "detected_teams": "Brentford vs Chelsea",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw5_Themosquito_41",
@@ -5634,7 +5635,8 @@
     "pred_away": 3,
     "confidence": 82,
     "detected_teams": "Brentford vs Chelsea",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw5_Themosquito_47",
@@ -5661,7 +5663,8 @@
     "pred_away": 0,
     "confidence": 88,
     "detected_teams": "Nottingham Forest vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw5_Stonix737_43",
@@ -5689,7 +5692,8 @@
     "pred_away": 2,
     "confidence": 96,
     "detected_teams": "Everton vs Ipswich Town",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw5_Kuz_48",
@@ -5717,7 +5721,8 @@
     "pred_away": 0,
     "confidence": 94,
     "detected_teams": "Tottenham Hotspur vs Aston Villa",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw5_jackdenham927_45",
@@ -5745,7 +5750,8 @@
     "pred_away": 1,
     "confidence": 91,
     "detected_teams": "Manchester City vs Sunderland",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw5_natsuo6056_47",
@@ -5773,7 +5779,8 @@
     "pred_away": 1,
     "confidence": 97,
     "detected_teams": "Nottingham Forest vs Coventry City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw5_Alpha13FC_44",
