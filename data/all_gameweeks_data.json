@@ -217874,73 +217874,78 @@
         "author": "@LurDurr",
         "channel_url": "http://www.youtube.com/@LurDurr",
         "published_at": "2026-09-17T15:11:21Z",
-        "updated_at": "2026-09-17T15:11:21Z",
+        "updated_at": "2026-09-21T17:36:41Z",
         "submission_gmt": "2026-09-17 15:11:21 GMT",
-        "updated_gmt": "2026-09-17 15:11:21 GMT",
-        "edit_delta_str": "",
+        "updated_gmt": "2026-09-21 17:36:41 GMT",
+        "edit_delta_str": "Edited 98h 25m after original post",
         "lateness_str": "",
-        "timing_analysis": "Submitted 27h 48m before earliest kickoff (2026-09-17 15:11:21 GMT)",
-        "is_edited": false,
-        "has_recorded_diff": false,
-        "status": "Valid",
-        "raw_text": "Ah shit here we go again \n\nBrentford 3 chelsea 2\nTottenham 1 Aston villa 1\nBrighton 2 arsenal 1\nEverton 1 Ipswich 1\nNewcastle 1 hull 1\nForest 0 coventry 1\nBournemouth 0 liverpool 2\nMan city 4 Sunderland 1\nFullham 2 man utd 1",
+        "timing_analysis": "Comment was edited on YouTube. Initially posted: 2026-09-17 15:11:21 GMT | Last edited: 2026-09-21 17:36:41 GMT (Edited 98h 25m after original post)",
+        "is_edited": true,
+        "has_recorded_diff": true,
+        "status": "Disqualified (Comment was Edited)",
+        "raw_text": "Ah shit here we go again \n\nBrentford 3 chelsea 2\nTottenham 1 Aston villa 1\nBrighton 2 arsenal 1\nEverton 1 Ipswich 1\nNewcastle 1 hull 1\nForest 0 coventry 1\nBournemouth 0 liverpool 2\nMan city 4 Sunderland 1\nFullham 2 man utd 1\n\nEdit: I forgot a match and its monday so I will go for a nice simple \nleeds 56 Palace 1\n\nEdit #2: I can't believe I got my leeds palace prediction wrong",
         "original_comment_text": "Ah shit here we go again \n\nBrentford 3 chelsea 2\nTottenham 1 Aston villa 1\nBrighton 2 arsenal 1\nEverton 1 Ipswich 1\nNewcastle 1 hull 1\nForest 0 coventry 1\nBournemouth 0 liverpool 2\nMan city 4 Sunderland 1\nFullham 2 man utd 1",
-        "revisions": [],
-        "diff_html": "",
+        "revisions": [
+          {
+            "timestamp": "2026-09-17T15:11:21Z",
+            "text": "Ah shit here we go again \n\nBrentford 3 chelsea 2\nTottenham 1 Aston villa 1\nBrighton 2 arsenal 1\nEverton 1 Ipswich 1\nNewcastle 1 hull 1\nForest 0 coventry 1\nBournemouth 0 liverpool 2\nMan city 4 Sunderland 1\nFullham 2 man utd 1"
+          }
+        ],
+        "diff_html": "<div class='diff-line' style='color:#ccc;'>Ah shit here we go again </div><div class='diff-line' style='color:#ccc;'></div><div class='diff-line' style='color:#ccc;'>Brentford 3 chelsea 2</div><div class='diff-line' style='color:#ccc;'>Tottenham 1 Aston villa 1</div><div class='diff-line' style='color:#ccc;'>Brighton 2 arsenal 1</div><div class='diff-line' style='color:#ccc;'>Everton 1 Ipswich 1</div><div class='diff-line' style='color:#ccc;'>Newcastle 1 hull 1</div><div class='diff-line' style='color:#ccc;'>Forest 0 coventry 1</div><div class='diff-line' style='color:#ccc;'>Bournemouth 0 liverpool 2</div><div class='diff-line' style='color:#ccc;'>Man city 4 Sunderland 1</div><div class='diff-line' style='color:#ccc;'>Fullham 2 man utd 1</div><div class='diff-line diff-add'>+ </div><div class='diff-line diff-add'>+ Edit: I forgot a match and its monday so I will go for a nice simple </div><div class='diff-line diff-add'>+ leeds 56 Palace 1</div><div class='diff-line diff-add'>+ </div><div class='diff-line diff-add'>+ Edit #2: I can&#x27;t believe I got my leeds palace prediction wrong</div>",
         "matches_found": 9,
-        "valid_matches_count": 9,
+        "valid_matches_count": 0,
         "late_matches_count": 0,
-        "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Brentford vs Chelsea": {
             "pred": "3-2",
             "actual": "3-0",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Tottenham Hotspur vs Aston Villa": {
             "pred": "1-1",
             "actual": "2-3",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Brighton & Hove Albion vs Arsenal": {
             "pred": "2-1",
             "actual": "3-0",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Everton vs Ipswich Town": {
             "pred": "1-1",
             "actual": "1-0",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Newcastle United vs Hull City": {
             "pred": "1-1",
             "actual": "2-1",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Nottingham Forest vs Coventry City": {
             "pred": "0-1",
             "actual": "0-1",
-            "points": 3,
-            "result": "Exact",
+            "points": 0,
+            "result": "Exact (Disqualified - Edited Comment)",
             "is_late": false
           },
           "AFC Bournemouth vs Liverpool": {
             "pred": "0-2",
             "actual": "0-1",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Leeds United vs Crystal Palace": {
@@ -217953,15 +217958,15 @@
           "Manchester City vs Sunderland": {
             "pred": "4-1",
             "actual": "5-3",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Fulham vs Manchester United": {
             "pred": "2-1",
             "actual": "1-1",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
