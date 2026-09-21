@@ -2217,6 +2217,20 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@Themosquito_": {
+      "41": {
+        "status": "approved",
+        "timestamp": "2026-09-21T07:42:27.526Z",
+        "pred_home": 2,
+        "pred_away": 3
+      },
+      "47": {
+        "status": "approved",
+        "timestamp": "2026-09-21T07:42:27.526Z",
+        "pred_home": 1,
+        "pred_away": 0
+      }
     }
   }
 }
