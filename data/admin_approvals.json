@@ -2231,6 +2231,14 @@
         "pred_home": 1,
         "pred_away": 0
       }
+    },
+    "@natsuo6056": {
+      "47": {
+        "status": "approved",
+        "timestamp": "2026-09-21T07:42:45.793Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
     }
   }
 }
