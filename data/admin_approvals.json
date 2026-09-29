@@ -807,6 +807,14 @@
         "pred_home": 0,
         "pred_away": 4
       }
+    },
+    "@danielmcallahan": {
+      "18": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:20:44.858Z",
+        "pred_home": 3,
+        "pred_away": 0
+      }
     }
   },
   "GW_3": {
