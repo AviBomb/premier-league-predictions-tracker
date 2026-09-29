@@ -2259,6 +2259,22 @@
         "pred_home": 0,
         "pred_away": 0
       }
+    },
+    "@danielmcallahan": {
+      "50": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:18:21.101Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
+    },
+    "@faisalaldahlawi6560": {
+      "50": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:18:21.101Z",
+        "pred_home": 1,
+        "pred_away": 3
+      }
     }
   }
 }
