@@ -1693,6 +1693,38 @@
         "pred_home": 3,
         "pred_away": 9
       }
+    },
+    "@elliotking4807": {
+      "38": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@faisalaldahlawi6560": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 2,
+        "pred_away": 3
+      }
+    },
+    "@danielmcallahan": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@itschris2628": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   },
   "GW_5": {
