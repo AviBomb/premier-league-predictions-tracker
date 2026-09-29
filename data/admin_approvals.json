@@ -1685,6 +1685,14 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@missleafeatheleafeon2593": {
+      "34": {
+        "status": "rejected",
+        "timestamp": "2026-09-29T13:18:54.630Z",
+        "pred_home": 3,
+        "pred_away": 9
+      }
     }
   },
   "GW_5": {
