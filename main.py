@@ -11,7 +11,10 @@ Orchestrates:
 import os
 import sys
 import json
+import time
 import shutil
+import hashlib
+from datetime import datetime, timezone
 import pandas as pd
 from typing import List, Dict, Any, Tuple, Optional
 
@@ -21,7 +24,7 @@ if sys.platform == "win32":
     except Exception:
         pass
 
-from src.fixture_service import fetch_gameweek_fixtures
+from src.fixture_service import fetch_gameweek_fixtures, fetch_league_snapshot
 from src.scraper import scrape_youtube_comments
 from src.scoring_engine import audit_and_score_gameweek
 from src.leaderboard_manager import save_gameweek_csv, update_cumulative_leaderboard, rebuild_cumulative_leaderboard
@@ -39,6 +42,52 @@ PENDING_APPROVALS_PATH = "data/pending_approvals.json"
 HISTORY_DB_PATH = "data/history_db.json"
 API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
 LOCAL_DATA_FALLBACK = "data/sample_comments.csv"
+FINGERPRINTS_PATH = "data/pipeline_fingerprints.json"
+LEAGUE_SNAPSHOT_PATH = "data/league_snapshot.json"
+STATUS_PATH = "site-status/pipeline_status.json"  # git-ignored; published with the site by the Pages deploy
+PARSER_FILES = ["src/nlp_parser.py", "src/fuzzy_matcher.py", "src/scoring_engine.py", "src/team_aliases.py"]
+
+
+def comments_file_for(gw_num: int) -> str:
+    return f"data/sample_comments_gw{gw_num}.csv" if gw_num > 1 else LOCAL_DATA_FALLBACK
+
+
+def read_normalized(path: str) -> bytes:
+    """File bytes with CRLF normalized, so Windows and Linux checkouts fingerprint the same."""
+    if not os.path.exists(path):
+        return b""
+    with open(path, "rb") as f:
+        return f.read().replace(b"\r\n", b"\n")
+
+
+def gameweek_fingerprint(gw_num: int, admin_approvals: Dict[str, Any]) -> str:
+    """Hash of everything a gameweek's audit depends on: parser code, its admin decisions, its comments, aliases and scores."""
+    cfg = {}
+    if os.path.exists(CONFIG_PATH):
+        with open(CONFIG_PATH, "r", encoding="utf-8-sig") as f:
+            cfg = json.load(f)
+    scores = [(fx.get("id"), fx.get("home_act"), fx.get("away_act")) for fx in cfg.get("gameweeks", {}).get(str(gw_num), {}).get("fixtures", [])]
+    digest = hashlib.sha256()
+    for path in PARSER_FILES + [comments_file_for(gw_num)]:
+        digest.update(read_normalized(path))
+    digest.update(json.dumps([admin_approvals.get(f"GW_{gw_num}", {}), cfg.get("team_aliases", {}), scores], sort_keys=True).encode("utf-8"))
+    return digest.hexdigest()
+
+
+def load_json_file(path: str, default: Any) -> Any:
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[!] Warning reading {path}: {e}")
+    return default
+
+
+def write_json_file(path: str, data: Any):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 
 def load_gameweek_configuration(target_gw: Optional[int] = None) -> Tuple[int, List[str], List[Dict[str, Any]], bool]:
@@ -185,7 +234,7 @@ def process_gameweek_data(
 
     # 3. Comments Loading / Scraping
     comments = []
-    gw_fallback_file = f"data/sample_comments_gw{gw_num}.csv" if gw_num > 1 else LOCAL_DATA_FALLBACK
+    gw_fallback_file = comments_file_for(gw_num)
 
     if is_active_gw and use_live_api and API_KEY and not API_KEY.startswith("YOUR_") and video_urls and any(video_urls):
         try:
@@ -225,7 +274,34 @@ def process_gameweek_data(
     return audited_records, valid_entries, fuzzy_candidates, fixtures
 
 
-def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None, force_reprocess_all: bool = True):
+def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None, force_reprocess_all: bool = False):
+    """
+    Runs the scoring pipeline. The live gameweek is always processed; finished gameweeks are only
+    re-audited when their inputs fingerprint changed (parser code, admin decisions, comments, aliases,
+    admin-entered scores) or when force_reprocess_all is set.
+    """
+    started = time.time()
+    status: Dict[str, Any] = {"ok": False, "errors": []}
+    run_url = ""
+    if os.environ.get("GITHUB_RUN_ID"):
+        run_url = f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+    try:
+        _run_pipeline(use_live_api, target_gw, force_reprocess_all, status)
+        status["ok"] = True
+    except Exception as e:
+        status["errors"].append(f"Pipeline failed: {e}")
+        raise
+    finally:
+        status.update({
+            "last_run_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "duration_seconds": round(time.time() - started, 1),
+            "trigger": os.environ.get("GITHUB_EVENT_NAME", "local"),
+            "run_url": run_url,
+        })
+        write_json_file(STATUS_PATH, status)
+
+
+def _run_pipeline(use_live_api: bool, target_gw: Optional[int], force_reprocess_all: bool, status: Dict[str, Any]):
     print("=" * 88)
     print("  PREMIER LEAGUE PREDICTIONS TRACKER & LIVE SCORING ENGINE (2026-2027)")
     print("=" * 88)
@@ -240,20 +316,26 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None, for
 
     # 2. Load all gameweeks data store
     all_gw_data = load_all_gameweeks_cache()
+    fingerprints = load_json_file(FINGERPRINTS_PATH, {})
 
     # 3. Process all active gameweeks up to current gw_number
     active_candidates = []
     active_audited_count = 0
+    reprocessed, frozen = [], []
 
     for gw in range(1, gw_number + 1):
         is_active = (gw == gw_number)
+        changed = force_reprocess_all or fingerprints.get(str(gw)) != gameweek_fingerprint(gw, admin_approvals)
+        (reprocessed if (changed or is_active) else frozen).append(gw)
         audited, valids, candidates, fixtures = process_gameweek_data(
             gw_num=gw,
             use_live_api=use_live_api if is_active else False,
             admin_approvals=admin_approvals,
             is_active_gw=is_active,
-            force_reprocess=force_reprocess_all
+            force_reprocess=changed
         )
+        # Recomputed after processing: the run may have synced fresh fixture scores into the config.
+        fingerprints[str(gw)] = gameweek_fingerprint(gw, admin_approvals)
         if audited or fixtures:
             all_gw_data[str(gw)] = {
                 "gw": gw,
@@ -267,18 +349,38 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None, for
             active_audited_count = len(audited)
 
     save_all_gameweeks_cache(all_gw_data)
+    write_json_file(FINGERPRINTS_PATH, fingerprints)
+    print(f"[*] Re-audited gameweeks: {reprocessed or 'none'} | frozen (inputs unchanged): {frozen or 'none'}")
 
     # 4. Build Cumulative Leaderboard across all available gameweeks
     df_leaderboard = rebuild_cumulative_leaderboard()
 
     # 5. Generate Premier League Themed Live Web Dashboard (dashboard.html & index.html)
+    league = fetch_league_snapshot()
+    if league:
+        write_json_file(LEAGUE_SNAPSHOT_PATH, league)
+    else:
+        league = load_json_file(LEAGUE_SNAPSHOT_PATH, {})
+        status["errors"].append("Premier League data was unavailable for this run; showing the last good table and predictions.")
     dashboard_path = generate_live_dashboard(
         active_gw=gw_number,
         all_gameweeks_data=all_gw_data,
         df_leaderboard=df_leaderboard,
-        output_path="dashboard.html"
+        output_path="dashboard.html",
+        league_data=league,
+        video_url=video_urls[0] if video_urls else ""
     )
     shutil.copy("dashboard.html", "index.html")
+    status.update({
+        "active_gameweek": gw_number,
+        "reprocessed_gameweeks": reprocessed,
+        "frozen_gameweeks": frozen,
+        "predictions_active_gameweek": active_audited_count,
+        "review_candidates_active_gameweek": len(active_candidates),
+        "ranked_predictors": int(len(df_leaderboard)),
+        "league_data_ok": bool(league),
+        "youtube_scrape": "live" if (use_live_api and API_KEY and video_urls) else "cached comments",
+    })
 
     print("\n" + "-" * 88)
     print("  EXTRACTED GAMEWEEK RESULTS & PREDICTION AUDIT SUMMARY")
@@ -306,4 +408,4 @@ def run_pipeline(use_live_api: bool = True, target_gw: Optional[int] = None, for
 
 
 if __name__ == "__main__":
-    run_pipeline(use_live_api=True)
+    run_pipeline(use_live_api=True, force_reprocess_all="--force" in sys.argv)

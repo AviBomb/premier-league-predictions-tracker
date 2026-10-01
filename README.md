@@ -42,9 +42,19 @@ pl_predictions_tracker/
 │   ├── nlp_parser.py                 # Multi-pattern regex & scoreline extractor
 │   ├── scoring_engine.py             # Integrity audit & deadline calculator (3pts/1pt)
 │   ├── leaderboard_manager.py        # Cumulative points aggregator & CSV generator
+│   ├── integrity.py                  # Duplicate & spam detection shown in the admin typo review
 │   └── dashboard_generator.py        # HTML5 glassmorphic dashboard builder
+├── templates/
+│   └── dashboard.html                # Dashboard page template (filled in by src/dashboard_generator.py)
+├── assets/
+│   ├── common.js                     # Theme, club badges, pop-up focus trap, CSV + share helpers (both pages)
+│   └── icons/                        # Home-screen icons for the installable app
+├── data/site/                        # Generated JSON the dashboard fetches on demand (leaderboard, per-gameweek data, integrity flags)
+├── tests/                            # Self-checks run by the workflow before each deploy
+├── manifest.webmanifest              # Makes the dashboard installable on phones ("Add to Home Screen")
+├── sw.js                             # Service worker: network first, last good copy when offline
 ├── admin.html                        # Authenticated enterprise admin management portal
-├── dashboard.html                    # Public live predictions dashboard
+├── dashboard.html                    # Public live predictions dashboard (generated; do not edit by hand)
 ├── index.html                        # Root landing page for GitHub Pages
 ├── server.py                         # Local Python development server & REST API
 ├── main.py                           # Master pipeline orchestrator
@@ -82,9 +92,16 @@ GOOGLE_CLIENT_ID=your_google_oauth_client_id.apps.googleusercontent.com
 # Run prediction scraping & score calculation
 python main.py
 
-# Start local server on http://127.0.0.1:3000
+# Finished gameweeks are only re-audited when their inputs change; force a full re-audit with:
+python main.py --force
+
+# Start local server on http://127.0.0.1:3000 (uses the next free port if 3000 is busy)
 python server.py
+
+# Admin saves stay local by default. To also commit and push them to origin/main:
+python server.py --push
 ```
+The local API only accepts requests from `http://127.0.0.1` / `http://localhost` pages.
 Open **[http://127.0.0.1:3000/dashboard.html](http://127.0.0.1:3000/dashboard.html)** for the Public Leaderboard, or **[http://127.0.0.1:3000/admin.html](http://127.0.0.1:3000/admin.html)** for the Admin Hub.
 
 ---
@@ -145,7 +162,7 @@ To configure Google Sign-In for authorized administrators on `admin.html`:
 3. Add Authorized JavaScript Origins:
    * Local: `http://127.0.0.1:3000` and `http://localhost:3000`
    * Production: `https://<YOUR_USERNAME>.github.io`
-4. Add authorized admin email SHA-256 hashes directly in `admin.html` under the **👥 Authorized Google Users** tab or in `config/gameweek_config.json` (`authorized_users_sha256`). Plain-text emails are automatically hashed client-side so they are never exposed in public repositories.
+4. Add authorized admins in the Admin Portal under **Authorized users**. Only the SHA-256 hash of each email (`authorized_users_sha256`) and a masked label such as `av***b@gmail.com` (`authorized_users_labels`) are stored in `config/gameweek_config.json`, so addresses are never exposed in the public repository. Older configs with a plain `authorized_users` list are migrated automatically the next time an admin opens that tab and saves. Note that addresses committed before this change still exist in the repository's git history.
 
 ---
 

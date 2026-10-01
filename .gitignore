@@ -13,6 +13,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Per-run pipeline status: published with the site by the Pages deploy, never committed
+site-status/
+
 # Cloudflare Worker (Cloud Sync) local dev artifacts
 cloudflare-worker/node_modules/
 cloudflare-worker/.wrangler/

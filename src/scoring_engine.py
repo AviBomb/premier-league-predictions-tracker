@@ -12,10 +12,11 @@ Integrity & Scoring Engine (Rolling Match Deadlines & Edit Audit)
 - Scores exact predictions (3pts), outcome (1pt), miss (0pt).
 """
 import os
+import re
 import json
 import difflib
 import html
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any, Tuple, Optional
 from src.nlp_parser import extract_predictions_from_comment
 from src.fuzzy_matcher import detect_fuzzy_prediction_candidates
@@ -101,6 +102,46 @@ def format_duration(seconds: int) -> str:
     return f"{minutes}m"
 
 
+def normalize_author(author: str) -> str:
+    return str(author or "").lower().strip().lstrip('@')
+
+
+def find_user_approvals(gw_approvals: Dict[str, Any], author: str) -> Dict[str, Any]:
+    """Admin decisions for one predictor, matching the @handle case-insensitively."""
+    if author in gw_approvals:
+        return gw_approvals[author] or {}
+    clean = normalize_author(author)
+    for k, v in gw_approvals.items():
+        if normalize_author(k) == clean:
+            return v or {}
+    return {}
+
+
+def manual_entries(user_approvals: Dict[str, Any]) -> Dict[str, Tuple[int, int]]:
+    """Admin-entered predictions (fixture id -> (home, away)) from the Admin Portal's manual entry form."""
+    entries = {}
+    for fix_id, entry in (user_approvals or {}).items():
+        if isinstance(entry, dict) and entry.get("manual") and entry.get("status") == "approved" \
+                and entry.get("pred_home") is not None and entry.get("pred_away") is not None:
+            entries[str(fix_id)] = (int(entry["pred_home"]), int(entry["pred_away"]))
+    return entries
+
+
+def manual_only_comments(comments: List[Dict[str, Any]], gw_approvals: Dict[str, Any], gw_number: int) -> List[Dict[str, Any]]:
+    """Placeholder comments for predictors who only have admin-entered predictions (e.g. their comment was deleted)."""
+    commented = {normalize_author(c.get("author")) for c in comments}
+    placeholders = []
+    for author, decisions in gw_approvals.items():
+        if manual_entries(decisions) and normalize_author(author) not in commented:
+            reasons = sorted({d.get("reason", "") for d in decisions.values() if isinstance(d, dict) and d.get("manual") and d.get("reason")})
+            placeholders.append({
+                "comment_id": f"manual-gw{gw_number}-{re.sub(r'[^A-Za-z0-9]', '', author)}",
+                "author": author, "text": "", "published_at": "", "updated_at": "", "is_edited": False,
+                "manual_only": True, "manual_reason": "; ".join(reasons),
+            })
+    return placeholders
+
+
 def audit_and_score_gameweek(
     comments: List[Dict[str, Any]],
     fixtures: List[Dict[str, Any]],
@@ -138,8 +179,9 @@ def audit_and_score_gameweek(
     audited_records = []
     valid_leaderboard_entries = {}
     all_fuzzy_candidates = []
+    fixtures_by_id = {str(f["id"]): f for f in fixtures}
 
-    for c in comments:
+    for c in list(comments) + manual_only_comments(comments, gw_approvals, gw_number):
         c_id = c["comment_id"]
         author = c["author"]
         channel_url = c.get("author_channel_url", "")
@@ -147,9 +189,13 @@ def audit_and_score_gameweek(
         upd_str = str(c.get("updated_at", pub_str))
         is_edited = str(c.get("is_edited", "")).strip().lower() in ["true", "1"] or c.get("is_edited") is True
         raw_text = c["text"]
+        is_manual_only = bool(c.get("manual_only"))
+        user_approvals = find_user_approvals(gw_approvals, author)
 
-        # Track history in comment_history cache
-        if c_id not in comment_history:
+        # Track history in comment_history cache (admin placeholders are not YouTube comments)
+        if is_manual_only:
+            pass
+        elif c_id not in comment_history:
             comment_history[c_id] = {
                 "initial_text": raw_text,
                 "initial_pub": pub_str,
@@ -169,7 +215,7 @@ def audit_and_score_gameweek(
                 entry["latest_upd"] = upd_str
                 history_updated = True
 
-        hist_entry = comment_history[c_id]
+        hist_entry = comment_history.get(c_id, {})
         original_comment_text = hist_entry.get("initial_text", raw_text)
         revisions_list = hist_entry.get("revisions", [])
 
@@ -236,14 +282,6 @@ def audit_and_score_gameweek(
                 gw_number=gw_number
             )
 
-            user_approvals = gw_approvals.get(author, {})
-            if not user_approvals:
-                clean_auth = author.lower().strip().lstrip('@')
-                for k, v in gw_approvals.items():
-                    if k.lower().strip().lstrip('@') == clean_auth:
-                        user_approvals = v
-                        break
-
             for cand in fuzzy_cands:
                 fix_id = cand["fixture_id"]
                 fix_id_str = str(fix_id)
@@ -270,6 +308,12 @@ def audit_and_score_gameweek(
 
                 if is_before_kickoff:
                     all_fuzzy_candidates.append(cand)
+
+        # 3. Admin-entered predictions (manual entry form) override or add to what was parsed
+        for fix_id_str, (m_home, m_away) in manual_entries(user_approvals).items():
+            f = fixtures_by_id.get(fix_id_str)
+            if f:
+                user_fixture_preds[(f["home"], f["away"])] = (m_home, m_away)
 
         # Strict Exclusion: If a comment/reply has 0 matches predicted, do not pick or display it
         if len(user_fixture_preds) == 0:
@@ -347,6 +391,12 @@ def audit_and_score_gameweek(
             status = "Valid"
             delta_sec = int((earliest_kickoff - pub_dt).total_seconds()) if pub_dt else 0
             timing_analysis = f"Submitted {format_duration(delta_sec)} before earliest kickoff ({submission_gmt})"
+
+        if is_manual_only:
+            status = "Valid (Admin entry)"
+            submission_gmt = "Admin entry"
+            raw_text = "Predictions entered manually by an admin."
+            timing_analysis = f"Entered by an admin in the Admin Portal{': ' + c['manual_reason'] if c.get('manual_reason') else ''}."
 
         record = {
             "comment_id": c_id,

@@ -1,12 +1,17 @@
 """
 Fuzzy Matcher and Typo Detection Engine
 Identifies spelling mistakes, phonetic similarities, and alternative team spellings
-with confidence scoring (75% to 100% confidence) for Admin Approval.
+with confidence scoring (50% to 100% confidence) for Admin Approval.
 Strictly filters out conversational noise lines (e.g. 'Missed these', 'My predictions').
 """
 import re
 from difflib import SequenceMatcher
 from typing import List, Dict, Any, Optional, Tuple
+
+# Minimum team-name similarity for a typo line to reach the admin review queue.
+REVIEW_MIN_CONFIDENCE = 0.50
+# Bar for trusting that the text after a score is a team before trying to split the text before it.
+STRICT_TEAM_CONFIDENCE = 0.75
 
 ALL_CLUBS = [
     "Arsenal", "Aston Villa", "AFC Bournemouth", "Brentford", "Brighton & Hove Albion",
@@ -55,7 +60,7 @@ def match_team_fuzzy(word: str) -> Tuple[Optional[str], float]:
     """
     Compares an input word/phrase against all 20 clubs and known spelling variants.
     Returns (Best Canonical Team Name, Confidence Float 0.0 to 1.0).
-    Requires word length >= 3 and strict confidence threshold >= 0.75.
+    Requires word length >= 3 and confidence >= REVIEW_MIN_CONFIDENCE.
     """
     w_clean = re.sub(r"[^\w\s&]", "", word).strip().lower()
     if not w_clean or len(w_clean) < 3:
@@ -88,7 +93,7 @@ def match_team_fuzzy(word: str) -> Tuple[Optional[str], float]:
                 best_score = v_score
                 best_team = club
 
-    if best_score >= 0.75:
+    if best_score >= REVIEW_MIN_CONFIDENCE:
         return best_team, best_score
     return None, 0.0
 
@@ -104,7 +109,7 @@ def detect_fuzzy_prediction_candidates(
     gw_number: int
 ) -> List[Dict[str, Any]]:
     """
-    Scans lines that failed exact regex parsing and identifies strictly legitimate >= 75% candidates.
+    Scans lines that failed exact regex parsing and identifies legitimate >= 50% candidates.
     Rejects conversational noise lines (e.g. 'Missed these'). Supports multiple fuzzy predictions per line.
     """
     if not isinstance(comment_text, str) or not comment_text.strip():
@@ -163,7 +168,7 @@ def detect_fuzzy_prediction_candidates(
             team2, conf2 = match_team_fuzzy(right_text)
 
             # If right text was empty or didn't match, check if left text had both teams e.g. "Arsnl vs Cov 3-0" or "Everton Palace 1-1"
-            if not team2 or conf2 < 0.75:
+            if not team2 or conf2 < STRICT_TEAM_CONFIDENCE:
                 tokens = re.split(r'\s+(?:vs\.?|v\.?|-|against)\s+', left_text, flags=re.IGNORECASE)
                 if len(tokens) == 2:
                     team1, conf1 = match_team_fuzzy(tokens[0])
@@ -178,15 +183,15 @@ def detect_fuzzy_prediction_candidates(
                             t2_cand_text = " ".join(words[split_pos:])
                             cand_t1, cand_c1 = match_team_fuzzy(t1_cand_text)
                             cand_t2, cand_c2 = match_team_fuzzy(t2_cand_text)
-                            if cand_t1 and cand_t2 and cand_t1 != cand_t2 and cand_c1 >= 0.75 and cand_c2 >= 0.75:
+                            if cand_t1 and cand_t2 and cand_t1 != cand_t2 and cand_c1 >= REVIEW_MIN_CONFIDENCE and cand_c2 >= REVIEW_MIN_CONFIDENCE:
                                 avg = (cand_c1 + cand_c2) / 2.0
                                 if avg > best_pair_score:
                                     best_pair_score = avg
                                     team1, conf1 = cand_t1, cand_c1
                                     team2, conf2 = cand_t2, cand_c2
 
-            # Strict Requirement: Both teams must match canonical clubs with >= 0.75 individual confidence
-            if not team1 or not team2 or team1 == team2 or conf1 < 0.75 or conf2 < 0.75:
+            # Both teams must match canonical clubs with >= REVIEW_MIN_CONFIDENCE individual confidence
+            if not team1 or not team2 or team1 == team2 or conf1 < REVIEW_MIN_CONFIDENCE or conf2 < REVIEW_MIN_CONFIDENCE:
                 continue
 
             avg_conf = (conf1 + conf2) / 2.0
@@ -206,7 +211,7 @@ def detect_fuzzy_prediction_candidates(
                     else:
                         pred_h, pred_a = s2, s1
 
-                    if conf_pct >= 75:
+                    if conf_pct >= REVIEW_MIN_CONFIDENCE * 100:
                         cand_id = f"cand_gw{gw_number}_{re.sub(r'[^a-zA-Z0-9]', '', author)}_{fix_id}"
                         candidate_obj = {
                             "id": cand_id,

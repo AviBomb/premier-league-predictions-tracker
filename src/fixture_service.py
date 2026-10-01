@@ -6,6 +6,9 @@ directly from the Official Premier League / FPL API.
 import urllib.request
 import ssl
 import json
+import math
+import os
+import time
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional, Tuple
 
@@ -277,21 +280,15 @@ def fetch_bootstrap_data() -> Tuple[Dict[int, str], Dict[int, str]]:
     team_map = dict(FPL_TEAM_ID_MAP)
     player_map: Dict[int, str] = {}
     try:
-        ctx = ssl._create_unverified_context()
-        req = urllib.request.Request(
-            "https://fantasy.premierleague.com/api/bootstrap-static/",
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-        )
-        with urllib.request.urlopen(req, timeout=8, context=ctx) as resp:
-            if resp.status == 200:
-                data = json.loads(resp.read().decode("utf-8"))
-                for t in data.get("teams", []):
-                    raw_name = t.get("name", "")
-                    canonical = FPL_NAME_CANONICAL_MAP.get(raw_name, raw_name)
-                    team_map[t["id"]] = canonical
-                for e in data.get("elements", []):
-                    name = e.get("web_name") or f"{e.get('first_name', '')} {e.get('second_name', '')}".strip()
-                    player_map[e["id"]] = name
+        # Retried: a dropped connection here would otherwise turn scorer names into "Player #id" for the whole run.
+        data = _fetch_fpl_json("bootstrap-static/", attempts=3)
+        for t in data.get("teams", []):
+            raw_name = t.get("name", "")
+            canonical = FPL_NAME_CANONICAL_MAP.get(raw_name, raw_name)
+            team_map[t["id"]] = canonical
+        for e in data.get("elements", []):
+            name = e.get("web_name") or f"{e.get('first_name', '')} {e.get('second_name', '')}".strip()
+            player_map[e["id"]] = name
     except Exception as e:
         print(f"[*] Using local fallback mappings ({e})")
     return team_map, player_map
@@ -333,6 +330,292 @@ def parse_goal_events(scorers_raw: List[Dict[str, Any]], assists_raw: List[Dict[
         summary_parts.append(f"{scorer}{type_tag}{assist_tag}")
 
     return events, ", ".join(summary_parts)
+
+
+# Pseudo-matches of FPL-strength prior blended into each team's season record (keeps early-season picks sane).
+PRIOR_GAMES = 5.0
+AI_STORE_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "ai_predictions.json")
+
+
+def poisson_pmf(k: int, lam: float) -> float:
+    return math.exp(-lam) * lam ** k / math.factorial(k)
+
+
+def strength_priors(teams_raw: List[Dict[str, Any]], team_map: Dict[int, str]) -> Dict[str, Tuple[float, float]]:
+    """Turns FPL attack/defence strength ratings into (scoring, conceding) multipliers around 1.0."""
+    rated = []
+    for t in teams_raw:
+        name = team_map.get(t.get("id"))
+        att = (t.get("strength_attack_home") or 0) + (t.get("strength_attack_away") or 0)
+        dfn = (t.get("strength_defence_home") or 0) + (t.get("strength_defence_away") or 0)
+        if name and att and dfn:
+            rated.append((name, att, dfn))
+    if not rated:
+        return {}
+    att_mean = sum(r[1] for r in rated) / len(rated)
+    def_mean = sum(r[2] for r in rated) / len(rated)
+    # ponytail: FPL ratings only span ~±15%, so squaring widens them to a realistic goal spread; fit the exponent on past seasons if accuracy matters.
+    return {name: ((att / att_mean) ** 2, (def_mean / dfn) ** 2) for name, att, dfn in rated}
+
+
+def predict_scoreline(xg_home: float, xg_away: float, max_goals: int = 7) -> Dict[str, Any]:
+    """Most likely scoreline within the most likely outcome, plus H/D/A probabilities, from two Poisson goal rates."""
+    outcome = {"H": 0.0, "D": 0.0, "A": 0.0}
+    best = {"H": (0.0, 1, 0), "D": (0.0, 0, 0), "A": (0.0, 0, 1)}
+    for h in range(max_goals + 1):
+        for a in range(max_goals + 1):
+            p = poisson_pmf(h, xg_home) * poisson_pmf(a, xg_away)
+            key = "H" if h > a else ("D" if h == a else "A")
+            outcome[key] += p
+            if p > best[key][0]:
+                best[key] = (p, h, a)
+    total = sum(outcome.values())
+    pick = max(outcome, key=outcome.get)
+    return {
+        "pred_home": best[pick][1], "pred_away": best[pick][2],
+        "xg_home": round(xg_home, 2), "xg_away": round(xg_away, 2),
+        "p_home": round(100 * outcome["H"] / total),
+        "p_draw": round(100 * outcome["D"] / total),
+        "p_away": round(100 * outcome["A"] / total),
+    }
+
+
+def fixture_teams(f: Dict[str, Any], team_map: Dict[int, str]) -> Tuple[str, str]:
+    return team_map.get(f.get("team_h"), f"Team_{f.get('team_h')}"), team_map.get(f.get("team_a"), f"Team_{f.get('team_a')}")
+
+
+def fixture_done(f: Dict[str, Any]) -> bool:
+    return bool((f.get("finished") or f.get("finished_provisional")) and f.get("team_h_score") is not None and f.get("team_a_score") is not None)
+
+
+def kickoff_dt(f: Dict[str, Any]) -> Optional[datetime]:
+    try:
+        return datetime.fromisoformat(str(f.get("kickoff_time")).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def fit_goal_model(finished: List[Dict[str, Any]], team_map: Dict[int, str], priors: Dict[str, Tuple[float, float]]) -> Dict[str, Any]:
+    """Home/away goal averages plus per-team (scoring, conceding) rates, shrunk towards the FPL-strength priors."""
+    stats: Dict[str, List[int]] = {name: [0, 0, 0] for name in team_map.values()}  # played, goals for, goals against
+    home_goals = away_goals = 0
+    for f in finished:
+        home, away = fixture_teams(f, team_map)
+        hs, as_ = int(f["team_h_score"]), int(f["team_a_score"])
+        home_goals += hs
+        away_goals += as_
+        for team, gf, ga in ((home, hs, as_), (away, as_, hs)):
+            s = stats.setdefault(team, [0, 0, 0])
+            s[0] += 1
+            s[1] += gf
+            s[2] += ga
+    home_avg = home_goals / len(finished) if finished else 1.5
+    away_avg = away_goals / len(finished) if finished else 1.2
+    goal_avg = (home_avg + away_avg) / 2
+    rates = {}
+    for team, (played, gf, ga) in stats.items():
+        prior_att, prior_def = priors.get(team, (1.0, 1.0))
+        rates[team] = (
+            (gf + PRIOR_GAMES * goal_avg * prior_att) / ((played + PRIOR_GAMES) * goal_avg),
+            (ga + PRIOR_GAMES * goal_avg * prior_def) / ((played + PRIOR_GAMES) * goal_avg),
+        )
+    return {"home_avg": home_avg, "away_avg": away_avg, "rates": rates}
+
+
+def predict_match(model: Dict[str, Any], home: str, away: str) -> Dict[str, Any]:
+    home_rate = model["rates"].get(home, (1.0, 1.0))
+    away_rate = model["rates"].get(away, (1.0, 1.0))
+    return predict_scoreline(model["home_avg"] * home_rate[0] * away_rate[1], model["away_avg"] * away_rate[0] * home_rate[1])
+
+
+def build_league_snapshot(
+    raw_fixtures: List[Dict[str, Any]],
+    team_map: Dict[int, str],
+    priors: Optional[Dict[str, Tuple[float, float]]] = None
+) -> Dict[str, Any]:
+    """Builds the live table (Pts, GD, GF tie-breaks), each club's next fixture, per-gameweek deadlines, and model predictions for the next gameweek."""
+    priors = priors or {}
+
+    def new_row(team: str) -> Dict[str, Any]:
+        return {"team": team, "logo": get_team_logo(team), "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "form": [], "next": None}
+
+    rows: Dict[str, Dict[str, Any]] = {name: new_row(name) for name in team_map.values()}
+    finished = sorted((f for f in raw_fixtures if fixture_done(f)), key=lambda f: f.get("kickoff_time") or "")
+    upcoming = sorted(
+        (f for f in raw_fixtures if not fixture_done(f)),
+        key=lambda f: (f.get("kickoff_time") is None, f.get("kickoff_time") or "")
+    )
+
+    for f in finished:
+        home, away = fixture_teams(f, team_map)
+        hs, as_ = int(f["team_h_score"]), int(f["team_a_score"])
+        for team, gf, ga in ((home, hs, as_), (away, as_, hs)):
+            row = rows.setdefault(team, new_row(team))
+            result = "W" if gf > ga else ("D" if gf == ga else "L")
+            row["played"] += 1
+            row["gf"] += gf
+            row["ga"] += ga
+            row[{"W": "won", "D": "drawn", "L": "lost"}[result]] += 1
+            row["form"].append(result)
+
+    for f in upcoming:
+        home, away = fixture_teams(f, team_map)
+        for team, opponent, venue in ((home, away, "H"), (away, home, "A")):
+            row = rows.setdefault(team, new_row(team))
+            if row["next"] is None:
+                row["next"] = {"opponent": opponent, "logo": get_team_logo(opponent), "venue": venue, "kickoff": f.get("kickoff_time"), "gw": f.get("event")}
+
+    for row in rows.values():
+        row["gd"] = row["gf"] - row["ga"]
+        row["points"] = row["won"] * 3 + row["drawn"]
+        row["form"] = row["form"][-5:]
+    table = sorted(rows.values(), key=lambda r: (-r["points"], -r["gd"], -r["gf"], r["team"]))
+    for pos, row in enumerate(table, 1):
+        row["position"] = pos
+
+    model = fit_goal_model(finished, team_map, priors)
+    next_gw = min((f["event"] for f in upcoming if f.get("event")), default=None)
+    matches = []
+    for f in upcoming:
+        if f.get("event") != next_gw:
+            continue
+        home, away = fixture_teams(f, team_map)
+        matches.append({
+            "id": f.get("id"), "home": home, "away": away, "home_logo": get_team_logo(home), "away_logo": get_team_logo(away),
+            "kickoff": f.get("kickoff_time"), **predict_match(model, home, away)
+        })
+
+    deadlines: Dict[str, str] = {}
+    for f in raw_fixtures:
+        gw_key, ko = str(f.get("event")), f.get("kickoff_time")
+        if f.get("event") and ko and (gw_key not in deadlines or ko < deadlines[gw_key]):
+            deadlines[gw_key] = ko
+
+    return {"table": table, "predictions": {"gw": next_gw, "matches": matches}, "deadlines": deadlines}
+
+
+def update_ai_record(
+    raw_fixtures: List[Dict[str, Any]],
+    team_map: Dict[int, str],
+    priors: Dict[str, Tuple[float, float]],
+    store_path: str,
+    now: Optional[datetime] = None
+) -> Dict[str, Any]:
+    """
+    'Beat the AI': keeps the model's pick for each fixture, locked once the match kicks off, and scores it like a predictor.
+    - Next-gameweek fixtures that haven't started are (re)predicted with every completed result so far.
+    - Fixtures that started before tracking began are backtested using only results from before that gameweek's first kickoff.
+    """
+    now = now or datetime.now(timezone.utc)
+    store: Dict[str, Dict[str, Any]] = {}
+    if os.path.exists(store_path):
+        with open(store_path, encoding="utf-8") as f:
+            store = json.load(f)
+    original = json.dumps(store, sort_keys=True)
+
+    finished = sorted((f for f in raw_fixtures if fixture_done(f)), key=lambda f: f.get("kickoff_time") or "")
+    by_gw: Dict[int, List[Dict[str, Any]]] = {}
+    for f in raw_fixtures:
+        if f.get("event"):
+            by_gw.setdefault(int(f["event"]), []).append(f)
+    upcoming_gws = [gw for gw, fx in by_gw.items() if any(not fixture_done(f) for f in fx)]
+    next_gw = min(upcoming_gws, default=None)
+    live_model = fit_goal_model(finished, team_map, priors)
+
+    for gw, fixtures in sorted(by_gw.items()):
+        kickoffs = [k for k in (kickoff_dt(f) for f in fixtures) if k]
+        first = min(kickoffs) if kickoffs else None
+        backtest_model = None
+        entries = store.get(str(gw), {})
+        for f in fixtures:
+            fid, ko = str(f.get("id")), kickoff_dt(f)
+            started = fixture_done(f) or bool(f.get("started")) or (ko is not None and ko <= now)
+            if started and fid in entries:
+                continue  # locked at kickoff
+            if not started and gw != next_gw:
+                continue  # only track the next gameweek ahead of time
+            home, away = fixture_teams(f, team_map)
+            if started:
+                if backtest_model is None:
+                    earlier = [x for x in finished if first and kickoff_dt(x) and kickoff_dt(x) < first]
+                    backtest_model = fit_goal_model(earlier, team_map, priors)
+                pick = predict_match(backtest_model, home, away)
+            else:
+                pick = predict_match(live_model, home, away)
+            entries[fid] = {"home": home, "away": away, "pred_home": pick["pred_home"], "pred_away": pick["pred_away"],
+                            "kickoff": f.get("kickoff_time"), "backtest": started}
+        if entries:
+            store[str(gw)] = entries
+
+    if json.dumps(store, sort_keys=True) != original:
+        os.makedirs(os.path.dirname(store_path) or ".", exist_ok=True)
+        with open(store_path, "w", encoding="utf-8") as f:
+            json.dump(store, f, indent=2, sort_keys=True)
+
+    fixtures_by_id = {str(f.get("id")): f for f in finished}
+    record = {"points": 0, "exacts": 0, "outcomes": 0, "matches": 0, "gws": []}
+    for gw_key in sorted(store, key=int):
+        gw_row = {"gw": int(gw_key), "points": 0, "exacts": 0, "outcomes": 0, "matches": 0, "backtest": False}
+        for fid, entry in store[gw_key].items():
+            result = fixtures_by_id.get(fid)
+            if not result:
+                continue
+            pts = score_prediction(entry["pred_home"], entry["pred_away"], int(result["team_h_score"]), int(result["team_a_score"]))
+            gw_row["matches"] += 1
+            gw_row["points"] += pts
+            gw_row["exacts"] += pts == 3
+            gw_row["outcomes"] += pts == 1
+            gw_row["backtest"] = gw_row["backtest"] or entry.get("backtest", False)
+        if gw_row["matches"]:
+            record["gws"].append(gw_row)
+            for k in ("points", "exacts", "outcomes", "matches"):
+                record[k] += gw_row[k]
+    return record
+
+
+def score_prediction(pred_h: int, pred_a: int, act_h: int, act_a: int) -> int:
+    """3 for the exact score, 1 for the right result, 0 otherwise (same rules as the predictor league)."""
+    if pred_h == act_h and pred_a == act_a:
+        return 3
+    same_result = (pred_h > pred_a) == (act_h > act_a) and (pred_h < pred_a) == (act_h < act_a)
+    return 1 if same_result else 0
+
+
+def _fetch_fpl_json(path: str, attempts: int = 2) -> Any:
+    ctx = ssl._create_unverified_context()
+    req = urllib.request.Request(
+        f"https://fantasy.premierleague.com/api/{path}",
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    )
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=10, context=ctx) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except OSError:
+            if attempt == attempts - 1:
+                raise
+            time.sleep(2)
+
+
+def fetch_league_snapshot() -> Dict[str, Any]:
+    """Fetches the FPL season fixtures + team strengths and returns the live table, next fixtures and predictions ({} if unreachable)."""
+    try:
+        teams_raw = _fetch_fpl_json("bootstrap-static/").get("teams", [])
+        team_map = dict(FPL_TEAM_ID_MAP)
+        for t in teams_raw:
+            team_map[t["id"]] = FPL_NAME_CANONICAL_MAP.get(t.get("name", ""), t.get("name", ""))
+        raw_fixtures = _fetch_fpl_json("fixtures/")
+        priors = strength_priors(teams_raw, team_map)
+        snapshot = build_league_snapshot(raw_fixtures, team_map, priors)
+        snapshot["ai_record"] = update_ai_record(raw_fixtures, team_map, priors, AI_STORE_PATH)
+        rec = snapshot["ai_record"]
+        print(f"[+] Built live Premier League table from {sum(r['played'] for r in snapshot['table']) // 2} completed matches; "
+              f"{len(snapshot['predictions']['matches'])} predictions for GW {snapshot['predictions']['gw']}; "
+              f"AI record {rec['points']} pts from {rec['matches']} matches.")
+        return snapshot
+    except Exception as e:
+        print(f"[!] League table fetch notice ({e}). Table and predictions will show as unavailable.")
+        return {}
 
 
 def fetch_gameweek_fixtures(gw_number: int, use_live_api: bool = True) -> List[Dict[str, Any]]:

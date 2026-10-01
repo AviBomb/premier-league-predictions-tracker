@@ -47,6 +47,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run self-checks
+        run: |
+          python tests/test_league_table.py
+          python tests/test_manual_override.py
+          python tests/test_integrity.py
+
       - name: Run Predictions Pipeline
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}

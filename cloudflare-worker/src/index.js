@@ -20,6 +20,9 @@
  *  4. Only two hard-coded file paths can ever be written to
  *     (data/admin_approvals.json and config/gameweek_config.json) — this
  *     Worker cannot be used to write arbitrary files.
+ *  5. Browser requests are only accepted from exact allowed origins
+ *     (ALLOWED_ORIGIN, comma-separated, plus http://localhost for testing).
+ *  6. /api/run-pipeline lets a verified admin start the update workflow on demand.
  */
 
 const GITHUB_API = "https://api.github.com";
@@ -29,18 +32,49 @@ const ROUTES = {
   "/api/save-config": { path: "config/gameweek_config.json", label: "gameweek configuration" },
 };
 
+const DEFAULT_ALLOWED_ORIGINS = ["https://avibomb.github.io"];
+
+// Exact origin match: ALLOWED_ORIGIN (comma-separated) plus plain-http localhost for local testing.
+function isAllowedOrigin(origin, env) {
+  if (!origin) return false;
+  let url;
+  try {
+    url = new URL(origin);
+  } catch {
+    return false;
+  }
+  const configured = String(env.ALLOWED_ORIGIN || "")
+    .split(",")
+    .map((o) => o.trim().replace(/\/+$/, ""))
+    .filter(Boolean);
+  if ([...DEFAULT_ALLOWED_ORIGINS, ...configured].includes(url.origin)) return true;
+  return url.protocol === "http:" && (url.hostname === "localhost" || url.hostname === "127.0.0.1");
+}
+
 function corsHeaders(env, request) {
   const origin = request ? request.headers.get("Origin") : null;
-  let allowOrigin = env.ALLOWED_ORIGIN || "*";
-  if (origin && (origin.includes("github.io") || origin.includes("localhost") || origin.includes("127.0.0.1"))) {
-    allowOrigin = origin;
-  }
-  return {
-    "Access-Control-Allow-Origin": allowOrigin,
+  const headers = {
     "Access-Control-Allow-Methods": "POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type, Authorization",
     "Access-Control-Max-Age": "86400",
+    Vary: "Origin",
   };
+  if (isAllowedOrigin(origin, env)) headers["Access-Control-Allow-Origin"] = origin;
+  return headers;
+}
+
+// Starts the "Auto-Update" GitHub Actions workflow on demand (admin "Run pipeline now" button).
+// Needs the GITHUB_TOKEN secret to also have Actions: Read and write permission.
+async function dispatchWorkflow(env) {
+  const workflow = env.GITHUB_WORKFLOW || "update_predictions.yml";
+  const res = await fetch(`${GITHUB_API}/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/actions/workflows/${workflow}/dispatches`, {
+    method: "POST",
+    headers: githubHeaders(env, { "Content-Type": "application/json" }),
+    body: JSON.stringify({ ref: env.GITHUB_BRANCH }),
+  });
+  if (res.status !== 204) {
+    throw new Error(`GitHub workflow dispatch failed (${res.status}): ${await res.text()}`);
+  }
 }
 
 function jsonResponse(body, status, headers) {
@@ -158,12 +192,18 @@ export default {
     const url = new URL(request.url);
     const headers = corsHeaders(env, request);
 
+    const origin = request.headers.get("Origin");
+    if (origin && !isAllowedOrigin(origin, env)) {
+      return jsonResponse({ ok: false, error: "Origin not allowed" }, 403, headers);
+    }
+
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers });
     }
 
+    const isRunPipeline = url.pathname === "/api/run-pipeline";
     const route = ROUTES[url.pathname];
-    if (!route) {
+    if (!route && !isRunPipeline) {
       return jsonResponse({ ok: false, error: "Unknown endpoint" }, 404, headers);
     }
     if (request.method !== "POST") {
@@ -174,6 +214,11 @@ export default {
       const auth = await verifyAdmin(request, env);
       if (!auth.ok) {
         return jsonResponse({ ok: false, error: auth.error }, 403, headers);
+      }
+
+      if (isRunPipeline) {
+        await dispatchWorkflow(env);
+        return jsonResponse({ ok: true, message: "Pipeline run started" }, 200, headers);
       }
 
       const body = await request.json();

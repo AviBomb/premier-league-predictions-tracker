@@ -39,6 +39,8 @@ Nobody but you (the person who sets this up) ever sees the GitHub token.
 3. Set **Resource owner** to your account and **Repository access** to
    "Only select repositories" → choose `premier-league-predictions-tracker`.
 4. Under **Repository permissions**, set **Contents** to **Read and write**.
+   Also set **Actions** to **Read and write** if you want the Admin Portal's
+   **Run pipeline now** button to work (it starts the update workflow).
 5. Generate the token and copy it (you'll paste it once in step 4 below — it
    is never committed to git).
 
@@ -75,6 +77,16 @@ by Cloudflare — it is **not** written to any file in this repo.
 Double-check `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BRANCH`, and
 `ALLOWED_ORIGIN` match your repo and GitHub Pages URL. These are plain
 (non-secret) config values, safe to commit.
+
+`ALLOWED_ORIGIN` is matched exactly against the browser's origin. To allow
+more than one site, separate them with commas, for example
+`"https://avibomb.github.io,https://predictions.example.com"`. Plain-http
+`localhost` / `127.0.0.1` are always allowed for local testing. Requests from
+any other website are refused before the Google sign-in is checked.
+
+If you already deployed an earlier version of this Worker, run
+`npm run deploy` again to pick up the exact origin check and the new
+`/api/run-pipeline` route.
 
 ### 6. Deploy
 

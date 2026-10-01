@@ -1,0 +1,1967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>The Irish Guy Premier League Predictions | Live Hub</title>
+    <meta name="description" content="Live leaderboard for The Irish Guy Premier League prediction league. Predict scores in the YouTube comments and track exact scores, outcomes and season standings.">
+    <meta name="theme-color" content="#0c0a10">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="IG Predictions">
+    <script src="assets/common.js?v=__COMMON_JS_VERSION__"></script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233ee39b'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' font-family='Arial' font-weight='700' fill='%2304130c'%3EIG%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+    <style>
+        :root {
+            --bg: #0c0a10;
+            --bg-elev: #131019;
+            --surface: #16131c;
+            --surface-2: #1d1925;
+            --surface-3: #262130;
+            --border: rgba(237, 228, 255, 0.08);
+            --border-strong: rgba(237, 228, 255, 0.14);
+            --text: #f3f0f7;
+            --text-2: #b4acc0;
+            --text-3: #8b8298;
+            --accent: #3ee39b;
+            --accent-hover: #62eab0;
+            --accent-ink: #04130c;
+            --accent-soft: rgba(62, 227, 155, 0.12);
+            --accent-line: rgba(62, 227, 155, 0.34);
+            --gold: #f2b544;
+            --gold-soft: rgba(242, 181, 68, 0.13);
+            --danger: #f06b83;
+            --danger-soft: rgba(240, 107, 131, 0.12);
+            --live: #ff5470;
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 22px;
+            --shadow-sm: 0 1px 2px rgba(6, 2, 12, 0.5);
+            --shadow-md: 0 14px 34px -18px rgba(6, 2, 12, 0.85);
+            --shadow-lg: 0 30px 70px -24px rgba(6, 2, 12, 0.95);
+            --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+            --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --font-mono: 'Geist Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+            --app-bar-h: 64px;
+            --border-hover: rgba(237, 228, 255, 0.24);
+            --neutral-soft: rgba(237, 228, 255, 0.07);
+            --row-hover: rgba(237, 228, 255, 0.035);
+            --live-soft: rgba(255, 84, 112, 0.14);
+            --appbar-bg: rgba(12, 10, 16, 0.74);
+            --nav-bg: rgba(12, 10, 16, 0.88);
+            --scrim: rgba(6, 3, 10, 0.72);
+            --ambient-1: rgba(92, 20, 102, 0.34);
+            --ambient-2: rgba(62, 227, 155, 0.05);
+            --grain-opacity: 0.035;
+            --danger-ink: #1a0409;
+            --rank1-bg: rgba(242, 181, 68, 0.16);
+            --rank1-fg: #f6c560;
+            --rank2-bg: rgba(200, 208, 224, 0.12);
+            --rank2-fg: #d6dce8;
+            --rank3-bg: rgba(205, 127, 50, 0.15);
+            --rank3-fg: #e2a36c;
+            --chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23b4acc0' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+            color-scheme: dark;
+            /* Aliases still referenced by inline styles in generated markup */
+            --pl-green: var(--accent);
+            --pl-cyan: var(--accent);
+            --pl-gold: var(--gold);
+            --pl-pink: var(--danger);
+            --pl-border: var(--border);
+            --text-muted: var(--text-2);
+        }
+        :root[data-theme="light"] {
+            --bg: #f6f5f8;
+            --bg-elev: #ffffff;
+            --surface: #ffffff;
+            --surface-2: #f2f0f5;
+            --surface-3: #e8e5ed;
+            --border: rgba(28, 20, 40, 0.09);
+            --border-strong: rgba(28, 20, 40, 0.15);
+            --border-hover: rgba(28, 20, 40, 0.26);
+            --text: #17131d;
+            --text-2: #524a5e;
+            --text-3: #6c647b;
+            --accent: #0b8a56;
+            --accent-hover: #09784b;
+            --accent-ink: #ffffff;
+            --accent-soft: rgba(11, 138, 86, 0.1);
+            --accent-line: rgba(11, 138, 86, 0.32);
+            --gold: #a26700;
+            --gold-soft: rgba(196, 128, 0, 0.12);
+            --danger: #c42a4a;
+            --danger-soft: rgba(196, 42, 74, 0.1);
+            --live: #d11f45;
+            --live-soft: rgba(209, 31, 69, 0.1);
+            --neutral-soft: rgba(28, 20, 40, 0.06);
+            --row-hover: rgba(28, 20, 40, 0.03);
+            --appbar-bg: rgba(246, 245, 248, 0.82);
+            --nav-bg: rgba(255, 255, 255, 0.92);
+            --scrim: rgba(23, 19, 29, 0.45);
+            --ambient-1: rgba(128, 48, 150, 0.1);
+            --ambient-2: rgba(11, 138, 86, 0.06);
+            --grain-opacity: 0.02;
+            --danger-ink: #ffffff;
+            --shadow-sm: 0 1px 2px rgba(20, 12, 30, 0.06);
+            --shadow-md: 0 10px 30px -18px rgba(20, 12, 30, 0.2);
+            --shadow-lg: 0 24px 60px -24px rgba(20, 12, 30, 0.3);
+            --rank1-bg: rgba(196, 128, 0, 0.13);
+            --rank1-fg: #8a5700;
+            --rank2-bg: rgba(90, 104, 128, 0.12);
+            --rank2-fg: #465266;
+            --rank3-bg: rgba(170, 90, 30, 0.12);
+            --rank3-fg: #8c4a14;
+            --chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236c647b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+            color-scheme: light;
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { background: var(--bg); scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+        body { font-family: var(--font-sans); color: var(--text); font-size: 15px; line-height: 1.5; min-height: 100dvh; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        body::before { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(1100px 520px at 88% -12%, var(--ambient-1), transparent 62%), radial-gradient(800px 420px at -8% -4%, var(--ambient-2), transparent 60%); }
+        body::after { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: var(--grain-opacity); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+        a { color: inherit; }
+        button, input, select { font: inherit; color: inherit; }
+        :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+        [hidden] { display: none !important; }
+        .container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+        .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+        .skip-link { position: absolute; left: 12px; top: -60px; z-index: 400; background: var(--accent); color: var(--accent-ink); padding: 10px 14px; border-radius: var(--radius-sm); font-weight: 600; text-decoration: none; transition: top 0.2s var(--ease); }
+        .skip-link:focus { top: 12px; }
+        section { scroll-margin-top: calc(var(--app-bar-h) + 16px); }
+
+        /* App bar */
+        .app-bar { position: sticky; top: 0; z-index: 50; background: var(--appbar-bg); backdrop-filter: saturate(140%) blur(16px); -webkit-backdrop-filter: saturate(140%) blur(16px); border-bottom: 1px solid var(--border); }
+        .app-bar-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: var(--app-bar-h); }
+        .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+        .brand-mark { width: 36px; height: 36px; flex-shrink: 0; display: grid; place-items: center; border-radius: 10px; background: var(--accent); color: var(--accent-ink); font-size: 20px; box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.18); }
+        .brand-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.2; }
+        .brand-name { font-weight: 600; font-size: 0.96rem; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .brand-sub { font-size: 0.76rem; color: var(--text-3); }
+        .app-bar-actions { display: flex; align-items: center; gap: 8px; min-width: 0; }
+
+        /* Buttons & form controls */
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding: 0 16px; border-radius: var(--radius-md); border: 1px solid transparent; font-size: 0.9rem; font-weight: 500; text-decoration: none; white-space: nowrap; cursor: pointer; transition: background-color 0.18s var(--ease), border-color 0.18s var(--ease), color 0.18s var(--ease), transform 0.12s var(--ease); }
+        .btn i { font-size: 1.1em; }
+        .btn:active { transform: scale(0.98); }
+        .btn-secondary { background: var(--surface-2); border-color: var(--border-strong); color: var(--text); }
+        .btn-secondary:hover { background: var(--surface-3); }
+        .btn-ghost { background: transparent; border-color: var(--border-strong); color: var(--text-2); }
+        .btn-ghost:hover { background: var(--surface-2); color: var(--text); }
+        .yt-icon { color: #ff4040; }
+        .gw-select-pill, .filter-select { appearance: none; -webkit-appearance: none; height: 40px; max-width: 100%; padding: 0 38px 0 14px; background: var(--surface-2) var(--chevron) no-repeat right 12px center / 14px; border: 1px solid var(--border-strong); border-radius: var(--radius-md); color: var(--text); font-size: 0.88rem; font-weight: 500; cursor: pointer; transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease); }
+        .gw-select-pill { min-width: 240px; }
+        .gw-select-pill:hover, .filter-select:hover { border-color: var(--border-hover); }
+        .gw-select-pill option, .filter-select option { background: var(--surface-2); color: var(--text); }
+        .gw-select-pill:focus-visible, .filter-select:focus-visible, .search-input:focus-visible { outline: none; border-color: var(--accent-line); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+        /* Intro */
+        .intro { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 24px 48px; padding: 44px 0 28px; }
+        .eyebrow { margin-bottom: 14px; }
+        .pl-badge { display: inline-flex; align-items: center; gap: 8px; padding: 4px 12px 4px 10px; border-radius: 999px; background: var(--accent-soft); border: 1px solid var(--accent-line); color: var(--accent); font-size: 0.8rem; font-weight: 500; }
+        .pl-badge::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 3px var(--accent-soft); }
+        h1 { font-size: clamp(1.7rem, 1.1rem + 2.3vw, 2.8rem); font-weight: 700; letter-spacing: -0.035em; line-height: 1.06; max-width: 20ch; text-wrap: balance; }
+        .intro-text { margin-top: 14px; max-width: 62ch; color: var(--text-2); font-size: 1rem; text-wrap: pretty; }
+        .intro-links { display: flex; gap: 10px; flex-wrap: wrap; }
+
+        /* Navigation tabs */
+        .nav-tabs-bar { display: flex; gap: 4px; width: fit-content; max-width: 100%; margin-bottom: 28px; padding: 4px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; }
+        .nav-tabs-bar::-webkit-scrollbar { display: none; }
+        .nav-tab-btn { flex-shrink: 0; display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 14px; border: 0; border-radius: var(--radius-md); background: transparent; color: var(--text-2); font-size: 0.9rem; font-weight: 500; white-space: nowrap; cursor: pointer; scroll-snap-align: start; transition: background-color 0.18s var(--ease), color 0.18s var(--ease); }
+        .nav-tab-btn i { font-size: 1.1rem; }
+        .nav-tab-btn:hover { background: var(--surface-2); color: var(--text); }
+        .nav-tab-btn.active { background: var(--surface-3); color: var(--text); box-shadow: inset 0 0 0 1px var(--border-strong), var(--shadow-sm); }
+        .nav-tab-btn.active i { color: var(--accent); }
+        .tab-counter { padding: 1px 7px; border-radius: 999px; background: var(--surface-2); color: var(--text-3); font-family: var(--font-mono); font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+        .nav-tab-btn.active .tab-counter { background: var(--accent-soft); color: var(--accent); }
+        .tab-flag { padding: 1px 6px; border-radius: 5px; background: var(--neutral-soft); color: var(--text-3); font-size: 0.64rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+        .tab-flag-live { background: var(--live-soft); color: var(--live); }
+
+        /* Metrics */
+        .stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 40px; }
+        .stat-card { padding: 18px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+        .stat-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: var(--text-3); }
+        .stat-head i { font-size: 1.15rem; }
+        .stat-lbl { font-size: 0.82rem; font-weight: 500; color: var(--text-2); }
+        .stat-val { margin-top: 8px; font-family: var(--font-mono); font-size: clamp(1.45rem, 1.05rem + 1.2vw, 2rem); font-weight: 600; letter-spacing: -0.03em; line-height: 1.1; font-variant-numeric: tabular-nums; }
+        .stat-val-gold { color: var(--gold); }
+
+        /* Section headings */
+        .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px 16px; flex-wrap: wrap; margin-bottom: 16px; }
+        .section-title { font-size: 1.15rem; font-weight: 600; letter-spacing: -0.015em; text-wrap: balance; }
+        .section-sub { margin-top: 2px; font-size: 0.84rem; color: var(--text-3); }
+
+        /* Match center: fixtures, latest results, league table */
+        .fixture-ticker-section { margin-bottom: 44px; }
+        .match-tabs .view-toggle-btn i { font-size: 1rem; }
+        .fixture-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(264px, 1fr)); gap: 12px; }
+        .fixture-card { padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); transition: border-color 0.18s var(--ease), background-color 0.18s var(--ease); }
+        .fixture-card:hover { background: var(--surface-2); border-color: var(--border-strong); }
+        .fix-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 10px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-3); white-space: nowrap; }
+        .fix-team-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 3px 0; }
+        .fix-team-name { display: inline-flex; align-items: center; gap: 10px; min-width: 0; font-size: 0.92rem; font-weight: 500; }
+        .fix-team-name > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .fix-score { font-family: var(--font-mono); font-size: 1.05rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+        .fix-score-pending { font-family: var(--font-mono); color: var(--text-3); }
+        .fix-status-ft, .fix-status-live, .fix-status-upcoming { display: inline-flex; align-items: center; gap: 5px; padding: 2px 8px; border-radius: 6px; font-family: var(--font-sans); font-size: 0.66rem; font-weight: 600; letter-spacing: 0.05em; white-space: nowrap; }
+        .fix-status-ft { background: var(--neutral-soft); color: var(--text-2); }
+        .fix-status-live { background: var(--live-soft); color: var(--live); }
+        .fix-status-upcoming { background: var(--gold-soft); color: var(--gold); }
+        .team-badge { width: 24px; height: 24px; object-fit: contain; flex-shrink: 0; }
+        .fix-scorers-box { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border-strong); font-size: 0.76rem; line-height: 1.5; color: var(--text-2); }
+        .scorer-line { display: flex; align-items: flex-start; gap: 6px; margin-top: 4px; word-break: break-word; }
+        .scorer-line b { color: var(--text); font-weight: 500; }
+        .scorer-ball { flex-shrink: 0; margin-top: 2px; color: var(--text-3); }
+        .fx-days { display: none; flex-direction: column; gap: 14px; }
+        .fx-mobile-only { display: none; }
+        .fx-day-label { margin-bottom: 8px; font-size: 0.8rem; font-weight: 500; color: var(--text-3); }
+        .fx-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 8px; }
+        .fx-row { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); transition: border-color 0.18s var(--ease); }
+        .fx-row:hover { border-color: var(--border-strong); }
+        .fx-row summary { display: block; list-style: none; cursor: pointer; border-radius: inherit; }
+        .fx-row summary::-webkit-details-marker { display: none; }
+        .fx-main { display: grid; grid-template-columns: 52px minmax(0, 1fr) 18px; align-items: center; gap: 12px; padding: 10px 14px; }
+        .fx-when { display: flex; flex-direction: column; align-items: center; gap: 2px; font-family: var(--font-mono); font-size: 0.76rem; line-height: 1.2; text-align: center; color: var(--text-2); font-variant-numeric: tabular-nums; }
+        .fx-when-ft { font-family: var(--font-sans); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.04em; color: var(--text-3); }
+        .fx-when-live { font-weight: 600; color: var(--live); }
+        .fx-teams { display: flex; flex-direction: column; gap: 6px; min-width: 0; padding-left: 12px; border-left: 1px solid var(--border); }
+        .fx-team { display: flex; align-items: center; gap: 10px; min-width: 0; font-size: 0.92rem; font-weight: 500; }
+        .fx-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .fx-sc { min-width: 1ch; font-family: var(--font-mono); font-size: 0.98rem; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+        .fx-team.is-loss { color: var(--text-3); }
+        .fx-caret { justify-self: end; color: var(--text-3); transition: transform 0.2s var(--ease); }
+        .fx-row[open] .fx-caret { transform: rotate(180deg); }
+        .fx-scorers { display: flex; flex-direction: column; gap: 4px; padding: 10px 14px 12px 78px; border-top: 1px dashed var(--border-strong); font-size: 0.78rem; line-height: 1.5; color: var(--text-2); }
+        .fx-scorers b { font-weight: 500; color: var(--text); }
+        .mc-note { margin-top: 12px; font-size: 0.78rem; color: var(--text-3); }
+        .live-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; animation: pulseLive 1.6s infinite; }
+        @keyframes pulseLive { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+        .team-badge-sm { width: 20px; height: 20px; object-fit: contain; flex-shrink: 0; }
+        .team-badge-md { width: 28px; height: 28px; object-fit: contain; flex-shrink: 0; }
+        .pl-table th, .pl-table td { padding: 10px 12px; }
+        .pl-pos { width: 44px; font-family: var(--font-mono); color: var(--text-2); font-variant-numeric: tabular-nums; }
+        .pl-table tr.zone-top .pl-pos { box-shadow: inset 3px 0 0 var(--accent); }
+        .pl-table tr.zone-rel .pl-pos { box-shadow: inset 3px 0 0 var(--danger); }
+        td.pl-club-cell { width: 100%; max-width: 0; }
+        .pl-club { display: flex; align-items: center; gap: 10px; min-width: 0; font-weight: 500; }
+        .pl-club span { overflow: hidden; text-overflow: ellipsis; }
+        .pl-pts { font-family: var(--font-mono); font-weight: 600; }
+        .pl-table td.pl-empty { padding: 12px; white-space: normal; }
+        .form-row { display: inline-flex; gap: 3px; }
+        .form-pill { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 4px; font-size: 0.62rem; font-weight: 700; }
+        .form-W { background: var(--accent); color: var(--accent-ink); }
+        .form-D { background: var(--surface-3); color: var(--text-2); }
+        .form-L { background: var(--danger); color: var(--danger-ink); }
+        .pl-legend { display: flex; align-items: center; gap: 8px 18px; flex-wrap: wrap; margin-top: 12px; font-size: 0.78rem; color: var(--text-3); }
+        .zone-key { display: inline-block; width: 10px; height: 10px; margin-right: 6px; border-radius: 3px; vertical-align: -1px; }
+        .zone-key-top { background: var(--accent); }
+        .zone-key-rel { background: var(--danger); }
+        .pl-updated { margin-left: auto; }
+        .next-opp { display: inline-flex; align-items: center; gap: 4px; }
+        .next-venue { min-width: 14px; padding: 0 4px; border-radius: 4px; background: var(--neutral-soft); color: var(--text-3); font-size: 0.64rem; font-weight: 600; text-align: center; }
+        .next-none { color: var(--text-3); }
+        .ai-intro { margin-bottom: 16px; }
+        .ai-title { font-size: 1rem; font-weight: 600; letter-spacing: -0.01em; }
+        .ai-desc { max-width: 70ch; margin-top: 4px; font-size: 0.84rem; color: var(--text-2); text-wrap: pretty; }
+        .ai-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+        .ai-card { display: flex; flex-direction: column; gap: 12px; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); transition: border-color 0.18s var(--ease); }
+        .ai-card:hover { border-color: var(--border-strong); }
+        .ai-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 0.74rem; }
+        .ai-when { font-family: var(--font-mono); color: var(--text-3); white-space: nowrap; }
+        .ai-verdict { padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 500; text-align: right; }
+        .ai-match { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px; }
+        .ai-team { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; font-size: 0.86rem; font-weight: 500; text-align: center; }
+        .ai-score { font-family: var(--font-mono); font-size: 1.9rem; font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+        .ai-dash { margin: 0 6px; color: var(--text-3); }
+        .ai-bar { display: flex; gap: 2px; height: 6px; overflow: hidden; border-radius: 999px; }
+        .ai-bar-h { background: var(--accent); }
+        .ai-bar-d { background: var(--surface-3); }
+        .ai-bar-a { background: var(--gold); }
+        .ai-probs { display: flex; justify-content: space-between; font-size: 0.74rem; color: var(--text-3); font-variant-numeric: tabular-nums; }
+        .ai-xg { font-family: var(--font-mono); font-size: 0.74rem; color: var(--text-3); text-align: center; }
+
+        /* Theme toggle */
+        .btn-icon, .btn-support { flex-shrink: 0; }
+        .btn-icon { width: 40px; padding: 0; }
+        :root[data-theme="light"] .icon-when-dark, :root:not([data-theme="light"]) .icon-when-light { display: none; }
+        .goal-tag { margin-left: 2px; padding: 0 5px; border-radius: 4px; font-size: 0.66rem; font-weight: 600; }
+        .goal-og { background: var(--danger-soft); color: var(--danger); }
+        .goal-pen { background: var(--gold-soft); color: var(--gold); }
+        .goal-assist { color: var(--text-3); }
+        .goal-sep { margin: 0 4px; color: var(--text-3); }
+
+        /* Standings toolbar */
+        .view-mode-toggle { display: inline-flex; gap: 2px; padding: 3px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); }
+        .view-toggle-btn { display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 12px; border: 0; border-radius: 9px; background: transparent; color: var(--text-2); font-size: 0.84rem; font-weight: 500; cursor: pointer; transition: background-color 0.18s var(--ease), color 0.18s var(--ease); }
+        .view-toggle-btn:hover { color: var(--text); }
+        .view-toggle-btn.active { background: var(--surface-3); color: var(--text); box-shadow: inset 0 0 0 1px var(--border-strong); }
+        .controls-panel { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+        .search-field { position: relative; flex: 1 1 280px; max-width: 420px; }
+        .search-field i { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-3); font-size: 1.05rem; pointer-events: none; }
+        .search-input { width: 100%; height: 40px; padding: 0 14px 0 40px; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-md); color: var(--text); font-size: 0.9rem; transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease); }
+        .search-input::placeholder { color: var(--text-3); }
+        .filters-group { display: flex; gap: 10px; margin-left: auto; flex-wrap: wrap; }
+
+        /* Tables */
+        .table-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: clip; box-shadow: var(--shadow-md); }
+        table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.9rem; text-align: left; }
+        th, td { padding: 12px 16px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+        th { position: sticky; top: var(--app-bar-h); z-index: 1; background: var(--surface-2); color: var(--text-3); font-size: 0.74rem; font-weight: 500; letter-spacing: 0.02em; }
+        th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
+        tbody tr { transition: background-color 0.15s var(--ease); }
+        tbody tr:hover { background: var(--row-hover); }
+        tbody tr:last-child td { border-bottom: 0; }
+        #audit-body tr { cursor: pointer; }
+        .predictor-name { font-weight: 500; }
+        .cell-mono { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-3); }
+        td.pts { font-family: var(--font-mono); font-weight: 600; color: var(--accent); }
+
+        /* Badges & pills */
+        .rank-badge { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; height: 28px; padding: 0 8px; border-radius: 8px; background: var(--surface-2); color: var(--text-2); font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+        .rank-1 { background: var(--rank1-bg); color: var(--rank1-fg); box-shadow: inset 0 0 0 1px var(--rank1-bg); }
+        .rank-2 { background: var(--rank2-bg); color: var(--rank2-fg); box-shadow: inset 0 0 0 1px var(--rank2-bg); }
+        .rank-3 { background: var(--rank3-bg); color: var(--rank3-fg); box-shadow: inset 0 0 0 1px var(--rank3-bg); }
+        .pill { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border: 1px solid transparent; border-radius: 999px; font-size: 0.74rem; font-weight: 500; line-height: 1.4; white-space: nowrap; }
+        .pill-valid { background: var(--accent-soft); border-color: rgba(62, 227, 155, 0.22); color: var(--accent); }
+        .pill-partial, .pill-late, .pill-pending { background: var(--gold-soft); border-color: rgba(242, 181, 68, 0.24); color: var(--gold); }
+        .pill-disqualified { background: var(--danger-soft); border-color: rgba(240, 107, 131, 0.24); color: var(--danger); }
+        .pill-exact { justify-content: center; min-width: 32px; border-radius: 6px; background: var(--gold-soft); color: var(--gold); font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+        .pill-neutral { background: var(--neutral-soft); color: var(--text-2); }
+        .btn-inspect { display: inline-flex; align-items: center; gap: 4px; height: 30px; padding: 0 10px; border: 1px solid var(--border-strong); border-radius: 8px; background: transparent; color: var(--text-2); font-size: 0.8rem; font-weight: 500; cursor: pointer; transition: all 0.18s var(--ease); }
+        .btn-inspect:hover, tbody tr:hover .btn-inspect { background: var(--accent-soft); border-color: var(--accent-line); color: var(--accent); }
+
+        /* Card view */
+        .cards-view-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+        .mobile-card { display: flex; flex-direction: column; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); transition: background-color 0.18s var(--ease), border-color 0.18s var(--ease); }
+        .mobile-card[onclick] { cursor: pointer; }
+        .mobile-card:hover { background: var(--surface-2); border-color: var(--border-strong); }
+        .mobile-card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+        .mobile-card-id { display: flex; align-items: center; gap: 10px; min-width: 0; }
+        .mobile-card-user { font-size: 0.96rem; font-weight: 600; word-break: break-word; }
+        .mobile-card-meta { margin-top: 2px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-3); }
+        .mobile-card-pts-big { flex-shrink: 0; font-family: var(--font-mono); font-size: 1.45rem; font-weight: 600; line-height: 1; color: var(--accent); white-space: nowrap; font-variant-numeric: tabular-nums; }
+        .pts-unit { margin-left: 2px; font-size: 0.74rem; font-weight: 500; color: var(--text-3); }
+        .mobile-card-status { margin-bottom: 14px; }
+        .mobile-card-status .pill { white-space: normal; }
+        .mobile-card-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: auto; padding-top: 12px; border-top: 1px solid var(--border); }
+        .mobile-card-stat-item { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+        .mobile-card-lbl { font-size: 0.7rem; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .mobile-card-val { font-family: var(--font-mono); font-size: 0.92rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+        .val-gold { color: var(--gold); }
+        .val-accent { color: var(--accent); }
+        .mobile-card-inspect-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; width: 100%; height: 38px; margin-top: 14px; border: 1px solid var(--border-strong); border-radius: 10px; background: transparent; color: var(--text); font-size: 0.86rem; font-weight: 500; cursor: pointer; transition: all 0.18s var(--ease); }
+        .mobile-card-inspect-btn:hover { background: var(--accent-soft); border-color: var(--accent-line); color: var(--accent); }
+        .empty-state { grid-column: 1 / -1; padding: 40px 20px; text-align: center; color: var(--text-2); background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius-lg); }
+        .empty-state i { display: block; margin: 0 auto 8px; font-size: 28px; color: var(--text-3); }
+
+        /* Modal */
+        .modal { display: none; position: fixed; inset: 0; z-index: 200; align-items: center; justify-content: center; padding: 24px; background: var(--scrim); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+        .modal.active { display: flex; animation: fadeIn 0.18s var(--ease); }
+        .modal-box { width: 100%; max-width: 760px; max-height: min(88dvh, 900px); overflow-y: auto; overscroll-behavior: contain; background: var(--bg-elev); border: 1px solid var(--border-strong); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); animation: modalIn 0.22s var(--ease); }
+        .modal-top { position: sticky; top: 0; z-index: 2; display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; padding: 20px 24px 16px; background: var(--bg-elev); border-bottom: 1px solid var(--border); }
+        .modal-title { font-size: 1.2rem; font-weight: 600; letter-spacing: -0.015em; word-break: break-word; }
+        #modal-status-container { margin-top: 8px; }
+        #modal-status-container .pill { white-space: normal; }
+        .modal-body { display: flex; flex-direction: column; gap: 22px; padding: 20px 24px 24px; }
+        .close-btn { flex-shrink: 0; display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--surface-2); color: var(--text-2); font-size: 1.1rem; cursor: pointer; transition: all 0.18s var(--ease); }
+        .close-btn:hover { background: var(--surface-3); color: var(--text); }
+        .modal-section-label { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; font-size: 0.8rem; font-weight: 500; color: var(--text-3); }
+        .timing-audit-box { padding: 4px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); }
+        .timing-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 0.86rem; }
+        .timing-lbl { display: inline-flex; align-items: center; gap: 8px; color: var(--text-2); }
+        .timing-lbl i { color: var(--text-3); }
+        .timing-val { font-family: var(--font-mono); font-size: 0.8rem; text-align: right; }
+        .timing-val-danger { color: var(--danger); }
+        .timing-val-gold { color: var(--gold); }
+        .timing-summary { padding: 10px 0; font-size: 0.82rem; line-height: 1.5; color: var(--text-2); }
+        .edit-history-box { padding: 16px; background: rgba(240, 107, 131, 0.05); border: 1px solid rgba(240, 107, 131, 0.22); border-radius: var(--radius-md); }
+        .edit-history-title { display: flex; align-items: center; gap: 6px; font-size: 0.88rem; font-weight: 600; color: var(--danger); }
+        .edit-history-desc { margin-top: 4px; font-size: 0.8rem; color: var(--text-2); }
+        .version-block { margin-top: 10px; padding: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
+        .version-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; font-size: 0.76rem; font-weight: 600; }
+        .version-label-first { color: var(--accent); }
+        .version-label-edit { color: var(--danger); }
+        .version-time { font-family: var(--font-mono); font-weight: 400; color: var(--text-3); }
+        .version-text { font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+        .diff-container { margin-top: 10px; padding: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; font-family: var(--font-mono); font-size: 0.84rem; line-height: 1.6; word-break: break-word; }
+        .diff-line { padding: 2px 0; }
+        .diff-add { padding-left: 8px; background: var(--accent-soft); border-left: 3px solid var(--accent); color: var(--accent); }
+        .diff-del { padding-left: 8px; background: var(--danger-soft); border-left: 3px solid var(--danger); color: var(--danger); text-decoration: line-through; }
+        .raw-comment-box { padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--border-strong); border-radius: var(--radius-md); font-family: var(--font-mono); font-size: 0.84rem; line-height: 1.6; white-space: pre-wrap; word-break: break-word; }
+        .fix-audit-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 8px; padding: 12px 14px; background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--border-strong); border-radius: 10px; font-size: 0.88rem; }
+        .fix-audit-row.exact { border-left-color: var(--gold); }
+        .fix-audit-row.outcome { border-left-color: var(--accent); }
+        .fix-audit-row.pending { border-left-color: rgba(242, 181, 68, 0.5); }
+        .fix-audit-row.voided { border-left-color: var(--danger); }
+        .fix-audit-teams { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 500; }
+        .fix-audit-vs { font-size: 0.76rem; color: var(--text-3); }
+        .fix-audit-result { margin-top: 4px; font-size: 0.76rem; color: var(--text-3); }
+        .fix-audit-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+        .fix-audit-scores { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-3); white-space: nowrap; }
+        .fix-audit-scores b { font-weight: 600; color: var(--text); }
+        .fix-audit-scores .pred { color: var(--accent); }
+        .modal-empty { font-size: 0.86rem; color: var(--text-3); }
+
+        /* Loading overlay */
+        .loading-overlay { display: none; position: fixed; inset: 0; z-index: 300; align-items: center; justify-content: center; background: rgba(6, 3, 10, 0.45); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); animation: fadeIn 0.2s var(--ease) 0.12s both; }
+        .loading-box { display: flex; align-items: center; gap: 14px; width: calc(100% - 48px); max-width: 380px; padding: 16px 20px; background: var(--bg-elev); border: 1px solid var(--border-strong); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); }
+        .pl-spinner-large { flex-shrink: 0; width: 28px; height: 28px; border: 2.5px solid rgba(62, 227, 155, 0.2); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; }
+        .loading-title { font-size: 0.95rem; font-weight: 600; }
+        .loading-subtitle { margin-top: 2px; font-size: 0.82rem; color: var(--text-2); }
+
+        /* Footer */
+        .site-footer { display: flex; justify-content: space-between; gap: 8px 16px; flex-wrap: wrap; margin-top: 64px; padding: 24px 0 36px; border-top: 1px solid var(--border); font-size: 0.84rem; color: var(--text-3); }
+        .site-footer a { color: var(--text-2); text-decoration: none; transition: color 0.18s var(--ease); }
+        .site-footer a:hover { color: var(--text); }
+
+        /* Mobile bottom navigation */
+        .mobile-bottom-nav { display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; justify-content: space-around; padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); background: var(--nav-bg); backdrop-filter: saturate(140%) blur(18px); -webkit-backdrop-filter: saturate(140%) blur(18px); border-top: 1px solid var(--border); }
+        .mobile-nav-item { position: relative; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-height: 52px; padding: 4px 6px; border: 0; border-radius: 12px; background: transparent; color: var(--text-3); font-size: 0.7rem; font-weight: 500; text-decoration: none; cursor: pointer; -webkit-tap-highlight-color: transparent; transition: color 0.18s var(--ease); }
+        .mob-nav-icon { font-size: 1.35rem; line-height: 1; }
+        .mobile-nav-item:active { transform: scale(0.96); }
+        .mobile-nav-item.active { color: var(--text); }
+        .mobile-nav-item.active .mob-nav-icon { color: var(--accent); }
+        .mobile-nav-item.active::before { content: ''; position: absolute; top: -6px; width: 28px; height: 3px; border-radius: 0 0 3px 3px; background: var(--accent); }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes modalIn { from { opacity: 0; transform: translateY(8px) scale(0.985); } to { opacity: 1; transform: none; } }
+        @keyframes sheetIn { from { transform: translateY(24px); opacity: 0.6; } to { transform: none; opacity: 1; } }
+
+        /* Deadline + how to play */
+        .deadline-strip { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-bottom: 12px; padding: 14px 18px; background: var(--surface); border: 1px solid var(--accent-line); border-radius: var(--radius-lg); }
+        .deadline-strip[hidden] { display: none; }
+        .deadline-main { display: flex; align-items: center; gap: 12px; flex: 1 1 260px; min-width: 0; }
+        .deadline-icon { font-size: 1.5rem; color: var(--accent); }
+        .deadline-label { font-weight: 600; }
+        .deadline-when { font-size: 0.82rem; color: var(--text-2); }
+        .deadline-count { font-family: var(--font-mono); font-size: 1.35rem; font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+        .how-to-play { margin-bottom: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+        .how-to-play summary { display: flex; align-items: center; gap: 8px; padding: 12px 18px; list-style: none; cursor: pointer; font-weight: 500; color: var(--text-2); }
+        .how-to-play summary::-webkit-details-marker { display: none; }
+        .how-to-play summary > i:first-child { color: var(--accent); font-size: 1.1rem; }
+        .how-caret { margin-left: auto; transition: transform 0.2s var(--ease); }
+        .how-to-play[open] .how-caret { transform: rotate(180deg); }
+        .how-to-play ol { display: grid; gap: 8px; margin: 0; padding: 0 18px 16px 40px; color: var(--text-2); font-size: 0.9rem; }
+        .how-to-play code { padding: 1px 6px; border-radius: 5px; background: var(--surface-3); font-family: var(--font-mono); font-size: 0.84em; color: var(--text); }
+
+        /* Standings extras */
+        .standings-more { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; margin-top: 16px; }
+        .standings-more:empty { display: none; }
+        .more-count { font-size: 0.84rem; color: var(--text-3); }
+        .rank-cell { display: inline-flex; align-items: center; gap: 8px; }
+        .rank-move { display: inline-flex; align-items: center; gap: 1px; font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; }
+        .rank-up { color: var(--accent); }
+        .rank-down { color: var(--danger); }
+        .rank-same { color: var(--text-3); }
+        .rank-new { padding: 0 6px; border-radius: 5px; background: var(--neutral-soft); color: var(--text-3); font-family: var(--font-sans); font-weight: 500; }
+        .gw-wins { display: inline-flex; align-items: center; gap: 1px; margin-left: 4px; color: var(--gold); font-size: 0.8rem; font-weight: 600; vertical-align: 1px; }
+        .lb-row, .lb-card { cursor: pointer; }
+        .lb-row:focus-visible, .lb-card:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+        .ai-bench { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; padding: 12px 16px; background: var(--accent-soft); border: 1px solid var(--accent-line); border-radius: var(--radius-md); font-size: 0.88rem; color: var(--text-2); }
+        .ai-bench[hidden] { display: none; }
+        .ai-bench > i { margin-top: 2px; font-size: 1.1rem; color: var(--accent); }
+        .ai-bench b { color: var(--text); }
+        .link-btn { padding: 0; border: 0; background: none; color: var(--accent); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+        .ai-record { margin-top: 8px; font-size: 0.84rem; font-weight: 500; color: var(--text); }
+        .ai-record:empty { display: none; }
+        .crowd-line { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-top: 10px; font-size: 0.74rem; color: var(--text-3); }
+        .crowd-line i { font-size: 0.9rem; }
+        .crowd-top { margin-left: auto; font-family: var(--font-mono); color: var(--text-2); }
+        .fx-scorers .crowd-line { margin-top: 4px; }
+        .inline-spinner { width: 24px; height: 24px; margin: 0 auto 10px; border-width: 2px; }
+
+        /* Profile */
+        .modal-top-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+        .btn-sm { height: 36px; padding: 0 12px; font-size: 0.84rem; }
+        .profile-sub { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 8px; font-size: 0.86rem; color: var(--text-2); }
+        .profile-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+        .profile-stats > div { display: flex; flex-direction: column; gap: 4px; padding: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); }
+        .profile-stat-val { font-family: var(--font-mono); font-size: 1.3rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+        .spark-wrap { padding: 10px 12px 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); }
+        .rank-spark { display: block; width: 100%; height: 72px; overflow: visible; }
+        .rank-spark path { fill: none; stroke: var(--accent); stroke-width: 2; vector-effect: non-scaling-stroke; }
+        .rank-spark circle { fill: var(--bg-elev); stroke: var(--accent); stroke-width: 2; vector-effect: non-scaling-stroke; }
+        .spark-axis { display: flex; justify-content: space-between; margin-top: 4px; font-size: 0.72rem; color: var(--text-3); }
+        .profile-gws { display: flex; flex-direction: column; gap: 6px; }
+        .profile-gw { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; align-items: center; gap: 12px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; font-size: 0.88rem; }
+        .profile-gw-name { font-weight: 500; }
+        .profile-gw-pts { font-family: var(--font-mono); font-weight: 600; color: var(--accent); }
+        .profile-gw-rank { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-3); }
+        .gw-win-icon { color: var(--gold); }
+        .muted { color: var(--text-3); font-weight: 400; }
+        .page-notice { position: fixed; left: 50%; bottom: 24px; z-index: 400; max-width: min(460px, calc(100vw - 32px)); padding: 12px 16px; transform: translateX(-50%); background: var(--surface-3); border: 1px solid var(--border-strong); border-left: 3px solid var(--danger); border-radius: var(--radius-md); box-shadow: var(--shadow-lg); font-size: 0.88rem; animation: fadeIn 0.2s var(--ease); }
+        .page-notice[hidden] { display: none; }
+        .page-notice.ok { border-left-color: var(--accent); }
+
+        /* Responsive */
+        @media (max-width: 1100px) {
+            .table-card { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th { position: static; }
+        }
+        @media (max-width: 900px) {
+            .intro { grid-template-columns: 1fr; align-items: start; }
+            .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+        @media (max-width: 768px) {
+            :root { --app-bar-h: 56px; }
+            .container { padding: 0 16px; }
+            .brand-mark { width: 32px; height: 32px; font-size: 18px; }
+            .brand-sub, .btn-admin-portal { display: none; }
+            .btn-support { width: 40px; padding: 0; }
+            .btn-support .btn-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+            .brand-name { font-size: 0.92rem; }
+            .gw-select-pill { min-width: 0; width: 46vw; height: 38px; font-size: 0.82rem; }
+            .intro { gap: 18px; padding: 24px 0 20px; }
+            .eyebrow { margin-bottom: 10px; }
+            .intro-text { margin-top: 10px; font-size: 0.92rem; }
+            .intro-links { display: grid; grid-template-columns: 1fr 1fr; }
+            .intro-links .btn { padding: 0 10px; font-size: 0.84rem; }
+            .nav-tabs-bar { width: auto; margin: 0 -16px 20px; padding: 4px 16px; border-radius: 0; border-left: 0; border-right: 0; scroll-padding: 0 16px; }
+            .stats-grid { gap: 8px; margin-bottom: 32px; }
+            .stat-card { padding: 14px; }
+            .stat-head i { display: none; }
+            .stat-lbl { font-size: 0.76rem; }
+            .fixture-ticker-section { margin-bottom: 36px; }
+            .match-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+            .match-tabs .view-toggle-btn { justify-content: center; padding: 0 6px; font-size: 0.8rem; }
+            .match-tabs .view-toggle-btn i { display: none; }
+            .fixture-cards { display: none; }
+            .fx-days { display: flex; }
+            .fx-mobile-only { display: block; }
+            .ai-grid { grid-template-columns: 1fr; gap: 10px; }
+            .fx-list { grid-template-columns: 1fr; gap: 0; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); }
+            .fx-row { border: 0; border-radius: 0; background: transparent; }
+            .fx-row + .fx-row { border-top: 1px solid var(--border); }
+            .fx-main { grid-template-columns: 46px minmax(0, 1fr) 16px; gap: 10px; padding: 10px 12px; }
+            .fx-scorers { padding-left: 68px; }
+            .pl-table .col-wide { display: none; }
+            .pl-updated { margin-left: 0; width: 100%; }
+            .search-field { flex-basis: 100%; max-width: none; }
+            .filters-group { width: 100%; margin-left: 0; }
+            .filters-group .filter-select { flex: 1 1 0; min-width: 0; }
+            .cards-view-grid { grid-template-columns: 1fr; gap: 10px; }
+            th, td { padding: 10px 12px; font-size: 0.85rem; }
+            .fix-audit-row { flex-direction: column; align-items: stretch; gap: 10px; }
+            .fix-audit-right { justify-content: space-between; }
+            .site-footer { margin-top: 40px; }
+            .mobile-bottom-nav { display: flex; }
+            body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+            .deadline-strip { padding: 12px 14px; }
+            .deadline-strip .btn { width: 100%; }
+            .deadline-count { font-size: 1.15rem; }
+            .how-to-play { margin-bottom: 18px; }
+            .profile-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .profile-gw { grid-template-columns: minmax(0, 1fr) auto auto; }
+            .profile-gw-rank { display: none; }
+            .page-notice { bottom: calc(80px + env(safe-area-inset-bottom)); }
+        }
+        @media (max-width: 640px) {
+            .modal { align-items: flex-end; padding: 0; }
+            .modal-box { max-height: 92dvh; border-radius: 20px 20px 0 0; border-bottom: 0; animation: sheetIn 0.26s var(--ease); }
+            .modal-top { padding: 16px 18px 14px; }
+            .modal-body { padding: 16px 18px calc(24px + env(safe-area-inset-bottom)); }
+        }
+        @media (max-width: 480px) {
+            .brand-text { display: none; }
+            .app-bar-actions { flex: 1; justify-content: flex-end; }
+            .gw-select-pill { width: 100%; max-width: 280px; }
+        }
+        @media (max-width: 420px) {
+            .pl-table .col-form { display: none; }
+            .pl-table th, .pl-table td { padding: 9px 6px; }
+            .pl-table .pl-pos { width: 30px; padding-left: 10px; }
+            .pl-club { gap: 8px; }
+        }
+        @media (max-width: 380px) {
+            .intro-links { grid-template-columns: 1fr; }
+            .mobile-card-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+        }
+    </style>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Global loading overlay -->
+    <div id="global-loading-overlay" class="loading-overlay" role="status" aria-live="polite">
+        <div class="loading-box">
+            <div class="pl-spinner-large" aria-hidden="true"></div>
+            <div>
+                <div class="loading-title" id="loading-title">Updating live standings</div>
+                <div class="loading-subtitle" id="loading-subtitle">Please wait while the real-time scoring engine calculates results...</div>
+            </div>
+        </div>
+    </div>
+
+    <header class="app-bar">
+        <div class="container app-bar-inner">
+            <div class="brand">
+                <span class="brand-mark" aria-hidden="true"><i class="ph ph-clover"></i></span>
+                <span class="brand-text">
+                    <span class="brand-name">Irish Guy Predictions</span>
+                    <span class="brand-sub">Premier League 2026/27</span>
+                </span>
+            </div>
+            <div class="app-bar-actions">
+                <label class="visually-hidden" for="gw-quick-select">Choose standings or gameweek</label>
+                <select id="gw-quick-select" class="gw-select-pill" onchange="onGwDropdownChange(this.value)">
+                </select>
+                <a href="mailto:avi.bomb@gmail.com?subject=Irish%20Guy%20Predictions%3A%20support%20query&amp;body=Hi%20Avi%2C%0A%0A" class="btn btn-ghost btn-support" title="Email support at avi.bomb@gmail.com" aria-label="Email support at avi.bomb@gmail.com"><i class="ph ph-envelope-simple" aria-hidden="true"></i><span class="btn-text">Support</span></a>
+                <button type="button" class="btn btn-ghost btn-icon" onclick="shareView()" aria-label="Share a link to this view" title="Share a link to this view"><i class="ph ph-share-network" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-ghost btn-icon" onclick="plToggleTheme()" aria-label="Switch between light and dark theme" title="Switch between light and dark theme"><i class="ph ph-sun icon-when-dark" aria-hidden="true"></i><i class="ph ph-moon icon-when-light" aria-hidden="true"></i></button>
+                <a href="admin.html" class="btn btn-ghost btn-admin-portal" title="Admin score &amp; video management"><i class="ph ph-gear-six" aria-hidden="true"></i><span>Admin</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="main-content">
+        <section class="intro" aria-labelledby="page-title">
+            <div>
+                <div class="eyebrow"><span class="pl-badge" id="header-scope-badge">Gameweek __ACTIVE_GW__ Live Hub</span></div>
+                <h1 id="page-title">The Irish Guy Premier League Predictions</h1>
+                <p class="intro-text">Predict match scores in the YouTube comments on The Irish Guy's channels and climb the live leaderboard. An exact score earns 3 points, the right outcome earns 1.</p>
+            </div>
+            <div class="intro-links">
+                <a class="btn btn-secondary" href="https://www.youtube.com/@theirishguy2494" target="_blank" rel="noopener"><i class="ph ph-youtube-logo yt-icon" aria-hidden="true"></i>The Irish Guy</a>
+                <a class="btn btn-ghost" href="https://www.youtube.com/@TheIrishGuyExtra" target="_blank" rel="noopener"><i class="ph ph-youtube-logo" aria-hidden="true"></i>Irish Guy Extra</a>
+            </div>
+        </section>
+
+        <!-- Next deadline + how to play -->
+        <section class="deadline-strip" id="deadline-strip" aria-label="Next prediction deadline" hidden>
+            <div class="deadline-main">
+                <i class="ph ph-timer deadline-icon" aria-hidden="true"></i>
+                <div>
+                    <div class="deadline-label" id="deadline-label">Next deadline</div>
+                    <div class="deadline-when" id="deadline-when"></div>
+                </div>
+            </div>
+            <div class="deadline-count" id="deadline-count"></div>
+            <a class="btn btn-secondary" id="deadline-video" href="__VIDEO_URL__" target="_blank" rel="noopener" hidden><i class="ph ph-youtube-logo yt-icon" aria-hidden="true"></i>Predict on this week's video</a>
+        </section>
+        <details class="how-to-play">
+            <summary><i class="ph ph-question" aria-hidden="true"></i>How to play<i class="ph ph-caret-down how-caret" aria-hidden="true"></i></summary>
+            <ol>
+                <li>Find The Irish Guy's prediction video for the gameweek and post your scores in the comments.</li>
+                <li>Put each match on its own line, for example <code>Arsenal 2-1 Chelsea</code>. Nicknames and common abbreviations work too.</li>
+                <li>An exact score earns <b>3 points</b>. The right result (win, draw or loss) earns <b>1 point</b>.</li>
+                <li>Post before kickoff. A prediction for a match that has already started doesn't count.</li>
+                <li>Don't edit your comment after posting. Edited comments are disqualified for that gameweek.</li>
+                <li>Small spelling slips in team names are reviewed by the admins, so they can still count.</li>
+            </ol>
+        </details>
+
+        <!-- Leaderboard and gameweek tabs -->
+        <nav class="nav-tabs-bar" id="nav-tabs-container" aria-label="Standings and gameweeks">
+            <button class="nav-tab-btn active" id="tab-btn-leaderboard" onclick="switchMainTab('leaderboard')">
+                <i class="ph ph-trophy" aria-hidden="true"></i> Season standings
+            </button>
+        </nav>
+
+        <!-- Metrics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-head"><span class="stat-lbl" id="stat-1-lbl">Ranked predictors</span><i class="ph ph-users-three" aria-hidden="true"></i></div>
+                <div class="stat-val" id="stat-1-val">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-head"><span class="stat-lbl" id="stat-2-lbl">Gameweek top score</span><i class="ph ph-trophy" aria-hidden="true"></i></div>
+                <div class="stat-val" id="stat-2-val">0 pts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-head"><span class="stat-lbl" id="stat-3-lbl">Exact scores (3 pts)</span><i class="ph ph-target" aria-hidden="true"></i></div>
+                <div class="stat-val stat-val-gold" id="stat-3-val">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-head"><span class="stat-lbl" id="stat-4-lbl">Integrity compliance</span><i class="ph ph-seal-check" aria-hidden="true"></i></div>
+                <div class="stat-val" id="stat-4-val">0%</div>
+            </div>
+        </div>
+
+        <!-- Match center: gameweek fixtures, latest results, Premier League table -->
+        <section class="fixture-ticker-section" id="match-center" aria-labelledby="match-center-title">
+            <div class="section-head">
+                <div>
+                    <h2 class="section-title" id="match-center-title">Match center</h2>
+                    <p class="section-sub" id="kickoff-tz-note">Kickoff times in your local time</p>
+                </div>
+                <div class="view-mode-toggle match-tabs" role="tablist" aria-label="Match center views">
+                    <button class="view-toggle-btn active" id="mc-tab-fixtures" role="tab" aria-selected="true" aria-controls="mc-panel-fixtures" onclick="switchMatchView('fixtures')"><i class="ph ph-soccer-ball" aria-hidden="true"></i><span id="fixture-center-title">GW __ACTIVE_GW__ fixtures</span></button>
+                    <button class="view-toggle-btn" id="mc-tab-table" role="tab" aria-selected="false" aria-controls="mc-panel-table" onclick="switchMatchView('table')"><i class="ph ph-list-numbers" aria-hidden="true"></i>PL table</button>
+                    <button class="view-toggle-btn" id="mc-tab-ai" role="tab" aria-selected="false" aria-controls="mc-panel-ai" onclick="switchMatchView('ai')"><i class="ph ph-sparkle" aria-hidden="true"></i>AI predictions</button>
+                </div>
+            </div>
+            <div id="mc-panel-fixtures" role="tabpanel" aria-labelledby="mc-tab-fixtures">
+                <div class="fixture-grid" id="fixture-grid"></div>
+                <p class="mc-note fx-mobile-only">Tap a match to see goal scorers and crowd picks.</p>
+            </div>
+            <div id="mc-panel-ai" role="tabpanel" aria-labelledby="mc-tab-ai" hidden>
+                <div class="ai-intro">
+                    <h3 class="ai-title" id="ai-title">AI score predictions</h3>
+                    <p class="ai-desc">Generated by a Poisson goal model trained on this season's Premier League results and FPL team-strength ratings. Use them as a starting point for your own picks. They're for fun, not betting advice.</p>
+                    <p class="ai-record" id="ai-record"></p>
+                </div>
+                <div class="ai-grid" id="ai-predictions-list"></div>
+            </div>
+            <div id="mc-panel-table" role="tabpanel" aria-labelledby="mc-tab-table" hidden>
+                <div class="table-card pl-table-card">
+                    <table class="pl-table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="pl-pos">#</th>
+                                <th scope="col">Club</th>
+                                <th scope="col" class="num">P</th>
+                                <th scope="col" class="num col-wide">W</th>
+                                <th scope="col" class="num col-wide">D</th>
+                                <th scope="col" class="num col-wide">L</th>
+                                <th scope="col" class="num col-wide">GF</th>
+                                <th scope="col" class="num col-wide">GA</th>
+                                <th scope="col" class="num">GD</th>
+                                <th scope="col" class="num">Pts</th>
+                                <th scope="col" class="col-form">Last 5</th>
+                                <th scope="col" class="col-next">Next</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pl-table-body"></tbody>
+                    </table>
+                </div>
+                <div class="pl-legend">
+                    <span><i class="zone-key zone-key-top" aria-hidden="true"></i>Top four</span>
+                    <span><i class="zone-key zone-key-rel" aria-hidden="true"></i>Relegation zone</span>
+                    <span>Next: upcoming opponent (H home, A away)</span>
+                    <span class="pl-updated" id="pl-table-updated"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Standings -->
+        <section class="standings-section" aria-labelledby="table-view-heading">
+            <div class="section-head">
+                <h2 class="section-title table-view-heading" id="table-view-heading">Season standings</h2>
+                <div class="view-mode-toggle" role="group" aria-label="Display mode">
+                    <button class="view-toggle-btn active" id="btn-view-cards" onclick="toggleViewMode('cards')"><i class="ph ph-squares-four" aria-hidden="true"></i> Cards</button>
+                    <button class="view-toggle-btn" id="btn-view-table" onclick="toggleViewMode('table')"><i class="ph ph-rows" aria-hidden="true"></i> Table</button>
+                </div>
+            </div>
+            <div class="controls-panel">
+                <div class="search-field">
+                    <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search predictors" aria-label="Search predictors" autocomplete="off" oninput="onStandingsQuery()">
+                </div>
+                <div class="filters-group">
+                    <select id="statusFilter" class="filter-select" aria-label="Filter by status" onchange="onStandingsQuery()" style="display: none;">
+                        <option value="ALL">All statuses</option>
+                        <option value="Valid">Valid &amp; Valid* (active)</option>
+                        <option value="Disqualified">Disqualified (edited)</option>
+                        <option value="Late">Late (all concluded)</option>
+                    </select>
+                    <select id="sortSelect" class="filter-select" aria-label="Sort by" onchange="onStandingsQuery()">
+                        <option value="points_desc">Points: high to low</option>
+                        <option value="exacts_desc">Exact scores (3 pts)</option>
+                        <option value="outcomes_desc">Outcomes (1 pt)</option>
+                        <option value="matches_desc">Matches predicted</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="ai-bench" id="ai-bench" hidden></div>
+
+            <!-- Leaderboard table -->
+            <div class="table-card" id="leaderboard-panel">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Predictor</th>
+                            <th scope="col" class="num">GWs played</th>
+                            <th scope="col" class="num">Matches</th>
+                            <th scope="col" class="num">Exact (3 pts)</th>
+                            <th scope="col" class="num">Outcome (1 pt)</th>
+                            <th scope="col" class="num">Season points</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body"></tbody>
+                </table>
+            </div>
+
+            <!-- Gameweek audit table -->
+            <div class="table-card" id="audit-panel" style="display: none;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Predictor</th>
+                            <th scope="col">Submitted (GMT)</th>
+                            <th scope="col">Integrity status</th>
+                            <th scope="col" class="num">Matches</th>
+                            <th scope="col" class="num">Exact (3 pts)</th>
+                            <th scope="col" class="num">Outcome (1 pt)</th>
+                            <th scope="col" class="num">GW points</th>
+                            <th scope="col"><span class="visually-hidden">Inspect</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="audit-body"></tbody>
+                </table>
+            </div>
+
+            <!-- Card view -->
+            <div class="cards-view-grid" id="cards-view-panel" style="display: none;"></div>
+            <div class="standings-more" id="standings-more"></div>
+        </section>
+
+        <footer class="site-footer">
+            <p>Built for The Irish Guy prediction community by Avi Bomb &middot; Premier League 2026/27 live score tracker</p>
+            <p><a href="https://www.youtube.com/@theirishguy2494" target="_blank" rel="noopener">@theirishguy2494</a> &middot; <a href="https://www.youtube.com/@TheIrishGuyExtra" target="_blank" rel="noopener">@TheIrishGuyExtra</a></p>
+        </footer>
+    </main>
+
+    <!-- Mobile bottom navigation -->
+    <nav class="mobile-bottom-nav" aria-label="Quick navigation">
+        <button class="mobile-nav-item active" id="mob-nav-leaderboard" onclick="switchMainTab('leaderboard')">
+            <i class="ph ph-trophy mob-nav-icon" aria-hidden="true"></i>
+            <span class="mob-nav-label">Standings</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-nav-fixtures" onclick="switchMatchView('fixtures'); scrollToSection('fixture-ticker-section')">
+            <i class="ph ph-soccer-ball mob-nav-icon" aria-hidden="true"></i>
+            <span class="mob-nav-label">Matches</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-nav-table" onclick="switchMatchView('table'); scrollToSection('fixture-ticker-section')">
+            <i class="ph ph-list-numbers mob-nav-icon" aria-hidden="true"></i>
+            <span class="mob-nav-label">PL table</span>
+        </button>
+        <button class="mobile-nav-item" id="mob-nav-gw" onclick="switchMainTab('gw_' + LIVE_ACTIVE_GAMEWEEK)">
+            <i class="ph ph-list-checks mob-nav-icon" aria-hidden="true"></i>
+            <span class="mob-nav-label">Live GW</span>
+        </button>
+        <a href="admin.html" class="mobile-nav-item">
+            <i class="ph ph-gear-six mob-nav-icon" aria-hidden="true"></i>
+            <span class="mob-nav-label">Admin</span>
+        </a>
+    </nav>
+
+    <!-- Inspector modal -->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-author">
+        <div class="modal-box">
+            <div class="modal-top">
+                <div>
+                    <h2 class="modal-title" id="modal-author">Predictor inspection</h2>
+                    <div id="modal-status-container"></div>
+                </div>
+                <button class="close-btn" onclick="closeModal()" aria-label="Close"><i class="ph ph-x" aria-hidden="true"></i></button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Submission timing -->
+                <div class="timing-audit-box">
+                    <div class="timing-row">
+                        <span class="timing-lbl"><i class="ph ph-clock" aria-hidden="true"></i>Submitted (GMT)</span>
+                        <span class="timing-val" id="modal-submit-time">-</span>
+                    </div>
+                    <div class="timing-row" id="modal-edit-row" style="display: none;">
+                        <span class="timing-lbl"><i class="ph ph-pencil-simple" aria-hidden="true"></i>Last edited (GMT)</span>
+                        <span class="timing-val timing-val-danger" id="modal-edit-time">-</span>
+                    </div>
+                    <div class="timing-row" id="modal-lateness-row" style="display: none;">
+                        <span class="timing-lbl"><i class="ph ph-warning" aria-hidden="true"></i>Lateness note</span>
+                        <span class="timing-val timing-val-gold" id="modal-lateness-val">-</span>
+                    </div>
+                    <div class="timing-summary" id="modal-timing-summary"></div>
+                </div>
+
+                <!-- Edit history (edited comments) -->
+                <div class="edit-history-box" id="modal-edit-history-section" style="display: none;">
+                    <div class="edit-history-title"><i class="ph ph-pencil-simple" aria-hidden="true"></i>Comment edit history</div>
+                    <div class="edit-history-desc" id="modal-edit-diff-desc"></div>
+                    <div class="diff-container" id="modal-diff-view" style="display: none;"></div>
+                    <div id="modal-revisions-timeline"></div>
+                </div>
+
+                <!-- Raw comment (unedited comments) -->
+                <div id="modal-single-comment-section">
+                    <div class="modal-section-label"><i class="ph ph-chat-text" aria-hidden="true"></i>Submitted YouTube comment</div>
+                    <div class="raw-comment-box" id="modal-raw-comment"></div>
+                </div>
+
+                <!-- Fixture breakdown -->
+                <div>
+                    <div class="modal-section-label"><i class="ph ph-soccer-ball" aria-hidden="true"></i>Predictions &amp; points breakdown</div>
+                    <div id="modal-fixtures-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Predictor profile -->
+    <div class="modal" id="profile-modal" role="dialog" aria-modal="true" aria-labelledby="profile-name">
+        <div class="modal-box">
+            <div class="modal-top">
+                <div>
+                    <h2 class="modal-title" id="profile-name">Predictor</h2>
+                    <div class="profile-sub" id="profile-sub"></div>
+                </div>
+                <div class="modal-top-actions">
+                    <button type="button" class="btn btn-ghost btn-sm" id="profile-copy" onclick="copyProfileLink()"><i class="ph ph-link" aria-hidden="true"></i><span>Copy link</span></button>
+                    <button class="close-btn" onclick="closeProfile()" aria-label="Close"><i class="ph ph-x" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="modal-body" id="profile-body"></div>
+        </div>
+    </div>
+
+    <div class="page-notice" id="page-notice" role="status" aria-live="polite" hidden></div>
+
+    <script>
+        const GW_INDEX = __GW_INDEX_JSON__;
+        const ACTIVE_GW_DATA = __ACTIVE_GW_JSON__;
+        const LIVE_ACTIVE_GAMEWEEK = __ACTIVE_GW__;
+        const PL_LEAGUE = __LEAGUE_JSON__;
+        const BUILD_ID = '__BUILD_ID__';
+        const PAGE_SIZE = 50;
+        const LOCAL_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || 'your local time';
+        const FORM_LABELS = { W: 'Win', D: 'Draw', L: 'Loss' };
+
+        let rawLeaderboard = [];
+        let leaderboardState = 'loading'; // 'loading' | 'ready' | 'error'
+        let currentViewingGw = LIVE_ACTIVE_GAMEWEEK;
+        let currentTab = 'leaderboard'; // 'leaderboard' or 'gw_1', etc.
+        let currentDisplayMode = window.innerWidth <= 768 ? 'cards' : 'table';
+        let shownCount = PAGE_SIZE;
+        window.userManuallySetView = false;
+
+        // ---------- Data loading (heavy data lives in data/site/*.json) ----------
+        const GW_DATA = {};
+        const GW_REQUESTS = {};
+        const DETAIL_REQUESTS = {};
+
+        function fetchSiteJson(name) {
+            return fetch(`data/site/${name}?v=${BUILD_ID}`).then(res => {
+                if (!res.ok) throw new Error(`${name} returned ${res.status}`);
+                return res.json();
+            });
+        }
+
+        function loadCached(store, key, name) {
+            if (!store[key]) {
+                store[key] = fetchSiteJson(name).catch(err => {
+                    delete store[key];
+                    throw err;
+                });
+            }
+            return store[key];
+        }
+
+        async function loadGw(gw) {
+            GW_DATA[gw] = await loadCached(GW_REQUESTS, gw, `gw_${gw}.json`);
+            return GW_DATA[gw];
+        }
+
+        function loadGwDetails(gw) {
+            return loadCached(DETAIL_REQUESTS, gw, `gw_${gw}_details.json`);
+        }
+
+        function gwView(gw) {
+            return GW_DATA[gw] || (gw === LIVE_ACTIVE_GAMEWEEK ? ACTIVE_GW_DATA : null) || { fixtures: [], crowd: {}, records: [] };
+        }
+
+        function showNotice(message, tone = 'error') {
+            const el = document.getElementById('page-notice');
+            el.innerText = message;
+            el.classList.toggle('ok', tone === 'ok');
+            el.hidden = false;
+            clearTimeout(showNotice.timer);
+            showNotice.timer = setTimeout(() => { el.hidden = true; }, 4500);
+        }
+
+        // ---------- View mode & overlay ----------
+        function toggleViewMode(mode) {
+            window.userManuallySetView = true;
+            currentDisplayMode = mode;
+            filterAndSort();
+        }
+
+        window.addEventListener('resize', () => {
+            if (!window.userManuallySetView) {
+                const newMode = window.innerWidth <= 768 ? 'cards' : 'table';
+                if (newMode !== currentDisplayMode) {
+                    currentDisplayMode = newMode;
+                    filterAndSort();
+                }
+            }
+        });
+
+        function showLoadingOverlay(title = "Updating Live Standings", subtitle = "Please wait while the system processes results...") {
+            document.getElementById('loading-title').innerText = title;
+            document.getElementById('loading-subtitle').innerText = subtitle;
+            document.getElementById('global-loading-overlay').style.display = 'flex';
+        }
+
+        function hideLoadingOverlay() {
+            document.getElementById('global-loading-overlay').style.display = 'none';
+        }
+
+        // ---------- Navigation ----------
+        function initNavigationTabs() {
+            const navContainer = document.getElementById('nav-tabs-container');
+            const dropdown = document.getElementById('gw-quick-select');
+            let dropdownHtml = '<option value="leaderboard">Season standings</option>';
+            const compactLabels = window.matchMedia('(max-width: 520px)').matches;
+
+            Object.keys(GW_INDEX).sort((a, b) => parseInt(a) - parseInt(b)).forEach(gwKey => {
+                const gwNum = parseInt(gwKey, 10);
+                const predCount = GW_INDEX[gwKey].count || 0;
+                const isActive = (gwNum === LIVE_ACTIVE_GAMEWEEK);
+                const isPast = (gwNum < LIVE_ACTIVE_GAMEWEEK);
+                const badgeHtml = isActive
+                    ? '<span class="tab-flag tab-flag-live">Live</span>'
+                    : (isPast ? '<span class="tab-flag">Final</span>' : '');
+
+                const btn = document.createElement('button');
+                btn.className = 'nav-tab-btn';
+                btn.id = `tab-btn-gw-${gwNum}`;
+                btn.innerHTML = `<span>Gameweek ${gwNum}</span> ${badgeHtml} <span class="tab-counter" title="Predictions">${predCount}</span>`;
+                btn.onclick = () => switchMainTab(`gw_${gwNum}`);
+                navContainer.appendChild(btn);
+
+                const dropTag = isActive ? ' (Live)' : (isPast ? ' (Final)' : '');
+                const optionLabel = compactLabels ? `GW ${gwNum}${dropTag}` : `Gameweek ${gwNum}${dropTag} · ${predCount} predictions`;
+                dropdownHtml += `<option value="gw_${gwNum}">${optionLabel}</option>`;
+            });
+
+            dropdown.innerHTML = dropdownHtml;
+        }
+
+        function scrollToSection(id) {
+            const el = document.getElementById(id) || document.getElementsByClassName(id)[0];
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function updateBottomNavActive(tabKey) {
+            document.querySelectorAll('.mobile-nav-item').forEach(el => el.classList.remove('active'));
+            if (tabKey === 'leaderboard') {
+                document.getElementById('mob-nav-leaderboard')?.classList.add('active');
+            } else if (tabKey && tabKey.startsWith('gw_')) {
+                document.getElementById('mob-nav-gw')?.classList.add('active');
+            }
+        }
+
+        function onGwDropdownChange(val) {
+            switchMainTab(val);
+        }
+
+        // ---------- Shareable links: ?view=gw_N, &match=table|ai, &user=@name ----------
+        function urlWith(params) {
+            const url = new URL(window.location.href);
+            Object.entries(params).forEach(([key, value]) => {
+                if (value) url.searchParams.set(key, value);
+                else url.searchParams.delete(key);
+            });
+            return url.toString();
+        }
+
+        function pushUrl(url) {
+            if (url === window.location.href) return;
+            try { window.history.pushState(null, '', url); } catch (e) { /* file:// or sandboxed frames */ }
+        }
+
+        function viewFromUrl() {
+            const view = new URLSearchParams(window.location.search).get('view') || '';
+            return /^gw_\d+$/.test(view) && GW_INDEX[view.slice(3)] ? view : 'leaderboard';
+        }
+
+        function matchFromUrl() {
+            const match = new URLSearchParams(window.location.search).get('match');
+            return ['table', 'ai'].includes(match) ? match : 'fixtures';
+        }
+
+        async function applyUrlState() {
+            if (viewFromUrl() !== currentTab) await switchMainTab(viewFromUrl(), true);
+            switchMatchView(matchFromUrl(), true);
+            const user = new URLSearchParams(window.location.search).get('user');
+            if (user && leaderboardState === 'ready') openProfile(user, true);
+            else if (!user) closeProfile(true);
+        }
+
+        window.addEventListener('popstate', applyUrlState);
+
+        async function shareView() {
+            const result = await shareCurrentPage(document.title);
+            if (result === 'copied') showNotice('Link copied. It opens this exact view.', 'ok');
+        }
+
+        async function switchMainTab(tabKey, fromHistory = false) {
+            const gwNum = tabKey === 'leaderboard' ? null : parseInt(tabKey.replace('gw_', ''), 10);
+            if (gwNum !== null && !GW_DATA[gwNum]) {
+                showLoadingOverlay('Loading gameweek', `Fetching Gameweek ${gwNum} predictions...`);
+                try {
+                    await loadGw(gwNum);
+                } catch (err) {
+                    console.error(err);
+                    showNotice(`Gameweek ${gwNum} couldn't be loaded. Check your connection and try again.`);
+                    document.getElementById('gw-quick-select').value = currentTab;
+                    return;
+                } finally {
+                    hideLoadingOverlay();
+                }
+            }
+
+            currentTab = tabKey;
+            shownCount = PAGE_SIZE;
+            updateBottomNavActive(tabKey);
+
+            document.querySelectorAll('.nav-tab-btn').forEach(btn => btn.classList.remove('active'));
+            if (gwNum === null) {
+                document.getElementById('tab-btn-leaderboard')?.classList.add('active');
+                document.getElementById('gw-quick-select').value = 'leaderboard';
+            } else {
+                document.getElementById(`tab-btn-gw-${gwNum}`)?.classList.add('active');
+                document.getElementById('gw-quick-select').value = tabKey;
+                currentViewingGw = gwNum;
+            }
+
+            const isLeaderboard = gwNum === null;
+            document.getElementById('leaderboard-panel').style.display = isLeaderboard ? 'block' : 'none';
+            document.getElementById('audit-panel').style.display = isLeaderboard ? 'none' : 'block';
+            document.getElementById('statusFilter').style.display = isLeaderboard ? 'none' : 'inline-block';
+
+            if (isLeaderboard) {
+                document.getElementById('header-scope-badge').innerText = `Season standings · GW 1–${LIVE_ACTIVE_GAMEWEEK}`;
+                document.getElementById('table-view-heading').innerHTML = 'Season standings';
+                renderFixtures(LIVE_ACTIVE_GAMEWEEK);
+                renderSeasonMetrics();
+            } else {
+                const isGwActive = (gwNum === LIVE_ACTIVE_GAMEWEEK);
+                const isGwPast = (gwNum < LIVE_ACTIVE_GAMEWEEK);
+                const scopeLabel = isGwActive ? `Gameweek ${gwNum} · Live` : (isGwPast ? `Gameweek ${gwNum} · Final` : `Gameweek ${gwNum}`);
+                document.getElementById('header-scope-badge').innerText = scopeLabel;
+                document.getElementById('table-view-heading').innerHTML = `Gameweek ${gwNum} submissions`;
+                renderFixtures(gwNum);
+                renderGameweekMetrics(gwNum);
+            }
+
+            filterAndSort();
+            if (!fromHistory) pushUrl(urlWith({ view: isLeaderboard ? null : tabKey }));
+        }
+
+        // ---------- Time formatting (visitor's local time zone) ----------
+        function formatKickoff(iso) {
+            const d = new Date(iso);
+            if (isNaN(d.getTime())) return 'Date TBC';
+            const day = d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+            const time = d.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+            return `${day}, ${time}`;
+        }
+
+        // ---------- Fixtures ----------
+        function crowdLineHtml(crowd, f) {
+            const c = (crowd || {})[`${f.home} vs ${f.away}`];
+            if (!c) return '';
+            return `<div class="crowd-line" title="Based on ${c.n} predictions"><i class="ph ph-users-three" aria-hidden="true"></i><span>Crowd: home ${c.h}% · draw ${c.d}% · away ${c.a}%</span><span class="crowd-top">Top pick ${escapeHtml(c.top)} (${c.top_pct}%)</span></div>`;
+        }
+
+        function renderFixtures(gwNum) {
+            const view = gwView(gwNum);
+            const fixtures = view.fixtures || [];
+            document.getElementById('fixture-center-title').innerText = `GW ${gwNum} fixtures`;
+
+            const grid = document.getElementById('fixture-grid');
+            if (fixtures.length === 0) {
+                grid.innerHTML = '<div class="empty-state"><i class="ph ph-calendar-blank" aria-hidden="true"></i>No fixtures scheduled for this gameweek.</div>';
+                return;
+            }
+            grid.innerHTML = `
+                <div class="fixture-cards">${fixtures.map(f => fixtureCardHtml(f, view.crowd)).join('')}</div>
+                <div class="fx-days">${fixtureDaysHtml(fixtures, view.crowd)}</div>
+            `;
+        }
+
+        function fixtureCardHtml(f, crowd) {
+            const hasScore = f.home_act !== null && f.away_act !== null && f.home_act !== undefined && f.away_act !== undefined;
+            const d = new Date(f.kickoff);
+            const timeStr = isNaN(d.getTime()) ? (f.kickoff || 'TBD') : formatKickoff(f.kickoff);
+            const homeLogo = f.home_logo || getTeamLogoJS(f.home);
+            const awayLogo = f.away_logo || getTeamLogoJS(f.away);
+            const homeGoalsStr = formatGoalsJS(f.home_goals, f.home_goals_summary);
+            const awayGoalsStr = formatGoalsJS(f.away_goals, f.away_goals_summary);
+
+            const isFinished = f.finished || f.status === 'FT';
+            const isOngoing = !isFinished && (f.status === 'ONGOING' || f.started || hasScore);
+            let statusBadgeHtml = '<span class="fix-status-upcoming">UPCOMING</span>';
+            if (isFinished) {
+                statusBadgeHtml = '<span class="fix-status-ft">FT</span>';
+            } else if (isOngoing) {
+                statusBadgeHtml = `<span class="fix-status-live"><span class="live-dot"></span>${f.clock ? `ONGOING ${escapeHtml(f.clock)}` : 'ONGOING'}</span>`;
+            }
+
+            const scoreCls = hasScore ? 'fix-score' : 'fix-score-pending';
+            const homeLine = homeGoalsStr ? `<div class="scorer-line"><i class="ph ph-soccer-ball scorer-ball" aria-hidden="true"></i><div><b>${escapeHtml(f.home)}:</b> ${homeGoalsStr}</div></div>` : '';
+            const awayLine = awayGoalsStr ? `<div class="scorer-line"><i class="ph ph-soccer-ball scorer-ball" aria-hidden="true"></i><div><b>${escapeHtml(f.away)}:</b> ${awayGoalsStr}</div></div>` : '';
+            return `
+                <div class="fixture-card">
+                    <div class="fix-header"><span>${timeStr}</span>${statusBadgeHtml}</div>
+                    <div class="fix-team-row">
+                        <span class="fix-team-name"><img class="team-badge" src="${homeLogo}" alt="" onerror="this.src='${FALLBACK_BADGE}'"><span>${escapeHtml(f.home)}</span></span>
+                        <span class="${scoreCls}">${hasScore ? f.home_act : '-'}</span>
+                    </div>
+                    <div class="fix-team-row">
+                        <span class="fix-team-name"><img class="team-badge" src="${awayLogo}" alt="" onerror="this.src='${FALLBACK_BADGE}'"><span>${escapeHtml(f.away)}</span></span>
+                        <span class="${scoreCls}">${hasScore ? f.away_act : '-'}</span>
+                    </div>
+                    ${crowdLineHtml(crowd, f)}
+                    ${homeLine || awayLine ? `<div class="fix-scorers-box">${homeLine}${awayLine}</div>` : ''}
+                </div>
+            `;
+        }
+
+        function fixtureTeamHtml(name, logo, score, cls) {
+            return `<span class="fx-team ${cls}"><img class="team-badge-sm" src="${logo}" alt="" onerror="this.src='${FALLBACK_BADGE}'"><span class="fx-name">${escapeHtml(name)}</span><span class="fx-sc">${score}</span></span>`;
+        }
+
+        function fixtureRowHtml(f, crowd) {
+            const hasScore = f.home_act !== null && f.away_act !== null && f.home_act !== undefined && f.away_act !== undefined;
+            const d = new Date(f.kickoff);
+            const homeLogo = f.home_logo || getTeamLogoJS(f.home);
+            const awayLogo = f.away_logo || getTeamLogoJS(f.away);
+            const homeGoalsStr = formatGoalsJS(f.home_goals, f.home_goals_summary);
+            const awayGoalsStr = formatGoalsJS(f.away_goals, f.away_goals_summary);
+            const crowdLine = crowdLineHtml(crowd, f);
+            const hasExtra = homeGoalsStr || awayGoalsStr || crowdLine;
+
+            const isFinished = f.finished || f.status === 'FT';
+            const isOngoing = !isFinished && (f.status === 'ONGOING' || f.started || hasScore);
+
+            let whenCls = '';
+            let whenInner = isNaN(d.getTime()) ? 'TBD' : d.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+            if (isFinished) {
+                whenCls = 'fx-when-ft';
+                whenInner = 'FT';
+            } else if (isOngoing) {
+                whenCls = 'fx-when-live';
+                whenInner = `<span class="live-dot" aria-hidden="true"></span>${escapeHtml(f.clock || 'Live')}`;
+            }
+
+            let homeCls = '';
+            let awayCls = '';
+            if (isFinished && hasScore && f.home_act !== f.away_act) {
+                homeCls = f.home_act > f.away_act ? 'is-win' : 'is-loss';
+                awayCls = f.home_act > f.away_act ? 'is-loss' : 'is-win';
+            }
+
+            const main = `<span class="fx-main">
+                <span class="fx-when ${whenCls}">${whenInner}</span>
+                <span class="fx-teams">${fixtureTeamHtml(f.home, homeLogo, hasScore ? f.home_act : '', homeCls)}${fixtureTeamHtml(f.away, awayLogo, hasScore ? f.away_act : '', awayCls)}</span>
+                ${hasExtra ? '<i class="ph ph-caret-down fx-caret" aria-hidden="true"></i>' : '<span></span>'}
+            </span>`;
+            if (!hasExtra) return `<div class="fx-row">${main}</div>`;
+
+            const homeLine = homeGoalsStr ? `<div><b>${escapeHtml(f.home)}:</b> ${homeGoalsStr}</div>` : '';
+            const awayLine = awayGoalsStr ? `<div><b>${escapeHtml(f.away)}:</b> ${awayGoalsStr}</div>` : '';
+            return `<details class="fx-row"><summary>${main}</summary><div class="fx-scorers">${homeLine}${awayLine}${crowdLine}</div></details>`;
+        }
+
+        function fixtureDaysHtml(fixtures, crowd) {
+            const days = [];
+            fixtures.forEach(f => {
+                const d = new Date(f.kickoff);
+                const label = isNaN(d.getTime()) ? 'Date to be confirmed' : d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+                const last = days.at(-1);
+                if (last && last.label === label) last.items.push(f);
+                else days.push({ label, items: [f] });
+            });
+            return days.map(day => `
+                <div class="fx-day">
+                    <div class="fx-day-label">${day.label}</div>
+                    <div class="fx-list">${day.items.map(f => fixtureRowHtml(f, crowd)).join('')}</div>
+                </div>
+            `).join('');
+        }
+
+        // ---------- Premier League table, AI predictions, deadline ----------
+        function leagueRowHtml(r, lastPos) {
+            let zone = '';
+            if (r.position <= 4) zone = 'zone-top';
+            else if (r.position > lastPos - 3) zone = 'zone-rel';
+            const gd = r.gd > 0 ? `+${r.gd}` : r.gd;
+            const form = (r.form || []).map(x => `<span class="form-pill form-${x}" title="${FORM_LABELS[x]}">${x}</span>`).join('');
+            const nx = r.next;
+            const nextCell = nx
+                ? `<span class="next-opp" title="Next: ${escapeHtml(nx.opponent)} (${nx.venue === 'H' ? 'home' : 'away'}) · ${formatKickoff(nx.kickoff)}"><img class="team-badge-sm" src="${nx.logo || getTeamLogoJS(nx.opponent)}" alt="Next: ${escapeHtml(nx.opponent)}" onerror="this.src='${FALLBACK_BADGE}'"><span class="next-venue">${nx.venue}</span></span>`
+                : '<span class="next-none">-</span>';
+            return `
+                <tr class="${zone}">
+                    <td class="pl-pos">${r.position}</td>
+                    <td class="pl-club-cell"><span class="pl-club"><img class="team-badge-sm" src="${r.logo || getTeamLogoJS(r.team)}" alt="" onerror="this.src='${FALLBACK_BADGE}'"><span>${escapeHtml(r.team)}</span></span></td>
+                    <td class="num">${r.played}</td>
+                    <td class="num col-wide">${r.won}</td>
+                    <td class="num col-wide">${r.drawn}</td>
+                    <td class="num col-wide">${r.lost}</td>
+                    <td class="num col-wide">${r.gf}</td>
+                    <td class="num col-wide">${r.ga}</td>
+                    <td class="num">${gd}</td>
+                    <td class="num pl-pts">${r.points}</td>
+                    <td class="col-form"><span class="form-row">${form}</span></td>
+                    <td class="col-next">${nextCell}</td>
+                </tr>
+            `;
+        }
+
+        function aiCardHtml(m, crowd) {
+            let verdict = 'Draw';
+            let pick = m.p_draw;
+            if (m.pred_home > m.pred_away) {
+                verdict = `${m.home} win`;
+                pick = m.p_home;
+            } else if (m.pred_away > m.pred_home) {
+                verdict = `${m.away} win`;
+                pick = m.p_away;
+            }
+            return `
+                <article class="ai-card">
+                    <div class="ai-top">
+                        <span class="ai-when">${formatKickoff(m.kickoff)}</span>
+                        <span class="ai-verdict">${escapeHtml(verdict)} · ${pick}%</span>
+                    </div>
+                    <div class="ai-match">
+                        <span class="ai-team"><img class="team-badge-md" src="${m.home_logo || getTeamLogoJS(m.home)}" alt="" onerror="this.src='${FALLBACK_BADGE}'"><span>${escapeHtml(m.home)}</span></span>
+                        <span class="ai-score" aria-label="Predicted score ${m.pred_home} to ${m.pred_away}">${m.pred_home}<span class="ai-dash">-</span>${m.pred_away}</span>
+                        <span class="ai-team"><img class="team-badge-md" src="${m.away_logo || getTeamLogoJS(m.away)}" alt="" onerror="this.src='${FALLBACK_BADGE}'"><span>${escapeHtml(m.away)}</span></span>
+                    </div>
+                    <div class="ai-bar" role="img" aria-label="${escapeHtml(m.home)} win ${m.p_home}%, draw ${m.p_draw}%, ${escapeHtml(m.away)} win ${m.p_away}%">
+                        <span class="ai-bar-h" style="flex-grow: ${m.p_home}"></span><span class="ai-bar-d" style="flex-grow: ${m.p_draw}"></span><span class="ai-bar-a" style="flex-grow: ${m.p_away}"></span>
+                    </div>
+                    <div class="ai-probs"><span>Home ${m.p_home}%</span><span>Draw ${m.p_draw}%</span><span>Away ${m.p_away}%</span></div>
+                    <div class="ai-xg">Expected goals ${Number(m.xg_home).toFixed(2)} - ${Number(m.xg_away).toFixed(2)}</div>
+                    ${crowdLineHtml(crowd, m)}
+                </article>
+            `;
+        }
+
+        function aiRecordText() {
+            const rec = PL_LEAGUE.ai_record;
+            if (!rec || !rec.matches) return '';
+            const backtested = (rec.gws || []).filter(g => g.backtest).map(g => g.gw);
+            const note = backtested.length ? ` Gameweeks ${backtested[0]}–${backtested.at(-1)} are backtested using only results available before each gameweek.` : '';
+            return `Season record: ${rec.points} pts from ${rec.matches} matches (${rec.exacts} exact, ${rec.outcomes} correct results).${note}`;
+        }
+
+        function renderLeague() {
+            const table = PL_LEAGUE.table || [];
+            const preds = PL_LEAGUE.predictions || {};
+            const matches = preds.matches || [];
+            const unavailable = '<div class="empty-state"><i class="ph ph-cloud-slash" aria-hidden="true"></i>Live Premier League data is unavailable right now. It refreshes with the next scheduled update.</div>';
+            const crowd = gwView(preds.gw).crowd;
+
+            document.getElementById('ai-title').innerText = preds.gw ? `AI score predictions for Gameweek ${preds.gw}` : 'AI score predictions';
+            document.getElementById('ai-record').innerText = aiRecordText();
+            document.getElementById('ai-predictions-list').innerHTML = matches.length ? matches.map(m => aiCardHtml(m, crowd)).join('') : unavailable;
+            document.getElementById('pl-table-body').innerHTML = table.length
+                ? table.map(r => leagueRowHtml(r, table.length)).join('')
+                : `<tr><td colspan="12" class="pl-empty">${unavailable}</td></tr>`;
+            fetch(`site-status/pipeline_status.json?t=${Date.now()}`).then(res => res.ok ? res.json() : null).then(status => {
+                if (status && status.last_run_utc) {
+                    document.getElementById('pl-table-updated').innerText = `Updated ${formatKickoff(status.last_run_utc)}`;
+                }
+            }).catch(() => { /* status file is optional */ });
+        }
+
+        function switchMatchView(view, fromHistory = false) {
+            ['fixtures', 'table', 'ai'].forEach(v => {
+                const isOn = v === view;
+                const tab = document.getElementById(`mc-tab-${v}`);
+                tab.classList.toggle('active', isOn);
+                tab.setAttribute('aria-selected', isOn ? 'true' : 'false');
+                document.getElementById(`mc-panel-${v}`).hidden = !isOn;
+            });
+            if (!fromHistory) pushUrl(urlWith({ match: view === 'fixtures' ? null : view }));
+        }
+
+        function nextDeadline() {
+            const now = Date.now();
+            const upcoming = Object.entries(PL_LEAGUE.deadlines || {})
+                .map(([gw, iso]) => ({ gw: Number(gw), at: new Date(iso).getTime() }))
+                .filter(d => !isNaN(d.at) && d.at > now)
+                .sort((a, b) => a.at - b.at);
+            return upcoming[0] || null;
+        }
+
+        function renderDeadline() {
+            const strip = document.getElementById('deadline-strip');
+            const deadline = nextDeadline();
+            if (!deadline) {
+                strip.hidden = true;
+                return;
+            }
+            strip.hidden = false;
+            document.getElementById('deadline-label').innerText = `Gameweek ${deadline.gw} deadline`;
+            document.getElementById('deadline-when').innerText = `First kickoff ${formatKickoff(new Date(deadline.at).toISOString())} (${LOCAL_TZ})`;
+            document.getElementById('deadline-video').hidden = !(deadline.gw === LIVE_ACTIVE_GAMEWEEK && document.getElementById('deadline-video').getAttribute('href'));
+
+            const ms = deadline.at - Date.now();
+            if (ms <= 0) {
+                renderDeadline();
+                return;
+            }
+            const days = Math.floor(ms / 86400000);
+            const hours = Math.floor((ms % 86400000) / 3600000);
+            const mins = Math.floor((ms % 3600000) / 60000);
+            const secs = Math.floor((ms % 60000) / 1000);
+            const parts = days > 0 ? [`${days}d`, `${hours}h`, `${mins}m`] : [`${hours}h`, `${mins}m`, `${secs}s`];
+            document.getElementById('deadline-count').innerText = parts.join(' ');
+        }
+
+        // ---------- Metrics ----------
+        function renderSeasonMetrics() {
+            const ready = leaderboardState === 'ready';
+            document.getElementById('stat-1-lbl').innerText = 'Ranked predictors';
+            document.getElementById('stat-1-val').innerText = ready ? rawLeaderboard.length : '–';
+
+            const topPts = rawLeaderboard.length > 0 ? rawLeaderboard[0].Total_Season_Points : 0;
+            document.getElementById('stat-2-lbl').innerText = 'Highest season total';
+            document.getElementById('stat-2-val').innerText = ready ? topPts + ' pts' : '–';
+
+            const totalExacts = rawLeaderboard.reduce((acc, r) => acc + (r['Total_Exact_Scores (3pts)'] || 0), 0);
+            document.getElementById('stat-3-lbl').innerText = 'Season exact scores';
+            document.getElementById('stat-3-val').innerText = ready ? totalExacts : '–';
+
+            document.getElementById('stat-4-lbl').innerText = 'Gameweeks completed';
+            document.getElementById('stat-4-val').innerText = `${Object.keys(GW_INDEX).length} / 38`;
+        }
+
+        function renderGameweekMetrics(gwNum) {
+            const audits = gwView(gwNum).records || [];
+            document.getElementById('stat-1-lbl').innerText = `GW ${gwNum} predictors`;
+            document.getElementById('stat-1-val').innerText = audits.length;
+
+            if (audits.length > 0) {
+                const topGW = Math.max(...audits.map(r => r.total_points || 0));
+                const exactCount = audits.reduce((sum, r) => sum + (r.exact_scores || 0), 0);
+                const validCount = audits.filter(r => (r.status || '').startsWith("Valid")).length;
+                document.getElementById('stat-2-lbl').innerText = `GW ${gwNum} top score`;
+                document.getElementById('stat-2-val').innerText = topGW + " pts";
+                document.getElementById('stat-3-lbl').innerText = `GW ${gwNum} exact scores`;
+                document.getElementById('stat-3-val').innerText = exactCount;
+                document.getElementById('stat-4-lbl').innerText = `GW ${gwNum} compliance`;
+                document.getElementById('stat-4-val').innerText = Math.round((validCount / audits.length) * 100) + "%";
+            } else {
+                document.getElementById('stat-2-val').innerText = "0 pts";
+                document.getElementById('stat-3-val').innerText = "0";
+                document.getElementById('stat-4-val').innerText = "0%";
+            }
+        }
+
+        // ---------- Standings ----------
+        function statusPillClass(st) {
+            st = st || '';
+            if (st.startsWith('Valid*')) return 'pill-partial';
+            if (st.includes('Edited') || st.includes('Disqualified')) return 'pill-disqualified';
+            if (st.includes('Late')) return 'pill-late';
+            return 'pill-valid';
+        }
+
+        function rankBadgeClass(rank) {
+            return { 1: 'rank-1', 2: 'rank-2', 3: 'rank-3' }[rank] || 'rank-other';
+        }
+
+        function rankMoveHtml(r) {
+            if (r.now_rank === undefined || r.now_rank === null) return '';
+            if (r.prev_rank === undefined || r.prev_rank === null) return '<span class="rank-move rank-new" title="New this gameweek">New</span>';
+            const diff = r.prev_rank - r.now_rank;
+            if (diff > 0) return `<span class="rank-move rank-up" title="Up ${diff} since last gameweek"><i class="ph ph-caret-up" aria-hidden="true"></i>${diff}<span class="visually-hidden"> places up</span></span>`;
+            if (diff < 0) return `<span class="rank-move rank-down" title="Down ${-diff} since last gameweek"><i class="ph ph-caret-down" aria-hidden="true"></i>${-diff}<span class="visually-hidden"> places down</span></span>`;
+            return '<span class="rank-move rank-same" title="No change since last gameweek">–</span>';
+        }
+
+        function winsHtml(r) {
+            const wins = r.gw_wins || [];
+            if (!wins.length) return '';
+            return `<span class="gw-wins" title="Gameweek winner: GW ${wins.join(', GW ')}"><i class="ph ph-trophy" aria-hidden="true"></i>${wins.length > 1 ? '×' + wins.length : ''}<span class="visually-hidden"> gameweek wins</span></span>`;
+        }
+
+        function onStandingsQuery() {
+            shownCount = PAGE_SIZE;
+            filterAndSort();
+        }
+
+        function showMoreStandings() {
+            shownCount += PAGE_SIZE;
+            filterAndSort();
+        }
+
+        function renderMoreControl(total) {
+            const el = document.getElementById('standings-more');
+            if (!total) {
+                el.innerHTML = '';
+                return;
+            }
+            const shown = Math.min(shownCount, total);
+            el.innerHTML = shown < total
+                ? `<span class="more-count">Showing ${shown} of ${total}</span><button class="btn btn-secondary" onclick="showMoreStandings()">Show ${Math.min(PAGE_SIZE, total - shown)} more</button>`
+                : `<span class="more-count">Showing all ${total}</span>`;
+        }
+
+        function showStandingsMessage(html) {
+            document.getElementById('leaderboard-panel').style.display = 'none';
+            document.getElementById('audit-panel').style.display = 'none';
+            const cardsPanel = document.getElementById('cards-view-panel');
+            cardsPanel.style.display = 'grid';
+            cardsPanel.innerHTML = html;
+            document.getElementById('standings-more').innerHTML = '';
+        }
+
+        function renderAiBenchmark() {
+            const el = document.getElementById('ai-bench');
+            const rec = PL_LEAGUE.ai_record;
+            const q = document.getElementById('searchInput').value.trim();
+            if (currentTab !== 'leaderboard' || leaderboardState !== 'ready' || !rec || !rec.matches || q) {
+                el.hidden = true;
+                return;
+            }
+            const wouldRank = rawLeaderboard.filter(r => (r.Total_Season_Points || 0) > rec.points).length + 1;
+            el.hidden = false;
+            el.innerHTML = `<i class="ph ph-sparkle" aria-hidden="true"></i><div><b>Beat the AI:</b> the AI model has ${rec.points} pts from ${rec.matches} matches and would rank <b>#${wouldRank}</b> of ${rawLeaderboard.length}. <button class="link-btn" onclick="switchMatchView('ai'); scrollToSection('fixture-ticker-section')">See its next picks</button></div>`;
+        }
+
+        function leaderboardCardHtml(r) {
+            return `
+                <div class="mobile-card lb-card" data-author="${escapeHtml(r.Author)}" onclick="openProfile(this.dataset.author)" onkeydown="if (event.key === 'Enter') openProfile(this.dataset.author)" tabindex="0" role="button" aria-label="Open profile for ${escapeHtml(r.Author)}">
+                    <div class="mobile-card-top">
+                        <div class="mobile-card-id">
+                            <span class="rank-cell"><span class="rank-badge ${rankBadgeClass(r.Rank)}">#${r.Rank}</span>${rankMoveHtml(r)}</span>
+                            <div class="mobile-card-user">${escapeHtml(r.Author)} ${winsHtml(r)}</div>
+                        </div>
+                        <div class="mobile-card-pts-big">${r.Total_Season_Points}<span class="pts-unit">pts</span></div>
+                    </div>
+                    <div class="mobile-card-stats">
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">GWs played</span><span class="mobile-card-val">${r.Gameweeks_Played}</span></div>
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">Matches</span><span class="mobile-card-val">${r.Total_Matches_Predicted}</span></div>
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">Exact 3pt</span><span class="mobile-card-val val-gold">${r['Total_Exact_Scores (3pts)']}</span></div>
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">Outcome 1pt</span><span class="mobile-card-val val-accent">${r['Total_Outcome_Scores (1pt)']}</span></div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function leaderboardRowHtml(r) {
+            return `
+                <tr class="lb-row" data-author="${escapeHtml(r.Author)}" onclick="openProfile(this.dataset.author)" onkeydown="if (event.key === 'Enter') openProfile(this.dataset.author)" tabindex="0">
+                    <td><span class="rank-cell"><span class="rank-badge ${rankBadgeClass(r.Rank)}">#${r.Rank}</span>${rankMoveHtml(r)}</span></td>
+                    <td class="predictor-name">${escapeHtml(r.Author)} ${winsHtml(r)}</td>
+                    <td class="num">${r.Gameweeks_Played}</td>
+                    <td class="num">${r.Total_Matches_Predicted}</td>
+                    <td class="num"><span class="pill pill-exact">${r['Total_Exact_Scores (3pts)']}</span></td>
+                    <td class="num">${r['Total_Outcome_Scores (1pt)']}</td>
+                    <td class="num pts">${r.Total_Season_Points} pts</td>
+                </tr>
+            `;
+        }
+
+        function auditCardHtml(r, gwNum) {
+            return `
+                <div class="mobile-card" onclick="openModal('${r.comment_id}', ${gwNum})">
+                    <div class="mobile-card-top">
+                        <div>
+                            <div class="mobile-card-user">${escapeHtml(r.author)}</div>
+                            <div class="mobile-card-meta">${escapeHtml(r.submission_gmt || 'N/A')}</div>
+                        </div>
+                        <div class="mobile-card-pts-big">${r.total_points}<span class="pts-unit">pts</span></div>
+                    </div>
+                    <div class="mobile-card-status"><span class="pill ${statusPillClass(r.status)}">${escapeHtml(r.status)}</span></div>
+                    <div class="mobile-card-stats">
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">Matches</span><span class="mobile-card-val">${r.matches_found}</span></div>
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">Exact 3pt</span><span class="mobile-card-val val-gold">${r.exact_scores}</span></div>
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">Outcome 1pt</span><span class="mobile-card-val val-accent">${r.outcome_scores}</span></div>
+                        <div class="mobile-card-stat-item"><span class="mobile-card-lbl">GW total</span><span class="mobile-card-val val-accent">${r.total_points} pts</span></div>
+                    </div>
+                    <button class="mobile-card-inspect-btn" onclick="event.stopPropagation(); openModal('${r.comment_id}', ${gwNum})">Inspect submission <i class="ph ph-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            `;
+        }
+
+        function auditRowHtml(r, gwNum) {
+            return `
+                <tr onclick="openModal('${r.comment_id}', ${gwNum})">
+                    <td class="predictor-name">${escapeHtml(r.author)}</td>
+                    <td class="cell-mono">${escapeHtml(r.submission_gmt || 'N/A')}</td>
+                    <td><span class="pill ${statusPillClass(r.status)}">${escapeHtml(r.status)}</span></td>
+                    <td class="num">${r.matches_found}</td>
+                    <td class="num"><span class="pill pill-exact">${r.exact_scores}</span></td>
+                    <td class="num">${r.outcome_scores}</td>
+                    <td class="num pts">${r.total_points} pts</td>
+                    <td><button class="btn-inspect" onclick="event.stopPropagation(); openModal('${r.comment_id}', ${gwNum})">Inspect <i class="ph ph-arrow-right" aria-hidden="true"></i></button></td>
+                </tr>
+            `;
+        }
+
+        function filterAndSort() {
+            const q = document.getElementById('searchInput').value.toLowerCase().trim();
+            const statusF = document.getElementById('statusFilter').value;
+            const sortF = document.getElementById('sortSelect').value;
+
+            document.getElementById('btn-view-cards').className = 'view-toggle-btn' + (currentDisplayMode === 'cards' ? ' active' : '');
+            document.getElementById('btn-view-table').className = 'view-toggle-btn' + (currentDisplayMode === 'table' ? ' active' : '');
+            renderAiBenchmark();
+
+            let data;
+            let emptyHtml;
+            let cardFn;
+            let rowFn;
+            let tableId;
+            let panelId;
+            if (currentTab === 'leaderboard') {
+                if (leaderboardState === 'loading') {
+                    showStandingsMessage('<div class="empty-state"><div class="pl-spinner-large inline-spinner" aria-hidden="true"></div>Loading season standings...</div>');
+                    return;
+                }
+                if (leaderboardState === 'error') {
+                    showStandingsMessage('<div class="empty-state"><i class="ph ph-cloud-slash" aria-hidden="true"></i>The standings couldn\'t be loaded. Refresh the page to try again.</div>');
+                    return;
+                }
+                data = rawLeaderboard.filter(r => (r.Author || '').toLowerCase().includes(q));
+                if (sortF === 'exacts_desc') data.sort((a, b) => (b['Total_Exact_Scores (3pts)'] || 0) - (a['Total_Exact_Scores (3pts)'] || 0));
+                else if (sortF === 'outcomes_desc') data.sort((a, b) => (b['Total_Outcome_Scores (1pt)'] || 0) - (a['Total_Outcome_Scores (1pt)'] || 0));
+                else if (sortF === 'matches_desc') data.sort((a, b) => (b.Total_Matches_Predicted || 0) - (a.Total_Matches_Predicted || 0));
+                else data.sort((a, b) => (b.Total_Season_Points || 0) - (a.Total_Season_Points || 0));
+                emptyHtml = '<div class="empty-state"><i class="ph ph-magnifying-glass" aria-hidden="true"></i>No predictors match that search.</div>';
+                cardFn = leaderboardCardHtml;
+                rowFn = leaderboardRowHtml;
+                tableId = 'leaderboard-body';
+                panelId = 'leaderboard-panel';
+            } else {
+                const gwNum = Number(currentTab.replace('gw_', ''));
+                data = (gwView(gwNum).records || []).filter(r => (r.author || '').toLowerCase().includes(q));
+                if (statusF === 'Valid') data = data.filter(r => (r.status || '').startsWith('Valid'));
+                else if (statusF === 'Disqualified') data = data.filter(r => (r.status || '').includes('Edited') || (r.status || '').includes('Disqualified'));
+                else if (statusF === 'Late') data = data.filter(r => (r.status || '').includes('concluded') || (r.status || '').includes('Late Submission'));
+                if (sortF === 'exacts_desc') data.sort((a, b) => (b.exact_scores || 0) - (a.exact_scores || 0));
+                else if (sortF === 'outcomes_desc') data.sort((a, b) => (b.outcome_scores || 0) - (a.outcome_scores || 0));
+                else if (sortF === 'matches_desc') data.sort((a, b) => (b.matches_found || 0) - (a.matches_found || 0));
+                else data.sort((a, b) => (b.total_points || 0) - (a.total_points || 0));
+                emptyHtml = '<div class="empty-state"><i class="ph ph-funnel" aria-hidden="true"></i>No submissions match these filters.</div>';
+                cardFn = r => auditCardHtml(r, gwNum);
+                rowFn = r => auditRowHtml(r, gwNum);
+                tableId = 'audit-body';
+                panelId = 'audit-panel';
+            }
+
+            if (data.length === 0) {
+                showStandingsMessage(emptyHtml);
+                return;
+            }
+            const page = data.slice(0, shownCount);
+            const cardsPanel = document.getElementById('cards-view-panel');
+            document.getElementById('leaderboard-panel').style.display = 'none';
+            document.getElementById('audit-panel').style.display = 'none';
+            if (currentDisplayMode === 'cards') {
+                cardsPanel.style.display = 'grid';
+                cardsPanel.innerHTML = page.map(cardFn).join('');
+            } else {
+                cardsPanel.style.display = 'none';
+                document.getElementById(panelId).style.display = 'block';
+                document.getElementById(tableId).innerHTML = page.map(rowFn).join('');
+            }
+            renderMoreControl(data.length);
+        }
+
+        // ---------- Predictor profile ("My predictions") ----------
+        function findPredictor(name) {
+            const clean = String(name || '').trim().toLowerCase().replace(/^@/, '');
+            return rawLeaderboard.find(r => (r.Author || '').toLowerCase().replace(/^@/, '') === clean);
+        }
+
+        function rankSparkline(points) {
+            const ranks = points.map(p => p[2]);
+            if (ranks.length < 2) return '';
+            const w = 320;
+            const h = 64;
+            const pad = 8;
+            const max = Math.max(...ranks);
+            const min = Math.min(...ranks);
+            const span = Math.max(max - min, 1);
+            const step = (w - pad * 2) / (ranks.length - 1);
+            const coords = ranks.map((r, i) => [pad + i * step, pad + ((r - min) / span) * (h - pad * 2)]);
+            const path = coords.map((c, i) => `${i ? 'L' : 'M'}${c[0].toFixed(1)} ${c[1].toFixed(1)}`).join(' ');
+            const dots = coords.map((c, i) => `<circle cx="${c[0].toFixed(1)}" cy="${c[1].toFixed(1)}" r="3.5"><title>GW ${points[i][0]}: #${ranks[i]}</title></circle>`).join('');
+            const label = points.map(p => `GW ${p[0]} #${p[2]}`).join(', ');
+            return `<svg class="rank-spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="Season rank after each gameweek: ${label}"><path d="${path}"/>${dots}</svg>`;
+        }
+
+        function profileUrl(author) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('user', author);
+            return url.toString();
+        }
+
+        function openProfile(author, fromHistory = false) {
+            const r = findPredictor(author);
+            if (!r) {
+                showNotice(`We couldn't find a predictor called ${author}.`);
+                return;
+            }
+            const history = r.history || [];
+            const wins = r.gw_wins || [];
+            document.getElementById('profile-name').innerText = r.Author;
+            document.getElementById('profile-sub').innerHTML = `<span class="rank-badge ${rankBadgeClass(r.Rank)}">#${r.Rank}</span> of ${rawLeaderboard.length} ${rankMoveHtml(r)} ${winsHtml(r)}`;
+            document.getElementById('profile-copy').dataset.author = r.Author;
+            document.getElementById('profile-copy').querySelector('span').innerText = 'Copy link';
+
+            const gwRows = history.slice().reverse().map(([gw, pts, rank, commentId]) => `
+                <div class="profile-gw">
+                    <span class="profile-gw-name">Gameweek ${gw}${wins.includes(gw) ? ' <i class="ph ph-trophy gw-win-icon" title="Gameweek winner"></i>' : ''}</span>
+                    <span class="profile-gw-pts">${pts === null ? '<span class="muted">Didn\'t play</span>' : `${pts} pts`}</span>
+                    <span class="profile-gw-rank">#${rank} after GW</span>
+                    ${commentId ? `<button class="btn-inspect" onclick="openPicks('${commentId}', ${gw})">Picks <i class="ph ph-arrow-right" aria-hidden="true"></i></button>` : '<span></span>'}
+                </div>
+            `).join('');
+
+            document.getElementById('profile-body').innerHTML = `
+                <div class="profile-stats">
+                    <div><span class="mobile-card-lbl">Season points</span><span class="profile-stat-val val-accent">${r.Total_Season_Points}</span></div>
+                    <div><span class="mobile-card-lbl">GWs played</span><span class="profile-stat-val">${r.Gameweeks_Played}</span></div>
+                    <div><span class="mobile-card-lbl">Exact scores</span><span class="profile-stat-val val-gold">${r['Total_Exact_Scores (3pts)']}</span></div>
+                    <div><span class="mobile-card-lbl">Correct results</span><span class="profile-stat-val">${r['Total_Outcome_Scores (1pt)']}</span></div>
+                </div>
+                ${history.length > 1 ? `<div><div class="modal-section-label"><i class="ph ph-chart-line" aria-hidden="true"></i>Season rank after each gameweek</div><div class="spark-wrap">${rankSparkline(history)}<div class="spark-axis"><span>GW ${history[0][0]}</span><span>GW ${history.at(-1)[0]}</span></div></div></div>` : ''}
+                <div>
+                    <div class="modal-section-label"><i class="ph ph-list-checks" aria-hidden="true"></i>Gameweek by gameweek</div>
+                    <div class="profile-gws">${gwRows || '<div class="modal-empty">No gameweeks yet.</div>'}</div>
+                </div>
+            `;
+            if (!fromHistory) pushUrl(profileUrl(r.Author));
+            const profileModal = document.getElementById('profile-modal');
+            profileModal.classList.add('active');
+            trapFocus(profileModal, closeProfile);
+        }
+
+        function replaceUrl(url) {
+            try { window.history.replaceState(null, '', url); } catch (e) { /* file:// or sandboxed frames */ }
+        }
+
+        function closeProfile(fromHistory = false) {
+            const profileModal = document.getElementById('profile-modal');
+            if (!profileModal.classList.contains('active')) return;
+            profileModal.classList.remove('active');
+            releaseFocus(profileModal);
+            const url = new URL(window.location.href);
+            if (!fromHistory && url.searchParams.has('user')) {
+                url.searchParams.delete('user');
+                replaceUrl(url.toString());
+            }
+        }
+
+        function openPicks(commentId, gw) {
+            closeProfile();
+            openModal(commentId, gw);
+        }
+
+        async function copyProfileLink() {
+            const btn = document.getElementById('profile-copy');
+            const url = profileUrl(btn.dataset.author);
+            try {
+                await navigator.clipboard.writeText(url);
+                btn.querySelector('span').innerText = 'Link copied';
+            } catch (e) {
+                window.prompt('Copy this link to share the profile:', url);
+            }
+        }
+
+        // ---------- Submission inspector ----------
+        async function openModal(commentId, gwNum) {
+            const gw = Number(gwNum || currentViewingGw || LIVE_ACTIVE_GAMEWEEK);
+            const cached = GW_DATA[gw] && DETAIL_REQUESTS[gw];
+            if (!cached) showLoadingOverlay('Loading submission', 'Fetching the comment and points breakdown...');
+            let r;
+            try {
+                const [gwData, detailMap] = await Promise.all([loadGw(gw), loadGwDetails(gw)]);
+                const summary = (gwData.records || []).find(x => x.comment_id === commentId);
+                r = summary ? { ...summary, ...(detailMap[commentId] || {}) } : null;
+            } catch (err) {
+                console.error(err);
+                showNotice("That submission couldn't be loaded. Check your connection and try again.");
+            } finally {
+                hideLoadingOverlay();
+            }
+            if (!r) return;
+            const gwKey = String(gw);
+
+            document.getElementById('modal-author').innerText = `${r.author} (Gameweek ${gwKey})`;
+            document.getElementById('modal-status-container').innerHTML = `
+                <span class="pill ${statusPillClass(r.status)}">${escapeHtml(r.status)} | Live Points: ${r.total_points} pts</span>
+            `;
+
+            document.getElementById('modal-submit-time').innerText = r.submission_gmt || 'N/A';
+
+            const editRow = document.getElementById('modal-edit-row');
+            if (r.is_edited && r.updated_gmt) {
+                editRow.style.display = 'flex';
+                document.getElementById('modal-edit-time').innerText = `${r.updated_gmt} ${r.edit_delta_str ? '(' + r.edit_delta_str + ')' : ''}`;
+            } else {
+                editRow.style.display = 'none';
+            }
+
+            const latenessRow = document.getElementById('modal-lateness-row');
+            if (r.lateness_str) {
+                latenessRow.style.display = 'flex';
+                document.getElementById('modal-lateness-val').innerText = r.lateness_str;
+            } else {
+                latenessRow.style.display = 'none';
+            }
+
+            document.getElementById('modal-timing-summary').innerText = r.timing_analysis || 'No timing flags recorded.';
+
+            const editHistorySection = document.getElementById('modal-edit-history-section');
+            const singleCommentSection = document.getElementById('modal-single-comment-section');
+
+            if (r.is_edited) {
+                editHistorySection.style.display = 'block';
+                singleCommentSection.style.display = 'none';
+
+                const diffDesc = document.getElementById('modal-edit-diff-desc');
+                const diffView = document.getElementById('modal-diff-view');
+                const timeline = document.getElementById('modal-revisions-timeline');
+
+                if (r.has_recorded_diff && r.diff_html) {
+                    diffDesc.innerText = "Comparing original snapshot vs in-between edits vs final version. Additions highlighted in green (+ added), modifications/deletions in red (- removed).";
+                    diffView.style.display = 'block';
+                    diffView.innerHTML = r.diff_html;
+                } else {
+                    diffDesc.innerText = "YouTube does not expose intermediate text states. Comment modification was detected via the YouTube API updated_at timestamp changing after original publish time.";
+                    diffView.style.display = 'none';
+                }
+
+                if (r.revisions && r.revisions.length > 0) {
+                    timeline.innerHTML = r.revisions.map((rev, revIdx) => `
+                        <div class="version-block">
+                            <div class="version-header">
+                                <span class="${revIdx === 0 ? 'version-label-first' : 'version-label-edit'}">
+                                    ${revIdx + 1}. ${escapeHtml(rev.label || 'Revision')}
+                                </span>
+                                <span class="version-time">${escapeHtml(rev.timestamp_gmt || rev.timestamp || '')}</span>
+                            </div>
+                            <div class="version-text">${escapeHtml(rev.text)}</div>
+                        </div>
+                    `).join('');
+                } else {
+                    timeline.innerHTML = `
+                        <div class="version-block">
+                            <div class="version-header">
+                                <span class="version-label-edit">Current modified version (disqualified)</span>
+                                <span class="version-time">${escapeHtml(r.updated_gmt || r.submission_gmt)}</span>
+                            </div>
+                            <div class="version-text">${escapeHtml(r.raw_text || '')}</div>
+                        </div>
+                    `;
+                }
+            } else {
+                editHistorySection.style.display = 'none';
+                singleCommentSection.style.display = 'block';
+                document.getElementById('modal-raw-comment').innerText = r.raw_text || 'No text';
+            }
+
+            const fixContainer = document.getElementById('modal-fixtures-list');
+            const fixDict = r.fixtures || {};
+            const fixKeys = Object.keys(fixDict);
+
+            if (fixKeys.length === 0) {
+                fixContainer.innerHTML = '<div class="modal-empty">No fixture matches found in comment.</div>';
+            } else {
+                fixContainer.innerHTML = fixKeys.map(k => {
+                    const item = fixDict[k];
+                    let rowClass = 'miss';
+                    let badge = '<span class="pill pill-neutral">0 pts</span>';
+
+                    if (item.points === 3) {
+                        rowClass = 'exact';
+                        badge = '<span class="pill pill-exact">3 pts (Exact)</span>';
+                    } else if (item.points === 1) {
+                        rowClass = 'outcome';
+                        badge = '<span class="pill pill-valid">1 pt (Outcome)</span>';
+                    } else if (item.result && item.result.includes('Void*')) {
+                        rowClass = 'voided';
+                        badge = '<span class="pill pill-late">0 pts (Void* Late)</span>';
+                    } else if (item.result && item.result.includes('Disqualified')) {
+                        rowClass = 'voided';
+                        badge = '<span class="pill pill-disqualified">0 pts (Edited)</span>';
+                    } else if (item.pred !== 'N/A' && item.actual === 'TBD') {
+                        rowClass = 'pending';
+                        badge = '<span class="pill pill-pending">Pending kickoff</span>';
+                    }
+
+                    const parts = k.split(' vs ');
+                    const hName = parts[0] ? parts[0].trim() : k;
+                    const aName = parts[1] ? parts[1].trim() : '';
+                    const hLogo = getTeamLogoJS(hName);
+                    const aLogo = getTeamLogoJS(aName);
+
+                    return `
+                        <div class="fix-audit-row ${rowClass}">
+                            <div>
+                                <div class="fix-audit-teams">
+                                    <img src="${hLogo}" class="team-badge-sm" alt="${escapeHtml(hName)}" onerror="this.src='${FALLBACK_BADGE}'">
+                                    <span>${escapeHtml(hName)}</span>
+                                    <span class="fix-audit-vs">vs</span>
+                                    <span>${escapeHtml(aName)}</span>
+                                    ${aName ? `<img src="${aLogo}" class="team-badge-sm" alt="${escapeHtml(aName)}" onerror="this.src='${FALLBACK_BADGE}'">` : ''}
+                                </div>
+                                <div class="fix-audit-result">
+                                    ${escapeHtml(item.result || 'No Match')}
+                                </div>
+                            </div>
+                            <div class="fix-audit-right">
+                                <div class="fix-audit-scores">
+                                    Pred <b class="pred">${escapeHtml(item.pred)}</b> &middot; Actual <b>${escapeHtml(item.actual)}</b>
+                                </div>
+                                ${badge}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            const modal = document.getElementById('modal');
+            modal.classList.add('active');
+            trapFocus(modal, closeModal);
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.classList.remove('active');
+            releaseFocus(modal);
+        }
+
+        window.onclick = function (event) {
+            if (event.target === document.getElementById('modal')) closeModal();
+            if (event.target === document.getElementById('profile-modal')) closeProfile();
+        };
+
+        // Run On Load
+        document.getElementById('kickoff-tz-note').innerText = `Kickoff times in your local time (${LOCAL_TZ})`;
+        renderLeague();
+        renderDeadline();
+        setInterval(renderDeadline, 1000);
+        if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+            navigator.serviceWorker.register('sw.js').catch(err => console.warn('Offline support unavailable:', err));
+        }
+
+        initNavigationTabs();
+        switchMatchView(matchFromUrl(), true);
+        switchMainTab(viewFromUrl(), true);
+        fetchSiteJson('leaderboard.json').then(rows => {
+            rawLeaderboard = rows;
+            leaderboardState = 'ready';
+        }).catch(err => {
+            console.error(err);
+            leaderboardState = 'error';
+        }).finally(() => {
+            if (currentTab === 'leaderboard') renderSeasonMetrics();
+            filterAndSort();
+            const wanted = new URLSearchParams(window.location.search).get('user');
+            if (wanted && leaderboardState === 'ready') openProfile(wanted, true);
+        });
+    </script>
+</body>
+</html>
