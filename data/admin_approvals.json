@@ -1,25 +1,53 @@
 {
   "GW_1": {
     "@AwesomeYears": {
+      "2": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:21:17.239Z",
+        "pred_home": 2,
+        "pred_away": 2
+      },
       "4": {
         "status": "approved",
-        "timestamp": "2026-08-24T14:54:25.120Z"
+        "timestamp": "2026-09-29T13:21:17.239Z",
+        "pred_home": 1,
+        "pred_away": 3
+      },
+      "5": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:21:17.239Z",
+        "pred_home": 0,
+        "pred_away": 1
       },
       "6": {
         "status": "approved",
-        "timestamp": "2026-09-04T21:48:55.563Z",
+        "timestamp": "2026-09-29T13:21:17.239Z",
         "pred_home": 2,
+        "pred_away": 1
+      },
+      "7": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:21:17.239Z",
+        "pred_home": 3,
         "pred_away": 1
       },
       "8": {
         "status": "approved",
-        "timestamp": "2026-09-04T21:48:47.852Z",
+        "timestamp": "2026-09-29T13:21:17.239Z",
         "pred_home": 0,
         "pred_away": 1
       },
+      "9": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:21:17.239Z",
+        "pred_home": 0,
+        "pred_away": 0
+      },
       "10": {
         "status": "approved",
-        "timestamp": "2026-08-24T14:54:31.700Z"
+        "timestamp": "2026-09-29T13:21:17.240Z",
+        "pred_home": 1,
+        "pred_away": 1
       }
     },
     "@Nissemannen4": {
@@ -421,6 +449,12 @@
       }
     },
     "@LavinA1459": {
+      "3": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:21:37.512Z",
+        "pred_home": 0,
+        "pred_away": 0
+      },
       "4": {
         "status": "approved",
         "timestamp": "2026-08-24T16:10:35.868Z",
@@ -547,6 +581,22 @@
         "status": "approved",
         "timestamp": "2026-09-04T21:52:09.356Z",
         "pred_home": 2,
+        "pred_away": 2
+      }
+    },
+    "@TechbroGT": {
+      "8": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:21:48.756Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
+    },
+    "@rohailmahmood3847": {
+      "4": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:21:53.057Z",
+        "pred_home": 0,
         "pred_away": 2
       }
     }
@@ -806,6 +856,14 @@
         "timestamp": "2026-09-04T21:47:51.042Z",
         "pred_home": 0,
         "pred_away": 4
+      }
+    },
+    "@danielmcallahan": {
+      "18": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:20:44.858Z",
+        "pred_home": 3,
+        "pred_away": 0
       }
     }
   },
@@ -1100,6 +1158,38 @@
         "timestamp": "2026-09-11T09:56:57.249Z",
         "pred_home": 4,
         "pred_away": 0
+      }
+    },
+    "@danielmcallahan": {
+      "30": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:20:34.327Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
+    },
+    "@itschris2628": {
+      "30": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:20:34.327Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
+    },
+    "@eliashaugenberg5879": {
+      "28": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:20:34.327Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
+    },
+    "@AyushSharma-qy2si": {
+      "27": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:20:34.327Z",
+        "pred_home": 2,
+        "pred_away": 2
       }
     }
   },
@@ -1685,6 +1775,46 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@missleafeatheleafeon2593": {
+      "34": {
+        "status": "rejected",
+        "timestamp": "2026-09-29T13:18:54.630Z",
+        "pred_home": 3,
+        "pred_away": 9
+      }
+    },
+    "@elliotking4807": {
+      "38": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@faisalaldahlawi6560": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 2,
+        "pred_away": 3
+      }
+    },
+    "@danielmcallahan": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@itschris2628": {
+      "39": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:19:24.257Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   },
   "GW_5": {
@@ -1756,6 +1886,12 @@
         "timestamp": "2026-09-18T12:51:47.937Z",
         "pred_home": 1,
         "pred_away": 2
+      },
+      "42": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:17:53.542Z",
+        "pred_home": 1,
+        "pred_away": 3
       }
     },
     "@jhiyu": {
@@ -2187,9 +2323,15 @@
       }
     },
     "@missleafeatheleafeon2593": {
+      "43": {
+        "status": "rejected",
+        "timestamp": "2026-09-29T13:16:59.955Z",
+        "pred_home": 3,
+        "pred_away": 8
+      },
       "46": {
         "status": "rejected",
-        "timestamp": "2026-09-18T13:09:04.090Z",
+        "timestamp": "2026-09-29T13:16:59.955Z",
         "pred_home": 5,
         "pred_away": 6
       }
@@ -2246,6 +2388,22 @@
         "timestamp": "2026-09-21T07:42:49.724Z",
         "pred_home": 0,
         "pred_away": 0
+      }
+    },
+    "@danielmcallahan": {
+      "50": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:18:21.101Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
+    },
+    "@faisalaldahlawi6560": {
+      "50": {
+        "status": "approved",
+        "timestamp": "2026-09-29T13:18:21.101Z",
+        "pred_home": 1,
+        "pred_away": 3
       }
     }
   }

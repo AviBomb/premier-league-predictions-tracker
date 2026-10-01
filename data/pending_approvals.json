@@ -69,7 +69,8 @@
     "pred_away": 3,
     "confidence": 86,
     "detected_teams": "Hull City vs Manchester United",
-    "status": "approved"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_AwesomeYears_5",
@@ -197,7 +198,8 @@
     "pred_away": 1,
     "confidence": 80,
     "detected_teams": "Fulham vs Chelsea",
-    "status": "approved"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw1_abdallahalkabany5075_6",
