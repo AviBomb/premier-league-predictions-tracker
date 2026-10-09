@@ -12,13 +12,14 @@
       "06e641200a1d5a3e787acbb79740245ca8b9e04e586dd015606bb89714a062ce": "ir***s@gmail.com"
     }
   },
-  "active_gameweek": 5,
+  "active_gameweek": 6,
   "registered_videos": {
     "1": "https://www.youtube.com/watch?v=qtId_ahtv1E",
     "2": "https://www.youtube.com/watch?v=ZyUd-47fRT8",
     "3": "https://www.youtube.com/watch?v=6Ezl5T_rH_c",
     "4": "https://www.youtube.com/watch?v=iRVVXaU6zGY",
-    "5": "https://www.youtube.com/watch?v=gTi5unw3-PE"
+    "5": "https://www.youtube.com/watch?v=gTi5unw3-PE",
+    "6": "https://www.youtube.com/watch?v=JaXM4KleFnk"
   },
   "team_aliases": {
     "Arsenal": [
@@ -2133,7 +2134,19 @@
       ],
       "video_url": "https://www.youtube.com/watch?v=gTi5unw3-PE",
       "use_live_fpl_api": true
+    },
+    "6": {
+      "fixtures": [],
+      "video_url": "https://www.youtube.com/watch?v=JaXM4KleFnk"
     }
   },
-  "cloud_sync_worker_url": "https://pl-tracker-sync.theirishguy-pl.workers.dev"
+  "cloud_sync_worker_url": "https://pl-tracker-sync.theirishguy-pl.workers.dev",
+  "audit_log": [
+    {
+      "at": "2026-10-09T19:27:21.422Z",
+      "by": "av***b@gmail.com",
+      "action": "Set the live gameweek",
+      "detail": "Gameweek 6"
+    }
+  ]
 }
