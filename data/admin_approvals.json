@@ -2635,6 +2635,96 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@sannymiguelculla30": {
+      "57": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@Stonix737": {
+      "57": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
+    },
+    "@crazycraftkids": {
+      "57": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 1,
+        "pred_away": 0
+      }
+    },
+    "@ZelZal98": {
+      "57": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 1,
+        "pred_away": 0
+      }
+    },
+    "@RavynFFH": {
+      "53": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
+    },
+    "@alfredopergreno9543": {
+      "57": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
+    },
+    "@JuniorG107": {
+      "54": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
+    },
+    "@eliashaugenberg5879": {
+      "54": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 1,
+        "pred_away": 3
+      }
+    },
+    "@SebokaMpe": {
+      "52": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:12:06.742Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "pred_home": 4,
+        "pred_away": 3
+      }
     }
   }
 }
