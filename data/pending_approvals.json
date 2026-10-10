@@ -8058,6 +8058,114 @@
     "admin_corrected": true
   },
   {
+    "id": "cand_gw6_krimson2077_59",
+    "gameweek": 6,
+    "author": "@krimson2077",
+    "comment_id": "UgzB9hFIHe6t0ZPfW694AaABAg",
+    "published_at": "2026-10-10T09:17:51Z",
+    "raw_line": "Man unitef 2-2 Tottenham hotspur",
+    "full_comment": "Arsenal 1-0 Leeds\nAston Villa 1-2 Brentford\nIpswich 2-1 Fulham\nChelsea 3-1 bournemouth\nSunderland 2-2 Brighton\nMan unitef 2-2 Tottenham hotspur\nCrystal palace 1-2 Nottingham Forest\nHull city 0-1 Everton\nLiverpool 2-1 manchester city\nCoventry 0-3 Newcastle",
+    "other_predictions": {
+      "Arsenal vs Leeds United": "1 - 0",
+      "Aston Villa vs Brentford": "1 - 2",
+      "Ipswich Town vs Fulham": "2 - 1",
+      "Chelsea vs AFC Bournemouth": "3 - 1",
+      "Sunderland vs Brighton & Hove Albion": "2 - 2",
+      "Crystal Palace vs Nottingham Forest": "1 - 2",
+      "Hull City vs Everton": "0 - 1",
+      "Liverpool vs Manchester City": "2 - 1",
+      "Coventry City vs Newcastle United": "0 - 3"
+    },
+    "fixture_id": 59,
+    "home_team": "Manchester United",
+    "away_team": "Tottenham Hotspur",
+    "pred_home": 2,
+    "pred_away": 2,
+    "confidence": 91,
+    "detected_teams": "Manchester United vs Tottenham Hotspur",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw6_DummyMamatv4hg_57",
+    "gameweek": 6,
+    "author": "@DummyMama-tv4hg",
+    "comment_id": "UgzxV7vQ0ZstFd3MHBN4AaABAg",
+    "published_at": "2026-10-10T07:07:15Z",
+    "raw_line": "Ipawich 1-1 Fulham",
+    "full_comment": "Arsenal 2:1 Leeds\r\nAston Villa 0:2 Brentford \r\nChelsea 2:1 Bournemouth \r\nIpawich 1:1 Fulham \r\nSunderland 1:3 Brighton \r\nMan United 0:0 Spurs \r\nCrystal Palace 1:2 Nottingham Forest \r\nHull 1:1 Everton\r\nLiverpool 2:2 Man City \r\nCoventry 1:3 Newcastle",
+    "other_predictions": {
+      "Arsenal vs Leeds United": "2 - 1",
+      "Aston Villa vs Brentford": "0 - 2",
+      "Chelsea vs AFC Bournemouth": "2 - 1",
+      "Sunderland vs Brighton & Hove Albion": "1 - 3",
+      "Manchester United vs Tottenham Hotspur": "0 - 0",
+      "Crystal Palace vs Nottingham Forest": "1 - 2",
+      "Hull City vs Everton": "1 - 1",
+      "Liverpool vs Manchester City": "2 - 2",
+      "Coventry City vs Newcastle United": "1 - 3"
+    },
+    "fixture_id": 57,
+    "home_team": "Ipswich Town",
+    "away_team": "Fulham",
+    "pred_home": 1,
+    "pred_away": 1,
+    "confidence": 93,
+    "detected_teams": "Ipswich Town vs Fulham",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw6_nguyencole6334_53",
+    "gameweek": 6,
+    "author": "@nguyencole6334",
+    "comment_id": "UgwVVHszzmwYqRYx_2R4AaABAg",
+    "published_at": "2026-10-10T07:02:53Z",
+    "raw_line": "Chel 2-1 Bou",
+    "full_comment": "Arsenal 1-0 Leeds\nVilla 1-2 Brentford\nChel 2-1 Bou\nIps 1-2 Ful\nSun 1-2 Bri\nMan United 2-1 Spurs\nPalace 1-1 Forest\nHul 0-0 Eve\nLiv 2-1 Man City",
+    "other_predictions": {
+      "Arsenal vs Leeds United": "1 - 0",
+      "Aston Villa vs Brentford": "1 - 2",
+      "Ipswich Town vs Fulham": "1 - 2",
+      "Manchester United vs Tottenham Hotspur": "2 - 1",
+      "Crystal Palace vs Nottingham Forest": "1 - 1",
+      "Hull City vs Everton": "0 - 0",
+      "Liverpool vs Manchester City": "2 - 1"
+    },
+    "fixture_id": 53,
+    "home_team": "Chelsea",
+    "away_team": "AFC Bournemouth",
+    "pred_home": 2,
+    "pred_away": 1,
+    "confidence": 82,
+    "detected_teams": "Chelsea vs AFC Bournemouth",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw6_nguyencole6334_60",
+    "gameweek": 6,
+    "author": "@nguyencole6334",
+    "comment_id": "UgwVVHszzmwYqRYx_2R4AaABAg",
+    "published_at": "2026-10-10T07:02:53Z",
+    "raw_line": "Sun 1-2 Bri",
+    "full_comment": "Arsenal 1-0 Leeds\nVilla 1-2 Brentford\nChel 2-1 Bou\nIps 1-2 Ful\nSun 1-2 Bri\nMan United 2-1 Spurs\nPalace 1-1 Forest\nHul 0-0 Eve\nLiv 2-1 Man City",
+    "other_predictions": {
+      "Arsenal vs Leeds United": "1 - 0",
+      "Aston Villa vs Brentford": "1 - 2",
+      "Ipswich Town vs Fulham": "1 - 2",
+      "Manchester United vs Tottenham Hotspur": "2 - 1",
+      "Crystal Palace vs Nottingham Forest": "1 - 1",
+      "Hull City vs Everton": "0 - 0",
+      "Liverpool vs Manchester City": "2 - 1"
+    },
+    "fixture_id": 60,
+    "home_team": "Sunderland",
+    "away_team": "Brighton & Hove Albion",
+    "pred_home": 1,
+    "pred_away": 2,
+    "confidence": 61,
+    "detected_teams": "Sunderland vs Brighton & Hove Albion",
+    "status": "pending"
+  },
+  {
     "id": "cand_gw6_sannymiguelculla30_57",
     "gameweek": 6,
     "author": "@sannymiguelculla30",
@@ -8083,7 +8191,8 @@
     "pred_away": 2,
     "confidence": 93,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_NathanielCarpenterg2y_53",
@@ -8111,7 +8220,8 @@
     "pred_away": 3,
     "confidence": 95,
     "detected_teams": "Chelsea vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Stonix737_57",
@@ -8137,7 +8247,8 @@
     "pred_away": 2,
     "confidence": 93,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_crazycraftkids_57",
@@ -8165,7 +8276,8 @@
     "pred_away": 0,
     "confidence": 93,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_ZelZal98_57",
@@ -8193,7 +8305,8 @@
     "pred_away": 0,
     "confidence": 93,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_RavynFFH_53",
@@ -8221,7 +8334,8 @@
     "pred_away": 2,
     "confidence": 93,
     "detected_teams": "Chelsea vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_nyendwakabayi3323_59",
@@ -8248,7 +8362,8 @@
     "pred_away": 1,
     "confidence": 95,
     "detected_teams": "Manchester United vs Tottenham Hotspur",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_nyendwakabayi3323_54",
@@ -8275,7 +8390,8 @@
     "pred_away": 3,
     "confidence": 97,
     "detected_teams": "Coventry City vs Newcastle United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_alfredopergreno9543_57",
@@ -8303,7 +8419,8 @@
     "pred_away": 1,
     "confidence": 93,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_JuniorG107_54",
@@ -8331,7 +8448,8 @@
     "pred_away": 2,
     "confidence": 94,
     "detected_teams": "Coventry City vs Newcastle United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_51",
@@ -8349,7 +8467,8 @@
     "pred_away": 3,
     "confidence": 100,
     "detected_teams": "Arsenal vs Leeds United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_52",
@@ -8367,7 +8486,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Aston Villa vs Brentford",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_53",
@@ -8385,7 +8505,8 @@
     "pred_away": 3,
     "confidence": 100,
     "detected_teams": "Chelsea vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_57",
@@ -8403,7 +8524,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_60",
@@ -8421,7 +8543,8 @@
     "pred_away": 3,
     "confidence": 100,
     "detected_teams": "Sunderland vs Brighton & Hove Albion",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_59",
@@ -8439,7 +8562,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Manchester United vs Tottenham Hotspur",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_55",
@@ -8457,7 +8581,8 @@
     "pred_away": 1,
     "confidence": 97,
     "detected_teams": "Crystal Palace vs Nottingham Forest",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_56",
@@ -8475,7 +8600,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Hull City vs Everton",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_58",
@@ -8493,7 +8619,8 @@
     "pred_away": 3,
     "confidence": 100,
     "detected_teams": "Liverpool vs Manchester City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Sheino97_54",
@@ -8511,7 +8638,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Coventry City vs Newcastle United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Lamppost447_51",
@@ -8538,7 +8666,8 @@
     "pred_away": 1,
     "confidence": 90,
     "detected_teams": "Arsenal vs Leeds United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_Lamppost447_60",
@@ -8565,7 +8694,8 @@
     "pred_away": 2,
     "confidence": 98,
     "detected_teams": "Sunderland vs Brighton & Hove Albion",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_thedesert546_57",
@@ -8593,7 +8723,8 @@
     "pred_away": 1,
     "confidence": 97,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_eliashaugenberg5879_54",
@@ -8621,7 +8752,8 @@
     "pred_away": 3,
     "confidence": 94,
     "detected_teams": "Coventry City vs Newcastle United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_SebokaMpe_52",
@@ -8648,7 +8780,8 @@
     "pred_away": 3,
     "confidence": 94,
     "detected_teams": "Aston Villa vs Brentford",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_ramii00_57",
@@ -8676,7 +8809,8 @@
     "pred_away": 1,
     "confidence": 93,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_51",
@@ -8694,7 +8828,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Arsenal vs Leeds United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_52",
@@ -8712,7 +8847,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Aston Villa vs Brentford",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_53",
@@ -8730,7 +8866,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Chelsea vs AFC Bournemouth",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_57",
@@ -8748,7 +8885,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Ipswich Town vs Fulham",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_60",
@@ -8766,7 +8904,8 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Sunderland vs Brighton & Hove Albion",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_59",
@@ -8784,7 +8923,8 @@
     "pred_away": 1,
     "confidence": 91,
     "detected_teams": "Manchester United vs Tottenham Hotspur",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_55",
@@ -8802,7 +8942,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Crystal Palace vs Nottingham Forest",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_56",
@@ -8820,7 +8961,8 @@
     "pred_away": 0,
     "confidence": 100,
     "detected_teams": "Hull City vs Everton",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_58",
@@ -8838,7 +8980,8 @@
     "pred_away": 2,
     "confidence": 100,
     "detected_teams": "Liverpool vs Manchester City",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw6_pedroconceicao6700_54",
@@ -8856,6 +8999,7 @@
     "pred_away": 1,
     "confidence": 100,
     "detected_teams": "Coventry City vs Newcastle United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   }
 ]
