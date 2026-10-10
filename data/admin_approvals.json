@@ -2589,6 +2589,24 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@nyendwakabayi3323": {
+      "54": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:10:19.372Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-10T05:10:19.372Z",
+        "pred_home": 0,
+        "pred_away": 3
+      },
+      "59": {
+        "status": "approved",
+        "timestamp": "2026-10-10T05:10:19.372Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-10T05:10:19.372Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
     }
   }
 }
