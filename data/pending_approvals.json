@@ -8058,6 +8058,24 @@
     "admin_corrected": true
   },
   {
+    "id": "cand_gw6_lwandilentaphane5719_58",
+    "gameweek": 6,
+    "author": "@lwandilentaphane5719",
+    "comment_id": "UgzYjsXV056fkRvjQrJ4AaABAg",
+    "published_at": "2026-10-10T19:56:25Z",
+    "raw_line": "Liverpool ain't beating City buddy. Let alone winning 3-0 This has to be the worst prediction ever😂😂",
+    "full_comment": "Liverpool ain't beating City buddy. Let alone winning 3-0. This has to be the worst prediction ever😂😂",
+    "other_predictions": {},
+    "fixture_id": 58,
+    "home_team": "Liverpool",
+    "away_team": "Manchester City",
+    "pred_home": 3,
+    "pred_away": 0,
+    "confidence": 82,
+    "detected_teams": "Liverpool vs Manchester City",
+    "status": "pending"
+  },
+  {
     "id": "cand_gw6_andyw8025_58",
     "gameweek": 6,
     "author": "@andyw8025",

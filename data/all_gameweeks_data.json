@@ -219941,6 +219941,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "Ugxt7gH9Sw39Dl8WUtB4AaABAg",
+        "author": "@KABulletsFootballingChannel",
+        "channel_url": "http://www.youtube.com/@KABulletsFootballingChannel",
+        "published_at": "2026-10-10T19:44:55Z",
+        "updated_at": "2026-10-10T19:44:55Z",
+        "submission_gmt": "2026-10-10 19:44:55 GMT",
+        "updated_gmt": "2026-10-10 19:44:55 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "",
+        "timing_analysis": "Submitted 8h 14m before earliest kickoff (2026-10-10 19:44:55 GMT)",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid",
+        "raw_text": "I forgot to comment this week’s predictions for the first 6 matches, as I found this video too late.\n\nRemaining matches:\n\nCrystal Palace 1 Nottingham Forest 2\nHull 0 Everton 0\nLiverpool 3 Man City 1\nCoventry 0 Newcastle 2",
+        "original_comment_text": "I forgot to comment this week’s predictions for the first 6 matches, as I found this video too late.\n\nRemaining matches:\n\nCrystal Palace 1 Nottingham Forest 2\nHull 0 Everton 0\nLiverpool 3 Man City 1\nCoventry 0 Newcastle 2",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 4,
+        "valid_matches_count": 4,
+        "late_matches_count": 0,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Arsenal vs Leeds United": {
+            "pred": "N/A",
+            "actual": "2-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Aston Villa vs Brentford": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Chelsea vs AFC Bournemouth": {
+            "pred": "N/A",
+            "actual": "5-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Ipswich Town vs Fulham": {
+            "pred": "N/A",
+            "actual": "2-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Sunderland vs Brighton & Hove Albion": {
+            "pred": "N/A",
+            "actual": "0-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Manchester United vs Tottenham Hotspur": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Crystal Palace vs Nottingham Forest": {
+            "pred": "1-2",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Hull City vs Everton": {
+            "pred": "0-0",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Liverpool vs Manchester City": {
+            "pred": "3-1",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          },
+          "Coventry City vs Newcastle United": {
+            "pred": "0-2",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          }
+        }
+      },
+      {
         "comment_id": "Ugyw76A6sVFa36lbcMt4AaABAg",
         "author": "@ElecTrick11037",
         "channel_url": "http://www.youtube.com/@ElecTrick11037",
