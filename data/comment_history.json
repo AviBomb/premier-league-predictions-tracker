@@ -24598,9 +24598,14 @@
   "UgzCVuxpOjv-MxirS8Z4AaABAg": {
     "initial_text": "Arsenal 3-0 Leeds \nAston Villa 2-0 Brentford \nChelsea 3-2 Bournemouth \nIpswich 3-0 Fulham \nSunderland 2-1 Brighton \nManchester 4-1 Tottenham Hotspur \nHull 2-2 Everton \nLiverpool 2-0 Man City \nCoventry 1-1 Newcastle",
     "initial_pub": "2026-10-09T15:20:21Z",
-    "revisions": [],
-    "latest_text": "Arsenal 3-0 Leeds \nAston Villa 2-0 Brentford \nChelsea 3-2 Bournemouth \nIpswich 3-0 Fulham \nSunderland 2-1 Brighton \nManchester 4-1 Tottenham Hotspur \nHull 2-2 Everton \nLiverpool 2-0 Man City \nCoventry 1-1 Newcastle",
-    "latest_upd": "2026-10-09T15:20:21Z"
+    "revisions": [
+      {
+        "timestamp": "2026-10-09T15:20:21Z",
+        "text": "Arsenal 3-0 Leeds \nAston Villa 2-0 Brentford \nChelsea 3-2 Bournemouth \nIpswich 3-0 Fulham \nSunderland 2-1 Brighton \nManchester 4-1 Tottenham Hotspur \nHull 2-2 Everton \nLiverpool 2-0 Man City \nCoventry 1-1 Newcastle"
+      }
+    ],
+    "latest_text": "Arsenal 3-0 Leeds \nAston Villa 2-0 Brentford \nChelsea 3-2 Bournemouth \nIpswich 3-0 Fulham \nSunderland 2-1 Brighton \nManchester United 4-1 Tottenham Hotspur \nCrystal Palace 1-2 Nottingham Forest \nHull 2-2 Everton \nLiverpool 2-0 Man City \nCoventry 1-1 Newcastle",
+    "latest_upd": "2026-10-11T14:39:33Z"
   },
   "Ugx2mnEi9Ajhv91ioRp4AaABAg": {
     "initial_text": "Arsenal 3-1 Leeds\nAston Villa 1-1 Brentford\nIpswich 1-2 Fulham \nChelsea 4-2 Bournemouth \nSunderland 0-2 Brighton \nMan United 0-0 Tottenham \nPalace 1-1 Forest \nHull 2-0 Everton\nLiverpool 2-2 Man City\nCoventry 0-2 Newcastle",
@@ -26736,5 +26741,19 @@
     "revisions": [],
     "latest_text": "08:31 But\u2026 but\u2026 but man u lose because of man city cheating and sham contract. \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
     "latest_upd": "2026-10-11T02:51:04Z"
+  },
+  "UgwZlZNaxVWb-GUO2it4AaABAg": {
+    "initial_text": "3x0 City, you are always wrong",
+    "initial_pub": "2026-10-11T19:12:49Z",
+    "revisions": [],
+    "latest_text": "3x0 City, you are always wrong",
+    "latest_upd": "2026-10-11T19:12:49Z"
+  },
+  "UgztbGurvoVDrkGEcVZ4AaABAg": {
+    "initial_text": "4-0 liv win \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude2d\ud83d\ude2d",
+    "initial_pub": "2026-10-11T16:58:59Z",
+    "revisions": [],
+    "latest_text": "4-0 liv win \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude2d\ud83d\ude2d",
+    "latest_upd": "2026-10-11T16:59:03Z"
   }
 }
