@@ -243102,94 +243102,99 @@
         "author": "@lewis_.s7",
         "channel_url": "http://www.youtube.com/@lewis_.s7",
         "published_at": "2026-10-09T18:10:50Z",
-        "updated_at": "2026-10-09T18:10:50Z",
+        "updated_at": "2026-10-11T19:41:08Z",
         "submission_gmt": "2026-10-09 18:10:50 GMT",
-        "updated_gmt": "2026-10-09 18:10:50 GMT",
-        "edit_delta_str": "",
+        "updated_gmt": "2026-10-11 19:41:08 GMT",
+        "edit_delta_str": "Edited 49h 30m after original post",
         "lateness_str": "",
-        "timing_analysis": "Submitted 17h 19m before earliest kickoff (2026-10-09 18:10:50 GMT)",
-        "is_edited": false,
-        "has_recorded_diff": false,
-        "status": "Valid",
-        "raw_text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1",
+        "timing_analysis": "Comment was edited on YouTube. Initially posted: 2026-10-09 18:10:50 GMT | Last edited: 2026-10-11 19:41:08 GMT (Edited 49h 30m after original post)",
+        "is_edited": true,
+        "has_recorded_diff": true,
+        "status": "Disqualified (Comment was Edited)",
+        "raw_text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1\nCoventry 0 Newcastle 1\n\nEDIT: Forgot to include Coventry Newcastle. Other predictions stayed the same.",
         "original_comment_text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1",
-        "revisions": [],
-        "diff_html": "",
-        "matches_found": 9,
-        "valid_matches_count": 9,
+        "revisions": [
+          {
+            "timestamp": "2026-10-09T18:10:50Z",
+            "text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1"
+          }
+        ],
+        "diff_html": "<div class='diff-line' style='color:#ccc;'>GW6 Predictions:</div><div class='diff-line' style='color:#ccc;'></div><div class='diff-line' style='color:#ccc;'>Arsenal 1 Leeds 0</div><div class='diff-line' style='color:#ccc;'>Villa 1 Brentford 1</div><div class='diff-line' style='color:#ccc;'>Chelsea 2 Bournemouth 2</div><div class='diff-line' style='color:#ccc;'>Ipswich 1 Fulham 0</div><div class='diff-line' style='color:#ccc;'>Sunderland 1 Brighton 2</div><div class='diff-line' style='color:#ccc;'>Man Utd 2 Tottenham 1</div><div class='diff-line' style='color:#ccc;'>Palace 0 Forest 1</div><div class='diff-line' style='color:#ccc;'>Hull 0 Everton 0</div><div class='diff-line' style='color:#ccc;'>Liverpool 2 Man City 1</div><div class='diff-line diff-add'>+ Coventry 0 Newcastle 1</div><div class='diff-line diff-add'>+ </div><div class='diff-line diff-add'>+ EDIT: Forgot to include Coventry Newcastle. Other predictions stayed the same.</div>",
+        "matches_found": 10,
+        "valid_matches_count": 0,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 0,
+        "total_points": 0,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-0",
             "actual": "2-1",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Aston Villa vs Brentford": {
             "pred": "1-1",
             "actual": "2-2",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Chelsea vs AFC Bournemouth": {
             "pred": "2-2",
             "actual": "5-1",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Ipswich Town vs Fulham": {
             "pred": "1-0",
             "actual": "2-1",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Sunderland vs Brighton & Hove Albion": {
             "pred": "1-2",
             "actual": "0-2",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Manchester United vs Tottenham Hotspur": {
             "pred": "2-1",
             "actual": "1-1",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Crystal Palace vs Nottingham Forest": {
             "pred": "0-1",
             "actual": "3-1",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Hull City vs Everton": {
             "pred": "0-0",
             "actual": "2-2",
-            "points": 1,
-            "result": "Outcome",
+            "points": 0,
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Liverpool vs Manchester City": {
             "pred": "2-1",
             "actual": "0-3",
             "points": 0,
-            "result": "Miss",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           },
           "Coventry City vs Newcastle United": {
-            "pred": "N/A",
+            "pred": "0-1",
             "actual": "TBD",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Pending (Disqualified - Edited Comment)",
             "is_late": false
           }
         }

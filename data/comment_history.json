@@ -23709,9 +23709,14 @@
   "UgziKOpW3NeDsjlEvr94AaABAg": {
     "initial_text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1",
     "initial_pub": "2026-10-09T18:10:50Z",
-    "revisions": [],
-    "latest_text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1",
-    "latest_upd": "2026-10-09T18:10:50Z"
+    "revisions": [
+      {
+        "timestamp": "2026-10-09T18:10:50Z",
+        "text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1"
+      }
+    ],
+    "latest_text": "GW6 Predictions:\n\nArsenal 1 Leeds 0\nVilla 1 Brentford 1\nChelsea 2 Bournemouth 2\nIpswich 1 Fulham 0\nSunderland 1 Brighton 2\nMan Utd 2 Tottenham 1\nPalace 0 Forest 1\nHull 0 Everton 0\nLiverpool 2 Man City 1\nCoventry 0 Newcastle 1\n\nEDIT: Forgot to include Coventry Newcastle. Other predictions stayed the same.",
+    "latest_upd": "2026-10-11T19:41:08Z"
   },
   "UgyanlDlfpsnQLJCtEx4AaABAg": {
     "initial_text": "Arsenal 1-0 Leeds\nAston Villa 2-2 Brentford\nIpswich 1-1 Fulham\nChelsea 3-1 Bournemouth\nSunderland 1-2 Brighton\nMan Utd 2-0 Spurs\nPalace 1-2 Forest\nHull 0-2 Everton\nLiverpool 1-2 Man City\nCoventry 0-2 Newcastle",
@@ -26755,5 +26760,19 @@
     "revisions": [],
     "latest_text": "4-0 liv win \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude2d\ud83d\ude2d",
     "latest_upd": "2026-10-11T16:59:03Z"
+  },
+  "UgyT9Bz7p3zVCT8hg7Z4AaABAg": {
+    "initial_text": "whos here after city smashed those turkeylike red punks 3-0",
+    "initial_pub": "2026-10-11T21:14:15Z",
+    "revisions": [],
+    "latest_text": "whos here after city smashed those turkeylike red punks 3-0",
+    "latest_upd": "2026-10-11T21:14:15Z"
+  },
+  "Ugx2nv1b4FFL7zdfVLF4AaABAg": {
+    "initial_text": "well your city vs liverpool prediction was correct but u backed the wrong team",
+    "initial_pub": "2026-10-11T20:39:33Z",
+    "revisions": [],
+    "latest_text": "well your city vs liverpool prediction was correct but u backed the wrong team",
+    "latest_upd": "2026-10-11T20:39:33Z"
   }
 }
