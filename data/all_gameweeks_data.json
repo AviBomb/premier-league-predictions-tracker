@@ -219997,17 +219997,25 @@
         "away": "Newcastle United",
         "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
         "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
-        "home_act": null,
-        "away_act": null,
-        "home_goals": [],
+        "home_act": 1,
+        "away_act": 0,
+        "home_goals": [
+          {
+            "minute": "06'",
+            "scorer": "Jack Rudoni",
+            "assist": null,
+            "type": "P"
+          }
+        ],
         "away_goals": [],
-        "home_goals_summary": "",
+        "home_goals_summary": "Jack Rudoni 06' (P)",
         "away_goals_summary": "",
         "kickoff": "2026-10-12T19:00:00Z",
         "finished": false,
-        "started": false,
-        "minutes": 0,
-        "status": "UPCOMING"
+        "started": true,
+        "minutes": 45,
+        "status": "ONGOING",
+        "clock": "45+3'"
       }
     ],
     "audited_records": [
@@ -220101,9 +220109,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220198,9 +220206,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220295,9 +220303,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220392,9 +220400,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220489,9 +220497,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220586,9 +220594,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220683,9 +220691,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220780,9 +220788,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220877,9 +220885,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -220974,9 +220982,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221071,9 +221079,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221168,9 +221176,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221265,9 +221273,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221362,9 +221370,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221459,9 +221467,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221556,9 +221564,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221653,9 +221661,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221750,9 +221758,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221847,9 +221855,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -221944,7 +221952,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -222041,9 +222049,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -222138,9 +222146,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -222166,9 +222174,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-1",
@@ -222235,9 +222243,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -222332,9 +222340,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -222429,9 +222437,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -222526,9 +222534,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -222623,9 +222631,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -222652,8 +222660,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-0",
@@ -222720,9 +222728,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -222817,9 +222825,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -222914,9 +222922,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223011,9 +223019,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223108,9 +223116,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223205,9 +223213,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223302,9 +223310,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223399,9 +223407,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223496,9 +223504,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223593,9 +223601,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223690,9 +223698,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223787,9 +223795,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -223884,7 +223892,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -223981,9 +223989,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-5",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224078,9 +224086,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224175,9 +224183,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224272,9 +224280,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224369,9 +224377,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224397,9 +224405,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 2,
-        "total_points": 5,
+        "total_points": 8,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "3-1",
@@ -224466,9 +224474,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -224563,9 +224571,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224660,9 +224668,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224757,9 +224765,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224854,9 +224862,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -224951,9 +224959,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225048,9 +225056,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225145,9 +225153,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225242,9 +225250,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225339,9 +225347,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225436,9 +225444,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225533,9 +225541,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225630,9 +225638,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225727,9 +225735,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225824,9 +225832,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -225921,9 +225929,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226018,9 +226026,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226115,9 +226123,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226212,7 +226220,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -226309,9 +226317,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226406,9 +226414,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226503,9 +226511,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226600,9 +226608,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226697,9 +226705,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226794,9 +226802,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226891,9 +226899,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -226988,9 +226996,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227085,9 +227093,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227182,9 +227190,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227279,7 +227287,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -227376,9 +227384,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227473,9 +227481,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227502,8 +227510,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-0",
@@ -227570,9 +227578,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -227667,9 +227675,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227764,9 +227772,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227861,9 +227869,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -227958,9 +227966,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228055,9 +228063,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228152,9 +228160,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228249,9 +228257,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228346,9 +228354,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228443,9 +228451,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228540,9 +228548,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228637,9 +228645,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -228734,9 +228742,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228831,9 +228839,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -228928,9 +228936,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229025,9 +229033,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229122,9 +229130,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229219,9 +229227,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229316,9 +229324,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229413,9 +229421,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -229510,9 +229518,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229607,9 +229615,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229704,9 +229712,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229801,9 +229809,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229898,9 +229906,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -229995,9 +230003,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230092,9 +230100,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230189,9 +230197,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230286,9 +230294,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230383,9 +230391,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230480,9 +230488,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230509,8 +230517,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-0",
@@ -230577,9 +230585,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -230674,9 +230682,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230771,9 +230779,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230868,9 +230876,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -230965,9 +230973,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231062,9 +231070,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231159,9 +231167,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231256,9 +231264,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231353,9 +231361,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231450,9 +231458,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231547,9 +231555,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231644,9 +231652,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231741,9 +231749,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231838,9 +231846,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -231935,9 +231943,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232032,9 +232040,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232129,9 +232137,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232226,9 +232234,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232323,9 +232331,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232420,9 +232428,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232448,9 +232456,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 3,
         "outcome_scores": 4,
-        "total_points": 10,
+        "total_points": 13,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-1",
@@ -232517,9 +232525,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -232614,9 +232622,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232711,9 +232719,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232808,9 +232816,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -232905,9 +232913,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233002,9 +233010,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233099,9 +233107,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233196,9 +233204,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233293,9 +233301,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233390,9 +233398,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233487,9 +233495,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233584,9 +233592,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233681,9 +233689,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233710,8 +233718,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-0",
@@ -233778,9 +233786,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -233875,9 +233883,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -233972,7 +233980,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -234069,9 +234077,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234166,9 +234174,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234263,9 +234271,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234360,9 +234368,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234457,9 +234465,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234554,9 +234562,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234651,7 +234659,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -234748,9 +234756,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234845,9 +234853,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -234942,9 +234950,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235039,9 +235047,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235136,9 +235144,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235233,9 +235241,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235262,8 +235270,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-1",
@@ -235330,9 +235338,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -235427,9 +235435,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235524,9 +235532,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235621,9 +235629,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235718,9 +235726,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235815,9 +235823,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -235912,9 +235920,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236009,9 +236017,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236106,9 +236114,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236203,9 +236211,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236300,9 +236308,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236397,9 +236405,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236494,9 +236502,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236591,9 +236599,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236688,9 +236696,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236785,9 +236793,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236882,9 +236890,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -236979,9 +236987,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237076,9 +237084,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237173,9 +237181,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237270,9 +237278,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -237367,9 +237375,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237464,9 +237472,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237561,9 +237569,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237658,9 +237666,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237755,9 +237763,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237852,9 +237860,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -237949,9 +237957,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238046,9 +238054,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238143,9 +238151,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238240,9 +238248,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238337,9 +238345,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238434,9 +238442,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238462,9 +238470,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 0,
-        "total_points": 0,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "0-2",
@@ -238531,9 +238539,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -238628,9 +238636,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238725,9 +238733,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -238822,7 +238830,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -238919,9 +238927,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239016,9 +239024,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239113,9 +239121,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239210,9 +239218,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239307,9 +239315,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -239404,9 +239412,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239501,9 +239509,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239598,9 +239606,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239695,9 +239703,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -239792,9 +239800,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239889,9 +239897,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -239986,9 +239994,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240083,9 +240091,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240180,9 +240188,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240277,9 +240285,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240374,9 +240382,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240471,9 +240479,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240568,9 +240576,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240665,9 +240673,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240762,9 +240770,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240859,9 +240867,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -240956,9 +240964,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241053,9 +241061,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241150,9 +241158,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241247,9 +241255,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241275,9 +241283,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 3,
-        "total_points": 3,
+        "total_points": 6,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-0",
@@ -241344,9 +241352,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -241441,9 +241449,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241538,9 +241546,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241635,9 +241643,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241732,9 +241740,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241829,9 +241837,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -241926,9 +241934,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242023,9 +242031,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242120,9 +242128,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242217,9 +242225,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -242314,9 +242322,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242411,9 +242419,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242508,9 +242516,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242605,9 +242613,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242702,9 +242710,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242799,9 +242807,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242896,9 +242904,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -242924,9 +242932,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 4,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-0",
@@ -242993,9 +243001,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -243090,9 +243098,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -243192,9 +243200,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -243289,9 +243297,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -243386,9 +243394,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -243483,9 +243491,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -243580,9 +243588,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -243609,8 +243617,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 4,
-        "total_points": 10,
+        "outcome_scores": 5,
+        "total_points": 11,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-0",
@@ -243677,9 +243685,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -243774,7 +243782,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -243871,9 +243879,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -243899,9 +243907,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-0",
@@ -243968,9 +243976,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -244065,9 +244073,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244162,9 +244170,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244259,9 +244267,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244356,9 +244364,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244453,9 +244461,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244550,9 +244558,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244647,9 +244655,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244744,9 +244752,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -244772,9 +244780,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 1,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "4-0",
@@ -244841,9 +244849,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -244938,9 +244946,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -245035,9 +245043,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245132,9 +245140,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245229,9 +245237,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245257,9 +245265,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 3,
-        "total_points": 6,
+        "total_points": 9,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-1",
@@ -245326,9 +245334,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -245423,9 +245431,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-5",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245520,9 +245528,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245617,9 +245625,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245714,9 +245722,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245811,9 +245819,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -245908,9 +245916,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246005,9 +246013,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246102,9 +246110,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -246199,9 +246207,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246296,9 +246304,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246393,9 +246401,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246490,9 +246498,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246587,9 +246595,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246684,9 +246692,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246781,9 +246789,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246878,9 +246886,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -246975,9 +246983,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247072,9 +247080,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247169,9 +247177,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247266,9 +247274,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247363,9 +247371,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247460,7 +247468,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -247557,9 +247565,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247654,9 +247662,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247751,9 +247759,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -247848,9 +247856,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -247945,9 +247953,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -248042,9 +248050,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -248139,9 +248147,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -248236,9 +248244,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -248333,9 +248341,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -248430,7 +248438,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -248458,9 +248466,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 3,
         "outcome_scores": 3,
-        "total_points": 9,
+        "total_points": 12,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-1",
@@ -248527,9 +248535,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -248556,8 +248564,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "3-1",
@@ -248624,9 +248632,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -248721,9 +248729,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -248818,9 +248826,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -248915,9 +248923,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249012,9 +249020,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249109,9 +249117,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249206,9 +249214,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249303,9 +249311,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249332,8 +249340,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-2",
@@ -249400,9 +249408,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -249497,9 +249505,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249594,9 +249602,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249691,9 +249699,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249788,9 +249796,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249885,9 +249893,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -249982,9 +249990,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250079,9 +250087,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250176,9 +250184,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250273,9 +250281,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250370,9 +250378,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250467,9 +250475,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250564,9 +250572,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250661,9 +250669,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250758,9 +250766,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250855,9 +250863,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -250952,9 +250960,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251049,9 +251057,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251146,9 +251154,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251243,9 +251251,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251340,9 +251348,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251437,9 +251445,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251534,9 +251542,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251631,9 +251639,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251728,9 +251736,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251825,9 +251833,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -251922,9 +251930,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252019,9 +252027,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252116,7 +252124,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -252213,9 +252221,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252242,8 +252250,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-2",
@@ -252310,9 +252318,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -252407,9 +252415,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252504,9 +252512,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252601,9 +252609,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252698,9 +252706,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252727,8 +252735,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "1-1",
@@ -252795,9 +252803,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -252892,9 +252900,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -252920,9 +252928,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 3,
-        "total_points": 6,
+        "total_points": 9,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "0-0",
@@ -252989,9 +252997,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -253086,9 +253094,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253183,9 +253191,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253280,9 +253288,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253377,9 +253385,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253474,9 +253482,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-6",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253571,9 +253579,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253600,8 +253608,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "3-1",
@@ -253668,9 +253676,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -253765,9 +253773,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253862,9 +253870,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -253959,9 +253967,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -254056,9 +254064,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -254158,9 +254166,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -254255,9 +254263,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -254352,9 +254360,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -254449,9 +254457,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -254477,9 +254485,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 3,
+        "exact_scores": 4,
         "outcome_scores": 2,
-        "total_points": 11,
+        "total_points": 14,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-0",
@@ -254546,9 +254554,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -254643,9 +254651,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -254740,9 +254748,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -254837,9 +254845,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -254934,9 +254942,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255031,7 +255039,7 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -255128,9 +255136,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255225,9 +255233,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255322,9 +255330,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255419,9 +255427,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255516,9 +255524,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255613,9 +255621,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255710,9 +255718,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-7",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -255739,8 +255747,8 @@
         "valid_matches_count": 7,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "N/A",
@@ -255807,9 +255815,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -255904,9 +255912,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256001,9 +256009,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256098,9 +256106,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256195,9 +256203,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256292,9 +256300,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256389,9 +256397,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256486,9 +256494,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256583,9 +256591,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256680,9 +256688,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256777,9 +256785,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256874,9 +256882,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -256971,9 +256979,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257068,9 +257076,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257165,9 +257173,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257262,9 +257270,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257359,9 +257367,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257456,9 +257464,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257485,8 +257493,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-0",
@@ -257553,9 +257561,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -257650,9 +257658,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257747,9 +257755,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257844,9 +257852,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -257941,9 +257949,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258038,9 +258046,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258135,9 +258143,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258232,9 +258240,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258329,9 +258337,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258426,9 +258434,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258523,9 +258531,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258620,9 +258628,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258717,9 +258725,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258814,9 +258822,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -258911,9 +258919,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259008,9 +259016,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259105,9 +259113,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259202,9 +259210,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259299,9 +259307,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259396,9 +259404,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259493,9 +259501,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259590,9 +259598,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259687,9 +259695,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -259716,8 +259724,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 3,
-        "total_points": 9,
+        "outcome_scores": 4,
+        "total_points": 10,
         "fixtures": {
           "Arsenal vs Leeds United": {
             "pred": "2-1",
@@ -259784,9 +259792,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "1-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -259881,9 +259889,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -259978,9 +259986,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -260075,9 +260083,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-4",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -260172,9 +260180,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -260269,9 +260277,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -260366,9 +260374,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -260463,9 +260471,9 @@
           },
           "Coventry City vs Newcastle United": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "1-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
