@@ -2837,5 +2837,16 @@
         "pred_away": 2
       }
     }
+  },
+  "GW_7": {
+    "@missleafeatheleafeon2593": {
+      "65": {
+        "status": "rejected",
+        "timestamp": "2026-10-17T10:28:09.811Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 1,
+        "pred_away": 4
+      }
+    }
   }
 }
