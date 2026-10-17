@@ -2939,6 +2939,15 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@andresarnold6555": {
+      "68": {
+        "status": "approved",
+        "timestamp": "2026-10-17T10:31:47.528Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 0,
+        "pred_away": 2
+      }
     }
   }
 }
