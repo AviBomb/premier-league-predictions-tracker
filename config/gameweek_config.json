@@ -2565,16 +2565,24 @@
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
           "home_act": 0,
-          "away_act": 0,
+          "away_act": 1,
           "home_goals": [],
-          "away_goals": [],
+          "away_goals": [
+            {
+              "minute": "46'",
+              "scorer": "Pedro Neto",
+              "assist": null,
+              "type": "G"
+            }
+          ],
           "home_goals_summary": "",
-          "away_goals_summary": "",
+          "away_goals_summary": "Pedro Neto 46'",
           "kickoff": "2026-10-17T11:30:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 52,
+          "status": "ONGOING",
+          "clock": "52'"
         },
         {
           "id": 62,
