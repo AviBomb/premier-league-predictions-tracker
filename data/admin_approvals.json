@@ -2948,6 +2948,15 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@a.arnold1413": {
+      "68": {
+        "status": "approved",
+        "timestamp": "2026-10-17T10:32:10.191Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
