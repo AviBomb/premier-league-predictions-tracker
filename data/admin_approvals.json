@@ -2957,6 +2957,15 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@alexandruvintila8697": {
+      "61": {
+        "status": "approved",
+        "timestamp": "2026-10-17T10:32:33.828Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   }
 }
