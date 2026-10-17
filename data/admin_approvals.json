@@ -2847,6 +2847,15 @@
         "pred_home": 1,
         "pred_away": 4
       }
+    },
+    "@superhub6241": {
+      "61": {
+        "status": "approved",
+        "timestamp": "2026-10-17T10:28:40.503Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
