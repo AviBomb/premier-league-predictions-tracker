@@ -2759,6 +2759,15 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@lwandilentaphane5719": {
+      "58": {
+        "status": "rejected",
+        "timestamp": "2026-10-17T10:22:35.532Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 3,
+        "pred_away": 0
+      }
     }
   }
 }
