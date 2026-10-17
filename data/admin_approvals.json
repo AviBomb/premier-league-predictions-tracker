@@ -2930,6 +2930,15 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@DaleongL": {
+      "70": {
+        "status": "approved",
+        "timestamp": "2026-10-17T10:31:27.692Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 3,
+        "pred_away": 1
+      }
     }
   }
 }
