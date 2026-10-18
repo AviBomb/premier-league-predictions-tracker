@@ -28,6 +28,33 @@
       "position": 1
     },
     {
+      "team": "Arsenal",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
+      "played": 7,
+      "won": 6,
+      "drawn": 0,
+      "lost": 1,
+      "gf": 11,
+      "ga": 5,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "W"
+      ],
+      "next": {
+        "opponent": "Everton",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
+        "venue": "H",
+        "kickoff": "2026-10-24T14:00:00Z",
+        "gw": 8
+      },
+      "gd": 6,
+      "points": 18,
+      "position": 2
+    },
+    {
       "team": "Brighton & Hove Albion",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
       "played": 7,
@@ -52,33 +79,6 @@
       },
       "gd": 18,
       "points": 16,
-      "position": 2
-    },
-    {
-      "team": "Arsenal",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-      "played": 6,
-      "won": 5,
-      "drawn": 0,
-      "lost": 1,
-      "gf": 10,
-      "ga": 5,
-      "form": [
-        "W",
-        "W",
-        "W",
-        "L",
-        "W"
-      ],
-      "next": {
-        "opponent": "Nottingham Forest",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
-        "venue": "A",
-        "kickoff": "2026-10-18T15:30:00Z",
-        "gw": 7
-      },
-      "gd": 5,
-      "points": 15,
       "position": 3
     },
     {
@@ -462,27 +462,27 @@
     {
       "team": "Nottingham Forest",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "drawn": 2,
-      "lost": 3,
+      "lost": 4,
       "gf": 5,
-      "ga": 8,
+      "ga": 9,
       "form": [
         "D",
-        "D",
         "W",
+        "L",
         "L",
         "L"
       ],
       "next": {
-        "opponent": "Arsenal",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-        "venue": "H",
-        "kickoff": "2026-10-18T15:30:00Z",
-        "gw": 7
+        "opponent": "Ipswich Town",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
+        "venue": "A",
+        "kickoff": "2026-10-23T19:00:00Z",
+        "gw": 8
       },
-      "gd": -3,
+      "gd": -4,
       "points": 5,
       "position": 18
     },
@@ -545,21 +545,6 @@
     "gw": 7,
     "matches": [
       {
-        "id": 69,
-        "home": "Nottingham Forest",
-        "away": "Arsenal",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-        "kickoff": "2026-10-18T15:30:00Z",
-        "pred_home": 0,
-        "pred_away": 1,
-        "xg_home": 0.95,
-        "xg_away": 1.33,
-        "p_home": 27,
-        "p_draw": 28,
-        "p_away": 45
-      },
-      {
         "id": 70,
         "home": "Tottenham Hotspur",
         "away": "Coventry City",
@@ -568,7 +553,7 @@
         "kickoff": "2026-10-19T19:00:00Z",
         "pred_home": 1,
         "pred_away": 0,
-        "xg_home": 1.19,
+        "xg_home": 1.18,
         "xg_away": 1.01,
         "p_home": 40,
         "p_draw": 29,
@@ -617,10 +602,10 @@
     "38": "2027-05-30T15:00:00Z"
   },
   "ai_record": {
-    "points": 33,
-    "exacts": 2,
+    "points": 36,
+    "exacts": 3,
     "outcomes": 27,
-    "matches": 68,
+    "matches": 69,
     "gws": [
       {
         "gw": 1,
@@ -672,10 +657,10 @@
       },
       {
         "gw": 7,
-        "points": 3,
-        "exacts": 0,
+        "points": 6,
+        "exacts": 1,
         "outcomes": 3,
-        "matches": 8,
+        "matches": 9,
         "backtest": false
       }
     ]
