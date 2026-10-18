@@ -2733,17 +2733,30 @@
           "away": "Sunderland",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t56.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
+          "home_act": 2,
+          "away_act": 0,
+          "home_goals": [
+            {
+              "minute": "",
+              "scorer": "Tavernier",
+              "assist": "Evanilson",
+              "type": "G"
+            },
+            {
+              "minute": "",
+              "scorer": "Evanilson",
+              "assist": null,
+              "type": "G"
+            }
+          ],
           "away_goals": [],
-          "home_goals_summary": "",
+          "home_goals_summary": "Tavernier (Evanilson), Evanilson",
           "away_goals_summary": "",
           "kickoff": "2026-10-18T13:00:00Z",
-          "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "finished": true,
+          "started": true,
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 63,
@@ -2751,17 +2764,48 @@
           "away": "Crystal Palace",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
+          "home_act": 5,
+          "away_act": 0,
+          "home_goals": [
+            {
+              "minute": "04'",
+              "scorer": "Jaydee Canvot",
+              "assist": null,
+              "type": "OG"
+            },
+            {
+              "minute": "07'",
+              "scorer": "Diego Gómez",
+              "assist": "Olivier Boscagli",
+              "type": "G"
+            },
+            {
+              "minute": "10'",
+              "scorer": "Yasin Ayari",
+              "assist": "Charalampos Kostoulas",
+              "type": "G"
+            },
+            {
+              "minute": "49'",
+              "scorer": "Charalampos Kostoulas",
+              "assist": null,
+              "type": "G"
+            },
+            {
+              "minute": "84'",
+              "scorer": "Jack Hinshelwood",
+              "assist": null,
+              "type": "G"
+            }
+          ],
           "away_goals": [],
-          "home_goals_summary": "",
+          "home_goals_summary": "Jaydee Canvot 04' (OG), Diego Gómez 07' (assist: Olivier Boscagli), Yasin Ayari 10' (assist: Charalampos Kostoulas), Charalampos Kostoulas 49', Jack Hinshelwood 84'",
           "away_goals_summary": "",
           "kickoff": "2026-10-18T13:00:00Z",
-          "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "finished": true,
+          "started": true,
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 66,
@@ -2769,17 +2813,31 @@
           "away": "Manchester United",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
-          "away_goals": [],
-          "home_goals_summary": "",
-          "away_goals_summary": "",
+          "home_act": 1,
+          "away_act": 1,
+          "home_goals": [
+            {
+              "minute": "51'",
+              "scorer": "Dominic Calvert-Lewin",
+              "assist": "Tarik Muharemovic",
+              "type": "G"
+            }
+          ],
+          "away_goals": [
+            {
+              "minute": "35'",
+              "scorer": "Bryan Mbeumo",
+              "assist": "Youri Tielemans",
+              "type": "G"
+            }
+          ],
+          "home_goals_summary": "Dominic Calvert-Lewin 51' (assist: Tarik Muharemovic)",
+          "away_goals_summary": "Bryan Mbeumo 35' (assist: Youri Tielemans)",
           "kickoff": "2026-10-18T13:00:00Z",
-          "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "finished": true,
+          "started": true,
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 69,
@@ -2787,8 +2845,8 @@
           "away": "Arsenal",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-          "home_act": null,
-          "away_act": null,
+          "home_act": 0,
+          "away_act": 0,
           "home_goals": [],
           "away_goals": [],
           "home_goals_summary": "",
