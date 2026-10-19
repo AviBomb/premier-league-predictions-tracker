@@ -260821,8 +260821,8 @@
         "away": "Coventry City",
         "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
         "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
-        "home_act": null,
-        "away_act": null,
+        "home_act": 0,
+        "away_act": 0,
         "home_goals": [],
         "away_goals": [],
         "home_goals_summary": "",
@@ -260925,9 +260925,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -261022,9 +261022,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -261051,8 +261051,8 @@
         "valid_matches_count": 5,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "N/A",
@@ -261119,9 +261119,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -261216,9 +261216,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -261313,9 +261313,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -261410,9 +261410,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -261438,9 +261438,9 @@
         "matches_found": 10,
         "valid_matches_count": 6,
         "late_matches_count": 4,
-        "exact_scores": 2,
+        "exact_scores": 3,
         "outcome_scores": 1,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-2",
@@ -261507,9 +261507,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -261536,8 +261536,8 @@
         "valid_matches_count": 6,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "N/A",
@@ -261604,9 +261604,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -261701,9 +261701,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -261729,9 +261729,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 4,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "N/A",
@@ -261798,9 +261798,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -261895,9 +261895,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -261992,9 +261992,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262021,8 +262021,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "N/A",
@@ -262089,9 +262089,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -262186,9 +262186,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262283,9 +262283,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262312,8 +262312,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "N/A",
@@ -262380,9 +262380,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -262477,9 +262477,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262574,9 +262574,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262671,9 +262671,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262768,9 +262768,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262865,9 +262865,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -262962,9 +262962,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -263059,9 +263059,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -263088,8 +263088,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "N/A",
@@ -263156,9 +263156,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -263185,8 +263185,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -263253,9 +263253,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -263350,9 +263350,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -263447,9 +263447,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -263544,9 +263544,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -263641,9 +263641,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -263670,8 +263670,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -263738,9 +263738,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -263835,9 +263835,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -263864,8 +263864,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-4",
@@ -263932,9 +263932,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -264029,9 +264029,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264126,9 +264126,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264223,9 +264223,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264320,9 +264320,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264417,9 +264417,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264446,8 +264446,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 4,
-        "total_points": 10,
+        "outcome_scores": 5,
+        "total_points": 11,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -264514,9 +264514,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -264542,9 +264542,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 4,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -264611,9 +264611,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -264708,9 +264708,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264805,9 +264805,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264902,9 +264902,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -264999,9 +264999,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -265096,9 +265096,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "4-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -265193,9 +265193,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -265290,9 +265290,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -265319,8 +265319,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -265387,9 +265387,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -265484,7 +265484,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -265513,8 +265513,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -265581,9 +265581,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -265610,8 +265610,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -265678,9 +265678,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -265775,9 +265775,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -265872,9 +265872,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -265901,8 +265901,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -265969,9 +265969,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -265998,8 +265998,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -266066,9 +266066,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -266163,9 +266163,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -266260,9 +266260,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -266357,9 +266357,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -266454,9 +266454,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -266551,7 +266551,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -266648,9 +266648,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -266745,9 +266745,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -266774,8 +266774,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -266842,9 +266842,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -266939,9 +266939,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -266968,8 +266968,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -267036,9 +267036,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -267133,9 +267133,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -267230,9 +267230,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -267258,9 +267258,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 3,
-        "total_points": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -267327,9 +267327,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -267424,9 +267424,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -267521,9 +267521,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "4-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -267618,9 +267618,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -267715,9 +267715,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -267812,9 +267812,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -267841,8 +267841,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -267909,9 +267909,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -268006,7 +268006,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -268035,8 +268035,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "3-2",
@@ -268103,9 +268103,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -268200,9 +268200,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -268297,7 +268297,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -268394,9 +268394,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -268491,9 +268491,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -268520,8 +268520,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -268588,9 +268588,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -268685,9 +268685,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -268782,9 +268782,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -268811,8 +268811,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -268879,9 +268879,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -268976,9 +268976,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269073,9 +269073,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269170,9 +269170,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269267,9 +269267,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269364,9 +269364,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269461,9 +269461,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269490,8 +269490,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -269558,9 +269558,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -269655,7 +269655,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -269752,9 +269752,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269849,9 +269849,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -269878,8 +269878,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -269946,9 +269946,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -270043,9 +270043,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -270140,7 +270140,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -270237,9 +270237,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -270334,9 +270334,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -270363,8 +270363,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -270431,9 +270431,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -270459,9 +270459,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 4,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-0",
@@ -270528,9 +270528,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -270625,9 +270625,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -270722,9 +270722,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -270819,9 +270819,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -270916,9 +270916,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271013,9 +271013,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271110,9 +271110,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271207,9 +271207,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271304,9 +271304,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271401,9 +271401,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271498,9 +271498,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271595,9 +271595,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271692,9 +271692,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -271720,9 +271720,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -271789,9 +271789,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -271818,8 +271818,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -271886,9 +271886,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -271983,9 +271983,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -272080,9 +272080,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -272177,9 +272177,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -272205,9 +272205,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -272274,9 +272274,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -272371,9 +272371,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -272400,8 +272400,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-2",
@@ -272468,9 +272468,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -272565,9 +272565,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -272662,9 +272662,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -272759,9 +272759,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -272787,9 +272787,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -272856,9 +272856,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -272953,9 +272953,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -272982,8 +272982,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -273050,9 +273050,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -273147,9 +273147,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -273244,9 +273244,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -273273,8 +273273,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -273341,9 +273341,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -273438,9 +273438,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -273535,9 +273535,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -273632,9 +273632,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -273661,8 +273661,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -273729,9 +273729,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -273826,9 +273826,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -273923,9 +273923,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -274020,9 +274020,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -274117,9 +274117,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -274214,9 +274214,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -274243,8 +274243,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -274311,9 +274311,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -274340,8 +274340,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -274408,9 +274408,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -274437,8 +274437,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -274505,9 +274505,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -274534,8 +274534,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -274602,9 +274602,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -274699,9 +274699,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -274796,9 +274796,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -274893,9 +274893,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -274990,9 +274990,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275087,9 +275087,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275184,9 +275184,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275281,9 +275281,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275310,8 +275310,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 3,
-        "total_points": 9,
+        "outcome_scores": 4,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -275378,9 +275378,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -275407,8 +275407,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -275475,9 +275475,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -275504,8 +275504,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -275572,9 +275572,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -275669,9 +275669,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275766,9 +275766,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275863,9 +275863,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275960,9 +275960,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "4-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -275989,8 +275989,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -276057,9 +276057,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -276154,9 +276154,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -276183,8 +276183,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "3-2",
@@ -276251,9 +276251,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -276279,9 +276279,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 5,
-        "total_points": 8,
+        "total_points": 11,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-4",
@@ -276348,9 +276348,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -276376,9 +276376,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-1",
@@ -276445,9 +276445,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -276542,9 +276542,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -276571,8 +276571,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 5,
-        "total_points": 11,
+        "outcome_scores": 6,
+        "total_points": 12,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -276639,9 +276639,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -276736,9 +276736,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -276833,9 +276833,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -276862,8 +276862,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -276930,9 +276930,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -277027,9 +277027,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277124,9 +277124,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277221,9 +277221,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277318,9 +277318,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277415,9 +277415,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277512,9 +277512,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277609,9 +277609,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277706,9 +277706,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277803,9 +277803,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277900,9 +277900,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -277997,9 +277997,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278094,9 +278094,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278191,9 +278191,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278288,9 +278288,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278385,9 +278385,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278482,9 +278482,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278579,9 +278579,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278676,9 +278676,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278773,9 +278773,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -278870,9 +278870,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -278898,9 +278898,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-1",
@@ -278967,9 +278967,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -278995,9 +278995,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 4,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -279064,9 +279064,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -279092,9 +279092,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 6,
-        "total_points": 9,
+        "total_points": 12,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -279161,9 +279161,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -279258,9 +279258,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -279355,9 +279355,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -279452,9 +279452,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -279549,9 +279549,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -279646,9 +279646,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -279743,9 +279743,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -279840,9 +279840,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -279869,8 +279869,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -279937,9 +279937,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -280034,9 +280034,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280131,9 +280131,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280228,9 +280228,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280325,9 +280325,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280422,9 +280422,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280519,9 +280519,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280616,9 +280616,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280713,9 +280713,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280810,9 +280810,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -280907,9 +280907,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281004,9 +281004,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281101,9 +281101,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281198,9 +281198,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281295,9 +281295,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281392,9 +281392,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281489,9 +281489,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281586,9 +281586,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281683,9 +281683,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281780,9 +281780,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281877,9 +281877,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -281974,9 +281974,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282071,9 +282071,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282168,9 +282168,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282265,9 +282265,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282293,9 +282293,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 3,
         "outcome_scores": 3,
-        "total_points": 9,
+        "total_points": 12,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -282362,9 +282362,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -282459,9 +282459,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -282556,9 +282556,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282653,9 +282653,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282750,9 +282750,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282847,9 +282847,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -282944,9 +282944,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283041,9 +283041,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283138,9 +283138,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283235,9 +283235,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283263,9 +283263,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 5,
-        "total_points": 8,
+        "total_points": 11,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -283332,9 +283332,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -283429,9 +283429,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283526,9 +283526,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283555,8 +283555,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -283623,9 +283623,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -283720,9 +283720,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283817,9 +283817,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283914,9 +283914,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -283942,9 +283942,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 3,
-        "total_points": 3,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-0",
@@ -284011,9 +284011,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -284108,9 +284108,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -284205,9 +284205,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -284233,9 +284233,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 3,
         "outcome_scores": 4,
-        "total_points": 10,
+        "total_points": 13,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -284302,9 +284302,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -284399,9 +284399,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -284428,8 +284428,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "3-2",
@@ -284496,9 +284496,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -284593,9 +284593,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "5-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -284690,9 +284690,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -284787,9 +284787,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -284884,9 +284884,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -284913,8 +284913,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-3",
@@ -284981,9 +284981,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -285078,9 +285078,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -285175,9 +285175,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -285272,9 +285272,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -285369,9 +285369,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -285466,9 +285466,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -285494,9 +285494,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 5,
-        "total_points": 8,
+        "total_points": 11,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-1",
@@ -285563,9 +285563,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -285660,9 +285660,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -285689,8 +285689,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -285757,9 +285757,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -285854,9 +285854,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -285951,9 +285951,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -286048,9 +286048,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "4-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -286145,9 +286145,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -286174,8 +286174,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -286242,9 +286242,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -286339,9 +286339,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -286436,9 +286436,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -286465,8 +286465,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-5",
@@ -286533,9 +286533,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -286562,8 +286562,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 7,
-        "total_points": 7,
+        "outcome_scores": 8,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -286630,9 +286630,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -286727,9 +286727,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -286755,9 +286755,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 6,
-        "total_points": 9,
+        "total_points": 12,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -286824,9 +286824,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -286921,9 +286921,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -287018,9 +287018,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -287115,9 +287115,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -287212,9 +287212,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -287309,9 +287309,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "4-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -287338,8 +287338,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -287406,9 +287406,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -287435,8 +287435,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 6,
-        "total_points": 9,
+        "outcome_scores": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -287503,9 +287503,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -287600,9 +287600,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -287697,9 +287697,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -287726,8 +287726,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-3",
@@ -287794,9 +287794,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -287891,9 +287891,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -287988,9 +287988,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288085,9 +288085,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288182,9 +288182,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288279,9 +288279,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288308,8 +288308,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "3-3",
@@ -288376,9 +288376,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -288473,9 +288473,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288570,9 +288570,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288667,9 +288667,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288764,9 +288764,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288861,9 +288861,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288958,9 +288958,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -288987,8 +288987,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 4,
-        "outcome_scores": 3,
-        "total_points": 15,
+        "outcome_scores": 4,
+        "total_points": 16,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -289055,9 +289055,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -289083,9 +289083,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 8,
-        "total_points": 8,
+        "total_points": 11,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -289152,9 +289152,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -289249,9 +289249,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -289278,8 +289278,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-1",
@@ -289346,9 +289346,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -289443,9 +289443,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -289540,9 +289540,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -289637,9 +289637,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -289734,9 +289734,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -289831,9 +289831,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -289928,9 +289928,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -289957,8 +289957,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -290025,9 +290025,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -290122,9 +290122,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -290151,8 +290151,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 8,
-        "total_points": 8,
+        "outcome_scores": 9,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-4",
@@ -290219,9 +290219,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -290316,9 +290316,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -290344,9 +290344,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 3,
-        "total_points": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -290413,9 +290413,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -290510,9 +290510,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -290607,9 +290607,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -290635,9 +290635,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 3,
-        "total_points": 3,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "3-3",
@@ -290704,9 +290704,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -290801,9 +290801,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -290898,9 +290898,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -290995,9 +290995,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291024,8 +291024,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-4",
@@ -291092,9 +291092,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -291189,9 +291189,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291286,9 +291286,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291383,9 +291383,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291480,9 +291480,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291577,9 +291577,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291674,9 +291674,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291771,9 +291771,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -291800,8 +291800,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-3",
@@ -291868,9 +291868,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -291965,9 +291965,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292062,9 +292062,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292090,9 +292090,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 4,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -292159,9 +292159,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -292256,9 +292256,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292353,9 +292353,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292450,9 +292450,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292547,9 +292547,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292644,9 +292644,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292741,9 +292741,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292838,9 +292838,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -292935,7 +292935,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -293032,7 +293032,7 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -293061,8 +293061,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -293129,9 +293129,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -293158,8 +293158,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -293226,9 +293226,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -293255,8 +293255,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -293323,9 +293323,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -293420,9 +293420,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -293517,9 +293517,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -293546,8 +293546,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-4",
@@ -293614,9 +293614,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -293643,8 +293643,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -293711,9 +293711,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -293808,9 +293808,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -293905,9 +293905,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294002,9 +294002,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294099,9 +294099,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294196,9 +294196,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294293,9 +294293,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294390,9 +294390,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294487,9 +294487,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -294584,9 +294584,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294613,8 +294613,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-1",
@@ -294681,9 +294681,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -294778,9 +294778,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294875,9 +294875,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -294904,8 +294904,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -294972,9 +294972,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -295069,9 +295069,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -295166,9 +295166,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -295263,9 +295263,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -295292,8 +295292,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-1",
@@ -295360,9 +295360,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -295457,9 +295457,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -295554,9 +295554,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -295651,9 +295651,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -295748,9 +295748,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -295777,8 +295777,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-1",
@@ -295845,9 +295845,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -295942,9 +295942,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296039,9 +296039,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296136,9 +296136,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296233,9 +296233,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296330,9 +296330,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296427,9 +296427,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296524,9 +296524,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296621,9 +296621,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296718,9 +296718,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296815,9 +296815,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -296844,8 +296844,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -296912,9 +296912,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -297009,9 +297009,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -297038,8 +297038,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 3,
-        "total_points": 9,
+        "outcome_scores": 4,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -297106,9 +297106,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -297203,9 +297203,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -297232,8 +297232,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -297300,9 +297300,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -297329,8 +297329,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-2",
@@ -297397,9 +297397,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -297494,9 +297494,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -297591,9 +297591,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -297688,9 +297688,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -297785,9 +297785,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -297882,9 +297882,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -297979,9 +297979,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -298076,9 +298076,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -298173,9 +298173,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -298202,8 +298202,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "3-2",
@@ -298270,9 +298270,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -298299,8 +298299,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -298367,9 +298367,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -298464,9 +298464,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-6",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -298492,9 +298492,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
+        "exact_scores": 3,
         "outcome_scores": 2,
-        "total_points": 8,
+        "total_points": 11,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-1",
@@ -298561,9 +298561,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -298658,9 +298658,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -298687,8 +298687,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 5,
-        "total_points": 11,
+        "outcome_scores": 6,
+        "total_points": 12,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -298755,9 +298755,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -298852,9 +298852,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -298881,8 +298881,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-3",
@@ -298949,9 +298949,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -299046,9 +299046,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -299074,9 +299074,9 @@
         "matches_found": 9,
         "valid_matches_count": 9,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-4",
@@ -299143,9 +299143,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -299240,9 +299240,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -299337,9 +299337,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "3-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -299434,9 +299434,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -299462,9 +299462,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 4,
-        "total_points": 7,
+        "total_points": 10,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -299531,9 +299531,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -299628,9 +299628,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -299725,9 +299725,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -299754,8 +299754,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -299822,9 +299822,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -299850,9 +299850,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 3,
-        "total_points": 3,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-5",
@@ -299919,9 +299919,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -300016,9 +300016,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -300113,9 +300113,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -300210,9 +300210,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -300307,9 +300307,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-5",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -300404,9 +300404,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -300501,9 +300501,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -300530,8 +300530,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -300598,9 +300598,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -300695,9 +300695,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -300724,8 +300724,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "2-2",
@@ -300792,9 +300792,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -300821,8 +300821,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-2",
@@ -300889,9 +300889,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -300917,9 +300917,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 5,
-        "total_points": 8,
+        "total_points": 11,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "0-2",
@@ -300986,9 +300986,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -301083,9 +301083,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -301180,9 +301180,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "2-0",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -301209,8 +301209,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 6,
-        "total_points": 6,
+        "outcome_scores": 7,
+        "total_points": 7,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -301277,9 +301277,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -301374,9 +301374,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -301471,9 +301471,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "4-5",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -301568,9 +301568,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -301597,8 +301597,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Everton vs Chelsea": {
             "pred": "1-3",
@@ -301665,9 +301665,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "0-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -301762,9 +301762,9 @@
           },
           "Tottenham Hotspur vs Coventry City": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "0-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
