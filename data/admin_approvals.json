@@ -3230,6 +3230,15 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@optterapp": {
+      "62": {
+        "status": "rejected",
+        "timestamp": "2026-10-19T22:00:22.702Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
