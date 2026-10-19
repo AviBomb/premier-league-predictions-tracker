@@ -572,5 +572,87 @@
       "pred_away": 0,
       "pred_home": 1
     }
+  },
+  "8": {
+    "71": {
+      "away": "Everton",
+      "backtest": false,
+      "home": "Arsenal",
+      "kickoff": "2026-10-24T14:00:00Z",
+      "pred_away": 0,
+      "pred_home": 1
+    },
+    "72": {
+      "away": "Manchester City",
+      "backtest": false,
+      "home": "Aston Villa",
+      "kickoff": "2026-10-24T11:30:00Z",
+      "pred_away": 2,
+      "pred_home": 1
+    },
+    "73": {
+      "away": "Tottenham Hotspur",
+      "backtest": false,
+      "home": "Chelsea",
+      "kickoff": "2026-10-24T16:30:00Z",
+      "pred_away": 1,
+      "pred_home": 2
+    },
+    "74": {
+      "away": "Fulham",
+      "backtest": false,
+      "home": "Coventry City",
+      "kickoff": "2026-10-24T14:00:00Z",
+      "pred_away": 1,
+      "pred_home": 0
+    },
+    "75": {
+      "away": "Newcastle United",
+      "backtest": false,
+      "home": "Crystal Palace",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "pred_away": 1,
+      "pred_home": 2
+    },
+    "76": {
+      "away": "Brentford",
+      "backtest": false,
+      "home": "Hull City",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "pred_away": 0,
+      "pred_home": 1
+    },
+    "77": {
+      "away": "Nottingham Forest",
+      "backtest": false,
+      "home": "Ipswich Town",
+      "kickoff": "2026-10-23T19:00:00Z",
+      "pred_away": 0,
+      "pred_home": 1
+    },
+    "78": {
+      "away": "Brighton & Hove Albion",
+      "backtest": false,
+      "home": "Liverpool",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "pred_away": 2,
+      "pred_home": 1
+    },
+    "79": {
+      "away": "AFC Bournemouth",
+      "backtest": false,
+      "home": "Manchester United",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "pred_away": 1,
+      "pred_home": 2
+    },
+    "80": {
+      "away": "Leeds United",
+      "backtest": false,
+      "home": "Sunderland",
+      "kickoff": "2026-10-25T16:30:00Z",
+      "pred_away": 1,
+      "pred_home": 0
+    }
   }
 }

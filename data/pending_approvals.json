@@ -9240,7 +9240,8 @@
     "pred_away": 1,
     "confidence": 93,
     "detected_teams": "Leeds United vs Manchester United",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw7_optterapp_62",
@@ -9258,7 +9259,8 @@
     "pred_away": 1,
     "confidence": 91,
     "detected_teams": "Brentford vs Liverpool",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw7_andresarnold6555_68",
