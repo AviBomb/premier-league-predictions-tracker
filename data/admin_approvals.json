@@ -3239,6 +3239,15 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@jonathan-mu4hl": {
+      "66": {
+        "status": "approved",
+        "timestamp": "2026-10-19T22:00:56.203Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   }
 }
