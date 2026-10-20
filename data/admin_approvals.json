@@ -3232,6 +3232,16 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@Waschbecken": {
+      "43": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:26:47.939Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:26:47.939Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
     }
   },
   "GW_6": {
