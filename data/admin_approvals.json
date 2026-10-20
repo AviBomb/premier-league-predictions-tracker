@@ -1570,6 +1570,16 @@
         "pred_home": 1,
         "pred_away": 16
       }
+    },
+    "@abarkadabra": {
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:11:28.573Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:11:28.573Z",
+        "pred_home": 0,
+        "pred_away": 11
+      }
     }
   },
   "GW_4": {
