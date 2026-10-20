@@ -1720,6 +1720,16 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@Santiago-ct2rv": {
+      "27": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:18:51.615Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:18:51.615Z",
+        "pred_home": 1,
+        "pred_away": 0
+      }
     }
   },
   "GW_4": {
