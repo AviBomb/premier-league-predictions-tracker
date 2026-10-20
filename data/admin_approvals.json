@@ -1646,6 +1646,24 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@dobromirhrsnimirov5659": {
+      "27": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:16:42.277Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:16:42.277Z",
+        "pred_home": 2,
+        "pred_away": 2
+      },
+      "29": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:16:42.277Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:16:42.277Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
     }
   },
   "GW_4": {
