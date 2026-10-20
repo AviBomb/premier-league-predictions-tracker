@@ -1163,6 +1163,15 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@AriaWand-u9f": {
+      "17": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:10:18.591Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 0,
+        "pred_away": 2
+      }
     }
   },
   "GW_3": {
