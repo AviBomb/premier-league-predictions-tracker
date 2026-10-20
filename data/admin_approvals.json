@@ -1153,6 +1153,16 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@Fantasybig": {
+      "13": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:09:58.172Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:09:58.172Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
     }
   },
   "GW_3": {
