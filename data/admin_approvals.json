@@ -3656,10 +3656,27 @@
   },
   "GW_7": {
     "@missleafeatheleafeon2593": {
+      "63": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:21:27.138Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:21:27.138Z",
+        "pred_home": 1,
+        "pred_away": 19
+      },
+      "64": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:21:27.138Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:21:27.138Z",
+        "pred_home": 2,
+        "pred_away": 17
+      },
       "65": {
         "status": "rejected",
-        "timestamp": "2026-10-17T10:28:09.811Z",
+        "timestamp": "2026-10-20T18:21:27.138Z",
         "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:21:27.138Z",
         "pred_home": 1,
         "pred_away": 4
       }
