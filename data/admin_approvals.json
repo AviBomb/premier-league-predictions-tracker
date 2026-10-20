@@ -1190,6 +1190,24 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@Kingcuba137": {
+      "11": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:10:37.268Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:10:37.268Z",
+        "pred_home": 2,
+        "pred_away": 1
+      },
+      "18": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:10:37.268Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:10:37.268Z",
+        "pred_home": 3,
+        "pred_away": 0
+      }
     }
   },
   "GW_3": {
