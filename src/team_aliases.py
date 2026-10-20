@@ -24,7 +24,7 @@ BASE_TEAM_ALIASES: Dict[str, List[str]] = {
         "brentford", "bre", "bees", "brentford fc", "the bees", "brent", "brenford"
     ],
     "Brighton & Hove Albion": [
-        "brighton & hove albion", "brighton and hove albion", "brighton & hove", "brighton and hove", "brighton hove", "brighton", "bha", "bhafc", "seagulls", "the seagulls", "albion", "bright", "brightn"
+        "brighton & hove albion", "brighton and hove albion", "brighton hove albion", "brighton & hove", "brighton and hove", "brighton hove", "brighton", "bha", "bhafc", "seagulls", "the seagulls", "albion", "bright", "brightn"
     ],
     "Chelsea": [
         "chelsea", "che", "blues", "the blues", "cfc", "chelsea fc", "chelsa", "chelski"
@@ -60,7 +60,7 @@ BASE_TEAM_ALIASES: Dict[str, List[str]] = {
         "manchester united", "man united", "man utd", "man utd.", "man u", "man u.", "mun", "mufc", "red devils", "manchester u", "manchester u.", "manutd", "m. united", "m.utd", "m. utd", "m.united", "united", "yanited", "mn utd", "manu"
     ],
     "Newcastle United": [
-        "newcastle united", "newcastle", "new", "nufc", "magpies", "the toon", "toon", "new castle", "newcaslte", "newc utd", "newc utd."
+        "newcastle united", "newcastle utd", "newcastle", "new", "nufc", "magpies", "the toon", "toon", "new castle", "newcaslte", "newc utd", "newc utd."
     ],
     "Nottingham Forest": [
         "nottingham forest", "nott'm forest", "nott’m forest", "nott'm", "nott’m", "nottm forest", "nottm", "forest", "nfo", "nffc", "nottingham", "tricky trees", "forrest", "nott forest", "n forest", "notts forest"

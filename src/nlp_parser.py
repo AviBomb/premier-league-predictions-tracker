@@ -23,6 +23,9 @@ def extract_predictions_from_comment(text: str) -> List[Dict[str, Any]]:
 
     alias_to_canonical, sorted_aliases = build_alias_lookup()
     alias_pattern = "|".join(re.escape(a) for a in sorted_aliases)
+    # A different club immediately before a match means the user stuck an extra word
+    # on that club ("Sunderland united 0 Arsenal 2"). Leave it for the typo queue.
+    prev_team_re = re.compile(rf"({alias_pattern})\s+$", re.IGNORECASE)
 
     lines = re.split(r'[\r\n;]+', clean_text)
 
@@ -38,6 +41,13 @@ def extract_predictions_from_comment(text: str) -> List[Dict[str, Any]]:
         # e.g., "Man United 2 Forest 1", "Arsenal 3 Burnley 0"
         (1, re.compile(
             rf'(?:^|\b|\d+\.?\s*)({alias_pattern})\s*[:\-\/v\.]*\s*(\d{{1,2}})\s*[:\-\/v\.]*\s*({alias_pattern})\s*[:\-\/v\.]*\s*(\d{{1,2}})(?:\b|$)',
+            re.IGNORECASE
+        )),
+        # Pattern 1b: [Team A] [Score A] vs [Team B] [Score B]
+        # e.g., "Everton 2 vs Chelsea 2", "Brentford 1 v Liverpool 2"
+        # Requires vs/v so it cannot swallow "Everton 2-1 Chelsea" or "Villa 2 Arsenal 1".
+        (1, re.compile(
+            rf'(?:^|\b|\d+\.?\s*)({alias_pattern})\s*[:\-\/v\.]*\s*(\d{{1,2}})\s*(?:vs\.?|v\.?(?![A-Za-z]))\s*({alias_pattern})\s*[:\-\/v\.]*\s*(\d{{1,2}})(?:\b|$)',
             re.IGNORECASE
         )),
         # Pattern 2: [Score A] [Delim] [Score B] [Team A] vs [Team B]
@@ -109,6 +119,11 @@ def extract_predictions_from_comment(text: str) -> List[Dict[str, Any]]:
         for cand in candidate_matches:
             # Prevent overlapping match spans
             if cand["start"] >= current_end_pos:
+                prev = prev_team_re.search(line_str[:cand["start"]])
+                if prev:
+                    prev_club = parse_team(prev.group(1))
+                    if prev_club and prev_club != cand["team_a"]:
+                        continue
                 pair_key = tuple(sorted([cand["team_a"], cand["team_b"]]))
                 if pair_key not in found_pairs:
                     found_pairs.add(pair_key)

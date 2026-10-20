@@ -8,6 +8,8 @@ import re
 from difflib import SequenceMatcher
 from typing import List, Dict, Any, Optional, Tuple
 
+from src.team_aliases import build_alias_lookup
+
 # Minimum team-name similarity for a typo line to reach the admin review queue.
 REVIEW_MIN_CONFIDENCE = 0.50
 # Bar for trusting that the text after a score is a team before trying to split the text before it.
@@ -25,7 +27,7 @@ CLUB_VARIANTS = {
     "Aston Villa": ["aston villa", "villa", "aston", "avfc", "vilians", "astnvilla", "aston v", "a villa"],
     "AFC Bournemouth": ["bournemouth", "bmouth", "bournmouth", "b'mouth", "b’mouth", "cherries", "afcb", "bmth", "bourn", "bouremouth", "afc bmouth"],
     "Brentford": ["brentford", "brentfrd", "bees", "brent", "brenford"],
-    "Brighton & Hove Albion": ["brighton", "brightn", "seagulls", "bha", "brighton & hove", "brighton and hove", "bright", "bhafc"],
+    "Brighton & Hove Albion": ["brighton", "brightn", "seagulls", "bha", "brighton & hove", "brighton and hove", "brighton hove albion", "bright", "bhafc"],
     "Chelsea": ["chelsea", "chelsa", "chelski", "blues", "cfc", "chels"],
     "Coventry City": ["coventry", "coventry city", "cov", "covntry", "sky blues", "coventrycty", "ccfc"],
     "Crystal Palace": ["crystal palace", "palace", "cpfc", "eagles", "crystal", "crystl palace", "c palace", "crystal p"],
@@ -37,7 +39,7 @@ CLUB_VARIANTS = {
     "Liverpool": ["liverpool", "lfc", "reds", "liv", "liverpl", "pool", "livrpool"],
     "Manchester City": ["man city", "manchester city", "city", "mcfc", "citizens", "mancity", "mn city", "man c", "manc"],
     "Manchester United": ["man utd", "manchester united", "united", "mufc", "red devils", "manutd", "man u", "mn utd", "manu"],
-    "Newcastle United": ["newcastle", "newcastle united", "nufc", "magpies", "newcstle", "toon", "newc utd"],
+    "Newcastle United": ["newcastle", "newcastle united", "newcastle utd", "nufc", "magpies", "newcstle", "toon", "newc utd"],
     "Nottingham Forest": ["nottingham forest", "forest", "nffc", "notts forest", "nottm forest", "forrest", "nott forest", "nott'm forest", "nottm", "nott'm"],
     "Sunderland": ["sunderland", "safc", "black cats", "sundrland", "sunderlnd", "sundland"],
     "Tottenham Hotspur": ["tottenham", "spurs", "tottenham hotspur", "thfc", "totenham", "hotspur", "totnham", "spurs fc"]
@@ -235,4 +237,80 @@ def detect_fuzzy_prediction_candidates(
                         seen_fixture_keys.add(pair_key)
                     break
 
+    candidates.extend(_extra_word_candidates(
+        lines, fixtures, author, comment_id, published_at, comment_text,
+        seen_fixture_keys, gw_number, existing_exact_preds,
+    ))
     return candidates
+
+
+def _extra_word_candidates(
+    lines: List[str],
+    fixtures: List[Dict[str, Any]],
+    author: str,
+    comment_id: str,
+    published_at: str,
+    comment_text: str,
+    seen_fixture_keys: set,
+    gw_number: int,
+    other_predictions: Dict[str, str],
+) -> List[Dict[str, Any]]:
+    """Team, then a word that is not part of that club, then a scoreline. Admin decides."""
+    alias_to_canonical, sorted_aliases = build_alias_lookup()
+    if not sorted_aliases:
+        return []
+    alias_pattern = "|".join(re.escape(a) for a in sorted_aliases)
+    pat = re.compile(
+        rf"(?:^|\b|\d+\.?\s*)({alias_pattern})\s+([A-Za-z][A-Za-z'.]*(?:\s+[A-Za-z][A-Za-z'.]*){{0,2}})\s+(\d{{1,2}})\s*(?:vs\.?|v(?![A-Za-z]))?\s*({alias_pattern})\s+(\d{{1,2}})(?:\b|$)",
+        re.IGNORECASE,
+    )
+    skip_words = {"vs", "v", "against"}
+    found = []
+    for line in lines:
+        line_clean = line.strip()
+        if len(line_clean) < 4:
+            continue
+        for match in pat.finditer(line_clean):
+            t1_raw, extra, s1_raw, t2_raw, s2_raw = match.groups()
+            extras = extra.split()
+            if any(word.lower().rstrip(".") in skip_words or len(word) < 2 for word in extras):
+                continue
+            combined = f"{t1_raw} {extra}".strip().lower()
+            if combined in alias_to_canonical:
+                continue
+            team1 = alias_to_canonical.get(t1_raw.lower())
+            team2 = alias_to_canonical.get(t2_raw.lower())
+            if not team1 or not team2 or team1 == team2:
+                continue
+            s1, s2 = int(s1_raw), int(s2_raw)
+            if s1 > 15 or s2 > 15:
+                continue
+            for f in fixtures:
+                h, a = f["home"], f["away"]
+                pair_key = (h, a)
+                if pair_key in seen_fixture_keys:
+                    continue
+                if (team1 == h and team2 == a) or (team1 == a and team2 == h):
+                    pred_h, pred_a = (s1, s2) if team1 == h else (s2, s1)
+                    fix_id = f["id"]
+                    found.append({
+                        "id": f"cand_gw{gw_number}_{re.sub(r'[^a-zA-Z0-9]', '', author)}_{fix_id}",
+                        "gameweek": gw_number,
+                        "author": author,
+                        "comment_id": comment_id,
+                        "published_at": published_at,
+                        "raw_line": line_clean,
+                        "full_comment": comment_text.strip(),
+                        "other_predictions": other_predictions,
+                        "fixture_id": fix_id,
+                        "home_team": h,
+                        "away_team": a,
+                        "pred_home": pred_h,
+                        "pred_away": pred_a,
+                        "confidence": 75,
+                        "detected_teams": f"{team1} vs {team2}",
+                        "status": "pending",
+                    })
+                    seen_fixture_keys.add(pair_key)
+                    break
+    return found
