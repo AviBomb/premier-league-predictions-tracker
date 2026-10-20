@@ -1123,6 +1123,16 @@
         "pred_home": 0,
         "pred_away": 0
       }
+    },
+    "@ratonul260": {
+      "14": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:09:13.630Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:09:13.630Z",
+        "pred_home": 5,
+        "pred_away": 0
+      }
     }
   },
   "GW_3": {
