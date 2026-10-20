@@ -1544,6 +1544,32 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@missleafeatheleafeon2593": {
+      "23": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:10:52.446Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:10:52.446Z",
+        "pred_home": 1,
+        "pred_away": 12
+      },
+      "25": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:10:52.446Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:10:52.446Z",
+        "pred_home": 21,
+        "pred_away": 17
+      },
+      "28": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:10:52.446Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:10:52.446Z",
+        "pred_home": 1,
+        "pred_away": 16
+      }
     }
   },
   "GW_4": {
