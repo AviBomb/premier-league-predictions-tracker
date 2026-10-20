@@ -1596,6 +1596,16 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@NZ_COYS_SPURS": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:14:20.261Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:14:20.261Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
     }
   },
   "GW_4": {
