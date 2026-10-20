@@ -249,11 +249,29 @@
       }
     },
     "@missleafeatheleafeon2593": {
+      "3": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:04:25.659Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:04:25.659Z",
+        "pred_home": 12,
+        "pred_away": 19
+      },
       "5": {
         "status": "rejected",
-        "timestamp": "2026-08-24T16:06:20.612Z",
+        "timestamp": "2026-10-20T18:04:25.659Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:04:25.659Z",
         "pred_home": 5,
         "pred_away": 1
+      },
+      "10": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:04:25.659Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:04:25.659Z",
+        "pred_home": 1,
+        "pred_away": 17
       }
     },
     "@Lamppost447": {
