@@ -775,6 +775,16 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@Seagull33333": {
+      "10": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:06:30.813Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:06:30.813Z",
+        "pred_home": 2,
+        "pred_away": 3
+      }
     }
   },
   "GW_2": {
