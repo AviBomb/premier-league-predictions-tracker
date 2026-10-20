@@ -717,6 +717,16 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@FootyFever-m3s": {
+      "8": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:05:37.952Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:05:37.952Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
     }
   },
   "GW_2": {
