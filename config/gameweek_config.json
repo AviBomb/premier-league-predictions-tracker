@@ -123,6 +123,7 @@
       "crystal p.",
       "c palace",
       "c. palace",
+      "c.palace",
       "cystal palace",
       "pallace",
       "crystal"
@@ -208,6 +209,8 @@
       "mancity",
       "m. city",
       "m.city",
+      "man. city",
+      "mc",
       "city",
       "mn city",
       "manc"
@@ -228,6 +231,9 @@
       "m. united",
       "m.utd",
       "m. utd",
+      "man. united",
+      "man. utd",
+      "mu",
       "m.united",
       "united",
       "yanited",
@@ -264,6 +270,9 @@
       "forrest",
       "nott forest",
       "n forest",
+      "n. forest",
+      "n.forest",
+      "nott. forest",
       "notts forest"
     ],
     "Sunderland": [

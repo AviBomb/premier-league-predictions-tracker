@@ -52,6 +52,7 @@ jobs:
           python tests/test_league_table.py
           python tests/test_manual_override.py
           python tests/test_integrity.py
+          python tests/test_nlp_parser.py
 
       - name: Run Predictions Pipeline
         env:

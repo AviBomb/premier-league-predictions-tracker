@@ -33,7 +33,7 @@ BASE_TEAM_ALIASES: Dict[str, List[str]] = {
         "coventry city", "coventry", "cov", "ccfc", "sky blues", "the sky blues", "cov city", "covntry", "coventrycty"
     ],
     "Crystal Palace": [
-        "crystal palace", "palace", "cry", "cpfc", "eagles", "the eagles", "crystal p", "crystal p.", "c palace", "c. palace", "cystal palace", "pallace", "crystal"
+        "crystal palace", "palace", "cry", "cpfc", "eagles", "the eagles", "crystal p", "crystal p.", "c palace", "c. palace", "c.palace", "cystal palace", "pallace", "crystal"
     ],
     "Everton": [
         "everton", "eve", "toffees", "the toffees", "efc", "everton fc", "evrton", "evertn"
@@ -54,16 +54,16 @@ BASE_TEAM_ALIASES: Dict[str, List[str]] = {
         "liverpool", "liv", "reds", "the reds", "lfc", "liverpool fc", "pool", "livrpool", "liverpl"
     ],
     "Manchester City": [
-        "manchester city", "man city", "man city.", "man c", "man c.", "mci", "mcfc", "citizens", "manchester c", "manchester c.", "mancity", "m. city", "m.city", "city", "mn city", "manc"
+        "manchester city", "man city", "man city.", "man c", "man c.", "mci", "mcfc", "citizens", "manchester c", "manchester c.", "mancity", "m. city", "m.city", "man. city", "mc", "city", "mn city", "manc"
     ],
     "Manchester United": [
-        "manchester united", "man united", "man utd", "man utd.", "man u", "man u.", "mun", "mufc", "red devils", "manchester u", "manchester u.", "manutd", "m. united", "m.utd", "m. utd", "m.united", "united", "yanited", "mn utd", "manu"
+        "manchester united", "man united", "man utd", "man utd.", "man u", "man u.", "mun", "mufc", "red devils", "manchester u", "manchester u.", "manutd", "m. united", "m.utd", "m. utd", "man. united", "man. utd", "mu", "m.united", "united", "yanited", "mn utd", "manu"
     ],
     "Newcastle United": [
         "newcastle united", "newcastle utd", "newcastle", "new", "nufc", "magpies", "the toon", "toon", "new castle", "newcaslte", "newc utd", "newc utd."
     ],
     "Nottingham Forest": [
-        "nottingham forest", "nott'm forest", "nott’m forest", "nott'm", "nott’m", "nottm forest", "nottm", "forest", "nfo", "nffc", "nottingham", "tricky trees", "forrest", "nott forest", "n forest", "notts forest"
+        "nottingham forest", "nott'm forest", "nott’m forest", "nott'm", "nott’m", "nottm forest", "nottm", "forest", "nfo", "nffc", "nottingham", "tricky trees", "forrest", "nott forest", "n forest", "n. forest", "n.forest", "nott. forest", "notts forest"
     ],
     "Sunderland": [
         "sunderland", "sun", "safc", "black cats", "the black cats", "sundrland", "sunderlnd"

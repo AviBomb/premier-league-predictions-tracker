@@ -249,7 +249,7 @@ def audit_and_score_gameweek(
                 has_recorded_diff = True
 
         # 1. NLP Exact Extraction
-        raw_preds = extract_predictions_from_comment(raw_text)
+        raw_preds = extract_predictions_from_comment(raw_text, fixtures=fixtures)
         user_fixture_preds = {}
         exact_pairs = []
         exact_preds_dict = {}

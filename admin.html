@@ -1710,6 +1710,7 @@
                                             <div class="typed-line">
                                                 "${escapeHtml(cand.raw_line)}"
                                             </div>
+                                            <div class="item-label">Why flagged: ${escapeHtml(cand.reason || 'typo')}</div>
                                         </div>
 
                                         <div class="mi-match">
@@ -1718,9 +1719,9 @@
                                             </div>
                                             <div class="match-edit">
                                                 <span>${escapeHtml(cand.home_team)}</span>
-                                                <input type="number" min="0" max="20" id="${homeInputId}" value="${cand.pred_home}" class="score-input-sm" aria-label="${escapeHtml(cand.home_team)} goals" />
+                                                <input type="number" min="0" max="99" id="${homeInputId}" value="${cand.pred_home}" class="score-input-sm" aria-label="${escapeHtml(cand.home_team)} goals" />
                                                 <span class="score-dash">-</span>
-                                                <input type="number" min="0" max="20" id="${awayInputId}" value="${cand.pred_away}" class="score-input-sm" aria-label="${escapeHtml(cand.away_team)} goals" />
+                                                <input type="number" min="0" max="99" id="${awayInputId}" value="${cand.pred_away}" class="score-input-sm" aria-label="${escapeHtml(cand.away_team)} goals" />
                                                 <span>${escapeHtml(cand.away_team)}</span>
                                             </div>
                                         </div>
