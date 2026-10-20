@@ -1606,6 +1606,16 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@rucinebaker9768": {
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:14:28.718Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:14:28.718Z",
+        "pred_home": 5,
+        "pred_away": 0
+      }
     }
   },
   "GW_4": {
