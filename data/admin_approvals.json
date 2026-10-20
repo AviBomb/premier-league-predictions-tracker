@@ -3546,11 +3546,19 @@
     "@SebokaMpe": {
       "52": {
         "status": "approved",
-        "timestamp": "2026-10-10T05:12:06.742Z",
+        "timestamp": "2026-10-20T18:25:21.899Z",
         "by": "av***b@gmail.com",
-        "batch": "gw-2026-10-10T05:12:06.742Z",
+        "batch": "user-2026-10-20T18:25:21.899Z",
         "pred_home": 4,
         "pred_away": 3
+      },
+      "55": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:25:21.899Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:25:21.899Z",
+        "pred_home": 3,
+        "pred_away": 0
       }
     },
     "@Ppky2": {
