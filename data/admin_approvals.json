@@ -4081,6 +4081,112 @@
         "pred_home": 2,
         "pred_away": 1
       }
+    },
+    "@williamkirksey1669": {
+      "61": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
+    },
+    "@HJO-137": {
+      "61": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 1,
+        "pred_away": 1
+      },
+      "63": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
+    },
+    "@limkc8178": {
+      "62": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@pdawg4645": {
+      "66": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@ratonul260": {
+      "62": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@doog-2": {
+      "65": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 0,
+        "pred_away": 1
+      },
+      "66": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@FootyFever-m3s": {
+      "61": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 0,
+        "pred_away": 0
+      }
+    },
+    "@stevecorcoran1674": {
+      "64": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
+    },
+    "@natsuo6056": {
+      "67": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:23:02.616Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:23:02.616Z",
+        "pred_home": 5,
+        "pred_away": 0
+      }
     }
   }
 }
