@@ -1580,6 +1580,15 @@
         "pred_home": 0,
         "pred_away": 11
       }
+    },
+    "@andrewlineham5670": {
+      "26": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:12:58.611Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 5,
+        "pred_away": 0
+      }
     }
   },
   "GW_4": {
