@@ -1172,6 +1172,24 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@ricardoblayer9537": {
+      "13": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:10:29.888Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:10:29.888Z",
+        "pred_home": 2,
+        "pred_away": 1
+      },
+      "17": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:10:29.888Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:10:29.888Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
     }
   },
   "GW_3": {
