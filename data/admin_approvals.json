@@ -727,6 +727,16 @@
         "pred_home": 3,
         "pred_away": 1
       }
+    },
+    "@zavock": {
+      "7": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:05:46.870Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:05:46.870Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   },
   "GW_2": {
