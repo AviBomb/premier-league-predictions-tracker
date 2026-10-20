@@ -669,6 +669,24 @@
         "pred_home": 2,
         "pred_away": 0
       }
+    },
+    "@trevormabalane": {
+      "3": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:04:51.936Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:04:51.936Z",
+        "pred_home": 0,
+        "pred_away": 0
+      },
+      "9": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:04:51.936Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:04:51.936Z",
+        "pred_home": 1,
+        "pred_away": 4
+      }
     }
   },
   "GW_2": {
