@@ -803,6 +803,16 @@
         "pred_home": 1,
         "pred_away": 2
       }
+    },
+    "@jacobrichards5620": {
+      "2": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:06:53.274Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-20T18:06:53.274Z",
+        "pred_home": 1,
+        "pred_away": 3
+      }
     }
   },
   "GW_2": {
