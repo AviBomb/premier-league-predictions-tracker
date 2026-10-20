@@ -599,6 +599,26 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@nickpro2899": {
+      "5": {
+        "status": "approved",
+        "timestamp": "2026-10-20T16:44:48.198Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T16:44:48.198Z",
+        "pred_home": 0,
+        "pred_away": 1
+      }
+    },
+    "@ColeMcCluskey-w4f": {
+      "5": {
+        "status": "approved",
+        "timestamp": "2026-10-20T16:44:48.198Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T16:44:48.198Z",
+        "pred_home": 2,
+        "pred_away": 0
+      }
     }
   },
   "GW_2": {
