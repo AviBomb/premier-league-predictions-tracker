@@ -1588,6 +1588,13 @@
         "by": "av***b@gmail.com",
         "pred_home": 5,
         "pred_away": 0
+      },
+      "28": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:13:18.501Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 1,
+        "pred_away": 1
       }
     }
   },
