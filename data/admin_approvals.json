@@ -1114,6 +1114,15 @@
         "pred_home": 14,
         "pred_away": 1
       }
+    },
+    "@jezzidre3000": {
+      "13": {
+        "status": "rejected",
+        "timestamp": "2026-10-20T18:08:40.368Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 0,
+        "pred_away": 0
+      }
     }
   },
   "GW_3": {
