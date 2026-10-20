@@ -1730,6 +1730,72 @@
         "pred_home": 1,
         "pred_away": 0
       }
+    },
+    "@HridaySen.": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:19:38.558Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:19:38.558Z",
+        "pred_home": 1,
+        "pred_away": 2
+      },
+      "26": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:19:38.558Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:19:38.558Z",
+        "pred_home": 5,
+        "pred_away": 1
+      }
+    },
+    "@doog-2": {
+      "24": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:19:38.558Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:19:38.558Z",
+        "pred_home": 3,
+        "pred_away": 1
+      },
+      "30": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:19:38.558Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:19:38.558Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@heathenwolf9847": {
+      "24": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:19:38.558Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:19:38.558Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@Tatenda10": {
+      "27": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:19:38.558Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:19:38.558Z",
+        "pred_home": 3,
+        "pred_away": 2
+      }
+    },
+    "@ricardoblayer9537": {
+      "22": {
+        "status": "approved",
+        "timestamp": "2026-10-20T18:19:38.558Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-10-20T18:19:38.558Z",
+        "pred_home": 2,
+        "pred_away": 0
+      }
     }
   },
   "GW_4": {
