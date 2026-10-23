@@ -4703,6 +4703,15 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@falsouth762": {
+      "75": {
+        "status": "rejected",
+        "timestamp": "2026-10-23T20:36:40.748Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 0,
+        "pred_away": 1
+      }
     }
   }
 }
