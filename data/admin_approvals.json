@@ -4712,6 +4712,24 @@
         "pred_home": 0,
         "pred_away": 1
       }
+    },
+    "@cian1706": {
+      "72": {
+        "status": "approved",
+        "timestamp": "2026-10-23T20:37:20.308Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-23T20:37:20.308Z",
+        "pred_home": 0,
+        "pred_away": 3
+      },
+      "79": {
+        "status": "approved",
+        "timestamp": "2026-10-23T20:37:20.308Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-23T20:37:20.308Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
