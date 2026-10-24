@@ -4990,6 +4990,15 @@
         "pred_home": 1,
         "pred_away": 3
       }
+    },
+    "@crimson_wolf94": {
+      "73": {
+        "status": "rejected",
+        "timestamp": "2026-10-24T05:24:31.414Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 2,
+        "pred_away": 2
+      }
     }
   }
 }
