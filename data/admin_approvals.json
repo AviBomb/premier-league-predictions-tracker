@@ -4999,6 +4999,16 @@
         "pred_home": 2,
         "pred_away": 2
       }
+    },
+    "@eliaspakojmothibapula": {
+      "80": {
+        "status": "approved",
+        "timestamp": "2026-10-24T05:24:51.466Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-10-24T05:24:51.466Z",
+        "pred_home": 0,
+        "pred_away": 2
+      }
     }
   }
 }
