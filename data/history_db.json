@@ -292663,6 +292663,879 @@
     }
   },
   "GW_8": {
+    "@xpertassassin8178": {
+      "comment_id": "UgzXAyLsKGCdFw2TYAt4AaABAg",
+      "author": "@xpertassassin8178",
+      "channel_url": "http://www.youtube.com/@xpertassassin8178",
+      "published_at": "2026-10-24T11:31:29Z",
+      "updated_at": "2026-10-24T11:31:29Z",
+      "submission_gmt": "2026-10-24 11:31:29 GMT",
+      "updated_gmt": "2026-10-24 11:31:29 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-10-24 11:31:29 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Aston Villa 2-1 Man City\r\nArsenal 2-0 Everton\r\nCoventry 2-1 Fulham\r\nChelsea 2-1 Spurs\r\nCrystal Palace 2-1 Newcastle\r\nHull 1-2 Brentford\r\nLiverpool 2-2 Brighton\r\nMan United 1-1 Bournemouth\r\nSunderland 2-1 Leeds",
+      "original_comment_text": "Aston Villa 2-1 Man City\r\nArsenal 2-0 Everton\r\nCoventry 2-1 Fulham\r\nChelsea 2-1 Spurs\r\nCrystal Palace 2-1 Newcastle\r\nHull 1-2 Brentford\r\nLiverpool 2-2 Brighton\r\nMan United 1-1 Bournemouth\r\nSunderland 2-1 Leeds",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 8,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "2-1",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Arsenal vs Everton": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@Speedinkling": {
+      "comment_id": "UgxZXffGW-3bdykvNYJ4AaABAg",
+      "author": "@Speedinkling",
+      "channel_url": "http://www.youtube.com/@Speedinkling",
+      "published_at": "2026-10-24T10:46:07Z",
+      "updated_at": "2026-10-24T10:46:07Z",
+      "submission_gmt": "2026-10-24 10:46:07 GMT",
+      "updated_gmt": "2026-10-24 10:46:07 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 15h 46m before earliest kickoff (2026-10-24 10:46:07 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "For the matches still play.\n\nAston Villa 2 Man City 1\nArsenal 1 Everton 0\nCoventry 2 Fulham 0\nChelsea 4 Tottenham 2\nCrystal Palace 2 Newcastle 1\nHull 0 Brentford 2\nLiverpool 1 Brighton 2",
+      "original_comment_text": "For the matches still play.\n\nAston Villa 2 Man City 1\nArsenal 1 Everton 0\nCoventry 2 Fulham 0\nChelsea 4 Tottenham 2\nCrystal Palace 2 Newcastle 1\nHull 0 Brentford 2\nLiverpool 1 Brighton 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 7,
+      "valid_matches_count": 7,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "2-1",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "4-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        }
+      }
+    },
+    "@FeyselFaya-u3r": {
+      "comment_id": "UgyAdaiZovhLyMTJRyp4AaABAg",
+      "author": "@FeyselFaya-u3r",
+      "channel_url": "http://www.youtube.com/@FeyselFaya-u3r",
+      "published_at": "2026-10-24T10:21:59Z",
+      "updated_at": "2026-10-24T10:21:59Z",
+      "submission_gmt": "2026-10-24 10:21:59 GMT",
+      "updated_gmt": "2026-10-24 10:21:59 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 15h 21m before earliest kickoff (2026-10-24 10:21:59 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Aston villa 1-3 man city\nArsenal 2-0 Everton \nCoventry 0-1 Fulham\nChelsea 3-0 Tottenham \nCrystal palace 2-3 Newcastle \nHull city 0 -2 Brentford \nLiverpool 2-2 Brighton \nMan united 0-2 Bournemouth \nSunderland 1-1 leeds",
+      "original_comment_text": "Aston villa 1-3 man city\nArsenal 2-0 Everton \nCoventry 0-1 Fulham\nChelsea 3-0 Tottenham \nCrystal palace 2-3 Newcastle \nHull city 0 -2 Brentford \nLiverpool 2-2 Brighton \nMan united 0-2 Bournemouth \nSunderland 1-1 leeds",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "1-3",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@marcusulevik": {
+      "comment_id": "UgwUcMRPbj7NIZ7uwL54AaABAg",
+      "author": "@marcusulevik",
+      "channel_url": "http://www.youtube.com/@marcusulevik",
+      "published_at": "2026-10-24T10:03:11Z",
+      "updated_at": "2026-10-24T10:03:11Z",
+      "submission_gmt": "2026-10-24 10:03:11 GMT",
+      "updated_gmt": "2026-10-24 10:03:11 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-10-24 10:03:11 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich 1-1 Forest\nAston Villa 1-3 Man City\nArsenal 2-0 Everton\nCoventry 2-1 Fulham\nChelsea 4-0 Spurs\nPalace 0-1 Newcastle\nHull 2-2 Brentford\nLiverpool 1-3 Brighton\nMan United 1-0 Bournemouth\nSunderland 0-2 Leeds",
+      "original_comment_text": "Ipswich 1-1 Forest\nAston Villa 1-3 Man City\nArsenal 2-0 Everton\nCoventry 2-1 Fulham\nChelsea 4-0 Spurs\nPalace 0-1 Newcastle\nHull 2-2 Brentford\nLiverpool 1-3 Brighton\nMan United 1-0 Bournemouth\nSunderland 0-2 Leeds",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "1-1",
+          "actual": "1-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "1-3",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "2-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "4-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@Pando1773": {
+      "comment_id": "UgxGOZeCfkBTRcnQcUF4AaABAg",
+      "author": "@Pando1773",
+      "channel_url": "http://www.youtube.com/@Pando1773",
+      "published_at": "2026-10-24T09:57:05Z",
+      "updated_at": "2026-10-24T09:57:05Z",
+      "submission_gmt": "2026-10-24 09:57:05 GMT",
+      "updated_gmt": "2026-10-24 09:57:05 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-10-24 09:57:05 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich 2 - 2 Forest\nAston Villa 2 - 2 Man City\nArsenal 2 - 0 Everton\nCoventry 1 - 1 Fulham\nChelsea 4 - 0  Spurs\nCrystal palace 1 - 2 Newcastle\nHull 1 - 1 Brentford\nLiverpool 0 - 3 Brighton\nMan utd 2 - 3 Bournemouth\nSunderland 0 - 2 Leeds",
+      "original_comment_text": "Ipswich 2 - 2 Forest\nAston Villa 2 - 2 Man City\nArsenal 2 - 0 Everton\nCoventry 1 - 1 Fulham\nChelsea 4 - 0  Spurs\nCrystal palace 1 - 2 Newcastle\nHull 1 - 1 Brentford\nLiverpool 0 - 3 Brighton\nMan utd 2 - 3 Bournemouth\nSunderland 0 - 2 Leeds",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "2-2",
+          "actual": "1-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "2-2",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "4-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "0-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "2-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@psykosis_the_amatuer_animator": {
+      "comment_id": "UgwNT2RHAGGe6ovEw9J4AaABAg",
+      "author": "@psykosis_the_amatuer_animator",
+      "channel_url": "http://www.youtube.com/@psykosis_the_amatuer_animator",
+      "published_at": "2026-10-24T09:52:35Z",
+      "updated_at": "2026-10-24T09:52:35Z",
+      "submission_gmt": "2026-10-24 09:52:35 GMT",
+      "updated_gmt": "2026-10-24 09:52:35 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-10-24 09:52:35 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich 1 Nottingham forest 0 \nAston Villa 2 Man City 3 \nArsenal 1 Everton 0 \nCoventry 1 Fulham 0\nChelsea 4 Tottenham 2\nCrystal palace 1 Newcastle 1\nHull 0 Brentford 0\nLiverpool 3 Brighton 3\nMan United 1 Bournemouth 0\nSunderland 0 Leeds 2",
+      "original_comment_text": "Ipswich 1 Nottingham forest 0 \nAston Villa 2 Man City 3 \nArsenal 1 Everton 0 \nCoventry 1 Fulham 0\nChelsea 4 Tottenham 2\nCrystal palace 1 Newcastle 1\nHull 0 Brentford 0\nLiverpool 3 Brighton 3\nMan United 1 Bournemouth 0\nSunderland 0 Leeds 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "1-0",
+          "actual": "1-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "2-3",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "4-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "0-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "3-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "1-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@seansavage7414": {
+      "comment_id": "UgzAnmt9yWUE4qxUcTt4AaABAg",
+      "author": "@seansavage7414",
+      "channel_url": "http://www.youtube.com/@seansavage7414",
+      "published_at": "2026-10-24T09:11:06Z",
+      "updated_at": "2026-10-24T09:11:06Z",
+      "submission_gmt": "2026-10-24 09:11:06 GMT",
+      "updated_gmt": "2026-10-24 09:11:06 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "Late for 1 match(es)",
+      "timing_analysis": "Submitted 2026-10-24 09:11:06 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid* (Late for 1 match)",
+      "raw_text": "Ipswich Town 2 Nottingham Forest 1 \nAston Villa 1 Manchester City 2 \nArsenal 2 Everton 0 \nCoventry City 1 Fulham 2 \nChelsea 4 Tottenham 1 \nCrystal Palace 1 Newcastle United 2 \nHull City 0 Brentford 2 \nLiverpool 1 Brighton and Hove Albion 1 \nManchester United 1 Bournemouth 3 \nSunderland 1 Leeds United 2",
+      "original_comment_text": "Ipswich Town 2 Nottingham Forest 1 \nAston Villa 1 Manchester City 2 \nArsenal 2 Everton 0 \nCoventry City 1 Fulham 2 \nChelsea 4 Tottenham 1 \nCrystal Palace 1 Newcastle United 2 \nHull City 0 Brentford 2 \nLiverpool 1 Brighton and Hove Albion 1 \nManchester United 1 Bournemouth 3 \nSunderland 1 Leeds United 2",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 10,
+      "valid_matches_count": 9,
+      "late_matches_count": 1,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "2-1",
+          "actual": "1-1",
+          "points": 0,
+          "result": "Void* (Submitted after match kickoff - Not Counted)",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "1-2",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "4-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@reecetheblack8901": {
+      "comment_id": "UgyhvVSoKLsTOWTTzLh4AaABAg",
+      "author": "@reecetheblack8901",
+      "channel_url": "http://www.youtube.com/@reecetheblack8901",
+      "published_at": "2026-10-24T09:07:46Z",
+      "updated_at": "2026-10-24T09:07:46Z",
+      "submission_gmt": "2026-10-24 09:07:46 GMT",
+      "updated_gmt": "2026-10-24 09:07:46 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 14h 7m before earliest kickoff (2026-10-24 09:07:46 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Aston Villa 1-3 Man City\nCoventry 2-2 Fulham\nArsenal 2-0 Everton\nChelsea 3-0 Spurs\nHull 0-2 Brentford\nLiverpool 3-2 Brighton\nMan U 1-2 Bournemouth\nCrystal Palace 1-1 Newcastle\nSunderland 0-1 Leeds",
+      "original_comment_text": "Aston Villa 1-3 Man City\nCoventry 2-2 Fulham\nArsenal 2-0 Everton\nChelsea 3-0 Spurs\nHull 0-2 Brentford\nLiverpool 3-2 Brighton\nMan U 1-2 Bournemouth\nCrystal Palace 1-1 Newcastle\nSunderland 0-1 Leeds",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "1-3",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "3-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "1-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "0-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
+    "@isaiahcys16": {
+      "comment_id": "UgwjTNnNGTpOkiDN9vV4AaABAg",
+      "author": "@isaiahcys16",
+      "channel_url": "http://www.youtube.com/@isaiahcys16",
+      "published_at": "2026-10-24T07:17:11Z",
+      "updated_at": "2026-10-24T07:17:11Z",
+      "submission_gmt": "2026-10-24 07:17:11 GMT",
+      "updated_gmt": "2026-10-24 07:17:11 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 12h 17m before earliest kickoff (2026-10-24 07:17:11 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Aston villa 1-2 Man City\nArsenal 3-0 Everton \nCoventry 1-1 Fulham \nChelsea 2-0 Spurs\nHull 2-2 Brentford\nLiverpool 3-3 Brighton\nMan United 1-3 Bournemouth\nPalace 0-2 Newcastle \nSunderland 1-3 Leeds",
+      "original_comment_text": "Aston villa 1-2 Man City\nArsenal 3-0 Everton \nCoventry 1-1 Fulham \nChelsea 2-0 Spurs\nHull 2-2 Brentford\nLiverpool 3-3 Brighton\nMan United 1-3 Bournemouth\nPalace 0-2 Newcastle \nSunderland 1-3 Leeds",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 9,
+      "valid_matches_count": 9,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Ipswich Town vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Manchester City": {
+          "pred": "1-2",
+          "actual": "1-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Arsenal vs Everton": {
+          "pred": "3-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Coventry City vs Fulham": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Chelsea vs Tottenham Hotspur": {
+          "pred": "2-0",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Crystal Palace vs Newcastle United": {
+          "pred": "0-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Hull City vs Brentford": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Liverpool vs Brighton & Hove Albion": {
+          "pred": "3-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Manchester United vs AFC Bournemouth": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Sunderland vs Leeds United": {
+          "pred": "1-3",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
     "@aaronbard4403": {
       "comment_id": "Ugxwj2uHBqr-MztKeZF4AaABAg",
       "author": "@aaronbard4403",
@@ -292697,9 +293570,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -292794,7 +293667,7 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -292891,9 +293764,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -292988,9 +293861,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293085,9 +293958,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293182,9 +294055,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293279,9 +294152,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293376,9 +294249,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293473,9 +294346,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293570,9 +294443,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293667,9 +294540,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293764,9 +294637,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293861,9 +294734,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -293958,9 +294831,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294055,9 +294928,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294152,9 +295025,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294249,9 +295122,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294346,9 +295219,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294443,9 +295316,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294540,9 +295413,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294637,9 +295510,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294734,9 +295607,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294831,9 +295704,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -294928,9 +295801,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295025,9 +295898,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295122,9 +295995,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295219,9 +296092,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295316,9 +296189,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295413,9 +296286,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295497,9 +296370,9 @@
       "matches_found": 10,
       "valid_matches_count": 9,
       "late_matches_count": 1,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-1",
@@ -295510,9 +296383,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295607,9 +296480,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295704,9 +296577,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295801,9 +296674,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295898,9 +296771,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -295995,9 +296868,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296092,9 +296965,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296189,9 +297062,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296286,9 +297159,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296383,9 +297256,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296480,9 +297353,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296577,9 +297450,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296674,9 +297547,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296771,9 +297644,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -296868,7 +297741,7 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -296953,8 +297826,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-3",
@@ -296965,9 +297838,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297050,8 +297923,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "N/A",
@@ -297062,9 +297935,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297159,9 +298032,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297256,9 +298129,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297353,9 +298226,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297450,9 +298323,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297535,8 +298408,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -297547,9 +298420,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297644,9 +298517,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297741,9 +298614,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297838,9 +298711,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -297935,9 +298808,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298032,9 +298905,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298129,9 +299002,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298226,9 +299099,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298323,9 +299196,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298420,9 +299293,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298517,9 +299390,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298614,9 +299487,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298711,9 +299584,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298808,9 +299681,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -298905,9 +299778,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299002,9 +299875,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299099,9 +299972,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299184,8 +300057,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -299196,9 +300069,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299281,8 +300154,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -299293,9 +300166,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299390,9 +300263,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299487,9 +300360,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299572,8 +300445,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -299584,9 +300457,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299681,9 +300554,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299766,8 +300639,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -299778,9 +300651,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299875,9 +300748,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -299972,9 +300845,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300069,9 +300942,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300166,9 +301039,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300263,9 +301136,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300360,9 +301233,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300457,9 +301330,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300554,9 +301427,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300651,9 +301524,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300748,9 +301621,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300845,9 +301718,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -300942,9 +301815,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301039,9 +301912,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301136,9 +302009,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301233,9 +302106,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301330,9 +302203,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301427,9 +302300,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301524,9 +302397,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301621,9 +302494,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301718,9 +302591,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301815,9 +302688,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -301912,9 +302785,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302009,9 +302882,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302106,9 +302979,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302203,9 +303076,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302300,9 +303173,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302397,9 +303270,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302494,9 +303367,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302591,9 +303464,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302676,8 +303549,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-2",
@@ -302688,9 +303561,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302773,8 +303646,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -302785,9 +303658,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302882,9 +303755,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -302979,9 +303852,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303076,9 +303949,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303173,9 +304046,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303270,9 +304143,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303367,9 +304240,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303451,9 +304324,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -303464,9 +304337,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303561,9 +304434,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303658,9 +304531,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303755,9 +304628,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303852,9 +304725,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -303949,9 +304822,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304034,8 +304907,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-2",
@@ -304046,9 +304919,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304143,9 +305016,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304240,9 +305113,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304337,9 +305210,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304434,9 +305307,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304531,9 +305404,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304628,9 +305501,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304725,9 +305598,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304822,9 +305695,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -304919,9 +305792,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305004,8 +305877,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -305016,9 +305889,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305113,9 +305986,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305210,9 +306083,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305307,9 +306180,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305404,9 +306277,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305501,9 +306374,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305598,9 +306471,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305683,8 +306556,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -305695,9 +306568,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305792,9 +306665,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305889,9 +306762,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -305986,9 +306859,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306083,9 +306956,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306180,9 +307053,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306277,9 +307150,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306374,9 +307247,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306471,9 +307344,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306568,9 +307441,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306665,9 +307538,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306762,9 +307635,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306859,9 +307732,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -306943,9 +307816,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-3",
@@ -306956,9 +307829,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307053,9 +307926,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307150,9 +308023,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307247,9 +308120,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307344,9 +308217,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307429,8 +308302,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -307441,9 +308314,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307538,9 +308411,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307635,9 +308508,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307720,8 +308593,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-1",
@@ -307732,9 +308605,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307829,9 +308702,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -307926,9 +308799,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308023,9 +308896,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308120,9 +308993,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308204,9 +309077,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -308217,9 +309090,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308314,9 +309187,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308411,9 +309284,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308508,9 +309381,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308605,9 +309478,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308702,9 +309575,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308799,9 +309672,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308884,8 +309757,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-2",
@@ -308896,9 +309769,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -308993,9 +309866,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309090,9 +309963,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309187,9 +310060,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309284,9 +310157,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309381,9 +310254,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309478,9 +310351,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309575,9 +310448,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309672,9 +310545,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309769,9 +310642,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309866,9 +310739,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -309963,9 +310836,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310048,8 +310921,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -310060,9 +310933,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310157,9 +311030,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310242,8 +311115,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-2",
@@ -310254,9 +311127,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310351,9 +311224,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310448,9 +311321,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310533,8 +311406,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -310545,9 +311418,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310642,9 +311515,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310739,9 +311612,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310836,9 +311709,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-5",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -310933,9 +311806,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311030,9 +311903,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311127,9 +312000,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311224,9 +312097,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311309,8 +312182,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -311321,9 +312194,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311418,9 +312291,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311503,8 +312376,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -311515,9 +312388,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311612,9 +312485,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311709,9 +312582,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311806,9 +312679,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -311903,9 +312776,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312000,9 +312873,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312097,9 +312970,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312194,9 +313067,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-0",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312291,9 +313164,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312376,8 +313249,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -312388,9 +313261,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312473,8 +313346,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -312485,9 +313358,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312582,9 +313455,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312667,8 +313540,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -312679,9 +313552,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312776,9 +313649,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312873,9 +313746,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -312970,9 +313843,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313067,9 +313940,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313164,9 +314037,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313261,9 +314134,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313358,9 +314231,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313443,8 +314316,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -313455,9 +314328,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313552,9 +314425,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313636,9 +314509,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -313649,9 +314522,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313746,9 +314619,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313843,9 +314716,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -313940,9 +314813,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314037,9 +314910,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314134,9 +315007,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314231,9 +315104,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-5",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314315,9 +315188,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -314328,9 +315201,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314425,9 +315298,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314522,9 +315395,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314619,9 +315492,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314716,9 +315589,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314801,8 +315674,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -314813,9 +315686,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -314910,7 +315783,7 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -315007,9 +315880,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315104,9 +315977,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315201,9 +316074,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315298,9 +316171,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315395,9 +316268,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315492,9 +316365,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315589,9 +316462,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315686,9 +316559,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315771,8 +316644,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -315783,9 +316656,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315868,8 +316741,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-1",
@@ -315880,9 +316753,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -315965,8 +316838,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -315977,9 +316850,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316061,9 +316934,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -316074,9 +316947,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316171,9 +317044,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316268,9 +317141,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316365,9 +317238,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316462,9 +317335,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316559,9 +317432,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316643,9 +317516,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -316656,9 +317529,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316753,9 +317626,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316850,9 +317723,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -316947,9 +317820,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317044,9 +317917,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317141,9 +318014,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317238,9 +318111,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317335,9 +318208,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317432,9 +318305,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317529,9 +318402,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317614,8 +318487,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-2",
@@ -317626,9 +318499,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317723,9 +318596,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317820,9 +318693,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -317917,9 +318790,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318014,9 +318887,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318111,9 +318984,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318196,8 +319069,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-1",
@@ -318208,9 +319081,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318305,9 +319178,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318402,9 +319275,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318487,8 +319360,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "3-1",
@@ -318499,9 +319372,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318596,9 +319469,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318693,9 +319566,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318790,9 +319663,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318887,9 +319760,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -318984,9 +319857,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319081,9 +319954,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319178,9 +320051,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319275,9 +320148,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319372,9 +320245,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319469,9 +320342,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319554,8 +320427,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -319566,9 +320439,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319663,9 +320536,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319760,9 +320633,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319857,9 +320730,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -319954,9 +320827,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320051,9 +320924,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320136,8 +321009,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -320148,9 +321021,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320233,8 +321106,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -320245,9 +321118,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320342,7 +321215,7 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -320439,9 +321312,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320536,9 +321409,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320633,9 +321506,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320730,9 +321603,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320827,9 +321700,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -320924,9 +321797,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321009,8 +321882,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-2",
@@ -321021,9 +321894,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321118,9 +321991,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321215,9 +322088,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321312,9 +322185,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321409,9 +322282,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321494,8 +322367,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-0",
@@ -321506,9 +322379,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321591,8 +322464,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -321603,9 +322476,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321688,8 +322561,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -321700,9 +322573,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321797,9 +322670,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321894,9 +322767,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -321991,9 +322864,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322088,9 +322961,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322185,9 +323058,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322282,9 +323155,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322366,9 +323239,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -322379,9 +323252,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322476,9 +323349,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322573,9 +323446,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322670,9 +323543,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322767,9 +323640,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322852,8 +323725,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-2",
@@ -322864,9 +323737,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -322961,9 +323834,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323058,9 +323931,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323155,9 +324028,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323252,9 +324125,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323349,9 +324222,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323446,9 +324319,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323543,9 +324416,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323640,9 +324513,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-1",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323724,9 +324597,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 0,
-      "total_points": 0,
+      "total_points": 3,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "2-1",
@@ -323737,9 +324610,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323822,8 +324695,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-1",
@@ -323834,9 +324707,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -323918,9 +324791,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 0,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -323931,9 +324804,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324028,9 +324901,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324125,9 +324998,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324222,9 +325095,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324319,9 +325192,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324416,9 +325289,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324513,9 +325386,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324598,8 +325471,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -324610,9 +325483,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324707,9 +325580,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324804,9 +325677,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324901,9 +325774,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -324998,9 +325871,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325095,9 +325968,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325192,9 +326065,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325289,9 +326162,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325386,9 +326259,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325483,9 +326356,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325580,9 +326453,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325665,8 +326538,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-2",
@@ -325677,9 +326550,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325774,9 +326647,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325871,9 +326744,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -325968,9 +326841,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326053,8 +326926,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "0-1",
@@ -326065,9 +326938,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326150,8 +327023,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "3-1",
@@ -326162,9 +327035,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "3-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326259,7 +327132,7 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -326356,9 +327229,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326453,9 +327326,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326550,9 +327423,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326647,9 +327520,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326744,9 +327617,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326841,9 +327714,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -326938,9 +327811,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327035,9 +327908,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327132,9 +328005,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327229,9 +328102,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327314,8 +328187,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -327326,9 +328199,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327411,8 +328284,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-2",
@@ -327423,9 +328296,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327520,9 +328393,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327605,8 +328478,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-3",
@@ -327617,9 +328490,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327714,9 +328587,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327811,9 +328684,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -327908,9 +328781,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328005,9 +328878,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328090,8 +328963,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 0,
-      "total_points": 3,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Ipswich Town vs Nottingham Forest": {
           "pred": "1-1",
@@ -328102,9 +328975,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "1-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328199,9 +329072,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328296,9 +329169,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328393,9 +329266,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328490,9 +329363,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328587,9 +329460,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-2",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
@@ -328684,9 +329557,9 @@
         },
         "Aston Villa vs Manchester City": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "1-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Arsenal vs Everton": {
