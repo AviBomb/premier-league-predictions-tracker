@@ -3,27 +3,27 @@
     {
       "team": "Manchester City",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
-      "played": 7,
+      "played": 8,
       "won": 7,
       "drawn": 0,
-      "lost": 0,
-      "gf": 19,
-      "ga": 7,
+      "lost": 1,
+      "gf": 20,
+      "ga": 9,
       "form": [
         "W",
         "W",
         "W",
         "W",
-        "W"
+        "L"
       ],
       "next": {
-        "opponent": "Aston Villa",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
-        "venue": "A",
-        "kickoff": "2026-10-24T11:30:00Z",
-        "gw": 8
+        "opponent": "Brighton & Hove Albion",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+        "venue": "H",
+        "kickoff": "2026-10-31T15:00:00Z",
+        "gw": 9
       },
-      "gd": 12,
+      "gd": 11,
       "points": 21,
       "position": 1
     },
@@ -136,6 +136,33 @@
       "position": 5
     },
     {
+      "team": "Aston Villa",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+      "played": 8,
+      "won": 3,
+      "drawn": 2,
+      "lost": 3,
+      "gf": 9,
+      "ga": 12,
+      "form": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "next": {
+        "opponent": "Fulham",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t54.png",
+        "venue": "H",
+        "kickoff": "2026-10-31T20:00:00Z",
+        "gw": 9
+      },
+      "gd": -3,
+      "points": 11,
+      "position": 6
+    },
+    {
       "team": "Brentford",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
       "played": 7,
@@ -160,7 +187,7 @@
       },
       "gd": 5,
       "points": 10,
-      "position": 6
+      "position": 7
     },
     {
       "team": "Leeds United",
@@ -187,7 +214,7 @@
       },
       "gd": 3,
       "points": 10,
-      "position": 7
+      "position": 8
     },
     {
       "team": "Everton",
@@ -214,7 +241,7 @@
       },
       "gd": 1,
       "points": 10,
-      "position": 8
+      "position": 9
     },
     {
       "team": "Ipswich Town",
@@ -241,7 +268,7 @@
       },
       "gd": -4,
       "points": 10,
-      "position": 9
+      "position": 10
     },
     {
       "team": "Hull City",
@@ -268,7 +295,7 @@
       },
       "gd": 1,
       "points": 9,
-      "position": 10
+      "position": 11
     },
     {
       "team": "Newcastle United",
@@ -291,33 +318,6 @@
         "logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
         "venue": "A",
         "kickoff": "2026-10-25T14:00:00Z",
-        "gw": 8
-      },
-      "gd": -4,
-      "points": 8,
-      "position": 11
-    },
-    {
-      "team": "Aston Villa",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
-      "played": 7,
-      "won": 2,
-      "drawn": 2,
-      "lost": 3,
-      "gf": 7,
-      "ga": 11,
-      "form": [
-        "D",
-        "L",
-        "W",
-        "D",
-        "W"
-      ],
-      "next": {
-        "opponent": "Manchester City",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
-        "venue": "H",
-        "kickoff": "2026-10-24T11:30:00Z",
         "gw": 8
       },
       "gd": -4,
@@ -545,21 +545,6 @@
     "gw": 8,
     "matches": [
       {
-        "id": 72,
-        "home": "Aston Villa",
-        "away": "Manchester City",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
-        "kickoff": "2026-10-24T11:30:00Z",
-        "pred_home": 1,
-        "pred_away": 2,
-        "xg_home": 1.08,
-        "xg_away": 2.04,
-        "p_home": 20,
-        "p_draw": 21,
-        "p_away": 59
-      },
-      {
         "id": 71,
         "home": "Arsenal",
         "away": "Everton",
@@ -584,7 +569,7 @@
         "pred_home": 0,
         "pred_away": 1,
         "xg_home": 1.22,
-        "xg_away": 1.29,
+        "xg_away": 1.28,
         "p_home": 35,
         "p_draw": 27,
         "p_away": 38
@@ -598,7 +583,7 @@
         "kickoff": "2026-10-24T16:30:00Z",
         "pred_home": 2,
         "pred_away": 1,
-        "xg_home": 2.23,
+        "xg_home": 2.24,
         "xg_away": 1.14,
         "p_home": 62,
         "p_draw": 20,
@@ -613,9 +598,9 @@
         "kickoff": "2026-10-25T14:00:00Z",
         "pred_home": 2,
         "pred_away": 1,
-        "xg_home": 1.84,
-        "xg_away": 1.78,
-        "p_home": 40,
+        "xg_home": 1.85,
+        "xg_away": 1.77,
+        "p_home": 41,
         "p_draw": 22,
         "p_away": 38
       },
@@ -629,7 +614,7 @@
         "pred_home": 1,
         "pred_away": 0,
         "xg_home": 1.24,
-        "xg_away": 1.23,
+        "xg_away": 1.22,
         "p_home": 37,
         "p_draw": 27,
         "p_away": 36
@@ -658,7 +643,7 @@
         "kickoff": "2026-10-25T14:00:00Z",
         "pred_home": 2,
         "pred_away": 1,
-        "xg_home": 1.86,
+        "xg_home": 1.87,
         "xg_away": 1.19,
         "p_home": 53,
         "p_draw": 23,
@@ -673,11 +658,11 @@
         "kickoff": "2026-10-25T16:30:00Z",
         "pred_home": 0,
         "pred_away": 1,
-        "xg_home": 0.93,
-        "xg_away": 1.47,
+        "xg_home": 0.94,
+        "xg_away": 1.46,
         "p_home": 24,
         "p_draw": 26,
-        "p_away": 50
+        "p_away": 49
       }
     ]
   },
@@ -725,7 +710,7 @@
     "points": 37,
     "exacts": 3,
     "outcomes": 28,
-    "matches": 71,
+    "matches": 72,
     "gws": [
       {
         "gw": 1,
@@ -788,7 +773,7 @@
         "points": 0,
         "exacts": 0,
         "outcomes": 0,
-        "matches": 1,
+        "matches": 2,
         "backtest": false
       }
     ]
