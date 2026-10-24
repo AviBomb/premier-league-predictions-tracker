@@ -619,8 +619,8 @@
       "backtest": false,
       "home": "Hull City",
       "kickoff": "2026-10-25T14:00:00Z",
-      "pred_away": 0,
-      "pred_home": 1
+      "pred_away": 1,
+      "pred_home": 0
     },
     "77": {
       "away": "Nottingham Forest",

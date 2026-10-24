@@ -3078,11 +3078,10 @@
           "home_goals_summary": "",
           "away_goals_summary": "Mike Penders 77' (OG), Mathys Tel 87'",
           "kickoff": "2026-10-24T16:30:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 87,
-          "status": "ONGOING",
-          "clock": "89'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 75,
