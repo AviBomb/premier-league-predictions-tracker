@@ -1463,6 +1463,12 @@
             return 'pill-valid';
         }
 
+        function missedGwHtml(status) {
+            if (!status) return '<span class="muted">Didn\'t play</span>';
+            const label = status.startsWith('Late') ? 'Late (not counted)' : 'Disqualified (edited)';
+            return `<span class="pill ${statusPillClass(status)}" title="${status}">${label}</span>`;
+        }
+
         function rankBadgeClass(rank) {
             return { 1: 'rank-1', 2: 'rank-2', 3: 'rank-3' }[rank] || 'rank-other';
         }
@@ -1703,17 +1709,18 @@
                 return;
             }
             const history = r.history || [];
+            const ranked = history.filter(h => h[2] !== null);
             const wins = r.gw_wins || [];
             document.getElementById('profile-name').innerText = r.Author;
             document.getElementById('profile-sub').innerHTML = `<span class="rank-badge ${rankBadgeClass(r.Rank)}">#${r.Rank}</span> of ${rawLeaderboard.length} ${rankMoveHtml(r)} ${winsHtml(r)}`;
             document.getElementById('profile-copy').dataset.author = r.Author;
             document.getElementById('profile-copy').querySelector('span').innerText = 'Copy link';
 
-            const gwRows = history.slice().reverse().map(([gw, pts, rank, commentId]) => `
+            const gwRows = history.slice().reverse().map(([gw, pts, rank, commentId, status]) => `
                 <div class="profile-gw">
                     <span class="profile-gw-name">Gameweek ${gw}${wins.includes(gw) ? ' <i class="ph ph-trophy gw-win-icon" title="Gameweek winner"></i>' : ''}</span>
-                    <span class="profile-gw-pts">${pts === null ? '<span class="muted">Didn\'t play</span>' : `${pts} pts`}</span>
-                    <span class="profile-gw-rank">#${rank} after GW</span>
+                    <span class="profile-gw-pts">${pts === null ? missedGwHtml(status) : `${pts} pts`}</span>
+                    <span class="profile-gw-rank">${rank === null ? 'Not ranked yet' : `#${rank} after GW`}</span>
                     ${commentId ? `<button class="btn-inspect" onclick="openPicks('${commentId}', ${gw})">Picks <i class="ph ph-arrow-right" aria-hidden="true"></i></button>` : '<span></span>'}
                 </div>
             `).join('');
@@ -1725,7 +1732,7 @@
                     <div><span class="mobile-card-lbl">Exact scores</span><span class="profile-stat-val val-gold">${r['Total_Exact_Scores (3pts)']}</span></div>
                     <div><span class="mobile-card-lbl">Correct results</span><span class="profile-stat-val">${r['Total_Outcome_Scores (1pt)']}</span></div>
                 </div>
-                ${history.length > 1 ? `<div><div class="modal-section-label"><i class="ph ph-chart-line" aria-hidden="true"></i>Season rank after each gameweek</div><div class="spark-wrap">${rankSparkline(history)}<div class="spark-axis"><span>GW ${history[0][0]}</span><span>GW ${history.at(-1)[0]}</span></div></div></div>` : ''}
+                ${ranked.length > 1 ? `<div><div class="modal-section-label"><i class="ph ph-chart-line" aria-hidden="true"></i>Season rank after each gameweek</div><div class="spark-wrap">${rankSparkline(ranked)}<div class="spark-axis"><span>GW ${ranked[0][0]}</span><span>GW ${ranked.at(-1)[0]}</span></div></div></div>` : ''}
                 <div>
                     <div class="modal-section-label"><i class="ph ph-list-checks" aria-hidden="true"></i>Gameweek by gameweek</div>
                     <div class="profile-gws">${gwRows || '<div class="modal-empty">No gameweeks yet.</div>'}</div>

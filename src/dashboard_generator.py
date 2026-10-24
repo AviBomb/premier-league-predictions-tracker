@@ -111,6 +111,10 @@ def competition_ranks(totals: Dict[str, List[int]]) -> Dict[str, int]:
 def enrich_leaderboard(rows: List[Dict[str, Any]], all_gw: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Adds rank history per gameweek, rank movement since the previous gameweek, and gameweek wins."""
     per_gw = {int(g): valid_entries(d.get("audited_records", [])) for g, d in all_gw.items()}
+    excluded: Dict[int, Dict[str, Dict[str, Any]]] = {}
+    for g, d in all_gw.items():
+        for r in d.get("audited_records", []):
+            excluded.setdefault(int(g), {}).setdefault(r["author"], r)
     totals: Dict[str, List[int]] = {}
     ranks_after: Dict[int, Dict[str, int]] = {}
     history: Dict[str, List[List[Any]]] = {}
@@ -121,11 +125,16 @@ def enrich_leaderboard(rows: List[Dict[str, Any]], all_gw: Dict[str, Any]) -> Li
             t[1] += r.get("exact_scores", 0)
             t[2] += r.get("outcome_scores", 0)
         ranks_after[g] = competition_ranks(totals)
-        for author in totals:
+        for author in totals.keys() | excluded.get(g, {}).keys():
             entry = per_gw[g].get(author)
-            history.setdefault(author, []).append([
-                g, entry.get("total_points", 0) if entry else None, ranks_after[g][author], entry.get("comment_id") if entry else None
-            ])
+            if entry:
+                row = [g, entry.get("total_points", 0), ranks_after[g][author], entry.get("comment_id")]
+            elif author in excluded.get(g, {}):
+                other = excluded[g][author]
+                row = [g, None, ranks_after[g].get(author), other.get("comment_id"), other.get("status")]
+            else:
+                row = [g, None, ranks_after[g][author], None]
+            history.setdefault(author, []).append(row)
 
     gw_wins: Dict[str, List[int]] = {}
     for g, entries in per_gw.items():
