@@ -306473,22 +306473,22 @@
         "away_act": 1,
         "home_goals": [
           {
-            "minute": "",
-            "scorer": "Enciso",
+            "minute": "41'",
+            "scorer": "Julio Enciso",
             "assist": null,
             "type": "G"
           }
         ],
         "away_goals": [
           {
-            "minute": "",
-            "scorer": "N.Williams",
-            "assist": "Muñoz",
+            "minute": "13'",
+            "scorer": "Neco Williams",
+            "assist": "Daniel Muñoz",
             "type": "G"
           }
         ],
-        "home_goals_summary": "Enciso",
-        "away_goals_summary": "N.Williams (Muñoz)",
+        "home_goals_summary": "Julio Enciso 41'",
+        "away_goals_summary": "Neco Williams 13' (assist: Daniel Muñoz)",
         "kickoff": "2026-10-23T19:00:00Z",
         "finished": true,
         "started": true,
@@ -306505,28 +306505,28 @@
         "away_act": 1,
         "home_goals": [
           {
-            "minute": "",
-            "scorer": "N.Jackson",
-            "assist": "McGinn",
+            "minute": "06'",
+            "scorer": "Nicolas Jackson",
+            "assist": "John McGinn",
             "type": "G"
           },
           {
-            "minute": "",
-            "scorer": "N.Jackson",
-            "assist": "Mbaye",
+            "minute": "60'",
+            "scorer": "Nicolas Jackson",
+            "assist": "Ibrahim Mbaye",
             "type": "G"
           }
         ],
         "away_goals": [
           {
-            "minute": "",
-            "scorer": "Haaland",
-            "assist": "Ndiaye",
+            "minute": "52'",
+            "scorer": "Erling Haaland",
+            "assist": "Iliman Ndiaye",
             "type": "G"
           }
         ],
-        "home_goals_summary": "N.Jackson (McGinn), N.Jackson (Mbaye)",
-        "away_goals_summary": "Haaland (Ndiaye)",
+        "home_goals_summary": "Nicolas Jackson 06' (assist: John McGinn), Nicolas Jackson 60' (assist: Ibrahim Mbaye)",
+        "away_goals_summary": "Erling Haaland 52' (assist: Iliman Ndiaye)",
         "kickoff": "2026-10-24T11:30:00Z",
         "finished": true,
         "started": true,
@@ -306543,20 +306543,20 @@
         "away_act": 0,
         "home_goals": [
           {
-            "minute": "",
-            "scorer": "Gabriel",
-            "assist": "White",
+            "minute": "07'",
+            "scorer": "Ezri Konsa",
+            "assist": "Viktor Gyökeres",
             "type": "G"
           },
           {
-            "minute": "",
-            "scorer": "Konsa",
-            "assist": "Gyökeres",
+            "minute": "68'",
+            "scorer": "Gabriel Magalhães",
+            "assist": "Ben White",
             "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Gabriel (White), Konsa (Gyökeres)",
+        "home_goals_summary": "Ezri Konsa 07' (assist: Viktor Gyökeres), Gabriel Magalhães 68' (assist: Ben White)",
         "away_goals_summary": "",
         "kickoff": "2026-10-24T14:00:00Z",
         "finished": true,
@@ -306575,14 +306575,14 @@
         "home_goals": [],
         "away_goals": [
           {
-            "minute": "",
-            "scorer": "Bobb",
-            "assist": "King",
+            "minute": "80'",
+            "scorer": "Oscar Bobb",
+            "assist": "Josh King",
             "type": "G"
           }
         ],
         "home_goals_summary": "",
-        "away_goals_summary": "Bobb (King)",
+        "away_goals_summary": "Oscar Bobb 80' (assist: Josh King)",
         "kickoff": "2026-10-24T14:00:00Z",
         "finished": true,
         "started": true,
@@ -306600,20 +306600,20 @@
         "home_goals": [],
         "away_goals": [
           {
-            "minute": "",
-            "scorer": "Tel",
-            "assist": "Fernandes",
-            "type": "G"
-          },
-          {
-            "minute": "",
-            "scorer": "Penders",
+            "minute": "77'",
+            "scorer": "Mike Penders",
             "assist": null,
             "type": "OG"
+          },
+          {
+            "minute": "87'",
+            "scorer": "Mathys Tel",
+            "assist": null,
+            "type": "G"
           }
         ],
         "home_goals_summary": "",
-        "away_goals_summary": "Tel (Fernandes), Penders (OG)",
+        "away_goals_summary": "Mike Penders 77' (OG), Mathys Tel 87'",
         "kickoff": "2026-10-24T16:30:00Z",
         "finished": true,
         "started": true,
@@ -306631,20 +306631,20 @@
         "home_goals": [],
         "away_goals": [
           {
-            "minute": "",
-            "scorer": "Barnes",
-            "assist": "J.Murphy",
+            "minute": "47'",
+            "scorer": "William Osula",
+            "assist": "Jacob Murphy",
             "type": "G"
           },
           {
-            "minute": "",
-            "scorer": "Osula",
-            "assist": "Dedić",
+            "minute": "58'",
+            "scorer": "Harvey Barnes",
+            "assist": "Amar Dedic",
             "type": "G"
           }
         ],
         "home_goals_summary": "",
-        "away_goals_summary": "Barnes (J.Murphy), Osula (Dedić)",
+        "away_goals_summary": "William Osula 47' (assist: Jacob Murphy), Harvey Barnes 58' (assist: Amar Dedic)",
         "kickoff": "2026-10-25T14:00:00Z",
         "finished": true,
         "started": true,
@@ -306661,22 +306661,22 @@
         "away_act": 1,
         "home_goals": [
           {
-            "minute": "",
-            "scorer": "McBurnie",
-            "assist": "Iroegbunam",
-            "type": "G"
+            "minute": "24'",
+            "scorer": "Oliver McBurnie",
+            "assist": null,
+            "type": "P"
           }
         ],
         "away_goals": [
           {
-            "minute": "",
-            "scorer": "O.Dango",
-            "assist": "Thiago",
+            "minute": "63'",
+            "scorer": "Dango Ouattara",
+            "assist": "Igor Thiago",
             "type": "G"
           }
         ],
-        "home_goals_summary": "McBurnie (Iroegbunam)",
-        "away_goals_summary": "O.Dango (Thiago)",
+        "home_goals_summary": "Oliver McBurnie 24' (P)",
+        "away_goals_summary": "Dango Ouattara 63' (assist: Igor Thiago)",
         "kickoff": "2026-10-25T14:00:00Z",
         "finished": true,
         "started": true,
@@ -306693,20 +306693,20 @@
         "away_act": 0,
         "home_goals": [
           {
-            "minute": "",
-            "scorer": "Isak",
-            "assist": "Wirtz",
-            "type": "G"
-          },
-          {
-            "minute": "",
-            "scorer": "Groß",
+            "minute": "17'",
+            "scorer": "Pascal Groß",
             "assist": null,
             "type": "OG"
+          },
+          {
+            "minute": "21'",
+            "scorer": "Alexander Isak",
+            "assist": "Bradley Barcola",
+            "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Isak (Wirtz), Groß (OG)",
+        "home_goals_summary": "Pascal Groß 17' (OG), Alexander Isak 21' (assist: Bradley Barcola)",
         "away_goals_summary": "",
         "kickoff": "2026-10-25T14:00:00Z",
         "finished": true,
