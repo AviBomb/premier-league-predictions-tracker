@@ -31893,9 +31893,14 @@
   "Ugy8wff4apuy9nzIpJd4AaABAg": {
     "initial_text": "Predictions:\nIpswich 1-2 Forest\nAston villa 1-2 Man City\nArsenal 2-0 Everton\nCoventry 1-2 Fulham\nChelsea 2- 0 Spurs\nCrystal Palace 1-2 Newcastle\nHull 0-2 Brentford\nLiverpool 2-1 Brentford\nMan utd 1- 3 Bournemouth\nSunderland 1-2 Leeds",
     "initial_pub": "2026-10-23T16:24:32Z",
-    "revisions": [],
-    "latest_text": "Predictions:\nIpswich 1-2 Forest\nAston villa 1-2 Man City\nArsenal 2-0 Everton\nCoventry 1-2 Fulham\nChelsea 2- 0 Spurs\nCrystal Palace 1-2 Newcastle\nHull 0-2 Brentford\nLiverpool 2-1 Brentford\nMan utd 1- 3 Bournemouth\nSunderland 1-2 Leeds",
-    "latest_upd": "2026-10-23T16:24:32Z"
+    "revisions": [
+      {
+        "timestamp": "2026-10-23T16:24:32Z",
+        "text": "Predictions:\nIpswich 1-2 Forest\nAston villa 1-2 Man City\nArsenal 2-0 Everton\nCoventry 1-2 Fulham\nChelsea 2- 0 Spurs\nCrystal Palace 1-2 Newcastle\nHull 0-2 Brentford\nLiverpool 2-1 Brentford\nMan utd 1- 3 Bournemouth\nSunderland 1-2 Leeds"
+      }
+    ],
+    "latest_text": "Predictions:\nIpswich 1-2 Forest\nAston villa 1-2 Man City\nArsenal 2-0 Everton\nCoventry 1-2 Fulham\nChelsea 2- 0 Spurs\nCrystal Palace 1-2 Newcastle\nHull 0-2 Brentford\nLiverpool 2-1 Brighton\nMan utd 1- 3 Bournemouth\nSunderland 1-2 Leeds",
+    "latest_upd": "2026-10-25T03:19:42Z"
   },
   "UgwUBZlZ6Rb-HOCygZx4AaABAg": {
     "initial_text": "PL predictions GW8\n\nIpswich 1 - 3 Forest\nVilla 2 - 2 City\nArsenal 1 - 0 Everton \nCoventry 1 - 1 Fulham \nChelsea 5 - 2 Spurs\nPalace 2 - 4 Newcastle \nHull 0 - 3 Brentford \nLiverpool 0 - 1 Brighton \nMan U 2 - 2 Bournemouth \nSunderland 0 - 2 Leeds",
