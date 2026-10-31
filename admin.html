@@ -2022,32 +2022,69 @@
             }
         }
 
+        async function dispatchGitHubWorkflow() {
+            const token = getGitHubPAT();
+            if (!token) return false;
+            const repoOwner = "AviBomb";
+            const repoName = "premier-league-predictions-tracker";
+            const workflow = "update_predictions.yml";
+            try {
+                const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/actions/workflows/${workflow}/dispatches`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Accept': 'application/vnd.github+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ ref: 'main' })
+                });
+                return res.status === 204;
+            } catch (e) {
+                console.warn('[!] Direct GitHub dispatch failed:', e);
+                return false;
+            }
+        }
+
         async function runPipelineNow() {
             const btn = document.getElementById('btn-run-pipeline');
             btn.disabled = true;
             showLoadingSpinner('Starting the pipeline', 'Asking the server to re-score predictions and rebuild the site...');
             let started = false;
             let where = '';
-            try {
-                const res = await fetch('/api/recalculate', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
-                if (res.ok) {
-                    started = true;
-                    where = 'local';
+
+            // 1. Only call local /api/recalculate if hosted on localhost/127.0.0.1
+            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            if (isLocal) {
+                try {
+                    const res = await fetch('/api/recalculate', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+                    if (res.ok) {
+                        started = true;
+                        where = 'local';
+                    }
+                } catch (e) {
+                    console.log('Local pipeline endpoint unavailable:', e);
                 }
-            } catch (e) {
-                console.log('Local pipeline endpoint unavailable:', e);
             }
+
+            // 2. On GitHub Pages, call Cloud Sync Worker
             if (!started) {
                 started = await syncViaWorker('/api/run-pipeline', {});
-                where = 'github';
+                if (started) where = 'github';
             }
+
+            // 3. Fallback: if Cloud Sync Worker has not been redeployed yet, try direct GitHub API dispatch using saved PAT
+            if (!started) {
+                started = await dispatchGitHubWorkflow();
+                if (started) where = 'github';
+            }
+
             hideLoadingSpinner();
             btn.disabled = false;
             if (started) {
-                showToast(where === 'local' ? 'Pipeline finished locally. Refreshing status.' : 'Pipeline started on GitHub. The site updates in about a minute.');
+                showToast(where === 'local' ? 'Pipeline finished locally. Refreshing status.' : 'Pipeline started on GitHub Actions. The site updates in about a minute.');
                 loadPipelineStatus();
             } else {
-                showToast("⚠️ Couldn't start the pipeline. Check the Cloud Sync Worker setup in Authorized users.");
+                showToast("⚠️ Could not start pipeline. Cloud Sync Worker needs redeploy ('npm run deploy' in cloudflare-worker folder), or save a GitHub PAT in Settings.");
             }
         }
 

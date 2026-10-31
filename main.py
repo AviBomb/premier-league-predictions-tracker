@@ -241,11 +241,28 @@ def process_gameweek_data(
             valid_urls = [u for u in video_urls if u and "youtube.com" in u]
             if valid_urls:
                 print(f"[*] Scraping YouTube comments for Gameweek {gw_num} from registered video: {valid_urls[0]}")
-                comments = scrape_youtube_comments(API_KEY, valid_urls)
-                if comments:
-                    os.makedirs("data", exist_ok=True)
-                    df_cache = pd.DataFrame(comments)
-                    df_cache.to_csv(gw_fallback_file, index=False, encoding="utf-8")
+                scraped_comments = scrape_youtube_comments(API_KEY, valid_urls)
+
+                # Safeguard: check existing cached comments before overwriting
+                existing_count = 0
+                if os.path.exists(gw_fallback_file):
+                    try:
+                        existing_df = pd.read_csv(gw_fallback_file)
+                        existing_count = len(existing_df)
+                    except Exception:
+                        existing_count = 0
+
+                # Only overwrite cache if scraped count is at least as large as existing cache, or if no cache exists
+                if len(scraped_comments) >= existing_count or existing_count == 0:
+                    comments = scraped_comments
+                    if comments:
+                        os.makedirs("data", exist_ok=True)
+                        df_cache = pd.DataFrame(comments)
+                        df_cache.to_csv(gw_fallback_file, index=False, encoding="utf-8")
+                else:
+                    print(f"[!] Warning: Scraper returned only {len(scraped_comments)} comments vs {existing_count} in cache. Preserving cached comments.")
+                    df = pd.read_csv(gw_fallback_file)
+                    comments = df.to_dict(orient="records")
         except Exception as e:
             print(f"[!] Live API query note for GW {gw_num}: {e}. Using local cache...")
 
@@ -266,6 +283,12 @@ def process_gameweek_data(
     audited_records, valid_entries, fuzzy_candidates = audit_and_score_gameweek(
         comments, fixtures, gw_num, admin_approvals=admin_approvals
     )
+
+    # Safeguard: if active gameweek previously had valid entries, do not wipe them out if something went wrong
+    prev_audited = gw_cache_entry.get("audited_records", []) if gw_cache_entry else []
+    if len(audited_records) == 0 and len(prev_audited) > 0:
+        print(f"[!] Critical safeguard: 0 audited records parsed for GW {gw_num}, but previous cache had {len(prev_audited)}. Preserving previous results to prevent site wipeout.")
+        return prev_audited, gw_history_entry or {}, [], fixtures
 
     save_pending_approvals(fuzzy_candidates, gw_num)
     save_gameweek_csv(audited_records, fixtures, gw_num)
