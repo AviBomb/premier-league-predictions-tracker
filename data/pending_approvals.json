@@ -13263,7 +13263,8 @@
     "confidence": 98,
     "detected_teams": "Brentford vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_FordaAnt_87",
@@ -13292,7 +13293,8 @@
     "confidence": 92,
     "detected_teams": "Liverpool vs Arsenal",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_edwardgranger742_82",
@@ -13321,7 +13323,8 @@
     "confidence": 100,
     "detected_teams": "AFC Bournemouth vs Leeds United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_JSongy3s_86",
@@ -13348,7 +13351,8 @@
     "confidence": 97,
     "detected_teams": "Hull City vs Ipswich Town",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_JSongy3s_90",
@@ -13375,7 +13379,8 @@
     "confidence": 90,
     "detected_teams": "Tottenham Hotspur vs Crystal Palace",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_IAmRonny_90",
@@ -13404,7 +13409,8 @@
     "confidence": 60,
     "detected_teams": "Crystal Palace vs Tottenham Hotspur",
     "reason": "prose",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_matthewjervois7795_84",
@@ -13433,7 +13439,8 @@
     "confidence": 90,
     "detected_teams": "Chelsea vs Manchester United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_ratonul260_83",
@@ -13461,7 +13468,8 @@
     "confidence": 97,
     "detected_teams": "Brentford vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_daynerichards5292_90",
@@ -13490,7 +13498,8 @@
     "confidence": 75,
     "detected_teams": "Tottenham Hotspur vs Crystal Palace",
     "reason": "extra word",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_limkc8178_82",
@@ -13519,7 +13528,8 @@
     "confidence": 100,
     "detected_teams": "AFC Bournemouth vs Leeds United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_nguyencole6334_86",
@@ -13548,7 +13558,8 @@
     "confidence": 93,
     "detected_teams": "Hull City vs Ipswich Town",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_r4romil_87",
@@ -13577,7 +13588,8 @@
     "confidence": 60,
     "detected_teams": "Arsenal vs Liverpool",
     "reason": "prose",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_jameswilkinson9192_82",
@@ -13604,7 +13616,8 @@
     "confidence": 100,
     "detected_teams": "AFC Bournemouth vs Leeds United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_jameswilkinson9192_86",
@@ -13631,7 +13644,8 @@
     "confidence": 86,
     "detected_teams": "Hull City vs Ipswich Town",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_jameswilkinson9192_90",
@@ -13658,7 +13672,8 @@
     "confidence": 88,
     "detected_teams": "Tottenham Hotspur vs Crystal Palace",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_Activegamer04_82",
@@ -13685,7 +13700,8 @@
     "confidence": 100,
     "detected_teams": "AFC Bournemouth vs Leeds United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_nohadayle_84",
@@ -13713,7 +13729,8 @@
     "confidence": 96,
     "detected_teams": "Chelsea vs Manchester United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_nohadayle_81",
@@ -13741,7 +13758,8 @@
     "confidence": 92,
     "detected_teams": "Aston Villa vs Fulham",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_Stonix737_86",
@@ -13770,7 +13788,8 @@
     "confidence": 96,
     "detected_teams": "Hull City vs Ipswich Town",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_NattyStar66_85",
@@ -13799,7 +13818,8 @@
     "confidence": 97,
     "detected_teams": "Coventry City vs Sunderland",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_andyw8025_88",
@@ -13828,7 +13848,8 @@
     "confidence": 94,
     "detected_teams": "Manchester City vs Brighton & Hove Albion",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_bruh362_84",
@@ -13854,7 +13875,8 @@
     "confidence": 94,
     "detected_teams": "Chelsea vs Manchester United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_bruh362_83",
@@ -13880,7 +13902,8 @@
     "confidence": 83,
     "detected_teams": "Brentford vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_bruh362_90",
@@ -13906,7 +13929,8 @@
     "confidence": 83,
     "detected_teams": "Tottenham Hotspur vs Crystal Palace",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_bruh362_87",
@@ -13932,7 +13956,8 @@
     "confidence": 93,
     "detected_teams": "Liverpool vs Arsenal",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_ThatOneLutonFan_82",
@@ -13961,7 +13986,8 @@
     "confidence": 98,
     "detected_teams": "AFC Bournemouth vs Leeds United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_21riki97_90",
@@ -13990,7 +14016,8 @@
     "confidence": 60,
     "detected_teams": "Crystal Palace vs Tottenham Hotspur",
     "reason": "prose",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_Seagull33333_84",
@@ -14019,7 +14046,8 @@
     "confidence": 96,
     "detected_teams": "Chelsea vs Manchester United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_NZCOYSSPURS_82",
@@ -14047,7 +14075,8 @@
     "confidence": 75,
     "detected_teams": "AFC Bournemouth vs Leeds United",
     "reason": "extra word",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_NZCOYSSPURS_85",
@@ -14075,7 +14104,8 @@
     "confidence": 75,
     "detected_teams": "Coventry City vs Sunderland",
     "reason": "extra word",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_LieutenantPulp_81",
@@ -14104,7 +14134,8 @@
     "confidence": 94,
     "detected_teams": "Aston Villa vs Fulham",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_eholden06_90",
@@ -14133,7 +14164,8 @@
     "confidence": 75,
     "detected_teams": "Tottenham Hotspur vs Crystal Palace",
     "reason": "extra word",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_monikamihoric9101_86",
@@ -14162,7 +14194,8 @@
     "confidence": 93,
     "detected_teams": "Hull City vs Ipswich Town",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_fowles15_81",
@@ -14191,7 +14224,8 @@
     "confidence": 95,
     "detected_teams": "Aston Villa vs Fulham",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_Ppky2_84",
@@ -14217,7 +14251,8 @@
     "confidence": 94,
     "detected_teams": "Chelsea vs Manchester United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_Ppky2_83",
@@ -14243,7 +14278,8 @@
     "confidence": 83,
     "detected_teams": "Brentford vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_Ppky2_90",
@@ -14269,7 +14305,8 @@
     "confidence": 83,
     "detected_teams": "Tottenham Hotspur vs Crystal Palace",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_Ppky2_87",
@@ -14295,7 +14332,8 @@
     "confidence": 93,
     "detected_teams": "Liverpool vs Arsenal",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_ArthurPereiraw1q6z_83",
@@ -14323,7 +14361,8 @@
     "confidence": 98,
     "detected_teams": "Brentford vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_lorenzomosca5655_90",
@@ -14352,7 +14391,8 @@
     "confidence": 97,
     "detected_teams": "Tottenham Hotspur vs Crystal Palace",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_missleafeatheleafeon2593_82",
@@ -14378,7 +14418,8 @@
     "confidence": 50,
     "detected_teams": "Leeds United vs AFC Bournemouth",
     "reason": "unusual score",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_missleafeatheleafeon2593_88",
@@ -14404,7 +14445,8 @@
     "confidence": 50,
     "detected_teams": "Brighton & Hove Albion vs Manchester City",
     "reason": "unusual score",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_missleafeatheleafeon2593_81",
@@ -14430,7 +14472,8 @@
     "confidence": 50,
     "detected_teams": "Fulham vs Aston Villa",
     "reason": "unusual score",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw9_ShaunHopkinsAVFC_84",
@@ -14459,6 +14502,7 @@
     "confidence": 60,
     "detected_teams": "Chelsea vs Manchester United",
     "reason": "prose",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   }
 ]
