@@ -329913,6 +329913,103 @@
     }
   },
   "GW_9": {
+    "@sannymiguelculla30": {
+      "comment_id": "Ugyyu8Q2QDRbPMRTent4AaABAg",
+      "author": "@sannymiguelculla30",
+      "channel_url": "http://www.youtube.com/@sannymiguelculla30",
+      "published_at": "2026-11-02T12:57:56Z",
+      "updated_at": "2026-11-02T12:57:56Z",
+      "submission_gmt": "2026-11-02 12:57:56 GMT",
+      "updated_gmt": "2026-11-02 12:57:56 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 48h 27m before earliest kickoff (2026-11-02 12:57:56 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Newcastle 2-0 Everton",
+      "original_comment_text": "Newcastle 2-0 Everton",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 1,
+      "valid_matches_count": 1,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Chelsea vs Manchester United": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "AFC Bournemouth vs Leeds United": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Brentford vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Coventry City vs Sunderland": {
+          "pred": "N/A",
+          "actual": "3-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Hull City vs Ipswich Town": {
+          "pred": "N/A",
+          "actual": "2-2",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Manchester City vs Brighton & Hove Albion": {
+          "pred": "N/A",
+          "actual": "0-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Tottenham Hotspur vs Crystal Palace": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Fulham": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Liverpool vs Arsenal": {
+          "pred": "N/A",
+          "actual": "0-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Newcastle United vs Everton": {
+          "pred": "2-0",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        }
+      }
+    },
     "@kstktoochill": {
       "comment_id": "UgwGTI3kgo1iMX2akyR4AaABAg",
       "author": "@kstktoochill",
@@ -329935,8 +330032,8 @@
       "valid_matches_count": 1,
       "late_matches_count": 8,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -330003,9 +330100,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -330100,9 +330197,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -330129,8 +330226,8 @@
       "valid_matches_count": 2,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 0,
-      "total_points": 0,
+      "outcome_scores": 1,
+      "total_points": 1,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "N/A",
@@ -330197,9 +330294,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -330294,9 +330391,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -330391,9 +330488,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -330420,8 +330517,8 @@
       "valid_matches_count": 4,
       "late_matches_count": 6,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -330488,9 +330585,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -330585,9 +330682,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -330613,9 +330710,9 @@
       "matches_found": 10,
       "valid_matches_count": 9,
       "late_matches_count": 1,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 2,
-      "total_points": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -330682,9 +330779,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -330779,9 +330876,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -330876,7 +330973,7 @@
         },
         "Newcastle United vs Everton": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -330973,9 +331070,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -331070,9 +331167,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -331167,9 +331264,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -331196,8 +331293,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 1,
-      "total_points": 7,
+      "outcome_scores": 2,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "N/A",
@@ -331264,9 +331361,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -331293,8 +331390,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-2",
@@ -331361,9 +331458,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -331458,9 +331555,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -331555,9 +331652,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -331584,8 +331681,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 3,
-      "total_points": 9,
+      "outcome_scores": 4,
+      "total_points": 10,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -331652,9 +331749,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -331680,9 +331777,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -331749,9 +331846,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -331846,9 +331943,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -331943,9 +332040,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -332040,9 +332137,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -332069,8 +332166,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -332137,9 +332234,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -332234,9 +332331,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -332263,8 +332360,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -332331,9 +332428,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -332360,8 +332457,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -332428,9 +332525,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -332525,9 +332622,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -332554,8 +332651,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 3,
-      "total_points": 9,
+      "outcome_scores": 4,
+      "total_points": 10,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -332622,9 +332719,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -332719,9 +332816,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -332816,9 +332913,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -332913,9 +333010,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -333010,9 +333107,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -333039,8 +333136,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -333107,9 +333204,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -333136,8 +333233,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 4,
-      "total_points": 10,
+      "outcome_scores": 5,
+      "total_points": 11,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -333204,9 +333301,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -333301,9 +333398,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -333398,9 +333495,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -333495,9 +333592,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -333592,9 +333689,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -333621,8 +333718,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -333689,9 +333786,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -333786,9 +333883,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -333815,8 +333912,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -333883,9 +333980,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -333980,9 +334077,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -334077,9 +334174,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -334174,9 +334271,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -334202,9 +334299,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 5,
-      "total_points": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -334271,9 +334368,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -334368,9 +334465,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -334465,7 +334562,7 @@
         },
         "Newcastle United vs Everton": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -334494,8 +334591,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -334562,9 +334659,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -334659,9 +334756,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -334688,8 +334785,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-2",
@@ -334756,9 +334853,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -334853,9 +334950,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -334950,9 +335047,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -335047,9 +335144,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -335075,9 +335172,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -335144,9 +335241,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -335173,8 +335270,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-2",
@@ -335241,9 +335338,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -335338,9 +335435,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -335435,9 +335532,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -335532,9 +335629,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -335629,7 +335726,7 @@
         },
         "Newcastle United vs Everton": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -335726,9 +335823,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -335823,9 +335920,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -335920,9 +336017,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -336017,9 +336114,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -336114,9 +336211,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -336211,9 +336308,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -336240,8 +336337,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -336308,9 +336405,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -336405,9 +336502,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -336502,9 +336599,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -336531,8 +336628,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -336599,9 +336696,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -336628,8 +336725,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-2",
@@ -336696,9 +336793,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -336724,9 +336821,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-0",
@@ -336793,9 +336890,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -336822,8 +336919,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -336890,9 +336987,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -336919,8 +337016,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -336987,9 +337084,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -337015,9 +337112,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 4,
-      "total_points": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -337084,9 +337181,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -337113,8 +337210,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-3",
@@ -337181,9 +337278,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -337278,9 +337375,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -337375,9 +337472,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -337472,9 +337569,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -337569,9 +337666,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -337666,9 +337763,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -337695,8 +337792,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -337763,9 +337860,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -337860,9 +337957,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -337957,9 +338054,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -337986,8 +338083,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -338054,9 +338151,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -338151,9 +338248,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -338179,9 +338276,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 1,
-      "total_points": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -338248,9 +338345,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -338345,9 +338442,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -338442,9 +338539,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -338539,9 +338636,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -338568,8 +338665,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-0",
@@ -338636,9 +338733,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -338733,9 +338830,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -338830,9 +338927,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -338927,9 +339024,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339024,9 +339121,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339053,8 +339150,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -339121,9 +339218,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -339218,9 +339315,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339247,8 +339344,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -339315,9 +339412,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -339412,9 +339509,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339509,9 +339606,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339538,8 +339635,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -339606,9 +339703,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -339703,9 +339800,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339800,9 +339897,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339897,9 +339994,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -339994,9 +340091,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340091,9 +340188,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340120,8 +340217,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-1",
@@ -340188,9 +340285,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -340285,7 +340382,7 @@
         },
         "Newcastle United vs Everton": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -340382,9 +340479,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340479,9 +340576,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340576,9 +340673,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340673,9 +340770,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340770,9 +340867,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340867,9 +340964,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -340896,8 +340993,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -340964,9 +341061,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -341061,9 +341158,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -341158,9 +341255,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -341187,8 +341284,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -341255,9 +341352,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -341352,9 +341449,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -341449,9 +341546,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -341478,8 +341575,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -341546,9 +341643,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -341643,9 +341740,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -341672,8 +341769,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -341740,9 +341837,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -341837,9 +341934,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -341866,8 +341963,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "5-0",
@@ -341934,9 +342031,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -341962,9 +342059,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 5,
-      "total_points": 8,
+      "total_points": 11,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -342031,9 +342128,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -342128,9 +342225,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -342157,8 +342254,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -342225,9 +342322,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -342322,9 +342419,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -342419,9 +342516,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -342516,9 +342613,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -342613,9 +342710,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -342641,9 +342738,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 5,
-      "total_points": 8,
+      "total_points": 11,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -342710,9 +342807,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -342807,9 +342904,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -342835,9 +342932,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -342904,9 +343001,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -343001,9 +343098,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343098,9 +343195,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343195,9 +343292,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "4-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343292,9 +343389,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343389,9 +343486,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343417,9 +343514,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 4,
-      "total_points": 7,
+      "total_points": 10,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -343486,9 +343583,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -343583,9 +343680,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343612,8 +343709,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 3,
-      "total_points": 9,
+      "outcome_scores": 4,
+      "total_points": 10,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -343680,9 +343777,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -343777,9 +343874,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343874,9 +343971,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -343902,9 +343999,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-2",
@@ -343971,9 +344068,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -344068,9 +344165,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -344097,8 +344194,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 6,
-      "total_points": 9,
+      "outcome_scores": 7,
+      "total_points": 10,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -344165,9 +344262,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -344194,8 +344291,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-2",
@@ -344262,9 +344359,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -344291,8 +344388,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 6,
-      "total_points": 6,
+      "outcome_scores": 7,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "5-0",
@@ -344359,9 +344456,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -344456,9 +344553,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -344553,9 +344650,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -344650,9 +344747,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -344747,9 +344844,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -344844,9 +344941,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -344941,9 +345038,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -344970,8 +345067,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -345038,9 +345135,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -345135,9 +345232,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345232,9 +345329,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345329,9 +345426,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345426,9 +345523,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345523,9 +345620,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345620,9 +345717,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345717,9 +345814,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345814,9 +345911,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -345843,8 +345940,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -345911,9 +346008,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -346008,9 +346105,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -346105,9 +346202,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -346202,9 +346299,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -346299,9 +346396,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -346396,9 +346493,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -346493,9 +346590,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -346590,9 +346687,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -346619,8 +346716,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-2",
@@ -346687,9 +346784,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -346784,7 +346881,7 @@
         },
         "Newcastle United vs Everton": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -346813,8 +346910,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -346881,9 +346978,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -346978,9 +347075,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347075,9 +347172,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347172,9 +347269,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347269,9 +347366,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347366,9 +347463,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347463,9 +347560,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347491,9 +347588,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -347560,9 +347657,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -347589,8 +347686,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -347657,9 +347754,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -347754,9 +347851,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347851,9 +347948,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -347948,9 +348045,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -348045,9 +348142,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -348142,9 +348239,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -348239,9 +348336,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -348268,8 +348365,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-1",
@@ -348336,9 +348433,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -348365,8 +348462,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -348433,9 +348530,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -348530,9 +348627,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -348627,9 +348724,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -348724,9 +348821,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -348752,9 +348849,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "5-1",
@@ -348821,9 +348918,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -348918,9 +349015,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -349015,9 +349112,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -349112,9 +349209,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -349141,8 +349238,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 4,
-      "outcome_scores": 0,
-      "total_points": 12,
+      "outcome_scores": 1,
+      "total_points": 13,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -349209,9 +349306,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -349238,8 +349335,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -349306,9 +349403,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -349403,9 +349500,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -349431,9 +349528,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-0",
@@ -349500,9 +349597,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -349597,9 +349694,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -349694,9 +349791,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -349723,8 +349820,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "5-1",
@@ -349791,9 +349888,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -349820,8 +349917,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -349888,9 +349985,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -349917,8 +350014,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -349985,9 +350082,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -350082,9 +350179,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -350110,9 +350207,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
+      "exact_scores": 3,
       "outcome_scores": 3,
-      "total_points": 9,
+      "total_points": 12,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-0",
@@ -350179,9 +350276,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -350276,9 +350373,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -350305,8 +350402,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "0-2",
@@ -350373,9 +350470,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -350470,9 +350567,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -350567,9 +350664,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -350664,9 +350761,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -350761,9 +350858,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -350858,9 +350955,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -350887,8 +350984,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -350955,9 +351052,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -351052,9 +351149,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -351149,9 +351246,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -351246,9 +351343,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -351343,9 +351440,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -351440,9 +351537,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -351537,9 +351634,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -351566,8 +351663,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -351634,9 +351731,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -351663,8 +351760,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -351731,9 +351828,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -351828,9 +351925,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -351925,9 +352022,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -352022,9 +352119,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -352119,9 +352216,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -352148,8 +352245,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -352216,9 +352313,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -352313,9 +352410,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -352342,8 +352439,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-3",
@@ -352410,9 +352507,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -352507,9 +352604,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -352604,9 +352701,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -352701,9 +352798,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -352730,8 +352827,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -352798,9 +352895,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -352827,8 +352924,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 6,
-      "total_points": 6,
+      "outcome_scores": 7,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -352895,9 +352992,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -352924,8 +353021,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -352992,9 +353089,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -353020,9 +353117,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 1,
-      "total_points": 1,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-2",
@@ -353089,9 +353186,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -353117,9 +353214,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 5,
-      "total_points": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-1",
@@ -353186,9 +353283,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -353283,9 +353380,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -353380,9 +353477,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -353477,9 +353574,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -353574,9 +353671,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -353603,8 +353700,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 3,
-      "outcome_scores": 2,
-      "total_points": 11,
+      "outcome_scores": 3,
+      "total_points": 12,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -353671,9 +353768,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -353768,9 +353865,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -353797,8 +353894,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -353865,9 +353962,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -353962,9 +354059,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -354059,7 +354156,7 @@
         },
         "Newcastle United vs Everton": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -354156,9 +354253,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -354253,9 +354350,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -354282,8 +354379,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 5,
-      "total_points": 8,
+      "outcome_scores": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-1",
@@ -354350,9 +354447,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -354379,8 +354476,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -354447,9 +354544,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -354544,9 +354641,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -354573,8 +354670,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -354641,9 +354738,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -354738,9 +354835,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -354835,9 +354932,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -354932,9 +355029,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -355029,9 +355126,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -355057,9 +355154,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 5,
-      "total_points": 8,
+      "total_points": 11,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "5-0",
@@ -355126,9 +355223,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -355155,8 +355252,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -355223,9 +355320,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -355252,8 +355349,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -355320,9 +355417,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -355417,9 +355514,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -355514,9 +355611,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -355542,9 +355639,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -355611,9 +355708,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -355708,9 +355805,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -355805,9 +355902,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -355902,9 +355999,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -355931,8 +356028,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -355999,9 +356096,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -356027,9 +356124,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 4,
-      "total_points": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -356096,9 +356193,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -356193,9 +356290,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -356290,9 +356387,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -356387,9 +356484,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -356416,8 +356513,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -356484,9 +356581,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -356581,9 +356678,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -356678,9 +356775,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -356775,9 +356872,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -356804,8 +356901,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -356872,9 +356969,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -356969,9 +357066,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357066,9 +357163,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357095,8 +357192,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -357163,9 +357260,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -357260,9 +357357,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357357,9 +357454,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357454,9 +357551,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357551,9 +357648,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357648,9 +357745,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357745,9 +357842,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357842,9 +357939,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -357871,8 +357968,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 1,
-      "total_points": 7,
+      "outcome_scores": 2,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -357939,9 +358036,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -357968,8 +358065,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -358036,9 +358133,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -358133,9 +358230,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -358230,9 +358327,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -358258,9 +358355,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -358327,9 +358424,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -358424,9 +358521,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -358521,9 +358618,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -358618,9 +358715,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -358715,9 +358812,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -358812,9 +358909,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -358909,9 +359006,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359006,9 +359103,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359103,9 +359200,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359200,9 +359297,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359297,9 +359394,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359326,8 +359423,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-0",
@@ -359394,9 +359491,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -359423,8 +359520,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -359491,9 +359588,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -359520,8 +359617,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -359588,9 +359685,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -359685,9 +359782,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359782,9 +359879,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359879,9 +359976,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -359976,9 +360073,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360073,9 +360170,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360170,9 +360267,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360267,9 +360364,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360364,9 +360461,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360461,9 +360558,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360558,9 +360655,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360587,8 +360684,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -360655,9 +360752,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -360752,9 +360849,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -360781,8 +360878,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -360849,9 +360946,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -360878,8 +360975,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 5,
-      "total_points": 5,
+      "outcome_scores": 6,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-0",
@@ -360946,9 +361043,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -361043,9 +361140,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361140,9 +361237,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361237,9 +361334,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361334,9 +361431,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361431,9 +361528,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361528,9 +361625,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361625,9 +361722,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361722,9 +361819,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361819,9 +361916,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361916,9 +362013,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -361945,8 +362042,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -362013,9 +362110,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -362110,9 +362207,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -362207,9 +362304,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -362236,8 +362333,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-0",
@@ -362304,9 +362401,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -362401,9 +362498,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -362498,9 +362595,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -362595,9 +362692,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -362624,8 +362721,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-2",
@@ -362692,9 +362789,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -362789,9 +362886,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -362886,9 +362983,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -362983,9 +363080,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -363012,8 +363109,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -363080,9 +363177,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -363177,9 +363274,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -363206,8 +363303,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 3,
-      "total_points": 9,
+      "outcome_scores": 4,
+      "total_points": 10,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-2",
@@ -363274,9 +363371,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -363371,9 +363468,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -363468,9 +363565,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -363565,9 +363662,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -363662,9 +363759,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -363759,9 +363856,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -363788,8 +363885,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -363856,9 +363953,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -363953,9 +364050,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -364050,9 +364147,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -364147,9 +364244,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -364244,9 +364341,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -364341,9 +364438,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -364438,9 +364535,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -364535,9 +364632,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -364564,8 +364661,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 5,
-      "total_points": 8,
+      "outcome_scores": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "4-1",
@@ -364632,9 +364729,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -364661,8 +364758,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -364729,9 +364826,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -364758,8 +364855,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -364826,9 +364923,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -364923,9 +365020,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -365020,7 +365117,7 @@
         },
         "Newcastle United vs Everton": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -365048,9 +365145,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 5,
-      "total_points": 8,
+      "total_points": 11,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -365117,9 +365214,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -365214,9 +365311,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -365311,9 +365408,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -365408,9 +365505,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -365505,9 +365602,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -365533,9 +365630,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -365602,9 +365699,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -365630,9 +365727,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 2,
-      "total_points": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -365699,9 +365796,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -365796,9 +365893,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -365824,9 +365921,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
+      "exact_scores": 2,
       "outcome_scores": 3,
-      "total_points": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-1",
@@ -365893,9 +365990,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         }
       }
@@ -365922,8 +366019,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "outcome_scores": 5,
+      "total_points": 8,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -365990,9 +366087,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -366087,9 +366184,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366116,8 +366213,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-1",
@@ -366184,9 +366281,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -366213,8 +366310,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 5,
-      "total_points": 8,
+      "outcome_scores": 6,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -366281,9 +366378,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -366378,9 +366475,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366475,9 +366572,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366572,9 +366669,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366669,9 +366766,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366766,9 +366863,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366863,9 +366960,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366960,9 +367057,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -366989,8 +367086,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "outcome_scores": 3,
+      "total_points": 9,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-0",
@@ -367057,9 +367154,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -367154,9 +367251,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -367251,9 +367348,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -367348,9 +367445,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -367445,9 +367542,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -367542,9 +367639,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -367639,9 +367736,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -367736,9 +367833,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -367765,8 +367862,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "3-0",
@@ -367833,9 +367930,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -367930,9 +368027,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368027,9 +368124,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368124,9 +368221,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368221,9 +368318,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368318,9 +368415,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368415,9 +368512,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368512,9 +368609,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368609,9 +368706,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368706,9 +368803,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368735,8 +368832,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "2-0",
@@ -368803,9 +368900,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -368900,9 +368997,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -368997,9 +369094,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -369026,8 +369123,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -369094,9 +369191,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
@@ -369191,9 +369288,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -369288,9 +369385,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -369385,9 +369482,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         }
       }
@@ -369414,8 +369511,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Chelsea vs Manchester United": {
           "pred": "1-1",
@@ -369482,9 +369579,9 @@
         },
         "Newcastle United vs Everton": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         }
       }
