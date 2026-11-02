@@ -345810,6 +345810,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "UgwGTI3kgo1iMX2akyR4AaABAg",
+        "author": "@kstktoochill",
+        "channel_url": "http://www.youtube.com/@kstktoochill",
+        "published_at": "2026-11-02T02:15:49Z",
+        "updated_at": "2026-11-02T02:15:49Z",
+        "submission_gmt": "2026-11-02 02:15:49 GMT",
+        "updated_gmt": "2026-11-02 02:15:49 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late for 8 match(es)",
+        "timing_analysis": "Submitted 2026-11-02 02:15:49 GMT. 8 match(es) voided due to kickoff deadline, remaining matches active.",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid* (Late for 8 matches)",
+        "raw_text": "Chelsea 2 Man United 1\r\nBournemouth 1 Leeds 0\r\nCoventry 0 Sunderland 1\r\nMan city 2 Brighton 2\r\nBrentford 2 Nottingham Forest 1\r\nTottenham 2 Crystal Palace 0\r\nLiverpool 1 Arsenal 2\r\nAston Villa 3 Fulham 0\r\nNewcastle 1 Everton 1",
+        "original_comment_text": "Chelsea 2 Man United 1\r\nBournemouth 1 Leeds 0\r\nCoventry 0 Sunderland 1\r\nMan city 2 Brighton 2\r\nBrentford 2 Nottingham Forest 1\r\nTottenham 2 Crystal Palace 0\r\nLiverpool 1 Arsenal 2\r\nAston Villa 3 Fulham 0\r\nNewcastle 1 Everton 1",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 9,
+        "valid_matches_count": 1,
+        "late_matches_count": 8,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Chelsea vs Manchester United": {
+            "pred": "2-1",
+            "actual": "2-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Leeds United": {
+            "pred": "1-0",
+            "actual": "2-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Brentford vs Nottingham Forest": {
+            "pred": "2-1",
+            "actual": "2-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Coventry City vs Sunderland": {
+            "pred": "0-1",
+            "actual": "3-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Hull City vs Ipswich Town": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Manchester City vs Brighton & Hove Albion": {
+            "pred": "2-2",
+            "actual": "0-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Crystal Palace": {
+            "pred": "2-0",
+            "actual": "2-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Aston Villa vs Fulham": {
+            "pred": "3-0",
+            "actual": "1-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Liverpool vs Arsenal": {
+            "pred": "1-2",
+            "actual": "0-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Newcastle United vs Everton": {
+            "pred": "1-1",
+            "actual": "TBD",
+            "points": 0,
+            "result": "Pending",
+            "is_late": false
+          }
+        }
+      },
+      {
         "comment_id": "UgyHQjFHu2p4sbkKJDB4AaABAg",
         "author": "@seweymessi",
         "channel_url": "http://www.youtube.com/@seweymessi",
