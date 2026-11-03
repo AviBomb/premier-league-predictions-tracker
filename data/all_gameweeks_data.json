@@ -345817,6 +345817,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "Ugz7OxSFxCQxZz882Bt4AaABAg",
+        "author": "@optterapp",
+        "channel_url": "http://www.youtube.com/@optterapp",
+        "published_at": "2026-11-03T13:07:19Z",
+        "updated_at": "2026-11-03T13:07:19Z",
+        "submission_gmt": "2026-11-03 13:07:19 GMT",
+        "updated_gmt": "2026-11-03 13:07:19 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late by 17h 7m after entire gameweek",
+        "timing_analysis": "Submitted 17h 7m after final kickoff (2026-11-03 13:07:19 GMT)",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Late Submission (All matches concluded)",
+        "raw_text": "Liverpool 0-1 Arsenal and Man City 0-1 Brighton made this a gameweek for the brave calls. Calling it now: Gameweek 10 throws up an even bigger shock. Screenshot this.",
+        "original_comment_text": "Liverpool 0-1 Arsenal and Man City 0-1 Brighton made this a gameweek for the brave calls. Calling it now: Gameweek 10 throws up an even bigger shock. Screenshot this.",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 2,
+        "valid_matches_count": 0,
+        "late_matches_count": 2,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Chelsea vs Manchester United": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Leeds United": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Brentford vs Nottingham Forest": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Coventry City vs Sunderland": {
+            "pred": "N/A",
+            "actual": "3-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Hull City vs Ipswich Town": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Manchester City vs Brighton & Hove Albion": {
+            "pred": "0-1",
+            "actual": "0-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Crystal Palace": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Aston Villa vs Fulham": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Liverpool vs Arsenal": {
+            "pred": "0-1",
+            "actual": "0-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Newcastle United vs Everton": {
+            "pred": "N/A",
+            "actual": "0-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          }
+        }
+      },
+      {
         "comment_id": "Ugyyu8Q2QDRbPMRTent4AaABAg",
         "author": "@sannymiguelculla30",
         "channel_url": "http://www.youtube.com/@sannymiguelculla30",
