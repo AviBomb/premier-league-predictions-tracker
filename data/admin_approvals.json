@@ -5454,5 +5454,16 @@
         "pred_away": 1
       }
     }
+  },
+  "GW_10": {
+    "@rc_2520": {
+      "98": {
+        "status": "rejected",
+        "timestamp": "2026-11-06T16:39:22.437Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    }
   }
 }
