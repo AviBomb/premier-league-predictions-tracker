@@ -5676,6 +5676,64 @@
         "pred_home": 0,
         "pred_away": 2
       }
+    },
+    "@SidHappensT.T": {
+      "100": {
+        "status": "approved",
+        "timestamp": "2026-11-06T17:10:24.423Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-06T17:10:24.423Z",
+        "pred_home": 2,
+        "pred_away": 2
+      }
+    },
+    "@Active-gamer04": {
+      "96": {
+        "status": "approved",
+        "timestamp": "2026-11-06T17:10:24.423Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-06T17:10:24.423Z",
+        "pred_home": 2,
+        "pred_away": 4
+      }
+    },
+    "@jonathanbnice6816": {
+      "96": {
+        "status": "approved",
+        "timestamp": "2026-11-06T17:10:24.423Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-06T17:10:24.423Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@ZeezOfAfrica": {
+      "96": {
+        "status": "approved",
+        "timestamp": "2026-11-06T17:10:24.423Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-06T17:10:24.423Z",
+        "pred_home": 1,
+        "pred_away": 4
+      },
+      "100": {
+        "status": "approved",
+        "timestamp": "2026-11-06T17:10:24.423Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-06T17:10:24.423Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@natgames2207": {
+      "95": {
+        "status": "approved",
+        "timestamp": "2026-11-06T17:10:24.423Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-06T17:10:24.423Z",
+        "pred_home": 0,
+        "pred_away": 0
+      }
     }
   }
 }
