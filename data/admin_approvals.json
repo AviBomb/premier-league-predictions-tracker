@@ -5734,6 +5734,16 @@
         "pred_home": 0,
         "pred_away": 0
       }
+    },
+    "@evatco9188": {
+      "93": {
+        "status": "rejected",
+        "timestamp": "2026-11-07T09:05:46.419Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-11-07T09:05:46.419Z",
+        "pred_home": 0,
+        "pred_away": 23
+      }
     }
   }
 }
