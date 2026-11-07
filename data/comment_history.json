@@ -36942,10 +36942,14 @@
       {
         "timestamp": "2026-11-06T16:22:49Z",
         "text": "Everton 3-1 Coventry \nLeeds 1-0 Spurs\nFulham 0-1 Newcastle \nNottingham 1-4 Man city \nSunderland 0-2 Chelsea \nIpswich 0-3 Bournemouth \nBrighton 2-3 Brentford \nLiverpool 2-1 Palace \nManchester United 3-2 villa"
+      },
+      {
+        "timestamp": "2026-11-07T05:15:13Z",
+        "text": "Everton 3 Coventry 1\nLeeds 1 Spurs 0 \nFulham 0 Newcastle1 \nNottingham 1 Man City 4\nSunderland 0 Chelsea 2\nIpswich 0 Bournemouth 3\nBrighton 2 Brentford 3 \nLiverpool 2 Palace 1\nManchester United 3 villa 2"
       }
     ],
-    "latest_text": "Everton 3 Coventry 1\nLeeds 1 Spurs 0 \nFulham 0 Newcastle1 \nNottingham 1 Man City 4\nSunderland 0 Chelsea 2\nIpswich 0 Bournemouth 3\nBrighton 2 Brentford 3 \nLiverpool 2 Palace 1\nManchester United 3 villa 2",
-    "latest_upd": "2026-11-07T05:15:13Z"
+    "latest_text": "Everton 3 Coventry 1\nLeeds 1 Spurs 0 \nFulham 0 Newcastle1 \nNottingham 1 Man City 4\nSunderland 0 Chelsea 2\nIpswich 0 Bournemouth 3\nBrighton 2 Brentford 3 \nLiverpool 2 Palace 1\nManchester United 3 villa 2\nArsenal 2 Hull 0",
+    "latest_upd": "2026-11-07T15:47:22Z"
   },
   "Ugwkh3stVYYph4cLIzN4AaABAg": {
     "initial_text": "Everton 2-0 Coventry\nLeeds 1-2 Spurs\nArsenal 2-0 Hull\nFulham 2-1 Newcastle\nForest 0-1 Man City\nBrighton 3-1 Brentford\nPalace 0-3 Liverpool\nIpswich 0-2 Bournemouth\nSunderland 1-3 Chelsea\nMan United 1-1 Aston Villa",
@@ -39847,5 +39851,19 @@
     "revisions": [],
     "latest_text": "Everton 4 Coventry 1\r\nLeeds united  2 spurs 2\r\nFulham 1 newcastle 2\r\nforest 0 man city 3\r\nbrighton 3 brenford 1\r\npalace 1 liverpool 3\r\nipswich 1 bournemouth 2\r\nsunderland 0 chelsea 2\r\nman united 3 aston villa 1\nArsenal 2-0 Hull\n\ndoing this at 11 am on saturday, hope I'm not late, had a busy Friday night",
     "latest_upd": "2026-11-07T09:14:40Z"
+  },
+  "Ugwa-rNo9xnXwTLJDet4AaABAg": {
+    "initial_text": "Forest up 2-0 on City in the 18th minute",
+    "initial_pub": "2026-11-07T17:51:29Z",
+    "revisions": [],
+    "latest_text": "Forest up 2-0 on City in the 18th minute",
+    "latest_upd": "2026-11-07T17:51:29Z"
+  },
+  "UgzR_YESHyBY7OJq5Kp4AaABAg": {
+    "initial_text": "When we relegated you in 2016 it was Everton we beat 3-0 not Chelsea \ud83d\ude02",
+    "initial_pub": "2026-11-07T14:44:22Z",
+    "revisions": [],
+    "latest_text": "When we relegated you in 2016 it was Everton we beat 3-0 not Chelsea \ud83d\ude02",
+    "latest_upd": "2026-11-07T14:44:22Z"
   }
 }
