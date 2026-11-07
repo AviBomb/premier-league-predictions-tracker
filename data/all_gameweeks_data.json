@@ -386345,11 +386345,10 @@
         "home_goals_summary": "Jair Cunha 06', Liam Delap 18' (assist: Xaver Schlager), Liam Delap 73' (assist: Morgan Gibbs-White)",
         "away_goals_summary": "Rayan Cherki 52'",
         "kickoff": "2026-11-07T17:30:00Z",
-        "finished": false,
+        "finished": true,
         "started": true,
-        "minutes": 79,
-        "status": "ONGOING",
-        "clock": "84'"
+        "minutes": 90,
+        "status": "FT"
       },
       {
         "id": 92,
@@ -386946,8 +386945,8 @@
         "original_comment_text": "Super Super late. \n\nEverton 3-0 Coventry City(OVER) \nLeeds United 0-0 Spurs\nFulham 3-1 Newcastle United \nArsenal 2-0 Hull City\nNottingham Forest 1-1 Man City \nSunderland 0-3 Chalsea\nIpswich 0-2 Bournemouth\nBrighton 3-0 Brentford\nPalace 1-4 Liverpool\nMan U 1-1 Villa",
         "revisions": [],
         "diff_html": "",
-        "matches_found": 9,
-        "valid_matches_count": 8,
+        "matches_found": 10,
+        "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
         "outcome_scores": 1,
@@ -387010,10 +387009,10 @@
             "is_late": false
           },
           "Sunderland vs Chelsea": {
-            "pred": "N/A",
+            "pred": "0-3",
             "actual": "TBD",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Pending",
             "is_late": false
           },
           "Manchester United vs Aston Villa": {
@@ -387431,8 +387430,8 @@
         "original_comment_text": "Everton 1-0 Coventry\r\nLeeds 1-2 Spurs\r\nFulham 1-2 Newcastle\r\nArsenal 3-1 Hull\r\nNottingham 1-1 Man City\r\nSunderland 1-0 Chalsea\r\nIpswich 1-2 Bournemouht\r\nBrighton 4-1 Brentford\r\nPalace 1-2 Liverpool\r\nMan U 3-2 Villa",
         "revisions": [],
         "diff_html": "",
-        "matches_found": 8,
-        "valid_matches_count": 7,
+        "matches_found": 10,
+        "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
         "outcome_scores": 1,
@@ -387488,17 +387487,17 @@
             "is_late": false
           },
           "Ipswich Town vs AFC Bournemouth": {
-            "pred": "N/A",
+            "pred": "1-2",
             "actual": "TBD",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Pending",
             "is_late": false
           },
           "Sunderland vs Chelsea": {
-            "pred": "N/A",
+            "pred": "1-0",
             "actual": "TBD",
             "points": 0,
-            "result": "No Prediction",
+            "result": "Pending",
             "is_late": false
           },
           "Manchester United vs Aston Villa": {

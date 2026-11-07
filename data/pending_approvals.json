@@ -14532,7 +14532,8 @@
     "confidence": 93,
     "detected_teams": "Sunderland vs Chelsea",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw10_PeterKhadka_100",
@@ -14560,7 +14561,8 @@
     "confidence": 93,
     "detected_teams": "Sunderland vs Chelsea",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw10_PeterKhadka_96",
@@ -14588,7 +14590,8 @@
     "confidence": 95,
     "detected_teams": "Ipswich Town vs AFC Bournemouth",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw10_jameswilkinson9192_93",

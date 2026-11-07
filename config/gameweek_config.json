@@ -3730,11 +3730,10 @@
           "home_goals_summary": "Jair Cunha 06', Liam Delap 18' (assist: Xaver Schlager), Liam Delap 73' (assist: Morgan Gibbs-White)",
           "away_goals_summary": "Rayan Cherki 52'",
           "kickoff": "2026-11-07T17:30:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 79,
-          "status": "ONGOING",
-          "clock": "84'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 92,
