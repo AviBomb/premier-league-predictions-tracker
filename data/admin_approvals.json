@@ -5744,6 +5744,15 @@
         "pred_home": 0,
         "pred_away": 23
       }
+    },
+    "@McNamee93_": {
+      "100": {
+        "status": "rejected",
+        "timestamp": "2026-11-07T09:06:00.607Z",
+        "by": "av***b@gmail.com",
+        "pred_home": 3,
+        "pred_away": 0
+      }
     }
   }
 }
