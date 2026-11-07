@@ -135,8 +135,8 @@
       "backtest": false,
       "home": "Ipswich Town",
       "kickoff": "2026-11-08T14:00:00Z",
-      "pred_away": 2,
-      "pred_home": 1
+      "pred_away": 1,
+      "pred_home": 2
     },
     "97": {
       "away": "Tottenham Hotspur",

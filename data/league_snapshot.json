@@ -109,6 +109,33 @@
       "position": 4
     },
     {
+      "team": "Everton",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
+      "played": 10,
+      "won": 4,
+      "drawn": 4,
+      "lost": 2,
+      "gf": 12,
+      "ga": 10,
+      "form": [
+        "D",
+        "L",
+        "L",
+        "W",
+        "W"
+      ],
+      "next": {
+        "opponent": "Brentford",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
+        "venue": "A",
+        "kickoff": "2026-11-23T20:00:00Z",
+        "gw": 11
+      },
+      "gd": 2,
+      "points": 16,
+      "position": 5
+    },
+    {
       "team": "Liverpool",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
       "played": 9,
@@ -133,7 +160,7 @@
       },
       "gd": 2,
       "points": 15,
-      "position": 5
+      "position": 6
     },
     {
       "team": "Brentford",
@@ -160,33 +187,6 @@
       },
       "gd": 7,
       "points": 14,
-      "position": 6
-    },
-    {
-      "team": "Everton",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
-      "played": 9,
-      "won": 3,
-      "drawn": 4,
-      "lost": 2,
-      "gf": 9,
-      "ga": 9,
-      "form": [
-        "W",
-        "D",
-        "L",
-        "L",
-        "W"
-      ],
-      "next": {
-        "opponent": "Coventry City",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
-        "venue": "H",
-        "kickoff": "2026-11-06T20:00:00Z",
-        "gw": 10
-      },
-      "gd": 0,
-      "points": 13,
       "position": 7
     },
     {
@@ -408,27 +408,27 @@
     {
       "team": "Coventry City",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
-      "played": 9,
+      "played": 10,
       "won": 3,
       "drawn": 0,
-      "lost": 6,
-      "gf": 9,
-      "ga": 16,
+      "lost": 7,
+      "gf": 10,
+      "ga": 19,
       "form": [
         "W",
+        "L",
+        "L",
         "W",
-        "L",
-        "L",
-        "W"
+        "L"
       ],
       "next": {
-        "opponent": "Everton",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
-        "venue": "A",
-        "kickoff": "2026-11-06T20:00:00Z",
-        "gw": 10
+        "opponent": "Crystal Palace",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
+        "venue": "H",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "gw": 11
       },
-      "gd": -7,
+      "gd": -9,
       "points": 9,
       "position": 16
     },
@@ -545,21 +545,6 @@
     "gw": 10,
     "matches": [
       {
-        "id": 94,
-        "home": "Everton",
-        "away": "Coventry City",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
-        "kickoff": "2026-11-06T20:00:00Z",
-        "pred_home": 1,
-        "pred_away": 0,
-        "xg_home": 1.5,
-        "xg_away": 0.83,
-        "p_home": 53,
-        "p_draw": 26,
-        "p_away": 21
-      },
-      {
         "id": 97,
         "home": "Leeds United",
         "away": "Tottenham Hotspur",
@@ -569,7 +554,7 @@
         "pred_home": 1,
         "pred_away": 0,
         "xg_home": 1.11,
-        "xg_away": 0.83,
+        "xg_away": 0.82,
         "p_home": 42,
         "p_draw": 31,
         "p_away": 27
@@ -583,9 +568,9 @@
         "kickoff": "2026-11-07T15:00:00Z",
         "pred_home": 1,
         "pred_away": 0,
-        "xg_home": 1.46,
+        "xg_home": 1.47,
         "xg_away": 0.7,
-        "p_home": 55,
+        "p_home": 56,
         "p_draw": 27,
         "p_away": 18
       },
@@ -599,8 +584,8 @@
         "pred_home": 1,
         "pred_away": 0,
         "xg_home": 1.44,
-        "xg_away": 1.12,
-        "p_home": 44,
+        "xg_away": 1.11,
+        "p_home": 45,
         "p_draw": 26,
         "p_away": 29
       },
@@ -614,10 +599,10 @@
         "pred_home": 0,
         "pred_away": 1,
         "xg_home": 0.9,
-        "xg_away": 1.68,
+        "xg_away": 1.67,
         "p_home": 20,
         "p_draw": 24,
-        "p_away": 56
+        "p_away": 55
       },
       {
         "id": 92,
@@ -628,8 +613,8 @@
         "kickoff": "2026-11-08T14:00:00Z",
         "pred_home": 2,
         "pred_away": 1,
-        "xg_home": 2.03,
-        "xg_away": 1.05,
+        "xg_home": 2.04,
+        "xg_away": 1.04,
         "p_home": 60,
         "p_draw": 21,
         "p_away": 19
@@ -643,11 +628,11 @@
         "kickoff": "2026-11-08T14:00:00Z",
         "pred_home": 0,
         "pred_away": 1,
-        "xg_home": 1.04,
-        "xg_away": 1.65,
+        "xg_home": 1.05,
+        "xg_away": 1.64,
         "p_home": 24,
-        "p_draw": 24,
-        "p_away": 52
+        "p_draw": 25,
+        "p_away": 51
       },
       {
         "id": 96,
@@ -656,13 +641,13 @@
         "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
         "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
         "kickoff": "2026-11-08T14:00:00Z",
-        "pred_home": 1,
-        "pred_away": 2,
-        "xg_home": 1.72,
-        "xg_away": 1.73,
+        "pred_home": 2,
+        "pred_away": 1,
+        "xg_home": 1.73,
+        "xg_away": 1.71,
         "p_home": 39,
-        "p_draw": 22,
-        "p_away": 39
+        "p_draw": 23,
+        "p_away": 38
       },
       {
         "id": 100,
@@ -674,10 +659,10 @@
         "pred_home": 1,
         "pred_away": 2,
         "xg_home": 1.26,
-        "xg_away": 2.05,
+        "xg_away": 2.04,
         "p_home": 23,
         "p_draw": 21,
-        "p_away": 56
+        "p_away": 55
       },
       {
         "id": 98,
@@ -688,8 +673,8 @@
         "kickoff": "2026-11-08T16:30:00Z",
         "pred_home": 1,
         "pred_away": 0,
-        "xg_home": 1.39,
-        "xg_away": 1.22,
+        "xg_home": 1.4,
+        "xg_away": 1.21,
         "p_home": 41,
         "p_draw": 26,
         "p_away": 33
@@ -737,10 +722,10 @@
     "38": "2027-05-30T15:00:00Z"
   },
   "ai_record": {
-    "points": 49,
+    "points": 50,
     "exacts": 5,
-    "outcomes": 34,
-    "matches": 90,
+    "outcomes": 35,
+    "matches": 91,
     "gws": [
       {
         "gw": 1,
@@ -812,6 +797,14 @@
         "exacts": 1,
         "outcomes": 5,
         "matches": 10,
+        "backtest": false
+      },
+      {
+        "gw": 10,
+        "points": 1,
+        "exacts": 0,
+        "outcomes": 1,
+        "matches": 1,
         "backtest": false
       }
     ]

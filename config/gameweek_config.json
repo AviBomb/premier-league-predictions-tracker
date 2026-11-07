@@ -3604,11 +3604,10 @@
           "home_goals_summary": "Thierno Barry 56' (assist: Vitalii Mykolenko), Thierno Barry 61', Kiernan Dewsbury-Hall 81' (assist: Thierno Barry)",
           "away_goals_summary": "Yann Gboho 52'",
           "kickoff": "2026-11-06T20:00:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 81,
-          "status": "ONGOING",
-          "clock": "82'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 97,
