@@ -28,6 +28,33 @@
       "position": 1
     },
     {
+      "team": "Brighton & Hove Albion",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+      "played": 10,
+      "won": 7,
+      "drawn": 1,
+      "lost": 2,
+      "gf": 26,
+      "ga": 7,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "W"
+      ],
+      "next": {
+        "opponent": "Hull City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
+        "venue": "A",
+        "kickoff": "2026-11-22T14:00:00Z",
+        "gw": 11
+      },
+      "gd": 19,
+      "points": 22,
+      "position": 2
+    },
+    {
       "team": "Manchester City",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
       "played": 10,
@@ -52,61 +79,61 @@
       },
       "gd": 8,
       "points": 21,
-      "position": 2
+      "position": 3
     },
     {
-      "team": "Brighton & Hove Albion",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
-      "played": 9,
-      "won": 6,
-      "drawn": 1,
+      "team": "Liverpool",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
+      "played": 10,
+      "won": 5,
+      "drawn": 3,
       "lost": 2,
-      "gf": 24,
-      "ga": 7,
+      "gf": 14,
+      "ga": 10,
       "form": [
-        "W",
+        "L",
         "W",
         "W",
         "L",
         "W"
       ],
       "next": {
-        "opponent": "Brentford",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
+        "opponent": "Manchester United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
         "venue": "H",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "kickoff": "2026-11-22T16:30:00Z",
+        "gw": 11
       },
-      "gd": 17,
-      "points": 19,
-      "position": 3
+      "gd": 4,
+      "points": 18,
+      "position": 4
     },
     {
       "team": "Chelsea",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
-      "played": 9,
+      "played": 10,
       "won": 5,
       "drawn": 1,
-      "lost": 3,
+      "lost": 4,
       "gf": 19,
-      "ga": 15,
+      "ga": 16,
       "form": [
-        "L",
         "W",
         "W",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "next": {
-        "opponent": "Sunderland",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t56.png",
-        "venue": "A",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "opponent": "Leeds United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+        "venue": "H",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "gw": 11
       },
-      "gd": 4,
+      "gd": 3,
       "points": 16,
-      "position": 4
+      "position": 5
     },
     {
       "team": "Everton",
@@ -133,61 +160,61 @@
       },
       "gd": 2,
       "points": 16,
-      "position": 5
+      "position": 6
     },
     {
-      "team": "Liverpool",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
-      "played": 9,
+      "team": "AFC Bournemouth",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+      "played": 10,
       "won": 4,
       "drawn": 3,
-      "lost": 2,
-      "gf": 11,
-      "ga": 9,
+      "lost": 3,
+      "gf": 16,
+      "ga": 14,
       "form": [
-        "W",
         "L",
         "W",
         "W",
-        "L"
+        "W",
+        "W"
       ],
       "next": {
-        "opponent": "Crystal Palace",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
-        "venue": "A",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "opponent": "Nottingham Forest",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+        "venue": "H",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "gw": 11
       },
       "gd": 2,
       "points": 15,
-      "position": 6
+      "position": 7
     },
     {
       "team": "Brentford",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
-      "played": 9,
+      "played": 10,
       "won": 3,
       "drawn": 5,
-      "lost": 1,
+      "lost": 2,
       "gf": 16,
-      "ga": 9,
+      "ga": 11,
       "form": [
-        "W",
         "D",
         "L",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "next": {
-        "opponent": "Brighton & Hove Albion",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
-        "venue": "A",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "opponent": "Everton",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
+        "venue": "H",
+        "kickoff": "2026-11-23T20:00:00Z",
+        "gw": 11
       },
-      "gd": 7,
+      "gd": 5,
       "points": 14,
-      "position": 7
+      "position": 8
     },
     {
       "team": "Leeds United",
@@ -214,34 +241,34 @@
       },
       "gd": 2,
       "points": 14,
-      "position": 8
+      "position": 9
     },
     {
-      "team": "AFC Bournemouth",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
-      "played": 9,
+      "team": "Aston Villa",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+      "played": 10,
       "won": 3,
-      "drawn": 3,
+      "drawn": 4,
       "lost": 3,
       "gf": 14,
-      "ga": 13,
+      "ga": 17,
       "form": [
-        "L",
-        "L",
+        "D",
         "W",
         "W",
-        "W"
+        "D",
+        "D"
       ],
       "next": {
-        "opponent": "Ipswich Town",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
-        "venue": "A",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "opponent": "Sunderland",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t56.png",
+        "venue": "H",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "gw": 11
       },
-      "gd": 1,
-      "points": 12,
-      "position": 9
+      "gd": -3,
+      "points": 13,
+      "position": 10
     },
     {
       "team": "Tottenham Hotspur",
@@ -268,7 +295,7 @@
       },
       "gd": -1,
       "points": 12,
-      "position": 10
+      "position": 11
     },
     {
       "team": "Newcastle United",
@@ -292,33 +319,6 @@
         "venue": "H",
         "kickoff": "2026-11-21T17:30:00Z",
         "gw": 11
-      },
-      "gd": -3,
-      "points": 12,
-      "position": 11
-    },
-    {
-      "team": "Aston Villa",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
-      "played": 9,
-      "won": 3,
-      "drawn": 3,
-      "lost": 3,
-      "gf": 10,
-      "ga": 13,
-      "form": [
-        "W",
-        "D",
-        "W",
-        "W",
-        "D"
-      ],
-      "next": {
-        "opponent": "Manchester United",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
-        "venue": "A",
-        "kickoff": "2026-11-08T16:30:00Z",
-        "gw": 10
       },
       "gd": -3,
       "points": 12,
@@ -354,27 +354,27 @@
     {
       "team": "Ipswich Town",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
-      "played": 9,
+      "played": 10,
       "won": 3,
       "drawn": 2,
-      "lost": 4,
-      "gf": 14,
-      "ga": 18,
+      "lost": 5,
+      "gf": 15,
+      "ga": 20,
       "form": [
-        "L",
         "W",
         "L",
         "D",
-        "D"
+        "D",
+        "L"
       ],
       "next": {
-        "opponent": "AFC Bournemouth",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
-        "venue": "H",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "opponent": "Tottenham Hotspur",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+        "venue": "A",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "gw": 11
       },
-      "gd": -4,
+      "gd": -5,
       "points": 11,
       "position": 14
     },
@@ -462,162 +462,237 @@
     {
       "team": "Manchester United",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
-      "played": 9,
+      "played": 10,
       "won": 1,
-      "drawn": 4,
+      "drawn": 5,
       "lost": 4,
-      "gf": 10,
-      "ga": 15,
+      "gf": 14,
+      "ga": 19,
       "form": [
         "D",
         "D",
-        "D",
-        "L",
-        "L"
-      ],
-      "next": {
-        "opponent": "Aston Villa",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
-        "venue": "H",
-        "kickoff": "2026-11-08T16:30:00Z",
-        "gw": 10
-      },
-      "gd": -5,
-      "points": 7,
-      "position": 18
-    },
-    {
-      "team": "Crystal Palace",
-      "logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
-      "played": 9,
-      "won": 2,
-      "drawn": 1,
-      "lost": 6,
-      "gf": 9,
-      "ga": 21,
-      "form": [
-        "D",
-        "W",
         "L",
         "L",
-        "L"
+        "D"
       ],
       "next": {
         "opponent": "Liverpool",
         "logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
-        "venue": "H",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "venue": "A",
+        "kickoff": "2026-11-22T16:30:00Z",
+        "gw": 11
       },
-      "gd": -12,
-      "points": 7,
-      "position": 19
+      "gd": -5,
+      "points": 8,
+      "position": 18
     },
     {
       "team": "Sunderland",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t56.png",
-      "played": 9,
-      "won": 1,
+      "played": 10,
+      "won": 2,
       "drawn": 2,
       "lost": 6,
-      "gf": 7,
+      "gf": 8,
       "ga": 17,
       "form": [
         "L",
         "L",
-        "L",
         "D",
+        "L",
+        "W"
+      ],
+      "next": {
+        "opponent": "Aston Villa",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+        "venue": "A",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "gw": 11
+      },
+      "gd": -9,
+      "points": 8,
+      "position": 19
+    },
+    {
+      "team": "Crystal Palace",
+      "logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
+      "played": 10,
+      "won": 2,
+      "drawn": 1,
+      "lost": 7,
+      "gf": 10,
+      "ga": 24,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L",
         "L"
       ],
       "next": {
-        "opponent": "Chelsea",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
-        "venue": "H",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "gw": 10
+        "opponent": "Coventry City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
+        "venue": "A",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "gw": 11
       },
-      "gd": -10,
-      "points": 5,
+      "gd": -14,
+      "points": 7,
       "position": 20
     }
   ],
   "predictions": {
-    "gw": 10,
+    "gw": 11,
     "matches": [
       {
-        "id": 92,
-        "home": "Brighton & Hove Albion",
-        "away": "Brentford",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "pred_home": 2,
-        "pred_away": 1,
-        "xg_home": 2.07,
-        "xg_away": 1.03,
-        "p_home": 61,
-        "p_draw": 21,
+        "id": 108,
+        "home": "Manchester City",
+        "away": "Fulham",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t54.png",
+        "kickoff": "2026-11-21T12:30:00Z",
+        "pred_home": 1,
+        "pred_away": 0,
+        "xg_home": 1.91,
+        "xg_away": 0.95,
+        "p_home": 60,
+        "p_draw": 22,
         "p_away": 18
       },
       {
-        "id": 93,
-        "home": "Crystal Palace",
-        "away": "Liverpool",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
-        "kickoff": "2026-11-08T14:00:00Z",
+        "id": 101,
+        "home": "Aston Villa",
+        "away": "Sunderland",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t56.png",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "pred_home": 1,
+        "pred_away": 0,
+        "xg_home": 1.81,
+        "xg_away": 1.01,
+        "p_home": 56,
+        "p_draw": 23,
+        "p_away": 21
+      },
+      {
+        "id": 102,
+        "home": "AFC Bournemouth",
+        "away": "Nottingham Forest",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t17.png",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "pred_home": 1,
+        "pred_away": 0,
+        "xg_home": 1.65,
+        "xg_away": 0.94,
+        "p_home": 54,
+        "p_draw": 25,
+        "p_away": 22
+      },
+      {
+        "id": 104,
+        "home": "Chelsea",
+        "away": "Leeds United",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t2.png",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "pred_home": 1,
+        "pred_away": 0,
+        "xg_home": 1.4,
+        "xg_away": 1.1,
+        "p_home": 44,
+        "p_draw": 27,
+        "p_away": 30
+      },
+      {
+        "id": 105,
+        "home": "Coventry City",
+        "away": "Crystal Palace",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t9.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t31.png",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "pred_home": 2,
+        "pred_away": 1,
+        "xg_home": 1.89,
+        "xg_away": 1.24,
+        "p_home": 53,
+        "p_draw": 22,
+        "p_away": 25
+      },
+      {
+        "id": 110,
+        "home": "Tottenham Hotspur",
+        "away": "Ipswich Town",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t6.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "pred_home": 1,
+        "pred_away": 0,
+        "xg_home": 1.65,
+        "xg_away": 1.11,
+        "p_home": 50,
+        "p_draw": 24,
+        "p_away": 26
+      },
+      {
+        "id": 109,
+        "home": "Newcastle United",
+        "away": "Arsenal",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
+        "kickoff": "2026-11-21T17:30:00Z",
         "pred_home": 0,
         "pred_away": 1,
-        "xg_home": 1.06,
-        "xg_away": 1.62,
-        "p_home": 25,
-        "p_draw": 25,
+        "xg_home": 0.86,
+        "xg_away": 1.43,
+        "p_home": 23,
+        "p_draw": 27,
         "p_away": 50
       },
       {
-        "id": 96,
-        "home": "Ipswich Town",
-        "away": "AFC Bournemouth",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t40.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t91.png",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "pred_home": 2,
+        "id": 106,
+        "home": "Hull City",
+        "away": "Brighton & Hove Albion",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t88.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+        "kickoff": "2026-11-22T14:00:00Z",
+        "pred_home": 0,
         "pred_away": 1,
-        "xg_home": 1.75,
-        "xg_away": 1.69,
-        "p_home": 40,
-        "p_draw": 22,
-        "p_away": 38
+        "xg_home": 0.9,
+        "xg_away": 1.67,
+        "p_home": 20,
+        "p_draw": 24,
+        "p_away": 56
       },
       {
-        "id": 100,
-        "home": "Sunderland",
-        "away": "Chelsea",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t56.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t8.png",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "pred_home": 1,
-        "pred_away": 2,
-        "xg_home": 1.28,
-        "xg_away": 2.02,
-        "p_home": 24,
-        "p_draw": 22,
-        "p_away": 54
-      },
-      {
-        "id": 98,
-        "home": "Manchester United",
-        "away": "Aston Villa",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t7.png",
-        "kickoff": "2026-11-08T16:30:00Z",
+        "id": 107,
+        "home": "Liverpool",
+        "away": "Manchester United",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t14.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t1.png",
+        "kickoff": "2026-11-22T16:30:00Z",
         "pred_home": 1,
         "pred_away": 0,
-        "xg_home": 1.41,
-        "xg_away": 1.2,
-        "p_home": 42,
-        "p_draw": 26,
-        "p_away": 32
+        "xg_home": 1.96,
+        "xg_away": 1.0,
+        "p_home": 60,
+        "p_draw": 22,
+        "p_away": 19
+      },
+      {
+        "id": 103,
+        "home": "Brentford",
+        "away": "Everton",
+        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
+        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
+        "kickoff": "2026-11-23T20:00:00Z",
+        "pred_home": 1,
+        "pred_away": 0,
+        "xg_home": 1.4,
+        "xg_away": 0.96,
+        "p_home": 47,
+        "p_draw": 27,
+        "p_away": 26
       }
     ]
   },
@@ -662,10 +737,10 @@
     "38": "2027-05-30T15:00:00Z"
   },
   "ai_record": {
-    "points": 56,
+    "points": 58,
     "exacts": 7,
-    "outcomes": 35,
-    "matches": 95,
+    "outcomes": 37,
+    "matches": 100,
     "gws": [
       {
         "gw": 1,
@@ -741,10 +816,10 @@
       },
       {
         "gw": 10,
-        "points": 7,
+        "points": 9,
         "exacts": 2,
-        "outcomes": 1,
-        "matches": 5,
+        "outcomes": 3,
+        "matches": 10,
         "backtest": false
       }
     ]
