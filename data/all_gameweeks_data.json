@@ -386559,6 +386559,103 @@
     ],
     "audited_records": [
       {
+        "comment_id": "UgyBUXaTKwdF2IwkGH54AaABAg",
+        "author": "@optterapp",
+        "channel_url": "http://www.youtube.com/@optterapp",
+        "published_at": "2026-11-11T10:06:16Z",
+        "updated_at": "2026-11-11T10:06:16Z",
+        "submission_gmt": "2026-11-11 10:06:16 GMT",
+        "updated_gmt": "2026-11-11 10:06:16 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late by 65h 36m after entire gameweek",
+        "timing_analysis": "Submitted 65h 36m after final kickoff (2026-11-11 10:06:16 GMT)",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Late Submission (All matches concluded)",
+        "raw_text": "Nobody had Manchester United 4-4 Aston Villa on their card. Calling it now: the next gameweek throws up an even bigger shock. Screenshot this.",
+        "original_comment_text": "Nobody had Manchester United 4-4 Aston Villa on their card. Calling it now: the next gameweek throws up an even bigger shock. Screenshot this.",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 1,
+        "valid_matches_count": 0,
+        "late_matches_count": 1,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Everton vs Coventry City": {
+            "pred": "N/A",
+            "actual": "3-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Leeds United vs Tottenham Hotspur": {
+            "pred": "N/A",
+            "actual": "1-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Arsenal vs Hull City": {
+            "pred": "N/A",
+            "actual": "1-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Fulham vs Newcastle United": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Nottingham Forest vs Manchester City": {
+            "pred": "N/A",
+            "actual": "3-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Brighton & Hove Albion vs Brentford": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Crystal Palace vs Liverpool": {
+            "pred": "N/A",
+            "actual": "1-3",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Ipswich Town vs AFC Bournemouth": {
+            "pred": "N/A",
+            "actual": "1-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Sunderland vs Chelsea": {
+            "pred": "N/A",
+            "actual": "1-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Manchester United vs Aston Villa": {
+            "pred": "4-4",
+            "actual": "4-4",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          }
+        }
+      },
+      {
         "comment_id": "UgxKjFnd-Gt4-QiSy7Z4AaABAg",
         "author": "@Cooper_the_pug",
         "channel_url": "http://www.youtube.com/@Cooper_the_pug",
