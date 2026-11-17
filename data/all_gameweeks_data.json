@@ -386190,34 +386190,34 @@
         "away_act": 1,
         "home_goals": [
           {
-            "minute": "56'",
-            "scorer": "Thierno Barry",
-            "assist": "Vitalii Mykolenko",
+            "minute": "",
+            "scorer": "Barry",
+            "assist": "Mykolenko",
             "type": "G"
           },
           {
-            "minute": "61'",
-            "scorer": "Thierno Barry",
+            "minute": "",
+            "scorer": "Barry",
+            "assist": "Barry",
+            "type": "G"
+          },
+          {
+            "minute": "",
+            "scorer": "Dewsbury-Hall",
             "assist": null,
-            "type": "G"
-          },
-          {
-            "minute": "81'",
-            "scorer": "Kiernan Dewsbury-Hall",
-            "assist": "Thierno Barry",
             "type": "G"
           }
         ],
         "away_goals": [
           {
-            "minute": "52'",
-            "scorer": "Yann Gboho",
+            "minute": "",
+            "scorer": "Gboho",
             "assist": null,
             "type": "G"
           }
         ],
-        "home_goals_summary": "Thierno Barry 56' (assist: Vitalii Mykolenko), Thierno Barry 61', Kiernan Dewsbury-Hall 81' (assist: Thierno Barry)",
-        "away_goals_summary": "Yann Gboho 52'",
+        "home_goals_summary": "Barry (Mykolenko), Barry (Barry), Dewsbury-Hall",
+        "away_goals_summary": "Gboho",
         "kickoff": "2026-11-06T20:00:00Z",
         "finished": true,
         "started": true,
@@ -386234,14 +386234,14 @@
         "away_act": 0,
         "home_goals": [
           {
-            "minute": "79'",
-            "scorer": "Noah Okafor",
+            "minute": "",
+            "scorer": "Okafor",
             "assist": null,
             "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Noah Okafor 79'",
+        "home_goals_summary": "Okafor",
         "away_goals_summary": "",
         "kickoff": "2026-11-07T12:30:00Z",
         "finished": true,
@@ -386259,14 +386259,14 @@
         "away_act": 0,
         "home_goals": [
           {
-            "minute": "72'",
-            "scorer": "Martin Ødegaard",
-            "assist": null,
+            "minute": "",
+            "scorer": "Ødegaard",
+            "assist": "Madueke",
             "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Martin Ødegaard 72'",
+        "home_goals_summary": "Ødegaard (Madueke)",
         "away_goals_summary": "",
         "kickoff": "2026-11-07T15:00:00Z",
         "finished": true,
@@ -386284,22 +386284,22 @@
         "away_act": 1,
         "home_goals": [
           {
-            "minute": "83'",
-            "scorer": "Rodrigo Muniz",
-            "assist": null,
+            "minute": "",
+            "scorer": "Muniz",
+            "assist": "Palacios",
             "type": "G"
           }
         ],
         "away_goals": [
           {
-            "minute": "80'",
-            "scorer": "Jacob Murphy",
+            "minute": "",
+            "scorer": "J.Murphy",
             "assist": null,
             "type": "G"
           }
         ],
-        "home_goals_summary": "Rodrigo Muniz 83'",
-        "away_goals_summary": "Jacob Murphy 80'",
+        "home_goals_summary": "Muniz (Palacios)",
+        "away_goals_summary": "J.Murphy",
         "kickoff": "2026-11-07T15:00:00Z",
         "finished": true,
         "started": true,
@@ -386316,34 +386316,34 @@
         "away_act": 1,
         "home_goals": [
           {
-            "minute": "06'",
+            "minute": "",
+            "scorer": "Delap",
+            "assist": "Gibbs-White",
+            "type": "G"
+          },
+          {
+            "minute": "",
+            "scorer": "Delap",
+            "assist": "Schlager",
+            "type": "G"
+          },
+          {
+            "minute": "",
             "scorer": "Jair Cunha",
             "assist": null,
-            "type": "G"
-          },
-          {
-            "minute": "18'",
-            "scorer": "Liam Delap",
-            "assist": "Xaver Schlager",
-            "type": "G"
-          },
-          {
-            "minute": "73'",
-            "scorer": "Liam Delap",
-            "assist": "Morgan Gibbs-White",
             "type": "G"
           }
         ],
         "away_goals": [
           {
-            "minute": "52'",
-            "scorer": "Rayan Cherki",
+            "minute": "",
+            "scorer": "Cherki",
             "assist": null,
             "type": "G"
           }
         ],
-        "home_goals_summary": "Jair Cunha 06', Liam Delap 18' (assist: Xaver Schlager), Liam Delap 73' (assist: Morgan Gibbs-White)",
-        "away_goals_summary": "Rayan Cherki 52'",
+        "home_goals_summary": "Delap (Gibbs-White), Delap (Schlager), Jair Cunha",
+        "away_goals_summary": "Cherki",
         "kickoff": "2026-11-07T17:30:00Z",
         "finished": true,
         "started": true,
@@ -386360,20 +386360,20 @@
         "away_act": 0,
         "home_goals": [
           {
-            "minute": "15'",
-            "scorer": "Diego Gómez",
-            "assist": null,
+            "minute": "",
+            "scorer": "Groß",
+            "assist": "Vuskovic",
             "type": "G"
           },
           {
-            "minute": "42'",
-            "scorer": "Pascal Groß",
+            "minute": "",
+            "scorer": "Gomez",
             "assist": null,
-            "type": "P"
+            "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Diego Gómez 15', Pascal Groß 42' (P)",
+        "home_goals_summary": "Groß (Vuskovic), Gomez",
         "away_goals_summary": "",
         "kickoff": "2026-11-08T14:00:00Z",
         "finished": true,
@@ -386391,34 +386391,34 @@
         "away_act": 3,
         "home_goals": [
           {
-            "minute": "90+5'",
-            "scorer": "Eddie Nketiah",
-            "assist": null,
-            "type": "P"
+            "minute": "",
+            "scorer": "Nketiah",
+            "assist": "Osorio",
+            "type": "G"
           }
         ],
         "away_goals": [
           {
-            "minute": "40'",
-            "scorer": "Alexis Mac Allister",
-            "assist": "Dominik Szoboszlai",
+            "minute": "",
+            "scorer": "Wirtz",
+            "assist": "Wirtz",
             "type": "G"
           },
           {
-            "minute": "54'",
-            "scorer": "Florian Wirtz",
-            "assist": "Bradley Barcola",
+            "minute": "",
+            "scorer": "Mac Allister",
+            "assist": "Szoboszlai",
             "type": "G"
           },
           {
-            "minute": "89'",
-            "scorer": "Alexander Isak",
-            "assist": "Florian Wirtz",
+            "minute": "",
+            "scorer": "Isak",
+            "assist": "Barcola",
             "type": "G"
           }
         ],
-        "home_goals_summary": "Eddie Nketiah 90+5' (P)",
-        "away_goals_summary": "Alexis Mac Allister 40' (assist: Dominik Szoboszlai), Florian Wirtz 54' (assist: Bradley Barcola), Alexander Isak 89' (assist: Florian Wirtz)",
+        "home_goals_summary": "Nketiah (Osorio)",
+        "away_goals_summary": "Wirtz (Wirtz), Mac Allister (Szoboszlai), Isak (Barcola)",
         "kickoff": "2026-11-08T14:00:00Z",
         "finished": true,
         "started": true,
@@ -386473,14 +386473,14 @@
         "away_act": 0,
         "home_goals": [
           {
-            "minute": "36'",
-            "scorer": "Enzo Le Fée",
-            "assist": null,
-            "type": "P"
+            "minute": "",
+            "scorer": "E.Le Fée",
+            "assist": "Brobbey",
+            "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Enzo Le Fée 36' (P)",
+        "home_goals_summary": "E.Le Fée (Brobbey)",
         "away_goals_summary": "",
         "kickoff": "2026-11-08T14:00:00Z",
         "finished": true,
@@ -386498,58 +386498,58 @@
         "away_act": 4,
         "home_goals": [
           {
-            "minute": "16'",
-            "scorer": "Bruno Fernandes",
-            "assist": null,
-            "type": "P"
-          },
-          {
-            "minute": "44'",
-            "scorer": "Youri Tielemans",
-            "assist": "Noussair Mazraoui",
+            "minute": "",
+            "scorer": "Tielemans",
+            "assist": "Dorgu",
             "type": "G"
           },
           {
-            "minute": "90+2'",
-            "scorer": "Joshua Zirkzee",
-            "assist": "Patrick Dorgu",
+            "minute": "",
+            "scorer": "Dorgu",
+            "assist": "Mazraoui",
             "type": "G"
           },
           {
-            "minute": "90+6'",
-            "scorer": "Patrick Dorgu",
-            "assist": "Bruno Fernandes",
+            "minute": "",
+            "scorer": "B.Fernandes",
+            "assist": "B.Fernandes",
+            "type": "G"
+          },
+          {
+            "minute": "",
+            "scorer": "Zirkzee",
+            "assist": "Cunha",
             "type": "G"
           }
         ],
         "away_goals": [
           {
-            "minute": "01'",
+            "minute": "",
+            "scorer": "McGinn",
+            "assist": "Alysson",
+            "type": "G"
+          },
+          {
+            "minute": "",
             "scorer": "Alysson",
-            "assist": "John McGinn",
+            "assist": "Alysson",
             "type": "G"
           },
           {
-            "minute": "04'",
-            "scorer": "Nicolas Jackson",
-            "assist": null,
+            "minute": "",
+            "scorer": "N.Jackson",
+            "assist": "McGinn",
             "type": "G"
           },
           {
-            "minute": "48'",
-            "scorer": "John McGinn",
-            "assist": null,
-            "type": "P"
-          },
-          {
-            "minute": "53'",
-            "scorer": "Leon Goretzka",
-            "assist": "Nicolas Jackson",
+            "minute": "",
+            "scorer": "Goretzka",
+            "assist": "N.Jackson",
             "type": "G"
           }
         ],
-        "home_goals_summary": "Bruno Fernandes 16' (P), Youri Tielemans 44' (assist: Noussair Mazraoui), Joshua Zirkzee 90+2' (assist: Patrick Dorgu), Patrick Dorgu 90+6' (assist: Bruno Fernandes)",
-        "away_goals_summary": "Alysson 01' (assist: John McGinn), Nicolas Jackson 04', John McGinn 48' (P), Leon Goretzka 53' (assist: Nicolas Jackson)",
+        "home_goals_summary": "Tielemans (Dorgu), Dorgu (Mazraoui), B.Fernandes (B.Fernandes), Zirkzee (Cunha)",
+        "away_goals_summary": "McGinn (Alysson), Alysson (Alysson), N.Jackson (McGinn), Goretzka (N.Jackson)",
         "kickoff": "2026-11-08T16:30:00Z",
         "finished": true,
         "started": true,
