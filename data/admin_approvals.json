@@ -6157,6 +6157,96 @@
         "pred_home": 1,
         "pred_away": 1
       }
+    },
+    "@ChristianGonzalez-fs9so": {
+      "110": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@Speedinkling": {
+      "108": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@A_k_a_r_i_i": {
+      "107": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
+    },
+    "@JuniorG107": {
+      "102": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 2,
+        "pred_away": 1
+      }
+    },
+    "@joet2505": {
+      "102": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
+    },
+    "@razza119": {
+      "105": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
+    },
+    "@Ppky2": {
+      "104": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 3,
+        "pred_away": 1
+      }
+    },
+    "@imrandomomar447": {
+      "102": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 1,
+        "pred_away": 2
+      }
+    },
+    "@marcostenorio496": {
+      "110": {
+        "status": "approved",
+        "timestamp": "2026-11-20T21:09:08.764Z",
+        "by": "av***b@gmail.com",
+        "batch": "gw-2026-11-20T21:09:08.764Z",
+        "pred_home": 1,
+        "pred_away": 1
+      }
     }
   }
 }
