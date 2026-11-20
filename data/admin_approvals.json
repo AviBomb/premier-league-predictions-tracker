@@ -6112,5 +6112,41 @@
         "pred_away": 0
       }
     }
+  },
+  "GW_11": {
+    "@missleafeatheleafeon2593": {
+      "103": {
+        "status": "rejected",
+        "timestamp": "2026-11-20T21:07:10.427Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-11-20T21:07:10.427Z",
+        "pred_home": 11,
+        "pred_away": 11
+      },
+      "105": {
+        "status": "rejected",
+        "timestamp": "2026-11-20T21:07:10.427Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-11-20T21:07:10.427Z",
+        "pred_home": 2,
+        "pred_away": 23
+      },
+      "106": {
+        "status": "rejected",
+        "timestamp": "2026-11-20T21:07:10.427Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-11-20T21:07:10.427Z",
+        "pred_home": 1,
+        "pred_away": 56
+      },
+      "110": {
+        "status": "rejected",
+        "timestamp": "2026-11-20T21:07:10.427Z",
+        "by": "av***b@gmail.com",
+        "batch": "user-2026-11-20T21:07:10.427Z",
+        "pred_home": 5,
+        "pred_away": 8
+      }
+    }
   }
 }
