@@ -16533,6 +16533,267 @@
     "admin_corrected": true
   },
   {
+    "id": "cand_gw11_daynerichards5292_110",
+    "gameweek": 11,
+    "author": "@daynerichards5292",
+    "comment_id": "UgzrKgQoV7EYimLTa1h4AaABAg",
+    "published_at": "2026-11-20T22:31:58Z",
+    "raw_line": "TOTTEMHAM 3-1 IPSWICH",
+    "full_comment": "MAN CITY 3 - 1 FULHAM\r\nASTON VILLA 1 - 1 SUNDERLAND\r\nBOURNEMOUTH 3 - 1 NOTTINGHAM FOREST\r\nCHELSEA 2 - 0 LEEDS\r\nCOVENTRY 3 - 1 PALACE\r\nTOTTEMHAM 3 - 1 IPSWICH\r\nNEWCASTLE 0 - 2 ARSENAL\r\nHULL 0 - 3 BRIGHTON\r\nLIVERPOOL 2- 2 MAN UNITED\r\nBRENTFORD 1 - 2 EVERTON",
+    "other_predictions": {
+      "Manchester City vs Fulham": "3 - 1",
+      "Aston Villa vs Sunderland": "1 - 1",
+      "AFC Bournemouth vs Nottingham Forest": "3 - 1",
+      "Chelsea vs Leeds United": "2 - 0",
+      "Coventry City vs Crystal Palace": "3 - 1",
+      "Newcastle United vs Arsenal": "0 - 2",
+      "Hull City vs Brighton & Hove Albion": "0 - 3",
+      "Liverpool vs Manchester United": "2 - 2",
+      "Brentford vs Everton": "1 - 2"
+    },
+    "fixture_id": 110,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Ipswich Town",
+    "pred_home": 3,
+    "pred_away": 1,
+    "confidence": 94,
+    "detected_teams": "Tottenham Hotspur vs Ipswich Town",
+    "reason": "typo",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_TawananyashaMufandaedzac3k_110",
+    "gameweek": 11,
+    "author": "@TawananyashaMufandaedza-c3k",
+    "comment_id": "Ugx9AHzIlM28LRR_ZCN4AaABAg",
+    "published_at": "2026-11-20T22:11:25Z",
+    "raw_line": "TOTTEMHAM 2-0 IPSWICH",
+    "full_comment": "MAN CITY 3- 0 FULHAM\r\nASTON VILLA 2 - 0 SUNDERLAND\r\nBOURNEMOUTH 2 - 0 NOTTINGHAM FOREST\r\nCHELSEA 2 - 0 LEEDS\r\nCOVENTRY 1- 1 PALACE\r\nTOTTEMHAM 2 - 0 IPSWICH\r\nNEWCASTLE 0 - 1 ARSENAL\r\nHULL 0 - 2 BRIGHTON\r\nLIVERPOOL 1- 2 MAN UNITED\r\nBRENTFORD 2 - 0 EVERTON",
+    "other_predictions": {
+      "Manchester City vs Fulham": "3 - 0",
+      "Aston Villa vs Sunderland": "2 - 0",
+      "AFC Bournemouth vs Nottingham Forest": "2 - 0",
+      "Chelsea vs Leeds United": "2 - 0",
+      "Coventry City vs Crystal Palace": "1 - 1",
+      "Newcastle United vs Arsenal": "0 - 1",
+      "Hull City vs Brighton & Hove Albion": "0 - 2",
+      "Liverpool vs Manchester United": "1 - 2",
+      "Brentford vs Everton": "2 - 0"
+    },
+    "fixture_id": 110,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Ipswich Town",
+    "pred_home": 2,
+    "pred_away": 0,
+    "confidence": 94,
+    "detected_teams": "Tottenham Hotspur vs Ipswich Town",
+    "reason": "typo",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_aakivaan2238_110",
+    "gameweek": 11,
+    "author": "@aakivaan2238",
+    "comment_id": "UgzBnkc8qPHqnNkN_QF4AaABAg",
+    "published_at": "2026-11-20T22:10:46Z",
+    "raw_line": "TOTTEMHAM 1-2 IPSWICH",
+    "full_comment": "MAN CITY 1 - 1 FULHAM\r\nASTON VILLA 1 - 2 SUNDERLAND\r\nBOURNEMOUTH 2 - 1 NOTTINGHAM FOREST\r\nCHELSEA 0 - 0 LEEDS\r\nCOVENTRY 1 - 1 PALACE\r\nTOTTEMHAM 1 - 2 IPSWICH\r\nNEWCASTLE 1 - 2 ARSENAL\r\nHULL 0 - 4 BRIGHTON\r\nLIVERPOOL 3 - 1 MAN UNITED\r\nBRENTFORD 1- 0 EVERTON",
+    "other_predictions": {
+      "Manchester City vs Fulham": "1 - 1",
+      "Aston Villa vs Sunderland": "1 - 2",
+      "AFC Bournemouth vs Nottingham Forest": "2 - 1",
+      "Chelsea vs Leeds United": "0 - 0",
+      "Coventry City vs Crystal Palace": "1 - 1",
+      "Newcastle United vs Arsenal": "1 - 2",
+      "Hull City vs Brighton & Hove Albion": "0 - 4",
+      "Liverpool vs Manchester United": "3 - 1",
+      "Brentford vs Everton": "1 - 0"
+    },
+    "fixture_id": 110,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Ipswich Town",
+    "pred_home": 1,
+    "pred_away": 2,
+    "confidence": 94,
+    "detected_teams": "Tottenham Hotspur vs Ipswich Town",
+    "reason": "typo",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_1BuffaloSoldier_108",
+    "gameweek": 11,
+    "author": "@1Buffalo_Soldier",
+    "comment_id": "Ugx78pkgGEoBE8wBeAt4AaABAg",
+    "published_at": "2026-11-20T22:06:31Z",
+    "raw_line": "Man cheaty 2-2 Fulham",
+    "full_comment": "Man cheaty 2-2 Fulham\n5' Haaland 1-0\n23' Josh King 1-1\n50' Bassie 1-2\n88' Doku 2-2\n\nSunderland 1-1 Aston Villa\n20' Jackson 0-1\n41' La fe 1-1 pen\n\nBournemouth 0-1 Nottingham Forest \n79' McAtee 0-1\n\nChelsea 1-2 Leeds\n17' Neto 1-0\n23' Calvert-Lewin 1-1\n43' Bogle 1-2\n\nCoventry 2-4 Crystal Palace\n12' Nketiah 0-2\n20' Nketiah 0-2\n26' Pino 0-3\n40' Sakamoto 1-3\n47' Awoniyi 2-3\n80' Richards 2-4\n\nTottenham 2-1 Ipswich \n44' Van der ven 1-0\n49' Maeda 1-1\n65' Kudus 2-1\n\nNew Castle 0-3 Arsenal \n23' Madueke 0-1\n60' Gabriel 0-2\n79' Gyokores 0-3 pen\n\nHull 0-0 Brighton \n84' Gross (missed Penalty)\n\nLiverpool 3-2 Man Utd \n9' Gakpo 1-0\n17' Mbuemo 1-1\n24' Barcola 2-1\n40' Isak 3-1\n67' Bruno 3-2\n\nBrentford 2-1 Everton\n49' Schade 1-0\n67' Janelt 2-0\n89' Bary 2-1",
+    "other_predictions": {
+      "Aston Villa vs Sunderland": "1 - 1",
+      "AFC Bournemouth vs Nottingham Forest": "0 - 1",
+      "Chelsea vs Leeds United": "1 - 2",
+      "Coventry City vs Crystal Palace": "2 - 4",
+      "Tottenham Hotspur vs Ipswich Town": "2 - 1",
+      "Newcastle United vs Arsenal": "0 - 3",
+      "Hull City vs Brighton & Hove Albion": "0 - 0",
+      "Liverpool vs Manchester United": "3 - 2",
+      "Brentford vs Everton": "2 - 1"
+    },
+    "fixture_id": 108,
+    "home_team": "Manchester City",
+    "away_team": "Fulham",
+    "pred_home": 2,
+    "pred_away": 2,
+    "confidence": 91,
+    "detected_teams": "Manchester City vs Fulham",
+    "reason": "typo",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_souvikdeb808_110",
+    "gameweek": 11,
+    "author": "@souvikdeb808",
+    "comment_id": "UgyRoPVQhAxAw8zlqDZ4AaABAg",
+    "published_at": "2026-11-20T22:06:08Z",
+    "raw_line": "Totenhum 1-1 Ipswich",
+    "full_comment": "Man City 2-0 Fulham\nAston Villa 3-1 Sunderland \nBournemouth 2-1 Forrest\nCoventry 1-1 Crystal Palace\nTotenhum 1-1 Ipswich\nNewcastle 0-1 Arsenal \nHull 0 - 3 Brighton\nLiverpool 3-2 Manchester United \nBrentford 1-2 Everton\nChelsea 2-1 Leeds",
+    "other_predictions": {
+      "Manchester City vs Fulham": "2 - 0",
+      "Aston Villa vs Sunderland": "3 - 1",
+      "AFC Bournemouth vs Nottingham Forest": "2 - 1",
+      "Coventry City vs Crystal Palace": "1 - 1",
+      "Newcastle United vs Arsenal": "0 - 1",
+      "Hull City vs Brighton & Hove Albion": "0 - 3",
+      "Liverpool vs Manchester United": "3 - 2",
+      "Brentford vs Everton": "1 - 2",
+      "Chelsea vs Leeds United": "2 - 1"
+    },
+    "fixture_id": 110,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Ipswich Town",
+    "pred_home": 1,
+    "pred_away": 1,
+    "confidence": 94,
+    "detected_teams": "Tottenham Hotspur vs Ipswich Town",
+    "reason": "typo",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_SnappedFootball_110",
+    "gameweek": 11,
+    "author": "@SnappedFootball",
+    "comment_id": "UgwxS9B3vJS7F2KtvRV4AaABAg",
+    "published_at": "2026-11-20T21:53:16Z",
+    "raw_line": "TOTTEMHAM 3-1 IPSWICH",
+    "full_comment": "MAN CITY 2 - 0 FULHAM\r\nASTON VILLA 3 - 1 SUNDERLAND\r\nBOURNEMOUTH 1 - 0 NOTTINGHAM FOREST\r\nCHELSEA 3 - 2 LEEDS\r\nCOVENTRY 1 - 1 PALACE\r\nTOTTEMHAM 3 - 1 IPSWICH\r\nNEWCASTLE 1- 2 ARSENAL\r\nHULL 0 - 2 BRIGHTON\r\nLIVERPOOL 2 - 2 MAN UNITED\r\nBRENTFORD 1 - 0 EVERTON",
+    "other_predictions": {
+      "Manchester City vs Fulham": "2 - 0",
+      "Aston Villa vs Sunderland": "3 - 1",
+      "AFC Bournemouth vs Nottingham Forest": "1 - 0",
+      "Chelsea vs Leeds United": "3 - 2",
+      "Coventry City vs Crystal Palace": "1 - 1",
+      "Newcastle United vs Arsenal": "1 - 2",
+      "Hull City vs Brighton & Hove Albion": "0 - 2",
+      "Liverpool vs Manchester United": "2 - 2",
+      "Brentford vs Everton": "1 - 0"
+    },
+    "fixture_id": 110,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Ipswich Town",
+    "pred_home": 3,
+    "pred_away": 1,
+    "confidence": 94,
+    "detected_teams": "Tottenham Hotspur vs Ipswich Town",
+    "reason": "typo",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_keelanlucey4759_102",
+    "gameweek": 11,
+    "author": "@keelanlucey4759",
+    "comment_id": "Ugy0cn9qFXWhawDmKSd4AaABAg",
+    "published_at": "2026-11-20T21:23:32Z",
+    "raw_line": "Bournemouth 2-2 Notts Forrest",
+    "full_comment": "GW 9 predictions \nMan City 2-1 Fulham \nAston Villa 1-1 Sunderland \nBournemouth 2-2 Notts Forrest \nChelsea 2-0 Leeds \nCoventry city 0-1 Crystal Palace\nSpurs 1-0 Ipswich \nNewcastle 1-2 Arsenal \nHull city 2-2 Brighton \nLiverpool 1-1 Man United \nBrentford 2-1 Everton",
+    "other_predictions": {
+      "Manchester City vs Fulham": "2 - 1",
+      "Aston Villa vs Sunderland": "1 - 1",
+      "Chelsea vs Leeds United": "2 - 0",
+      "Coventry City vs Crystal Palace": "0 - 1",
+      "Tottenham Hotspur vs Ipswich Town": "1 - 0",
+      "Newcastle United vs Arsenal": "1 - 2",
+      "Hull City vs Brighton & Hove Albion": "2 - 2",
+      "Liverpool vs Manchester United": "1 - 1",
+      "Brentford vs Everton": "2 - 1"
+    },
+    "fixture_id": 102,
+    "home_team": "AFC Bournemouth",
+    "away_team": "Nottingham Forest",
+    "pred_home": 2,
+    "pred_away": 2,
+    "confidence": 60,
+    "detected_teams": "AFC Bournemouth vs Nottingham Forest",
+    "reason": "prose",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_alaminoladiipo1044_109",
+    "gameweek": 11,
+    "author": "@al-aminoladiipo1044",
+    "comment_id": "Ugwho29HL3-rVYTX_pB4AaABAg",
+    "published_at": "2026-11-20T21:17:47Z",
+    "raw_line": "newvastle 0 arsenal 2",
+    "full_comment": "Man city 3 fulham 0\nbournemouth 2 nottingham forest 2\naston villa 2 sunderland 0\nchelsea 2 leeds 1\ncoventry 1 crystal palace 1\ntottenham 4 ipswich 1\nnewvastle 0 arsenal 2\nhull 1 brighton 3\nliverpool 3 man united 1\nbrentford 2 everton 2",
+    "other_predictions": {
+      "Manchester City vs Fulham": "3 - 0",
+      "AFC Bournemouth vs Nottingham Forest": "2 - 2",
+      "Aston Villa vs Sunderland": "2 - 0",
+      "Chelsea vs Leeds United": "2 - 1",
+      "Coventry City vs Crystal Palace": "1 - 1",
+      "Tottenham Hotspur vs Ipswich Town": "4 - 1",
+      "Hull City vs Brighton & Hove Albion": "1 - 3",
+      "Liverpool vs Manchester United": "3 - 1",
+      "Brentford vs Everton": "2 - 2"
+    },
+    "fixture_id": 109,
+    "home_team": "Newcastle United",
+    "away_team": "Arsenal",
+    "pred_home": 0,
+    "pred_away": 2,
+    "confidence": 94,
+    "detected_teams": "Newcastle United vs Arsenal",
+    "reason": "typo",
+    "status": "pending"
+  },
+  {
+    "id": "cand_gw11_Waynewilliamwinkle_107",
+    "gameweek": 11,
+    "author": "@Wayne_william_winkle",
+    "comment_id": "UgzmW9q4lCrzauy2oux4AaABAg",
+    "published_at": "2026-11-20T21:16:48Z",
+    "raw_line": "Liverpool 4 - 3 Scum United (i want them down)",
+    "full_comment": "Man city 3 - 1 fulham\n\nBournemouth 2 - 1 nottingham forest\n\nAston Villa 1 - 0 sunderland\n\n Chelsea 3 - 2 Leeds (if chelsea lose, i'll take a mental health break from football, drown my sorrows and not predict or have anything to do with the sport. Backing my team to win but seriously if they play like total idiots, I'll give this sport a break before bad things happen)\n\nCoventry 2 - 1 Crystal Palace\n\nTottenham 2 - 3 Ipswich Town\n\nNewcastle 1 - 2 Arsenal\n\nHull 0 - 2 Brighton\n\nLiverpool 4 - 3 Scum United (i want them down)\n\nBrentford 1 - 2 Everton",
+    "other_predictions": {
+      "Manchester City vs Fulham": "3 - 1",
+      "AFC Bournemouth vs Nottingham Forest": "2 - 1",
+      "Aston Villa vs Sunderland": "1 - 0",
+      "Chelsea vs Leeds United": "3 - 2",
+      "Coventry City vs Crystal Palace": "2 - 1",
+      "Tottenham Hotspur vs Ipswich Town": "2 - 3",
+      "Newcastle United vs Arsenal": "1 - 2",
+      "Hull City vs Brighton & Hove Albion": "0 - 2",
+      "Brentford vs Everton": "1 - 2"
+    },
+    "fixture_id": 107,
+    "home_team": "Liverpool",
+    "away_team": "Manchester United",
+    "pred_home": 4,
+    "pred_away": 3,
+    "confidence": 60,
+    "detected_teams": "Liverpool vs Manchester United",
+    "reason": "prose",
+    "status": "pending"
+  },
+  {
     "id": "cand_gw11_ChristianGonzalezfs9so_110",
     "gameweek": 11,
     "author": "@ChristianGonzalez-fs9so",
@@ -16559,7 +16820,8 @@
     "confidence": 98,
     "detected_teams": "Tottenham Hotspur vs Ipswich Town",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_Speedinkling_108",
@@ -16588,7 +16850,8 @@
     "confidence": 95,
     "detected_teams": "Manchester City vs Fulham",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_Akarii_107",
@@ -16617,7 +16880,8 @@
     "confidence": 60,
     "detected_teams": "Liverpool vs Manchester United",
     "reason": "prose",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_JuniorG107_102",
@@ -16646,7 +16910,8 @@
     "confidence": 98,
     "detected_teams": "AFC Bournemouth vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_joet2505_102",
@@ -16675,7 +16940,8 @@
     "confidence": 92,
     "detected_teams": "AFC Bournemouth vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_razza119_105",
@@ -16704,7 +16970,8 @@
     "confidence": 75,
     "detected_teams": "Coventry City vs Crystal Palace",
     "reason": "extra word",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_Ppky2_104",
@@ -16732,7 +16999,8 @@
     "confidence": 94,
     "detected_teams": "Chelsea vs Leeds United",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_FootyFeverm3s_102",
@@ -16761,7 +17029,8 @@
     "confidence": 100,
     "detected_teams": "AFC Bournemouth vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_imrandomomar447_102",
@@ -16790,7 +17059,8 @@
     "confidence": 92,
     "detected_teams": "AFC Bournemouth vs Nottingham Forest",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_marcostenorio496_110",
@@ -16819,7 +17089,8 @@
     "confidence": 94,
     "detected_teams": "Tottenham Hotspur vs Ipswich Town",
     "reason": "typo",
-    "status": "pending"
+    "status": "approved",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_missleafeatheleafeon2593_105",
@@ -16845,7 +17116,8 @@
     "confidence": 50,
     "detected_teams": "Crystal Palace vs Coventry City",
     "reason": "unusual score",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_missleafeatheleafeon2593_110",
@@ -16871,7 +17143,8 @@
     "confidence": 60,
     "detected_teams": "Tottenham Hotspur vs Ipswich Town",
     "reason": "prose",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_missleafeatheleafeon2593_106",
@@ -16897,7 +17170,8 @@
     "confidence": 50,
     "detected_teams": "Brighton & Hove Albion vs Hull City",
     "reason": "unusual score",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   },
   {
     "id": "cand_gw11_missleafeatheleafeon2593_103",
@@ -16923,6 +17197,7 @@
     "confidence": 50,
     "detected_teams": "Everton vs Brentford",
     "reason": "unusual score",
-    "status": "pending"
+    "status": "rejected",
+    "admin_corrected": true
   }
 ]
