@@ -408487,6 +408487,103 @@
     }
   },
   "GW_11": {
+    "@godofthegreatkurultaj4302": {
+      "comment_id": "UgxtVbsM3D-rjeUDxD94AaABAg",
+      "author": "@godofthegreatkurultaj4302",
+      "channel_url": "http://www.youtube.com/@godofthegreatkurultaj4302",
+      "published_at": "2026-11-21T19:41:53Z",
+      "updated_at": "2026-11-21T19:41:53Z",
+      "submission_gmt": "2026-11-21 19:41:53 GMT",
+      "updated_gmt": "2026-11-21 19:41:53 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 7h 11m before earliest kickoff (2026-11-21 19:41:53 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Hull 0 Brighton\nLiverpool 2 Man United 2\nBrentford 1 Everton 1",
+      "original_comment_text": "Hull 0 Brighton\nLiverpool 2 Man United 2\nBrentford 1 Everton 1",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 2,
+      "valid_matches_count": 2,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Manchester City vs Fulham": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Sunderland": {
+          "pred": "N/A",
+          "actual": "0-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "AFC Bournemouth vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Chelsea vs Leeds United": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Coventry City vs Crystal Palace": {
+          "pred": "N/A",
+          "actual": "3-2",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Tottenham Hotspur vs Ipswich Town": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Newcastle United vs Arsenal": {
+          "pred": "N/A",
+          "actual": "2-2",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Hull City vs Brighton & Hove Albion": {
+          "pred": "N/A",
+          "actual": "TBD",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": false
+        },
+        "Liverpool vs Manchester United": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Everton": {
+          "pred": "1-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
     "@Knowledge5eeker": {
       "comment_id": "UgzT7hsNcevkCyBbWZZ4AaABAg",
       "author": "@Knowledge5eeker",
@@ -408556,7 +408653,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -408653,7 +408750,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "N/A",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -408750,7 +408847,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -408847,7 +408944,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -408944,7 +409041,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409041,7 +409138,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409090,9 +409187,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 2,
-      "outcome_scores": 3,
-      "total_points": 9,
+      "exact_scores": 1,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "N/A",
@@ -409138,9 +409235,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -409235,7 +409332,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409332,7 +409429,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409429,7 +409526,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409526,7 +409623,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409623,7 +409720,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409720,7 +409817,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409817,7 +409914,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -409914,7 +410011,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410011,7 +410108,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410108,7 +410205,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410205,7 +410302,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410302,7 +410399,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410399,7 +410496,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410496,7 +410593,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410593,7 +410690,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410690,7 +410787,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410787,7 +410884,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410884,7 +410981,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -410981,7 +411078,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411078,7 +411175,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411175,7 +411272,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411272,7 +411369,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 1,
           "result": "Outcome",
           "is_late": false
@@ -411369,7 +411466,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411466,7 +411563,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411563,7 +411660,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411660,7 +411757,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411757,7 +411854,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -411806,9 +411903,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
-      "outcome_scores": 4,
-      "total_points": 4,
+      "exact_scores": 1,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "5-1",
@@ -411854,9 +411951,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-2",
-          "actual": "1-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -411951,7 +412048,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412048,7 +412145,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412145,7 +412242,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412242,7 +412339,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412339,7 +412436,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412436,7 +412533,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412533,7 +412630,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412582,9 +412679,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 3,
-      "outcome_scores": 0,
-      "total_points": 9,
+      "exact_scores": 2,
+      "outcome_scores": 1,
+      "total_points": 7,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-1",
@@ -412630,9 +412727,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -412727,7 +412824,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412824,7 +412921,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -412921,7 +413018,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413018,7 +413115,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413115,7 +413212,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413212,7 +413309,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413309,7 +413406,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 1,
           "result": "Outcome",
           "is_late": false
@@ -413406,7 +413503,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413503,7 +413600,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413600,7 +413697,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413697,7 +413794,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413794,7 +413891,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413891,7 +413988,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -413988,7 +414085,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414037,9 +414134,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "exact_scores": 1,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-0",
@@ -414085,9 +414182,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-2",
-          "actual": "1-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -414182,7 +414279,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414279,7 +414376,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414376,7 +414473,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414473,7 +414570,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414570,7 +414667,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414667,7 +414764,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414764,7 +414861,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -414813,9 +414910,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "exact_scores": 0,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-0",
@@ -414861,9 +414958,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -414958,7 +415055,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415055,7 +415152,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415152,7 +415249,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415201,9 +415298,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "exact_scores": 0,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-0",
@@ -415249,9 +415346,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -415346,7 +415443,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415443,7 +415540,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415540,7 +415637,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415637,7 +415734,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415734,7 +415831,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "N/A",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -415831,7 +415928,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -415928,7 +416025,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416025,7 +416122,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416122,7 +416219,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416219,7 +416316,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416316,7 +416413,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416413,7 +416510,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416510,7 +416607,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416607,7 +416704,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "N/A",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -416704,7 +416801,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416801,7 +416898,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "3-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416898,7 +416995,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -416995,7 +417092,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417092,7 +417189,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417189,7 +417286,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417286,7 +417383,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417383,7 +417480,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417480,7 +417577,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417577,7 +417674,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417674,7 +417771,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417771,7 +417868,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417868,7 +417965,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -417965,7 +418062,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418062,7 +418159,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418111,9 +418208,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "exact_scores": 0,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -418159,9 +418256,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -418208,9 +418305,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
-      "outcome_scores": 0,
-      "total_points": 6,
+      "exact_scores": 1,
+      "outcome_scores": 1,
+      "total_points": 4,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-0",
@@ -418256,9 +418353,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -418353,7 +418450,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418450,7 +418547,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418547,7 +418644,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418644,7 +418741,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418741,7 +418838,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418838,7 +418935,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -418935,7 +419032,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419032,7 +419129,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419129,7 +419226,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419226,7 +419323,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419323,7 +419420,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419420,7 +419517,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419517,7 +419614,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419566,9 +419663,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "exact_scores": 1,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-0",
@@ -419614,9 +419711,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-2",
-          "actual": "1-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -419711,7 +419808,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419808,7 +419905,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -419905,7 +420002,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420002,7 +420099,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420099,7 +420196,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420196,7 +420293,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420293,7 +420390,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420390,7 +420487,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420439,9 +420536,9 @@
       "matches_found": 8,
       "valid_matches_count": 8,
       "late_matches_count": 0,
-      "exact_scores": 2,
-      "outcome_scores": 2,
-      "total_points": 8,
+      "exact_scores": 1,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "1-1",
@@ -420487,9 +420584,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -420584,7 +420681,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420633,9 +420730,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "exact_scores": 0,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-0",
@@ -420681,9 +420778,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -420778,7 +420875,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420875,7 +420972,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -420972,7 +421069,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421069,7 +421166,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "3-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421166,7 +421263,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421263,7 +421360,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421360,7 +421457,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421457,7 +421554,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421554,7 +421651,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421651,7 +421748,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 1,
           "result": "Outcome",
           "is_late": false
@@ -421748,7 +421845,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421845,7 +421942,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -421942,7 +422039,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422039,7 +422136,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422136,7 +422233,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422233,7 +422330,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422330,7 +422427,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422427,7 +422524,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422476,9 +422573,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "exact_scores": 0,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-0",
@@ -422524,9 +422621,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -422621,7 +422718,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422718,7 +422815,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422815,7 +422912,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -422912,7 +423009,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423009,7 +423106,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423106,7 +423203,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423203,7 +423300,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423300,7 +423397,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423397,7 +423494,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423494,7 +423591,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423591,7 +423688,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423688,7 +423785,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423785,7 +423882,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423882,7 +423979,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -423979,7 +424076,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424076,7 +424173,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 1,
           "result": "Outcome",
           "is_late": false
@@ -424125,9 +424222,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "exact_scores": 0,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-1",
@@ -424173,9 +424270,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -424270,7 +424367,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424367,7 +424464,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424464,7 +424561,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424561,7 +424658,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424658,7 +424755,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424755,7 +424852,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424852,7 +424949,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -424949,7 +425046,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425046,7 +425143,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425143,7 +425240,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425240,7 +425337,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425289,9 +425386,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "exact_scores": 0,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -425337,9 +425434,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -425386,9 +425483,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "exact_scores": 0,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "4-0",
@@ -425434,9 +425531,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -425531,7 +425628,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425628,7 +425725,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425725,7 +425822,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425822,7 +425919,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -425919,7 +426016,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426016,7 +426113,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426113,7 +426210,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426210,7 +426307,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426307,7 +426404,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426404,7 +426501,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426501,7 +426598,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426598,7 +426695,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426695,7 +426792,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "3-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426792,7 +426889,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426889,7 +426986,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -426986,7 +427083,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427083,7 +427180,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427180,7 +427277,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427277,7 +427374,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427374,7 +427471,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427471,7 +427568,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427568,7 +427665,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427665,7 +427762,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427762,7 +427859,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427859,7 +427956,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -427956,7 +428053,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428053,7 +428150,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428150,7 +428247,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428247,7 +428344,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428344,7 +428441,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428441,7 +428538,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428538,7 +428635,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428635,7 +428732,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428732,7 +428829,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428829,7 +428926,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -428926,7 +429023,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429023,7 +429120,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429120,7 +429217,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429217,7 +429314,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429314,7 +429411,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429411,7 +429508,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429508,7 +429605,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "N/A",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -429605,7 +429702,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429702,7 +429799,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429799,7 +429896,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429896,7 +429993,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -429993,7 +430090,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430090,7 +430187,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430187,7 +430284,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430284,7 +430381,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430333,9 +430430,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "exact_scores": 0,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -430381,9 +430478,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -430478,7 +430575,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430575,7 +430672,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430672,7 +430769,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430769,7 +430866,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430866,7 +430963,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -430963,7 +431060,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431012,9 +431109,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
-      "outcome_scores": 1,
-      "total_points": 7,
+      "exact_scores": 1,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -431060,9 +431157,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -431157,7 +431254,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431254,7 +431351,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431351,7 +431448,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431400,9 +431497,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "exact_scores": 0,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "4-1",
@@ -431448,9 +431545,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -431545,7 +431642,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431642,7 +431739,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431739,7 +431836,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431836,7 +431933,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -431933,7 +432030,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432030,7 +432127,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432127,7 +432224,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432224,7 +432321,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432273,9 +432370,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 4,
-      "total_points": 7,
+      "exact_scores": 0,
+      "outcome_scores": 5,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -432321,9 +432418,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -432418,7 +432515,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432515,7 +432612,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432612,7 +432709,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432709,7 +432806,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432806,7 +432903,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -432903,7 +433000,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433000,7 +433097,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433097,7 +433194,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433194,7 +433291,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433291,7 +433388,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433388,7 +433485,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "N/A",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -433485,7 +433582,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433582,7 +433679,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433679,7 +433776,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433776,7 +433873,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433873,7 +433970,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -433970,7 +434067,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434067,7 +434164,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434164,7 +434261,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434261,7 +434358,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434358,7 +434455,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434455,7 +434552,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434552,7 +434649,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434649,7 +434746,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434746,7 +434843,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434843,7 +434940,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -434940,7 +435037,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435037,7 +435134,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435134,7 +435231,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435231,7 +435328,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435328,7 +435425,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435425,7 +435522,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435522,7 +435619,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435619,7 +435716,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435716,7 +435813,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435813,7 +435910,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -435862,9 +435959,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "exact_scores": 2,
+      "outcome_scores": 1,
+      "total_points": 7,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "5-0",
@@ -435910,9 +436007,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-2",
-          "actual": "1-1",
-          "points": 1,
-          "result": "Outcome",
+          "actual": "2-2",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -436007,7 +436104,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436104,7 +436201,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436201,7 +436298,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436298,7 +436395,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436395,7 +436492,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436492,7 +436589,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436589,7 +436686,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436686,7 +436783,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436783,7 +436880,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436880,7 +436977,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -436977,7 +437074,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437074,7 +437171,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437171,7 +437268,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437268,7 +437365,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437317,9 +437414,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "exact_scores": 0,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "4-0",
@@ -437365,9 +437462,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -437462,7 +437559,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437511,9 +437608,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 2,
-      "outcome_scores": 1,
-      "total_points": 7,
+      "exact_scores": 1,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -437559,9 +437656,9 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-1",
-          "actual": "1-1",
-          "points": 3,
-          "result": "Exact",
+          "actual": "2-2",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Hull City vs Brighton & Hove Albion": {
@@ -437656,7 +437753,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437753,7 +437850,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437850,7 +437947,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -437947,7 +438044,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438044,7 +438141,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438141,7 +438238,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438238,7 +438335,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438335,7 +438432,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438432,7 +438529,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438529,7 +438626,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438626,7 +438723,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438723,7 +438820,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "2-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438820,7 +438917,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -438917,7 +439014,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439014,7 +439111,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439111,7 +439208,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439208,7 +439305,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439305,7 +439402,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439402,7 +439499,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439499,7 +439596,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439596,7 +439693,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439693,7 +439790,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439790,7 +439887,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439887,7 +439984,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -439984,7 +440081,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440081,7 +440178,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440178,7 +440275,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440275,7 +440372,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440372,7 +440469,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440469,7 +440566,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440566,7 +440663,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440663,7 +440760,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440760,7 +440857,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "7-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440857,7 +440954,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -440954,7 +441051,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441051,7 +441148,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-4",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441148,7 +441245,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441245,7 +441342,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441342,7 +441439,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441439,7 +441536,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441536,7 +441633,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441633,7 +441730,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441730,7 +441827,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441827,7 +441924,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -441924,7 +442021,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442021,7 +442118,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442118,7 +442215,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-3",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442215,7 +442312,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442312,7 +442409,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442409,7 +442506,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-0",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442506,7 +442603,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442603,7 +442700,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442700,7 +442797,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442797,7 +442894,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442894,7 +442991,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-1",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -442991,7 +443088,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "0-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -443088,7 +443185,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "3-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false
@@ -443185,7 +443282,7 @@
         },
         "Newcastle United vs Arsenal": {
           "pred": "1-2",
-          "actual": "1-1",
+          "actual": "2-2",
           "points": 0,
           "result": "Miss",
           "is_late": false

@@ -4166,13 +4166,19 @@
           "away": "Arsenal",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-          "home_act": 1,
-          "away_act": 1,
+          "home_act": 2,
+          "away_act": 2,
           "home_goals": [
             {
               "minute": "49'",
               "scorer": "Harvey Barnes",
               "assist": "William Osula",
+              "type": "G"
+            },
+            {
+              "minute": "62'",
+              "scorer": "Malick Thiaw",
+              "assist": "Joe Willock",
               "type": "G"
             }
           ],
@@ -4182,16 +4188,21 @@
               "scorer": "Eberechi Eze",
               "assist": "Kai Havertz",
               "type": "G"
+            },
+            {
+              "minute": "78'",
+              "scorer": "Noni Madueke",
+              "assist": "Martin Ødegaard",
+              "type": "G"
             }
           ],
-          "home_goals_summary": "Harvey Barnes 49' (assist: William Osula)",
-          "away_goals_summary": "Eberechi Eze 33' (assist: Kai Havertz)",
+          "home_goals_summary": "Harvey Barnes 49' (assist: William Osula), Malick Thiaw 62' (assist: Joe Willock)",
+          "away_goals_summary": "Eberechi Eze 33' (assist: Kai Havertz), Noni Madueke 78' (assist: Martin Ødegaard)",
           "kickoff": "2026-11-21T17:30:00Z",
-          "finished": false,
+          "finished": true,
           "started": true,
-          "minutes": 59,
-          "status": "ONGOING",
-          "clock": "60'"
+          "minutes": 90,
+          "status": "FT"
         },
         {
           "id": 106,

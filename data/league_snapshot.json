@@ -3,28 +3,28 @@
     {
       "team": "Arsenal",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-      "played": 10,
+      "played": 11,
       "won": 9,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "gf": 15,
-      "ga": 5,
+      "gf": 17,
+      "ga": 7,
       "form": [
         "W",
         "W",
         "W",
         "W",
-        "W"
+        "D"
       ],
       "next": {
-        "opponent": "Newcastle United",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
-        "venue": "A",
-        "kickoff": "2026-11-21T17:30:00Z",
-        "gw": 11
+        "opponent": "Manchester City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t43.png",
+        "venue": "H",
+        "kickoff": "2026-11-29T16:30:00Z",
+        "gw": 12
       },
       "gd": 10,
-      "points": 27,
+      "points": 28,
       "position": 1
     },
     {
@@ -300,28 +300,28 @@
     {
       "team": "Newcastle United",
       "logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
-      "played": 10,
+      "played": 11,
       "won": 3,
-      "drawn": 3,
+      "drawn": 4,
       "lost": 4,
-      "gf": 13,
-      "ga": 16,
+      "gf": 15,
+      "ga": 18,
       "form": [
-        "L",
         "L",
         "W",
         "L",
+        "D",
         "D"
       ],
       "next": {
-        "opponent": "Arsenal",
-        "logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-        "venue": "H",
-        "kickoff": "2026-11-21T17:30:00Z",
-        "gw": 11
+        "opponent": "Brighton & Hove Albion",
+        "logo": "https://resources.premierleague.com/premierleague/badges/70/t36.png",
+        "venue": "A",
+        "kickoff": "2026-11-29T14:05:00Z",
+        "gw": 12
       },
       "gd": -3,
-      "points": 12,
+      "points": 13,
       "position": 12
     },
     {
@@ -545,21 +545,6 @@
     "gw": 11,
     "matches": [
       {
-        "id": 109,
-        "home": "Newcastle United",
-        "away": "Arsenal",
-        "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t4.png",
-        "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t3.png",
-        "kickoff": "2026-11-21T17:30:00Z",
-        "pred_home": 0,
-        "pred_away": 1,
-        "xg_home": 0.86,
-        "xg_away": 1.43,
-        "p_home": 23,
-        "p_draw": 27,
-        "p_away": 50
-      },
-      {
         "id": 106,
         "home": "Hull City",
         "away": "Brighton & Hove Albion",
@@ -650,7 +635,7 @@
     "points": 61,
     "exacts": 7,
     "outcomes": 40,
-    "matches": 106,
+    "matches": 107,
     "gws": [
       {
         "gw": 1,
@@ -737,7 +722,7 @@
         "points": 3,
         "exacts": 0,
         "outcomes": 3,
-        "matches": 6,
+        "matches": 7,
         "backtest": false
       }
     ]
