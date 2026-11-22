@@ -408487,6 +408487,103 @@
     }
   },
   "GW_11": {
+    "@edi0157": {
+      "comment_id": "UgwTTePG0MD8BFa7oQh4AaABAg",
+      "author": "@edi0157",
+      "channel_url": "http://www.youtube.com/@edi0157",
+      "published_at": "2026-11-22T04:46:30Z",
+      "updated_at": "2026-11-22T04:46:30Z",
+      "submission_gmt": "2026-11-22 04:46:30 GMT",
+      "updated_gmt": "2026-11-22 04:46:30 GMT",
+      "edit_delta_str": "",
+      "lateness_str": "",
+      "timing_analysis": "Submitted 16h 16m before earliest kickoff (2026-11-22 04:46:30 GMT)",
+      "is_edited": false,
+      "has_recorded_diff": false,
+      "status": "Valid",
+      "raw_text": "Well DAMN, I have AGAIN missed the Saturday games by not seeing the video. Was actually wondering where it was on Friday, apparently I just missed it.\n\n0:23 as a Romanian I have to tell you Kosovo is a pretty tough nut to crack on the field and then they tend to walk off the field at the slightest chance too, that s a good win ngl. They called us \u201cgypsies\u201d at their home matches when we met both in the Europa League qualifiers (FCSB vs Drita last year) and in the previous Nations League and that is fine by UEFA but when some of our ultras chanted \u201cSerbia\u201d (literally not even \u201cKosovo is Serbia\u201d, just \u201cSerbia\u201d) in our match bam, walk off the field, waiting 2 damn hours for the game to be officially abandoned (literally, I remember staying in front of the TV watching that), dressing room trashed, 1 game ban and 125k euro fine by UEFA (got the win at least but we didn\u2019t need it)\u2026Honestly tired of playing them at this point, good that you won and I hope stuff like this just stops being a thing in the future.\n\nAnyway, predictions for the remaining games:\nHull 2-3 Brighton \nLiverpool 3-1 Manchester United \nBrentford 2-2 Everton",
+      "original_comment_text": "Well DAMN, I have AGAIN missed the Saturday games by not seeing the video. Was actually wondering where it was on Friday, apparently I just missed it.\n\n0:23 as a Romanian I have to tell you Kosovo is a pretty tough nut to crack on the field and then they tend to walk off the field at the slightest chance too, that s a good win ngl. They called us \u201cgypsies\u201d at their home matches when we met both in the Europa League qualifiers (FCSB vs Drita last year) and in the previous Nations League and that is fine by UEFA but when some of our ultras chanted \u201cSerbia\u201d (literally not even \u201cKosovo is Serbia\u201d, just \u201cSerbia\u201d) in our match bam, walk off the field, waiting 2 damn hours for the game to be officially abandoned (literally, I remember staying in front of the TV watching that), dressing room trashed, 1 game ban and 125k euro fine by UEFA (got the win at least but we didn\u2019t need it)\u2026Honestly tired of playing them at this point, good that you won and I hope stuff like this just stops being a thing in the future.\n\nAnyway, predictions for the remaining games:\nHull 2-3 Brighton \nLiverpool 3-1 Manchester United \nBrentford 2-2 Everton",
+      "revisions": [],
+      "diff_html": "",
+      "matches_found": 3,
+      "valid_matches_count": 3,
+      "late_matches_count": 0,
+      "exact_scores": 0,
+      "outcome_scores": 0,
+      "total_points": 0,
+      "fixtures": {
+        "Manchester City vs Fulham": {
+          "pred": "N/A",
+          "actual": "1-1",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Aston Villa vs Sunderland": {
+          "pred": "N/A",
+          "actual": "0-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "AFC Bournemouth vs Nottingham Forest": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Chelsea vs Leeds United": {
+          "pred": "N/A",
+          "actual": "1-4",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Coventry City vs Crystal Palace": {
+          "pred": "N/A",
+          "actual": "3-2",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Tottenham Hotspur vs Ipswich Town": {
+          "pred": "N/A",
+          "actual": "2-0",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Newcastle United vs Arsenal": {
+          "pred": "N/A",
+          "actual": "2-2",
+          "points": 0,
+          "result": "No Prediction",
+          "is_late": true
+        },
+        "Hull City vs Brighton & Hove Albion": {
+          "pred": "2-3",
+          "actual": "0-0",
+          "points": 0,
+          "result": "Miss",
+          "is_late": false
+        },
+        "Liverpool vs Manchester United": {
+          "pred": "3-1",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        },
+        "Brentford vs Everton": {
+          "pred": "2-2",
+          "actual": "TBD",
+          "points": 0,
+          "result": "Pending",
+          "is_late": false
+        }
+      }
+    },
     "@godofthegreatkurultaj4302": {
       "comment_id": "UgxtVbsM3D-rjeUDxD94AaABAg",
       "author": "@godofthegreatkurultaj4302",
@@ -408563,7 +408660,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -408660,9 +408757,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -408757,7 +408854,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -408854,9 +408951,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -408951,9 +409048,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409048,9 +409145,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409145,9 +409242,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409242,9 +409339,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409339,9 +409436,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409436,9 +409533,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409533,9 +409630,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-6",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409630,9 +409727,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409727,9 +409824,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409824,9 +409921,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -409921,9 +410018,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410018,9 +410115,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410115,9 +410212,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410158,8 +410255,8 @@
       "valid_matches_count": 8,
       "late_matches_count": 1,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-1",
@@ -410212,9 +410309,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410309,9 +410406,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410406,9 +410503,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410503,9 +410600,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410600,9 +410697,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410697,9 +410794,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410794,9 +410891,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410891,9 +410988,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -410988,9 +411085,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411085,9 +411182,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411182,9 +411279,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411279,9 +411376,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411376,9 +411473,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411473,7 +411570,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -411570,9 +411667,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411667,9 +411764,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411764,9 +411861,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411861,9 +411958,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -411958,9 +412055,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412000,9 +412097,9 @@
       "matches_found": 10,
       "valid_matches_count": 10,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 2,
-      "total_points": 2,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -412055,9 +412152,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412152,9 +412249,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412249,9 +412346,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412346,9 +412443,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412443,9 +412540,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412540,9 +412637,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412637,9 +412734,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412734,9 +412831,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412831,9 +412928,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -412928,9 +413025,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413025,9 +413122,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413122,9 +413219,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413219,9 +413316,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413316,9 +413413,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413413,9 +413510,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413510,9 +413607,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413553,8 +413650,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "4-0",
@@ -413607,9 +413704,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413704,9 +413801,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413801,9 +413898,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413898,9 +413995,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -413995,9 +414092,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-5",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414092,9 +414189,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414189,9 +414286,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414286,9 +414383,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414383,9 +414480,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414480,9 +414577,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414577,9 +414674,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414674,9 +414771,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414771,9 +414868,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414868,9 +414965,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -414965,9 +415062,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415062,9 +415159,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415159,9 +415256,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415256,9 +415353,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415353,9 +415450,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415450,9 +415547,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415547,9 +415644,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415644,9 +415741,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415741,9 +415838,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415838,9 +415935,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -415935,9 +416032,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416032,9 +416129,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416129,9 +416226,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416226,9 +416323,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416269,8 +416366,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "4-1",
@@ -416323,9 +416420,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416366,8 +416463,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "1-0",
@@ -416420,9 +416517,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416463,8 +416560,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 2,
-      "total_points": 5,
+      "outcome_scores": 3,
+      "total_points": 6,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -416517,9 +416614,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416614,9 +416711,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416711,7 +416808,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -416808,9 +416905,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -416851,8 +416948,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-0",
@@ -416905,9 +417002,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417002,9 +417099,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-6",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417099,9 +417196,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417196,9 +417293,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417293,9 +417390,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417390,9 +417487,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-5",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417487,9 +417584,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417584,9 +417681,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417681,9 +417778,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417724,8 +417821,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 1,
-      "total_points": 4,
+      "outcome_scores": 2,
+      "total_points": 5,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-0",
@@ -417778,9 +417875,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417875,9 +417972,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -417972,9 +418069,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418069,9 +418166,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418166,9 +418263,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418209,8 +418306,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -418263,9 +418360,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418360,9 +418457,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418457,9 +418554,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-6",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418554,9 +418651,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418651,9 +418748,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418748,9 +418845,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418845,9 +418942,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -418942,9 +419039,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419039,9 +419136,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419136,9 +419233,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419233,9 +419330,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419330,9 +419427,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419427,9 +419524,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419524,9 +419621,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-6",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419621,9 +419718,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419718,9 +419815,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419815,9 +419912,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -419912,9 +420009,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420009,9 +420106,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420106,9 +420203,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420203,9 +420300,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420300,9 +420397,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420397,7 +420494,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -420494,9 +420591,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420591,7 +420688,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -420688,9 +420785,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420785,9 +420882,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420882,9 +420979,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -420979,9 +421076,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421022,8 +421119,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-2",
@@ -421076,9 +421173,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421173,9 +421270,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421270,9 +421367,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421367,9 +421464,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421464,9 +421561,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421561,9 +421658,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421658,9 +421755,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421755,9 +421852,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421852,9 +421949,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -421949,9 +422046,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422046,9 +422143,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422143,9 +422240,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422240,9 +422337,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422337,9 +422434,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422434,9 +422531,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422531,9 +422628,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422628,9 +422725,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422725,9 +422822,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422822,9 +422919,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -422919,9 +423016,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423016,9 +423113,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423059,8 +423156,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "4-1",
@@ -423113,9 +423210,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423210,9 +423307,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423307,9 +423404,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423404,9 +423501,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423501,9 +423598,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423598,7 +423695,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -423695,9 +423792,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423792,9 +423889,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423889,9 +423986,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -423986,9 +424083,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424083,9 +424180,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424180,7 +424277,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -424277,9 +424374,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424374,9 +424471,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424471,9 +424568,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424568,9 +424665,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424665,9 +424762,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424762,9 +424859,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424859,9 +424956,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -424956,9 +425053,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425053,9 +425150,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425150,9 +425247,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425247,9 +425344,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425344,9 +425441,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425387,8 +425484,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -425441,9 +425538,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425538,9 +425635,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425635,9 +425732,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425678,8 +425775,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-1",
@@ -425732,9 +425829,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425829,9 +425926,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -425926,9 +426023,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426023,9 +426120,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426120,9 +426217,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426217,9 +426314,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426314,9 +426411,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426411,9 +426508,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426508,9 +426605,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426605,9 +426702,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426702,9 +426799,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426745,8 +426842,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-0",
@@ -426799,9 +426896,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426842,8 +426939,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-0",
@@ -426896,9 +426993,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -426993,9 +427090,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427090,9 +427187,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427187,9 +427284,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427284,9 +427381,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427326,9 +427423,9 @@
       "matches_found": 9,
       "valid_matches_count": 9,
       "late_matches_count": 0,
-      "exact_scores": 0,
+      "exact_scores": 1,
       "outcome_scores": 3,
-      "total_points": 3,
+      "total_points": 6,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "N/A",
@@ -427381,9 +427478,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-0",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 3,
+          "result": "Exact",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427478,9 +427575,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427575,9 +427672,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427672,9 +427769,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427769,9 +427866,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427866,9 +427963,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -427963,9 +428060,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428060,9 +428157,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428157,9 +428254,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428254,9 +428351,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428351,9 +428448,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428448,9 +428545,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428491,8 +428588,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 1,
-      "outcome_scores": 3,
-      "total_points": 6,
+      "outcome_scores": 4,
+      "total_points": 7,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-1",
@@ -428545,9 +428642,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428642,9 +428739,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428739,9 +428836,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "3-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428836,9 +428933,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -428933,9 +429030,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429030,9 +429127,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429127,9 +429224,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429224,9 +429321,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429267,8 +429364,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -429321,9 +429418,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429418,9 +429515,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429515,9 +429612,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429612,9 +429709,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429709,9 +429806,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429806,9 +429903,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -429849,8 +429946,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -429903,9 +430000,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430000,9 +430097,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430097,9 +430194,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-5",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430194,9 +430291,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430291,9 +430388,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430388,9 +430485,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430485,9 +430582,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430582,9 +430679,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-5",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430679,9 +430776,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430776,9 +430873,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430873,9 +430970,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -430970,9 +431067,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431067,9 +431164,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431164,9 +431261,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431261,9 +431358,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431358,9 +431455,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431401,8 +431498,8 @@
       "valid_matches_count": 9,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 1,
-      "total_points": 1,
+      "outcome_scores": 2,
+      "total_points": 2,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "0-1",
@@ -431455,9 +431552,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431552,9 +431649,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431649,9 +431746,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431746,9 +431843,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431843,9 +431940,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -431940,9 +432037,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432037,9 +432134,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432134,9 +432231,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432231,9 +432328,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432328,9 +432425,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432425,9 +432522,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-6",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432522,9 +432619,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432619,9 +432716,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432716,9 +432813,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432813,9 +432910,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -432856,8 +432953,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 3,
-      "total_points": 3,
+      "outcome_scores": 4,
+      "total_points": 4,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "2-1",
@@ -432910,9 +433007,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433007,9 +433104,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433104,9 +433201,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433201,9 +433298,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433298,9 +433395,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433395,9 +433492,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433492,9 +433589,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433589,9 +433686,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433686,9 +433783,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433783,9 +433880,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433880,9 +433977,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -433977,9 +434074,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434020,8 +434117,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "4-2",
@@ -434074,9 +434171,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-1",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434171,9 +434268,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434268,9 +434365,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434365,9 +434462,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434462,9 +434559,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434559,9 +434656,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434656,9 +434753,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434753,9 +434850,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434850,9 +434947,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -434947,9 +435044,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435044,9 +435141,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435141,9 +435238,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435238,9 +435335,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435335,9 +435432,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435432,9 +435529,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435529,9 +435626,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435626,9 +435723,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435723,9 +435820,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435820,9 +435917,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -435917,9 +436014,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436014,9 +436111,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "3-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436111,9 +436208,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436208,9 +436305,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-5",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436305,9 +436402,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436402,9 +436499,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436499,9 +436596,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436596,9 +436693,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436693,9 +436790,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436790,9 +436887,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436887,9 +436984,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -436984,9 +437081,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437081,9 +437178,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437178,9 +437275,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437275,9 +437372,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437372,9 +437469,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437469,9 +437566,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437566,9 +437663,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437663,9 +437760,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-1",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437760,9 +437857,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437857,9 +437954,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-5",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -437954,9 +438051,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438051,9 +438148,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438148,9 +438245,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438245,9 +438342,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438342,9 +438439,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438439,9 +438536,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438536,9 +438633,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438633,9 +438730,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438730,9 +438827,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438827,9 +438924,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -438924,9 +439021,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439021,9 +439118,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439118,9 +439215,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439215,9 +439312,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439312,9 +439409,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439409,9 +439506,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439506,9 +439603,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439603,9 +439700,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439700,9 +439797,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439797,9 +439894,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439894,9 +439991,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -439991,9 +440088,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440088,9 +440185,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440185,9 +440282,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440282,9 +440379,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440379,9 +440476,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440476,9 +440573,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440573,9 +440670,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440670,9 +440767,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440767,9 +440864,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -440864,7 +440961,7 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "N/A",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
           "result": "No Prediction",
           "is_late": false
@@ -440961,9 +441058,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441058,9 +441155,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441155,9 +441252,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441252,9 +441349,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441349,9 +441446,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441446,9 +441543,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441543,9 +441640,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441640,9 +441737,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441737,9 +441834,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441834,9 +441931,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -441931,9 +442028,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442028,9 +442125,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442125,9 +442222,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442222,9 +442319,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442319,9 +442416,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442416,9 +442513,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "0-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442513,9 +442610,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442610,9 +442707,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442707,9 +442804,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-4",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442804,9 +442901,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442847,8 +442944,8 @@
       "valid_matches_count": 10,
       "late_matches_count": 0,
       "exact_scores": 0,
-      "outcome_scores": 2,
-      "total_points": 2,
+      "outcome_scores": 3,
+      "total_points": 3,
       "fixtures": {
         "Manchester City vs Fulham": {
           "pred": "3-2",
@@ -442901,9 +442998,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-2",
-          "actual": "TBD",
-          "points": 0,
-          "result": "Pending",
+          "actual": "0-0",
+          "points": 1,
+          "result": "Outcome",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -442998,9 +443095,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-2",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -443095,9 +443192,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -443192,9 +443289,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "2-0",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
@@ -443289,9 +443386,9 @@
         },
         "Hull City vs Brighton & Hove Albion": {
           "pred": "1-3",
-          "actual": "TBD",
+          "actual": "0-0",
           "points": 0,
-          "result": "Pending",
+          "result": "Miss",
           "is_late": false
         },
         "Liverpool vs Manchester United": {
