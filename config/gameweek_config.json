@@ -4147,12 +4147,12 @@
             {
               "minute": "51'",
               "scorer": "Dominic Solanke",
-              "assist": null,
+              "assist": "Luca Williams-Barnett",
               "type": "G"
             }
           ],
           "away_goals": [],
-          "home_goals_summary": "Luca Williams-Barnett 15' (assist: Pedro Porro), Dominic Solanke 51'",
+          "home_goals_summary": "Luca Williams-Barnett 15' (assist: Pedro Porro), Dominic Solanke 51' (assist: Luca Williams-Barnett)",
           "away_goals_summary": "",
           "kickoff": "2026-11-21T15:00:00Z",
           "finished": true,
@@ -4284,17 +4284,37 @@
           "away": "Everton",
           "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
           "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
-          "home_act": null,
-          "away_act": null,
-          "home_goals": [],
+          "home_act": 3,
+          "away_act": 0,
+          "home_goals": [
+            {
+              "minute": "23'",
+              "scorer": "Keane Lewis-Potter",
+              "assist": "Jaidon Anthony",
+              "type": "G"
+            },
+            {
+              "minute": "25'",
+              "scorer": "Keane Lewis-Potter",
+              "assist": null,
+              "type": "G"
+            },
+            {
+              "minute": "67'",
+              "scorer": "Vitaly Janelt",
+              "assist": "Jaidon Anthony",
+              "type": "G"
+            }
+          ],
           "away_goals": [],
-          "home_goals_summary": "",
+          "home_goals_summary": "Keane Lewis-Potter 23' (assist: Jaidon Anthony), Keane Lewis-Potter 25', Vitaly Janelt 67' (assist: Jaidon Anthony)",
           "away_goals_summary": "",
           "kickoff": "2026-11-23T20:00:00Z",
           "finished": false,
-          "started": false,
-          "minutes": 0,
-          "status": "UPCOMING"
+          "started": true,
+          "minutes": 66,
+          "status": "ONGOING",
+          "clock": "67'"
         }
       ],
       "video_url": "https://www.youtube.com/watch?v=9ITwWC8BZAE",

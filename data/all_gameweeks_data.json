@@ -426354,12 +426354,12 @@
           {
             "minute": "51'",
             "scorer": "Dominic Solanke",
-            "assist": null,
+            "assist": "Luca Williams-Barnett",
             "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Luca Williams-Barnett 15' (assist: Pedro Porro), Dominic Solanke 51'",
+        "home_goals_summary": "Luca Williams-Barnett 15' (assist: Pedro Porro), Dominic Solanke 51' (assist: Luca Williams-Barnett)",
         "away_goals_summary": "",
         "kickoff": "2026-11-21T15:00:00Z",
         "finished": true,
@@ -426491,20 +426491,234 @@
         "away": "Everton",
         "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
         "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
-        "home_act": null,
-        "away_act": null,
-        "home_goals": [],
+        "home_act": 3,
+        "away_act": 0,
+        "home_goals": [
+          {
+            "minute": "23'",
+            "scorer": "Keane Lewis-Potter",
+            "assist": "Jaidon Anthony",
+            "type": "G"
+          },
+          {
+            "minute": "25'",
+            "scorer": "Keane Lewis-Potter",
+            "assist": null,
+            "type": "G"
+          },
+          {
+            "minute": "67'",
+            "scorer": "Vitaly Janelt",
+            "assist": "Jaidon Anthony",
+            "type": "G"
+          }
+        ],
         "away_goals": [],
-        "home_goals_summary": "",
+        "home_goals_summary": "Keane Lewis-Potter 23' (assist: Jaidon Anthony), Keane Lewis-Potter 25', Vitaly Janelt 67' (assist: Jaidon Anthony)",
         "away_goals_summary": "",
         "kickoff": "2026-11-23T20:00:00Z",
         "finished": false,
-        "started": false,
-        "minutes": 0,
-        "status": "UPCOMING"
+        "started": true,
+        "minutes": 66,
+        "status": "ONGOING",
+        "clock": "67'"
       }
     ],
     "audited_records": [
+      {
+        "comment_id": "Ugy-J6W1Ec1Fd-tUBBd4AaABAg",
+        "author": "@william_macdonald",
+        "channel_url": "http://www.youtube.com/@william_macdonald",
+        "published_at": "2026-11-23T19:11:47Z",
+        "updated_at": "2026-11-23T19:11:47Z",
+        "submission_gmt": "2026-11-23 19:11:47 GMT",
+        "updated_gmt": "2026-11-23 19:11:47 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late for 1 match(es)",
+        "timing_analysis": "Submitted 2026-11-23 19:11:47 GMT. 1 match(es) voided due to kickoff deadline, remaining matches active.",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid* (Late for 1 match)",
+        "raw_text": "New castle 2 arsenal 2. Again a poor prediction",
+        "original_comment_text": "New castle 2 arsenal 2. Again a poor prediction",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 1,
+        "valid_matches_count": 0,
+        "late_matches_count": 1,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Manchester City vs Fulham": {
+            "pred": "N/A",
+            "actual": "1-1",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Aston Villa vs Sunderland": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Nottingham Forest": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Chelsea vs Leeds United": {
+            "pred": "N/A",
+            "actual": "1-4",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Coventry City vs Crystal Palace": {
+            "pred": "N/A",
+            "actual": "3-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Ipswich Town": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Newcastle United vs Arsenal": {
+            "pred": "2-2",
+            "actual": "2-2",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Hull City vs Brighton & Hove Albion": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Liverpool vs Manchester United": {
+            "pred": "N/A",
+            "actual": "4-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Brentford vs Everton": {
+            "pred": "N/A",
+            "actual": "3-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": false
+          }
+        }
+      },
+      {
+        "comment_id": "Ugxcqjcr_T_MZstxInp4AaABAg",
+        "author": "@william_macdonald",
+        "channel_url": "http://www.youtube.com/@william_macdonald",
+        "published_at": "2026-11-23T18:56:15Z",
+        "updated_at": "2026-11-23T18:56:15Z",
+        "submission_gmt": "2026-11-23 18:56:15 GMT",
+        "updated_gmt": "2026-11-23 18:56:15 GMT",
+        "edit_delta_str": "",
+        "lateness_str": "Late for 2 match(es)",
+        "timing_analysis": "Submitted 2026-11-23 18:56:15 GMT. 2 match(es) voided due to kickoff deadline, remaining matches active.",
+        "is_edited": false,
+        "has_recorded_diff": false,
+        "status": "Valid* (Late for 2 matches)",
+        "raw_text": "Yeah your predictions aged poorly. City 1-fullham 1. Liverpool 4 man u -0",
+        "original_comment_text": "Yeah your predictions aged poorly. City 1-fullham 1. Liverpool 4 man u -0",
+        "revisions": [],
+        "diff_html": "",
+        "matches_found": 2,
+        "valid_matches_count": 0,
+        "late_matches_count": 2,
+        "exact_scores": 0,
+        "outcome_scores": 0,
+        "total_points": 0,
+        "fixtures": {
+          "Manchester City vs Fulham": {
+            "pred": "1-1",
+            "actual": "1-1",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Aston Villa vs Sunderland": {
+            "pred": "N/A",
+            "actual": "0-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "AFC Bournemouth vs Nottingham Forest": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Chelsea vs Leeds United": {
+            "pred": "N/A",
+            "actual": "1-4",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Coventry City vs Crystal Palace": {
+            "pred": "N/A",
+            "actual": "3-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Tottenham Hotspur vs Ipswich Town": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Newcastle United vs Arsenal": {
+            "pred": "N/A",
+            "actual": "2-2",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Hull City vs Brighton & Hove Albion": {
+            "pred": "N/A",
+            "actual": "2-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": true
+          },
+          "Liverpool vs Manchester United": {
+            "pred": "4-0",
+            "actual": "4-0",
+            "points": 0,
+            "result": "Void* (Submitted after match kickoff - Not Counted)",
+            "is_late": true
+          },
+          "Brentford vs Everton": {
+            "pred": "N/A",
+            "actual": "3-0",
+            "points": 0,
+            "result": "No Prediction",
+            "is_late": false
+          }
+        }
+      },
       {
         "comment_id": "UgwvgAN0Zt_XjcvEF1h4AaABAg",
         "author": "@captaindaveblack-w2q",
@@ -426595,7 +426809,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -426624,8 +426838,8 @@
         "valid_matches_count": 1,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "N/A",
@@ -426692,9 +426906,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -426789,9 +427003,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -426886,9 +427100,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -426983,7 +427197,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -427080,7 +427294,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -427177,9 +427391,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -427206,8 +427420,8 @@
         "valid_matches_count": 4,
         "late_matches_count": 6,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -427274,9 +427488,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -427371,9 +427585,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -427468,9 +427682,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -427565,9 +427779,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -427594,8 +427808,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -427662,9 +427876,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -427759,9 +427973,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -427856,9 +428070,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -427953,9 +428167,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -428050,9 +428264,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -428079,8 +428293,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -428147,9 +428361,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -428244,9 +428458,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-4",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -428273,8 +428487,8 @@
         "valid_matches_count": 8,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "N/A",
@@ -428341,9 +428555,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -428370,8 +428584,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "N/A",
@@ -428438,9 +428652,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -428535,7 +428749,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -428564,8 +428778,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 1,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -428632,9 +428846,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -428729,9 +428943,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -428826,9 +429040,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -428855,8 +429069,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -428923,9 +429137,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -428952,8 +429166,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -429020,9 +429234,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -429049,8 +429263,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -429117,9 +429331,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -429214,9 +429428,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -429311,9 +429525,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -429340,8 +429554,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -429408,9 +429622,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -429437,8 +429651,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-2",
@@ -429505,9 +429719,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -429602,9 +429816,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -429699,9 +429913,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -429796,9 +430010,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -429893,9 +430107,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -429990,9 +430204,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430087,9 +430301,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430116,8 +430330,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -430184,9 +430398,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -430281,9 +430495,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430378,9 +430592,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430475,9 +430689,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430572,9 +430786,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430669,9 +430883,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430766,9 +430980,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430863,9 +431077,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430960,9 +431174,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -430989,8 +431203,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -431057,9 +431271,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -431086,8 +431300,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -431154,9 +431368,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -431251,9 +431465,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -431280,8 +431494,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -431348,9 +431562,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -431445,9 +431659,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -431474,8 +431688,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -431542,9 +431756,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -431639,9 +431853,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -431736,9 +431950,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -431833,9 +432047,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -431930,9 +432144,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432027,9 +432241,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432124,9 +432338,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432221,9 +432435,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432250,8 +432464,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -432318,9 +432532,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -432415,9 +432629,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432444,8 +432658,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -432512,9 +432726,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -432609,9 +432823,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432706,9 +432920,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432735,8 +432949,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-0",
@@ -432803,9 +433017,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -432900,9 +433114,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -432929,8 +433143,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-0",
@@ -432997,9 +433211,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -433094,9 +433308,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -433191,9 +433405,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -433288,9 +433502,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -433385,9 +433599,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -433482,9 +433696,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -433511,8 +433725,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -433579,9 +433793,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -433676,9 +433890,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -433773,9 +433987,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -433802,8 +434016,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -433870,9 +434084,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -433967,9 +434181,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -434064,9 +434278,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -434093,8 +434307,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -434161,9 +434375,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -434258,9 +434472,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -434287,8 +434501,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -434355,9 +434569,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -434452,9 +434666,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -434549,9 +434763,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -434578,8 +434792,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-1",
@@ -434646,9 +434860,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -434743,9 +434957,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -434840,9 +435054,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -434937,9 +435151,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -435034,7 +435248,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -435063,8 +435277,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -435131,9 +435345,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -435160,8 +435374,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -435228,9 +435442,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -435325,9 +435539,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -435422,9 +435636,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -435519,9 +435733,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -435548,8 +435762,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-3",
@@ -435616,9 +435830,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -435713,9 +435927,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -435810,9 +436024,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -435839,8 +436053,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -435907,9 +436121,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -435936,8 +436150,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -436004,9 +436218,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -436101,9 +436315,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -436198,9 +436412,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -436295,9 +436509,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -436392,9 +436606,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -436421,8 +436635,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 1,
-        "total_points": 7,
+        "outcome_scores": 2,
+        "total_points": 8,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -436489,9 +436703,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -436586,9 +436800,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -436683,9 +436897,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -436780,9 +436994,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -436809,8 +437023,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-1",
@@ -436877,9 +437091,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -436906,8 +437120,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -436974,9 +437188,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -437071,9 +437285,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -437168,9 +437382,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -437265,9 +437479,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -437294,8 +437508,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-1",
@@ -437362,9 +437576,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -437459,9 +437673,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -437556,9 +437770,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -437585,8 +437799,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -437653,9 +437867,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -437682,8 +437896,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -437750,9 +437964,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -437847,9 +438061,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -437875,9 +438089,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 0,
+        "exact_scores": 1,
         "outcome_scores": 4,
-        "total_points": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-2",
@@ -437944,9 +438158,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
@@ -437973,8 +438187,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "0-1",
@@ -438041,9 +438255,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -438070,8 +438284,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -438138,9 +438352,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -438167,8 +438381,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -438235,9 +438449,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -438332,9 +438546,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -438361,8 +438575,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -438429,9 +438643,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -438458,8 +438672,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-2",
@@ -438526,9 +438740,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -438623,7 +438837,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -438720,9 +438934,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -438749,8 +438963,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -438817,9 +439031,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -438914,9 +439128,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439011,7 +439225,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -439108,9 +439322,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439137,8 +439351,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -439205,9 +439419,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -439302,9 +439516,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439399,9 +439613,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439496,9 +439710,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439593,9 +439807,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439622,8 +439836,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "6-2",
@@ -439690,9 +439904,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -439787,9 +440001,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439884,9 +440098,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -439913,8 +440127,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -439981,9 +440195,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -440010,8 +440224,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-0",
@@ -440078,9 +440292,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -440107,8 +440321,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-0",
@@ -440175,9 +440389,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -440204,8 +440418,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "outcome_scores": 5,
+        "total_points": 8,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -440272,9 +440486,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -440369,9 +440583,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -440466,9 +440680,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -440563,9 +440777,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -440660,9 +440874,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -440689,8 +440903,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -440757,9 +440971,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -440854,9 +441068,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -440951,9 +441165,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -441048,9 +441262,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -441077,8 +441291,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-2",
@@ -441145,9 +441359,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -441174,8 +441388,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -441242,9 +441456,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -441339,9 +441553,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -441436,9 +441650,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -441465,8 +441679,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 0,
-        "total_points": 3,
+        "outcome_scores": 1,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -441533,9 +441747,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -441630,9 +441844,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -441727,9 +441941,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -441756,8 +441970,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -441824,9 +442038,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -441853,8 +442067,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -441921,9 +442135,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -442018,9 +442232,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -442047,8 +442261,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -442115,9 +442329,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -442212,9 +442426,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -442309,7 +442523,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -442406,9 +442620,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -442503,9 +442717,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -442600,9 +442814,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -442697,9 +442911,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -442726,8 +442940,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-0",
@@ -442794,9 +443008,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -442891,9 +443105,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -442988,9 +443202,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -443085,9 +443299,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -443114,8 +443328,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -443182,9 +443396,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -443279,9 +443493,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -443376,9 +443590,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -443473,9 +443687,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -443502,8 +443716,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -443570,9 +443784,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -443599,8 +443813,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -443667,9 +443881,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -443764,9 +443978,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -443861,9 +444075,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -443890,8 +444104,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -443958,9 +444172,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -444055,9 +444269,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -444084,8 +444298,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -444152,9 +444366,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -444249,9 +444463,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -444346,9 +444560,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -444443,9 +444657,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -444472,8 +444686,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -444540,9 +444754,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -444569,8 +444783,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -444637,9 +444851,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -444666,8 +444880,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -444734,9 +444948,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -444831,9 +445045,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -444928,9 +445142,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445025,9 +445239,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445122,9 +445336,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445151,8 +445365,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -445219,9 +445433,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -445316,9 +445530,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445345,8 +445559,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -445413,9 +445627,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -445510,9 +445724,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445607,9 +445821,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445704,9 +445918,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445801,9 +446015,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -445830,8 +446044,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 0,
-        "total_points": 6,
+        "outcome_scores": 1,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -445898,9 +446112,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -445927,8 +446141,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-1",
@@ -445995,9 +446209,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -446092,9 +446306,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -446189,9 +446403,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -446218,8 +446432,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 5,
-        "total_points": 5,
+        "outcome_scores": 6,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-2",
@@ -446286,9 +446500,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -446383,9 +446597,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -446412,8 +446626,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -446480,9 +446694,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -446509,8 +446723,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -446577,9 +446791,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -446606,8 +446820,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -446674,9 +446888,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -446703,8 +446917,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-2",
@@ -446771,9 +446985,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -446800,8 +447014,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -446868,9 +447082,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -446965,9 +447179,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -446994,8 +447208,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -447062,9 +447276,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -447159,9 +447373,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447256,9 +447470,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447353,9 +447567,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447450,9 +447664,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447547,9 +447761,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447644,9 +447858,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447741,9 +447955,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447838,9 +448052,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -447867,8 +448081,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -447935,9 +448149,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -447964,8 +448178,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -448032,9 +448246,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -448129,9 +448343,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -448158,8 +448372,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -448226,9 +448440,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -448255,8 +448469,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -448323,9 +448537,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -448420,9 +448634,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -448517,9 +448731,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -448614,9 +448828,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -448643,8 +448857,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -448711,9 +448925,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -448740,8 +448954,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -448808,9 +449022,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -448905,9 +449119,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449002,9 +449216,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449031,8 +449245,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -449099,9 +449313,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -449196,9 +449410,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449293,9 +449507,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449390,9 +449604,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449487,9 +449701,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449584,9 +449798,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449681,9 +449895,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449778,9 +449992,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449875,9 +450089,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -449972,9 +450186,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -450001,8 +450215,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -450069,9 +450283,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -450098,8 +450312,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -450166,9 +450380,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -450263,9 +450477,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -450360,9 +450574,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -450457,7 +450671,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -450554,9 +450768,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -450583,8 +450797,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -450651,9 +450865,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -450748,9 +450962,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -450845,9 +451059,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -450942,9 +451156,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451039,9 +451253,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451136,9 +451350,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451165,8 +451379,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -451233,9 +451447,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -451330,9 +451544,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451359,8 +451573,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 5,
-        "total_points": 8,
+        "outcome_scores": 6,
+        "total_points": 9,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -451427,9 +451641,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -451524,9 +451738,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451621,9 +451835,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451718,9 +451932,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451815,9 +452029,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -451912,9 +452126,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452009,9 +452223,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452106,9 +452320,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452135,8 +452349,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -452203,9 +452417,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -452300,9 +452514,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452329,8 +452543,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -452397,9 +452611,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -452494,9 +452708,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452591,9 +452805,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452688,9 +452902,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452785,9 +452999,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452882,9 +453096,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -452979,9 +453193,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -453076,9 +453290,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -453173,9 +453387,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -453202,8 +453416,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -453270,9 +453484,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -453299,8 +453513,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -453367,9 +453581,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -453396,8 +453610,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -453464,9 +453678,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -453561,9 +453775,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -453590,8 +453804,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -453658,9 +453872,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -453755,9 +453969,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -453852,9 +454066,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -453949,9 +454163,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -454046,9 +454260,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -454143,7 +454357,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -454240,9 +454454,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -454269,8 +454483,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -454337,9 +454551,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -454434,9 +454648,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -454531,9 +454745,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -454628,9 +454842,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -454657,8 +454871,8 @@
         "valid_matches_count": 9,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -454725,9 +454939,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -454822,9 +455036,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -454851,8 +455065,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -454919,9 +455133,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -455016,9 +455230,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -455113,9 +455327,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -455210,9 +455424,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -455307,9 +455521,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -455404,9 +455618,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -455433,8 +455647,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -455501,9 +455715,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -455598,9 +455812,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -455627,8 +455841,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -455695,9 +455909,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -455724,8 +455938,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -455792,9 +456006,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -455821,8 +456035,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-2",
@@ -455889,9 +456103,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -455918,8 +456132,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -455986,9 +456200,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -456083,9 +456297,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456112,8 +456326,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-0",
@@ -456180,9 +456394,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -456277,9 +456491,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456374,9 +456588,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456471,9 +456685,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456568,9 +456782,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456665,9 +456879,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456762,9 +456976,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456791,8 +457005,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "1-1",
@@ -456859,9 +457073,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -456956,9 +457170,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -456985,8 +457199,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 4,
-        "total_points": 4,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-1",
@@ -457053,9 +457267,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -457150,9 +457364,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -457179,8 +457393,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -457247,9 +457461,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -457276,8 +457490,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -457344,9 +457558,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -457373,8 +457587,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -457441,9 +457655,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -457538,9 +457752,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -457635,9 +457849,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -457664,8 +457878,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 3,
-        "total_points": 6,
+        "outcome_scores": 4,
+        "total_points": 7,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -457732,9 +457946,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -457761,8 +457975,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -457829,9 +458043,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -457926,9 +458140,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458023,9 +458237,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458120,9 +458334,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458217,9 +458431,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458314,9 +458528,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458411,9 +458625,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458508,9 +458722,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458605,9 +458819,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458702,9 +458916,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -458731,8 +458945,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 1,
-        "total_points": 7,
+        "outcome_scores": 2,
+        "total_points": 8,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -458799,9 +459013,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -458828,8 +459042,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "outcome_scores": 3,
+        "total_points": 9,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-1",
@@ -458896,9 +459110,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -458993,9 +459207,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -459090,9 +459304,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending (Disqualified - Edited Comment)",
+            "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
           }
         }
@@ -459187,9 +459401,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -459216,8 +459430,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -459284,9 +459498,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -459381,9 +459595,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -459478,9 +459692,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -459575,9 +459789,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -459604,8 +459818,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -459672,9 +459886,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -459701,8 +459915,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 1,
-        "total_points": 1,
+        "outcome_scores": 2,
+        "total_points": 2,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -459769,9 +459983,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -459866,9 +460080,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -459895,8 +460109,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 0,
-        "total_points": 0,
+        "outcome_scores": 1,
+        "total_points": 1,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -459963,9 +460177,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -460060,7 +460274,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -460157,9 +460371,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -460254,9 +460468,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -460351,9 +460565,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -460448,9 +460662,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -460477,8 +460691,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 1,
-        "total_points": 4,
+        "outcome_scores": 2,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "0-1",
@@ -460545,9 +460759,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -460642,9 +460856,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -460671,8 +460885,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-0",
@@ -460739,9 +460953,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -460836,9 +461050,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -460865,8 +461079,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-1",
@@ -460933,9 +461147,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -461030,9 +461244,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -461127,9 +461341,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -461224,9 +461438,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -461321,9 +461535,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -461350,8 +461564,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 3,
-        "total_points": 3,
+        "outcome_scores": 4,
+        "total_points": 4,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "4-1",
@@ -461418,9 +461632,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -461515,9 +461729,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -461612,9 +461826,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -461709,9 +461923,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -461738,8 +461952,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 1,
-        "outcome_scores": 2,
-        "total_points": 5,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -461806,9 +462020,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -461903,9 +462117,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -462000,9 +462214,9 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -462097,9 +462311,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-3",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -462126,8 +462340,8 @@
         "valid_matches_count": 10,
         "late_matches_count": 0,
         "exact_scores": 0,
-        "outcome_scores": 2,
-        "total_points": 2,
+        "outcome_scores": 3,
+        "total_points": 3,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-1",
@@ -462194,9 +462408,9 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -462291,9 +462505,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -462388,9 +462602,9 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "TBD",
+            "actual": "3-0",
             "points": 0,
-            "result": "Pending",
+            "result": "Miss",
             "is_late": false
           }
         }
@@ -462416,9 +462630,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
+        "exact_scores": 2,
         "outcome_scores": 2,
-        "total_points": 5,
+        "total_points": 8,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -462485,9 +462699,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-0",
-            "actual": "TBD",
-            "points": 0,
-            "result": "Pending",
+            "actual": "3-0",
+            "points": 3,
+            "result": "Exact",
             "is_late": false
           }
         }
