@@ -2066,13 +2066,19 @@
                 }
             }
 
+            let workerErr = '';
             // 2. On GitHub Pages, call Cloud Sync Worker
             if (!started) {
-                started = await syncViaWorker('/api/run-pipeline', {});
-                if (started) where = 'github';
+                const syncRes = await syncViaWorker('/api/run-pipeline', {});
+                if (syncRes && syncRes.ok) {
+                    started = true;
+                    where = 'github';
+                } else if (syncRes && syncRes.error) {
+                    workerErr = syncRes.error;
+                }
             }
 
-            // 3. Fallback: if Cloud Sync Worker has not been redeployed yet, try direct GitHub API dispatch using saved PAT
+            // 3. Fallback: try direct GitHub API dispatch using saved PAT
             if (!started) {
                 started = await dispatchGitHubWorkflow();
                 if (started) where = 'github';
@@ -2084,7 +2090,13 @@
                 showToast(where === 'local' ? 'Pipeline finished locally. Refreshing status.' : 'Pipeline started on GitHub Actions. The site updates in about a minute.');
                 loadPipelineStatus();
             } else {
-                showToast("⚠️ Could not start pipeline. Cloud Sync Worker needs redeploy ('npm run deploy' in cloudflare-worker folder), or save a GitHub PAT in Settings.");
+                if (workerErr && workerErr.includes('Resource not accessible')) {
+                    showToast("⚠️ Cloudflare Worker token lacks GitHub 'Actions: Read & write' permission. Update token or add PAT in Settings.");
+                } else if (workerErr) {
+                    showToast(`⚠️ Cloud Sync Error: ${workerErr}`);
+                } else {
+                    showToast("⚠️ Could not start pipeline. Check Cloudflare Worker token permissions or save a GitHub PAT in Settings.");
+                }
             }
         }
 
@@ -2267,7 +2279,7 @@
             }
 
             if (!synced) {
-                synced = await syncViaWorker('/api/save-approvals', adminApprovals);
+                const r = await syncViaWorker('/api/save-approvals', adminApprovals); synced = !!(r && r.ok);
             }
 
             if (!synced) {
@@ -2708,17 +2720,18 @@
                     },
                     body: JSON.stringify(payload)
                 });
-                if (res.ok) return true;
+                if (res.ok) return { ok: true };
 
                 const errData = await res.json().catch(() => ({}));
                 console.warn('[!] Cloud Sync Worker Error:', errData);
                 if (res.status === 403) {
                     alert(`Cloud Sync rejected: ${errData.error || 'Your Google session is not authorized for this action. Please sign in again.'}`);
                 }
+                return { ok: false, status: res.status, error: errData.error || 'Request failed' };
             } catch (e) {
                 console.warn('[!] Cloud Sync Worker unreachable:', e);
+                return { ok: false, error: e.message || 'Worker unreachable' };
             }
-            return false;
         }
 
         async function syncConfigToServer() {
@@ -2739,7 +2752,7 @@
             }
 
             if (!synced) {
-                synced = await syncViaWorker('/api/save-config', currentConfig);
+                const r = await syncViaWorker('/api/save-config', currentConfig); synced = !!(r && r.ok);
             }
 
             if (!synced) {
