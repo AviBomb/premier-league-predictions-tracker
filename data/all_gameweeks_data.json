@@ -426491,7 +426491,7 @@
         "away": "Everton",
         "home_logo": "https://resources.premierleague.com/premierleague/badges/70/t94.png",
         "away_logo": "https://resources.premierleague.com/premierleague/badges/70/t11.png",
-        "home_act": 3,
+        "home_act": 4,
         "away_act": 0,
         "home_goals": [
           {
@@ -426511,17 +426511,22 @@
             "scorer": "Vitaly Janelt",
             "assist": "Jaidon Anthony",
             "type": "G"
+          },
+          {
+            "minute": "90'",
+            "scorer": "Fábio Carvalho",
+            "assist": "Mathias Jensen",
+            "type": "G"
           }
         ],
         "away_goals": [],
-        "home_goals_summary": "Keane Lewis-Potter 23' (assist: Jaidon Anthony), Keane Lewis-Potter 25', Vitaly Janelt 67' (assist: Jaidon Anthony)",
+        "home_goals_summary": "Keane Lewis-Potter 23' (assist: Jaidon Anthony), Keane Lewis-Potter 25', Vitaly Janelt 67' (assist: Jaidon Anthony), Fábio Carvalho 90' (assist: Mathias Jensen)",
         "away_goals_summary": "",
         "kickoff": "2026-11-23T20:00:00Z",
-        "finished": false,
+        "finished": true,
         "started": true,
-        "minutes": 66,
-        "status": "ONGOING",
-        "clock": "67'"
+        "minutes": 90,
+        "status": "FT"
       }
     ],
     "audited_records": [
@@ -426615,7 +426620,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -426712,7 +426717,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -426809,7 +426814,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -426906,7 +426911,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -427003,7 +427008,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -427100,7 +427105,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -427197,7 +427202,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -427294,7 +427299,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -427391,7 +427396,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -427488,7 +427493,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -427585,7 +427590,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -427682,7 +427687,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -427779,7 +427784,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -427876,7 +427881,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -427973,7 +427978,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -428070,7 +428075,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -428167,7 +428172,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -428264,7 +428269,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -428361,7 +428366,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -428458,7 +428463,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-4",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -428555,7 +428560,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -428652,7 +428657,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -428749,7 +428754,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -428846,7 +428851,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -428943,7 +428948,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -429040,7 +429045,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -429137,7 +429142,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -429234,7 +429239,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -429331,7 +429336,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -429428,7 +429433,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -429525,7 +429530,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -429622,7 +429627,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -429719,7 +429724,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -429816,7 +429821,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -429913,7 +429918,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430010,7 +430015,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430107,7 +430112,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430204,7 +430209,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430301,7 +430306,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430398,7 +430403,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -430495,7 +430500,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430592,7 +430597,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430689,7 +430694,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430786,7 +430791,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430883,7 +430888,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -430980,7 +430985,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -431077,7 +431082,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -431174,7 +431179,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -431271,7 +431276,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -431368,7 +431373,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -431465,7 +431470,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -431562,7 +431567,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -431659,7 +431664,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -431756,7 +431761,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -431853,7 +431858,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -431950,7 +431955,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432047,7 +432052,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432144,7 +432149,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432241,7 +432246,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432338,7 +432343,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432435,7 +432440,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432532,7 +432537,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -432629,7 +432634,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432726,7 +432731,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -432823,7 +432828,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -432920,7 +432925,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433017,7 +433022,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -433114,7 +433119,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433211,7 +433216,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -433308,7 +433313,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433405,7 +433410,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433502,7 +433507,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433599,7 +433604,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433696,7 +433701,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433793,7 +433798,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -433890,7 +433895,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -433987,7 +433992,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -434084,7 +434089,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -434181,7 +434186,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -434278,7 +434283,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -434375,7 +434380,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -434472,7 +434477,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -434569,7 +434574,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -434666,7 +434671,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -434763,7 +434768,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -434860,7 +434865,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -434957,7 +434962,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -435054,7 +435059,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -435151,7 +435156,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -435248,7 +435253,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -435345,7 +435350,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -435442,7 +435447,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -435539,7 +435544,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -435636,7 +435641,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -435733,7 +435738,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -435830,7 +435835,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -435927,7 +435932,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436024,7 +436029,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436121,7 +436126,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -436218,7 +436223,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -436315,7 +436320,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436412,7 +436417,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436509,7 +436514,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436606,7 +436611,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436703,7 +436708,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -436800,7 +436805,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436897,7 +436902,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -436994,7 +436999,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -437091,7 +437096,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -437188,7 +437193,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -437285,7 +437290,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -437382,7 +437387,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -437479,7 +437484,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -437576,7 +437581,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -437673,7 +437678,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
@@ -437770,7 +437775,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -437867,7 +437872,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -437964,7 +437969,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -438061,7 +438066,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -438089,9 +438094,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 1,
-        "outcome_scores": 4,
-        "total_points": 7,
+        "exact_scores": 0,
+        "outcome_scores": 5,
+        "total_points": 5,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "2-2",
@@ -438158,9 +438163,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-0",
-            "actual": "3-0",
-            "points": 3,
-            "result": "Exact",
+            "actual": "4-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }
@@ -438255,7 +438260,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -438352,7 +438357,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -438449,7 +438454,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -438546,7 +438551,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -438643,7 +438648,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -438740,7 +438745,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -438837,7 +438842,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -438934,7 +438939,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -439031,7 +439036,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -439128,7 +439133,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -439225,7 +439230,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -439322,7 +439327,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -439419,7 +439424,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -439516,7 +439521,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -439613,7 +439618,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -439710,7 +439715,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -439807,7 +439812,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -439904,7 +439909,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -440001,7 +440006,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -440098,7 +440103,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -440195,7 +440200,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -440292,7 +440297,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -440389,7 +440394,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -440486,7 +440491,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -440583,7 +440588,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -440680,7 +440685,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -440777,7 +440782,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -440874,7 +440879,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -440971,7 +440976,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -441068,7 +441073,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -441165,7 +441170,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -441262,7 +441267,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
@@ -441359,7 +441364,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -441456,7 +441461,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -441553,7 +441558,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -441650,7 +441655,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -441747,7 +441752,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -441844,7 +441849,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -441941,7 +441946,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -442038,7 +442043,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -442135,7 +442140,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -442232,7 +442237,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
@@ -442329,7 +442334,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -442426,7 +442431,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -442523,7 +442528,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -442620,7 +442625,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -442717,7 +442722,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -442814,7 +442819,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -442911,7 +442916,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -443008,7 +443013,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -443105,7 +443110,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Outcome (Disqualified - Edited Comment)",
             "is_late": false
@@ -443202,7 +443207,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -443299,7 +443304,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -443396,7 +443401,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -443493,7 +443498,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -443590,7 +443595,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -443687,7 +443692,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -443784,7 +443789,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -443881,7 +443886,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -443978,7 +443983,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -444075,7 +444080,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -444172,7 +444177,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -444269,7 +444274,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -444366,7 +444371,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -444463,7 +444468,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -444560,7 +444565,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -444657,7 +444662,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -444754,7 +444759,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -444851,7 +444856,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -444948,7 +444953,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -445045,7 +445050,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -445142,7 +445147,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -445239,7 +445244,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -445336,7 +445341,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -445433,7 +445438,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -445530,7 +445535,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -445627,7 +445632,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -445724,7 +445729,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -445821,7 +445826,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -445918,7 +445923,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -446015,7 +446020,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -446112,7 +446117,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -446209,7 +446214,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -446306,7 +446311,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
@@ -446403,7 +446408,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -446500,7 +446505,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -446597,7 +446602,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -446694,7 +446699,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -446791,7 +446796,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -446888,7 +446893,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -446985,7 +446990,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -447082,7 +447087,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -447179,7 +447184,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -447276,7 +447281,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -447373,7 +447378,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -447470,7 +447475,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -447567,7 +447572,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -447664,7 +447669,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -447761,7 +447766,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -447858,7 +447863,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -447955,7 +447960,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -448052,7 +448057,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -448149,7 +448154,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -448246,7 +448251,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -448343,7 +448348,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -448440,7 +448445,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -448537,7 +448542,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -448634,7 +448639,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -448731,7 +448736,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -448828,7 +448833,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -448925,7 +448930,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -449022,7 +449027,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -449119,7 +449124,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449216,7 +449221,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449313,7 +449318,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -449410,7 +449415,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449507,7 +449512,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449604,7 +449609,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449701,7 +449706,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449798,7 +449803,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449895,7 +449900,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -449992,7 +449997,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -450089,7 +450094,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -450186,7 +450191,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
@@ -450283,7 +450288,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -450380,7 +450385,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -450477,7 +450482,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -450574,7 +450579,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -450671,7 +450676,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -450768,7 +450773,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -450865,7 +450870,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -450962,7 +450967,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451059,7 +451064,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451156,7 +451161,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451253,7 +451258,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451350,7 +451355,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451447,7 +451452,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -451544,7 +451549,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451641,7 +451646,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -451738,7 +451743,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451835,7 +451840,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -451932,7 +451937,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452029,7 +452034,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452126,7 +452131,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452223,7 +452228,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452320,7 +452325,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452417,7 +452422,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -452514,7 +452519,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452611,7 +452616,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -452708,7 +452713,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452805,7 +452810,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452902,7 +452907,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -452999,7 +453004,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -453096,7 +453101,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -453193,7 +453198,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -453290,7 +453295,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -453387,7 +453392,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -453484,7 +453489,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -453581,7 +453586,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -453678,7 +453683,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -453775,7 +453780,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -453872,7 +453877,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -453969,7 +453974,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454066,7 +454071,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454163,7 +454168,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454260,7 +454265,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454357,7 +454362,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -454454,7 +454459,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454551,7 +454556,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -454648,7 +454653,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454745,7 +454750,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454842,7 +454847,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -454939,7 +454944,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -455036,7 +455041,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-3",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -455133,7 +455138,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -455230,7 +455235,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -455327,7 +455332,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -455424,7 +455429,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -455521,7 +455526,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -455618,7 +455623,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -455715,7 +455720,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -455812,7 +455817,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -455909,7 +455914,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -456006,7 +456011,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -456103,7 +456108,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -456200,7 +456205,7 @@
           },
           "Brentford vs Everton": {
             "pred": "3-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -456297,7 +456302,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -456394,7 +456399,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -456491,7 +456496,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -456588,7 +456593,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -456685,7 +456690,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -456782,7 +456787,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -456879,7 +456884,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -456976,7 +456981,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -457073,7 +457078,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -457170,7 +457175,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-3",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -457267,7 +457272,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -457364,7 +457369,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -457461,7 +457466,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -457558,7 +457563,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -457655,7 +457660,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -457752,7 +457757,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -457849,7 +457854,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -457946,7 +457951,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -458043,7 +458048,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -458140,7 +458145,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458237,7 +458242,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458334,7 +458339,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458431,7 +458436,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458528,7 +458533,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458625,7 +458630,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458722,7 +458727,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458819,7 +458824,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -458916,7 +458921,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -459013,7 +459018,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -459110,7 +459115,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -459207,7 +459212,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -459304,7 +459309,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss (Disqualified - Edited Comment)",
             "is_late": false
@@ -459401,7 +459406,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -459498,7 +459503,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -459595,7 +459600,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -459692,7 +459697,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-3",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -459789,7 +459794,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -459886,7 +459891,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -459983,7 +459988,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -460080,7 +460085,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -460177,7 +460182,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -460274,7 +460279,7 @@
           },
           "Brentford vs Everton": {
             "pred": "N/A",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "No Prediction",
             "is_late": false
@@ -460371,7 +460376,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -460468,7 +460473,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -460565,7 +460570,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -460662,7 +460667,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -460759,7 +460764,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -460856,7 +460861,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -460953,7 +460958,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -461050,7 +461055,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -461147,7 +461152,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -461244,7 +461249,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -461341,7 +461346,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-3",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -461438,7 +461443,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -461535,7 +461540,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -461632,7 +461637,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -461729,7 +461734,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -461826,7 +461831,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -461923,7 +461928,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -462020,7 +462025,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -462117,7 +462122,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -462214,7 +462219,7 @@
           },
           "Brentford vs Everton": {
             "pred": "0-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -462311,7 +462316,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-3",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -462408,7 +462413,7 @@
           },
           "Brentford vs Everton": {
             "pred": "2-0",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 1,
             "result": "Outcome",
             "is_late": false
@@ -462505,7 +462510,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-1",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -462602,7 +462607,7 @@
           },
           "Brentford vs Everton": {
             "pred": "1-2",
-            "actual": "3-0",
+            "actual": "4-0",
             "points": 0,
             "result": "Miss",
             "is_late": false
@@ -462630,9 +462635,9 @@
         "matches_found": 10,
         "valid_matches_count": 10,
         "late_matches_count": 0,
-        "exact_scores": 2,
-        "outcome_scores": 2,
-        "total_points": 8,
+        "exact_scores": 1,
+        "outcome_scores": 3,
+        "total_points": 6,
         "fixtures": {
           "Manchester City vs Fulham": {
             "pred": "3-0",
@@ -462699,9 +462704,9 @@
           },
           "Brentford vs Everton": {
             "pred": "3-0",
-            "actual": "3-0",
-            "points": 3,
-            "result": "Exact",
+            "actual": "4-0",
+            "points": 1,
+            "result": "Outcome",
             "is_late": false
           }
         }

@@ -245,6 +245,88 @@
       "pred_home": 1
     }
   },
+  "12": {
+    "111": {
+      "away": "Manchester City",
+      "backtest": false,
+      "home": "Arsenal",
+      "kickoff": "2026-11-29T16:30:00Z",
+      "pred_away": 0,
+      "pred_home": 1
+    },
+    "112": {
+      "away": "Newcastle United",
+      "backtest": false,
+      "home": "Brighton & Hove Albion",
+      "kickoff": "2026-11-29T14:05:00Z",
+      "pred_away": 0,
+      "pred_home": 2
+    },
+    "113": {
+      "away": "Hull City",
+      "backtest": false,
+      "home": "Crystal Palace",
+      "kickoff": "2026-11-29T14:05:00Z",
+      "pred_away": 1,
+      "pred_home": 0
+    },
+    "114": {
+      "away": "Liverpool",
+      "backtest": false,
+      "home": "Everton",
+      "kickoff": "2026-11-29T12:00:00Z",
+      "pred_away": 1,
+      "pred_home": 0
+    },
+    "115": {
+      "away": "AFC Bournemouth",
+      "backtest": false,
+      "home": "Fulham",
+      "kickoff": "2026-11-29T14:05:00Z",
+      "pred_away": 0,
+      "pred_home": 1
+    },
+    "116": {
+      "away": "Aston Villa",
+      "backtest": false,
+      "home": "Ipswich Town",
+      "kickoff": "2026-11-28T17:30:00Z",
+      "pred_away": 1,
+      "pred_home": 2
+    },
+    "117": {
+      "away": "Coventry City",
+      "backtest": false,
+      "home": "Leeds United",
+      "kickoff": "2026-11-28T15:00:00Z",
+      "pred_away": 0,
+      "pred_home": 1
+    },
+    "118": {
+      "away": "Brentford",
+      "backtest": false,
+      "home": "Manchester United",
+      "kickoff": "2026-11-28T15:00:00Z",
+      "pred_away": 2,
+      "pred_home": 1
+    },
+    "119": {
+      "away": "Chelsea",
+      "backtest": false,
+      "home": "Nottingham Forest",
+      "kickoff": "2026-11-27T20:00:00Z",
+      "pred_away": 1,
+      "pred_home": 0
+    },
+    "120": {
+      "away": "Tottenham Hotspur",
+      "backtest": false,
+      "home": "Sunderland",
+      "kickoff": "2026-11-29T14:05:00Z",
+      "pred_away": 1,
+      "pred_home": 0
+    }
+  },
   "2": {
     "11": {
       "away": "Manchester City",
